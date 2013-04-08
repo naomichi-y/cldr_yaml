@@ -1,0 +1,378 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e f g h i j k l m n o p q r s t u v w x y z]"
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      days: 
+        dayContext: 
+          dayWidth: 
+            - 
+              day: 
+                - 
+                  content: Son
+                  draft: unconfirmed
+                  type: sun
+                - 
+                  content: Mus
+                  draft: unconfirmed
+                  type: mon
+                - 
+                  content: Bir
+                  draft: unconfirmed
+                  type: tue
+                - 
+                  content: Har
+                  draft: unconfirmed
+                  type: wed
+                - 
+                  content: Ne
+                  draft: unconfirmed
+                  type: thu
+                - 
+                  content: Tlh
+                  draft: unconfirmed
+                  type: fri
+                - 
+                  content: Mug
+                  draft: unconfirmed
+                  type: sat
+              type: abbreviated
+            - 
+              day: 
+                - 
+                  content: Sonto
+                  draft: unconfirmed
+                  type: sun
+                - 
+                  content: Musumbhunuku
+                  draft: unconfirmed
+                  type: mon
+                - 
+                  content: Ravumbirhi
+                  draft: unconfirmed
+                  type: tue
+                - 
+                  content: Ravunharhu
+                  draft: unconfirmed
+                  type: wed
+                - 
+                  content: Ravumune
+                  draft: unconfirmed
+                  type: thu
+                - 
+                  content: Ravuntlhanu
+                  draft: unconfirmed
+                  type: fri
+                - 
+                  content: Mugqivela
+                  draft: unconfirmed
+                  type: sat
+              type: wide
+          type: format
+      months: 
+        monthContext: 
+          monthWidth: 
+            - 
+              month: 
+                - 
+                  content: Sun
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: Yan
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: Kul
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: Dzi
+                  draft: unconfirmed
+                  type: 4
+                - 
+                  content: Mud
+                  draft: unconfirmed
+                  type: 5
+                - 
+                  content: Kho
+                  draft: unconfirmed
+                  type: 6
+                - 
+                  content: Maw
+                  draft: unconfirmed
+                  type: 7
+                - 
+                  content: Mha
+                  draft: unconfirmed
+                  type: 8
+                - 
+                  content: Ndz
+                  draft: unconfirmed
+                  type: 9
+                - 
+                  content: Nhl
+                  draft: unconfirmed
+                  type: 10
+                - 
+                  content: Huk
+                  draft: unconfirmed
+                  type: 11
+                - 
+                  content: N'w
+                  draft: unconfirmed
+                  type: 12
+              type: abbreviated
+            - 
+              month: 
+                - 
+                  content: Sunguti
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: Nyenyenyani
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: Nyenyankulu
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: Dzivamisoko
+                  draft: unconfirmed
+                  type: 4
+                - 
+                  content: Mudyaxihi
+                  draft: unconfirmed
+                  type: 5
+                - 
+                  content: Khotavuxika
+                  draft: unconfirmed
+                  type: 6
+                - 
+                  content: Mawuwani
+                  draft: unconfirmed
+                  type: 7
+                - 
+                  content: Mhawuri
+                  draft: unconfirmed
+                  type: 8
+                - 
+                  content: Ndzhati
+                  draft: unconfirmed
+                  type: 9
+                - 
+                  content: Nhlangula
+                  draft: unconfirmed
+                  type: 10
+                - 
+                  content: Hukuri
+                  draft: unconfirmed
+                  type: 11
+                - 
+                  content: N'wendzamhala
+                  draft: unconfirmed
+                  type: 12
+              type: wide
+          type: format
+      quarters: 
+        quarterContext: 
+          quarterWidth: 
+            - 
+              quarter: 
+                - 
+                  content: K1
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: K2
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: K3
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: K4
+                  draft: unconfirmed
+                  type: 4
+              type: abbreviated
+            - 
+              quarter: 
+                - 
+                  content: Kotara yo sungula
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: Kotara ya vumbirhi
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: Kotara ya vunharhu
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: Kotara ya vumune
+                  draft: unconfirmed
+                  type: 4
+              type: wide
+          type: format
+      type: gregorian
+delimiters: 
+  alternateQuotationEnd: 
+    content: ”
+    draft: unconfirmed
+  alternateQuotationStart: 
+    content: “
+    draft: unconfirmed
+  quotationEnd: 
+    content: ’
+    draft: unconfirmed
+  quotationStart: 
+    content: ‘
+    draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ts
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Xi Czech
+        draft: unconfirmed
+        type: cs
+      - 
+        content: Xi Danish
+        draft: unconfirmed
+        type: da
+      - 
+        content: Xi Jarimani
+        draft: unconfirmed
+        type: de
+      - 
+        content: Xi Giriki
+        draft: unconfirmed
+        type: el
+      - 
+        content: Xi Nghezi
+        draft: unconfirmed
+        type: en
+      - 
+        content: Xi spain
+        draft: unconfirmed
+        type: es
+      - 
+        content: hi xi Estonia
+        draft: unconfirmed
+        type: et
+      - 
+        content: Xi Finnish
+        draft: unconfirmed
+        type: fi
+      - 
+        content: Xi Furwa
+        draft: unconfirmed
+        type: fr
+      - 
+        content: XiHeberu
+        draft: unconfirmed
+        type: he
+      - 
+        content: hi xi Hungary
+        draft: unconfirmed
+        type: hu
+      - 
+        content: hi xi Iceland
+        draft: unconfirmed
+        type: is
+      - 
+        content: Xi Ithali
+        draft: unconfirmed
+        type: it
+      - 
+        content: Xi Japani
+        draft: unconfirmed
+        type: ja
+      - 
+        content: Xikorea
+        draft: unconfirmed
+        type: ko
+      - 
+        content: hi xi Lithuania
+        draft: unconfirmed
+        type: lt
+      - 
+        content: hi xi Latvia
+        draft: unconfirmed
+        type: lv
+      - 
+        content: Xi bunu
+        draft: unconfirmed
+        type: nl
+      - 
+        content: Xi Norway
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: Xi Polixi
+        draft: unconfirmed
+        type: pl
+      - 
+        content: Putukezi
+        draft: unconfirmed
+        type: pt
+      - 
+        content: hi xi Romania
+        draft: unconfirmed
+        type: ro
+      - 
+        content: Xi Rhaxiya
+        draft: unconfirmed
+        type: ru
+      - 
+        content: Xi Swiden
+        draft: unconfirmed
+        type: sv
+      - 
+        content: Xitsonga
+        draft: provisional
+        type: ts
+numbers: 
+  currencies: 
+    currency: 
+      symbol: R
+      type: ZAR
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##0.###"
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn

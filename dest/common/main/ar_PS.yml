@@ -1,0 +1,81 @@
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ar
+  territory: 
+    type: PS
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 بليون
+              count: zero
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: one
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: two
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: few
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: many
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: other
+              draft: contributed
+              type: '1000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 بليون
+              count: zero
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: one
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: two
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: few
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: many
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0 بليون
+              count: other
+              draft: contributed
+              type: '1000000000'
+        type: short
+    numberSystem: latn

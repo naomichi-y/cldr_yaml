@@ -1,0 +1,1547 @@
+characters: 
+  exemplarCharacters: 
+    - "[\\u0F7E ཿ ཀ {ཀ\\u0FB5} \\u0F90 {\\u0F90\\u0FB5} ཁ \\u0F91 ག {ག\\u0FB7} \\u0F92 {\\u0F92\\u0FB7} ང \\u0F94 ཅ \\u0F95 ཆ \\u0F96 ཇ \\u0F97 ཉ \\u0F99 ཊ \\u0F9A ཋ \\u0F9B ཌ {ཌ\\u0FB7} \\u0F9C {\\u0F9C\\u0FB7} ཎ \\u0F9E ཏ \\u0F9F ཐ \\u0FA0 ད {ད\\u0FB7} \\u0FA1 {\\u0FA1\\u0FB7} ན \\u0FA3 པ \\u0FA4 ཕ \\u0FA5 བ {བ\\u0FB7} \\u0FA6 {\\u0FA6\\u0FB7} མ \\u0FA8 ཙ \\u0FA9 ཚ \\u0FAA ཛ {ཛ\\u0FB7} \\u0FAB {\\u0FAB\\u0FB7} ཝ \\u0FAD \\u0FBA ཞ \\u0FAE ཟ \\u0FAF འ \\u0FB0 ཡ \\u0FB1 \\u0FBB ར ཪ \\u0FB2 \\u0FBC ལ \\u0FB3 ཤ \\u0FB4 ཥ \\u0FB5 ས \\u0FB6 ཧ \\u0FB7 ཨ \\u0FB8 \\u0F72 {\\u0F71\\u0F72} \\u0F80 {\\u0F71\\u0F80} \\u0F74 {\\u0F71\\u0F74} {\\u0FB2\\u0F80} \\u0F77 {\\u0FB3\\u0F80} \\u0F79-\\u0F7D \\u0F84]"
+    - 
+      content: "[ༀ]"
+      type: auxiliary
+    - 
+      content: "[ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ]"
+      draft: contributed
+      type: index
+    - 
+      content: "[\\: ་ །]"
+      draft: unconfirmed
+      type: punctuation
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: G སྦྱི་ལོ་y MMMMའི་ཙེས་dད
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y ལོ་འི་MMMཙེས་d
+              type: medium
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              yMMMMd: 
+                content: སྦྱི་ལོ་y MMMMའི་ཙེས་dད
+              yMMMd: 
+                content: y ལོ་འི་MMMཙེས་d
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: སྦྱི་ལོ་y MMMMའི་ཙེས་dད
+              type: long
+            - 
+              dateFormat: 
+                pattern: y ལོ་འི་MMMཙེས་d
+              type: medium
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              yMMMMd: 
+                content: སྦྱི་ལོ་y MMMMའི་ཙེས་dད
+              yMMMd: 
+                content: y ལོ་འི་MMMཙེས་d
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: སྔ་དྲོ་
+                  type: am
+                - 
+                  content: ཕྱི་དྲོ་
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ཉི་མ་
+                      type: sun
+                    - 
+                      content: ཟླ་བ་
+                      type: mon
+                    - 
+                      content: མིག་དམར་
+                      type: tue
+                    - 
+                      content: ཧླག་པ་
+                      type: wed
+                    - 
+                      content: ཕུར་བུ་
+                      type: thu
+                    - 
+                      content: སངས་
+                      type: fri
+                    - 
+                      content: སྤེན་པ་
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ཉི
+                      type: sun
+                    - 
+                      content: ཟླ
+                      type: mon
+                    - 
+                      content: མི
+                      type: tue
+                    - 
+                      content: ཧླག
+                      type: wed
+                    - 
+                      content: ཕུ
+                      type: thu
+                    - 
+                      content: ས
+                      type: fri
+                    - 
+                      content: སྤེ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: གཟའ་ཉི་མ་
+                      type: sun
+                    - 
+                      content: གཟའ་ཟླ་བ་
+                      type: mon
+                    - 
+                      content: གཟའ་མིག་དམར་
+                      type: tue
+                    - 
+                      content: གཟའ་ཧླག་པ་
+                      type: wed
+                    - 
+                      content: གཟའ་ཕུར་བུ་
+                      type: thu
+                    - 
+                      content: གཟའ་སངས་
+                      type: fri
+                    - 
+                      content: གཟའ་སྤེན་པ་
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ཉི་མ་
+                      type: sun
+                    - 
+                      content: ཟླ་བ་
+                      type: mon
+                    - 
+                      content: མིག་དམར་
+                      type: tue
+                    - 
+                      content: ཧླག་པ་
+                      type: wed
+                    - 
+                      content: ཕུར་བུ་
+                      type: thu
+                    - 
+                      content: སངས་
+                      type: fri
+                    - 
+                      content: སྤེན་པ་
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ཉི
+                      type: sun
+                    - 
+                      content: ཟླ
+                      type: mon
+                    - 
+                      content: མི
+                      type: tue
+                    - 
+                      content: ཧླ
+                      type: wed
+                    - 
+                      content: ཕུ
+                      type: thu
+                    - 
+                      content: ས
+                      type: fri
+                    - 
+                      content: སྤེ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: གཟའ་ཉི་མ་
+                      type: sun
+                    - 
+                      content: གཟའ་ཟླ་བ་
+                      type: mon
+                    - 
+                      content: གཟའ་མིག་དམར་
+                      type: tue
+                    - 
+                      content: གཟའ་ཧླག་པ་
+                      type: wed
+                    - 
+                      content: གཟའ་ཕུར་བུ་
+                      type: thu
+                    - 
+                      content: གཟའ་སངས་
+                      type: fri
+                    - 
+                      content: གཟའ་སྤེན་པ་
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: སྤྱི་ལོ་སྔོན།
+                draft: contributed
+                type: 0
+              - 
+                content: སྤྱི་ལོ།
+                draft: contributed
+                type: 1
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: ཟླ་༡
+                    type: 1
+                  - 
+                    content: ཟླ་༢
+                    type: 2
+                  - 
+                    content: ཟླ་༣
+                    type: 3
+                  - 
+                    content: ཟླ་༤
+                    type: 4
+                  - 
+                    content: ཟླ་༥
+                    type: 5
+                  - 
+                    content: ཟླ་༦
+                    type: 6
+                  - 
+                    content: ཟླ་༧
+                    type: 7
+                  - 
+                    content: ཟླ་༨
+                    type: 8
+                  - 
+                    content: ཟླ་༩
+                    type: 9
+                  - 
+                    content: ཟླ་༡༠
+                    type: 10
+                  - 
+                    content: ཟླ་༡༡
+                    type: 11
+                  - 
+                    content: ཟླ་༡༢
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: ཟླ་བ་དང་པོ་
+                    type: 1
+                  - 
+                    content: ཟླ་བ་གཉིས་པ་
+                    type: 2
+                  - 
+                    content: ཟླ་བ་སུམ་པ་
+                    type: 3
+                  - 
+                    content: ཟླ་བ་བཞི་པ་
+                    type: 4
+                  - 
+                    content: ཟླ་བ་ལྔ་པ་
+                    type: 5
+                  - 
+                    content: ཟླ་བ་དྲུག་པ་
+                    type: 6
+                  - 
+                    content: ཟླ་བ་བདུན་པ་
+                    type: 7
+                  - 
+                    content: ཟླ་བ་བརྒྱད་པ་
+                    type: 8
+                  - 
+                    content: ཟླ་བ་དགུ་པ་
+                    type: 9
+                  - 
+                    content: ཟླ་བ་བཅུ་པ་
+                    type: 10
+                  - 
+                    content: ཟླ་བ་བཅུ་གཅིག་པ་
+                    type: 11
+                  - 
+                    content: ཟླ་བ་བཅུ་གཉིས་པ་
+                    type: 12
+                type: wide
+            type: format
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: དུས་ཚིགས་དང་པོ།
+                      draft: provisional
+                      type: 1
+                    - 
+                      content: དུས་ཚིགས་གཉིས་པ།
+                      draft: provisional
+                      type: 2
+                    - 
+                      content: ་དུས་ཚིགས་གསུམ་པ།
+                      draft: provisional
+                      type: 3
+                    - 
+                      content: དུས་ཚིགས་བཞི་པ།
+                      draft: provisional
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: དུས་ཚིགས་དང་པོ།
+                      draft: provisional
+                      type: 1
+                    - 
+                      content: དུས་ཚིགས་གཉིས་པ།
+                      draft: provisional
+                      type: 2
+                    - 
+                      content: ་དུས་ཚིགས་གསུམ་པ།
+                      draft: provisional
+                      type: 3
+                    - 
+                      content: དུས་ཚིགས་བཞི་པ།
+                      draft: provisional
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: དུས་ཚིགས་དང་པོ།
+                      draft: provisional
+                      type: 1
+                    - 
+                      content: དུས་ཚིགས་གཉིས་པ།
+                      draft: provisional
+                      type: 2
+                    - 
+                      content: ་དུས་ཚིགས་གསུམ་པ།
+                      draft: provisional
+                      type: 3
+                    - 
+                      content: དུས་ཚིགས་བཞི་པ།
+                      draft: provisional
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: དུས་ཚིགས་དང་པོ།
+                      draft: provisional
+                      type: 1
+                    - 
+                      content: དུས་ཚིགས་གཉིས་པ།
+                      draft: provisional
+                      type: 2
+                    - 
+                      content: ་དུས་ཚིགས་གསུམ་པ།
+                      draft: provisional
+                      type: 3
+                    - 
+                      content: དུས་ཚིགས་བཞི་པ།
+                      draft: provisional
+                      type: 4
+                  type: wide
+              type: stand-alone
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: ལོ་རིམ།
+          draft: provisional
+        type: era
+      - 
+        displayName: 
+          content: ལོ།
+          draft: contributed
+        type: year
+      - 
+        displayName: ཟླ་བ་
+        type: month
+      - 
+        displayName: 
+          content: གཟའ་འཁོར།
+          draft: provisional
+        type: week
+      - 
+        displayName: 
+          content: ཉིན།
+          draft: contributed
+        relative: 
+          - 
+            content: ཁས་ཉིན་ཀ་
+            type: -2
+          - 
+            content: ཁས་ས་
+            type: -1
+          - 
+            content: དེ་རིང་
+            type: 0
+          - 
+            content: སང་ཉིན་
+            type: 1
+          - 
+            content: གནངས་ཉིན་ཀ་
+            type: 2
+        type: day
+      - 
+        displayName: 
+          content: གཟའ་འཁོར་གཅིག
+          draft: provisional
+        type: weekday
+      - 
+        displayName: 
+          content: སྔ་དྲོ། ཕྱི་དྲོ།
+          draft: provisional
+        type: dayperiod
+      - 
+        displayName: ཆུ་ཙོ་
+        type: hour
+      - 
+        displayName: 
+          content: སྐར་མ།
+          draft: contributed
+        type: minute
+      - 
+        displayName: 
+          content: སྐར་ཆ།
+          draft: contributed
+        type: second
+      - 
+        displayName: 
+          content: དུས་ཚོད།
+          draft: contributed
+        type: zone
+  timeZoneNames: 
+    zone: 
+      exemplarCity: མ་རྟོགས་པ
+      type: Etc/Unknown
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: bo
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: བྷང་ག་ལའི་སྐད།
+        draft: unconfirmed
+        type: bn
+      - 
+        content: པོད་སྐད་
+        type: bo
+      - 
+        content: ཏེན་མག་གི་སྐད།
+        draft: unconfirmed
+        type: da
+      - 
+        content: འཇར་མན་གྱི།
+        draft: provisional
+        type: de
+      - 
+        content: རྫོང་ཁ
+        type: dz
+      - 
+        content: དབིན་ཇིའི་སྐད།
+        draft: unconfirmed
+        type: en
+      - 
+        content: དབིན་ཇིའི་སྐད། (ཁེ་ན་ཌ་)
+        draft: unconfirmed
+        type: en_CA
+      - 
+        content: དབིན་ཇིའི་སྐད། (དབིན་ཇིའི་རྒྱལ་ཁབ་)
+        draft: unconfirmed
+        type: en_GB
+      - 
+        content: དབིན་ཇིའི་སྐད། (ཨ་རི་)
+        draft: unconfirmed
+        type: en_US
+      - 
+        content: ཞི་པན་ཡའི།
+        draft: provisional
+        type: es
+      - 
+        content: ཧྥ་རན་སིའི་།
+        draft: provisional
+        type: fr
+      - 
+        content: གཱ་སྐད།
+        draft: unconfirmed
+        type: gaa
+      - 
+        content: གུཇ་རཱཏི་སྐད།
+        draft: unconfirmed
+        type: gu
+      - 
+        content: ཧིན་དི
+        type: hi
+      - 
+        content: ཨིན་དོ་ནི་སི་སྐད།
+        draft: unconfirmed
+        type: id
+      - 
+        content: དབྱི་ཏ་་ལའི་མི།
+        draft: provisional
+        type: it
+      - 
+        content: རི་པིན་སྐད་
+        type: ja
+      - 
+        content: ཀནྣ་ཌ་སྐད།
+        draft: unconfirmed
+        type: kn
+      - 
+        content: ཁོ་རེ་ཡའི་སྐད།
+        draft: unconfirmed
+        type: ko
+      - 
+        content: ལཱ་ཏིན་སྐད།
+        draft: unconfirmed
+        type: la
+      - 
+        content: སོག་སྐད།
+        draft: unconfirmed
+        type: mn
+      - 
+        content: མ་ར་ཐི་སྐད།
+        draft: unconfirmed
+        type: mr
+      - 
+        content: མ་ལ་ཡ་སྐད།
+        draft: unconfirmed
+        type: ms
+      - 
+        content: འབར་མའི་སྐད།
+        draft: unconfirmed
+        type: my
+      - 
+        content: ནེ་པ་ལི
+        type: ne
+      - 
+        content: ཧའོ་ལན་སྐད།
+        draft: unconfirmed
+        type: nl
+      - 
+        content: ནོ་ཝེ་སྐད།
+        draft: unconfirmed
+        type: nn
+      - 
+        content: ཨཽ་རི་ཡ་སྐད།
+        draft: unconfirmed
+        type: or
+      - 
+        content: པོ་ལན་སྐད།
+        draft: unconfirmed
+        type: pl
+      - 
+        content: ཕི་ཐོ་ཡའི།
+        draft: provisional
+        type: pt
+      - 
+        content: པ་ཞའི་མི། ཕི་ཐོ་ཡའི་མི།
+        draft: provisional
+        type: pt_BR
+      - 
+        content: ཨུ་རུ་སུ་སྐད་
+        type: ru
+      - 
+        content: སཾ་སྐྲྀ་ཏ།
+        draft: unconfirmed
+        type: sa
+      - 
+        content: ཞི་ལན་སྐད།
+        draft: unconfirmed
+        type: si
+      - 
+        content: ཧྲུའི་ཏན་སྐད།
+        draft: unconfirmed
+        type: sv
+      - 
+        content: ཏཱ་མིལ་སྐད།
+        draft: unconfirmed
+        type: ta
+      - 
+        content: ཏེ་ལུ་གུ་སྐད།
+        draft: unconfirmed
+        type: te
+      - 
+        content: ཐའའི་ཡུལ་སྐད།
+        draft: unconfirmed
+        type: th
+      - 
+        content: ཐུར་ཁེའི་སྐད།
+        draft: unconfirmed
+        type: tr
+      - 
+        content: ཡུ་གུར་སྐད།
+        draft: unconfirmed
+        type: ug
+      - 
+        content: ཡུ་ཀྲ་ནི་སྐད།
+        draft: unconfirmed
+        type: uk
+      - 
+        content: མིའི་ཤེས་རྟོགས་མ་བྱུང་བ། ཡང་ན་ཆད་ལྷག་ཅན་གྱི་སྐད་བརྡ།
+        draft: provisional
+        type: und
+      - 
+        content: ཝུའུ་ཏུའུ་སྐད།
+        draft: unconfirmed
+        type: ur
+      - 
+        content: ཡོ་ནན་སྐད།
+        draft: unconfirmed
+        type: vi
+      - 
+        content: ཟེ་ན་གཱ་སྐད།
+        draft: unconfirmed
+        type: zen
+      - 
+        content: རྒྱ་སྐད་
+        type: zh
+      - 
+        content: སྟབས་བརྡའི། ཀྲུང་གོའི།
+        draft: provisional
+        type: zh_Hans
+      - 
+        content: སྲོལ་རྒྱུན་གྱི།
+        draft: provisional
+        type: zh_Hant
+      - 
+        content: ཟུ་ལུ་སྐད།
+        draft: unconfirmed
+        type: zu
+      - 
+        content: ཟུ་ནི་སྐད།
+        draft: unconfirmed
+        type: zun
+      - 
+        content: ཟ་ཟཱ་སྐད།
+        draft: unconfirmed
+        type: zza
+  measurementSystemNames: 
+    measurementSystemName: 
+      content: ཨ་མེ་རི་ཀའི།
+      draft: unconfirmed
+      type: US
+  scripts: 
+    script: 
+      - 
+        content: འ་ལ་པོའི་སྐད་ཡིག་།
+        draft: provisional
+        type: Arab
+      - 
+        content: གོ་སའི་ལ་ཧྥུ་སྐད་ཡིག་།
+        draft: provisional
+        type: Cyrl
+      - 
+        content: དེ་བ་ནཱ་ག་རཱི་སྐད་ཡིག
+        draft: unconfirmed
+        type: Deva
+      - 
+        content: གུཇ་རཱཏི་སྐད།
+        draft: unconfirmed
+        type: Gujr
+      - 
+        content: སླ་བསྡུའི་རྒྱའི་སྐད་ཡིག།
+        draft: provisional
+        type: Hans
+      - 
+        content: གནའ་དུས་རྒྱའི་སྐད་ཡིག།
+        draft: provisional
+        type: Hant
+      - 
+        content: ལ་ཏིན་སྐད་ཡིག་།
+        draft: provisional
+        type: Latn
+      - 
+        content: འབར་མའི་སྐད་ཡིག
+        draft: unconfirmed
+        type: Mymr
+      - 
+        content: བོད་ཡིག་
+        type: Tibt
+      - 
+        content: སྙན་བརྒྱུད། ཡིག་རིགས་སུ་མ་བཀོད་པའི་ཟིན་ཐོ།་
+        draft: provisional
+        type: Zxxx
+      - 
+        content: མིའི་ཤེས་རྟོགས་མ་བྱུང་བ། ཡང་ན་ཆད་ལྷག་ཅན་གྱི་ཟིན་བྲིས།
+        draft: provisional
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: འཛམ་གླིང་།
+        type: '001'
+      - 
+        content: ཨཕྲི་ཀ།
+        draft: unconfirmed
+        type: '002'
+      - 
+        content: ཨ་མེ་རི་ཀ།
+        draft: unconfirmed
+        type: '019'
+      - 
+        content: ཨསྟྲེ་ལི་ཡ་དང་། ནིའུ་ཛི་ལན྄ཌ།
+        draft: unconfirmed
+        type: '053'
+      - 
+        content: ཨེ་ཤི་ཡ།
+        draft: unconfirmed
+        type: 142
+      - 
+        content: ཡུ་རོབ།
+        draft: unconfirmed
+        type: 150
+      - 
+        content: ཨེན་ཌོ་ར།
+        draft: unconfirmed
+        type: AD
+      - 
+        content: ཨ་རབ། ཨི་མི་རཊ྄། ཆིག་སྒྲིལ་རྒྱལ་ཁབ།
+        draft: unconfirmed
+        type: AE
+      - 
+        content: ཨཕ་ག་ནི་སྟཱན།
+        draft: unconfirmed
+        type: AF
+      - 
+        content: ཨེན་ཊི་གུ་དང་། བྷར་བུ་ཌ།
+        draft: unconfirmed
+        type: AG
+      - 
+        content: ཨང་གུའི་ལ།
+        draft: unconfirmed
+        type: AI
+      - 
+        content: ཨལ་བཱ་ནི་ཡ།
+        draft: unconfirmed
+        type: AL
+      - 
+        content: ཨར་མེ་ནི་ཡ།
+        draft: unconfirmed
+        type: AM
+      - 
+        content: ཨང་གཽ་ལ།
+        draft: unconfirmed
+        type: AO
+      - 
+        content: ལྷོ་རྩེའི་མཐའ་གླིང་།
+        draft: unconfirmed
+        type: AQ
+      - 
+        content: ཨར་ཇེན་ཊི་ན།
+        draft: unconfirmed
+        type: AR
+      - 
+        content: ཨསྟྲི་ཡ།
+        draft: unconfirmed
+        type: AT
+      - 
+        content: ཨསྟྲེ་ལི་ཡ།
+        draft: unconfirmed
+        type: AU
+      - 
+        content: ཨ་རུ་བ།
+        draft: unconfirmed
+        type: AW
+      - 
+        content: ཨཛར་བཡེ་ཇན།
+        draft: unconfirmed
+        type: AZ
+      - 
+        content: བོསྣི་ཡ་དང་ཧརྫོ་གོ་ཝི་ན།
+        draft: unconfirmed
+        type: BA
+      - 
+        content: བཱརྦ་ཌོས྄།
+        draft: unconfirmed
+        type: BB
+      - 
+        content: བངྒ་ལ་དེཤ།
+        draft: unconfirmed
+        type: BD
+      - 
+        content: བེལ་ཇི་ཡམ།
+        draft: unconfirmed
+        type: BE
+      - 
+        content: བརཀི་ན། ཕསོ།
+        draft: unconfirmed
+        type: BF
+      - 
+        content: བུལ་ག་རི་ཡ།
+        draft: unconfirmed
+        type: BG
+      - 
+        content: བྷཱ་རེན།
+        draft: unconfirmed
+        type: BH
+      - 
+        content: བུ་རུན་ཌི།
+        draft: unconfirmed
+        type: BI
+      - 
+        content: བཱེ་ནིན།
+        draft: unconfirmed
+        type: BJ
+      - 
+        content: བར་མུ་ཌ།
+        draft: unconfirmed
+        type: BM
+      - 
+        content: བུ་རུ་ནེ།
+        draft: unconfirmed
+        type: BN
+      - 
+        content: བོ་ལི་ཝིཡ།
+        draft: unconfirmed
+        type: BO
+      - 
+        content: བ་རཱ་ཛིལ།
+        draft: unconfirmed
+        type: BR
+      - 
+        content: བྷཱ་མས྄།
+        draft: unconfirmed
+        type: BS
+      - 
+        content: འབྲུག་ཡུལ།
+        draft: unconfirmed
+        type: BT
+      - 
+        content: བོཙ་ཝ་ན།
+        draft: unconfirmed
+        type: BW
+      - 
+        content: བེ་ལུ་རུ་སུ།
+        draft: unconfirmed
+        type: BY
+      - 
+        content: བེ་ལིཛ།
+        draft: unconfirmed
+        type: BZ
+      - 
+        content: ཁེ་ན་ཌ།
+        draft: unconfirmed
+        type: CA
+      - 
+        content: ཧྲུད་ཧྲི།
+        draft: unconfirmed
+        type: CH
+      - 
+        content: ཀོ་ཊེ་ཌི། ཨི་ཝོ་རེ།
+        draft: unconfirmed
+        type: CI
+      - 
+        content: ཀཱུག གླིང་ཕྲེན་རྒྱལ་ཁབ།
+        draft: unconfirmed
+        type: CK
+      - 
+        content: ཅི་ལི།
+        draft: unconfirmed
+        type: CL
+      - 
+        content: ཀ་མེ་རུན།
+        draft: unconfirmed
+        type: CM
+      - 
+        content: རྒྱ་ནག
+        type: CN
+      - 
+        content: ཀོ་ལོམ་བི་ཡ།
+        draft: unconfirmed
+        type: CO
+      - 
+        content: ཀོ་ས྄ཊ་རི་ཀ།
+        draft: unconfirmed
+        type: CR
+      - 
+        content: ཁྱུའུ་བ།
+        draft: unconfirmed
+        type: CU
+      - 
+        content: སཱཡེ་པ་རས྄།
+        draft: unconfirmed
+        type: CY
+      - 
+        content: ཅཻག་སྤྱི་མཐུན་རྒྱལ་ཁབ།
+        draft: unconfirmed
+        type: CZ
+      - 
+        content: འཇར་མན་
+        type: DE
+      - 
+        content: ཛི་བུ་ཏི།
+        draft: unconfirmed
+        type: DJ
+      - 
+        content: ཌེན་མཱརྐ།
+        draft: unconfirmed
+        type: DK
+      - 
+        content: ཌོ་མིན་ནི་ཀ།
+        draft: unconfirmed
+        type: DM
+      - 
+        content: ཌོ་མིནནི་ཀན་སྤྱི་མཐུན་རྒྱལ་ཁབ།
+        draft: unconfirmed
+        type: DO
+      - 
+        content: ཨལ་ཇི་རི་ཡ།
+        draft: unconfirmed
+        type: DZ
+      - 
+        content: ཨི་ཁྭ་ཌོར།
+        draft: unconfirmed
+        type: EC
+      - 
+        content: ཨིསྟོ་ནི་ཡ།
+        draft: unconfirmed
+        type: EE
+      - 
+        content: ཨི་ཇིབྚ།
+        draft: unconfirmed
+        type: EG
+      - 
+        content: ཨེ་རི་ཏྲེ་ཨ།
+        draft: unconfirmed
+        type: ER
+      - 
+        content: སི་པན།
+        draft: unconfirmed
+        type: ES
+      - 
+        content: ཨི་ཐིའོ་པི་ཡ།
+        draft: unconfirmed
+        type: ET
+      - 
+        content: ཕིན་ལན྄ཌ།
+        draft: unconfirmed
+        type: FI
+      - 
+        content: ཕི་ཇི།
+        draft: unconfirmed
+        type: FJ
+      - 
+        content: ཕལྐ་ལནྜ་གླིང་ཕྲན།
+        draft: unconfirmed
+        type: FK
+      - 
+        content: ཕ་རཱན་སི།
+        draft: unconfirmed
+        type: FR
+      - 
+        content: གེ་བཽན།
+        draft: unconfirmed
+        type: GA
+      - 
+        content: དབྱིན་ཇི་
+        type: GB
+      - 
+        content: གྷ་རི་ན་ཌ།
+        draft: unconfirmed
+        type: GD
+      - 
+        content: ཇོར་ཇི་ཡ།
+        draft: unconfirmed
+        type: GE
+      - 
+        content: གྷ་ན།
+        draft: unconfirmed
+        type: GH
+      - 
+        content: ཇིབ་རཱལ་ཊར།
+        draft: unconfirmed
+        type: GI
+      - 
+        content: གྷམ་བི་ཡ།
+        draft: unconfirmed
+        type: GM
+      - 
+        content: གྷི་ནི་ཡ།
+        draft: unconfirmed
+        type: GN
+      - 
+        content: གྷི་རཱི་སི།
+        draft: unconfirmed
+        type: GR
+      - 
+        content: གྷོ་ཊེ་མ་ལ།
+        draft: unconfirmed
+        type: GT
+      - 
+        content: གྷི་ནི་ཡ་བིས྄་སོ།
+        draft: unconfirmed
+        type: GW
+      - 
+        content: གྷུ་ཡཱ་ན།
+        draft: unconfirmed
+        type: GY
+      - 
+        alt: short
+        content: ཧོང་ཀོང༌།
+        draft: unconfirmed
+        type: HK
+      - 
+        content: ཧོན་དུ་རས྄།
+        draft: unconfirmed
+        type: HN
+      - 
+        content: ཀུརོ་ཤི་ཡ།
+        draft: unconfirmed
+        type: HR
+      - 
+        content: ཧེ་ཏི།
+        draft: unconfirmed
+        type: HT
+      - 
+        content: ཧངྒ་རི།
+        draft: unconfirmed
+        type: HU
+      - 
+        content: ཨིན་ཌོ་ནེ་ཤི་ཡ།
+        draft: unconfirmed
+        type: ID
+      - 
+        content: ཨ་ཡར་ལནཌ།
+        draft: unconfirmed
+        type: IE
+      - 
+        content: ཨི་ཛ྄་རེལ།
+        draft: unconfirmed
+        type: IL
+      - 
+        content: རྒྱ་གར་
+        type: IN
+      - 
+        content: ཨི་རག།
+        draft: unconfirmed
+        type: IQ
+      - 
+        content: ཨི་རཱན།
+        draft: unconfirmed
+        type: IR
+      - 
+        content: ཨ་ཨི་སི་ལནད།
+        draft: unconfirmed
+        type: IS
+      - 
+        content: ཨི་ཀྲར་ལི་
+        type: IT
+      - 
+        content: ཛ་མེ་ཀ།
+        draft: unconfirmed
+        type: JM
+      - 
+        content: ཇོར་ཌན།
+        draft: unconfirmed
+        type: JO
+      - 
+        content: རི་པིན་
+        type: JP
+      - 
+        content: ཁེན་ཉི་ཡ།
+        draft: unconfirmed
+        type: KE
+      - 
+        content: ཁིར་གིཛ་སྟཱན།
+        draft: unconfirmed
+        type: KG
+      - 
+        content: ཀམ་བོ་ཌི་ཡ།
+        draft: unconfirmed
+        type: KH
+      - 
+        content: ཀི་རི་བཱ་ཏི།
+        draft: unconfirmed
+        type: KI
+      - 
+        content: སེནྚ། ཀིཊྚས྄། དང༌། ནེ་བིས྄།
+        draft: unconfirmed
+        type: KN
+      - 
+        content: ཀོ་རི་ཡ། ལྷོ་མ།
+        draft: unconfirmed
+        type: KR
+      - 
+        content: ཀུ་ཝེད་རྒྱལ་ཁབ།
+        draft: unconfirmed
+        type: KW
+      - 
+        content: ཁེ་མེན་གླིང་ཕྲན།
+        draft: unconfirmed
+        type: KY
+      - 
+        content: ཁ་ཛཱག་སྟཱན།
+        draft: unconfirmed
+        type: KZ
+      - 
+        content: ལཱ་འོས།
+        draft: unconfirmed
+        type: LA
+      - 
+        content: ལེབ་ནོན།
+        draft: unconfirmed
+        type: LB
+      - 
+        content: སེནྚ། ལུ་ཤི་ཡ།
+        draft: unconfirmed
+        type: LC
+      - 
+        content: ལེག་ཏེན་ཚིན།
+        draft: unconfirmed
+        type: LI
+      - 
+        content: ཤྲཱི་ལངྐ་།
+        draft: unconfirmed
+        type: LK
+      - 
+        content: ལི་བེ་རི་ཡ།
+        draft: unconfirmed
+        type: LR
+      - 
+        content: ལེ་སོ་ཐོ།
+        draft: unconfirmed
+        type: LS
+      - 
+        content: ལི་ཐུ་ཨེ་ནི་ཡ།
+        draft: unconfirmed
+        type: LT
+      - 
+        content: ལཀ་ཛམ་བོརྒ།
+        draft: unconfirmed
+        type: LU
+      - 
+        content: ལཏ་བི་ཡ།
+        draft: unconfirmed
+        type: LV
+      - 
+        content: ལི་བི་ཡ།
+        draft: unconfirmed
+        type: LY
+      - 
+        content: མོ་རོ་ཀྐོ།
+        draft: unconfirmed
+        type: MA
+      - 
+        content: མོ་ན་ཀོ།
+        draft: unconfirmed
+        type: MC
+      - 
+        content: མ་དཱ་གྷསྐཱར།
+        draft: unconfirmed
+        type: MG
+      - 
+        content: མཱར་ཤལ་གླིང་ཕྲེན།
+        draft: unconfirmed
+        type: MH
+      - 
+        content: མ་ལི།
+        draft: unconfirmed
+        type: ML
+      - 
+        content: འབར་མ།
+        draft: unconfirmed
+        type: MM
+      - 
+        content: སོག་ཡུལ།
+        draft: unconfirmed
+        type: MN
+      - 
+        alt: short
+        content: མེ་ཀའོ།
+        draft: unconfirmed
+        type: MO
+      - 
+        content: མཽ་རི་ཏ་ནི་ཡ།
+        draft: unconfirmed
+        type: MR
+      - 
+        content: མལ་ཊ།
+        draft: unconfirmed
+        type: MT
+      - 
+        content: མཽ་རིཤས྄།
+        draft: unconfirmed
+        type: MU
+      - 
+        content: མལ་དྭིབ།
+        draft: unconfirmed
+        type: MV
+      - 
+        content: མཱ་ལཱ་ཝི།
+        draft: unconfirmed
+        type: MW
+      - 
+        content: མེཀ་སི་ཀོ།
+        draft: unconfirmed
+        type: MX
+      - 
+        content: མ་ལེ་ཤི་ཡ།
+        draft: unconfirmed
+        type: MY
+      - 
+        content: མོ་ཛམ་བིག།
+        draft: unconfirmed
+        type: MZ
+      - 
+        content: ན་མི་བི་ཡ།
+        draft: unconfirmed
+        type: NA
+      - 
+        content: ནའི་ཇར།
+        draft: unconfirmed
+        type: NE
+      - 
+        content: ནཱའི་ཇི་རི་ཡ།
+        draft: unconfirmed
+        type: NG
+      - 
+        content: ནི་ཀ་ར་གུ་ཨ།
+        draft: unconfirmed
+        type: NI
+      - 
+        content: ཧའོ་ལན།
+        draft: unconfirmed
+        type: NL
+      - 
+        content: ནོར་ཝེ།
+        draft: unconfirmed
+        type: 'NO'
+      - 
+        content: བར་ཡུལ་
+        type: NP
+      - 
+        content: ནཽ་རུ།
+        draft: unconfirmed
+        type: NR
+      - 
+        content: ནིའུ་ཝ།
+        draft: unconfirmed
+        type: NU
+      - 
+        content: ནིའུ་ཛི་ལན྄ཌ།
+        draft: unconfirmed
+        type: NZ
+      - 
+        content: ཨོ་མན།
+        draft: unconfirmed
+        type: OM
+      - 
+        content: པ་ནཱ་མ།
+        draft: unconfirmed
+        type: PA
+      - 
+        content: པེ་རུ།
+        draft: unconfirmed
+        type: PE
+      - 
+        content: པ་པུ་ཨ། ནིའུ། གྷི་ནི།
+        draft: unconfirmed
+        type: PG
+      - 
+        content: ཕི་ལི་པིནས྄།
+        draft: unconfirmed
+        type: PH
+      - 
+        content: པཀི་སྟཱན།
+        draft: unconfirmed
+        type: PK
+      - 
+        content: པོ་ལནྜ།
+        draft: unconfirmed
+        type: PL
+      - 
+        content: པོར་ཏུ་གྷལ།
+        draft: unconfirmed
+        type: PT
+      - 
+        content: པ་ལཽ།
+        draft: unconfirmed
+        type: PW
+      - 
+        content: པཱ་ར་གེ།
+        draft: unconfirmed
+        type: PY
+      - 
+        content: ཀ་ཏཱར།
+        draft: unconfirmed
+        type: QA
+      - 
+        content: རོ་མཱ་ནིཡ།
+        draft: unconfirmed
+        type: RO
+      - 
+        content: སེར་བི་ཡ།
+        draft: unconfirmed
+        type: RS
+      - 
+        content: ཨུ་རུ་སུ་
+        type: RU
+      - 
+        content: རུ་ཝན་ཌ།
+        draft: unconfirmed
+        type: RW
+      - 
+        content: སཽ་དྷི་ཨ་རཱ་བི་ཡ།
+        draft: unconfirmed
+        type: SA
+      - 
+        content: སོ་ལོ་མོན། གླིང་ཕྲན་ཚོ་ཁག།
+        draft: unconfirmed
+        type: SB
+      - 
+        content: སཱ་ཤཻལ།
+        draft: unconfirmed
+        type: SC
+      - 
+        content: སུ་དཱན།
+        draft: unconfirmed
+        type: SD
+      - 
+        content: ཧྲུའི་ཏན།
+        draft: unconfirmed
+        type: SE
+      - 
+        content: སིངྒ་པུར།
+        draft: unconfirmed
+        type: SG
+      - 
+        content: སེནྚ། ཧེ་ལི་ན།
+        draft: unconfirmed
+        type: SH
+      - 
+        content: ས་ལཽ་ཝེ་ནི་ཡ།
+        draft: unconfirmed
+        type: SI
+      - 
+        content: ས་ལཽ་ཝཀྱ།
+        draft: unconfirmed
+        type: SK
+      - 
+        content: སེ་ཡར་ར། ལིའོན།
+        draft: unconfirmed
+        type: SL
+      - 
+        content: སན་མེ་རི་ནོ།
+        draft: unconfirmed
+        type: SM
+      - 
+        content: སེ་ནི་གྷལ།
+        draft: unconfirmed
+        type: SN
+      - 
+        content: སོ་མཱལི་ཡ།
+        draft: unconfirmed
+        type: SO
+      - 
+        content: སུ་རི་ནཱམ།
+        draft: unconfirmed
+        type: SR
+      - 
+        content: ས་འོ་ཏོད་མད། དང༌། པ྄རིན་སི་པེ།
+        draft: unconfirmed
+        type: ST
+      - 
+        content: ཨེལ། སཱལ་ཝ་ཌོར།
+        draft: unconfirmed
+        type: SV
+      - 
+        content: ཅཻཌ།
+        draft: unconfirmed
+        type: TD
+      - 
+        content: ཏུརཀི།
+        draft: unconfirmed
+        type: TR
+      - 
+        content: ཐུ་ཝ་ལུ།
+        draft: unconfirmed
+        type: TV
+      - 
+        content: ཡུ་ཀྲན།
+        draft: unconfirmed
+        type: UA
+      - 
+        content: ཡུ་གན་ཌ།
+        draft: unconfirmed
+        type: UG
+      - 
+        content: ཨ་མེ་རི་ཀ་
+        type: US
+      - 
+        content: ཨུ་རུ་གྷེ།
+        draft: unconfirmed
+        type: UY
+      - 
+        content: ཨུཛ་བེ་ཀིསྟཱན།
+        draft: unconfirmed
+        type: UZ
+      - 
+        content: ཝེ་ཊི་ཀན།
+        draft: unconfirmed
+        type: VA
+      - 
+        content: སེནྚ། ཝིན་སན། དང༌། གྷིརིན་ཌིན།
+        draft: unconfirmed
+        type: VC
+      - 
+        content: ཝེ་ནི་ཛུའེ་ལ།
+        draft: unconfirmed
+        type: VE
+      - 
+        content: བི་དི་ནམ།
+        draft: unconfirmed
+        type: VN
+      - 
+        content: ཝ་ནུ་ཨ་ཐུ།
+        draft: unconfirmed
+        type: VU
+      - 
+        content: ནུ་བ་ས་མོ་འ།
+        draft: unconfirmed
+        type: WS
+      - 
+        content: ཡེ་མེན།
+        draft: unconfirmed
+        type: YE
+      - 
+        content: ལྷོ་ ཨཕྲི་ཀ།
+        draft: unconfirmed
+        type: ZA
+      - 
+        content: ཛམ་བི་ཡ།
+        draft: unconfirmed
+        type: ZM
+      - 
+        content: ཛིམ་བྷཱ་བེ།
+        draft: unconfirmed
+        type: ZW
+      - 
+        content: མིའི་ཤེས་རྟོགས་མ་བྱུང་བའི་ཁོར་ཡུག
+        type: ZZ
+  variants: 
+    variant: 
+      content: པིན་ཡིན།
+      draft: unconfirmed
+      type: PINYIN
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: ཡུ་ཨན་
+        symbol: ¥
+        type: CNY
+      - 
+        displayName: རྒྱ་གར་སྒོར་མོ་
+        type: INR
+      - 
+        displayName: 
+          content: ཨ་རིའི་སྒོར་མོ།
+          draft: unconfirmed
+        type: USD
+      - 
+        displayName: མ་རྟོགས་པའི་ནུས་མེད་དངུལ་ལོར
+        type: XXX
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: 
+          content: ¤ #,##0.00
+          draft: unconfirmed
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: 
+          content: "#,##0.###"
+          draft: unconfirmed
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: tibt
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: 
+          content: "#,##0%"
+          draft: contributed
+  symbols: 
+    - 
+      decimal: 
+        content: .
+        draft: provisional
+      group: 
+        content: ","
+        draft: contributed
+      "nan": 'NaN'
+      numberSystem: latn
+    - 
+      "nan": ཨང་མེན་
+      numberSystem: tibt
+posix: 
+  messages: 
+    nostr: 
+      content: མེད།:N
+      draft: unconfirmed
+    yesstr: 
+      content: ཡིན།:Y
+      draft: unconfirmed

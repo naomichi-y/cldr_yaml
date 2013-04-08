@@ -1,0 +1,1004 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e f g h i j k l m n o p r s t u v w y z]"
+    - 
+      content: "[q x]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P R S T U V W Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMd: 
+                content: MMM d, y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMd: 
+                content: MMM d, y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: wichishu
+                  type: am
+                - 
+                  content: mchochil'l
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sab
+                      type: sun
+                    - 
+                      content: Jtt
+                      type: mon
+                    - 
+                      content: Jnn
+                      type: tue
+                    - 
+                      content: Jtn
+                      type: wed
+                    - 
+                      content: Ara
+                      type: thu
+                    - 
+                      content: Iju
+                      type: fri
+                    - 
+                      content: Jmo
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Sabato
+                      type: sun
+                    - 
+                      content: Jumatatu
+                      type: mon
+                    - 
+                      content: Jumanne
+                      type: tue
+                    - 
+                      content: Jumatano
+                      type: wed
+                    - 
+                      content: Arahamisi
+                      type: thu
+                    - 
+                      content: Ijumaa
+                      type: fri
+                    - 
+                      content: Jumamosi
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: S
+                    type: sun
+                  - 
+                    content: J
+                    type: mon
+                  - 
+                    content: J
+                    type: tue
+                  - 
+                    content: J
+                    type: wed
+                  - 
+                    content: A
+                    type: thu
+                  - 
+                    content: I
+                    type: fri
+                  - 
+                    content: J
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: HY
+                type: 0
+              - 
+                content: YY
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Hinapiya yesu
+                type: 0
+              - 
+                content: Yopia yesu
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Kwa
+                      type: 1
+                    - 
+                      content: Una
+                      type: 2
+                    - 
+                      content: Rar
+                      type: 3
+                    - 
+                      content: Che
+                      type: 4
+                    - 
+                      content: Tha
+                      type: 5
+                    - 
+                      content: Moc
+                      type: 6
+                    - 
+                      content: Sab
+                      type: 7
+                    - 
+                      content: 'Nan'
+                      type: 8
+                    - 
+                      content: Tis
+                      type: 9
+                    - 
+                      content: Kum
+                      type: 10
+                    - 
+                      content: Moj
+                      type: 11
+                    - 
+                      content: Yel
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Mweri wo kwanza
+                      type: 1
+                    - 
+                      content: Mweri wo unayeli
+                      type: 2
+                    - 
+                      content: Mweri wo uneraru
+                      type: 3
+                    - 
+                      content: Mweri wo unecheshe
+                      type: 4
+                    - 
+                      content: Mweri wo unethanu
+                      type: 5
+                    - 
+                      content: Mweri wo thanu na mocha
+                      type: 6
+                    - 
+                      content: Mweri wo saba
+                      type: 7
+                    - 
+                      content: Mweri wo nane
+                      type: 8
+                    - 
+                      content: Mweri wo tisa
+                      type: 9
+                    - 
+                      content: Mweri wo kumi
+                      type: 10
+                    - 
+                      content: Mweri wo kumi na moja
+                      type: 11
+                    - 
+                      content: Mweri wo kumi na yel'li
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: K
+                    type: 1
+                  - 
+                    content: U
+                    type: 2
+                  - 
+                    content: R
+                    type: 3
+                  - 
+                    content: C
+                    type: 4
+                  - 
+                    content: T
+                    type: 5
+                  - 
+                    content: M
+                    type: 6
+                  - 
+                    content: S
+                    type: 7
+                  - 
+                    content: 'N'
+                    type: 8
+                  - 
+                    content: T
+                    type: 9
+                  - 
+                    content: K
+                    type: 10
+                  - 
+                    content: M
+                    type: 11
+                  - 
+                    content: 'Y'
+                    type: 12
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: kal'lai
+        type: era
+      - 
+        displayName: yaka
+        type: year
+      - 
+        displayName: mweri
+        type: month
+      - 
+        displayName: iwiki mocha
+        type: week
+      - 
+        displayName: nihuku
+        relative: 
+          - 
+            content: n'chana
+            type: -1
+          - 
+            content: lel'lo
+            type: 0
+          - 
+            content: me'llo
+            type: 1
+        type: day
+      - 
+        displayName: nihuku no mwisho wa wiki
+        type: weekday
+      - 
+        displayName: isaa
+        type: hour
+      - 
+        displayName: idakika
+        type: minute
+      - 
+        displayName: isekunde
+        type: second
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: mgh
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Ikan
+        type: ak
+      - 
+        content: Imhari
+        type: am
+      - 
+        content: Iarabu
+        type: ar
+      - 
+        content: Ibelausi
+        type: be
+      - 
+        content: Ibulgaria
+        type: bg
+      - 
+        content: Ibangla
+        type: bn
+      - 
+        content: Icheki
+        type: cs
+      - 
+        content: Ijerimani
+        type: de
+      - 
+        content: Igiriki
+        type: el
+      - 
+        content: Ingilishi
+        type: en
+      - 
+        content: Ihispaniola
+        type: es
+      - 
+        content: Iajemi
+        type: fa
+      - 
+        content: Ifaransa
+        type: fr
+      - 
+        content: Ihausa
+        type: ha
+      - 
+        content: Ihindi
+        type: hi
+      - 
+        content: Ihungari
+        type: hu
+      - 
+        content: Igbo
+        type: ig
+      - 
+        content: Italiano
+        type: it
+      - 
+        content: Ijapani
+        type: ja
+      - 
+        content: Ijava
+        type: jv
+      - 
+        content: Ikambodia
+        type: km
+      - 
+        content: Ikorea
+        type: ko
+      - 
+        content: Makua
+        type: mgh
+      - 
+        content: Imalesia
+        type: ms
+      - 
+        content: Iburma
+        type: my
+      - 
+        content: Inepali
+        type: ne
+      - 
+        content: Iholanzi
+        type: nl
+      - 
+        content: Ipunjabi
+        type: pa
+      - 
+        content: Ipolandi
+        type: pl
+      - 
+        content: Nreno
+        type: pt
+      - 
+        content: Iromania
+        type: ro
+      - 
+        content: Irisi
+        type: ru
+      - 
+        content: Inyaranda
+        type: rw
+      - 
+        content: Isomali
+        type: so
+      - 
+        content: Iswidi
+        type: sv
+      - 
+        content: Itamil
+        type: ta
+      - 
+        content: Itailandi
+        type: th
+      - 
+        content: Ituruki
+        type: tr
+      - 
+        content: Iukran
+        type: uk
+      - 
+        content: Ihurdu
+        type: ur
+      - 
+        content: Ivyetinamu
+        type: vi
+      - 
+        content: Iyoruba
+        type: yo
+      - 
+        content: Ichina
+        type: zh
+      - 
+        content: Izulu
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Uandora
+        type: AD
+      - 
+        content: Ufugustani
+        type: AF
+      - 
+        content: Ualbania
+        type: AL
+      - 
+        content: Usamoa ya Marekani
+        type: AS
+      - 
+        content: Uazabajani
+        type: AZ
+      - 
+        content: Urundi
+        type: BI
+      - 
+        content: Ubelin
+        type: BJ
+      - 
+        content: Ukanada
+        type: CA
+      - 
+        content: Ukongo
+        type: CG
+      - 
+        content: Uswisi
+        type: CH
+      - 
+        content: Ukodiva
+        type: CI
+      - 
+        content: Uchile
+        type: CL
+      - 
+        content: Uchina
+        type: CN
+      - 
+        content: Ukolombia
+        type: CO
+      - 
+        content: Ukuba
+        type: CU
+      - 
+        content: Ukuprosi
+        type: CY
+      - 
+        content: Ucheki
+        type: CZ
+      - 
+        content: Ujibuti
+        type: DJ
+      - 
+        content: Udenimaka
+        type: DK
+      - 
+        content: Udominika
+        type: DM
+      - 
+        content: Alujeria
+        type: DZ
+      - 
+        content: Umisiri
+        type: EG
+      - 
+        content: Uriterea
+        type: ER
+      - 
+        content: Uhispania
+        type: ES
+      - 
+        content: Uhabeshi
+        type: ET
+      - 
+        content: Ufini
+        type: FI
+      - 
+        content: Ufiji
+        type: FJ
+      - 
+        content: Ufaransa
+        type: FR
+      - 
+        content: Ugaboni
+        type: GA
+      - 
+        content: Ugrenada
+        type: GD
+      - 
+        content: Ujojia
+        type: GE
+      - 
+        content: Ufaransa yo Gwaya
+        type: GF
+      - 
+        content: Ugana
+        type: GH
+      - 
+        content: Ujibralta
+        type: GI
+      - 
+        content: Ugrinlandi
+        type: GL
+      - 
+        content: Ugambia
+        type: GM
+      - 
+        content: Ugine
+        type: GN
+      - 
+        content: Ugwadelupe
+        type: GP
+      - 
+        content: Ugwatemala
+        type: GT
+      - 
+        content: Ugwam
+        type: GU
+      - 
+        content: Uginebisau
+        type: GW
+      - 
+        content: Uguyana
+        type: GY
+      - 
+        content: Uhondurasi
+        type: HN
+      - 
+        content: Ukorasia
+        type: HR
+      - 
+        content: Uhaiti
+        type: HT
+      - 
+        content: Uhungaria
+        type: HU
+      - 
+        content: Undonesia
+        type: ID
+      - 
+        content: Uayalandi
+        type: IE
+      - 
+        content: Uisraeli
+        type: IL
+      - 
+        content: Uhindini
+        type: IN
+      - 
+        content: Wiraki
+        type: IQ
+      - 
+        content: Italia
+        type: IT
+      - 
+        content: Ujamaika
+        type: JM
+      - 
+        content: Uyordani
+        type: JO
+      - 
+        content: Ujapani
+        type: JP
+      - 
+        content: Ukenya
+        type: KE
+      - 
+        content: Ukambodia
+        type: KH
+      - 
+        content: Ukomoro
+        type: KM
+      - 
+        content: Usantakitzi na Nevis
+        type: KN
+      - 
+        content: Ukorea Kaskazini
+        type: KP
+      - 
+        content: Ukorea Kusini
+        type: KR
+      - 
+        content: Ukazakistani
+        type: KZ
+      - 
+        content: Ulebanoni
+        type: LB
+      - 
+        content: Usantalusia
+        type: LC
+      - 
+        content: Ushenteni
+        type: LI
+      - 
+        content: Usirilanka
+        type: LK
+      - 
+        content: Uliberia
+        type: LR
+      - 
+        content: Ulesoto
+        type: LS
+      - 
+        content: Utwania
+        type: LT
+      - 
+        content: Usembaji
+        type: LU
+      - 
+        content: Ulativia
+        type: LV
+      - 
+        content: Ulibya
+        type: LY
+      - 
+        content: Umantegro
+        type: ME
+      - 
+        content: Ubukini
+        type: MG
+      - 
+        content: Umasedonia
+        type: MK
+      - 
+        content: Umalawi
+        type: MW
+      - 
+        content: Umozambiki
+        draft: contributed
+        type: MZ
+      - 
+        content: Unijeri
+        type: NE
+      - 
+        content: Unijeria
+        type: NG
+      - 
+        content: Unorwe
+        type: 'NO'
+      - 
+        content: Uomani
+        type: OM
+      - 
+        content: Upanama
+        type: PA
+      - 
+        content: Uperuu
+        type: PE
+      - 
+        content: Ufaransa yo Potina
+        type: PF
+      - 
+        content: Upapua
+        type: PG
+      - 
+        content: Ufilipino
+        type: PH
+      - 
+        content: Upakistani
+        type: PK
+      - 
+        content: Upolandi
+        type: PL
+      - 
+        content: Usantapieri na Mikeloni
+        type: PM
+      - 
+        content: Upitkairni
+        type: PN
+      - 
+        content: Upwetoriko
+        type: PR
+      - 
+        content: Paragwai
+        type: PY
+      - 
+        content: Ukatari
+        type: QA
+      - 
+        content: Uriyunioni
+        type: RE
+      - 
+        content: Uromania
+        type: RO
+      - 
+        content: Urwanda
+        type: RW
+      - 
+        content: Usaudi
+        type: SA
+      - 
+        content: Ushelisheli
+        type: SC
+      - 
+        content: Usudani
+        type: SD
+      - 
+        content: Uswidi
+        type: SE
+      - 
+        content: Usingapoo
+        type: SG
+      - 
+        content: Usantahelena
+        type: SH
+      - 
+        content: Uslovenia
+        type: SI
+      - 
+        content: Uslovakia
+        type: SK
+      - 
+        content: Usamarino
+        type: SM
+      - 
+        content: Usenegali
+        type: SN
+      - 
+        content: Usomalia
+        type: SO
+      - 
+        content: Usurinamu
+        type: SR
+      - 
+        content: Usao Tome na Principe
+        type: ST
+      - 
+        content: Usalavado
+        type: SV
+      - 
+        content: Usiria
+        type: SY
+      - 
+        content: Uswazi
+        type: SZ
+      - 
+        content: Uchadi
+        type: TD
+      - 
+        content: Utogo
+        type: TG
+      - 
+        content: Utailandi
+        type: TH
+      - 
+        content: Ujikistani
+        type: TJ
+      - 
+        content: Utokelau
+        type: TK
+      - 
+        content: Utimo Mashariki
+        type: TL
+      - 
+        content: Uturukimenistani
+        type: TM
+      - 
+        content: Utunisia
+        type: TN
+      - 
+        content: Utonga
+        type: TO
+      - 
+        content: Utuki
+        type: TR
+      - 
+        content: Utrinidad na Tobago
+        type: TT
+      - 
+        content: Utuvalu
+        type: TV
+      - 
+        content: Utanzania
+        type: TZ
+      - 
+        content: Umarekani
+        type: US
+      - 
+        content: Uvatikani
+        type: VA
+      - 
+        content: Usantavisenti na Grenadini
+        type: VC
+      - 
+        content: Uvenezuela
+        type: VE
+      - 
+        content: Uvietinamu
+        type: VN
+      - 
+        content: Uvanuatu
+        type: VU
+      - 
+        content: Uwalis na Futuna
+        type: WF
+      - 
+        content: Usamoa
+        type: WS
+      - 
+        content: Uyemeni
+        type: YE
+      - 
+        content: Afrika du Sulu
+        type: ZA
+      - 
+        content: Uzambia
+        type: ZM
+      - 
+        content: Uzimbabwe
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      symbol: MTn
+      type: MZN
+  symbols: 
+    decimal: ","
+    group: .
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: akin'tuna:a
+    yesstr: eyo:e

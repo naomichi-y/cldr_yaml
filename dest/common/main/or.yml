@@ -1,0 +1,3086 @@
+characters: 
+  exemplarCharacters: 
+    - "[\\u0B3C ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ \\u0B01 ଂ ଃ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ {ଡ\\u0B3C} ଢ {ଢ\\u0B3C} ଣ ତ ଥ ଦ ଧ ନ ପ ଫ ବ ଭ ମ ଯ ୟ ର ଲ ଳ ଵ ୱ ଶ ଷ ସ ହ ା \\u0B3F ୀ \\u0B41 \\u0B42 \\u0B43 େ ୈ ୋ ୌ \\u0B4D]"
+    - 
+      content: "[\\u200C\\u200D]"
+      type: auxiliary
+    - 
+      content: "[ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ ବ ଭ ମ ଯ ର ଲ ଳ ଶ ଷ ସ ହ {କ\\u0B4Dଷ}]"
+      draft: contributed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d-M-yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMMMd: 
+                content: MMMM d
+              MMdd: 
+                content: dd-MM
+              yMM: 
+                content: MM-y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d-M-yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMMMd: 
+                content: MMMM d
+              MMdd: 
+                content: dd-MM
+              yMM: 
+                content: MM-y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: am
+                    type: am
+                  - 
+                    content: pm
+                    type: pm
+                type: narrow
+              - 
+                dayPeriod: 
+                  - 
+                    content: am
+                    type: am
+                  - 
+                    content: pm
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ରବି
+                      type: sun
+                    - 
+                      content: ସୋମ
+                      type: mon
+                    - 
+                      content: ମଙ୍ଗଳ
+                      type: tue
+                    - 
+                      content: ବୁଧ
+                      type: wed
+                    - 
+                      content: ଗୁରୁ
+                      type: thu
+                    - 
+                      content: ଶୁକ୍ର
+                      type: fri
+                    - 
+                      content: ଶନି
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ରବିବାର
+                      type: sun
+                    - 
+                      content: ସୋମବାର
+                      type: mon
+                    - 
+                      content: ମଙ୍ଗଳବାର
+                      type: tue
+                    - 
+                      content: ବୁଧବାର
+                      type: wed
+                    - 
+                      content: ଗୁରୁବାର
+                      type: thu
+                    - 
+                      content: ଶୁକ୍ରବାର
+                      type: fri
+                    - 
+                      content: ଶନିବାର
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: ର
+                    type: sun
+                  - 
+                    content: ସୋ
+                    type: mon
+                  - 
+                    content: ମ
+                    type: tue
+                  - 
+                    content: ବୁ
+                    type: wed
+                  - 
+                    content: ଗୁ
+                    type: thu
+                  - 
+                    content: ଶୁ
+                    type: fri
+                  - 
+                    content: ଶ
+                    type: sat
+                type: narrow
+              type: stand-alone
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: ଜାନୁଆରୀ
+                    type: 1
+                  - 
+                    content: ଫେବ୍ରୁୟାରୀ
+                    type: 2
+                  - 
+                    content: ମାର୍ଚ୍ଚ
+                    type: 3
+                  - 
+                    content: ଅପ୍ରେଲ
+                    type: 4
+                  - 
+                    content: ମେ
+                    type: 5
+                  - 
+                    content: ଜୁନ
+                    type: 6
+                  - 
+                    content: ଜୁଲାଇ
+                    type: 7
+                  - 
+                    content: ଅଗଷ୍ଟ
+                    type: 8
+                  - 
+                    content: ସେପ୍ଟେମ୍ବର
+                    type: 9
+                  - 
+                    content: ଅକ୍ଟୋବର
+                    type: 10
+                  - 
+                    content: ନଭେମ୍ବର
+                    type: 11
+                  - 
+                    content: ଡିସେମ୍ବର
+                    type: 12
+                type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: ଜା
+                    type: 1
+                  - 
+                    content: ଫେ
+                    type: 2
+                  - 
+                    content: ମା
+                    type: 3
+                  - 
+                    content: ଅ
+                    type: 4
+                  - 
+                    content: ମେ
+                    type: 5
+                  - 
+                    content: ଜୁ
+                    type: 6
+                  - 
+                    content: ଜୁ
+                    type: 7
+                  - 
+                    content: ଅ
+                    type: 8
+                  - 
+                    content: ସେ
+                    type: 9
+                  - 
+                    content: ଅ
+                    type: 10
+                  - 
+                    content: ନ
+                    type: 11
+                  - 
+                    content: ଡି
+                    type: 12
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  timeZoneNames: 
+    metazone: 
+      - 
+        long: 
+          standard: ଖ୍ରୀଷ୍ଟମାସ ଆଇଲ୍ୟାଣ୍ଡ ସମୟ
+        type: Christmas
+      - 
+        short: 
+          standard: IST
+        type: India
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: or
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: ଅଫାର୍
+        type: aa
+      - 
+        content: ଆବ୍ଖାଜିଆନ୍
+        type: ab
+      - 
+        content: ଆଚାଇନୀଜ୍
+        type: ace
+      - 
+        content: ଆକୋଲି
+        type: ach
+      - 
+        content: ଆଦାଙ୍ଗେମ୍
+        type: ada
+      - 
+        content: ଅଦ୍ୟଘେ
+        type: ady
+      - 
+        content: ଅବେସ୍ତନ
+        type: ae
+      - 
+        content: ଆଫ୍ରିକାନସ୍
+        type: af
+      - 
+        content: ଆଫ୍ରୋ ଏସିଆଟିକ୍ ଭାଷା
+        type: afa
+      - 
+        content: ଆଫ୍ରିହିଲି
+        type: afh
+      - 
+        content: ଆଇନୁ
+        type: ain
+      - 
+        content: ଅକନ୍
+        type: ak
+      - 
+        content: ଆକାଡିଆନ୍
+        type: akk
+      - 
+        content: ଆଲେଇଟୁ
+        type: ale
+      - 
+        content: ଏଲ୍ଗୋନକ୍ବିନା ଭାଷା
+        type: alg
+      - 
+        content: ଦକ୍ଷିଣ ଆଲ୍ଟାଇ
+        type: alt
+      - 
+        content: ଆମହାରକି
+        type: am
+      - 
+        content: ଆର୍ଗୋନୀ
+        type: an
+      - 
+        content: ପୁରୁଣା ଇଁରାଜୀ
+        type: ang
+      - 
+        content: ଅଁଗୀକା
+        type: anp
+      - 
+        content: ଆପାଚୀ ଭାଷା
+        type: apa
+      - 
+        content: ଆରବିକ୍
+        type: ar
+      - 
+        content: ଆରାମାଇକ୍
+        type: arc
+      - 
+        content: ଆରାଉକାନିଆନ୍
+        type: arn
+      - 
+        content: ଆରାପାହୋ
+        type: arp
+      - 
+        content: କୃତ୍ରିମ ଭାଷା
+        type: art
+      - 
+        content: ଆରୱକ
+        type: arw
+      - 
+        content: ଆସାମୀ
+        type: as
+      - 
+        content: ଆଷ୍ଟୁରିଆନ୍
+        type: ast
+      - 
+        content: ଆଥପାସ୍କାନ୍ ଭାଷା
+        type: ath
+      - 
+        content: ଅଷ୍ଟ୍ରେଲିଆନ୍ ଭାଷା
+        type: aus
+      - 
+        content: ଆଭାରିକ୍
+        type: av
+      - 
+        content: ଆୱାଧି
+        type: awa
+      - 
+        content: ଆୟମାରା
+        type: ay
+      - 
+        content: ଆଜେରବାଇଜାନି
+        type: az
+      - 
+        content: ବଶଖିର୍
+        type: ba
+      - 
+        content: ବାନ୍ଦା
+        type: bad
+      - 
+        content: ବମିଲେକେ ଭାଷା
+        type: bai
+      - 
+        content: ବାଲୁଚି
+        type: bal
+      - 
+        content: ବାଲିନୀଜ୍
+        type: ban
+      - 
+        content: ବାସା
+        type: bas
+      - 
+        content: ବାଲାଟିକ୍ ଭାଷା
+        type: bat
+      - 
+        content: ବେଲାରୁଷିଆନ୍
+        type: be
+      - 
+        content: ବେଜା
+        type: bej
+      - 
+        content: ବେମ୍ବା
+        type: bem
+      - 
+        content: ବେରବର୍
+        type: ber
+      - 
+        content: ବୁଲଗେରିଆନ୍
+        type: bg
+      - 
+        content: ବିହାରୀ
+        type: bh
+      - 
+        content: ଭୋଜପୁରୀ
+        type: bho
+      - 
+        content: ବିସଲାମା
+        type: bi
+      - 
+        content: ବିକୋଲ୍
+        type: bik
+      - 
+        content: ବିନି
+        type: bin
+      - 
+        content: ବିକ୍ସିକା
+        type: bla
+      - 
+        content: ବାମ୍ବାରା
+        type: bm
+      - 
+        content: ବଙ୍ଗାଳୀ
+        type: bn
+      - 
+        content: ବାଣ୍ଟୁ
+        type: bnt
+      - 
+        content: ତିବେତାନ୍
+        type: bo
+      - 
+        content: ବ୍ରେଟନ୍
+        type: br
+      - 
+        content: ବ୍ରାଜ୍
+        type: bra
+      - 
+        content: କାଟଲାନ୍
+        type: bs
+      - 
+        content: ବାଟାକ୍
+        type: btk
+      - 
+        content: ବୁରିଆଟ୍
+        type: bua
+      - 
+        content: ବୁଗୀନୀଜ୍
+        type: bug
+      - 
+        content: ବ୍ଲିନ୍
+        type: byn
+      - 
+        content: କାଟାଲାନ୍
+        type: ca
+      - 
+        content: କାଡୋ
+        type: cad
+      - 
+        content: ମଧ୍ୟ ଆମେରିକା ଭାରତୀୟ ଭାଷା
+        type: cai
+      - 
+        content: କାରିବ୍
+        type: car
+      - 
+        content: କାକୋଶୀ ଭାଷା
+        type: cau
+      - 
+        content: ଆତ୍ସମ୍
+        type: cch
+      - 
+        content: ଚେଚନ୍
+        type: ce
+      - 
+        content: ସୀବୁଆନୋ
+        type: ceb
+      - 
+        content: କେଲ୍ଟ ଭାଷା
+        type: cel
+      - 
+        content: ଚାମୋରୋ
+        type: ch
+      - 
+        content: ଚିବ୍ଚା
+        type: chb
+      - 
+        content: ଛଗତାଇ
+        type: chg
+      - 
+        content: ଚୁକୀସେ
+        type: chk
+      - 
+        content: ମାରୀ
+        type: chm
+      - 
+        content: ଚିନୁକ୍ ଜାରଗାଁନ୍
+        type: chn
+      - 
+        content: ଚୋଟୱା
+        type: cho
+      - 
+        content: ଚିପେୱାନ୍
+        type: chp
+      - 
+        content: ଚେରୋକୀ
+        type: chr
+      - 
+        content: ଚେଚେନା
+        type: chy
+      - 
+        content: ଚାମିକ୍ ଭାଷା
+        type: cmc
+      - 
+        content: କୋର୍ସିକାନ୍
+        type: co
+      - 
+        content: କପ୍ଟିକ୍
+        type: cop
+      - 
+        content: ଇଁରାଜୀ ଆଧାରିତ କ୍ରେଓଲ୍ କିମ୍ବା ପିଜିନ୍
+        type: cpe
+      - 
+        content: ଫ୍ରେଞ୍ଚ ଆଧାରିତ କ୍ରେଓଲ୍ କିମ୍ବା ପିଜିନ୍
+        type: cpf
+      - 
+        content: ପର୍ତ୍ତୁଗ୍ରୀଜ୍ ଆଧାରିତ କ୍ରେଓଲ୍ କିମ୍ବା ପିଜିନ୍
+        type: cpp
+      - 
+        content: କ୍ରୀ
+        type: cr
+      - 
+        content: କ୍ରୀମିନ୍ ତୁର୍କୀସ୍
+        type: crh
+      - 
+        content: କ୍ରେଓଲ୍ କିମ୍ବା ପିଜିନ୍
+        type: crp
+      - 
+        content: ଚେକ୍
+        type: cs
+      - 
+        content: କାଶୁବିଆନ୍
+        type: csb
+      - 
+        content: ଚର୍ଚ୍ଚ ସ୍ଲାଭିକ୍
+        type: cu
+      - 
+        content: କୁଶିତିକ୍ ଭାଷା
+        type: cus
+      - 
+        content: ଚୁଭାଶ୍
+        type: cv
+      - 
+        content: ୱେଲ୍ସ
+        type: cy
+      - 
+        content: ଡାନ୍ନିସ୍
+        type: da
+      - 
+        content: ଡାକୋଟା
+        type: dak
+      - 
+        content: ଡାରାଗ୍ୱା
+        type: dar
+      - 
+        content: ଡାୟକ୍
+        type: day
+      - 
+        content: ଜର୍ମାନ୍
+        type: de
+      - 
+        content: ଅଷ୍ଟ୍ରିଆନ୍ ଜର୍ମାନ
+        type: de_AT
+      - 
+        content: ସ୍ବିସ୍ ହାଇ ଜର୍ମାନ୍
+        type: de_CH
+      - 
+        content: ଡେଲାୱେର୍
+        type: del
+      - 
+        content: ସ୍ଲେଭ୍
+        type: den
+      - 
+        content: ଡୋଗ୍ରିବ୍
+        type: dgr
+      - 
+        content: ଦିଙ୍କା
+        type: din
+      - 
+        content: ଡୋଗ୍ରୀ
+        type: doi
+      - 
+        content: ଦ୍ରାବିଡିଆନ୍ ଭାଷା
+        type: dra
+      - 
+        content: ନିଚଳା ସର୍ବିଆନ୍
+        type: dsb
+      - 
+        content: ଡୁଆନା
+        type: dua
+      - 
+        content: ମଧ୍ୟ ପର୍ତ୍ତୁଗାଲୀ
+        type: dum
+      - 
+        content: ଡିଭେହୀ
+        type: dv
+      - 
+        content: ଡୁଆଲା
+        type: dyu
+      - 
+        content: ଭୂଟାନୀ
+        type: dz
+      - 
+        content: ଇୱେ
+        type: ee
+      - 
+        content: ଏଫିକ୍
+        type: efi
+      - 
+        content: ପ୍ରାଚୀନ୍ ମିଶିରି
+        type: egy
+      - 
+        content: ଏକାଜୁକ୍
+        type: eka
+      - 
+        content: ଗ୍ରୀକ୍
+        type: el
+      - 
+        content: ଏଲାମାଇଟ୍
+        type: elx
+      - 
+        content: ଇଂରାଜୀ
+        type: en
+      - 
+        content: ଅଷ୍ଟ୍ରେଲିଆନ୍ ଇଁରାଜୀ
+        type: en_AU
+      - 
+        content: କାନାଡିଆନ୍ ଇଁରାଜୀ
+        type: en_CA
+      - 
+        content: ବ୍ରିଟିଶ୍ ଇଁରାଜୀ
+        type: en_GB
+      - 
+        content: ୟୁ.ଏସ୍. ଇଁରାଜୀ
+        type: en_US
+      - 
+        content: ମଧ୍ୟ ଇଁରାଜୀ
+        type: enm
+      - 
+        content: ଏସ୍ପାରେଣ୍ଟୋ
+        type: eo
+      - 
+        content: ସ୍ପାନିସ୍
+        type: es
+      - 
+        content: ଲାଟିନ୍ ଆମେରିକାନ୍ ସ୍ପାନିଶ୍
+        type: es_419
+      - 
+        content: ଲେବେରିଆନ୍ ସ୍ପାନିଶ୍
+        type: es_ES
+      - 
+        content: ଏସ୍ତୋନିଆନ୍
+        type: et
+      - 
+        content: ବାସ୍କ୍ୱି
+        type: eu
+      - 
+        content: ଇୱୋଣ୍ଡୋ
+        type: ewo
+      - 
+        content: ପର୍ସିଆନ୍
+        type: fa
+      - 
+        content: ଫାଙ୍ଗ
+        type: fan
+      - 
+        content: ଫାଣ୍ଟି
+        type: fat
+      - 
+        content: ଫୁଲାହ
+        type: ff
+      - 
+        content: ଫିନ୍ନିସ୍
+        type: fi
+      - 
+        content: ଫିଲିପିନୋ
+        type: fil
+      - 
+        content: ଫାଣ୍ଟିଫିନ୍ନୋ-ଉଗ୍ରୀଆନ୍ ଭାଷା
+        type: fiu
+      - 
+        content: ଫିଜି
+        type: fj
+      - 
+        content: ଫାରୋଏସେ
+        type: fo
+      - 
+        content: ଫନ୍
+        type: fon
+      - 
+        content: ଫ୍ରେଞ୍ଚ
+        type: fr
+      - 
+        content: କାନାଡିଆନ୍ ଫ୍ରେଞ୍ଚ
+        type: fr_CA
+      - 
+        content: ସ୍ବିସ୍ ଫ୍ରେଞ୍ଚ୍
+        type: fr_CH
+      - 
+        content: ମଧ୍ୟ ଫ୍ରେଞ୍ଚ
+        type: frm
+      - 
+        content: ପୁରୁଣା ଫ୍ରେଞ୍ଚ
+        type: fro
+      - 
+        content: ଉତ୍ତର ଫ୍ରିସିୟାନ୍
+        type: frr
+      - 
+        content: ପୂର୍ବ ଫ୍ରିସିୟାନ୍
+        type: frs
+      - 
+        content: ଫ୍ରିୟୁଲୀୟାନ୍
+        type: fur
+      - 
+        content: ପଶ୍ଚିମ ଫ୍ରିସିୟନ୍
+        type: fy
+      - 
+        content: ଇରିସ୍
+        type: ga
+      - 
+        content: ଗା
+        type: gaa
+      - 
+        content: ଗାୟୋ
+        type: gay
+      - 
+        content: ଗବାୟା
+        type: gba
+      - 
+        content: ସ୍କଟିସ୍ ଗାଏଲିକ୍
+        type: gd
+      - 
+        content: ଜର୍ମାନିକ୍ ଭାଷା
+        type: gem
+      - 
+        content: ଗୀଜ୍
+        type: gez
+      - 
+        content: ଜିବ୍ରାଟୀଜ୍
+        type: gil
+      - 
+        content: ଗାଲସିଆନ୍
+        type: gl
+      - 
+        content: ମିଡିଲ୍ ହାଇ ଜର୍ମାନ୍
+        type: gmh
+      - 
+        content: ଗୁଆରାନୀ
+        type: gn
+      - 
+        content: ପୁରୁଣା ହାଇ ଜର୍ମାନ୍
+        type: goh
+      - 
+        content: ଗୋଣ୍ଡି
+        type: gon
+      - 
+        content: ଗୋରୋଣ୍ଟାଲୋ
+        type: gor
+      - 
+        content: ଗୋଥିକ୍
+        type: got
+      - 
+        content: ଗ୍ରେବୋ
+        type: grb
+      - 
+        content: ପ୍ରାଚୀନ୍ ୟୁନାନୀ
+        type: grc
+      - 
+        content: ସ୍ବିସ୍ ଜର୍ମାନ୍
+        type: gsw
+      - 
+        content: ଗୁଜୁରାଟୀ
+        type: gu
+      - 
+        content: ମାଁକ୍ସ
+        type: gv
+      - 
+        content: ସ୍ବିଚ୍ ଇନ୍
+        type: gwi
+      - 
+        content: ହୌସା
+        type: ha
+      - 
+        content: ହାଇଡା
+        type: hai
+      - 
+        content: ହାୱାଇନ୍
+        type: haw
+      - 
+        content: ହେବ୍ର୍ୟୁ
+        type: he
+      - 
+        content: ହିନ୍ଦୀ
+        type: hi
+      - 
+        content: ହିଲିଗୈନନ୍
+        type: hil
+      - 
+        content: ହିମାଚଳୀ
+        type: him
+      - 
+        content: ହିତୀତେ
+        type: hit
+      - 
+        content: ହଁଙ୍ଗ
+        type: hmn
+      - 
+        content: ହିରି ମୋଟୁ
+        type: ho
+      - 
+        content: କ୍ରୋଆଟିଆନ୍
+        type: hr
+      - 
+        content: ଉପର ସର୍ବିଆନ୍
+        type: hsb
+      - 
+        content: ହୈତାୟିନ୍
+        type: ht
+      - 
+        content: ହଙ୍ଗେରିଆନ୍
+        type: hu
+      - 
+        content: ହୁପା
+        type: hup
+      - 
+        content: ଆର୍ମେନିଆନ୍
+        type: hy
+      - 
+        content: ହେରେରୋ
+        type: hz
+      - 
+        content: ଇର୍ଣ୍ଟଲିଙ୍ଗୁଆ
+        type: ia
+      - 
+        content: ଇବାନ୍
+        type: iba
+      - 
+        content: ଇଣ୍ଡୋନେସିଆନ୍
+        type: id
+      - 
+        content: ଇର୍ଣ୍ଟରଲିଙ୍ଗୁଇ
+        type: ie
+      - 
+        content: ଇଗ୍ବୋ
+        type: ig
+      - 
+        content: ସିଚୁଆନ୍ ୟୀ
+        type: ii
+      - 
+        content: ଇଜୋ
+        type: ijo
+      - 
+        content: ଇନୁପିୟାକ୍
+        type: ik
+      - 
+        content: ଇଲୋକୋ
+        type: ilo
+      - 
+        content: ଇଣ୍ଡିକ୍ ଭାଷା
+        type: inc
+      - 
+        content: ଇଣ୍ଡୋ-ୟୁରୋପୀୟ ଭାଷା
+        type: ine
+      - 
+        content: ଇଁଙ୍ଗୁଶ୍
+        type: inh
+      - 
+        content: ଇଡୋ
+        type: io
+      - 
+        content: ଇରାନୀ ଭାଷା
+        type: ira
+      - 
+        content: ଇରୋକ୍ୱୋୟାନ୍ ଭାଷା
+        type: iro
+      - 
+        content: ଆଇସଲାଣ୍ଡିକ୍
+        type: is
+      - 
+        content: ଇଟାଲିଆନ୍
+        type: it
+      - 
+        content: ଇନକୀଟୁତ୍
+        type: iu
+      - 
+        content: ଜାପାନୀଜ୍
+        type: ja
+      - 
+        content: ଲୋଜବାନ୍
+        type: jbo
+      - 
+        content: ଜୁଡେଓ-ପର୍ସିଆନ୍
+        type: jpr
+      - 
+        content: ଜୁଡେଓ-ଆରବୀକ୍
+        type: jrb
+      - 
+        content: ଜାଭାନୀଜ୍
+        type: jv
+      - 
+        content: ଜର୍ଜିଆନ୍
+        type: ka
+      - 
+        content: କାରା-କଲ୍ପକ୍
+        type: kaa
+      - 
+        content: କବାଇଲ୍
+        type: kab
+      - 
+        content: କଚିନ୍
+        type: kac
+      - 
+        content: ଜ୍ଜୁ
+        type: kaj
+      - 
+        content: କମ୍ବା
+        type: kam
+      - 
+        content: କାରେନ୍
+        type: kar
+      - 
+        content: କାୱି
+        type: kaw
+      - 
+        content: କାବାର୍ଡିଆନ୍
+        type: kbd
+      - 
+        content: ତ୍ୟାପ୍
+        type: kcg
+      - 
+        content: କୋରୋ
+        type: kfo
+      - 
+        content: କଙ୍ଗୋ
+        type: kg
+      - 
+        content: ଖାସୀ
+        type: kha
+      - 
+        content: ଖୋସୀୟାନ୍ ଭାଷା
+        type: khi
+      - 
+        content: ଖୋତାନୀଜ୍
+        type: kho
+      - 
+        content: କୀକୁୟୁ
+        type: ki
+      - 
+        content: କ୍ୱାନ୍ୟାମ୍
+        type: kj
+      - 
+        content: କାଜାକ୍
+        type: kk
+      - 
+        content: ଗ୍ରୀନଲାଣ୍ଡିକ୍
+        type: kl
+      - 
+        content: ଖ୍ମେର୍
+        type: km
+      - 
+        content: କିମ୍ବୁଣ୍ଡୁ
+        type: kmb
+      - 
+        content: କନ୍ନଡ
+        type: kn
+      - 
+        content: କୋରିଆନ୍
+        type: ko
+      - 
+        content: କୋନକାନୀ
+        type: kok
+      - 
+        content: କୋସରୈନ୍
+        type: kos
+      - 
+        content: କୈପେଲେ
+        type: kpe
+      - 
+        content: କନୁରୀ
+        type: kr
+      - 
+        content: କରାଚୟ-ବଲ୍କାର
+        type: krc
+      - 
+        content: କାରେଲିୟାନ୍
+        type: krl
+      - 
+        content: କ୍ରୁ
+        type: kro
+      - 
+        content: କୁରୁଖ
+        type: kru
+      - 
+        content: କାଶ୍ମିରୀ
+        type: ks
+      - 
+        content: କୁର୍ଦ୍ଦିଶ୍
+        type: ku
+      - 
+        content: କୁମୀକ୍
+        type: kum
+      - 
+        content: କୁତେନାଉ
+        type: kut
+      - 
+        content: କୋମି
+        type: kv
+      - 
+        content: କୋର୍ନିସ୍
+        type: kw
+      - 
+        content: କିରଗିଜ୍
+        type: ky
+      - 
+        content: ଲାଟିନ୍
+        type: la
+      - 
+        content: ଲାଦିନୋ
+        type: lad
+      - 
+        content: ଲାହାଣ୍ଡା
+        type: lah
+      - 
+        content: ଲାମ୍ବା
+        type: lam
+      - 
+        content: ଲକ୍ସେମବର୍ଗିସ୍
+        type: lb
+      - 
+        content: ଲେଜଗିୟାନ୍
+        type: lez
+      - 
+        content: ଗନ୍ଦା
+        type: lg
+      - 
+        content: ଲିମ୍ବୁର୍ଗିସ୍
+        type: li
+      - 
+        content: ଲିଙ୍ଗାଲା
+        type: ln
+      - 
+        content: ଲାଓ
+        type: lo
+      - 
+        content: ମଙ୍ଗୋ
+        type: lol
+      - 
+        content: ଲୋଜି
+        type: loz
+      - 
+        content: ଲିଥୁଆନିଆନ୍
+        type: lt
+      - 
+        content: ଲ୍ୟୁବା-କାଟାଙ୍ଗା
+        type: lu
+      - 
+        content: ଲୁବା-ଲୁଲୁଆ
+        type: lua
+      - 
+        content: ଲୁଇସେନୋ
+        type: lui
+      - 
+        content: ଲୁଣ୍ଡା
+        type: lun
+      - 
+        content: ଲୁଓ
+        type: luo
+      - 
+        content: ଲୁସାଉ
+        type: lus
+      - 
+        content: ଲାଟଭିଆନ୍
+        type: lv
+      - 
+        content: ମାଦୁରୀସ୍
+        type: mad
+      - 
+        content: ମାଗାହୀ
+        type: mag
+      - 
+        content: ମୈଥିଳୀ
+        type: mai
+      - 
+        content: ମକାସର୍
+        type: mak
+      - 
+        content: ମାଣ୍ଡିଙ୍ଗୋ
+        type: man
+      - 
+        content: ଅଷ୍ଟ୍ରୋନେସିଆନ୍
+        type: map
+      - 
+        content: ମାସାଇ
+        type: mas
+      - 
+        content: ମୋକ୍ଷ
+        type: mdf
+      - 
+        content: ମନ୍ଦାର
+        type: mdr
+      - 
+        content: ମେଣ୍ଡେ
+        type: men
+      - 
+        content: ମାଲାଗାସୀ
+        type: mg
+      - 
+        content: ମଧ୍ୟ ଇରିଶ୍
+        type: mga
+      - 
+        content: ମାର୍ଶାଲୀଜ୍
+        type: mh
+      - 
+        content: ମାଓରୀ
+        type: mi
+      - 
+        content: ମିକମୌକ୍
+        type: mic
+      - 
+        content: ମିନାଙ୍ଗାବାଉ
+        type: min
+      - 
+        content: ବିବିଧ ଭାଷା
+        type: mis
+      - 
+        content: ମାକଡୋନିଆନ୍
+        type: mk
+      - 
+        content: ମଁନ୍-ଖ୍ମେର୍ ଭାଷା
+        type: mkh
+      - 
+        content: ମାଲାୟଲମ୍
+        type: ml
+      - 
+        content: ମଙ୍ଗୋଲିଆନ୍
+        type: mn
+      - 
+        content: ମାଞ୍ଚୁ
+        type: mnc
+      - 
+        content: ମଣିପୁରୀ
+        type: mni
+      - 
+        content: ମନୋବୋ ଭାଷା
+        type: mno
+      - 
+        content: ମୋଲଡୋଭିଆନ୍
+        type: mo
+      - 
+        content: ମୋହୌକ
+        type: moh
+      - 
+        content: ମୋସି
+        type: mos
+      - 
+        content: ମରାଠୀ
+        type: mr
+      - 
+        content: ମାଲୟ
+        type: ms
+      - 
+        content: ମାଲଟୀଜ୍
+        type: mt
+      - 
+        content: ବିବିଧ ଭାଷାମାନ
+        type: mul
+      - 
+        content: ମୁଣ୍ଡା ଭାଷା
+        type: mun
+      - 
+        content: କ୍ରୀକ୍
+        type: mus
+      - 
+        content: ମିରାଣ୍ଡିଜ୍
+        type: mwl
+      - 
+        content: ମାରୱାରୀ
+        type: mwr
+      - 
+        content: ବର୍ମୀଜ୍
+        type: my
+      - 
+        content: ମାୟା ଭାଷା
+        type: myn
+      - 
+        content: ଏର୍ଜୟା
+        type: myv
+      - 
+        content: ନାଉରୁ
+        type: na
+      - 
+        content: ନାଉହାତି
+        type: nah
+      - 
+        content: ଉତ୍ତର ଆମେରିକା ଇଣ୍ଡିଆନ୍ ଭାଷା
+        type: nai
+      - 
+        content: ନୀପୋଲିଟାନ୍
+        type: nap
+      - 
+        content: ନରୱେଜିଆନ୍ ବୋକମଲ୍
+        type: nb
+      - 
+        content: ଉତ୍ତର ନେଡବେଲେ
+        type: nd
+      - 
+        content: ଲୋ ଜର୍ମାନ୍
+        type: nds
+      - 
+        content: ନେପାଳୀ
+        type: ne
+      - 
+        content: ନେୱାରୀ
+        type: new
+      - 
+        content: ଡୋଙ୍ଗା
+        type: ng
+      - 
+        content: ନୀୟାସ୍
+        type: nia
+      - 
+        content: ନାଇଜର୍-କୋର୍ଡୋଫୌନିୟାନ୍ ଭାଷା
+        type: nic
+      - 
+        content: ନିୟୁଆନ୍
+        type: niu
+      - 
+        content: ଡଚ୍
+        type: nl
+      - 
+        content: ଫ୍ଲେମିଶ୍
+        type: nl_BE
+      - 
+        content: ନରୱେଜିଆନ୍ ନିୟୋର୍ସ୍କ
+        type: nn
+      - 
+        content: ନରୱେଜିଆନ୍
+        type: 'no'
+      - 
+        content: ନୋଗାଇ
+        type: nog
+      - 
+        content: ପୁରୁଣା ନର୍ସ
+        type: non
+      - 
+        content: ଏନ୍କୋ
+        type: nqo
+      - 
+        content: ଦକ୍ଷିଣ ନେଡବେଲେ
+        type: nr
+      - 
+        content: ଉତ୍ତରୀ ସୋଥୋ
+        type: nso
+      - 
+        content: ନ୍ୟୁବିଆନ୍ ଭାଷା
+        type: nub
+      - 
+        content: ନାଭାଜୋ
+        type: nv
+      - 
+        content: ପାରମ୍ପରିକ ନେୱାରୀ
+        type: nwc
+      - 
+        content: ନିୟାଞ୍ଜ
+        type: ny
+      - 
+        content: ନ୍ୟାମୱେଜୀ
+        type: nym
+      - 
+        content: ନ୍ୟାନକୋଲ୍
+        type: nyn
+      - 
+        content: ନ୍ୟାରୋ
+        type: nyo
+      - 
+        content: ଞ୍ଜିମା
+        type: nzi
+      - 
+        content: ଓସିଟାନ୍
+        type: oc
+      - 
+        content: ଓଜିୱା
+        type: oj
+      - 
+        content: ଓରୋମୋ
+        type: om
+      - 
+        content: ଓଡ଼ିଆ
+        type: or
+      - 
+        content: ଓସେଟିକ୍
+        type: os
+      - 
+        content: ୱୌସେଜ୍
+        type: osa
+      - 
+        content: ଓଟ୍ଟୋମନ୍ ତୁର୍କିସ୍
+        type: ota
+      - 
+        content: ଓଟ୍ଟୋମିଆନ୍ ଭାଷା
+        type: oto
+      - 
+        content: ପଞ୍ଜାବୀ
+        type: pa
+      - 
+        content: ପାପୁଆନ୍ ଭାଷା
+        type: paa
+      - 
+        content: ପାଙ୍ଗାସିନିଆନ୍
+        type: pag
+      - 
+        content: ପାହ୍ଲାଭି
+        type: pal
+      - 
+        content: ପାମ୍ପାଙ୍ଗା
+        type: pam
+      - 
+        content: ପାପିୟାମିଣ୍ଟୋ
+        type: pap
+      - 
+        content: ପାଲାଉଆନ୍
+        type: pau
+      - 
+        content: ପୁରୁଣା ପର୍ସିଆନ୍
+        type: peo
+      - 
+        content: ଫିଲିପାଇନ୍ ଭାଷା
+        type: phi
+      - 
+        content: ଫୋନେସିଆନ୍
+        type: phn
+      - 
+        content: ପାଲି
+        type: pi
+      - 
+        content: ପୋଲିଶ୍
+        type: pl
+      - 
+        content: ପୋହପିଏନ୍
+        type: pon
+      - 
+        content: ପ୍ରାକୃତ ଭାଷା
+        type: pra
+      - 
+        content: ପୁରୁଣା ପ୍ରେଭେନେସିଆଲ୍
+        type: pro
+      - 
+        content: ପାସ୍ତୋ
+        type: ps
+      - 
+        content: ପର୍ତ୍ତୁଗ୍ରୀଜ୍
+        type: pt
+      - 
+        content: ବ୍ରାଜିଲିଆନ୍ ପର୍ତ୍ତୁଗୀଜ୍
+        type: pt_BR
+      - 
+        content: ଲେବେରିଆନ୍ ପର୍ତ୍ତୁଗୀଜ୍
+        type: pt_PT
+      - 
+        content: କ୍ୱେଚୁଆ
+        type: qu
+      - 
+        content: ରାଜସ୍ଥାନୀ
+        type: raj
+      - 
+        content: ରାପାନୁଇ
+        type: rap
+      - 
+        content: ରାରୋତୋଙ୍ଗନ୍
+        type: rar
+      - 
+        content: ରେହେଟୋ-ରୋମାନ୍ସ
+        type: rm
+      - 
+        content: ରୁଣ୍ଡି
+        type: rn
+      - 
+        content: ରୋମାନିଆନ୍
+        type: ro
+      - 
+        content: ରୋମାନ୍ସ ଭାଷା
+        type: roa
+      - 
+        content: ରୋମାନି
+        type: rom
+      - 
+        content: ମୂଳ
+        type: root
+      - 
+        content: ରଷିଆନ୍
+        type: ru
+      - 
+        content: ଆରୋମାନିଆନ୍
+        type: rup
+      - 
+        content: କିନ୍ୟାରୱାଣ୍ଡା
+        type: rw
+      - 
+        content: ସଂସ୍କୃତ
+        type: sa
+      - 
+        content: ସଣ୍ଡାୱେ
+        type: sad
+      - 
+        content: ୟାକୁଟ୍
+        type: sah
+      - 
+        content: ଦକ୍ଷିଣ ଆମେରିକା ଇଣ୍ଡିଆନ୍ ଭାଷା
+        type: sai
+      - 
+        content: ଶଲୀସନ୍ ଭାଷା
+        type: sal
+      - 
+        content: ସାମୌରିଟନ୍ ଆରମାଇକ୍
+        type: sam
+      - 
+        content: ସାସାକ୍
+        type: sas
+      - 
+        content: ସାନ୍ତାଳି
+        type: sat
+      - 
+        content: ସର୍ଦିନିଆନ୍
+        type: sc
+      - 
+        content: ସିଶିଲିଆନ୍
+        type: scn
+      - 
+        content: ସ୍କଟସ୍
+        type: sco
+      - 
+        content: ସିନ୍ଧୀ
+        type: sd
+      - 
+        content: ଉତ୍ତର ସାମି
+        type: se
+      - 
+        content: ସେଲ୍କପ୍
+        type: sel
+      - 
+        content: ସେମିଟିକ୍ ଭାଷା
+        type: sem
+      - 
+        content: ସାଙ୍ଗୋ
+        type: sg
+      - 
+        content: ପୁରୁଣା ଇରିଶ୍
+        type: sga
+      - 
+        content: ସାଙ୍କେତିକ ଭାଷା
+        type: sgn
+      - 
+        content: ସର୍ବୋ-କ୍ରୋଆଟିଆନ୍
+        type: sh
+      - 
+        content: ଶାନ୍
+        type: shn
+      - 
+        content: ସିଂହଳ
+        type: si
+      - 
+        content: ସିଦାମୋ
+        type: sid
+      - 
+        content: ସିଓନ୍ ଭାଷା
+        type: sio
+      - 
+        content: ସିନୋ-ତିବ୍ବେତାନ୍ ଭାଷା
+        type: sit
+      - 
+        content: ସ୍ଲୋଭାକ୍
+        type: sk
+      - 
+        content: ସ୍ଲୋଭେନିଆନ୍
+        type: sl
+      - 
+        content: ସାଲ୍ଭିକ୍ ଭାଷା
+        type: sla
+      - 
+        content: ସାମୋଆନ୍
+        type: sm
+      - 
+        content: ଦକ୍ଷିଣ ସାମି
+        type: sma
+      - 
+        content: ସାମି ଭାଷା
+        type: smi
+      - 
+        content: ଲୁଲେ ସାମି
+        type: smj
+      - 
+        content: ଇନାରୀ ସାମି
+        type: smn
+      - 
+        content: ସ୍କୋଲ୍ଟ ସାମୀ
+        type: sms
+      - 
+        content: ଶୋନା
+        type: sn
+      - 
+        content: ସୋନିଙ୍କେ
+        type: snk
+      - 
+        content: ସୋମାଲିଆ
+        type: so
+      - 
+        content: ସୋଗଡିଏନ୍
+        type: sog
+      - 
+        content: ସୋଙ୍ଘାଇ
+        type: son
+      - 
+        content: ଆଲବାନିଆନ୍
+        type: sq
+      - 
+        content: ସର୍ବିଆନ୍
+        type: sr
+      - 
+        content: ଶାରାନା ଟୋଙ୍ଗୋ
+        type: srn
+      - 
+        content: ଶେରେର୍
+        type: srr
+      - 
+        content: ସ୍ବାତୀ
+        type: ss
+      - 
+        content: ନୀଲ୍ ସାହାରି ଭାଷା
+        type: ssa
+      - 
+        content: ସେସୋଥୋ
+        type: st
+      - 
+        content: ସୁଦାନୀଜ୍
+        type: su
+      - 
+        content: ସୁକୁମା
+        type: suk
+      - 
+        content: ଶୁଶୁ
+        type: sus
+      - 
+        content: ସୁମେରିଆନ୍
+        type: sux
+      - 
+        content: ସ୍ୱେଡିସ୍
+        type: sv
+      - 
+        content: ସ୍ୱାହିଲ୍
+        type: sw
+      - 
+        content: କ୍ଲାସିକାଲ୍ ସିରିକ୍
+        type: syc
+      - 
+        content: ସିରିକ୍
+        type: syr
+      - 
+        content: ତାମିଲ୍
+        type: ta
+      - 
+        content: ତାଇ ଭାଷା
+        type: tai
+      - 
+        content: ତେଲୁଗୁ
+        type: te
+      - 
+        content: ତିମନେ
+        type: tem
+      - 
+        content: ତେରେନୋ
+        type: ter
+      - 
+        content: ତେତୁମ୍
+        type: tet
+      - 
+        content: ତାଜିକ୍
+        type: tg
+      - 
+        content: ଥାଇ
+        type: th
+      - 
+        content: ଟ୍ରିଗିନିଆ
+        type: ti
+      - 
+        content: ଟାଇଗ୍ରେ
+        type: tig
+      - 
+        content: ତୀଭ୍
+        type: tiv
+      - 
+        content: ତୁର୍କମେନ୍
+        type: tk
+      - 
+        content: ଟୋକେଲାଉ
+        type: tkl
+      - 
+        content: ଟାଗାଲଗ୍
+        type: tl
+      - 
+        content: କ୍ଲିଙ୍ଗନ୍
+        type: tlh
+      - 
+        content: ତ୍ଲିଙ୍ଗିଟ୍
+        type: tli
+      - 
+        content: ତାମାଶେକ୍
+        type: tmh
+      - 
+        content: ସେସ୍ବାନା
+        type: tn
+      - 
+        content: ଟୋଙ୍ଗା
+        type: to
+      - 
+        content: ନ୍ୟାସା ଟୋଙ୍ଗୋ
+        type: tog
+      - 
+        content: ଟୋକ୍ ପିସିନ୍
+        type: tpi
+      - 
+        content: ତୁର୍କିସ୍
+        type: tr
+      - 
+        content: ସୋଂଗା
+        type: ts
+      - 
+        content: ତିସିମିସିଆନ୍
+        type: tsi
+      - 
+        content: ତାତାର୍
+        type: tt
+      - 
+        content: ଟୁମ୍ବୁକା
+        type: tum
+      - 
+        content: ଟୁପି ଭାଷା
+        type: tup
+      - 
+        content: ଆଲ୍ଟିକ୍ ଭାଷା
+        type: tut
+      - 
+        content: ତୁଭାଲୁ
+        type: tvl
+      - 
+        content: ତ୍ୱି
+        type: tw
+      - 
+        content: ତାହିତିଆନ୍
+        type: ty
+      - 
+        content: ତୁଭିନିଆନ୍
+        type: tyv
+      - 
+        content: ଉଦମୂର୍ତ୍ତ
+        type: udm
+      - 
+        content: ୟୁଘୁର୍
+        type: ug
+      - 
+        content: ୟୁଗୋରଟିକ୍
+        type: uga
+      - 
+        content: ୟୁକ୍ରାନିଆନ୍
+        type: uk
+      - 
+        content: ଉମ୍ବୁଣ୍ଡୁ
+        type: umb
+      - 
+        content: ଅଜଣା ଏବଂ ଅବୈଧ ଭାଷା
+        type: und
+      - 
+        content: ଉର୍ଦ୍ଦୁ
+        type: ur
+      - 
+        content: ଉଜବେକ୍
+        type: uz
+      - 
+        content: ଭାଇ
+        type: vai
+      - 
+        content: ଭେଣ୍ଡା
+        type: ve
+      - 
+        content: ଭିଏତନାମିଜ୍
+        type: vi
+      - 
+        content: ବୋଲାପୁକ
+        type: vo
+      - 
+        content: ଭୋଟିକ୍
+        type: vot
+      - 
+        content: ୱାଲୁନ୍
+        type: wa
+      - 
+        content: ୱାକଶନ୍ ଭାଷା
+        type: wak
+      - 
+        content: ୱାଲମୋ
+        type: wal
+      - 
+        content: ୱାରୈ
+        type: war
+      - 
+        content: ୱାସୋ
+        type: was
+      - 
+        content: ସର୍ବିଆନ୍ ଭାଷା
+        type: wen
+      - 
+        content: ୱୋଲଫ୍
+        type: wo
+      - 
+        content: କାଲ୍ମୀକ୍
+        type: xal
+      - 
+        content: ଖୋସା
+        type: xh
+      - 
+        content: ୟାଓ
+        type: yao
+      - 
+        content: ୟାପୀସ୍
+        type: yap
+      - 
+        content: ୟିଡିସ୍
+        type: yi
+      - 
+        content: ୟୋରୁବା
+        type: yo
+      - 
+        content: ୟୁପିକ୍ ଭାଷା
+        type: ypk
+      - 
+        content: ଜୁଆଙ୍ଗ
+        type: za
+      - 
+        content: ଜାପୋଟେକ୍
+        type: zap
+      - 
+        content: ବ୍ଲିସିମ୍ବଲସ୍
+        type: zbl
+      - 
+        content: ଜେନାଗା
+        type: zen
+      - 
+        content: ଚାଇନୀଜ୍
+        type: zh
+      - 
+        content: ସରଳିକରଣ ଚାଇନୀଜ୍
+        type: zh_Hans
+      - 
+        content: ପାରମ୍ପରିକ ଚାଇନୀଜ୍
+        type: zh_Hant
+      - 
+        content: ଜାଣ୍ଡେ
+        type: znd
+      - 
+        content: ଜୁଲୁ
+        type: zu
+      - 
+        content: ଜୁନୀ
+        type: zun
+      - 
+        content: କୌଣସି ଲିଙ୍ଗୁଇଷ୍ଟ ସାମଗ୍ରୀ ନାହିଁ
+        type: zxx
+      - 
+        content: ଜାଜା
+        type: zza
+  scripts: 
+    script: 
+      - 
+        content: ଆରବିକ୍
+        type: Arab
+      - 
+        content: ଇମ୍ପେରିଆଲ୍ ଆରମିକ୍
+        type: Armi
+      - 
+        content: ଆର୍ମେନିଆନ୍
+        type: Armn
+      - 
+        content: ଆବେସ୍ଥାନ୍
+        type: Avst
+      - 
+        content: ବାଲିନୀଜ୍
+        type: Bali
+      - 
+        content: ବାଟାକ୍
+        type: Batk
+      - 
+        content: ବଙ୍ଗାଳୀ
+        type: Beng
+      - 
+        content: ବ୍ଲିସିମ୍ବଲସ୍
+        type: Blis
+      - 
+        content: ବୋପୋମୋଫୋ
+        type: Bopo
+      - 
+        content: ବ୍ରାହ୍ମୀ
+        type: Brah
+      - 
+        content: ବ୍ରିଲ୍
+        type: Brai
+      - 
+        content: ବୁଗାନୀଜ୍
+        type: Bugi
+      - 
+        content: ବୁହିଦ୍
+        type: Buhd
+      - 
+        content: ଚକମା
+        type: Cakm
+      - 
+        content: ୟୁନିଫାଏଡ୍ କାନାଡିଆନ୍ ଆବ୍ରୋଜିନାଲ୍ ସିଲାବିକସ୍
+        type: Cans
+      - 
+        content: କୈରନ୍
+        type: Cari
+      - 
+        content: ଛମ୍
+        type: Cham
+      - 
+        content: ଚିରୁକୀ
+        type: Cher
+      - 
+        content: ସିର୍ଥ
+        type: Cirt
+      - 
+        content: କପଟିକ୍
+        type: Copt
+      - 
+        content: ସିପ୍ରଅଟ୍
+        type: Cprt
+      - 
+        content: ସିରିଲିକ୍
+        type: Cyrl
+      - 
+        content: ଓଲ୍ଡ ଚର୍ଚ୍ଚ ସାଲଭୋନିକ୍ ସିରିଲିକ୍
+        type: Cyrs
+      - 
+        content: ଦେବାନଗିରି
+        type: Deva
+      - 
+        content: ଡେସର୍ଟ
+        type: Dsrt
+      - 
+        content: ଇଜିପ୍ଟିଆନ୍ ଡେମୋଟିକ୍
+        type: Egyd
+      - 
+        content: ଇଜିପ୍ଟିଆନ୍ ହାଇଅରଟିକ୍
+        type: Egyh
+      - 
+        content: ଇଜିପ୍ଟିଆନ୍ ହାଅରଗ୍ଲିପସ୍
+        type: Egyp
+      - 
+        content: ଇଥୋପିକ୍
+        type: Ethi
+      - 
+        content: ଜର୍ଜିଆନ୍ ଖୁଟସୁରୀ
+        type: Geok
+      - 
+        content: ଜର୍ଜିଆନ୍
+        type: Geor
+      - 
+        content: ଗ୍ଲାଗ୍ଲୋଟିକ୍
+        type: Glag
+      - 
+        content: ଗୋଥିକ୍
+        type: Goth
+      - 
+        content: ଗ୍ରୀକ୍
+        type: Grek
+      - 
+        content: ଗୁଜୁରାଟୀ
+        type: Gujr
+      - 
+        content: ଗୁରୁମୁଖୀ
+        type: Guru
+      - 
+        content: ହାଙ୍ଗୁଲ୍
+        type: Hang
+      - 
+        content: ହାନ୍
+        type: Hani
+      - 
+        content: ହାନୁନ୍
+        type: Hano
+      - 
+        content: ସରଳୀକୃତ ହାନ୍
+        type: Hans
+      - 
+        content: ପାରମ୍ପରିକ୍ ହାନ୍
+        type: Hant
+      - 
+        content: ହେବ୍ର୍ୟୁ
+        type: Hebr
+      - 
+        content: ହିରାଗାନା
+        type: Hira
+      - 
+        content: ପାହୋ ହୋଙ୍ଗ
+        type: Hmng
+      - 
+        content: କାଟାକାନ୍ କିମ୍ବା ହିରାଗାନ୍
+        type: Hrkt
+      - 
+        content: ପୁରୁଣା ହଙ୍ଗେରିଆନ୍
+        type: Hung
+      - 
+        content: ସିନ୍ଧୁ
+        type: Inds
+      - 
+        content: ପୁରୁଣା ଇଟାଲୀ
+        type: Ital
+      - 
+        content: ଜାଭାନୀଜ୍
+        type: Java
+      - 
+        content: ଜାପାନୀଜ୍
+        type: Jpan
+      - 
+        content: କାୟାହା ଲୀ
+        type: Kali
+      - 
+        content: କାଟକାନ୍
+        type: Kana
+      - 
+        content: ଖାରୋସ୍ଥି
+        type: Khar
+      - 
+        content: ଖ୍ମେର୍
+        type: Khmr
+      - 
+        content: କନ୍ନଡ
+        type: Knda
+      - 
+        content: କୋରିଆନ୍
+        type: Kore
+      - 
+        content: କୈଥି
+        type: Kthi
+      - 
+        content: ଲାନା
+        type: Lana
+      - 
+        content: ଲାଓ
+        type: Laoo
+      - 
+        content: ଫ୍ରାକଥୁର୍ ଲାଟିନ୍
+        type: Latf
+      - 
+        content: ଗାଏଲିକ୍ ଲାଟିନ୍
+        type: Latg
+      - 
+        content: ଲାଟିନ୍
+        type: Latn
+      - 
+        content: ଲେପଚା
+        type: Lepc
+      - 
+        content: ଲିମ୍ବୁ
+        type: Limb
+      - 
+        content: ଲିନିୟର୍
+        type: Lina
+      - 
+        content: ଲିନିୟର୍ ବି
+        type: Linb
+      - 
+        content: ଲିଶିୟନ୍
+        type: Lyci
+      - 
+        content: ଲିଡିୟନ୍
+        type: Lydi
+      - 
+        content: ମାନଡେନ୍
+        type: Mand
+      - 
+        content: ମନଶୀନ୍
+        type: Mani
+      - 
+        content: ମୟାନ୍ ହାୟରଲଜିକସ୍
+        type: Maya
+      - 
+        content: ମେରୋଇଟିକ୍
+        type: Mero
+      - 
+        content: ମାଲୟଲମ୍
+        type: Mlym
+      - 
+        content: ମଙ୍ଗୋଲିଆନ୍
+        type: Mong
+      - 
+        content: ଚନ୍ଦ୍ର
+        type: Moon
+      - 
+        content: ମାଏତି ମାୟେକ୍
+        type: Mtei
+      - 
+        content: ମିଆମାର୍
+        type: Mymr
+      - 
+        content: ଏନ୍ କୋ
+        type: Nkoo
+      - 
+        content: ଓଘାମା
+        type: Ogam
+      - 
+        content: ଓଲ୍ ଚିକି
+        type: Olck
+      - 
+        content: ଓରୋଖନ୍
+        type: Orkh
+      - 
+        content: ଓଡିଆ
+        type: Orya
+      - 
+        content: ଓସୋମାନିୟା
+        type: Osma
+      - 
+        content: ଓଲ୍ଡ ପରମିକ୍
+        type: Perm
+      - 
+        content: ଫାଗସ୍-ପା
+        type: Phag
+      - 
+        content: ଇନସ୍କ୍ରୀପସାନଲ୍ ପାହାଲାୱୀ
+        type: Phli
+      - 
+        content: ସ୍ଲାଟର୍ ପାହାଲାୱୀ
+        type: Phlp
+      - 
+        content: ବୁକ୍ ପାହାଲାୱୀ
+        type: Phlv
+      - 
+        content: ଫେନୋସିଆନ୍
+        type: Phnx
+      - 
+        content: ପୋଲାର୍ଡ ଫୋନେଟିକ୍
+        type: Plrd
+      - 
+        content: ଇନସ୍କ୍ରୀପସାନଲ୍ ପାର୍ଥିଆନ୍
+        type: Prti
+      - 
+        content: ରେଜାଙ୍ଗ
+        type: Rjng
+      - 
+        content: ରୋଙ୍ଗୋରୋଙ୍ଗୋ
+        type: Roro
+      - 
+        content: ରନିକ୍
+        type: Runr
+      - 
+        content: ସମୌରିଟନ୍
+        type: Samr
+      - 
+        content: ସାରାତି
+        type: Sara
+      - 
+        content: ସୌରାଷ୍ଟ୍ର
+        type: Saur
+      - 
+        content: ସାଙ୍କେତିକ ଲିଖ
+        type: Sgnw
+      - 
+        content: ସାବିୟାନ୍
+        type: Shaw
+      - 
+        content: ସିଂହଳ
+        type: Sinh
+      - 
+        content: ସୁଦାନୀଜ୍
+        type: Sund
+      - 
+        content: ସୀଲିତୋ ନଗରୀ
+        type: Sylo
+      - 
+        content: ସିରିୟାକ୍
+        type: Syrc
+      - 
+        content: ଏଷ୍ଟ୍ରାଙ୍ଗେଲୋ ସିରିକ୍
+        type: Syre
+      - 
+        content: ୱେଷ୍ଟର୍ନ ସିରିକ୍
+        type: Syrj
+      - 
+        content: ଇଷ୍ଟର୍ନ ସିରିକ୍
+        type: Syrn
+      - 
+        content: ତଗବାନ୍ୱା
+        type: Tagb
+      - 
+        content: ତାଇ ଲେ
+        type: Tale
+      - 
+        content: ନୂତନ ତାଇ ଲୁଏ
+        type: Talu
+      - 
+        content: ତାମିଲ୍
+        type: Taml
+      - 
+        content: ତାଇ ଭିଏତ୍
+        type: Tavt
+      - 
+        content: ତେଲୁଗୁ
+        type: Telu
+      - 
+        content: ତେଙ୍ଗୱାର୍
+        type: Teng
+      - 
+        content: ତିଫିଙ୍ଘା
+        type: Tfng
+      - 
+        content: ଟାଗାଲୋଗ୍
+        type: Tglg
+      - 
+        content: ଥାନା
+        type: Thaa
+      - 
+        content: ଥାଇ
+        type: Thai
+      - 
+        content: ତିବେତାନ୍
+        type: Tibt
+      - 
+        content: ୟୁଗାରିଟିକ୍
+        type: Ugar
+      - 
+        content: ୱାଇ
+        type: Vaii
+      - 
+        content: ଭିଜିବଲ୍ ସ୍ପିଚ୍
+        type: Visp
+      - 
+        content: ପୁରୁଣା ଫରାସୀ
+        type: Xpeo
+      - 
+        content: ସୁମେରୋ-ଆକ୍କାଡିଆନ୍ ସୁନିଫର୍ମ
+        type: Xsux
+      - 
+        content: ୟୀ
+        type: Yiii
+      - 
+        content: ବଂଶଗତ
+        type: Zinh
+      - 
+        content: ଗାଣିତିକ ନୋଟେସନ୍
+        type: Zmth
+      - 
+        content: ସିମ୍ବଲ୍
+        type: Zsym
+      - 
+        content: ଅଲିଖିତ
+        type: Zxxx
+      - 
+        content: ସାଧାରଣ
+        type: Zyyy
+      - 
+        content: ଅଞ୍ଜାତ କିମ୍ବା ଅବୈଧ ସ୍କ୍ରୀପ୍ଟ
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: ବିଶ୍ବ
+        type: '001'
+      - 
+        content: ଆଫ୍ରିକା
+        type: '002'
+      - 
+        content: ଉତ୍ତର ଆମେରିକା
+        type: '003'
+      - 
+        content: ଦକ୍ଷିଣ ଆମେରିକା
+        type: '005'
+      - 
+        content: ଓସୋନିଆନ୍
+        type: '009'
+      - 
+        content: ପଶ୍ଚିମ ଆଫ୍ରିକା
+        type: '011'
+      - 
+        content: ମଧ୍ୟ ଆମେରିକା
+        type: '013'
+      - 
+        content: ପୂର୍ବ ଆଫ୍ରିକା
+        type: '014'
+      - 
+        content: ଉତ୍ତର ଆଫ୍ରିକା
+        type: '015'
+      - 
+        content: ମଧ୍ୟ ଆଫ୍ରିକା
+        type: '017'
+      - 
+        content: ଦକ୍ଷିଣସ୍ଥ ଆଫ୍ରିକା
+        type: '018'
+      - 
+        content: ଆମେରିକାସ୍
+        type: '019'
+      - 
+        content: ଉତ୍ତରସ୍ଥ ଆମେରିକା
+        type: '021'
+      - 
+        content: କାରିବିଆନ୍
+        type: '029'
+      - 
+        content: ପୂର୍ବ ଏସିଆ
+        type: '030'
+      - 
+        content: ଦକ୍ଷିଣ ଏସିଆ
+        type: '034'
+      - 
+        content: ଦକ୍ଷିଣ-ପୂର୍ବ ଏସିଆ
+        type: '035'
+      - 
+        content: ଦକ୍ଷିଣ ୟୁରୋପ୍
+        type: '039'
+      - 
+        content: ଅଷ୍ଟ୍ରେଲିଆ ଏବଂ ନ୍ୟୁଜିଲ୍ୟାଣ୍ଡ
+        type: '053'
+      - 
+        content: ମେଲାନେସିଆ
+        type: '054'
+      - 
+        content: ମାଇକ୍ରୋନେସିଆନ୍ ଅଞ୍ଚଳ
+        type: '057'
+      - 
+        content: ପଲିନେସିଆ
+        type: '061'
+      - 
+        content: ଏସିଆ
+        type: 142
+      - 
+        content: ମଧ୍ୟ ଏସିଆ
+        type: 143
+      - 
+        content: ପଶ୍ଚିମ ଏସିଆ
+        type: 145
+      - 
+        content: ୟୁରୋପ୍
+        type: 150
+      - 
+        content: ପୂର୍ବ ୟୁରୋପ୍
+        type: 151
+      - 
+        content: ଉତ୍ତର ୟୁରୋପ୍
+        type: 154
+      - 
+        content: ପଶ୍ଚିମ ୟୁରୋପ୍
+        type: 155
+      - 
+        content: ଲାଟିନ୍ ଆମେରିକା ଏବଂ କାରିବିଆନ୍
+        type: 419
+      - 
+        content: ଆଣ୍ଡୋରା
+        type: AD
+      - 
+        content: ସଂଯୁକ୍ତ ଆରବ ଏମିରେଟସ୍
+        type: AE
+      - 
+        content: ଆଫାଗାନିସ୍ତାନ୍
+        type: AF
+      - 
+        content: ଆଣ୍ଟିଗୁଆ ଏବଂ ବାରବୁଦା
+        type: AG
+      - 
+        content: ଆଙ୍ଗୁଇଲ୍ଲା
+        type: AI
+      - 
+        content: ଆଲବାନିଆ
+        type: AL
+      - 
+        content: ଆର୍ମେନିଆ
+        type: AM
+      - 
+        content: ନେଦରଲ୍ୟାଣ୍ଡସ୍ ଆଣ୍ଟିଲିଜ୍
+        type: AN
+      - 
+        content: ଆଙ୍ଗୋଲା
+        type: AO
+      - 
+        content: ଆର୍ଣ୍ଟକଟିକା
+        type: AQ
+      - 
+        content: ଆର୍ଜେଣ୍ଟିନା
+        type: AR
+      - 
+        content: ଆମେରିକାନ୍ ସାମୋଆ
+        type: AS
+      - 
+        content: ଅଷ୍ଟ୍ରିଆ
+        type: AT
+      - 
+        content: ଅଷ୍ଟ୍ରେଲିଆ
+        type: AU
+      - 
+        content: ଆରୁବା
+        type: AW
+      - 
+        content: ଆଲାଣ୍ଡ ଆଇସଲ୍ୟାଣ୍ଡ
+        type: AX
+      - 
+        content: ଆଜେରବାଇଜାନ୍
+        type: AZ
+      - 
+        content: ବୋସନିଆ ଏବଂ ହର୍ଜଗୋଭିନା
+        type: BA
+      - 
+        content: ବାରବାଡୋସ୍
+        type: BB
+      - 
+        content: ବାଙ୍ଗଲାଦେଶ୍
+        type: BD
+      - 
+        content: ବେଲଜିୟମ୍
+        type: BE
+      - 
+        content: ବୁର୍କିନୋ ଫାସୋ
+        type: BF
+      - 
+        content: ବୁଲଗେରିଆ
+        type: BG
+      - 
+        content: ବାହାରିନ୍
+        type: BH
+      - 
+        content: ବୁରୁନ୍ଦି
+        type: BI
+      - 
+        content: ବେନିନ୍
+        type: BJ
+      - 
+        content: ସେଣ୍ଟ ବାର୍ଥେଲେମି
+        type: BL
+      - 
+        content: ବରମୁଡା
+        type: BM
+      - 
+        content: ବ୍ରୁନେଇ
+        type: BN
+      - 
+        content: ବୋଲଭିଆ
+        type: BO
+      - 
+        content: ବ୍ରାଜିଲ୍
+        type: BR
+      - 
+        content: ବାହାମାସ୍
+        type: BS
+      - 
+        content: ଭୁଟାନ୍
+        type: BT
+      - 
+        content: ବୌଭେଟ୍ ଆଇସଲ୍ୟାଣ୍ଡ
+        type: BV
+      - 
+        content: ବୋଟସ୍ବାନ୍
+        type: BW
+      - 
+        content: ବେଲାରୁଷ୍
+        type: BY
+      - 
+        content: ବେଲିଜ୍
+        type: BZ
+      - 
+        content: କାନାଡା
+        type: CA
+      - 
+        content: କୋକୋସ୍ ଆଇସଲ୍ୟାଣ୍ଡ
+        type: CC
+      - 
+        content: କଙ୍ଗୋ-କିନସାସା
+        type: CD
+      - 
+        content: ମଧ୍ୟ ଆଫ୍ରିକୀୟ ଗଣତନ୍ତ୍ର
+        type: CF
+      - 
+        content: କଙ୍ଗୋ-ବ୍ରାଜିଭିଲ୍ଲେ
+        type: CG
+      - 
+        content: ସ୍ବିଜରଲ୍ୟାଣ୍ଡ
+        type: CH
+      - 
+        content: ଆଇବରୀ କୋଷ୍ଟ
+        type: CI
+      - 
+        content: କୁକ୍ ଆଇସଲ୍ୟାଣ୍ଡ
+        type: CK
+      - 
+        content: ଚିଲ୍ଲୀ
+        type: CL
+      - 
+        content: କାମେରୁନ୍
+        type: CM
+      - 
+        content: ଚିନ୍
+        type: CN
+      - 
+        content: କୋଲମ୍ବିଆ
+        type: CO
+      - 
+        content: କୋଷ୍ଟା ରିକା
+        type: CR
+      - 
+        content: କ୍ୱିବା
+        type: CU
+      - 
+        content: କେପ୍ ଭର୍ଦେ
+        type: CV
+      - 
+        content: ଖ୍ରୀଷ୍ଟମାସ ଆଇଲ୍ୟାଣ୍ଡ
+        type: CX
+      - 
+        content: ସାଇପ୍ରସ୍
+        type: CY
+      - 
+        content: ଚେକ୍ ସାଧାରଣତନ୍ତ୍ର
+        type: CZ
+      - 
+        content: ଜର୍ମାନୀ
+        type: DE
+      - 
+        content: ଡିବୌଟି
+        type: DJ
+      - 
+        content: ଡେନମାର୍କ
+        type: DK
+      - 
+        content: ଡୋମିନାକା
+        type: DM
+      - 
+        content: ଡୋମିନକାନ୍ ପ୍ରଜାତନ୍ତ୍ର
+        type: DO
+      - 
+        content: ଆଲଜେରିଆ
+        type: DZ
+      - 
+        content: ଇକ୍ୱାଡୋର୍
+        type: EC
+      - 
+        content: ଏସ୍ତୋନିଆ
+        type: EE
+      - 
+        content: ଇଜିପ୍ଟ
+        type: EG
+      - 
+        content: ପଶ୍ଚିମ ସାହାରା
+        type: EH
+      - 
+        content: ଇରିଟ୍ରିୟା
+        type: ER
+      - 
+        content: ସ୍ପେନ୍
+        type: ES
+      - 
+        content: ଇଥିଓପିଆ
+        type: ET
+      - 
+        content: ୟୁରୋପିଆନ୍ ୟୁନିଅନ୍
+        type: EU
+      - 
+        content: ଫିନଲ୍ୟାଣ୍ଡ
+        type: FI
+      - 
+        content: ଫିଜି
+        type: FJ
+      - 
+        content: ଫଲ୍କଲ୍ୟାଣ୍ଡ ଦ୍ବୀପପୁଞ୍ଜ
+        type: FK
+      - 
+        content: ମାଇକ୍ରୋନେସିଆ
+        type: FM
+      - 
+        content: ଫାରୋଇ ଦ୍ବୀପପୁଞ୍ଜ
+        type: FO
+      - 
+        content: ଫ୍ରାନ୍ସ
+        type: FR
+      - 
+        content: ଗାବୋନ୍
+        type: GA
+      - 
+        content: ବ୍ରିଟେନ୍
+        type: GB
+      - 
+        content: ଗ୍ରେନାଡା
+        type: GD
+      - 
+        content: ଜର୍ଜିଆ
+        type: GE
+      - 
+        content: ଫ୍ରେଞ୍ଚ ଗୁଇନା
+        type: GF
+      - 
+        content: ଗୁଏରନେସି
+        type: GG
+      - 
+        content: ଘାନା
+        type: GH
+      - 
+        content: ଜିବ୍ରାଲ୍ଟର୍
+        type: GI
+      - 
+        content: ଗ୍ରୀନଲ୍ୟାଣ୍ଡ
+        type: GL
+      - 
+        content: ଗାମ୍ବିଆ
+        type: GM
+      - 
+        content: ଗୁଏନେଆ
+        type: GN
+      - 
+        content: ଗୌଡେଲୌପେ
+        type: GP
+      - 
+        content: ଇକ୍ବାଟେରିଆଲ୍ ଗୁଇନିଆ
+        type: GQ
+      - 
+        content: ଗ୍ରୀସ୍
+        type: GR
+      - 
+        content: ଦକ୍ଷିଣ ଜର୍ଜିଆ ଏବଂ ଦକ୍ଷିଣ ସାଣ୍ଡୱିଚ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: GS
+      - 
+        content: ଗୁଏତମାଲା
+        type: GT
+      - 
+        content: ଗୁଆମ୍
+        type: GU
+      - 
+        content: ଗୁଇନିଆ-ବିସାଉ
+        type: GW
+      - 
+        content: ଗୁଇନା
+        type: GY
+      - 
+        content: ହଂକଂ ବିଶେଷ ପ୍ରଶାସନିକ କ୍ଷେତ୍ର ଚୀନ୍
+        type: HK
+      - 
+        content: ହାର୍ଡ ଦ୍ବୀପପୁଞ୍ଜ ଏବଂ ମ୍ୟାକଡୋନାଲ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: HM
+      - 
+        content: ହୋଣ୍ଡାରୁସ୍
+        type: HN
+      - 
+        content: କ୍ରୋଆଟିଆ
+        type: HR
+      - 
+        content: ହାଇତି
+        type: HT
+      - 
+        content: ହଙ୍ଗେରୀ
+        type: HU
+      - 
+        content: ଇଣ୍ଡୋନେସିଆ
+        type: ID
+      - 
+        content: ଆୟରଲ୍ୟାଣ୍ଡ
+        type: IE
+      - 
+        content: ଇସ୍ରାଏଲ୍
+        type: IL
+      - 
+        content: ଆଇଲ୍ ଅଫ୍ ମୈନ୍
+        type: IM
+      - 
+        content: ଭାରତ
+        type: IN
+      - 
+        content: ବ୍ରିଟିଶ୍ ଭାରତୀୟ ସାମୁଦ୍ରିକ କ୍ଷେତ୍ର
+        type: IO
+      - 
+        content: ଇରାକ୍
+        type: IQ
+      - 
+        content: ଇରାନ୍
+        type: IR
+      - 
+        content: ଆଇସଲ୍ୟାଣ୍ଡ
+        type: IS
+      - 
+        content: ଇଟାଲୀ
+        type: IT
+      - 
+        content: ଜର୍ସି
+        type: JE
+      - 
+        content: ଜାମାଇକା
+        type: JM
+      - 
+        content: ଜୋର୍ଡାନ୍
+        type: JO
+      - 
+        content: ଜାପାନ୍
+        type: JP
+      - 
+        content: କେନିୟା
+        type: KE
+      - 
+        content: କିର୍ଗିଜିସ୍ଥାନ
+        type: KG
+      - 
+        content: କାମ୍ବୋଡିଆ
+        type: KH
+      - 
+        content: କିରିବାଟୀ
+        type: KI
+      - 
+        content: କାମୋରସ୍
+        type: KM
+      - 
+        content: ସେଣ୍ଟ କିଟସ୍ ଏଣ୍ଡ ନେଭିସ୍
+        type: KN
+      - 
+        content: ଉତ୍ତର କୋରିଆ
+        type: KP
+      - 
+        content: ଦକ୍ଷିଣ କୋରିଆ
+        type: KR
+      - 
+        content: କୁଏତ୍
+        type: KW
+      - 
+        content: କେମ୍ୟାନ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: KY
+      - 
+        content: କାଜାକାସ୍ଥାନ୍
+        type: KZ
+      - 
+        content: ଲାଓସ୍
+        type: LA
+      - 
+        content: ଲେବାନନ୍
+        type: LB
+      - 
+        content: ସେଣ୍ଟ ଲୁସିଆ
+        type: LC
+      - 
+        content: ଲିଚେସ୍ତିଆନାନ୍
+        type: LI
+      - 
+        content: ଶ୍ରୀଲଙ୍କା
+        type: LK
+      - 
+        content: ଲିବେରିଆ
+        type: LR
+      - 
+        content: ଲେସୋଥୋ
+        type: LS
+      - 
+        content: ଲିଥାଆନିଆ
+        type: LT
+      - 
+        content: ଲକ୍ସେମବର୍ଗ
+        type: LU
+      - 
+        content: ଲାଟଭିଆ
+        type: LV
+      - 
+        content: ଲିବିଆ
+        type: LY
+      - 
+        content: ମୋରୋକ୍କୋ
+        type: MA
+      - 
+        content: ମୋନାକୋ
+        type: MC
+      - 
+        content: ମାଲଡୋଭା
+        type: MD
+      - 
+        content: ମଣ୍ଟେଗ୍ରୋ
+        type: ME
+      - 
+        content: ସେଣ୍ଟ ମାର୍ଟିନ୍
+        type: MF
+      - 
+        content: ମାଡାଗାସ୍କର୍
+        type: MG
+      - 
+        content: ମାର୍ଶଲ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: MH
+      - 
+        content: ମାସେଡୋନିଆ
+        type: MK
+      - 
+        content: ମାଳୀ
+        type: ML
+      - 
+        content: ମିୟାମାର୍
+        type: MM
+      - 
+        content: ମଙ୍ଗୋଲିଆ
+        type: MN
+      - 
+        content: ମାକାଉ SAR ଚିନ୍
+        type: MO
+      - 
+        content: ଉତ୍ତର ମାରିଆନା ଦ୍ବୀପପୁଞ୍ଜ
+        type: MP
+      - 
+        content: ମାର୍ଟିନିକ୍ୟୁ
+        type: MQ
+      - 
+        content: ମାଉରିଟାନିଆ
+        type: MR
+      - 
+        content: ମଣ୍ଟେସେରାଟ୍
+        type: MS
+      - 
+        content: ମାଲ୍ଟା
+        type: MT
+      - 
+        content: ମୌରିସସ୍
+        type: MU
+      - 
+        content: ମାଳଦ୍ବୀପ
+        type: MV
+      - 
+        content: ମାଲୱି
+        type: MW
+      - 
+        content: ମେକ୍ସିକୋ
+        type: MX
+      - 
+        content: ମାଲେସିଆ
+        type: MY
+      - 
+        content: ମୋଜାମ୍ବିକ୍ୟୁ
+        type: MZ
+      - 
+        content: ନାମ୍ବିଆ
+        type: NA
+      - 
+        content: ନୂତନ କାଲେଡୋନିଆ
+        type: NC
+      - 
+        content: ନାଇଜର୍
+        type: NE
+      - 
+        content: ନରଫ୍ଲକ୍ ଦ୍ବୀପ
+        type: NF
+      - 
+        content: ନାଇଜେରିଆ
+        type: NG
+      - 
+        content: ନିକାରାଗୁଆ
+        type: NI
+      - 
+        content: ନେଦରଲ୍ୟାଣ୍ଡ
+        type: NL
+      - 
+        content: ନରୱେ
+        type: 'NO'
+      - 
+        content: ନେପାଳ
+        type: NP
+      - 
+        content: ନାଉରୁ
+        type: NR
+      - 
+        content: ନିଉ
+        type: NU
+      - 
+        content: ନ୍ୟୁଜିଲାଣ୍ଡ
+        type: NZ
+      - 
+        content: ଓମାନ୍
+        type: OM
+      - 
+        content: ପାନାମା
+        type: PA
+      - 
+        content: ପେରୁ
+        type: PE
+      - 
+        content: ଫ୍ରେଞ୍ଚ ପଲିନେସିଆ
+        type: PF
+      - 
+        content: ପପୁଆ ନ୍ୟୁ ଗୁଏନିଆ
+        type: PG
+      - 
+        content: ଫିଲିପାଇନସ୍
+        type: PH
+      - 
+        content: ପାକିସ୍ତାନ
+        type: PK
+      - 
+        content: ପୋଲାଣ୍ଡ
+        type: PL
+      - 
+        content: ସେଣ୍ଟ ପିଏରେ ଏବଂ ମିକ୍ବାଲୋନ୍
+        type: PM
+      - 
+        content: ପିଟକାଇରିନ୍
+        type: PN
+      - 
+        content: ପୁଏର୍ତ୍ତୋ ରିକୋ
+        type: PR
+      - 
+        content: ପାଲେସ୍ତେନିଆ
+        type: PS
+      - 
+        content: ପର୍ତ୍ତୁଗାଲ୍
+        type: PT
+      - 
+        content: ପାଲାଉ
+        type: PW
+      - 
+        content: ପାରାଗୁଏ
+        type: PY
+      - 
+        content: କତାର୍
+        type: QA
+      - 
+        content: ଆଉଟଲେଇଂ ଓସେନିଆ
+        type: QO
+      - 
+        content: ରିୟୁନିଅନ୍
+        type: RE
+      - 
+        content: ରୋମାନିଆ
+        type: RO
+      - 
+        content: ସର୍ବିଆ
+        type: RS
+      - 
+        content: ରୁଷିଆ
+        type: RU
+      - 
+        content: ରାୱାଣ୍ଡା
+        type: RW
+      - 
+        content: ସାଉଦି ଆରବିଆ
+        type: SA
+      - 
+        content: ସୋଲୋମନ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: SB
+      - 
+        content: ସେଚେଲସ୍
+        type: SC
+      - 
+        content: ସୁଦାନ୍
+        type: SD
+      - 
+        content: ସ୍ୱେଡେନ୍
+        type: SE
+      - 
+        content: ସିଙ୍ଗାପୁର୍
+        type: SG
+      - 
+        content: ସେଣ୍ଟ ହେଲେନା
+        type: SH
+      - 
+        content: ସ୍ଲୋଭେନିଆ
+        type: SI
+      - 
+        content: ସାଲ୍ଭାର୍ଡ ଏବଂ ଜାନ୍ ମାୟୋନ୍
+        type: SJ
+      - 
+        content: ସ୍ଲୋଭାକିଆ
+        type: SK
+      - 
+        content: ସିଓରା ଲିଓନ୍
+        type: SL
+      - 
+        content: ସାନ୍ ମାରିନୋ
+        type: SM
+      - 
+        content: ସେନେଗାଲ୍
+        type: SN
+      - 
+        content: ସୋମାଲିଆ
+        type: SO
+      - 
+        content: ସୁରିନାମ
+        type: SR
+      - 
+        content: ଦକ୍ଷିନ ସୁଦାନ
+        draft: provisional
+        type: SS
+      - 
+        content: ସାଓ ଟୋମେ ଏବଂ ପ୍ରିନସିପି
+        type: ST
+      - 
+        content: ଏଲ୍ ସାଲଭାଡୋର୍
+        type: SV
+      - 
+        content: ସିରିଆ
+        type: SY
+      - 
+        content: ସ୍ବାଜିଲାଣ୍ଡ
+        type: SZ
+      - 
+        content: ତୁର୍କସ୍ ଏବଂ ସାଇକସ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: TC
+      - 
+        content: ଚାଦ୍
+        type: TD
+      - 
+        content: ଫରାସୀ ଦକ୍ଷିଣ କ୍ଷେତ୍ର
+        type: TF
+      - 
+        content: ଟୋଗୋ
+        type: TG
+      - 
+        content: ଥାଇଲାଣ୍ଡ
+        type: TH
+      - 
+        content: ତାଜିକିସ୍ଥାନ୍
+        type: TJ
+      - 
+        content: ଟୋକେଲାଉ
+        type: TK
+      - 
+        content: ପୁର୍ବ ତିମୋର୍
+        type: TL
+      - 
+        content: ତୁର୍କମେନିସ୍ତାନ୍
+        type: TM
+      - 
+        content: ତୁନିସିଆ
+        type: TN
+      - 
+        content: ଟୋଙ୍ଗା
+        type: TO
+      - 
+        content: ତୁର୍କୀ
+        type: TR
+      - 
+        content: ତ୍ରିନିଦାଦ୍ ଏବଂ ଟୋବାଗୋ
+        type: TT
+      - 
+        content: ଟୁଭାଲୁ
+        type: TV
+      - 
+        content: ତାଇୱାନ୍
+        type: TW
+      - 
+        content: ତାଞ୍ଜାନିଆ
+        type: TZ
+      - 
+        content: ୟୁକ୍ରାଇନ୍
+        type: UA
+      - 
+        content: ଉଗାଣ୍ଡା
+        type: UG
+      - 
+        content: ୟୁନାଇଟେଡ୍ ଷ୍ଟେଟସ୍ ମାଇନର୍ ଆଉଟଲେଇଂ ଦ୍ବୀପପୁଞ୍ଜ
+        type: UM
+      - 
+        content: ଯୁକ୍ତ ରାଷ୍ଟ୍ର ଆମେରିକା
+        type: US
+      - 
+        content: ଉରୁଗୁଏ
+        type: UY
+      - 
+        content: ଉଜବେକିସ୍ଥାନ୍
+        type: UZ
+      - 
+        content: ଭାଟିକାନ୍
+        type: VA
+      - 
+        content: ସେଣ୍ଟ ଭିନସେଣ୍ଟ ଏବଂ ଦି ଗ୍ରେନାଡିସ୍
+        type: VC
+      - 
+        content: ଭେନଜୁଏଲା
+        type: VE
+      - 
+        content: ବ୍ରିଟିଶ୍ ଭର୍ଜିନ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: VG
+      - 
+        content: ୟୁଏସ୍ ଭର୍ଜିନ୍ ଦ୍ବୀପପୁଞ୍ଜ
+        type: VI
+      - 
+        content: ଭିଏତନାମ୍
+        type: VN
+      - 
+        content: ଭାନୁଆତୁ
+        type: VU
+      - 
+        content: ୱାଲିସ୍ ଏବଂ ଫୁତୁନା
+        type: WF
+      - 
+        content: ସାମୋଆ
+        type: WS
+      - 
+        content: ୟେମେନ୍
+        type: YE
+      - 
+        content: ମାୟୋଟେ
+        type: YT
+      - 
+        content: ଦକ୍ଷିଣ ଆଫ୍ରିକା
+        type: ZA
+      - 
+        content: ଜାମ୍ବିଆ
+        type: ZM
+      - 
+        content: ଜିମ୍ବାୱେ
+        type: ZW
+      - 
+        content: ଅଜଣା କିମ୍ବା ଅବୈଧ ପ୍ରଦେଶ
+        type: ZZ
+numbers: 
+  currencies: 
+    currency: 
+      displayName: ଟଙକା
+      type: INR
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##,##0.###"
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: orya
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##,##0%"
+  symbols: 
+    decimal: .
+    group: ","
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: ନା
+    yesstr: ହଁ

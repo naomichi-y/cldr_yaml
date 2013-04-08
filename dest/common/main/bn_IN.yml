@@ -1,0 +1,563 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      draft: contributed
+      type: final
+    - 
+      content: …{0}
+      draft: contributed
+      type: initial
+    - 
+      content: "{0}…{1}"
+      draft: contributed
+      type: medial
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: ত্রৈমাসিক
+                      type: 1
+                    - 
+                      content: ষাণ্মাসিক
+                      type: 2
+                    - 
+                      content: চতুর্থাংশ ৩
+                      type: 3
+                    - 
+                      content: বার্ষিক
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: ত্রৈমাসিক
+                      type: 1
+                    - 
+                      content: ষাণ্মাসিক
+                      type: 2
+                    - 
+                      content: তৃতীয় চতুর্থাংশ
+                      type: 3
+                    - 
+                      content: বার্ষিক
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: ত্রৈমাসিক
+                    type: 1
+                  - 
+                    content: ষাণ্মাসিক
+                    type: 2
+                  - 
+                    content: তৃতীয় চতুর্থাংশ
+                    type: 3
+                  - 
+                    content: বার্ষিক
+                    type: 4
+                type: wide
+              type: stand-alone
+        type: generic
+      - 
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: ত্রৈমাসিক
+                      type: 1
+                    - 
+                      content: ষাণ্মাসিক
+                      type: 2
+                    - 
+                      content: চতুর্থাংশ ৩
+                      type: 3
+                    - 
+                      content: বার্ষিক
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: ত্রৈমাসিক
+                      type: 1
+                    - 
+                      content: ষাণ্মাসিক
+                      type: 2
+                    - 
+                      content: তৃতীয় চতুর্থাংশ
+                      type: 3
+                    - 
+                      content: বার্ষিক
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: ত্রৈমাসিক
+                    type: 1
+                  - 
+                    content: ষাণ্মাসিক
+                    type: 2
+                  - 
+                    content: তৃতীয় চতুর্থাংশ
+                    type: 3
+                  - 
+                    content: বার্ষিক
+                    type: 4
+                type: wide
+              type: stand-alone
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        relative: 
+          content: গতপরশু
+          type: -2
+        type: day
+      - 
+        displayName: ঘণ্টা
+        type: hour
+      - 
+        displayName: সেকেণ্ড
+        type: second
+  timeZoneNames: 
+    metazone: 
+      - 
+        long: 
+          daylight: আলাসকা দিবালোক সময়
+          generic: আলাস্কার সময়
+          standard: অ্যালাসকা মানক সময়
+        type: Alaska
+      - 
+        long: 
+          daylight: 
+            content: কুক দ্বীপপুঞ্জ অর্ধেক গ্রীষ্মকাল সময়
+            draft: contributed
+          generic: 
+            content: কুক দ্বীপপুঞ্জ সময়
+            draft: contributed
+          standard: 
+            content: কুক দ্বীপপুঞ্জ মানক সময়
+            draft: contributed
+        type: Cook
+      - 
+        long: 
+          daylight: 
+            content: ফিজি গ্রীষ্মকাল সময়
+            draft: contributed
+          generic: 
+            content: ফিজি সময়
+            draft: contributed
+          standard: 
+            content: ফিজি মানক সময়
+            draft: contributed
+        type: Fiji
+      - 
+        long: 
+          standard: 
+            content: ফরাসি দক্ষিণ এবং আন্টার্কটিক সময়
+            draft: contributed
+        type: French_Southern
+      - 
+        long: 
+          standard: 
+            content: গুয়ানা সময়
+            draft: contributed
+        type: Guyana
+      - 
+        long: 
+          standard: 
+            content: ভারত মহাসাগরীয় সময়
+            draft: contributed
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: 
+            content: কোসরেই সময়
+            draft: contributed
+        type: Kosrae
+      - 
+        long: 
+          daylight: 
+            content: নিউজিল্যান্ড দিবালোকের সময়
+            draft: contributed
+          generic: 
+            content: নিউজিল্যান্ড সময়
+            draft: contributed
+          standard: 
+            content: নিউজিল্যান্ড মানক সময়
+            draft: contributed
+        type: New_Zealand
+      - 
+        long: 
+          standard: 
+            content: পাপুয়া নিউগিনি সময়
+            draft: contributed
+        type: Papua_New_Guinea
+      - 
+        long: 
+          standard: 
+            content: পিটকাইর্ন সময়
+            draft: contributed
+        type: Pitcairn
+      - 
+        long: 
+          standard: 
+            content: পোনাপ সময়
+            draft: contributed
+        type: Ponape
+      - 
+        long: 
+          standard: 
+            content: স্যোয়া সময়
+            draft: contributed
+        type: Syowa
+      - 
+        long: 
+          standard: 
+            content: টোকেলু সময়
+            draft: contributed
+        type: Tokelau
+      - 
+        long: 
+          standard: 
+            content: ভসটক সময়
+            draft: contributed
+        type: Vostok
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: bn
+  territory: 
+    type: IN
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: আবখাজিয়ান
+        type: ab
+      - 
+        content: অ্যাচাইনিজ
+        type: ace
+      - 
+        content: আকোলি
+        type: ach
+      - 
+        content: আফ্রো-এশিয়াটিক ভাষা
+        type: afa
+      - 
+        content: আলগোনকিউয়ান ভাষা
+        type: alg
+      - 
+        content: আঙ্গিকা
+        draft: contributed
+        type: anp
+      - 
+        content: চামোরো
+        draft: contributed
+        type: ch
+      - 
+        content: চিনুক জার্গন
+        draft: contributed
+        type: chn
+      - 
+        content: চকটোও
+        draft: contributed
+        type: cho
+      - 
+        content: চিপেওয়াইয়ান
+        draft: contributed
+        type: chp
+      - 
+        content: চেয়েনি
+        draft: contributed
+        type: chy
+      - 
+        content: চার্চ স্লাভিক
+        draft: contributed
+        type: cu
+      - 
+        content: অস্ট্রিয়ান জারমান
+        draft: contributed
+        type: de_AT
+      - 
+        content: ডোগরি
+        type: doi
+      - 
+        content: অস্ট্রেলিয়ান ইংরাজী
+        draft: contributed
+        type: en_AU
+      - 
+        content: ক্যানাডিয়ান ইংরেজি
+        draft: contributed
+        type: en_CA
+      - 
+        content: ব্রিটিশ ইংরেজী
+        draft: contributed
+        type: en_GB
+      - 
+        content: ক্যানাডিয়ান ফরাসী
+        draft: contributed
+        type: fr_CA
+      - 
+        content: অস্ট্রোনেসিয়ান
+        draft: contributed
+        type: map
+      - 
+        content: রেটো-রোমানীয়
+        draft: contributed
+        type: rm
+      - 
+        content: আরমেনিয়ান
+        draft: contributed
+        type: rup
+      - 
+        content: আলটাইক
+        draft: contributed
+        type: tut
+      - 
+        content: ব্লিসসিম্বলস
+        draft: contributed
+        type: zbl
+  localeDisplayPattern: 
+    localeKeyTypePattern: 
+      content: "{0}: {1}"
+      draft: contributed
+  territories: 
+    territory: 
+      content: সুইজর্লণ্ড
+      draft: contributed
+      type: CH
+  types: 
+    type: 
+      content: তামিল সংখ্যা
+      draft: contributed
+      key: numbers
+      type: taml
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - 
+            content: আরুবা গিল্ডার
+            draft: contributed
+          - 
+            content: আরুবা গিল্ডার
+            count: one
+            draft: contributed
+          - 
+            content: আরুবা গিল্ডার
+            count: other
+            draft: contributed
+        type: AWG
+      - 
+        displayName: 
+          - 
+            content: বার্বেডোজ ডলার
+            draft: contributed
+          - 
+            content: বার্বেডোজ ডলার
+            count: one
+            draft: contributed
+          - 
+            content: বার্বেডোজ ডলার
+            count: other
+            draft: contributed
+        type: BBD
+      - 
+        displayName: 
+          - 
+            content: বারমিউডান ডলার
+            draft: contributed
+          - 
+            content: বারমিউডান ডলার
+            count: one
+            draft: contributed
+          - 
+            content: বারমিউডান ডলার
+            count: other
+            draft: contributed
+        type: BMD
+      - 
+        displayName: 
+          - 
+            content: বাহামিয়ান ডলার
+            draft: contributed
+          - 
+            content: বাহামিয়ান ডলার
+            count: one
+            draft: contributed
+          - 
+            content: বাহামিয়ান ডলার
+            count: other
+            draft: contributed
+        type: BSD
+      - 
+        displayName: 
+          - 
+            content: বেলিজ ডলার
+            draft: contributed
+          - 
+            content: বেলিজ ডলার
+            count: one
+            draft: contributed
+          - 
+            content: বেলিজ ডলার
+            count: other
+            draft: contributed
+        type: BZD
+      - 
+        displayName: 
+          - 
+            content: কম্বোডিয়ান ডলার
+            draft: contributed
+          - 
+            content: কম্বোডিয়ান ডলার
+            count: one
+            draft: contributed
+          - 
+            content: কানাডিয়ান ডলার
+            count: other
+            draft: contributed
+        symbol: 
+          content: CA$
+          draft: contributed
+        type: CAD
+      - 
+        displayName: 
+          - 
+            content: কোস্টা রিকা কোলোন
+            draft: contributed
+          - 
+            content: কোস্টা রিকা কোলোন
+            count: one
+            draft: contributed
+          - 
+            content: কোস্টা রিকা কোলোন
+            count: other
+            draft: contributed
+        type: CRC
+      - 
+        displayName: 
+          - 
+            content: কিউবান রূপান্তরযোগ্য পেসো
+            draft: contributed
+          - 
+            content: কিউবান রূপান্তরযোগ্য পেসো
+            count: one
+            draft: contributed
+          - 
+            content: কিউবান রূপান্তরযোগ্য পেসো
+            count: other
+            draft: contributed
+        type: CUC
+      - 
+        displayName: 
+          - 
+            content: কিউবান পেসো
+            draft: contributed
+          - 
+            content: কিউবান পেসো
+            count: one
+            draft: contributed
+          - 
+            content: কিউবান পেসো
+            count: other
+            draft: contributed
+        type: CUP
+      - 
+        displayName: 
+          - 
+            content: হন্ডুরাস লেম্পিরা
+            draft: contributed
+          - 
+            content: হন্ডুরাস লেম্পিরা
+            count: one
+            draft: contributed
+          - 
+            content: হন্ডুরাস লেম্পিরা
+            count: other
+            draft: contributed
+        type: HNL
+      - 
+        displayName: 
+          - 
+            content: ম্যাক্সিকান পেসো
+            draft: contributed
+          - 
+            content: ম্যাক্সিকান পেসো
+            count: one
+            draft: contributed
+          - 
+            content: ম্যাক্সিকান পেসো
+            count: other
+            draft: contributed
+        symbol: 
+          content: MX$
+          draft: contributed
+        type: MXN
+      - 
+        displayName: 
+          - 
+            content: নিকারাগুয়ান কর্ডোবা
+            draft: contributed
+          - 
+            content: নিকারাগুয়ান কর্ডোবা
+            count: one
+            draft: contributed
+          - 
+            content: নিকারাগুয়ান কর্ডোবা
+            count: other
+            draft: contributed
+        type: NIO
+      - 
+        displayName: 
+          - 
+            content: পানামা বেলবোয়া
+            draft: contributed
+          - 
+            content: পানামা বেলবোয়া
+            count: one
+            draft: contributed
+          - 
+            content: পানামা বেলবোয়া
+            count: other
+            draft: contributed
+        type: PAB
+      - 
+        displayName: 
+          - 
+            content: মার্কিন ডলার
+            draft: contributed
+          - 
+            content: মার্কিন ডলার
+            count: one
+            draft: contributed
+          - 
+            content: মার্কিন ডলার
+            count: other
+            draft: contributed
+        symbol: 
+          content: US$
+          draft: contributed
+        type: USD

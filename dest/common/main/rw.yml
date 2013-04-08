@@ -1,0 +1,588 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e f g h i j k l m n o p q r s t u v w x y z]"
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, G y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: G y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG yy/MM/dd
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: yy/MM/dd
+              type: short
+        days: 
+          dayContext: 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: cyu.
+                    type: sun
+                  - 
+                    content: mbe.
+                    type: mon
+                  - 
+                    content: kab.
+                    type: tue
+                  - 
+                    content: gtu.
+                    type: wed
+                  - 
+                    content: kan.
+                    type: thu
+                  - 
+                    content: gnu.
+                    type: fri
+                  - 
+                    content: gnd.
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: Ku cyumweru
+                    type: sun
+                  - 
+                    content: Kuwa mbere
+                    type: mon
+                  - 
+                    content: Kuwa kabiri
+                    type: tue
+                  - 
+                    content: Kuwa gatatu
+                    type: wed
+                  - 
+                    content: Kuwa kane
+                    type: thu
+                  - 
+                    content: Kuwa gatanu
+                    type: fri
+                  - 
+                    content: Kuwa gatandatu
+                    type: sat
+                type: wide
+            type: format
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: mut.
+                    type: 1
+                  - 
+                    content: gas.
+                    type: 2
+                  - 
+                    content: wer.
+                    type: 3
+                  - 
+                    content: mat.
+                    type: 4
+                  - 
+                    content: gic.
+                    type: 5
+                  - 
+                    content: kam.
+                    type: 6
+                  - 
+                    content: nya.
+                    type: 7
+                  - 
+                    content: kan.
+                    type: 8
+                  - 
+                    content: nze.
+                    type: 9
+                  - 
+                    content: ukw.
+                    type: 10
+                  - 
+                    content: ugu.
+                    type: 11
+                  - 
+                    content: uku.
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: Mutarama
+                    type: 1
+                  - 
+                    content: Gashyantare
+                    type: 2
+                  - 
+                    content: Werurwe
+                    type: 3
+                  - 
+                    content: Mata
+                    type: 4
+                  - 
+                    content: Gicuransi
+                    type: 5
+                  - 
+                    content: Kamena
+                    type: 6
+                  - 
+                    content: Nyakanga
+                    type: 7
+                  - 
+                    content: Kanama
+                    type: 8
+                  - 
+                    content: Nzeli
+                    type: 9
+                  - 
+                    content: Ukwakira
+                    type: 10
+                  - 
+                    content: Ugushyingo
+                    type: 11
+                  - 
+                    content: Ukuboza
+                    type: 12
+                type: wide
+            type: format
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: I1
+                    type: 1
+                  - 
+                    content: I2
+                    type: 2
+                  - 
+                    content: I3
+                    type: 3
+                  - 
+                    content: I4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: igihembwe cya mbere
+                    type: 1
+                  - 
+                    content: igihembwe cya kabiri
+                    type: 2
+                  - 
+                    content: igihembwe cya gatatu
+                    type: 3
+                  - 
+                    content: igihembwe cya kane
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  timeZoneNames: 
+    gmtFormat: GMT{0}
+    hourFormat: +HH:mm;-HH:mm
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: rw
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Ikinyafurikaneri
+        type: af
+      - 
+        content: Inyamuhariki
+        type: am
+      - 
+        content: Icyarabu
+        type: ar
+      - 
+        content: Icyasamizi
+        type: as
+      - 
+        content: Inyazeribayijani
+        type: az
+      - 
+        content: Ikibelarusiya
+        type: be
+      - 
+        content: Urunyabuligariya
+        type: bg
+      - 
+        content: Inyebihari
+        type: bh
+      - 
+        content: Ikibengali
+        type: bn
+      - 
+        content: Inyebiritoni
+        type: br
+      - 
+        content: Inyebosiniya
+        type: bs
+      - 
+        content: Igikatalani
+        type: ca
+      - 
+        content: Igiceke
+        type: cs
+      - 
+        content: Ikigaluwa
+        type: cy
+      - 
+        content: Ikidaninwa
+        type: da
+      - 
+        content: Ikidage
+        type: de
+      - 
+        content: Ikigereki
+        type: el
+      - 
+        content: Icyongereza
+        type: en
+      - 
+        content: Icyesiperanto
+        type: eo
+      - 
+        content: Icyesipanyolo
+        type: es
+      - 
+        content: Icyesitoniya
+        type: et
+      - 
+        content: Ikibasiki
+        type: eu
+      - 
+        content: Inyeperisi
+        type: fa
+      - 
+        content: Igifinilande
+        type: fi
+      - 
+        content: Ikinyafilipine
+        type: fil
+      - 
+        content: Inyefaroyizi
+        type: fo
+      - 
+        content: Igifaransa
+        type: fr
+      - 
+        content: Igifiriziyani
+        type: fy
+      - 
+        content: Ikirilandi
+        type: ga
+      - 
+        content: Ikigaluwa cy'Igisweduwa
+        type: gd
+      - 
+        content: Ikigalisiya
+        type: gl
+      - 
+        content: Inyaguwarani
+        type: gn
+      - 
+        content: Inyegujarati
+        type: gu
+      - 
+        content: Igiheburayo
+        type: he
+      - 
+        content: Igihindi
+        type: hi
+      - 
+        content: Igikorowasiya
+        type: hr
+      - 
+        content: Igihongiriya
+        type: hu
+      - 
+        content: Ikinyarumeniya
+        type: hy
+      - 
+        content: Ururimi Gahuzamiryango
+        type: ia
+      - 
+        content: Ikinyendoziya
+        type: id
+      - 
+        content: Uruhuzandimi
+        type: ie
+      - 
+        content: Igisilande
+        type: is
+      - 
+        content: Igitaliyani
+        type: it
+      - 
+        content: Ikiyapani
+        type: ja
+      - 
+        content: Inyejava
+        type: jv
+      - 
+        content: Inyejeworujiya
+        type: ka
+      - 
+        content: Igikambodiya
+        type: km
+      - 
+        content: Igikanada
+        type: kn
+      - 
+        content: Igikoreya
+        type: ko
+      - 
+        content: Inyekuridishi
+        type: ku
+      - 
+        content: Inkerigizi
+        type: ky
+      - 
+        content: Ikilatini
+        type: la
+      - 
+        content: Ilingala
+        type: ln
+      - 
+        content: Ikilawotiyani
+        type: lo
+      - 
+        content: Ikilituwaniya
+        type: lt
+      - 
+        content: Ikinyaletoviyani
+        type: lv
+      - 
+        content: Ikimasedoniyani
+        type: mk
+      - 
+        content: Ikimalayalami
+        type: ml
+      - 
+        content: Ikimongoli
+        type: mn
+      - 
+        content: Ikimarati
+        type: mr
+      - 
+        content: Ikimalayi
+        type: ms
+      - 
+        content: Ikimaliteze
+        type: mt
+      - 
+        content: Ikinepali
+        type: ne
+      - 
+        content: Ikinerilande
+        type: nl
+      - 
+        content: Inyenoruveji (Nyonorusiki)
+        type: nn
+      - 
+        content: Ikinoruveji
+        type: 'no'
+      - 
+        content: Inyogusitani
+        type: oc
+      - 
+        content: Inyoriya
+        type: or
+      - 
+        content: Igipunjabi
+        type: pa
+      - 
+        content: Igipolone
+        type: pl
+      - 
+        content: Impashito
+        type: ps
+      - 
+        content: Igiporutugali
+        type: pt
+      - 
+        content: Inyeporutigali (Brezili)
+        type: pt_BR
+      - 
+        content: Inyeporutigali (Igiporutigali)
+        type: pt_PT
+      - 
+        content: Ikinyarumaniya
+        type: ro
+      - 
+        content: Ikirusiya
+        type: ru
+      - 
+        content: Kinyarwanda
+        type: rw
+      - 
+        content: Igisansikiri
+        type: sa
+      - 
+        content: Igisindi
+        type: sd
+      - 
+        content: Inyeseribiya na Korowasiya
+        type: sh
+      - 
+        content: Inyesimpaleze
+        type: si
+      - 
+        content: Igisilovaki
+        type: sk
+      - 
+        content: Ikinyasiloveniya
+        type: sl
+      - 
+        content: Igisomali
+        type: so
+      - 
+        content: Icyalubaniya
+        type: sq
+      - 
+        content: Igiseribe
+        type: sr
+      - 
+        content: Inyesesoto
+        type: st
+      - 
+        content: Inyesudani
+        type: su
+      - 
+        content: Igisuweduwa
+        type: sv
+      - 
+        content: Igiswahili
+        type: sw
+      - 
+        content: Igitamili
+        type: ta
+      - 
+        content: Igitelugu
+        type: te
+      - 
+        content: Igitayi
+        type: th
+      - 
+        content: Inyatigirinya
+        type: ti
+      - 
+        content: Inyeturukimeni
+        type: tk
+      - 
+        content: Inyekilingoni
+        type: tlh
+      - 
+        content: Igiturukiya
+        type: tr
+      - 
+        content: Inyetuwi
+        type: tw
+      - 
+        content: Ikiwiguri
+        type: ug
+      - 
+        content: Ikinyayukereni
+        type: uk
+      - 
+        content: Inyeyurudu
+        type: ur
+      - 
+        content: Inyeyuzubeki
+        type: uz
+      - 
+        content: Ikinyaviyetinamu
+        type: vi
+      - 
+        content: Inyehawusa
+        type: xh
+      - 
+        content: Inyeyidishi
+        type: yi
+      - 
+        content: Inyezulu
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Igitonga
+        type: TO
+numbers: 
+  currencies: 
+    currency: 
+      symbol: RF
+      type: RWF
+  symbols: 
+    decimal: ","
+    group: .
+    numberSystem: latn

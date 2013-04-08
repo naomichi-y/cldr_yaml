@@ -1,0 +1,4914 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[a {ai} {au} b c d {dz} e f g h i j k {kh} l m n {ng} {ngg} {ny} o p q r s {sy} t {ts} u {ua} v w x y z]"
+    - 
+      content: "[]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd/MM/y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/y G
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              MEd: 
+                content: E, d/M
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              yM: 
+                content: M/y G
+              yMEd: 
+                content: E, d/M/y G
+              yMMM: 
+                content: MMM y G
+              yMMMEd: 
+                content: E, d MMM y G
+              yMMMd: 
+                content: d MMM y G
+        type: buddhist
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, U MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: U MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: U MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y-M-d
+              type: short
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: Apr
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Jul
+                      type: 7
+                    - 
+                      content: Ogo
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: Okt
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Dis
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Jn
+                      type: 1
+                    - 
+                      content: Fb
+                      type: 2
+                    - 
+                      content: Mc
+                      type: 3
+                    - 
+                      content: Ap
+                      type: 4
+                    - 
+                      content: Me
+                      type: 5
+                    - 
+                      content: Ju
+                      type: 6
+                    - 
+                      content: Jl
+                      type: 7
+                    - 
+                      content: Og
+                      type: 8
+                    - 
+                      content: Sp
+                      type: 9
+                    - 
+                      content: Ok
+                      type: 10
+                    - 
+                      content: Nv
+                      type: 11
+                    - 
+                      content: Ds
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Januari
+                      type: 1
+                    - 
+                      content: Februari
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: April
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Julai
+                      type: 7
+                    - 
+                      content: Ogos
+                      type: 8
+                    - 
+                      content: September
+                      type: 9
+                    - 
+                      content: Oktober
+                      type: 10
+                    - 
+                      content: November
+                      type: 11
+                    - 
+                      content: Disember
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: Apr
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Jul
+                      type: 7
+                    - 
+                      content: Ogo
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: Okt
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Dis
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Jn
+                      type: 1
+                    - 
+                      content: Fe
+                      type: 2
+                    - 
+                      content: Mc
+                      type: 3
+                    - 
+                      content: Ap
+                      type: 4
+                    - 
+                      content: Me
+                      type: 5
+                    - 
+                      content: Ju
+                      type: 6
+                    - 
+                      content: Jl
+                      type: 7
+                    - 
+                      content: Og
+                      type: 8
+                    - 
+                      content: Sp
+                      type: 9
+                    - 
+                      content: Ok
+                      type: 10
+                    - 
+                      content: Nv
+                      type: 11
+                    - 
+                      content: Ds
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Januari
+                      type: 1
+                    - 
+                      content: Februari
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: April
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Julai
+                      type: 7
+                    - 
+                      content: Ogos
+                      type: 8
+                    - 
+                      content: September
+                      type: 9
+                    - 
+                      content: Oktober
+                      type: 10
+                    - 
+                      content: November
+                      type: 11
+                    - 
+                      content: Disember
+                      type: 12
+                  type: wide
+              type: stand-alone
+        type: chinese
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd/MM/y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hmm: 
+                content: H:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, d-M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d-M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M-y
+              yMEd: 
+                content: E, d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, d MMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M – E, d/M
+                  d: 
+                    content: E, d/M – E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM
+                  d: 
+                    content: E, d MMM – E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d–d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d/M – d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y – E, d/M/y
+                  d: 
+                    content: E, d/M/y – E, d/M/y
+                  "y": 
+                    content: E, d/M/y – E, d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, d MMM y – E, d MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM, y
+                  d: 
+                    content: d–d MMM y
+                  "y": 
+                    content: d MMM y – d MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hmm: 
+                content: H:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, d-M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d-M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M-y
+              yMEd: 
+                content: E, d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, d MMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M – E, d/M
+                  d: 
+                    content: E, d/M – E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM
+                  d: 
+                    content: E, d MMM – E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d–d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d/M – d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y – E, d/M/y
+                  d: 
+                    content: E, d/M/y – E, d/M/y
+                  "y": 
+                    content: E, d/M/y – E, d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, d MMM y – E, d MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM, y
+                  d: 
+                    content: d–d MMM y
+                  "y": 
+                    content: d MMM y – d MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: pg
+                    type: am
+                  - 
+                    content: ptg
+                    type: pm
+                type: abbreviated
+              - 
+                dayPeriod: 
+                  - 
+                    content: PG
+                    type: am
+                  - 
+                    content: PTG
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Ahd
+                      type: sun
+                    - 
+                      content: Isn
+                      type: mon
+                    - 
+                      content: Sel
+                      type: tue
+                    - 
+                      content: Rab
+                      type: wed
+                    - 
+                      content: Kha
+                      type: thu
+                    - 
+                      content: Jum
+                      type: fri
+                    - 
+                      content: Sab
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: A
+                      type: sun
+                    - 
+                      content: I
+                      type: mon
+                    - 
+                      content: S
+                      type: tue
+                    - 
+                      content: R
+                      type: wed
+                    - 
+                      content: K
+                      type: thu
+                    - 
+                      content: J
+                      type: fri
+                    - 
+                      content: S
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Ah
+                      type: sun
+                    - 
+                      content: Is
+                      type: mon
+                    - 
+                      content: Se
+                      type: tue
+                    - 
+                      content: Ra
+                      type: wed
+                    - 
+                      content: Kh
+                      type: thu
+                    - 
+                      content: Ju
+                      type: fri
+                    - 
+                      content: Sa
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: Ahad
+                      type: sun
+                    - 
+                      content: Isnin
+                      type: mon
+                    - 
+                      content: Selasa
+                      type: tue
+                    - 
+                      content: Rabu
+                      type: wed
+                    - 
+                      content: Khamis
+                      type: thu
+                    - 
+                      content: Jumaat
+                      type: fri
+                    - 
+                      content: Sabtu
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Ahd
+                      type: sun
+                    - 
+                      content: Isn
+                      type: mon
+                    - 
+                      content: Sel
+                      type: tue
+                    - 
+                      content: Rab
+                      type: wed
+                    - 
+                      content: Kha
+                      type: thu
+                    - 
+                      content: Jum
+                      type: fri
+                    - 
+                      content: Sab
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: A
+                      type: sun
+                    - 
+                      content: I
+                      type: mon
+                    - 
+                      content: S
+                      type: tue
+                    - 
+                      content: R
+                      type: wed
+                    - 
+                      content: K
+                      type: thu
+                    - 
+                      content: J
+                      type: fri
+                    - 
+                      content: S
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Ah
+                      type: sun
+                    - 
+                      content: Is
+                      type: mon
+                    - 
+                      content: Se
+                      type: tue
+                    - 
+                      content: Ra
+                      type: wed
+                    - 
+                      content: Kh
+                      type: thu
+                    - 
+                      content: Ju
+                      type: fri
+                    - 
+                      content: Sa
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: Ahad
+                      type: sun
+                    - 
+                      content: Isnin
+                      type: mon
+                    - 
+                      content: Selasa
+                      type: tue
+                    - 
+                      content: Rabu
+                      type: wed
+                    - 
+                      content: Khamis
+                      type: thu
+                    - 
+                      content: Jumaat
+                      type: fri
+                    - 
+                      content: Sabtu
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: S.M.
+                type: 0
+              - 
+                content: TM
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: Apr
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Jul
+                      type: 7
+                    - 
+                      content: Ogos
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: Okt
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Dis
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      type: 1
+                    - 
+                      content: F
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: A
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: J
+                      type: 6
+                    - 
+                      content: J
+                      type: 7
+                    - 
+                      content: O
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: D
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Januari
+                      type: 1
+                    - 
+                      content: Februari
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: April
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Julai
+                      type: 7
+                    - 
+                      content: Ogos
+                      type: 8
+                    - 
+                      content: September
+                      type: 9
+                    - 
+                      content: Oktober
+                      type: 10
+                    - 
+                      content: November
+                      type: 11
+                    - 
+                      content: Disember
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: Apr
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Jul
+                      type: 7
+                    - 
+                      content: Ogos
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: Okt
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Dis
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      type: 1
+                    - 
+                      content: F
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: A
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: J
+                      type: 6
+                    - 
+                      content: J
+                      type: 7
+                    - 
+                      content: O
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: D
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Januari
+                      type: 1
+                    - 
+                      content: Februari
+                      type: 2
+                    - 
+                      content: Mac
+                      type: 3
+                    - 
+                      content: April
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Julai
+                      type: 7
+                    - 
+                      content: Ogos
+                      type: 8
+                    - 
+                      content: September
+                      type: 9
+                    - 
+                      content: Oktober
+                      type: 10
+                    - 
+                      content: November
+                      type: 11
+                    - 
+                      content: Disember
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: Suku 1
+                      type: 1
+                    - 
+                      content: Suku Ke-2
+                      type: 2
+                    - 
+                      content: Suku Ke-3
+                      type: 3
+                    - 
+                      content: Suku Ke-4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: Suku pertama
+                      type: 1
+                    - 
+                      content: Suku Ke-2
+                      type: 2
+                    - 
+                      content: Suku Ke-3
+                      type: 3
+                    - 
+                      content: Suku Ke-4
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: Suku 1
+                      type: 1
+                    - 
+                      content: Suku Ke-2
+                      type: 2
+                    - 
+                      content: Suku Ke-3
+                      type: 3
+                    - 
+                      content: Suku Ke-4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: Suku pertama
+                      type: 1
+                    - 
+                      content: Suku Ke-2
+                      type: 2
+                    - 
+                      content: Suku Ke-3
+                      type: 3
+                    - 
+                      content: Suku Ke-4
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd/MM/y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/y G
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              MEd: 
+                content: E, d/M
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              yM: 
+                content: M/y G
+              yMEd: 
+                content: E, d/M/y G
+              yMMM: 
+                content: MMM y G
+              yMMMEd: 
+                content: E, d MMM y G
+              yMMMd: 
+                content: d MMM y G
+        type: islamic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd/MM/y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/y G
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              MEd: 
+                content: E, d/M
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              yM: 
+                content: M/y G
+              yMEd: 
+                content: E, d/M/y G
+              yMMM: 
+                content: MMM y G
+              yMMMEd: 
+                content: E, d MMM y G
+              yMMMd: 
+                content: d MMM y G
+        type: japanese
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd/MM/y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/y G
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              MEd: 
+                content: E, d/M
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              yM: 
+                content: M/y G
+              yMEd: 
+                content: E, d/M/y G
+              yMMM: 
+                content: MMM y G
+              yMMMEd: 
+                content: E, d MMM y G
+              yMMMd: 
+                content: d MMM y G
+        type: roc
+  fields: 
+    field: 
+      - 
+        displayName: Era
+        type: era
+      - 
+        displayName: Tahun
+        relative: 
+          - 
+            content: Tahun lepas
+            type: -1
+          - 
+            content: Tahun ini
+            type: 0
+          - 
+            content: Tahun depan
+            type: 1
+        type: year
+      - 
+        displayName: Bulan
+        relative: 
+          - 
+            content: Bulan lalu
+            type: -1
+          - 
+            content: Bulan ini
+            type: 0
+          - 
+            content: Bulan seterusnya
+            type: 1
+        type: month
+      - 
+        displayName: Minggu
+        relative: 
+          - 
+            content: Minggu lepas
+            type: -1
+          - 
+            content: Minggu ini
+            type: 0
+          - 
+            content: Minggu seterusnya
+            type: 1
+        type: week
+      - 
+        displayName: Hari
+        relative: 
+          - 
+            content: Hari sebelum semalam
+            type: -2
+          - 
+            content: Semalam
+            type: -1
+          - 
+            content: Hari ini
+            type: 0
+          - 
+            content: Esok
+            type: 1
+          - 
+            content: Hari selepas esok
+            type: 2
+        type: day
+      - 
+        displayName: Hari dalam Minggu
+        type: weekday
+      - 
+        displayName: PG/PTG
+        type: dayperiod
+      - 
+        displayName: Jam
+        type: hour
+      - 
+        displayName: Minit
+        type: minute
+      - 
+        displayName: Kedua
+        type: second
+      - 
+        displayName: Zon Waktu
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} Waktu ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: Waktu Afghanistan
+        type: Afghanistan
+      - 
+        long: 
+          standard: Waktu Afrika Tengah
+        type: Africa_Central
+      - 
+        long: 
+          standard: Waktu Afrika Timur
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Waktu Piawai Afrika Selatan
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Waktu Musim Panas Afrika Barat
+          generic: Waktu Afrika Barat
+          standard: Waktu Piawai Afrika Barat
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Waktu Siang Alaska
+          generic: Waktu Alaska
+          standard: Waktu Piawai Alaska
+        type: Alaska
+      - 
+        long: 
+          daylight: Waktu Musim Panas Amazon
+          generic: Waktu Amazon
+          standard: Waktu Piawai Amazon
+        type: Amazon
+      - 
+        long: 
+          daylight: Waktu Siang Tengah
+          generic: Waktu Pusat
+          standard: Waktu Piawai Pusat
+        type: America_Central
+      - 
+        long: 
+          daylight: Waktu Siang Timur
+          generic: Waktu Timur
+          standard: Waktu Piawai Timur
+        type: America_Eastern
+      - 
+        long: 
+          daylight: Waktu Hari Siang Pergunungan
+          generic: Waktu Gunung
+          standard: Waktu Piawai Pergunungan
+        type: America_Mountain
+      - 
+        long: 
+          daylight: Waktu Siang Pasifik
+          generic: Waktu Pasifik
+          standard: Waktu Piawai Pasifik
+        type: America_Pacific
+      - 
+        long: 
+          daylight: Waktu Musim Panas Anadyr
+          generic: Waktu Anadyr
+          standard: Waktu Piawai Anadyr
+        type: Anadyr
+      - 
+        long: 
+          daylight: Waktu Siang Arab
+          generic: Waktu Arab
+          standard: Waktu Piawai Arab
+        type: Arabian
+      - 
+        long: 
+          daylight: Waktu Musim Panas Argentina
+          generic: Waktu Argentina
+          standard: Waktu Piawai Argentina
+        type: Argentina
+      - 
+        long: 
+          daylight: Waktu Musim Panas Argentina Barat
+          generic: Waktu Argentina Barat
+          standard: Waktu Piawai Argentina Barat
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: Waktu Musim Panas Armenia
+          generic: Waktu Armenia
+          standard: Waktu Piawai Armenia
+        type: Armenia
+      - 
+        long: 
+          daylight: Waktu Siang Atlantik
+          generic: Waktu Atlantik
+          standard: Waktu Piawai Atlantik
+        type: Atlantic
+      - 
+        long: 
+          daylight: Waktu Siang Australia Tengah
+          generic: Waktu Australia Tengah
+          standard: Waktu Piawai Pusat Australia
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Waktu Siang Barat Australia Tengah
+          generic: Waktu Barat Pusat Australia
+          standard: Waktu Piawai Barat Pusat Australia
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Waktu Siang Australia Timur
+          generic: Waktu Australia Timur
+          standard: Waktu Piawai Timur Australia
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Waktu Siang Australia Barat
+          generic: Waktu Australia Barat
+          standard: Waktu Piawai Barat Australia
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Waktu Musim Panas Azerbaijan
+          generic: Waktu Azerbaijan
+          standard: Waktu Piawai Azerbaijan
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: Waktu Musim Panas Azores
+          generic: Waktu Azores
+          standard: Waktu Piawai Azores
+        type: Azores
+      - 
+        long: 
+          daylight: Waktu Musim Panas Bangladesh
+          generic: Waktu Bangladesh
+          standard: Waktu Piawai Bangladesh
+        type: Bangladesh
+      - 
+        long: 
+          standard: Waktu Bhutan
+        type: Bhutan
+      - 
+        long: 
+          standard: Waktu Bolivia
+        type: Bolivia
+      - 
+        long: 
+          daylight: Waktu Musim Panas Brasil
+          generic: Waktu Brasil
+          standard: Waktu Piawai Brasilia
+        type: Brasilia
+      - 
+        long: 
+          standard: Waktu Brunei Darussalam
+        type: Brunei
+      - 
+        long: 
+          daylight: Waktu Musim Panas Tanjung Verde
+          generic: Waktu Tanjung Verde
+          standard: Waktu Piawai Tanjung Verde
+        type: Cape_Verde
+      - 
+        long: 
+          standard: Waktu Piawai Chamorro
+        type: Chamorro
+      - 
+        long: 
+          daylight: Waktu Siang Chatham
+          generic: Waktu Chatham
+          standard: Waktu Piawai Chatham
+        type: Chatham
+      - 
+        long: 
+          daylight: Waktu Musim Panas Chile
+          generic: Waktu Chile
+          standard: Waktu Piawai Chile
+        type: Chile
+      - 
+        long: 
+          daylight: Waktu Siang China
+          generic: Waktu China
+          standard: Waktu Piawai China
+        type: China
+      - 
+        long: 
+          daylight: Waktu Musim Panas Choibalsan
+          generic: Waktu Choibalsan
+          standard: Waktu Piawai Choibalsan
+        type: Choibalsan
+      - 
+        long: 
+          standard: Waktu Pulau Christmas
+        type: Christmas
+      - 
+        long: 
+          standard: Waktu Kepulauan Cocos
+        type: Cocos
+      - 
+        long: 
+          daylight: Waktu Musim Panas Colombia
+          generic: Waktu Colombia
+          standard: Waktu Piawai Colombia
+        type: Colombia
+      - 
+        long: 
+          daylight: Waktu Musim Panas Separuh Kepulauan Cook
+          generic: Waktu Kepulauan Cook
+          standard: Waktu Piawai Kepulauan Cook
+        type: Cook
+      - 
+        long: 
+          daylight: Waktu Siang Cuba
+          generic: Waktu Cuba
+          standard: Waktu Piawai Cuba
+        type: Cuba
+      - 
+        long: 
+          standard: Waktu Davis
+        type: Davis
+      - 
+        long: 
+          standard: Waktu Dumont-d'Urville
+        type: DumontDUrville
+      - 
+        long: 
+          standard: Waktu Timor Timur
+        type: East_Timor
+      - 
+        long: 
+          daylight: Waktu Musim Panas Pulau Easter
+          generic: Waktu Pulau Easter
+          standard: Waktu Piawai Pulau Easter
+        type: Easter
+      - 
+        long: 
+          standard: Waktu Ecuador
+        type: Ecuador
+      - 
+        long: 
+          daylight: Waktu Musim Panas Eropah Tengah
+          generic: Waktu Eropah Tengah
+          standard: Waktu Piawai Eropah Tengah
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Waktu Musim Panas Eropah Timur
+          generic: Waktu Eropah Timur
+          standard: Waktu Piawai Eropah Timur
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Waktu Musim Panas Eropah Barat
+          generic: Waktu Eropah Barat
+          standard: Waktu Piawai Eropah Barat
+        type: Europe_Western
+      - 
+        long: 
+          daylight: Waktu Musim Panas Kepulauan Falkland
+          generic: Waktu Kepulauan Falkland
+          standard: Waktu Piawai Kepulauan Falkland
+        type: Falkland
+      - 
+        long: 
+          daylight: Waktu Musim Panas Fiji
+          generic: Waktu Fiji
+          standard: Waktu Piawai Fiji
+        type: Fiji
+      - 
+        long: 
+          standard: Waktu Guyana Perancis
+        type: French_Guiana
+      - 
+        long: 
+          standard: Waktu Perancis Selatan dan Antartika
+        type: French_Southern
+      - 
+        long: 
+          standard: Waktu Galapagos
+        type: Galapagos
+      - 
+        long: 
+          standard: Waktu Gambier
+        type: Gambier
+      - 
+        long: 
+          daylight: Waktu Musim Panas Georgia
+          generic: Waktu Georgia
+          standard: Waktu Piawai Georgia
+        type: Georgia
+      - 
+        long: 
+          standard: Waktu Kepulauan Gilbert
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: Waktu Min Greenwich
+        type: GMT
+      - 
+        long: 
+          daylight: Waktu Musim Panas Greenland Timur
+          generic: Waktu Greenland Timur
+          standard: Waktu Piawai Greenland Timur
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: Waktu Musim Panas Greenland Barat
+          generic: Waktu Greenland Barat
+          standard: Waktu Piawai Greenland Barat
+        type: Greenland_Western
+      - 
+        long: 
+          standard: Waktu Piawai Teluk
+        type: Gulf
+      - 
+        long: 
+          standard: Waktu Guyana
+        type: Guyana
+      - 
+        long: 
+          daylight: Waktu Siang Hawaii-Aleut
+          generic: Waktu Hawaii-Aleut
+          standard: Waktu Piawai Hawaii-Aleut
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: Waktu Musim Panas Hong Kong
+          generic: Waktu Hong Kong
+          standard: Waktu Piawai Hong Kong
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: Waktu Musim Panas Hovd
+          generic: Waktu Hovd
+          standard: Waktu Piawai Hovd
+        type: Hovd
+      - 
+        long: 
+          standard: Waktu Piawai India
+        type: India
+      - 
+        long: 
+          standard: Waktu Lautan Hindi
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: Waktu Indochina
+        type: Indochina
+      - 
+        long: 
+          standard: Waktu Indonesia Tengah
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: Waktu Indonesia Timur
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: Waktu Indonesia Barat
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: Waktu Siang Iran
+          generic: Waktu Iran
+          standard: Waktu Piawai Iran
+        type: Iran
+      - 
+        long: 
+          daylight: Waktu Musim Panas Irkutsk
+          generic: Waktu Irkutsk
+          standard: Waktu Piawai Irkutsk
+        type: Irkutsk
+      - 
+        long: 
+          daylight: Waktu Siang Israel
+          generic: Waktu Israel
+          standard: Waktu Piawai Israel
+        type: Israel
+      - 
+        long: 
+          daylight: Waktu Siang Jepun
+          generic: Waktu Jepun
+          standard: Waktu Piawai Jepun
+        type: Japan
+      - 
+        long: 
+          daylight: Waktu Musim Panas Petropavlovsk-Kamchatski
+          generic: Waktu Petropavlovsk-Kamchatski
+          standard: Waktu Piawai Petropavlovsk-Kamchatski
+        type: Kamchatka
+      - 
+        long: 
+          standard: Waktu Kazakhstan Timur
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: Waktu Kazakhstan Barat
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: Waktu Siang Korea
+          generic: Waktu Korea
+          standard: Waktu Piawai Korea
+        type: Korea
+      - 
+        long: 
+          standard: Waktu Kosrae
+        type: Kosrae
+      - 
+        long: 
+          daylight: Waktu Musim Panas Krasnoyarsk
+          generic: Waktu Krasnoyarsk
+          standard: Waktu Piawai Krasnoyarsk
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: Waktu Kyrgystan
+        type: Kyrgystan
+      - 
+        long: 
+          standard: Waktu Kepulauan Line
+        type: Line_Islands
+      - 
+        long: 
+          daylight: Waktu Siang Lord Howe
+          generic: Waktu Lord Howe
+          standard: Waktu Piawai Lord Howe
+        type: Lord_Howe
+      - 
+        long: 
+          standard: Waktu Pulau Macquarie
+        type: Macquarie
+      - 
+        long: 
+          daylight: Waktu Musim Panas Magadan
+          generic: Waktu Magadan
+          standard: Waktu Piawai Magadan
+        type: Magadan
+      - 
+        long: 
+          standard: Waktu Malaysia
+        type: Malaysia
+      - 
+        long: 
+          standard: Waktu Maldives
+        type: Maldives
+      - 
+        long: 
+          standard: Waktu Marquesas
+        type: Marquesas
+      - 
+        long: 
+          standard: Waktu Kepulauan Marshall
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: Waktu Musim Panas Mauritius
+          generic: Waktu Mauritius
+          standard: Waktu Piawai Mauritius
+        type: Mauritius
+      - 
+        long: 
+          standard: Waktu Mawson
+        type: Mawson
+      - 
+        long: 
+          daylight: Waktu Musim Panas Ulan Bator
+          generic: Waktu Ulan Bator
+          standard: Waktu Piawai Ulan Bator
+        type: Mongolia
+      - 
+        long: 
+          daylight: Waktu Musim Panas Moscow
+          generic: Waktu Moscow
+          standard: Waktu Piawai Moscow
+        type: Moscow
+      - 
+        long: 
+          standard: Waktu Myanmar
+        type: Myanmar
+      - 
+        long: 
+          standard: Waktu Nauru
+        type: Nauru
+      - 
+        long: 
+          standard: Waktu Nepal
+        type: Nepal
+      - 
+        long: 
+          daylight: Waktu Musim Panas New Caledonia
+          generic: Waktu New Caledonia
+          standard: Waktu Piawai New Caledonia
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: Waktu Siang New Zealand
+          generic: Waktu New Zealand
+          standard: Waktu Piawai New Zealand
+        type: New_Zealand
+      - 
+        long: 
+          daylight: Waktu Siang Newfoundland
+          generic: Waktu Newfoundland
+          standard: Waktu Piawai Newfoundland
+        type: Newfoundland
+      - 
+        long: 
+          standard: Waktu Niue
+        type: Niue
+      - 
+        long: 
+          standard: Waktu Kepulauan Norfolk
+        type: Norfolk
+      - 
+        long: 
+          daylight: Waktu Musim Panas Fernando de Noronha
+          generic: Waktu Fernando de Noronha
+          standard: Waktu Piawai Fernando de Noronha
+        type: Noronha
+      - 
+        long: 
+          daylight: Waktu Musim Panas Novosibirsk
+          generic: Waktu Novosibirsk
+          standard: Waktu Piawai Novosibirsk
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: Waktu Musim Panas Omsk
+          generic: Waktu Omsk
+          standard: Waktu Piawai Omsk
+        type: Omsk
+      - 
+        long: 
+          daylight: Waktu Musim Panas Pakistan
+          generic: Waktu Pakistan
+          standard: Waktu Piawai Pakistan
+        type: Pakistan
+      - 
+        long: 
+          standard: Waktu Palau
+        type: Palau
+      - 
+        long: 
+          standard: Waktu Papua New Guinea
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: Waktu Musim Panas Paraguay
+          generic: Waktu Paraguay
+          standard: Waktu Piawai Paraguay
+        type: Paraguay
+      - 
+        long: 
+          daylight: Waktu Musim Panas Peru
+          generic: Waktu Peru
+          standard: Waktu Piawai Peru
+        type: Peru
+      - 
+        long: 
+          daylight: Waktu Musim Panas Filipina
+          generic: Waktu Filipina
+          standard: Waktu Piawai Filipina
+        type: Philippines
+      - 
+        long: 
+          standard: Waktu Kepulauan Phoenix
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: Waktu Siang Saint Pierre dan Miquelon
+          generic: Waktu Saint Pierre dan Miquelon
+          standard: Waktu Piawai Saint Pierre dan Miquelon
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: Waktu Pitcairn
+        type: Pitcairn
+      - 
+        long: 
+          standard: Waktu Ponape
+        type: Ponape
+      - 
+        long: 
+          standard: Waktu Reunion
+        type: Reunion
+      - 
+        long: 
+          standard: Waktu Rothera
+        type: Rothera
+      - 
+        long: 
+          daylight: Waktu Musim Panas Sakhalin
+          generic: Waktu Skhalin
+          standard: Waktu Piawai Sakhalin
+        type: Sakhalin
+      - 
+        long: 
+          daylight: Waktu Musim Panas Samara
+          generic: Waktu Samara
+          standard: Waktu Piawai Samara
+        type: Samara
+      - 
+        long: 
+          daylight: Waktu Musim Panas Samoa
+          generic: Waktu Samoa
+          standard: Waktu Piawai Samoa
+        type: Samoa
+      - 
+        long: 
+          standard: Waktu Seychelles
+        type: Seychelles
+      - 
+        long: 
+          standard: Waktu Piawai Singapura
+        type: Singapore
+      - 
+        long: 
+          standard: Waktu Kepulauan Solomon
+        type: Solomon
+      - 
+        long: 
+          standard: Waktu Georgia Selatan
+        type: South_Georgia
+      - 
+        long: 
+          standard: Waktu Syowa
+        type: Syowa
+      - 
+        long: 
+          standard: Waktu Tahiti
+        type: Tahiti
+      - 
+        long: 
+          daylight: Waktu Siang Taipei
+          generic: Waktu Taipei
+          standard: Waktu Piawai Taipei
+        type: Taipei
+      - 
+        long: 
+          standard: Waktu Tajikistan
+        type: Tajikistan
+      - 
+        long: 
+          standard: Waktu Tokelau
+        type: Tokelau
+      - 
+        long: 
+          daylight: Waktu Musim Panas Tonga
+          generic: Waktu Tonga
+          standard: Waktu Piawai Tonga
+        type: Tonga
+      - 
+        long: 
+          standard: Waktu Chuuk
+        type: Truk
+      - 
+        long: 
+          daylight: Waktu Musim Panas Turkmenistan
+          generic: Waktu Turkmenistan
+          standard: Waktu Piawai Turkmenistan
+        type: Turkmenistan
+      - 
+        long: 
+          standard: Waktu Tuvalu
+        type: Tuvalu
+      - 
+        long: 
+          daylight: Waktu Musim Panas Uruguay
+          generic: Waktu Uruguay
+          standard: Waktu Piawai Uruguay
+        type: Uruguay
+      - 
+        long: 
+          daylight: Waktu Musim Panas Uzbekistan
+          generic: Waktu Uzbekistan
+          standard: Waktu Piawai Uzbekistan
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: Waktu Musim Panas Vanuatu
+          generic: Waktu Vanuatu
+          standard: Waktu Piawai Vanuatu
+        type: Vanuatu
+      - 
+        long: 
+          standard: Waktu Venezuela
+        type: Venezuela
+      - 
+        long: 
+          daylight: Waktu Musim Panas Vladivostok
+          generic: Waktu Vladivostok
+          standard: Waktu Piawai Vladivostok
+        type: Vladivostok
+      - 
+        long: 
+          daylight: Waktu Musim Panas Volgogra
+          generic: Waktu Volgograd
+          standard: Waktu Piawai Volgograd
+        type: Volgograd
+      - 
+        long: 
+          standard: Waktu Vostok
+        type: Vostok
+      - 
+        long: 
+          standard: Waktu Pulau Wake
+        type: Wake
+      - 
+        long: 
+          standard: Waktu Wallis dan Futuna
+        type: Wallis
+      - 
+        long: 
+          daylight: Waktu Musim Panas Yakutsk
+          generic: Waktu Yakutsk
+          standard: Waktu Piawai Yakutsk
+        type: Yakutsk
+      - 
+        long: 
+          daylight: Waktu Musim Panas Yekaterinburg
+          generic: Waktu Yekaterinburg
+          standard: Waktu Piawai Yekaterinburg
+        type: Yekaterinburg
+    regionFormat: Waktu {0}
+    zone: 
+      - 
+        exemplarCity: Bandar Tidak Diketahui
+        type: Etc/Unknown
+      - 
+        exemplarCity: Saint Barthelemy
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: St John
+        type: America/St_Johns
+      - 
+        long: 
+          daylight: Waktu Musim Panas British
+        type: Europe/London
+      - 
+        long: 
+          daylight: Waktu Musim Panas Ireland
+        type: Europe/Dublin
+      - 
+        exemplarCity: Singapura
+        type: Asia/Singapore
+      - 
+        exemplarCity: Lower Prince's Quarter
+        type: America/Lower_Princes
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ms
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} dan {1}"
+        type: 2
+      - 
+        content: "{0}, dan {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "{0}"
+        type: language
+      - 
+        content: "{0}"
+        type: script
+      - 
+        content: "{0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: Kalendar
+        type: calendar
+      - 
+        content: Abaikan Pengisihan Simbol
+        type: colAlternate
+      - 
+        content: Pengisihan Aksen Terbalik
+        type: colBackwards
+      - 
+        content: Penyusunan Huruf Besar/Huruf Kecil
+        type: colCaseFirst
+      - 
+        content: Pengisihan Sensitif Atur
+        type: colCaseLevel
+      - 
+        content: Pengisihan Kana
+        type: colHiraganaQuaternary
+      - 
+        content: Urutan Isihan
+        type: collation
+      - 
+        content: Pengisihan Ternormal
+        type: colNormalization
+      - 
+        content: Pengisihan Berangka
+        type: colNumeric
+      - 
+        content: Kekuatan Pengisihan
+        type: colStrength
+      - 
+        content: Mata wang
+        type: currency
+      - 
+        content: Nombor
+        type: numbers
+      - 
+        content: Zon Waktu
+        type: timezone
+      - 
+        content: Varian Tempat
+        type: va
+      - 
+        content: Isih Sebagai Simbol
+        type: variableTop
+      - 
+        content: Penggunaan Peribadi
+        type: x
+  languages: 
+    language: 
+      - 
+        content: Abkhazia
+        type: ab
+      - 
+        content: Akoli
+        type: ach
+      - 
+        content: Afrikaans
+        type: af
+      - 
+        content: Akan
+        type: ak
+      - 
+        content: Amharic
+        type: am
+      - 
+        content: Arab
+        type: ar
+      - 
+        content: Assam
+        type: as
+      - 
+        content: Aymara
+        type: ay
+      - 
+        content: Azerbaijan
+        type: az
+      - 
+        alt: short
+        content: Azeri
+        type: az
+      - 
+        content: Belarus
+        type: be
+      - 
+        content: Bemba
+        type: bem
+      - 
+        content: Bulgaria
+        type: bg
+      - 
+        content: Bihari
+        type: bh
+      - 
+        content: Benggala
+        type: bn
+      - 
+        content: Tibet
+        type: bo
+      - 
+        content: Breton
+        type: br
+      - 
+        content: Bosnia
+        type: bs
+      - 
+        content: Catalonia
+        type: ca
+      - 
+        content: Cherokee
+        type: chr
+      - 
+        content: Kurdi Sorani
+        type: ckb
+      - 
+        content: Corsica
+        type: co
+      - 
+        content: Czech
+        type: cs
+      - 
+        content: Wales
+        type: cy
+      - 
+        content: Denmark
+        type: da
+      - 
+        content: Jerman
+        type: de
+      - 
+        content: Jerman Austria
+        type: de_AT
+      - 
+        content: Jerman Halus Switzerland
+        type: de_CH
+      - 
+        content: Divehi
+        type: dv
+      - 
+        content: Dzongkha
+        type: dz
+      - 
+        content: Ewe
+        type: ee
+      - 
+        content: Efik
+        type: efi
+      - 
+        content: Greek
+        type: el
+      - 
+        content: Inggeris
+        type: en
+      - 
+        content: Inggeris Australia
+        type: en_AU
+      - 
+        content: Inggeris Kanada
+        type: en_CA
+      - 
+        content: Inggeris British
+        type: en_GB
+      - 
+        content: Bahasa Inggeris AS
+        type: en_US
+      - 
+        content: Esperanto
+        type: eo
+      - 
+        content: Sepanyol
+        type: es
+      - 
+        content: Sepanyol Amerika Latin
+        type: es_419
+      - 
+        content: Sepanyol Eropah
+        type: es_ES
+      - 
+        content: Estonia
+        type: et
+      - 
+        content: Basque
+        type: eu
+      - 
+        content: Parsi
+        type: fa
+      - 
+        content: Finland
+        type: fi
+      - 
+        content: Filipina
+        type: fil
+      - 
+        content: Fiji
+        type: fj
+      - 
+        content: Faroe
+        type: fo
+      - 
+        content: Perancis
+        type: fr
+      - 
+        content: Perancis Kanada
+        type: fr_CA
+      - 
+        content: Perancis Switzerland
+        type: fr_CH
+      - 
+        content: Frisian
+        type: fy
+      - 
+        content: Ireland
+        type: ga
+      - 
+        content: Ga
+        type: gaa
+      - 
+        content: Scots Gaelic
+        draft: contributed
+        type: gd
+      - 
+        content: Galicia
+        type: gl
+      - 
+        content: Guarani
+        type: gn
+      - 
+        content: Jerman Switzerland
+        type: gsw
+      - 
+        content: Gujerat
+        type: gu
+      - 
+        content: Hausa
+        type: ha
+      - 
+        content: Hawaii
+        type: haw
+      - 
+        content: Ibrani
+        type: he
+      - 
+        content: Hindi
+        type: hi
+      - 
+        content: Croat
+        type: hr
+      - 
+        content: Haiti
+        type: ht
+      - 
+        content: Hungary
+        type: hu
+      - 
+        content: Armenia
+        type: hy
+      - 
+        content: Interlingua
+        type: ia
+      - 
+        content: Indonesia
+        type: id
+      - 
+        content: Interlingue
+        draft: unconfirmed
+        type: ie
+      - 
+        content: Igbo
+        type: ig
+      - 
+        content: Iceland
+        type: is
+      - 
+        content: Itali
+        type: it
+      - 
+        content: Jepun
+        type: ja
+      - 
+        content: Jawa
+        type: jv
+      - 
+        content: Georgia
+        type: ka
+      - 
+        content: Kongo
+        type: kg
+      - 
+        content: Kazakhstan
+        type: kk
+      - 
+        content: Khmer
+        type: km
+      - 
+        content: Kannada
+        type: kn
+      - 
+        content: Korea
+        type: ko
+      - 
+        content: Kashmir
+        type: ks
+      - 
+        content: Kurdish
+        type: ku
+      - 
+        content: Kirghiz
+        type: ky
+      - 
+        content: Latin
+        type: la
+      - 
+        content: Luxembourg
+        type: lb
+      - 
+        content: Ganda
+        type: lg
+      - 
+        content: Lingala
+        draft: contributed
+        type: ln
+      - 
+        content: Laos
+        type: lo
+      - 
+        content: Lozi
+        type: loz
+      - 
+        content: Lithuania
+        type: lt
+      - 
+        content: Luba-Lulua
+        type: lua
+      - 
+        content: Latvia
+        type: lv
+      - 
+        content: Morisyen
+        type: mfe
+      - 
+        content: Malagasy
+        type: mg
+      - 
+        content: Maori
+        type: mi
+      - 
+        content: Macedonia
+        type: mk
+      - 
+        content: Malayalam
+        type: ml
+      - 
+        content: Mongolia
+        draft: contributed
+        type: mn
+      - 
+        content: Marathi
+        type: mr
+      - 
+        content: Bahasa Melayu
+        type: ms
+      - 
+        content: Malta
+        type: mt
+      - 
+        content: Burma
+        type: my
+      - 
+        content: Bokmål Norway
+        type: nb
+      - 
+        content: Ndebele Utara
+        type: nd
+      - 
+        content: Nepal
+        type: ne
+      - 
+        content: Belanda
+        type: nl
+      - 
+        content: Flemish
+        type: nl_BE
+      - 
+        content: Nynorsk Norway
+        type: nn
+      - 
+        content: Norway
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: Sotho Utara
+        type: nso
+      - 
+        content: Nyanja
+        type: ny
+      - 
+        content: Nyankole
+        type: nyn
+      - 
+        content: Occitania
+        type: oc
+      - 
+        content: Oromo
+        type: om
+      - 
+        content: Oriya
+        type: or
+      - 
+        content: Ossete
+        type: os
+      - 
+        content: Punjabi
+        type: pa
+      - 
+        content: Poland
+        type: pl
+      - 
+        content: Pashto
+        type: ps
+      - 
+        alt: variant
+        content: Pushto
+        type: ps
+      - 
+        content: Portugis
+        type: pt
+      - 
+        content: Portugis Brazil
+        type: pt_BR
+      - 
+        content: Portugis Eropah
+        type: pt_PT
+      - 
+        content: Quechua
+        type: qu
+      - 
+        content: Romansh
+        type: rm
+      - 
+        content: Rundi
+        type: rn
+      - 
+        content: Romania
+        type: ro
+      - 
+        content: Rusia
+        type: ru
+      - 
+        content: Kinyarwanda
+        type: rw
+      - 
+        content: Sanskrit
+        type: sa
+      - 
+        content: Sindhi
+        type: sd
+      - 
+        content: Sami Utara
+        type: se
+      - 
+        content: Sango
+        type: sg
+      - 
+        content: SerboCroatia
+        draft: contributed
+        type: sh
+      - 
+        content: Sinhala
+        type: si
+      - 
+        content: Slovak
+        type: sk
+      - 
+        content: Slovenia
+        type: sl
+      - 
+        content: Samoa
+        type: sm
+      - 
+        content: Shona
+        type: sn
+      - 
+        content: Somali
+        type: so
+      - 
+        content: Albania
+        type: sq
+      - 
+        content: Serbia
+        type: sr
+      - 
+        content: Swati
+        type: ss
+      - 
+        content: Sotho Selatan
+        type: st
+      - 
+        content: Sunda
+        type: su
+      - 
+        content: Sweden
+        type: sv
+      - 
+        content: Swahili
+        type: sw
+      - 
+        content: Tamil
+        type: ta
+      - 
+        content: Telugu
+        type: te
+      - 
+        content: Tetum
+        type: tet
+      - 
+        content: Tajik
+        type: tg
+      - 
+        content: Thai
+        type: th
+      - 
+        content: Tigrinya
+        type: ti
+      - 
+        content: Turkmen
+        type: tk
+      - 
+        content: Klingon
+        type: tlh
+      - 
+        content: Tswana
+        type: tn
+      - 
+        content: Tonga
+        type: to
+      - 
+        content: Tok Pisin
+        type: tpi
+      - 
+        content: Turki
+        type: tr
+      - 
+        content: Tsonga
+        type: ts
+      - 
+        content: Tatar
+        type: tt
+      - 
+        content: Tumbuka
+        type: tum
+      - 
+        content: Twi
+        draft: unconfirmed
+        type: tw
+      - 
+        content: Tahiti
+        type: ty
+      - 
+        content: Uighur
+        type: ug
+      - 
+        alt: variant
+        content: Uyghur
+        type: ug
+      - 
+        content: Ukraine
+        type: uk
+      - 
+        content: Bahasa Tidak Diketahui
+        type: und
+      - 
+        content: Urdu
+        type: ur
+      - 
+        content: Uzbekistan
+        type: uz
+      - 
+        content: Venda
+        type: ve
+      - 
+        content: Vietnam
+        type: vi
+      - 
+        content: Wolof
+        type: wo
+      - 
+        content: Xhosa
+        type: xh
+      - 
+        content: Yiddish
+        type: yi
+      - 
+        content: Yoruba
+        type: yo
+      - 
+        content: Cina
+        type: zh
+      - 
+        content: Cina Ringkas
+        type: zh_Hans
+      - 
+        content: Cina Tradisional
+        type: zh_Hant
+      - 
+        content: Zulu
+        type: zu
+      - 
+        content: Tidak kandungan linguistik
+        type: zxx
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}: {1}"
+    localePattern: "{0} ({1})"
+    localeSeparator: ","
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Metrik
+        type: metric
+      - 
+        content: UK
+        type: UK
+      - 
+        content: AS
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: Arab
+        type: Arab
+      - 
+        alt: variant
+        content: Perso-Arab
+        type: Arab
+      - 
+        content: Armenia
+        type: Armn
+      - 
+        content: Bengali
+        type: Beng
+      - 
+        content: Bopomofo
+        type: Bopo
+      - 
+        content: Braille
+        type: Brai
+      - 
+        content: Cyril
+        type: Cyrl
+      - 
+        content: Devanagari
+        type: Deva
+      - 
+        content: Ethiopia
+        type: Ethi
+      - 
+        content: Georgia
+        type: Geor
+      - 
+        content: Greek
+        type: Grek
+      - 
+        content: Gujarat
+        type: Gujr
+      - 
+        content: Gurmukhi
+        type: Guru
+      - 
+        content: Hangul
+        type: Hang
+      - 
+        content: Han
+        type: Hani
+      - 
+        content: Ringkas
+        type: Hans
+      - 
+        alt: stand-alone
+        content: Han Ringkas
+        type: Hans
+      - 
+        content: Tradisional
+        type: Hant
+      - 
+        alt: stand-alone
+        content: Han Tradisional
+        type: Hant
+      - 
+        content: Ibrani
+        type: Hebr
+      - 
+        content: Hiragana
+        type: Hira
+      - 
+        content: Jepun
+        type: Jpan
+      - 
+        content: Katakana
+        type: Kana
+      - 
+        content: Khmer
+        type: Khmr
+      - 
+        content: Kannada
+        type: Knda
+      - 
+        content: Korea
+        type: Kore
+      - 
+        content: Lao
+        type: Laoo
+      - 
+        content: Latin
+        type: Latn
+      - 
+        content: Malayalam
+        type: Mlym
+      - 
+        content: Mongolia
+        type: Mong
+      - 
+        content: Myammar
+        type: Mymr
+      - 
+        content: Oriya
+        type: Orya
+      - 
+        content: Sinhala
+        type: Sinh
+      - 
+        content: Tamil
+        type: Taml
+      - 
+        content: Telugu
+        type: Telu
+      - 
+        content: Thaana
+        type: Thaa
+      - 
+        content: Thai
+        type: Thai
+      - 
+        content: Tibet
+        type: Tibt
+      - 
+        content: Simbol
+        type: Zsym
+      - 
+        content: Tidak ditulis
+        type: Zxxx
+      - 
+        content: Biasa
+        type: Zyyy
+      - 
+        content: Skrip Tidak Diketahui
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Dunia
+        type: '001'
+      - 
+        content: Afrika
+        type: '002'
+      - 
+        content: Amerika Utara
+        type: '003'
+      - 
+        content: Amerika Selatan
+        type: '005'
+      - 
+        content: Oceania
+        type: '009'
+      - 
+        content: Afrika Barat
+        type: '011'
+      - 
+        content: Amerika Tengah
+        type: '013'
+      - 
+        content: Afrika Timur
+        type: '014'
+      - 
+        content: Afrika Utara
+        type: '015'
+      - 
+        content: Afrika Tengah
+        type: '017'
+      - 
+        content: Selatan Afrika
+        type: '018'
+      - 
+        content: Amerika
+        type: '019'
+      - 
+        content: Utara Amerika
+        type: '021'
+      - 
+        content: Caribbean
+        type: '029'
+      - 
+        content: Asia Timur
+        type: '030'
+      - 
+        content: Asia Selatan
+        type: '034'
+      - 
+        content: Asia Tenggara
+        type: '035'
+      - 
+        content: Eropah Selatan
+        type: '039'
+      - 
+        content: Australasia
+        type: '053'
+      - 
+        content: Melanesia
+        type: '054'
+      - 
+        content: Wilayah Mikronesia
+        type: '057'
+      - 
+        content: Polinesia
+        type: '061'
+      - 
+        content: Asia
+        type: 142
+      - 
+        content: Asia Tengah
+        type: 143
+      - 
+        content: Asia Barat
+        type: 145
+      - 
+        content: Eropah
+        type: 150
+      - 
+        content: Eropah Timur
+        type: 151
+      - 
+        content: Eropah Utara
+        type: 154
+      - 
+        content: Eropah Barat
+        type: 155
+      - 
+        content: Amerika Latin
+        type: 419
+      - 
+        content: Pulau Ascension
+        type: AC
+      - 
+        content: Andorra
+        type: AD
+      - 
+        content: Emiriah Arab Bersatu
+        type: AE
+      - 
+        content: Afghanistan
+        type: AF
+      - 
+        content: Antigua dan Barbuda
+        type: AG
+      - 
+        content: Anguilla
+        type: AI
+      - 
+        content: Albania
+        type: AL
+      - 
+        content: Armenia
+        type: AM
+      - 
+        content: Netherlands Antilles
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Antarctica
+        type: AQ
+      - 
+        content: Argentina
+        type: AR
+      - 
+        content: American Samoa
+        type: AS
+      - 
+        content: Austria
+        type: AT
+      - 
+        content: Australia
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Kepulauan Åland
+        type: AX
+      - 
+        content: Azerbaijan
+        type: AZ
+      - 
+        content: Bosnia dan Herzegovina
+        type: BA
+      - 
+        content: Barbados
+        type: BB
+      - 
+        content: Bangladesh
+        type: BD
+      - 
+        content: Belgium
+        type: BE
+      - 
+        content: Burkina Faso
+        type: BF
+      - 
+        content: Bulgaria
+        type: BG
+      - 
+        content: Bahrain
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benin
+        type: BJ
+      - 
+        content: Saint Barthélemy
+        type: BL
+      - 
+        content: Bermuda
+        type: BM
+      - 
+        content: Brunei
+        type: BN
+      - 
+        content: Bolivia
+        type: BO
+      - 
+        content: Caribbean Belanda
+        type: BQ
+      - 
+        content: Brazil
+        type: BR
+      - 
+        content: Bahamas
+        type: BS
+      - 
+        content: Bhutan
+        type: BT
+      - 
+        content: Bouvet Island
+        type: BV
+      - 
+        content: Botswana
+        type: BW
+      - 
+        content: Belarus
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Cocos [Keeling] Islands
+        type: CC
+      - 
+        content: Congo - Kinshasa
+        type: CD
+      - 
+        alt: variant
+        content: Congo [DRC]
+        type: CD
+      - 
+        content: Republik Afrika Tengah
+        type: CF
+      - 
+        content: Congo - Brazzaville
+        type: CG
+      - 
+        alt: variant
+        content: Congo [Republik]
+        type: CG
+      - 
+        content: Switzerland
+        type: CH
+      - 
+        content: Côte d’Ivoire
+        type: CI
+      - 
+        alt: variant
+        content: Ivory Coast
+        type: CI
+      - 
+        content: Cook Islands
+        type: CK
+      - 
+        content: Cile
+        type: CL
+      - 
+        content: Kamerun
+        type: CM
+      - 
+        content: China
+        type: CN
+      - 
+        content: Colombia
+        type: CO
+      - 
+        content: Pulau Clipperton
+        type: CP
+      - 
+        content: Kosta Rika
+        type: CR
+      - 
+        content: Cuba
+        type: CU
+      - 
+        content: Cape Verde
+        type: CV
+      - 
+        content: Curacao
+        type: CW
+      - 
+        content: Christmas Island
+        type: CX
+      - 
+        content: Kibris
+        type: CY
+      - 
+        content: Republik Czech
+        type: CZ
+      - 
+        content: Jerman
+        type: DE
+      - 
+        content: Diego Garcia
+        type: DG
+      - 
+        content: Jibouti
+        type: DJ
+      - 
+        content: Denmark
+        type: DK
+      - 
+        content: Dominica
+        type: DM
+      - 
+        content: Republik Dominican
+        type: DO
+      - 
+        content: Aljazair
+        type: DZ
+      - 
+        content: Ceuta dan Melilla
+        type: EA
+      - 
+        content: Ecuador
+        type: EC
+      - 
+        content: Estonia
+        type: EE
+      - 
+        content: Mesir
+        type: EG
+      - 
+        content: Sahara Barat
+        type: EH
+      - 
+        content: Eritrea
+        type: ER
+      - 
+        content: Sepanyol
+        type: ES
+      - 
+        content: Ethiopia
+        type: ET
+      - 
+        content: Kesatuan Eropah
+        type: EU
+      - 
+        content: Finland
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Falkland Islands
+        type: FK
+      - 
+        alt: variant
+        content: Kepulauan Falkland [Islas Malvinas]
+        type: FK
+      - 
+        content: Micronesia
+        type: FM
+      - 
+        content: Faroe Islands
+        type: FO
+      - 
+        content: Perancis
+        type: FR
+      - 
+        content: Gabon
+        type: GA
+      - 
+        content: United Kingdom
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Georgia
+        type: GE
+      - 
+        content: French Guiana
+        type: GF
+      - 
+        content: Guernsey
+        type: GG
+      - 
+        content: Ghana
+        type: GH
+      - 
+        content: Gibraltar
+        type: GI
+      - 
+        content: Greenland
+        type: GL
+      - 
+        content: Gambia
+        type: GM
+      - 
+        content: Guinea
+        type: GN
+      - 
+        content: Guadeloupe
+        type: GP
+      - 
+        content: Equatorial Guinea
+        type: GQ
+      - 
+        content: Yunani
+        type: GR
+      - 
+        content: South Georgia and the South Sandwich Islands
+        type: GS
+      - 
+        content: Guatemala
+        type: GT
+      - 
+        content: Guam
+        type: GU
+      - 
+        content: Guinea Bissau
+        type: GW
+      - 
+        content: Guyana
+        type: GY
+      - 
+        content: Hong Kong SAR China
+        type: HK
+      - 
+        alt: short
+        content: Hong Kong
+        type: HK
+      - 
+        content: Heard Island and McDonald Islands
+        type: HM
+      - 
+        content: Honduras
+        type: HN
+      - 
+        content: Croatia
+        type: HR
+      - 
+        content: Haiti
+        type: HT
+      - 
+        content: Hungari
+        type: HU
+      - 
+        content: Kepulauan Canary
+        type: IC
+      - 
+        content: Indonesia
+        type: ID
+      - 
+        content: Ireland
+        type: IE
+      - 
+        content: Israel
+        type: IL
+      - 
+        content: Isle of Man
+        type: IM
+      - 
+        content: India
+        type: IN
+      - 
+        content: British Indian Ocean Territory
+        type: IO
+      - 
+        content: Iraq
+        type: IQ
+      - 
+        content: Iran
+        type: IR
+      - 
+        content: Iceland
+        type: IS
+      - 
+        content: Itali
+        type: IT
+      - 
+        content: Jersey
+        type: JE
+      - 
+        content: Jamaika
+        type: JM
+      - 
+        content: Jordan
+        type: JO
+      - 
+        content: Jepun
+        type: JP
+      - 
+        content: Kenya
+        type: KE
+      - 
+        content: Kyrgyzstan
+        type: KG
+      - 
+        content: Kemboja
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Comoros
+        type: KM
+      - 
+        content: Saint Kitts dan Nevis
+        type: KN
+      - 
+        content: Utara Korea
+        type: KP
+      - 
+        content: Selatan Korea
+        type: KR
+      - 
+        content: Kuwait
+        type: KW
+      - 
+        content: Cayman Islands
+        type: KY
+      - 
+        content: Kazakhstan
+        type: KZ
+      - 
+        content: Laos
+        type: LA
+      - 
+        content: Lubnan
+        type: LB
+      - 
+        content: Saint Lucia
+        type: LC
+      - 
+        content: Liechtenstein
+        type: LI
+      - 
+        content: Sri Lanka
+        type: LK
+      - 
+        content: Liberia
+        type: LR
+      - 
+        content: Lesotho
+        type: LS
+      - 
+        content: Lithuania
+        type: LT
+      - 
+        content: Luksembourg
+        type: LU
+      - 
+        content: Latvia
+        type: LV
+      - 
+        content: Libya
+        type: LY
+      - 
+        content: Maghribi
+        type: MA
+      - 
+        content: Monaco
+        type: MC
+      - 
+        content: Moldova
+        type: MD
+      - 
+        content: Montenegro
+        type: ME
+      - 
+        content: Saint Martin
+        type: MF
+      - 
+        content: Madagaskar
+        type: MG
+      - 
+        content: Kepulauan Marshall
+        type: MH
+      - 
+        content: Macedonia
+        type: MK
+      - 
+        alt: variant
+        content: Macedonia [FYROM]
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myanmar [Burma]
+        type: MM
+      - 
+        content: Mongolia
+        type: MN
+      - 
+        content: Macau SAR China
+        type: MO
+      - 
+        alt: short
+        content: Macau
+        type: MO
+      - 
+        content: Northern Mariana Islands
+        type: MP
+      - 
+        content: Martinique
+        type: MQ
+      - 
+        content: Mauritania
+        type: MR
+      - 
+        content: Montserrat
+        type: MS
+      - 
+        content: Malta
+        type: MT
+      - 
+        content: Mauritius
+        type: MU
+      - 
+        content: Maldiv
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Meksiko
+        type: MX
+      - 
+        content: Malaysia
+        type: MY
+      - 
+        content: Mozambik
+        type: MZ
+      - 
+        content: Namibia
+        type: NA
+      - 
+        content: New Caledonia
+        type: NC
+      - 
+        content: Niger
+        type: NE
+      - 
+        content: Norfolk Island
+        type: NF
+      - 
+        content: Nigeria
+        type: NG
+      - 
+        content: Nicaragua
+        type: NI
+      - 
+        content: Belanda
+        type: NL
+      - 
+        content: Norway
+        type: 'NO'
+      - 
+        content: Nepal
+        type: NP
+      - 
+        content: Nauru
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: New Zealand
+        type: NZ
+      - 
+        content: Oman
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Polinesia Perancis
+        type: PF
+      - 
+        content: Papua New Guinea
+        type: PG
+      - 
+        content: Filipina
+        type: PH
+      - 
+        content: Pakistan
+        type: PK
+      - 
+        content: Poland
+        type: PL
+      - 
+        content: Saint Pierre and Miquelon
+        type: PM
+      - 
+        content: Kepulauan Pitcairn
+        type: PN
+      - 
+        content: Puerto Rico
+        type: PR
+      - 
+        content: Wilayah Palestin
+        type: PS
+      - 
+        alt: short
+        content: Palestin
+        type: PS
+      - 
+        content: Feringgi
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paraguay
+        type: PY
+      - 
+        content: Qatar
+        type: QA
+      - 
+        content: Oceania Terpencil
+        type: QO
+      - 
+        content: Réunion
+        type: RE
+      - 
+        content: Romania
+        type: RO
+      - 
+        content: Serbia
+        type: RS
+      - 
+        content: Rusia
+        type: RU
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Arab Saudi
+        type: SA
+      - 
+        content: Kepulauan Solomon
+        type: SB
+      - 
+        content: Seychelles
+        type: SC
+      - 
+        content: Sudan
+        type: SD
+      - 
+        content: Sweden
+        type: SE
+      - 
+        content: Singapura
+        type: SG
+      - 
+        content: Saint Helena
+        type: SH
+      - 
+        content: Slovenia
+        type: SI
+      - 
+        content: Svalbard and Jan Mayen
+        type: SJ
+      - 
+        content: Slovakia
+        type: SK
+      - 
+        content: Siera Leon
+        type: SL
+      - 
+        content: San Marino
+        type: SM
+      - 
+        content: Senegal
+        type: SN
+      - 
+        content: Somalia
+        type: SO
+      - 
+        content: Surinam
+        type: SR
+      - 
+        content: Sudan Selatan
+        type: SS
+      - 
+        content: São Tomé dan Príncipe
+        type: ST
+      - 
+        content: El Salvador
+        type: SV
+      - 
+        content: Sint Maarten
+        type: SX
+      - 
+        content: Syria
+        type: SY
+      - 
+        content: Swaziland
+        type: SZ
+      - 
+        content: Tristan da Cunha
+        type: TA
+      - 
+        content: Turks and Caicos Islands
+        type: TC
+      - 
+        content: Cad
+        type: TD
+      - 
+        content: French Southern Territories
+        type: TF
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Thailand
+        type: TH
+      - 
+        content: Tadjikistan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Timor-Leste
+        type: TL
+      - 
+        alt: variant
+        content: Timor Timur
+        type: TL
+      - 
+        content: Turkmenistan
+        type: TM
+      - 
+        content: Tunisia
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Turki
+        type: TR
+      - 
+        content: Trinidad dan Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwan
+        type: TW
+      - 
+        content: Tanzania
+        type: TZ
+      - 
+        content: Ukraine
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: United States Minor Outlying Islands
+        type: UM
+      - 
+        content: Amerika Syarikat
+        type: US
+      - 
+        content: Uruguay
+        type: UY
+      - 
+        content: Uzbekistan
+        type: UZ
+      - 
+        content: Kota Vatican
+        type: VA
+      - 
+        content: Saint Vincent dan Grenadines
+        type: VC
+      - 
+        content: Venezuela
+        type: VE
+      - 
+        content: British Virgin Islands
+        type: VG
+      - 
+        content: U.S. Virgin Islands
+        type: VI
+      - 
+        content: Vietnam
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Wallis and Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Yaman
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Afrika Selatan
+        type: ZA
+      - 
+        content: Zambia
+        type: ZM
+      - 
+        content: Zimbabwe
+        type: ZW
+      - 
+        content: Wilayah Tidak Diketahui
+        type: ZZ
+  transformNames: 
+    transformName: 
+      - 
+        content: BGN
+        type: BGN
+      - 
+        content: Bernombor
+        type: Numeric
+      - 
+        content: Nada
+        type: Tone
+      - 
+        content: UNGEGN
+        type: UNGEGN
+      - 
+        content: Aksen
+        type: x-Accents
+      - 
+        content: Kelebaran penuh
+        type: x-Fullwidth
+      - 
+        content: Kelebaran separa
+        type: x-Halfwidth
+      - 
+        content: Jamo
+        type: x-Jamo
+      - 
+        content: Pinyin
+        type: x-Pinyin
+      - 
+        content: Penerbitan
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: Kalendar Minguo
+        type: roc
+      colAlternate: 
+        content: Isih Mengabaikan Simbol
+        type: shifted
+      colBackwards: 
+        content: Isih Aksen Terbalik
+        type: 'yes'
+      colCaseFirst: 
+        content: Isih Huruf Besar Dahulu
+        type: upper
+      colCaseLevel: 
+        content: Isih Sensitif Atur
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: Isih Kana Secara Berbeza
+        type: 'yes'
+      colNormalization: 
+        content: Isih Unikod Ternormal
+        type: 'yes'
+      colNumeric: 
+        content: Isih Digit Mengikut Nombor
+        type: 'yes'
+      colStrength: 
+        content: Isih Aksen/Atur/Lebar
+        type: tertiary
+      collation: 
+        content: Aturan Isih Coretan Radikal
+        type: unihan
+      numbers: 
+        content: Digit Vai
+        type: vaii
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Dirham Emiriah Arab Bersatu
+        type: AED
+      - 
+        displayName: Afghani Afghanistan
+        type: AFN
+      - 
+        displayName: Lek Albania
+        type: ALL
+      - 
+        displayName: Dram Armenia
+        type: AMD
+      - 
+        displayName: Guilder Antillean Netherland
+        type: ANG
+      - 
+        displayName: Kwanza Angola
+        type: AOA
+      - 
+        displayName: Peso Argentina
+        type: ARS
+      - 
+        displayName: Dolar Australia
+        type: AUD
+      - 
+        displayName: Florin Aruba
+        type: AWG
+      - 
+        displayName: Manat Azerbaijan
+        type: AZN
+      - 
+        displayName: Mark Boleh Tukar Bosnia-Herzegovina
+        type: BAM
+      - 
+        displayName: Dolar Barbados
+        type: BBD
+      - 
+        displayName: Taka Bangladesh
+        type: BDT
+      - 
+        displayName: Lev Bulgaria
+        type: BGN
+      - 
+        displayName: Dinar Bahrain
+        type: BHD
+      - 
+        displayName: Franc Burundia
+        type: BIF
+      - 
+        displayName: Dolar Bermuda
+        type: BMD
+      - 
+        displayName: Dolar Brunei
+        type: BND
+      - 
+        displayName: Boliviano Bolivia
+        type: BOB
+      - 
+        displayName: Real Brazil
+        symbol: R$
+        type: BRL
+      - 
+        displayName: Dolar Bahamas
+        type: BSD
+      - 
+        displayName: Ngultrum Bhutan
+        type: BTN
+      - 
+        displayName: Pula Botswana
+        type: BWP
+      - 
+        displayName: Ruble Belarus
+        type: BYR
+      - 
+        displayName: Dolar Belize
+        type: BZD
+      - 
+        displayName: Dolar Kanada
+        symbol: CA$
+        type: CAD
+      - 
+        displayName: Franc Congo
+        type: CDF
+      - 
+        displayName: Franc Switzerland
+        type: CHF
+      - 
+        displayName: Peso Chile
+        type: CLP
+      - 
+        displayName: Yuan Cina
+        symbol: CN¥
+        type: CNY
+      - 
+        displayName: Peso Colombia
+        type: COP
+      - 
+        displayName: Colón Costa Rica
+        type: CRC
+      - 
+        displayName: Peso Boleh Tukar Cuba
+        type: CUC
+      - 
+        displayName: Peso Cuba
+        type: CUP
+      - 
+        displayName: Escudo Tanjung Verde
+        type: CVE
+      - 
+        displayName: Koruna Republik Czech
+        type: CZK
+      - 
+        displayName: Franc Djibouti
+        type: DJF
+      - 
+        displayName: Krone Denmark
+        type: DKK
+      - 
+        displayName: Peso Dominican
+        type: DOP
+      - 
+        displayName: Dinar Algeria
+        type: DZD
+      - 
+        displayName: Paun Mesir
+        type: EGP
+      - 
+        displayName: Nakfa Eritrea
+        type: ERN
+      - 
+        displayName: Birr Ethiopia
+        type: ETB
+      - 
+        displayName: Euro
+        symbol: €
+        type: EUR
+      - 
+        displayName: Dolar Fiji
+        type: FJD
+      - 
+        displayName: Paun Kepulauan Falkland
+        type: FKP
+      - 
+        displayName: Paun Sterling British
+        symbol: £
+        type: GBP
+      - 
+        displayName: Lari Georgia
+        type: GEL
+      - 
+        displayName: Cedi Ghana
+        type: GHS
+      - 
+        displayName: Paun Gibraltar
+        type: GIP
+      - 
+        displayName: Dalasi Gambia
+        type: GMD
+      - 
+        displayName: Franc Guinea
+        type: GNF
+      - 
+        displayName: Quetzal Guatemala
+        type: GTQ
+      - 
+        displayName: Dolar Guyana
+        type: GYD
+      - 
+        displayName: Dolar Hong Kong
+        symbol: HK$
+        type: HKD
+      - 
+        displayName: Lempira Honduras
+        type: HNL
+      - 
+        displayName: Kuna Croatia
+        type: HRK
+      - 
+        displayName: Gourde Haiti
+        type: HTG
+      - 
+        displayName: Forint Hungary
+        type: HUF
+      - 
+        displayName: Rupiah Indonesia
+        type: IDR
+      - 
+        displayName: Sheqel Baru Israel
+        symbol: ₪
+        type: ILS
+      - 
+        displayName: Rupee India
+        type: INR
+      - 
+        displayName: Dinar Iraq
+        type: IQD
+      - 
+        displayName: Rial Iran
+        type: IRR
+      - 
+        displayName: Króna Iceland
+        type: ISK
+      - 
+        displayName: Dolar Jamaica
+        type: JMD
+      - 
+        displayName: Dinar Jordan
+        type: JOD
+      - 
+        displayName: Yen Jepun
+        type: JPY
+      - 
+        displayName: Syiling Kenya
+        type: KES
+      - 
+        displayName: Som Kyrgystani
+        type: KGS
+      - 
+        displayName: Riel Kemboja
+        type: KHR
+      - 
+        displayName: Franc Comoria
+        type: KMF
+      - 
+        displayName: Won Korea Utara
+        type: KPW
+      - 
+        displayName: Won Korea Selatan
+        type: KRW
+      - 
+        displayName: Dinar Kuwait
+        type: KWD
+      - 
+        displayName: Dolar Kepulauan Cayman
+        type: KYD
+      - 
+        displayName: Tenge Kazakhstan
+        type: KZT
+      - 
+        displayName: Kip Laos
+        type: LAK
+      - 
+        displayName: Paun Lubnan
+        type: LBP
+      - 
+        displayName: Rupee Sri Lanka
+        type: LKR
+      - 
+        displayName: Dolar Liberia
+        type: LRD
+      - 
+        displayName: Loti Lesotho
+        type: LSL
+      - 
+        displayName: Litas Lithuania
+        type: LTL
+      - 
+        displayName: Lats Latvia
+        type: LVL
+      - 
+        displayName: Dinar Libya
+        type: LYD
+      - 
+        displayName: Dirham Maghribi
+        type: MAD
+      - 
+        displayName: Leu Moldova
+        type: MDL
+      - 
+        displayName: Ariary Malagasy
+        type: MGA
+      - 
+        displayName: Denar Macedonia
+        type: MKD
+      - 
+        displayName: Kyat Myanma
+        type: MMK
+      - 
+        displayName: Tugrik Mongolia
+        type: MNT
+      - 
+        displayName: Pataca Macau
+        type: MOP
+      - 
+        displayName: Ouguiya Mauritania
+        type: MRO
+      - 
+        displayName: Rupee Mauritia
+        type: MUR
+      - 
+        displayName: Rufiyaa Maldives
+        type: MVR
+      - 
+        displayName: Kwacha Malawi
+        type: MWK
+      - 
+        displayName: Peso Mexico
+        symbol: MX$
+        type: MXN
+      - 
+        displayName: Ringgit Malaysia
+        symbol: RM
+        type: MYR
+      - 
+        displayName: Metikal Mozambique
+        type: MZN
+      - 
+        displayName: Dolar Namibia
+        type: NAD
+      - 
+        displayName: Naira Nigeria
+        type: NGN
+      - 
+        displayName: Córdoba Nicaragua
+        type: NIO
+      - 
+        displayName: Krone Norway
+        type: NOK
+      - 
+        displayName: Rupee Nepal
+        type: NPR
+      - 
+        displayName: Dolar New Zealand
+        type: NZD
+      - 
+        displayName: Rial Oman
+        type: OMR
+      - 
+        displayName: Balboa Panama
+        type: PAB
+      - 
+        displayName: Nuevo Sol Peru
+        type: PEN
+      - 
+        displayName: Kina Papua New Guinea
+        type: PGK
+      - 
+        displayName: Peso Filipina
+        type: PHP
+      - 
+        displayName: Rupee Pakistan
+        type: PKR
+      - 
+        displayName: Zloty Poland
+        type: PLN
+      - 
+        displayName: Guarani Paraguay
+        type: PYG
+      - 
+        displayName: Rial Qatar
+        type: QAR
+      - 
+        displayName: Leu Romania
+        type: RON
+      - 
+        displayName: Dinar Serbia
+        type: RSD
+      - 
+        displayName: Ruble Rusia
+        type: RUB
+      - 
+        displayName: Franc Rwanda
+        type: RWF
+      - 
+        displayName: Riyal Saudi
+        type: SAR
+      - 
+        displayName: Dolar Kepulauan Solomon
+        type: SBD
+      - 
+        displayName: Rupee Seychelles
+        type: SCR
+      - 
+        displayName: Paun Sudan
+        type: SDG
+      - 
+        displayName: Krona Sweden
+        type: SEK
+      - 
+        displayName: Dolar Singapura
+        type: SGD
+      - 
+        displayName: Paun Saint Helena
+        type: SHP
+      - 
+        displayName: Leone Sierra Leone
+        type: SLL
+      - 
+        displayName: Syiling Somali
+        type: SOS
+      - 
+        displayName: Dolar Surinam
+        type: SRD
+      - 
+        displayName: Paun Sudan selatan
+        type: SSP
+      - 
+        displayName: São Tomé dan Príncipe Dobra
+        type: STD
+      - 
+        displayName: Paun Syria
+        type: SYP
+      - 
+        displayName: Lilangeni Swazi
+        type: SZL
+      - 
+        displayName: Baht Thai
+        type: THB
+      - 
+        displayName: Somoni Tajikistan
+        type: TJS
+      - 
+        displayName: Manat Turkmenistan
+        type: TMT
+      - 
+        displayName: Dinar Tunisia
+        type: TND
+      - 
+        displayName: Tongan Paʻanga
+        type: TOP
+      - 
+        displayName: Lira Turki
+        type: TRY
+      - 
+        displayName: Dolar Trinidad dan Tobago
+        type: TTD
+      - 
+        displayName: Dolar Taiwan Baru
+        type: TWD
+      - 
+        displayName: Syiling Tanzania
+        type: TZS
+      - 
+        displayName: Hryvnia Ukraine
+        type: UAH
+      - 
+        displayName: Syiling Uganda
+        type: UGX
+      - 
+        displayName: Dolar AS
+        type: USD
+      - 
+        displayName: Peso Uruguay
+        type: UYU
+      - 
+        displayName: Som Uzbekistan
+        type: UZS
+      - 
+        displayName: Bolívar Venezuela
+        type: VEF
+      - 
+        displayName: Dong Vietnam
+        type: VND
+      - 
+        displayName: Vatu Vanuatu
+        type: VUV
+      - 
+        displayName: Tala Samoa
+        type: WST
+      - 
+        displayName: Franc CFA BEAC
+        symbol: FCFA
+        type: XAF
+      - 
+        displayName: Dolar Caribbean Timur
+        symbol: EC$
+        type: XCD
+      - 
+        displayName: Franc CFA BCEAO
+        symbol: CFA
+        type: XOF
+      - 
+        displayName: Franc CFP
+        type: XPF
+      - 
+        displayName: Mata Wang Tidak Diketahui
+        type: XXX
+      - 
+        displayName: Rial Yaman
+        type: YER
+      - 
+        displayName: Rand Afrika Selatan
+        type: ZAR
+      - 
+        displayName: Kwacha Zambia (1968-2012)
+        type: ZMK
+      - 
+        displayName: Kwacha Zambia
+        type: ZMW
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+    unitPattern: 
+      content: "{0} {1}"
+      count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 ribu
+              count: other
+              type: 1000
+            - 
+              content: 00 ribu
+              count: other
+              type: 10000
+            - 
+              content: 000 ribu
+              count: other
+              type: 100000
+            - 
+              content: 0 juta
+              count: other
+              type: 1000000
+            - 
+              content: 00 juta
+              count: other
+              type: 10000000
+            - 
+              content: 000 juta
+              count: other
+              type: 100000000
+            - 
+              content: 0 bilion
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 bilion
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 bilion
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 trilion
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 trilion
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 trilion
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0K
+              count: other
+              draft: contributed
+              type: 1000
+            - 
+              content: 00K
+              count: other
+              draft: contributed
+              type: 10000
+            - 
+              content: 000K
+              count: other
+              draft: contributed
+              type: 100000
+            - 
+              content: 0J
+              count: other
+              draft: contributed
+              type: 1000000
+            - 
+              content: 00J
+              count: other
+              draft: contributed
+              type: 10000000
+            - 
+              content: 000J
+              count: other
+              draft: contributed
+              type: 100000000
+            - 
+              content: 0B
+              count: other
+              type: '1000000000'
+            - 
+              content: 00B
+              count: other
+              type: '10000000000'
+            - 
+              content: 000B
+              count: other
+              type: '100000000000'
+            - 
+              content: 0T
+              count: other
+              draft: contributed
+              type: '1000000000000'
+            - 
+              content: 00T
+              count: other
+              draft: contributed
+              type: '10000000000000'
+            - 
+              content: 000T
+              count: other
+              draft: contributed
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: .
+    exponential: E
+    group: ","
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: tidak:t
+    yesstr: ya:y
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} hari"
+          count: other
+        - 
+          alt: short
+          content: "{0} hari"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        content: Dalam {0} hari
+        count: other
+    - 
+      type: day-past
+      unitPattern: 
+        content: "{0} hari lalu"
+        count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} jam"
+          count: other
+        - 
+          alt: short
+          content: "{0} jam"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        content: Dalam {0} jam
+        count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        content: "{0} jam lalu"
+        count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minit"
+          count: other
+        - 
+          alt: short
+          content: "{0} min"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        content: Dalam {0} minit
+        count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        content: "{0} minit lalu"
+        count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} bulan"
+          count: other
+        - 
+          alt: short
+          content: "{0} bulan"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        content: Dalam {0} bulan
+        count: other
+    - 
+      type: month-past
+      unitPattern: 
+        content: "{0} bulan lalu"
+        count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} saat"
+          count: other
+        - 
+          alt: short
+          content: "{0} saat"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        content: Dalam {0} saat
+        count: other
+    - 
+      type: second-past
+      unitPattern: 
+        content: "{0} saat lalu"
+        count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} minggu"
+          count: other
+        - 
+          alt: short
+          content: "{0} minggu"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        content: Dalam {0} minggu
+        count: other
+    - 
+      type: week-past
+      unitPattern: 
+        content: "{0} minggu lalu"
+        count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} tahun"
+          count: other
+        - 
+          alt: short
+          content: "{0} thn"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        content: Dalam {0} tahun
+        count: other
+    - 
+      type: year-past
+      unitPattern: 
+        content: "{0} tahun lalu"
+        count: other

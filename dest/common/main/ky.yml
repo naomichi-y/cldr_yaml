@@ -1,0 +1,1535 @@
+characters: 
+  exemplarCharacters: 
+    - "[а б г д е ё ж з и й к л м н ӊ о ө п р с т у ү х ч ш ъ ы э ю я]"
+    - 
+      content: "[в ф ц щ ь]"
+      type: auxiliary
+    - 
+      content: "[А Б Г Д Е Ж З И Й К Л М Н Ӊ О Ө П Р С Т У Ү Х Ч Ш Ъ Ы Э Ю Я]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d MMMM y 'ж'. G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM y 'ж'. G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd.MM.y G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd.MM.yy GGGGG
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm-HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm-HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM - E, dd.MM
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd.MM - E, dd.MM
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+                  d: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h-h a
+                  draft: unconfirmed
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  content: h-h a v
+                  draft: unconfirmed
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y - MM.y
+                    draft: unconfirmed
+                  "y": 
+                    content: MM.y - MM.y
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, dd.MM.y - E, dd.MM.y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y 'ж'.
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y 'ж'. - MMM y 'ж'.
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y 'ж'.
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM y 'ж'.
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d MMM y 'ж'. - E, d MMM y 'ж'.
+                    draft: unconfirmed
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMMM y - MMMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y 'ж'.
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM y 'ж'.
+                    draft: unconfirmed
+                  "y": 
+                    content: d MMM y 'ж'. - d MMM y 'ж'.
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y - dd.MM.y
+                    draft: unconfirmed
+                  d: 
+                    content: dd.MM.y - dd.MM.y
+                    draft: unconfirmed
+                  "y": 
+                    content: dd.MM.y - dd.MM.y
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d MMMM y 'ж'.
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM y 'ж'.
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd.MM.y
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd.MM.yy
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm-HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm-HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM - E, dd.MM
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd.MM - E, dd.MM
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+                  d: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h-h a
+                  draft: unconfirmed
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  content: h-h a v
+                  draft: unconfirmed
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y - MM.y
+                    draft: unconfirmed
+                  "y": 
+                    content: MM.y - MM.y
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, dd.MM.y - E, dd.MM.y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y 'ж'.
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y 'ж'. - MMM y 'ж'.
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y 'ж'.
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM y 'ж'.
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d MMM y 'ж'. - E, d MMM y 'ж'.
+                    draft: unconfirmed
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMMM y - MMMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y 'ж'.
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM y 'ж'.
+                    draft: unconfirmed
+                  "y": 
+                    content: d MMM y 'ж'. - d MMM y 'ж'.
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y - dd.MM.y
+                    draft: unconfirmed
+                  d: 
+                    content: dd.MM.y - dd.MM.y
+                    draft: unconfirmed
+                  "y": 
+                    content: dd.MM.y - dd.MM.y
+                    draft: unconfirmed
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: жк.
+                      type: sun
+                    - 
+                      content: дш.
+                      type: mon
+                    - 
+                      content: ше.
+                      type: tue
+                    - 
+                      content: ша.
+                      type: wed
+                    - 
+                      content: бш.
+                      type: thu
+                    - 
+                      content: жм.
+                      type: fri
+                    - 
+                      content: иш.
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: жекшемби
+                      type: sun
+                    - 
+                      content: дүйшөмбү
+                      type: mon
+                    - 
+                      content: шейшемби
+                      type: tue
+                    - 
+                      content: шаршемби
+                      type: wed
+                    - 
+                      content: бейшемби
+                      type: thu
+                    - 
+                      content: жума
+                      type: fri
+                    - 
+                      content: ишемби
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Жк.
+                      type: sun
+                    - 
+                      content: Дш.
+                      type: mon
+                    - 
+                      content: Ше.
+                      type: tue
+                    - 
+                      content: Ша.
+                      type: wed
+                    - 
+                      content: Бш.
+                      type: thu
+                    - 
+                      content: Жм.
+                      type: fri
+                    - 
+                      content: Иш.
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Жекшемби
+                      type: sun
+                    - 
+                      content: Дүйшөмбү
+                      type: mon
+                    - 
+                      content: Шейшемби
+                      type: tue
+                    - 
+                      content: Шаршемби
+                      type: wed
+                    - 
+                      content: Бейшемби
+                      type: thu
+                    - 
+                      content: Жума
+                      type: fri
+                    - 
+                      content: Ишемби
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: б.з. ч.
+                draft: unconfirmed
+                type: 0
+              - 
+                content: б.з.
+                draft: unconfirmed
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: б.з. чейин
+                draft: unconfirmed
+                type: 0
+              - 
+                content: б.з.
+                draft: unconfirmed
+                type: 1
+          eraNarrow: 
+            era: 
+              - 
+                content: б.з. ч.
+                draft: unconfirmed
+                type: 0
+              - 
+                content: б.з.
+                draft: unconfirmed
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: янв.
+                      type: 1
+                    - 
+                      content: фев.
+                      type: 2
+                    - 
+                      content: мар.
+                      type: 3
+                    - 
+                      content: апр.
+                      type: 4
+                    - 
+                      content: май
+                      type: 5
+                    - 
+                      content: июн.
+                      type: 6
+                    - 
+                      content: июл.
+                      type: 7
+                    - 
+                      content: авг.
+                      type: 8
+                    - 
+                      content: сен.
+                      type: 9
+                    - 
+                      content: окт.
+                      type: 10
+                    - 
+                      content: ноя.
+                      type: 11
+                    - 
+                      content: дек.
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: январь
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: февраль
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: март
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: апрель
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: май
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: июнь
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: июль
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: август
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: сентябрь
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: октябрь
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: ноябрь
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: декабрь
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Янв.
+                      type: 1
+                    - 
+                      content: Февр.
+                      type: 2
+                    - 
+                      content: Мар.
+                      type: 3
+                    - 
+                      content: Апр.
+                      type: 4
+                    - 
+                      content: Май
+                      type: 5
+                    - 
+                      content: Июн.
+                      type: 6
+                    - 
+                      content: Июл.
+                      type: 7
+                    - 
+                      content: Авг.
+                      type: 8
+                    - 
+                      content: Сен.
+                      type: 9
+                    - 
+                      content: Окт.
+                      type: 10
+                    - 
+                      content: Ноя.
+                      type: 11
+                    - 
+                      content: Дек.
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Январь
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Февраль
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Март
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Апрель
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Май
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Июнь
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Июль
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Август
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Сентябрь
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Октябрь
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Ноябрь
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Декабрь
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: 1-чи кв.
+                    draft: unconfirmed
+                    type: 1
+                  - 
+                    content: 2-чи кв.
+                    draft: unconfirmed
+                    type: 2
+                  - 
+                    content: 3-чү кв.
+                    draft: unconfirmed
+                    type: 3
+                  - 
+                    content: 4-чү кв.
+                    draft: unconfirmed
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: 1
+                    draft: unconfirmed
+                    type: 1
+                  - 
+                    content: 2
+                    draft: unconfirmed
+                    type: 2
+                  - 
+                    content: 3
+                    draft: unconfirmed
+                    type: 3
+                  - 
+                    content: 4
+                    draft: unconfirmed
+                    type: 4
+                type: narrow
+              - 
+                quarter: 
+                  - 
+                    content: 1-чи квартал
+                    draft: unconfirmed
+                    type: 1
+                  - 
+                    content: 2-чи квартал
+                    draft: unconfirmed
+                    type: 2
+                  - 
+                    content: 3-чү квартал
+                    draft: unconfirmed
+                    type: 3
+                  - 
+                    content: 4-чү квартал
+                    draft: unconfirmed
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: Заман
+          draft: unconfirmed
+        type: era
+      - 
+        displayName: 
+          content: Жыл
+          draft: unconfirmed
+        relative: 
+          - 
+            content: Өткөн жылы
+            draft: unconfirmed
+            type: -1
+          - 
+            content: Бул жылы
+            draft: unconfirmed
+            type: 0
+          - 
+            content: Келерки жылы
+            draft: unconfirmed
+            type: 1
+        type: year
+      - 
+        displayName: 
+          content: Ай
+          draft: unconfirmed
+        relative: 
+          - 
+            content: Өткөн айда
+            draft: unconfirmed
+            type: -1
+          - 
+            content: Бул айда
+            draft: unconfirmed
+            type: 0
+          - 
+            content: Келерки айда
+            draft: unconfirmed
+            type: 1
+        type: month
+      - 
+        displayName: 
+          content: Апта
+          draft: unconfirmed
+        relative: 
+          - 
+            content: Өткөн аптада
+            draft: unconfirmed
+            type: -1
+          - 
+            content: Бул аптада
+            draft: unconfirmed
+            type: 0
+          - 
+            content: Келерки аптада
+            draft: unconfirmed
+            type: 1
+        type: week
+      - 
+        displayName: 
+          content: Күн
+          draft: unconfirmed
+        relative: 
+          - 
+            content: Мурдагы күнү
+            draft: unconfirmed
+            type: -2
+          - 
+            content: Кечээ
+            draft: unconfirmed
+            type: -1
+          - 
+            content: Бүгүн
+            draft: unconfirmed
+            type: 0
+          - 
+            content: Эртен
+            draft: unconfirmed
+            type: 1
+          - 
+            content: Бирси күнү
+            draft: unconfirmed
+            type: 2
+        type: day
+      - 
+        displayName: 
+          content: Апта күнү
+          draft: unconfirmed
+        type: weekday
+      - 
+        displayName: 
+          content: ДП/ПП
+          draft: unconfirmed
+        type: dayperiod
+      - 
+        displayName: 
+          content: Саат
+          draft: unconfirmed
+        type: hour
+      - 
+        displayName: 
+          content: Минута
+          draft: unconfirmed
+        type: minute
+      - 
+        displayName: 
+          content: Секунда
+          draft: unconfirmed
+        type: second
+      - 
+        displayName: 
+          content: Саат алкагы
+          draft: unconfirmed
+        type: zone
+delimiters: 
+  alternateQuotationEnd: 
+    content: “
+    draft: unconfirmed
+  alternateQuotationStart: 
+    content: „
+    draft: unconfirmed
+  quotationEnd: 
+    content: »
+    draft: unconfirmed
+  quotationStart: 
+    content: «
+    draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ky
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Тил: {0}"
+        draft: unconfirmed
+        type: language
+      - 
+        content: "Жазуу тиби: {0}"
+        draft: unconfirmed
+        type: script
+      - 
+        content: "Регион: {0}"
+        draft: unconfirmed
+        type: territory
+  languages: 
+    language: 
+      - 
+        content: африкаанча
+        type: af
+      - 
+        content: арабча
+        type: ar
+      - 
+        content: азербайжанча
+        type: az
+      - 
+        content: беларусча
+        type: be
+      - 
+        content: болгарияча
+        type: bg
+      - 
+        content: бихариче
+        type: bh
+      - 
+        content: бангладешче
+        type: bn
+      - 
+        content: бретон
+        type: br
+      - 
+        content: боснияча
+        type: bs
+      - 
+        content: каталанча
+        type: ca
+      - 
+        content: чех тили
+        type: cs
+      - 
+        content: датча
+        type: da
+      - 
+        content: немисче
+        type: de
+      - 
+        content: грекче
+        type: el
+      - 
+        content: англисче
+        type: en
+      - 
+        content: испанча
+        type: es
+      - 
+        content: эстончо
+        type: et
+      - 
+        content: фарзча
+        type: fa
+      - 
+        content: финче
+        type: fi
+      - 
+        content: тагалча
+        type: fil
+      - 
+        content: французча
+        type: fr
+      - 
+        content: ирландча
+        type: ga
+      - 
+        content: гуараш
+        type: gn
+      - 
+        content: гужаратча
+        type: gu
+      - 
+        content: еврейче
+        type: he
+      - 
+        content: индусча
+        type: hi
+      - 
+        content: хорватча
+        type: hr
+      - 
+        content: венгрияча
+        type: hu
+      - 
+        content: индонезияча
+        type: id
+      - 
+        content: исландча
+        type: is
+      - 
+        content: италиянча
+        type: it
+      - 
+        content: япончо
+        type: ja
+      - 
+        content: жаванизче
+        type: jv
+      - 
+        content: грузинче
+        type: ka
+      - 
+        content: каннадача
+        type: kn
+      - 
+        content: корейче
+        type: ko
+      - 
+        content: курт
+        type: ku
+      - 
+        content: Кыргыз
+        type: ky
+      - 
+        content: латынча
+        type: la
+      - 
+        content: литвача
+        type: lt
+      - 
+        content: латвияча
+        type: lv
+      - 
+        content: македонияча
+        type: mk
+      - 
+        content: малайаламча
+        type: ml
+      - 
+        content: маратиче
+        type: mr
+      - 
+        content: малайча
+        type: ms
+      - 
+        content: малтизче
+        type: mt
+      - 
+        content: непалча
+        type: ne
+      - 
+        content: голландча
+        type: nl
+      - 
+        content: норвегияча
+        type: nn
+      - 
+        content: норвежче
+        type: 'no'
+      - 
+        content: ория
+        type: or
+      - 
+        content: пунжабиче
+        type: pa
+      - 
+        content: полякча
+        type: pl
+      - 
+        content: пашто
+        type: ps
+      - 
+        content: португалча
+        type: pt
+      - 
+        content: румынияча
+        type: ro
+      - 
+        content: орусча
+        type: ru
+      - 
+        content: серб-хорват
+        type: sh
+      - 
+        content: сингалача
+        type: si
+      - 
+        content: словакча
+        type: sk
+      - 
+        content: словенче
+        type: sl
+      - 
+        content: албанча
+        type: sq
+      - 
+        content: сербче
+        type: sr
+      - 
+        content: сесото
+        type: st
+      - 
+        content: сунданча
+        type: su
+      - 
+        content: шведче
+        type: sv
+      - 
+        content: суахиличе
+        type: sw
+      - 
+        content: тамилче
+        type: ta
+      - 
+        content: телугуча
+        type: te
+      - 
+        content: тайча
+        type: th
+      - 
+        content: түркмөн
+        type: tk
+      - 
+        content: клингончо
+        type: tlh
+      - 
+        content: туркчо
+        type: tr
+      - 
+        content: тви
+        type: tw
+      - 
+        content: украинче
+        type: uk
+      - 
+        content: урдуча
+        type: ur
+      - 
+        content: озбекче
+        type: uz
+      - 
+        content: вьетнамча
+        type: vi
+      - 
+        content: еврей
+        type: yi
+      - 
+        content: кытайча
+        type: zh
+  localeDisplayPattern: 
+    localePattern: 
+      content: "{0} ({1})"
+      draft: unconfirmed
+    localeSeparator: 
+      content: ", "
+      draft: unconfirmed
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Метрикалык
+        draft: unconfirmed
+        type: metric
+      - 
+        content: Англиялык
+        draft: unconfirmed
+        type: UK
+      - 
+        content: Американдык
+        draft: unconfirmed
+        type: US
+  territories: 
+    territory: 
+      content: Кыргызстан
+      type: KG
+  transformNames: 
+    transformName: 
+      - 
+        content: Сандык
+        draft: unconfirmed
+        type: Numeric
+      - 
+        content: Тондук
+        draft: unconfirmed
+        type: Tone
+      - 
+        content: Диакриттик белгилер
+        draft: unconfirmed
+        type: x-Accents
+      - 
+        content: Кең формат
+        draft: unconfirmed
+        type: x-Fullwidth
+      - 
+        content: Кыска формат
+        draft: unconfirmed
+        type: x-Halfwidth
+      - 
+        content: Джамо
+        draft: unconfirmed
+        type: x-Jamo
+      - 
+        content: Пиньин
+        draft: unconfirmed
+        type: x-Pinyin
+      - 
+        content: Басмаканалык
+        draft: unconfirmed
+        type: x-Publishing
+numbers: 
+  currencies: 
+    currency: 
+      symbol: сом
+      type: KGS
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: жок:ж
+    yesstr: ооба:о
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} күн"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} күн"
+          count: other
+          draft: unconfirmed
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} күндөн кийин"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} күндөн кийин"
+          count: other
+          draft: unconfirmed
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} күн мурун"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} күн мурун"
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} саат"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} саат"
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} сааттан кийин"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} сааттан кийин"
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} саат мурун"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} саат мурун"
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} минут"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} минут"
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: "{0} минуттан кийин"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} минуттан кийин"
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: "{0} минут мурун"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} минут мурун"
+          count: other
+          draft: unconfirmed
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} ай"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} ай"
+          count: other
+          draft: unconfirmed
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: "{0} айдан кийин"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} айдан кийин"
+          count: other
+          draft: unconfirmed
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: "{0} ай мурун"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} ай мурун"
+          count: other
+          draft: unconfirmed
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} секунд"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} секунд"
+          count: other
+          draft: unconfirmed
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: "{0} секундтан кийин"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} секундтан кийин"
+          count: other
+          draft: unconfirmed
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: "{0} секунд мурун"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} секунд мурун"
+          count: other
+          draft: unconfirmed
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} апта"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} апта"
+          count: other
+          draft: unconfirmed
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: "{0} аптадан кийин"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} аптадан кийин"
+          count: other
+          draft: unconfirmed
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: "{0} апта мурун"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} апта мурун"
+          count: other
+          draft: unconfirmed
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} жыл"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} жыл"
+          count: other
+          draft: unconfirmed
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: "{0} жылдан кийин"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} жылдан кийин"
+          count: other
+          draft: unconfirmed
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: "{0} жыл мурун"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} жыл мурун"
+          count: other
+          draft: unconfirmed

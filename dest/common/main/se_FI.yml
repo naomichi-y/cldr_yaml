@@ -1,0 +1,202 @@
+dates: 
+  calendars: 
+    calendar: 
+      days: 
+        dayContext: 
+          - 
+            dayWidth: 
+              day: 
+                - 
+                  content: aejlege
+                  draft: unconfirmed
+                  type: sun
+                - 
+                  content: måanta
+                  draft: unconfirmed
+                  type: mon
+                - 
+                  content: däjsta
+                  draft: unconfirmed
+                  type: tue
+                - 
+                  content: gaskevahkoe
+                  draft: unconfirmed
+                  type: wed
+                - 
+                  content: dåarsta
+                  draft: unconfirmed
+                  type: thu
+                - 
+                  content: bearjadahke
+                  draft: unconfirmed
+                  type: fri
+                - 
+                  content: laavadahke
+                  draft: unconfirmed
+                  type: sat
+              type: wide
+            type: format
+          - 
+            dayWidth: 
+              day: 
+                - 
+                  content: S
+                  draft: unconfirmed
+                  type: sun
+                - 
+                  content: M
+                  draft: unconfirmed
+                  type: mon
+                - 
+                  content: D
+                  draft: unconfirmed
+                  type: tue
+                - 
+                  content: G
+                  draft: unconfirmed
+                  type: wed
+                - 
+                  content: D
+                  draft: unconfirmed
+                  type: thu
+                - 
+                  content: B
+                  draft: unconfirmed
+                  type: fri
+                - 
+                  content: L
+                  draft: unconfirmed
+                  type: sat
+              type: narrow
+            type: stand-alone
+      months: 
+        monthContext: 
+          monthWidth: 
+            month: 
+              - 
+                content: ođđajage
+                draft: unconfirmed
+                type: 1
+              - 
+                content: guovva
+                draft: unconfirmed
+                type: 2
+              - 
+                content: njukča
+                draft: unconfirmed
+                type: 3
+              - 
+                content: cuoŋo
+                draft: unconfirmed
+                type: 4
+              - 
+                content: miesse
+                draft: unconfirmed
+                type: 5
+              - 
+                content: geasse
+                draft: unconfirmed
+                type: 6
+              - 
+                content: suoidne
+                draft: unconfirmed
+                type: 7
+              - 
+                content: borge
+                draft: unconfirmed
+                type: 8
+              - 
+                content: čakča
+                draft: unconfirmed
+                type: 9
+              - 
+                content: golggot
+                draft: unconfirmed
+                type: 10
+              - 
+                content: skábma
+                draft: unconfirmed
+                type: 11
+              - 
+                content: juovla
+                draft: unconfirmed
+                type: 12
+            type: abbreviated
+          type: format
+      type: gregorian
+  timeZoneNames: 
+    gmtZeroFormat: 
+      content: GMT
+      draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: se
+  territory: 
+    type: FI
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  territories: 
+    territory: 
+      - 
+        content: Afrihká
+        draft: provisional
+        type: '002'
+      - 
+        content: Mátta-Amerihká
+        draft: provisional
+        type: '005'
+      - 
+        content: Oarji-Afrihká
+        draft: provisional
+        type: '011'
+      - 
+        content: Davvi-Afrihká
+        draft: provisional
+        type: '015'
+      - 
+        content: Gaska-Afrihká
+        draft: provisional
+        type: '017'
+      - 
+        content: Davvi-Amerihká
+        draft: provisional
+        type: '021'
+      - 
+        content: Nuorta-Ásia
+        draft: provisional
+        type: '030'
+      - 
+        content: Mátta-Ásia
+        draft: provisional
+        type: '034'
+      - 
+        content: Mátta-Eurohpa
+        draft: provisional
+        type: '039'
+      - 
+        content: Gaska-Ásia
+        draft: provisional
+        type: 143
+      - 
+        content: Oarji-Ásia
+        draft: provisional
+        type: 145
+      - 
+        content: Eurohpa
+        draft: provisional
+        type: 150
+      - 
+        content: Nuorta-Eurohpá
+        draft: provisional
+        type: 151
+      - 
+        content: Davvi-Eurohpa
+        draft: provisional
+        type: 154
+      - 
+        content: Oarji-Eurohpa
+        draft: provisional
+        type: 155

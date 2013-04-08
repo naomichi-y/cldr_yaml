@@ -1,0 +1,2943 @@
+characters: 
+  exemplarCharacters: 
+    - "[а б в г д {дж} {дз} е ё ж з і й к л м н о п р с т у ў ф х ц ч ш ы ь э ю я]"
+    - 
+      content: "[]"
+      type: auxiliary
+    - 
+      content: "[А Б В Г Д Е Ж З І Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Э Ю Я]"
+      draft: contributed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d.M.yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              Gy: 
+                content: G y
+              Hm: 
+                content: HH.mm
+              Hms: 
+                content: HH.mm.ss
+              M: 
+                content: L
+              MEd: 
+                content: E, d.M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, d MMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d.M
+              d: 
+                content: d
+              hm: 
+                content: h.mm a
+              hms: 
+                content: h.mm.ss a
+              "y": 
+                content: G y
+              yM: 
+                content: M.y
+              yMEd: 
+                content: E, d.M.y
+              yMMM: 
+                content: MMM y G
+              yMMMEd: 
+                content: E, d MMM y G
+              yMMMd: 
+                content: d MMM y G
+              yMd: 
+                content: d.M.y
+        type: buddhist
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d.M.y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d.M.yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH.mm
+              Hms: 
+                content: HH.mm.ss
+              M: 
+                content: L
+                draft: contributed
+              MEd: 
+                content: E, d MMM
+                draft: contributed
+              MMM: 
+                content: LLL
+                draft: contributed
+              MMMEd: 
+                content: E, d MMM
+                draft: contributed
+              MMMMEd: 
+                content: MMMM d, EEEE
+                draft: contributed
+              MMMMd: 
+                content: MMMM d
+                draft: contributed
+              MMMd: 
+                content: d MMM
+                draft: contributed
+              Md: 
+                content: d.M
+                draft: unconfirmed
+              d: 
+                content: d
+                draft: contributed
+              hm: 
+                content: h.mm a
+              hms: 
+                content: h.mm.ss a
+              ms: 
+                content: mm.ss
+                draft: contributed
+              "y": 
+                content: 'y'
+                draft: contributed
+              yM: 
+                content: MM/y
+                draft: contributed
+              yMEd: 
+                content: E, dd/MM/y
+                draft: contributed
+              yMMM: 
+                content: MMM y
+                draft: contributed
+              yMMMEd: 
+                content: E, d MMM y
+                draft: contributed
+              yMMMM: 
+                content: MMMM y
+                draft: contributed
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d.M.y
+              yQQQ: 
+                content: QQQ y
+                draft: contributed
+              yQQQQ: 
+                content: QQQQ y
+                draft: contributed
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm-HH.mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH.mm-HH.mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm-HH.mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH.mm-HH.mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d.M - E, d.M
+                    draft: unconfirmed
+                  d: 
+                    content: E, d.M - E, d.M
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d.M - d.M
+                    draft: unconfirmed
+                  d: 
+                    content: d.M - d.M
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h-h a
+                  draft: unconfirmed
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h.mm-h.mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm-h.mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h.mm-h.mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm-h.mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  content: h-h a v
+                  draft: unconfirmed
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M.y - M.y
+                    draft: unconfirmed
+                  "y": 
+                    content: M.y - M.y
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d.M.y - E, d.M.y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d.M.y - E, d.M.y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d.M.y - E, d.M.y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y - MMM y
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d MMM y - E, d MMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: d MMM y - d MMM y
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d.M.y - d.M.y
+                    draft: unconfirmed
+                  d: 
+                    content: d.M.y - d.M.y
+                    draft: unconfirmed
+                  "y": 
+                    content: d.M.y - d.M.y
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d.M.y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d.M.yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH.mm
+              Hms: 
+                content: HH.mm.ss
+              M: 
+                content: L
+                draft: contributed
+              MEd: 
+                content: E, d MMM
+                draft: contributed
+              MMM: 
+                content: LLL
+                draft: contributed
+              MMMEd: 
+                content: E, d MMM
+                draft: contributed
+              MMMMEd: 
+                content: MMMM d, EEEE
+                draft: contributed
+              MMMMd: 
+                content: MMMM d
+                draft: contributed
+              MMMd: 
+                content: d MMM
+                draft: contributed
+              Md: 
+                content: d.M
+                draft: unconfirmed
+              d: 
+                content: d
+                draft: contributed
+              hm: 
+                content: h.mm a
+              hms: 
+                content: h.mm.ss a
+              ms: 
+                content: mm.ss
+                draft: contributed
+              "y": 
+                content: 'y'
+                draft: contributed
+              yM: 
+                content: MM/y
+                draft: contributed
+              yMEd: 
+                content: E, dd/MM/y
+                draft: contributed
+              yMMM: 
+                content: MMM y
+                draft: contributed
+              yMMMEd: 
+                content: E, d MMM y
+                draft: contributed
+              yMMMM: 
+                content: MMMM y
+                draft: contributed
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d.M.y
+              yQQQ: 
+                content: QQQ y
+                draft: contributed
+              yQQQQ: 
+                content: QQQQ y
+                draft: contributed
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm-HH.mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH.mm-HH.mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm-HH.mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH.mm-HH.mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d.M - E, d.M
+                    draft: unconfirmed
+                  d: 
+                    content: E, d.M - E, d.M
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d.M - d.M
+                    draft: unconfirmed
+                  d: 
+                    content: d.M - d.M
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h-h a
+                  draft: unconfirmed
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h.mm-h.mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm-h.mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h.mm-h.mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm-h.mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  content: h-h a v
+                  draft: unconfirmed
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M.y - M.y
+                    draft: unconfirmed
+                  "y": 
+                    content: M.y - M.y
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d.M.y - E, d.M.y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d.M.y - E, d.M.y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d.M.y - E, d.M.y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y - MMM y
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d - E, d MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d MMM y - E, d MMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: d-d MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: d MMM y - d MMM y
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d.M.y - d.M.y
+                    draft: unconfirmed
+                  d: 
+                    content: d.M.y - d.M.y
+                    draft: unconfirmed
+                  "y": 
+                    content: d.M.y - d.M.y
+                    draft: unconfirmed
+        dayPeriods: 
+          dayPeriodContext: 
+            - 
+              dayPeriodWidth: 
+                dayPeriod: 
+                  - 
+                    content: да палудня
+                    type: am
+                  - 
+                    content: пасля палудня
+                    type: pm
+                type: wide
+              type: format
+            - 
+              dayPeriodWidth: 
+                dayPeriod: 
+                  - 
+                    content: раніцы
+                    type: am
+                  - 
+                    content: вечара
+                    type: pm
+                type: abbreviated
+              type: stand-alone
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: нд
+                      type: sun
+                    - 
+                      content: пн
+                      type: mon
+                    - 
+                      content: аў
+                      type: tue
+                    - 
+                      content: ср
+                      type: wed
+                    - 
+                      content: чц
+                      type: thu
+                    - 
+                      content: пт
+                      type: fri
+                    - 
+                      content: сб
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: нядзеля
+                      type: sun
+                    - 
+                      content: панядзелак
+                      type: mon
+                    - 
+                      content: аўторак
+                      type: tue
+                    - 
+                      content: серада
+                      type: wed
+                    - 
+                      content: чацвер
+                      type: thu
+                    - 
+                      content: пятніца
+                      type: fri
+                    - 
+                      content: субота
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: н
+                    type: sun
+                  - 
+                    content: п
+                    type: mon
+                  - 
+                    content: а
+                    type: tue
+                  - 
+                    content: с
+                    type: wed
+                  - 
+                    content: ч
+                    type: thu
+                  - 
+                    content: п
+                    type: fri
+                  - 
+                    content: с
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: да н.э.
+                type: 0
+              - 
+                content: н.э.
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: сту
+                      type: 1
+                    - 
+                      content: лют
+                      type: 2
+                    - 
+                      content: сак
+                      type: 3
+                    - 
+                      content: кра
+                      type: 4
+                    - 
+                      content: май
+                      type: 5
+                    - 
+                      content: чэр
+                      type: 6
+                    - 
+                      content: ліп
+                      type: 7
+                    - 
+                      content: жні
+                      type: 8
+                    - 
+                      content: вер
+                      type: 9
+                    - 
+                      content: кас
+                      type: 10
+                    - 
+                      content: ліс
+                      type: 11
+                    - 
+                      content: сне
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: с
+                      type: 1
+                    - 
+                      content: л
+                      type: 2
+                    - 
+                      content: с
+                      type: 3
+                    - 
+                      content: к
+                      type: 4
+                    - 
+                      content: т
+                      type: 5
+                    - 
+                      content: ч
+                      type: 6
+                    - 
+                      content: л
+                      type: 7
+                    - 
+                      content: ж
+                      type: 8
+                    - 
+                      content: в
+                      type: 9
+                    - 
+                      content: к
+                      type: 10
+                    - 
+                      content: л
+                      type: 11
+                    - 
+                      content: с
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: студзень
+                      type: 1
+                    - 
+                      content: люты
+                      type: 2
+                    - 
+                      content: сакавік
+                      type: 3
+                    - 
+                      content: красавік
+                      type: 4
+                    - 
+                      content: май
+                      type: 5
+                    - 
+                      content: чэрвень
+                      type: 6
+                    - 
+                      content: ліпень
+                      type: 7
+                    - 
+                      content: жнівень
+                      type: 8
+                    - 
+                      content: верасень
+                      type: 9
+                    - 
+                      content: кастрычнік
+                      type: 10
+                    - 
+                      content: лістапад
+                      type: 11
+                    - 
+                      content: снежань
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: сту
+                      type: 1
+                    - 
+                      content: лют
+                      type: 2
+                    - 
+                      content: сак
+                      type: 3
+                    - 
+                      content: кра
+                      type: 4
+                    - 
+                      content: тра
+                      type: 5
+                    - 
+                      content: чэр
+                      type: 6
+                    - 
+                      content: ліп
+                      type: 7
+                    - 
+                      content: жні
+                      type: 8
+                    - 
+                      content: вер
+                      type: 9
+                    - 
+                      content: кас
+                      type: 10
+                    - 
+                      content: ліс
+                      type: 11
+                    - 
+                      content: сне
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: с
+                      type: 1
+                    - 
+                      content: л
+                      type: 2
+                    - 
+                      content: с
+                      type: 3
+                    - 
+                      content: к
+                      type: 4
+                    - 
+                      content: м
+                      type: 5
+                    - 
+                      content: ч
+                      type: 6
+                    - 
+                      content: л
+                      type: 7
+                    - 
+                      content: ж
+                      type: 8
+                    - 
+                      content: в
+                      type: 9
+                    - 
+                      content: к
+                      type: 10
+                    - 
+                      content: л
+                      type: 11
+                    - 
+                      content: с
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: студзень
+                      type: 1
+                    - 
+                      content: люты
+                      type: 2
+                    - 
+                      content: сакавік
+                      type: 3
+                    - 
+                      content: красавік
+                      type: 4
+                    - 
+                      content: травень
+                      type: 5
+                    - 
+                      content: чэрвень
+                      type: 6
+                    - 
+                      content: ліпень
+                      type: 7
+                    - 
+                      content: жнівень
+                      type: 8
+                    - 
+                      content: верасень
+                      type: 9
+                    - 
+                      content: кастрычнік
+                      type: 10
+                    - 
+                      content: лістапад
+                      type: 11
+                    - 
+                      content: снежань
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: 1-шы кв.
+                    type: 1
+                  - 
+                    content: 2-гі кв.
+                    type: 2
+                  - 
+                    content: 3-ці кв.
+                    type: 3
+                  - 
+                    content: 4-ты кв.
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: 1-шы квартал
+                    type: 1
+                  - 
+                    content: 2-гі квартал
+                    type: 2
+                  - 
+                    content: 3-ці квартал
+                    type: 3
+                  - 
+                    content: 4-ты квартал
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH.mm.ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH.mm.ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH.mm.ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH.mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: эра
+        type: era
+      - 
+        displayName: год
+        type: year
+      - 
+        displayName: месяц
+        type: month
+      - 
+        displayName: тыдзень
+        type: week
+      - 
+        displayName: дзень
+        relative: 
+          - 
+            content: пазаўчора
+            type: -2
+          - 
+            content: учора
+            type: -1
+          - 
+            content: сёння
+            type: 0
+          - 
+            content: заўтра
+            type: 1
+          - 
+            content: паслязаўтра
+            type: 2
+        type: day
+      - 
+        displayName: дзень тыдня
+        type: weekday
+      - 
+        displayName: 
+          content: ДП/ПП
+          draft: contributed
+        type: dayperiod
+      - 
+        displayName: гадзіна
+        type: hour
+      - 
+        displayName: хвіліна
+        type: minute
+      - 
+        displayName: секунда
+        type: second
+      - 
+        displayName: 
+          content: Zone
+          draft: contributed
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: 
+      content: "{1} ({0})"
+      draft: contributed
+    fallbackRegionFormat: 
+      content: "Час: {1} ({0})"
+      draft: contributed
+    gmtFormat: GMT{0}
+    hourFormat: 
+      content: +HH:mm;-HH:mm
+      draft: contributed
+    metazone: 
+      - 
+        long: 
+          daylight: 
+            content: Паўночнаамэрыканскі цэнтральны летні час
+            draft: contributed
+          generic: 
+            content: Паўночнаамэрыканскі цэнтральны час
+            draft: contributed
+          standard: 
+            content: Паўночнаамэрыканскі цэнтральны стандартны час
+            draft: contributed
+        type: America_Central
+      - 
+        long: 
+          daylight: 
+            content: Паўночнаамэрыканскі усходні летні час
+            draft: contributed
+          generic: 
+            content: Паўночнаамэрыканскі усходні час
+            draft: contributed
+          standard: 
+            content: Паўночнаамэрыканскі усходні стандартны час
+            draft: contributed
+        type: America_Eastern
+      - 
+        long: 
+          daylight: 
+            content: Паўночнаамэрыканскі горны летні час
+            draft: contributed
+          generic: 
+            content: Паўночнаамэрыканскі горны час
+            draft: contributed
+          standard: 
+            content: Паўночнаамэрыканскі горны стандартны час
+            draft: contributed
+        type: America_Mountain
+      - 
+        long: 
+          daylight: 
+            content: Ціхаакіянскі летні час
+            draft: contributed
+          generic: 
+            content: Ціхаакіянскі час
+            draft: contributed
+          standard: 
+            content: Ціхаакіянскі стандартны час
+            draft: contributed
+        type: America_Pacific
+      - 
+        long: 
+          daylight: 
+            content: Атлянтычны летні час
+            draft: contributed
+          generic: 
+            content: Атлянтычны час
+            draft: contributed
+          standard: 
+            content: Атлянтычны стандартны час
+            draft: contributed
+        type: Atlantic
+      - 
+        long: 
+          daylight: Цэнтральнаэўрапейскі летні час
+          generic: Цэнтральнаэўрапейскі час
+          standard: Цэнтральнаэўрапейскі стандартны час
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Усходнеэўрапейскі летні час
+          generic: Усходнеэўрапейскі час
+          standard: Усходнеэўрапейскі стандартны час
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Заходнеэўрапейскі летні час
+          generic: Заходнеэўрапейскі час
+          standard: Заходнеэўрапейскі стандартны час
+        type: Europe_Western
+      - 
+        long: 
+          standard: 
+            content: Грынвічскі час
+            draft: contributed
+        type: GMT
+    regionFormat: 
+      content: "Час: {0}"
+      draft: contributed
+    zone: 
+      - 
+        exemplarCity: Невядомы
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: Рыё Бранка
+          draft: contributed
+        type: America/Rio_Branco
+      - 
+        exemplarCity: 
+          content: Кампа Грандэ
+          draft: contributed
+        type: America/Campo_Grande
+      - 
+        exemplarCity: 
+          content: Сан-Паўлу
+          draft: contributed
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: 
+          content: Ганалулу
+          draft: contributed
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: 
+          content: Анкорыдж
+          draft: contributed
+        type: America/Anchorage
+      - 
+        exemplarCity: 
+          content: Лос-Анджэлас
+          draft: contributed
+        type: America/Los_Angeles
+      - 
+        exemplarCity: 
+          content: Фэнікс
+          draft: contributed
+        type: America/Phoenix
+      - 
+        exemplarCity: 
+          content: Дэнвэр
+          draft: contributed
+        type: America/Denver
+      - 
+        exemplarCity: 
+          content: Чыкага
+          draft: contributed
+        type: America/Chicago
+      - 
+        exemplarCity: 
+          content: Індыянапаліс
+          draft: contributed
+        type: America/Indianapolis
+      - 
+        exemplarCity: 
+          content: Нью-Ёрк
+          draft: contributed
+        type: America/New_York
+delimiters: 
+  alternateQuotationEnd: 
+    content: ›
+    draft: contributed
+  alternateQuotationStart: 
+    content: ‹
+    draft: contributed
+  quotationEnd: 
+    content: »
+    draft: contributed
+  quotationStart: 
+    content: «
+    draft: contributed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 15:04:14 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: be
+  version: 
+    number: "$Revision: 8249 $"
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Мова: {0}"
+        draft: contributed
+        type: language
+      - 
+        content: "Пісьмо: {0}"
+        draft: contributed
+        type: script
+      - 
+        content: "Рэгіён: {0}"
+        draft: contributed
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: каляндар
+        type: calendar
+      - 
+        content: параўнаньне тэксту
+        type: collation
+      - 
+        content: валюта
+        type: currency
+  languages: 
+    language: 
+      - 
+        content: абхазская
+        type: ab
+      - 
+        content: адыгейская
+        draft: contributed
+        type: ady
+      - 
+        content: афрыкаанс
+        type: af
+      - 
+        content: афра-азіяцкая мова
+        draft: contributed
+        type: afa
+      - 
+        content: акадзкая
+        draft: contributed
+        type: akk
+      - 
+        content: алеуцкая
+        draft: contributed
+        type: ale
+      - 
+        content: амхарская
+        type: am
+      - 
+        content: арагонская
+        draft: contributed
+        type: an
+      - 
+        content: стараанглійская
+        type: ang
+      - 
+        content: арабская
+        type: ar
+      - 
+        content: арамейская
+        draft: contributed
+        type: arc
+      - 
+        content: штучная мова
+        draft: contributed
+        type: art
+      - 
+        content: асамская
+        type: as
+      - 
+        content: астурыйская
+        draft: contributed
+        type: ast
+      - 
+        content: аўстралійская
+        draft: contributed
+        type: aus
+      - 
+        content: аварская
+        draft: contributed
+        type: av
+      - 
+        content: аймара
+        draft: contributed
+        type: ay
+      - 
+        content: азербайджанская
+        type: az
+      - 
+        content: башкірская
+        type: ba
+      - 
+        content: беларуская
+        type: be
+      - 
+        content: балгарская
+        type: bg
+      - 
+        content: біхары
+        type: bh
+      - 
+        content: бенгальская
+        type: bn
+      - 
+        content: брэтонская
+        type: br
+      - 
+        content: баснійская
+        type: bs
+      - 
+        content: бурацкая
+        draft: contributed
+        type: bua
+      - 
+        content: каталонская
+        type: ca
+      - 
+        content: мова індзейцаў Цэнтральнай Амерыкі
+        draft: contributed
+        type: cai
+      - 
+        content: каўказская мова
+        draft: contributed
+        type: cau
+      - 
+        content: чачэнская
+        type: ce
+      - 
+        content: кельцкая мова
+        draft: contributed
+        type: cel
+      - 
+        content: чыбча
+        draft: unconfirmed
+        type: chb
+      - 
+        content: копцкая
+        type: cop
+      - 
+        content: чэшская
+        type: cs
+      - 
+        content: кушыцкая мова
+        draft: unconfirmed
+        type: cus
+      - 
+        content: чувашская
+        draft: contributed
+        type: cv
+      - 
+        content: валійская
+        type: cy
+      - 
+        content: дацкая
+        type: da
+      - 
+        content: нямецкая
+        type: de
+      - 
+        content: нямецкая (аўстр.)
+        type: de_AT
+      - 
+        content: нямецкая (швейц.)
+        type: de_CH
+      - 
+        content: стараэгіпецкая
+        draft: contributed
+        type: egy
+      - 
+        content: грэцкая
+        type: el
+      - 
+        content: англійская
+        type: en
+      - 
+        content: англійская (аўстрал.)
+        type: en_AU
+      - 
+        content: англійская (канад.)
+        type: en_CA
+      - 
+        content: англійская (Вялікабрытанія)
+        type: en_GB
+      - 
+        content: англійская (ЗША)
+        type: en_US
+      - 
+        content: эсперанта
+        type: eo
+      - 
+        content: іспанская
+        type: es
+      - 
+        content: іспанская (лацінаамер.)
+        type: es_419
+      - 
+        content: эстонская
+        type: et
+      - 
+        content: баскская
+        type: eu
+      - 
+        content: фарсі
+        type: fa
+      - 
+        content: фінская
+        type: fi
+      - 
+        content: тагальская
+        type: fil
+      - 
+        content: фарэрская
+        type: fo
+      - 
+        content: французская
+        type: fr
+      - 
+        content: французская (канад.)
+        type: fr_CA
+      - 
+        content: французская (швейц.)
+        type: fr_CH
+      - 
+        content: старафранцузская
+        type: fro
+      - 
+        content: фрызская
+        type: fy
+      - 
+        content: ірландская
+        type: ga
+      - 
+        content: шатландская гэльская
+        type: gd
+      - 
+        content: галісійская
+        type: gl
+      - 
+        content: гуарані
+        type: gn
+      - 
+        content: старагрэцкая
+        draft: contributed
+        type: grc
+      - 
+        content: гуяраці
+        type: gu
+      - 
+        content: іўрыт
+        type: he
+      - 
+        content: хіндзі
+        type: hi
+      - 
+        content: харвацкая
+        type: hr
+      - 
+        content: венгерская
+        type: hu
+      - 
+        content: армянская
+        type: hy
+      - 
+        content: інтэрлінгва
+        type: ia
+      - 
+        content: інданезійская
+        type: id
+      - 
+        content: інтэрлінгве
+        type: ie
+      - 
+        content: ісландская
+        type: is
+      - 
+        content: італьянская
+        type: it
+      - 
+        content: японская
+        type: ja
+      - 
+        content: яванская
+        type: jv
+      - 
+        content: грузінская
+        type: ka
+      - 
+        content: казахская
+        type: kk
+      - 
+        content: каннада
+        type: kn
+      - 
+        content: карэйская
+        type: ko
+      - 
+        content: курдская
+        type: ku
+      - 
+        content: лацінская
+        type: la
+      - 
+        content: лінгала
+        type: ln
+      - 
+        content: лаоская
+        type: lo
+      - 
+        content: монга
+        draft: unconfirmed
+        type: lol
+      - 
+        content: літоўская
+        type: lt
+      - 
+        content: луо
+        draft: unconfirmed
+        type: luo
+      - 
+        content: латышская
+        type: lv
+      - 
+        content: мандынга
+        draft: unconfirmed
+        type: man
+      - 
+        content: аўстранезійская
+        draft: contributed
+        type: map
+      - 
+        content: масаі
+        draft: unconfirmed
+        type: mas
+      - 
+        content: мендэ
+        draft: unconfirmed
+        type: men
+      - 
+        content: мальгашская
+        draft: unconfirmed
+        type: mg
+      - 
+        content: македонская
+        type: mk
+      - 
+        content: малаяламская
+        type: ml
+      - 
+        content: мангольская
+        type: mn
+      - 
+        content: малдаўская
+        type: mo
+      - 
+        content: мосі
+        draft: unconfirmed
+        type: mos
+      - 
+        content: маратхі
+        type: mr
+      - 
+        content: малайская
+        type: ms
+      - 
+        content: мальтыйская
+        type: mt
+      - 
+        content: мова індзейцаў Паўночнай Амерыкі
+        draft: unconfirmed
+        type: nai
+      - 
+        content: нарвэская букмал
+        draft: contributed
+        type: nb
+      - 
+        content: непальская
+        type: ne
+      - 
+        content: галандская
+        type: nl
+      - 
+        content: фламандская
+        type: nl_BE
+      - 
+        content: нарвежская (нюнорск)
+        type: nn
+      - 
+        content: нарвежская
+        type: 'no'
+      - 
+        content: нагайская
+        draft: unconfirmed
+        type: nog
+      - 
+        content: старанарвежская
+        draft: unconfirmed
+        type: non
+      - 
+        content: нубійская мова
+        draft: unconfirmed
+        type: nub
+      - 
+        content: правансальская
+        type: oc
+      - 
+        content: аджыбве
+        draft: unconfirmed
+        type: oj
+      - 
+        content: орыя
+        draft: unconfirmed
+        type: or
+      - 
+        content: асецінская
+        draft: unconfirmed
+        type: os
+      - 
+        content: панджабі
+        type: pa
+      - 
+        content: стараперсідская
+        draft: unconfirmed
+        type: peo
+      - 
+        content: фінікійская
+        draft: unconfirmed
+        type: phn
+      - 
+        content: польская
+        type: pl
+      - 
+        content: стараправансальская
+        draft: unconfirmed
+        type: pro
+      - 
+        content: пушту
+        type: ps
+      - 
+        content: партугальская
+        type: pt
+      - 
+        content: партугальская (бразіл.)
+        type: pt_BR
+      - 
+        content: кечуа
+        draft: unconfirmed
+        type: qu
+      - 
+        content: раджастханская
+        draft: unconfirmed
+        type: raj
+      - 
+        content: рэта-раманская
+        draft: unconfirmed
+        type: rm
+      - 
+        content: румынская
+        type: ro
+      - 
+        content: руская
+        type: ru
+      - 
+        content: санскрыт
+        type: sa
+      - 
+        content: якуцкая
+        type: sah
+      - 
+        content: мова індзейцаў Паўднёвай Амерыкі
+        draft: unconfirmed
+        type: sai
+      - 
+        content: сіндхі
+        type: sd
+      - 
+        content: семіцкая мова
+        draft: unconfirmed
+        type: sem
+      - 
+        content: стараірландская
+        draft: unconfirmed
+        type: sga
+      - 
+        content: знакавая мова
+        draft: contributed
+        type: sgn
+      - 
+        content: сербска-харвацкая
+        type: sh
+      - 
+        content: сінгальская
+        type: si
+      - 
+        content: кітайска-тыбецкая мова
+        draft: unconfirmed
+        type: sit
+      - 
+        content: славацкая
+        type: sk
+      - 
+        content: славенская
+        type: sl
+      - 
+        content: славянская мова
+        draft: contributed
+        type: sla
+      - 
+        content: самалійская
+        type: so
+      - 
+        content: албанская
+        type: sq
+      - 
+        content: сербская
+        type: sr
+      - 
+        content: суданская
+        type: su
+      - 
+        content: шумерская
+        draft: unconfirmed
+        type: sux
+      - 
+        content: шведская
+        type: sv
+      - 
+        content: суахілі
+        type: sw
+      - 
+        content: тамільская
+        type: ta
+      - 
+        content: мова таі
+        draft: unconfirmed
+        type: tai
+      - 
+        content: тэлугу
+        type: te
+      - 
+        content: таджыкская
+        draft: unconfirmed
+        type: tg
+      - 
+        content: тайская
+        type: th
+      - 
+        content: тыгрынья
+        type: ti
+      - 
+        content: туркменская
+        type: tk
+      - 
+        content: клінгон
+        type: tlh
+      - 
+        content: турэцкая
+        type: tr
+      - 
+        content: татарская
+        type: tt
+      - 
+        content: мова тупі
+        draft: unconfirmed
+        type: tup
+      - 
+        content: алтайская мова
+        draft: contributed
+        type: tut
+      - 
+        content: тувінская
+        draft: unconfirmed
+        type: tyv
+      - 
+        content: уйгурская
+        type: ug
+      - 
+        content: украінская
+        type: uk
+      - 
+        content: невядомая мова
+        type: und
+      - 
+        content: урду
+        type: ur
+      - 
+        content: узбекская
+        type: uz
+      - 
+        content: в'етнамская
+        type: vi
+      - 
+        content: валапюк
+        draft: unconfirmed
+        type: vo
+      - 
+        content: хоса
+        type: xh
+      - 
+        content: ідыш
+        draft: contributed
+        type: yi
+      - 
+        content: сапатэкаў
+        draft: unconfirmed
+        type: zap
+      - 
+        content: кітайская
+        type: zh
+      - 
+        content: спрошчаная кітайская
+        type: zh_Hans
+      - 
+        content: традыцыйная кітайская
+        type: zh_Hant
+      - 
+        content: зулу
+        type: zu
+  localeDisplayPattern: 
+    localePattern: 
+      content: "{0} ({1})"
+      draft: contributed
+    localeSeparator: 
+      content: ", "
+      draft: contributed
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: метрычная
+        type: metric
+      - 
+        content: ЗША
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: арабскае
+        draft: contributed
+        type: Arab
+      - 
+        content: армянскае
+        draft: contributed
+        type: Armn
+      - 
+        content: кірылічны
+        type: Cyrl
+      - 
+        content: грузінскае
+        draft: contributed
+        type: Geor
+      - 
+        content: спрошчанае кітайскае
+        draft: contributed
+        type: Hans
+      - 
+        content: традыцыйнае кітайскае
+        draft: contributed
+        type: Hant
+      - 
+        content: габрэйскае
+        draft: contributed
+        type: Hebr
+      - 
+        content: японскае
+        draft: contributed
+        type: Jpan
+      - 
+        content: лацінскі
+        type: Latn
+      - 
+        content: чысты
+        type: Zxxx
+      - 
+        content: невядомы або недапушчальны пераклад
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Свет
+        type: '001'
+      - 
+        content: Афрыка
+        type: '002'
+      - 
+        content: Паўночная Амэрыка
+        type: '003'
+      - 
+        content: Паўднёвая Амэрыка
+        type: '005'
+      - 
+        content: Акіянія
+        type: '009'
+      - 
+        content: Заходняя Афрыка
+        type: '011'
+      - 
+        content: Цэнтральная Амэрыка
+        type: '013'
+      - 
+        content: Усходняя Афрыка
+        type: '014'
+      - 
+        content: Паўночная Афрыка
+        type: '015'
+      - 
+        content: Цэнтральная Афрыка
+        type: '017'
+      - 
+        content: Паўднёвая Афрыка
+        type: '018'
+      - 
+        content: Паўночная і Паўднёвая Амерыкі
+        type: '019'
+      - 
+        content: ЗША і Канада
+        type: '021'
+      - 
+        content: Карыбскія астравы
+        type: '029'
+      - 
+        content: Усходняя Азія
+        type: '030'
+      - 
+        content: Паўднёвая Азія
+        type: '034'
+      - 
+        content: Паўднёва-Усходняя Азія
+        type: '035'
+      - 
+        content: Паўднёвая Еўропа
+        type: '039'
+      - 
+        content: Аўстралія і Новая Зэландыя
+        type: '053'
+      - 
+        content: Палінезія
+        type: '061'
+      - 
+        content: Азія
+        type: 142
+      - 
+        content: Цэнтральная Азія
+        type: 143
+      - 
+        content: Заходняя Азія
+        type: 145
+      - 
+        content: Еўропа
+        type: 150
+      - 
+        content: Усходняя Еўропа
+        type: 151
+      - 
+        content: Паўночная Еўропа
+        type: 154
+      - 
+        content: Заходняя Еўропа
+        type: 155
+      - 
+        content: Андора
+        type: AD
+      - 
+        content: Аб'яднаныя Арабскія Эміраты
+        type: AE
+      - 
+        content: Афганістан
+        type: AF
+      - 
+        content: Антыгуа і Барбуда
+        type: AG
+      - 
+        content: Ангуілля
+        type: AI
+      - 
+        content: Албанія
+        type: AL
+      - 
+        content: Арменія
+        type: AM
+      - 
+        content: Нідэрландскія Антылы
+        type: AN
+      - 
+        content: Ангола
+        type: AO
+      - 
+        content: Антарктыка
+        type: AQ
+      - 
+        content: Аргенціна
+        type: AR
+      - 
+        content: Амерыканскае Самоа
+        type: AS
+      - 
+        content: Аўстрыя
+        type: AT
+      - 
+        content: Аўстралія
+        type: AU
+      - 
+        content: Аруба
+        type: AW
+      - 
+        content: Аландскія астравы
+        type: AX
+      - 
+        content: Азербайджан
+        type: AZ
+      - 
+        content: Боснія і Герцагавіна
+        type: BA
+      - 
+        content: Барбадас
+        type: BB
+      - 
+        content: Бангладэш
+        type: BD
+      - 
+        content: Бельгія
+        type: BE
+      - 
+        content: Буркіна-Фасо
+        type: BF
+      - 
+        content: Балгарыя
+        type: BG
+      - 
+        content: Бахрэйн
+        type: BH
+      - 
+        content: Бурундзі
+        type: BI
+      - 
+        content: Бенін
+        type: BJ
+      - 
+        content: Бермудскія астравы
+        type: BM
+      - 
+        content: Бруней-Дарусалам
+        type: BN
+      - 
+        content: Балівія
+        type: BO
+      - 
+        content: Бразілія
+        type: BR
+      - 
+        content: Багамскія Астравы
+        type: BS
+      - 
+        content: Бутан
+        type: BT
+      - 
+        content: Бувэ востраў
+        type: BV
+      - 
+        content: Батсвана
+        type: BW
+      - 
+        content: Беларусь
+        type: BY
+      - 
+        content: Беліз
+        type: BZ
+      - 
+        content: Канада
+        type: CA
+      - 
+        content: Какосавыя астравы
+        type: CC
+      - 
+        content: Конга, Дэмакратычная Рэспубліка
+        type: CD
+      - 
+        content: Цэнтральна-Афрыканская Рэспубліка
+        type: CF
+      - 
+        content: Конга
+        type: CG
+      - 
+        content: Швейцарыя
+        type: CH
+      - 
+        content: Кука астравы
+        type: CK
+      - 
+        content: Чылі
+        type: CL
+      - 
+        content: Камерун
+        type: CM
+      - 
+        content: Кітай
+        type: CN
+      - 
+        content: Калумбія
+        type: CO
+      - 
+        content: Коста-Рыка
+        type: CR
+      - 
+        content: Куба
+        type: CU
+      - 
+        content: Каба-Вердэ
+        type: CV
+      - 
+        content: Калядаў востраў
+        type: CX
+      - 
+        content: Кіпр
+        type: CY
+      - 
+        content: Чэхія
+        type: CZ
+      - 
+        content: Германія
+        type: DE
+      - 
+        content: Джыбуці
+        type: DJ
+      - 
+        content: Данія
+        type: DK
+      - 
+        content: Дамініка
+        type: DM
+      - 
+        content: Дамініканская Рэспубліка
+        type: DO
+      - 
+        content: Алжыр
+        type: DZ
+      - 
+        content: Эквадор
+        type: EC
+      - 
+        content: Эстонія
+        type: EE
+      - 
+        content: Егіпет
+        type: EG
+      - 
+        content: Заходняя Сахара
+        type: EH
+      - 
+        content: Эрытрэя
+        type: ER
+      - 
+        content: Іспанія
+        type: ES
+      - 
+        content: Эфіопія
+        type: ET
+      - 
+        content: Еўрапейскі Звяз
+        type: EU
+      - 
+        content: Фінляндыя
+        type: FI
+      - 
+        content: Фіджы
+        type: FJ
+      - 
+        content: Фолклэндскія астравы
+        type: FK
+      - 
+        content: Мікранезія
+        type: FM
+      - 
+        content: Францыя
+        type: FR
+      - 
+        content: Габон
+        type: GA
+      - 
+        content: Велікабрытанія
+        type: GB
+      - 
+        content: Грэнада
+        type: GD
+      - 
+        content: Грузія
+        type: GE
+      - 
+        content: Французская Гвіяна
+        type: GF
+      - 
+        content: Гана
+        type: GH
+      - 
+        content: Гібралтар
+        type: GI
+      - 
+        content: Грэнландыя
+        type: GL
+      - 
+        content: Гамбія
+        type: GM
+      - 
+        content: Гвінея
+        type: GN
+      - 
+        content: Гвадэлупа
+        type: GP
+      - 
+        content: Экватарыяльная Гвінея
+        type: GQ
+      - 
+        content: Грэцыя
+        type: GR
+      - 
+        content: Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы
+        type: GS
+      - 
+        content: Гватэмала
+        type: GT
+      - 
+        content: Гвінея-Бісаў
+        type: GW
+      - 
+        content: Гаяна
+        type: GY
+      - 
+        content: Гон-Конг, Кітай (САР)
+        type: HK
+      - 
+        alt: short
+        content: Гон-Конг
+        type: HK
+      - 
+        content: Гэрда востраў і МакДоналда астравы
+        type: HM
+      - 
+        content: Гандурас
+        type: HN
+      - 
+        content: Харватыя
+        type: HR
+      - 
+        content: Гаіці
+        type: HT
+      - 
+        content: Венгрыя
+        type: HU
+      - 
+        content: Інданезія
+        type: ID
+      - 
+        content: Ірландыя
+        type: IE
+      - 
+        content: Ізраіль
+        type: IL
+      - 
+        content: Індыя
+        type: IN
+      - 
+        content: Брытанская тэрыторыя Індыйскага акіяну
+        type: IO
+      - 
+        content: Ірак
+        type: IQ
+      - 
+        content: Іран, Ісламская Рэспубліка
+        type: IR
+      - 
+        content: Ісландыя
+        type: IS
+      - 
+        content: Італія
+        type: IT
+      - 
+        content: Ямайка
+        type: JM
+      - 
+        content: Іарданія
+        type: JO
+      - 
+        content: Японія
+        type: JP
+      - 
+        content: Кенія
+        type: KE
+      - 
+        content: Кыргызстан
+        type: KG
+      - 
+        content: Камбоджа
+        type: KH
+      - 
+        content: Кірыбаці
+        type: KI
+      - 
+        content: Каморскія Астравы
+        type: KM
+      - 
+        content: Сэнт-Кітс і Нэвіс
+        type: KN
+      - 
+        content: Паўночная Карэя
+        type: KP
+      - 
+        content: Паўднёвая Карэя
+        type: KR
+      - 
+        content: Кувейт
+        type: KW
+      - 
+        content: Кайманавы астравы
+        type: KY
+      - 
+        content: Казахстан
+        type: KZ
+      - 
+        content: Лаоская Народна-Дэмакратычная Рэспубліка
+        type: LA
+      - 
+        content: Ліван
+        type: LB
+      - 
+        content: Сэнт-Люсія
+        type: LC
+      - 
+        content: Ліхтэнштэйн
+        type: LI
+      - 
+        content: Шры-Ланка
+        type: LK
+      - 
+        content: Ліберыя
+        type: LR
+      - 
+        content: Лесота
+        type: LS
+      - 
+        content: Літва
+        type: LT
+      - 
+        content: Люксембург
+        type: LU
+      - 
+        content: Латвія
+        type: LV
+      - 
+        content: Лівійская Арабская Джамахірыя
+        type: LY
+      - 
+        content: Марока
+        type: MA
+      - 
+        content: Манака
+        type: MC
+      - 
+        content: Малдова
+        type: MD
+      - 
+        content: Чарнагорыя
+        type: ME
+      - 
+        content: Мадагаскар
+        type: MG
+      - 
+        content: Маршалавы Астравы
+        type: MH
+      - 
+        content: Македонія, БЮР
+        type: MK
+      - 
+        content: Малі
+        type: ML
+      - 
+        content: М'янма
+        type: MM
+      - 
+        content: Манголія
+        type: MN
+      - 
+        content: Макао, Кітай (САР)
+        type: MO
+      - 
+        alt: short
+        content: Макао
+        type: MO
+      - 
+        content: Паўночныя Марыянскія астравы
+        type: MP
+      - 
+        content: Марцініка
+        type: MQ
+      - 
+        content: Маўрытанія
+        type: MR
+      - 
+        content: Монсэрат
+        type: MS
+      - 
+        content: Мальта
+        type: MT
+      - 
+        content: Маўрыкій
+        type: MU
+      - 
+        content: Мальдыўскія Астравы
+        type: MV
+      - 
+        content: Малаві
+        type: MW
+      - 
+        content: Мексіка
+        type: MX
+      - 
+        content: Малайзія
+        type: MY
+      - 
+        content: Мазамбік
+        type: MZ
+      - 
+        content: Намібія
+        type: NA
+      - 
+        content: Новая Каледонія
+        type: NC
+      - 
+        content: Нігер
+        type: NE
+      - 
+        content: Норфалкскія астравы
+        type: NF
+      - 
+        content: Нігерыя
+        type: NG
+      - 
+        content: Нікарагуа
+        type: NI
+      - 
+        content: Нідэрланды
+        type: NL
+      - 
+        content: Нарвегія
+        type: 'NO'
+      - 
+        content: Непал
+        type: NP
+      - 
+        content: Науру
+        type: NR
+      - 
+        content: Ніуэ
+        type: NU
+      - 
+        content: Новая Зеландыя
+        type: NZ
+      - 
+        content: Аман
+        type: OM
+      - 
+        content: Панама
+        type: PA
+      - 
+        content: Перу
+        type: PE
+      - 
+        content: Франузская Палінэзія
+        type: PF
+      - 
+        content: Папуа-Новая Гвінея
+        type: PG
+      - 
+        content: Філіпіны
+        type: PH
+      - 
+        content: Пакістан
+        type: PK
+      - 
+        content: Польшча
+        type: PL
+      - 
+        content: Палестынскія тэрыторыі
+        type: PS
+      - 
+        content: Партугалія
+        type: PT
+      - 
+        content: Палаў
+        type: PW
+      - 
+        content: Парагвай
+        type: PY
+      - 
+        content: Катар
+        type: QA
+      - 
+        content: Вонкавая Акіянія
+        type: QO
+      - 
+        content: Рэюньён
+        type: RE
+      - 
+        content: Румынія
+        type: RO
+      - 
+        content: Сербія
+        type: RS
+      - 
+        content: Расія
+        type: RU
+      - 
+        content: Руанда
+        type: RW
+      - 
+        content: Саудаўская Аравія
+        type: SA
+      - 
+        content: Саламонавы Астравы
+        type: SB
+      - 
+        content: Сейшэльскія Астравы
+        type: SC
+      - 
+        content: Судан
+        type: SD
+      - 
+        content: Швецыя
+        type: SE
+      - 
+        content: Сінгапур
+        type: SG
+      - 
+        content: Святой Алены, Востраў
+        type: SH
+      - 
+        content: Славенія
+        type: SI
+      - 
+        content: Свальбард (Паўночна-Усходняя Зямля) і Ян-Маен
+        type: SJ
+      - 
+        content: Славакія
+        type: SK
+      - 
+        content: Сьера-Леонэ
+        type: SL
+      - 
+        content: Сенегал
+        type: SN
+      - 
+        content: Самалі
+        type: SO
+      - 
+        content: Сурынам
+        type: SR
+      - 
+        content: Паўднёвы Судан
+        draft: provisional
+        type: SS
+      - 
+        content: Сан-Томэ і Прынсіпі
+        type: ST
+      - 
+        content: Сальвадор
+        type: SV
+      - 
+        content: Сірыйская Арабская Рэспубліка
+        type: SY
+      - 
+        content: Свазіленд
+        type: SZ
+      - 
+        content: Тэркс і Кайкас астравы
+        type: TC
+      - 
+        content: Чад
+        type: TD
+      - 
+        content: Французскія Паўднёвыя тэрыторыі
+        type: TF
+      - 
+        content: Тога
+        type: TG
+      - 
+        content: Тайланд
+        type: TH
+      - 
+        content: Таджыкістан
+        type: TJ
+      - 
+        content: Такелаў
+        type: TK
+      - 
+        content: Усходні Тымор
+        type: TL
+      - 
+        content: Туркменістан
+        type: TM
+      - 
+        content: Туніс
+        type: TN
+      - 
+        content: Тангійская
+        type: TO
+      - 
+        content: Турцыя
+        type: TR
+      - 
+        content: Трынідад і Табага
+        type: TT
+      - 
+        content: Тувалу
+        type: TV
+      - 
+        content: Тайвань
+        type: TW
+      - 
+        content: Танзанія, Аб'яднаная Рэспубліка
+        type: TZ
+      - 
+        content: Украіна
+        type: UA
+      - 
+        content: Уганда
+        type: UG
+      - 
+        content: Злучаныя Штаты
+        type: US
+      - 
+        content: Уругвай
+        type: UY
+      - 
+        content: Узбекістан
+        type: UZ
+      - 
+        content: Ватыкан
+        type: VA
+      - 
+        content: Сэнт-Вінсэнт і Грэнадыны
+        type: VC
+      - 
+        content: Венесуэла
+        type: VE
+      - 
+        content: Віргінскія астравы
+        type: VG
+      - 
+        content: Віргінскія астравы, ЗША
+        type: VI
+      - 
+        content: В'етнам
+        type: VN
+      - 
+        content: Вануату
+        type: VU
+      - 
+        content: Уоліс і Футуна
+        type: WF
+      - 
+        content: Самоа (Заходняе)
+        type: WS
+      - 
+        content: Емен
+        type: YE
+      - 
+        content: Паўднёва-Афрыканская Рэспубліка
+        type: ZA
+      - 
+        content: Замбія
+        type: ZM
+      - 
+        content: Зімбабвэ
+        type: ZW
+      - 
+        content: Невядомы рэгіён
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: японскі каляндар
+        type: japanese
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          content: аўстралійскі даляр
+          draft: contributed
+        type: AUD
+      - 
+        displayName: бразільскі рэал
+        type: BRL
+      - 
+        displayName: беларускі рубель
+        symbol: р.
+        type: BYR
+      - 
+        displayName: кітайскі юань
+        type: CNY
+      - 
+        displayName: 
+          content: эрытрэйская накфа
+          draft: contributed
+        type: ERN
+      - 
+        displayName: еўра
+        type: EUR
+      - 
+        displayName: англійскі фунт
+        type: GBP
+      - 
+        displayName: індыйская рупія
+        type: INR
+      - 
+        displayName: японская іена
+        symbol: 
+          content: ¥
+          draft: contributed
+        type: JPY
+      - 
+        displayName: 
+          content: нарвэская крона
+          draft: contributed
+        type: NOK
+      - 
+        displayName: рускі рубель
+        symbol: 
+          content: рас. руб.
+          draft: contributed
+        type: RUB
+      - 
+        displayName: долар ЗША
+        symbol: 
+          content: $
+          draft: contributed
+        type: USD
+      - 
+        displayName: невядомая або недапушчальная валюта
+        type: XXX
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: 
+          content: "#,##0.###"
+          draft: contributed
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: 
+          content: "#,##0%"
+          draft: contributed
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: 
+          content: "#E0"
+          draft: contributed
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: не:н
+    yesstr: так:т
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} дзень"
+          count: one
+          draft: contributed
+        - 
+          content: "{0} дні"
+          count: few
+          draft: contributed
+        - 
+          content: "{0} дзён"
+          count: many
+          draft: contributed
+        - 
+          content: "{0} дня"
+          count: other
+          draft: contributed
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} гадзіна"
+          count: one
+          draft: contributed
+        - 
+          content: "{0} гадзіны"
+          count: few
+          draft: contributed
+        - 
+          content: "{0} гадзін"
+          count: many
+          draft: contributed
+        - 
+          content: "{0} гадзіны"
+          count: other
+          draft: contributed
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} хвіліна"
+          count: one
+          draft: contributed
+        - 
+          content: "{0} хвіліны"
+          count: few
+          draft: contributed
+        - 
+          content: "{0} хвілін"
+          count: many
+          draft: contributed
+        - 
+          content: "{0} хвіліны"
+          count: other
+          draft: contributed
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} месяц"
+          count: one
+          draft: contributed
+        - 
+          content: "{0} месяца"
+          count: few
+          draft: contributed
+        - 
+          content: "{0} месяцаў"
+          count: many
+          draft: contributed
+        - 
+          content: "{0} месяца"
+          count: other
+          draft: contributed
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} сэкунда"
+          count: one
+          draft: contributed
+        - 
+          content: "{0} сэкунды"
+          count: few
+          draft: contributed
+        - 
+          content: "{0} сэкунд"
+          count: many
+          draft: contributed
+        - 
+          content: "{0} сэкунды"
+          count: other
+          draft: contributed
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} тыдзень"
+          count: one
+          draft: contributed
+        - 
+          content: "{0} тыдні"
+          count: few
+          draft: contributed
+        - 
+          content: "{0} тыдняў"
+          count: many
+          draft: contributed
+        - 
+          content: "{0} тыдня"
+          count: other
+          draft: contributed
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} год"
+          count: one
+          draft: contributed
+        - 
+          content: "{0} гады"
+          count: few
+          draft: contributed
+        - 
+          content: "{0} гадоў"
+          count: many
+          draft: contributed
+        - 
+          content: "{0} году"
+          count: other
+          draft: contributed

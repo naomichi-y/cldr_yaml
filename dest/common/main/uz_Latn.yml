@@ -1,0 +1,493 @@
+characters: 
+  exemplarCharacters: 
+    - "[a {aʼ} b {ch} d e {eʼ} f g {gʻ} h i {iʼ} j k l m n o {oʻ} p q r s {sh} t u {uʼ} v x y z]"
+    - 
+      content: "[c w]"
+      type: auxiliary
+    - 
+      content: "[A B {CH} D E F G {Gʻ} H I J K L M N O {Oʻ} P Q R S {SH} T U V X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, G y MMMM dd
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: G y MMMM d
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: G y MMM d
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: GGGGG yy/MM/dd
+                  draft: unconfirmed
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, y MMMM dd
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: y MMMM d
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: y MMM d
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: yy/MM/dd
+                  draft: unconfirmed
+              type: short
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Yaksh
+                      type: sun
+                    - 
+                      content: Dush
+                      type: mon
+                    - 
+                      content: Sesh
+                      type: tue
+                    - 
+                      content: Chor
+                      type: wed
+                    - 
+                      content: Pay
+                      type: thu
+                    - 
+                      content: Cum
+                      type: fri
+                    - 
+                      content: Shan
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: yakshanba
+                      type: sun
+                    - 
+                      content: dushanba
+                      type: mon
+                    - 
+                      content: seshanba
+                      type: tue
+                    - 
+                      content: chorshanba
+                      type: wed
+                    - 
+                      content: payshanba
+                      type: thu
+                    - 
+                      content: cuma
+                      type: fri
+                    - 
+                      content: shanba
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: 'Y'
+                    type: sun
+                  - 
+                    content: D
+                    type: mon
+                  - 
+                    content: S
+                    type: tue
+                  - 
+                    content: C
+                    type: wed
+                  - 
+                    content: P
+                    type: thu
+                  - 
+                    content: C
+                    type: fri
+                  - 
+                    content: S
+                    type: sat
+                type: narrow
+              type: stand-alone
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Yanv
+                      type: 1
+                    - 
+                      content: Fev
+                      type: 2
+                    - 
+                      content: Mar
+                      type: 3
+                    - 
+                      content: Apr
+                      type: 4
+                    - 
+                      content: May
+                      type: 5
+                    - 
+                      content: Iyun
+                      type: 6
+                    - 
+                      content: Iyul
+                      type: 7
+                    - 
+                      content: Avg
+                      type: 8
+                    - 
+                      content: Sen
+                      type: 9
+                    - 
+                      content: Okt
+                      type: 10
+                    - 
+                      content: Noya
+                      type: 11
+                    - 
+                      content: Dek
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Yanvar
+                      type: 1
+                    - 
+                      content: Fevral
+                      type: 2
+                    - 
+                      content: Mart
+                      type: 3
+                    - 
+                      content: Aprel
+                      type: 4
+                    - 
+                      content: May
+                      type: 5
+                    - 
+                      content: Iyun
+                      type: 6
+                    - 
+                      content: Iyul
+                      type: 7
+                    - 
+                      content: Avgust
+                      type: 8
+                    - 
+                      content: Sentyabr
+                      type: 9
+                    - 
+                      content: Oktyabr
+                      type: 10
+                    - 
+                      content: Noyabr
+                      type: 11
+                    - 
+                      content: Dekabr
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: 'Y'
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: A
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: I
+                    type: 6
+                  - 
+                    content: I
+                    type: 7
+                  - 
+                    content: A
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: O
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+      - 
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: Muharram
+                  type: 1
+                - 
+                  content: Safar
+                  type: 2
+                - 
+                  content: Robiʼ ul-avval
+                  type: 3
+                - 
+                  content: Robiʼ ul-oxir
+                  type: 4
+                - 
+                  content: Jumad ul-avval
+                  type: 5
+                - 
+                  content: Jumad ul-oxir
+                  type: 6
+                - 
+                  content: Rajab
+                  type: 7
+                - 
+                  content: Shaʼbon
+                  type: 8
+                - 
+                  content: Ramazon
+                  type: 9
+                - 
+                  content: Shavvol
+                  type: 10
+                - 
+                  content: Zul-qaʼda
+                  type: 11
+                - 
+                  content: Zul-hijja
+                  type: 12
+              type: wide
+            type: format
+        type: islamic
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: uz
+  script: 
+    type: Latn
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: arabcha
+        type: ar
+      - 
+        content: olmoncha
+        type: de
+      - 
+        content: inglizcha
+        type: en
+      - 
+        content: ispancha
+        type: es
+      - 
+        content: fransuzcha
+        type: fr
+      - 
+        content: hindcha
+        type: hi
+      - 
+        content: italyancha
+        type: it
+      - 
+        content: yaponcha
+        type: ja
+      - 
+        content: portugalcha
+        type: pt
+      - 
+        content: ruscha
+        type: ru
+      - 
+        content: oʻzbekcha
+        type: uz
+      - 
+        content: xitoycha
+        type: zh
+  scripts: 
+    script: 
+      - 
+        content: Kiril
+        type: Cyrl
+      - 
+        content: Lotin
+        type: Latn
+  territories: 
+    territory: 
+      - 
+        content: Afgʻoniston
+        type: AF
+      - 
+        content: Braziliya
+        type: BR
+      - 
+        content: Xitoy
+        type: CN
+      - 
+        content: Olmoniya
+        type: DE
+      - 
+        content: Fransiya
+        type: FR
+      - 
+        content: Birlashgan Qirollik
+        type: GB
+      - 
+        content: Hindiston
+        type: IN
+      - 
+        content: Italiya
+        type: IT
+      - 
+        content: Yaponiya
+        type: JP
+      - 
+        content: Rossiya
+        type: RU
+      - 
+        content: Qoʻshma Shtatlar
+        type: US
+      - 
+        content: Oʻzbekiston
+        type: UZ
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          content: Brazil reali
+          draft: unconfirmed
+        type: BRL
+      - 
+        displayName: 
+          content: Xitoy yuani
+          draft: unconfirmed
+        type: CNY
+      - 
+        displayName: 
+          content: Evro
+          draft: unconfirmed
+        type: EUR
+      - 
+        displayName: 
+          content: Ingliz funt sterlingi
+          draft: unconfirmed
+        type: GBP
+      - 
+        displayName: 
+          content: Hind rupiyasi
+          draft: unconfirmed
+        type: INR
+      - 
+        displayName: 
+          content: Yapon yenasi
+          draft: unconfirmed
+        type: JPY
+      - 
+        displayName: 
+          content: Rus rubli
+          draft: unconfirmed
+        type: RUB
+      - 
+        displayName: 
+          content: AQSH dollari
+          draft: unconfirmed
+        type: USD
+      - 
+        displayName: 
+          content: Oʻzbekiston soʻm
+          draft: unconfirmed
+        symbol: 
+          content: soʻm
+          draft: unconfirmed
+        type: UZS
+  symbols: 
+    decimal: 
+      content: ","
+      draft: unconfirmed
+    group: 
+      draft: unconfirmed
+    numberSystem: latn

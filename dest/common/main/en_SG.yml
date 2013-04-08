@@ -1,0 +1,330 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM, y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM, y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMMEd: 
+                content: E, d MMM
+              yMEd: 
+                content: E, d/M/y GGGGG
+              yMMMEd: 
+                content: E, d MMM, y G
+        type: buddhist
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM, y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM, y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              content: E, d MMM
+              id: MMMEd
+          intervalFormats: 
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M – E, d/M
+                  d: 
+                    content: E, d/M – E, d/M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM
+                  d: 
+                    content: E, d MMM – E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d-d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                    draft: unconfirmed
+                  d: 
+                    content: d/M – d/M
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y – E, d/M/y
+                  d: 
+                    content: E, d/M/y – E, d/M/y
+                  "y": 
+                    content: E, d/M/y – E, d/M/y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, d MMM, y – E, d MMM, y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM, y
+                  d: 
+                    content: d-d MMM, y
+                  "y": 
+                    content: d MMM, y – d MMM, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM, y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM, y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              content: E, d MMM
+              id: MMMEd
+          intervalFormats: 
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M – E, d/M
+                  d: 
+                    content: E, d/M – E, d/M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM
+                  d: 
+                    content: E, d MMM – E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d-d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                    draft: unconfirmed
+                  d: 
+                    content: d/M – d/M
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y – E, d/M/y
+                  d: 
+                    content: E, d/M/y – E, d/M/y
+                  "y": 
+                    content: E, d/M/y – E, d/M/y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, d MMM, y – E, d MMM, y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM, y
+                  d: 
+                    content: d-d MMM, y
+                  "y": 
+                    content: d MMM, y – d MMM, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM, y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM, y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy GGGGG
+              type: short
+        type: japanese
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM, y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM, y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              content: E, d MMM
+              id: MMMEd
+        type: roc
+  timeZoneNames: 
+    metazone: 
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: Europe_Central
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: Europe_Eastern
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: Europe_Western
+    zone: 
+      short: 
+        daylight: ∅∅∅
+      type: Europe/London
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: en
+  territory: 
+    type: SG
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        symbol: $
+        type: SGD
+      - 
+        symbol: US$
+        type: USD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn

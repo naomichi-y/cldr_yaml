@@ -1,0 +1,269 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c ç d e f g h i j k l m n o p q r s t u v w x y z]"
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE dd MMMM y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: MMM dd, y G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy GGGGG
+                  draft: unconfirmed
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE dd MMMM y
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: MMM dd, y
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy
+                  draft: unconfirmed
+              type: short
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: a.m.
+                  type: am
+                - 
+                  content: p.m.
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: Jed
+                    type: sun
+                  - 
+                    content: Jel
+                    type: mon
+                  - 
+                    content: Jem
+                    type: tue
+                  - 
+                    content: Jerc
+                    type: wed
+                  - 
+                    content: Jerd
+                    type: thu
+                  - 
+                    content: Jeh
+                    type: fri
+                  - 
+                    content: Jes
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: Jedoonee
+                    type: sun
+                  - 
+                    content: Jelhein
+                    type: mon
+                  - 
+                    content: Jemayrt
+                    type: tue
+                  - 
+                    content: Jercean
+                    type: wed
+                  - 
+                    content: Jerdein
+                    type: thu
+                  - 
+                    content: Jeheiney
+                    type: fri
+                  - 
+                    content: Jesarn
+                    type: sat
+                type: wide
+            type: format
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: RC
+                type: 0
+              - 
+                content: AD
+                type: 1
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: J-guer
+                    type: 1
+                  - 
+                    content: T-arree
+                    type: 2
+                  - 
+                    content: Mayrnt
+                    type: 3
+                  - 
+                    content: Avrril
+                    type: 4
+                  - 
+                    content: Boaldyn
+                    type: 5
+                  - 
+                    content: M-souree
+                    type: 6
+                  - 
+                    content: J-souree
+                    type: 7
+                  - 
+                    content: Luanistyn
+                    type: 8
+                  - 
+                    content: M-fouyir
+                    type: 9
+                  - 
+                    content: J-fouyir
+                    type: 10
+                  - 
+                    content: M.Houney
+                    type: 11
+                  - 
+                    content: M.Nollick
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: Jerrey-geuree
+                    type: 1
+                  - 
+                    content: Toshiaght-arree
+                    type: 2
+                  - 
+                    content: Mayrnt
+                    type: 3
+                  - 
+                    content: Averil
+                    type: 4
+                  - 
+                    content: Boaldyn
+                    type: 5
+                  - 
+                    content: Mean-souree
+                    type: 6
+                  - 
+                    content: Jerrey-souree
+                    type: 7
+                  - 
+                    content: Luanistyn
+                    type: 8
+                  - 
+                    content: Mean-fouyir
+                    type: 9
+                  - 
+                    content: Jerrey-fouyir
+                    type: 10
+                  - 
+                    content: Mee Houney
+                    type: 11
+                  - 
+                    content: Mee ny Nollick
+                    type: 12
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: gv
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      content: Gaelg
+      type: gv
+  territories: 
+    territory: 
+      content: Rywvaneth Unys
+      type: GB
+numbers: 
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn

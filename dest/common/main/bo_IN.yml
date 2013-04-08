@@ -1,0 +1,19 @@
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: bo
+  territory: 
+    type: IN
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  territories: 
+    territory: 
+      content: ཨོཤི་ཡཱན་ན།
+      type: '009'
+numbers: 
+  currencies: 
+    currency: 
+      symbol: CN¥
+      type: CNY

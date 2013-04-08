@@ -1,0 +1,14 @@
+identity: 
+  generation: 
+    date: "$Date: 2013-03-01 06:26:02 -0800 (Fri, 01 Mar 2013) $"
+  language: 
+    type: ln
+  territory: 
+    type: AO
+  version: 
+    number: "$Revision: 8268 $"
+numbers: 
+  currencies: 
+    currency: 
+      symbol: Kz
+      type: AOA

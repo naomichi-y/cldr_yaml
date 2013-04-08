@@ -1,0 +1,6520 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[а б в г д ѓ е ж з ѕ и ј к л љ м н њ о п р с т ќ у ф х ц ч џ ш]"
+    - 
+      content: "[ѐ ѝ]"
+      type: auxiliary
+    - 
+      content: "[А Б В Г Д Ѓ Е Ж З Ѕ И Ј К Л Љ М Н Њ О П Р С Т Ќ У Ф Х Ц Ч Џ Ш]"
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd.M.y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.M.yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M-d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E MMM d
+              MMMMEd: 
+                content: E MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMMdd: 
+                content: dd MMMM
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M-d
+              Mdd: 
+                content: dd.M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, y-M-d
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: E, y MMM d
+              yMMMM: 
+                content: y MMMM
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: d-M-y
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} - {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                  m: 
+                    content: HH:mm-HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                  m: 
+                    content: HH:mm-HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.M - E, dd.M
+                  d: 
+                    content: E, dd.M - E, dd.M
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM
+                  d: 
+                    content: E, dd - E, dd MMM
+              MMMM: 
+                greatestDifference: 
+                  content: LLLL–LLLL
+                  id: M
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM
+                  d: 
+                    content: dd-dd MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.M - dd.M
+                  d: 
+                    content: dd.M - dd.M
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h-h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm-h:mm a
+                  m: 
+                    content: h:mm-h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm-h:mm a v
+                  m: 
+                    content: h:mm-h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h-h a v
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M.y - M.y
+                  "y": 
+                    content: M.y - M.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.M.y - E, dd.M.y
+                  d: 
+                    content: E, dd.M.y - E, dd.M.y
+                  "y": 
+                    content: E, dd.M.y - E, dd.M.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                  "y": 
+                    content: MMM y - MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM y
+                  d: 
+                    content: E, dd - E, dd MMM y
+                  "y": 
+                    content: E, dd MMM y - E, dd MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                  "y": 
+                    content: y-MM – y-MM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM y
+                  d: 
+                    content: dd-dd MMM y
+                  "y": 
+                    content: dd MMM y - dd MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.M.y - dd.M.y
+                  d: 
+                    content: dd.M.y - dd.M.y
+                  "y": 
+                    content: dd.M.y - dd.M.y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd.M.y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.M.yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M-d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E MMM d
+              MMMMEd: 
+                content: E MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMMdd: 
+                content: dd MMMM
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M-d
+              Mdd: 
+                content: dd.M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, y-M-d
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: E, y MMM d
+              yMMMM: 
+                content: y MMMM
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: d-M-y
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} - {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                  m: 
+                    content: HH:mm-HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                  m: 
+                    content: HH:mm-HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.M - E, dd.M
+                  d: 
+                    content: E, dd.M - E, dd.M
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM
+                  d: 
+                    content: E, dd - E, dd MMM
+              MMMM: 
+                greatestDifference: 
+                  content: LLLL–LLLL
+                  id: M
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM
+                  d: 
+                    content: dd-dd MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.M - dd.M
+                  d: 
+                    content: dd.M - dd.M
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h-h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm-h:mm a
+                  m: 
+                    content: h:mm-h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm-h:mm a v
+                  m: 
+                    content: h:mm-h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h-h a v
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M.y - M.y
+                  "y": 
+                    content: M.y - M.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.M.y - E, dd.M.y
+                  d: 
+                    content: E, dd.M.y - E, dd.M.y
+                  "y": 
+                    content: E, dd.M.y - E, dd.M.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                  "y": 
+                    content: MMM y - MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM y
+                  d: 
+                    content: E, dd - E, dd MMM y
+                  "y": 
+                    content: E, dd MMM y - E, dd MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                  "y": 
+                    content: y-MM – y-MM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM y
+                  d: 
+                    content: dd-dd MMM y
+                  "y": 
+                    content: dd MMM y - dd MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.M.y - dd.M.y
+                  d: 
+                    content: dd.M.y - dd.M.y
+                  "y": 
+                    content: dd.M.y - dd.M.y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: претпладне
+                  type: am
+                - 
+                  content: попладне
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: нед.
+                      type: sun
+                    - 
+                      content: пон.
+                      type: mon
+                    - 
+                      content: вт.
+                      type: tue
+                    - 
+                      content: сре.
+                      type: wed
+                    - 
+                      content: чет.
+                      type: thu
+                    - 
+                      content: пет.
+                      type: fri
+                    - 
+                      content: саб.
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: нед.
+                      type: sun
+                    - 
+                      content: пон.
+                      type: mon
+                    - 
+                      content: 3
+                      type: tue
+                    - 
+                      content: сре.
+                      type: wed
+                    - 
+                      content: чет.
+                      type: thu
+                    - 
+                      content: пет.
+                      type: fri
+                    - 
+                      content: 7
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: недела
+                      type: sun
+                    - 
+                      content: понеделник
+                      type: mon
+                    - 
+                      content: вторник
+                      type: tue
+                    - 
+                      content: среда
+                      type: wed
+                    - 
+                      content: четврток
+                      type: thu
+                    - 
+                      content: петок
+                      type: fri
+                    - 
+                      content: сабота
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: нед.
+                      type: sun
+                    - 
+                      content: пон.
+                      type: mon
+                    - 
+                      content: вт.
+                      type: tue
+                    - 
+                      content: сре.
+                      type: wed
+                    - 
+                      content: чет.
+                      type: thu
+                    - 
+                      content: пет.
+                      type: fri
+                    - 
+                      content: саб.
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: н
+                      type: sun
+                    - 
+                      content: п
+                      type: mon
+                    - 
+                      content: в
+                      type: tue
+                    - 
+                      content: с
+                      type: wed
+                    - 
+                      content: ч
+                      type: thu
+                    - 
+                      content: п
+                      type: fri
+                    - 
+                      content: с
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: нед.
+                      type: sun
+                    - 
+                      content: пон.
+                      type: mon
+                    - 
+                      content: вто.
+                      type: tue
+                    - 
+                      content: сре.
+                      type: wed
+                    - 
+                      content: чет.
+                      type: thu
+                    - 
+                      content: пет.
+                      type: fri
+                    - 
+                      content: саб.
+                      type: sat
+                  type: short
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: пр.н.е.
+                type: 0
+              - 
+                content: ае.
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: јан.
+                      type: 1
+                    - 
+                      content: фев.
+                      type: 2
+                    - 
+                      content: мар.
+                      type: 3
+                    - 
+                      content: апр.
+                      type: 4
+                    - 
+                      content: мај
+                      type: 5
+                    - 
+                      content: јун.
+                      type: 6
+                    - 
+                      content: јул.
+                      type: 7
+                    - 
+                      content: авг.
+                      type: 8
+                    - 
+                      content: септ.
+                      type: 9
+                    - 
+                      content: окт.
+                      type: 10
+                    - 
+                      content: ноем.
+                      type: 11
+                    - 
+                      content: декем.
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: јануари
+                      type: 1
+                    - 
+                      content: февруари
+                      type: 2
+                    - 
+                      content: март
+                      type: 3
+                    - 
+                      content: април
+                      type: 4
+                    - 
+                      content: мај
+                      type: 5
+                    - 
+                      content: јуни
+                      type: 6
+                    - 
+                      content: јули
+                      type: 7
+                    - 
+                      content: август
+                      type: 8
+                    - 
+                      content: септември
+                      type: 9
+                    - 
+                      content: октомври
+                      type: 10
+                    - 
+                      content: ноември
+                      type: 11
+                    - 
+                      content: декември
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: ј
+                    type: 1
+                  - 
+                    content: ф
+                    type: 2
+                  - 
+                    content: м
+                    type: 3
+                  - 
+                    content: а
+                    type: 4
+                  - 
+                    content: м
+                    type: 5
+                  - 
+                    content: ј
+                    type: 6
+                  - 
+                    content: ј
+                    type: 7
+                  - 
+                    content: а
+                    type: 8
+                  - 
+                    content: с
+                    type: 9
+                  - 
+                    content: о
+                    type: 10
+                  - 
+                    content: н
+                    type: 11
+                  - 
+                    content: д
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: Q1
+                      type: 1
+                    - 
+                      content: Q2
+                      type: 2
+                    - 
+                      content: Q3
+                      type: 3
+                    - 
+                      content: Q4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: прво тромесечје
+                      type: 1
+                    - 
+                      content: второ тромесечје
+                      type: 2
+                    - 
+                      content: трето тромесечје
+                      type: 3
+                    - 
+                      content: четврто тромесечје
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: јан-мар
+                      type: 1
+                    - 
+                      content: апр-јун
+                      type: 2
+                    - 
+                      content: јул-сеп
+                      type: 3
+                    - 
+                      content: окт-дек
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Ера
+        type: era
+      - 
+        displayName: година
+        type: year
+      - 
+        displayName: Месец
+        type: month
+      - 
+        displayName: Недела
+        type: week
+      - 
+        displayName: ден
+        relative: 
+          - 
+            content: завчера
+            type: -2
+          - 
+            content: Вчера
+            type: -1
+          - 
+            content: Денес
+            type: 0
+          - 
+            content: Утре
+            type: 1
+          - 
+            content: задутре
+            type: 2
+        type: day
+      - 
+        displayName: Ден во неделата
+        type: weekday
+      - 
+        displayName: претпладне/попладне
+        type: dayperiod
+      - 
+        displayName: Час
+        type: hour
+      - 
+        displayName: Минута
+        type: minute
+      - 
+        displayName: Секунда
+        type: second
+      - 
+        displayName: зона
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          daylight: Акре летно сметање на времето
+          generic: Акре време
+          standard: Акре стандардно време
+        type: Acre
+      - 
+        long: 
+          standard: Време во Авганистан
+        type: Afghanistan
+      - 
+        long: 
+          standard: Централно-африканско време
+        type: Africa_Central
+      - 
+        long: 
+          standard: Источно-африканско време
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Јужно-африканско време
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Западно-африканско летно сметање на времето
+          generic: Западно-африканско време
+          standard: Западно-африканско стандардно време
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Летно сметање на времето во Аљаска
+          generic: Време во Аљаска
+          standard: Стандардно време во Аљаска
+        type: Alaska
+      - 
+        long: 
+          daylight: Амазон летно сметање на времето
+          generic: Амазон време
+          standard: Амазон стандардно време
+        type: Amazon
+      - 
+        long: 
+          daylight: Централно летно сметање на времето
+          generic: Централно време во Северна Америка
+          standard: Централно стандардно време во Северна Америка
+        type: America_Central
+      - 
+        long: 
+          daylight: Источно летно сметање на времето
+          generic: Источно време
+          standard: Источно стандардно време
+        type: America_Eastern
+      - 
+        long: 
+          daylight: Планинско летно сметање на времето
+          generic: Планинско време
+          standard: Планинско стандардно време
+        type: America_Mountain
+      - 
+        long: 
+          daylight: Пацифичко летно сметање на времето
+          generic: Пацифичко време
+          standard: Пацифичко стандардно време
+        type: America_Pacific
+      - 
+        long: 
+          daylight: Арапски летно сметање на времето
+          generic: Арапско време
+          standard: Стандардно арапско време
+        type: Arabian
+      - 
+        long: 
+          daylight: Аргентина летно сметање на времето
+          generic: Аргентина време
+          standard: Аргентина стандардно време
+        type: Argentina
+      - 
+        long: 
+          daylight: Западна Аргентина летно сметање на времето
+          generic: Западна Аргентина време
+          standard: Западна Аргентина стандардно време
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: Летно време во Ерменија
+          generic: Време во Ерменија
+          standard: Стандардно време во Ерменија
+        type: Armenia
+      - 
+        long: 
+          daylight: Атлантско летно сметање на времето
+          generic: Атлантско време
+          standard: Атлантско стандардно време
+        type: Atlantic
+      - 
+        long: 
+          daylight: Летно сметање на времето во Централна Австралија
+          generic: Време во Централна Австралија
+          standard: Стандардно време во Централна Австралија
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Летно сметање на времето во Централна и Западна Австралија
+          generic: Време во Централна и Западна Австралија
+          standard: Стандардно време во Централна и Западна Австралија
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Летно сметање на времето во Источна Австралија
+          generic: Време во Источна Австралија
+          standard: Стандардно време во Источна Австралија
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Летно сметање на времето во Западна Австралија
+          generic: Време во Западна Австралија
+          standard: Стандардно време во Западна Австралија
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Летно време во Азербејџан
+          generic: Време во Азербејџан
+          standard: Стандардно време во Азербејџан
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: Летно време во Азорес
+          generic: Време во Азорес
+          standard: Стандардно време во Азорес
+        type: Azores
+      - 
+        long: 
+          daylight: Летно време во Бангладеш
+          generic: Време во Бангладеш
+          standard: Стандардно време во Бангладеш
+        type: Bangladesh
+      - 
+        long: 
+          standard: Време во Бутан
+        type: Bhutan
+      - 
+        long: 
+          standard: Боливија време
+        type: Bolivia
+      - 
+        long: 
+          daylight: Бразилија летно сметање на времето
+          generic: Бразилија време
+          standard: Бразилија стандардно време
+        type: Brasilia
+      - 
+        long: 
+          standard: Време во Брунеи Дарусалам
+        type: Brunei
+      - 
+        long: 
+          daylight: Летно време на Зелениот 'Рт
+          generic: Време на Зелениот 'Рт
+          standard: Стандардно време на Зелениот 'R
+        type: Cape_Verde
+      - 
+        long: 
+          standard: Време во Чаморо
+        type: Chamorro
+      - 
+        long: 
+          daylight: Летно сметање на времето во Четем
+          generic: Време во Четем
+          standard: Стандардно време во Четем
+        type: Chatham
+      - 
+        long: 
+          daylight: Чиле летно сметање на времето
+          generic: Чиле време
+          standard: Чиле стандардно време
+        type: Chile
+      - 
+        long: 
+          daylight: Летно сметање на времето во Кина
+          generic: Време во Кина
+          standard: Стандардно време во Кина
+        type: China
+      - 
+        long: 
+          daylight: Летно време во Чојбалсан
+          generic: Време во Чојбалсан
+          standard: Стандардно време во Чојбалсан
+        type: Choibalsan
+      - 
+        long: 
+          standard: Време на Божиќниот остров
+        type: Christmas
+      - 
+        long: 
+          standard: Време на Кокос острови
+        type: Cocos
+      - 
+        long: 
+          daylight: Колумбија летно сметање на времето
+          generic: Колумбија време
+          standard: Колумбија стандардно време
+        type: Colombia
+      - 
+        long: 
+          daylight: Летно време на Островите Кук
+          generic: Време на островите Кук
+          standard: Стандардно време на Островите Кук
+        type: Cook
+      - 
+        long: 
+          daylight: Куба летно сметање на времето
+          generic: Куба време
+          standard: Куба стандардно време
+        type: Cuba
+      - 
+        long: 
+          standard: Дејвис време
+        type: Davis
+      - 
+        long: 
+          standard: Димон-дурвил време
+        type: DumontDUrville
+      - 
+        long: 
+          standard: Време во Источен Тимор
+        type: East_Timor
+      - 
+        long: 
+          daylight: Летно време на Велигденскиот Остров
+          generic: Време на Велигденскиот Остров
+          standard: Стандардно време на Велигденскиот Остров
+        type: Easter
+      - 
+        long: 
+          standard: Еквадор време
+        type: Ecuador
+      - 
+        long: 
+          daylight: Средноевропско летно сметање на времето
+          generic: Средноевропско време
+          standard: Средноевропско стандардно време
+        short: 
+          daylight: CEST
+          generic: CET
+          standard: CET
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Источноевропско летно сметање на времето
+          generic: Источноевропско време
+          standard: Источноевропско стандардно време
+        short: 
+          daylight: EEST
+          generic: EET
+          standard: EET
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Западноевропско летно сметање на времето
+          generic: Западноевропско време
+          standard: Западноевропско стандардно време
+        short: 
+          daylight: WEST
+          generic: WET
+          standard: WET
+        type: Europe_Western
+      - 
+        long: 
+          daylight: Летно сметање на времето на Фолкландските Острови
+          generic: Време на Фолкландските Острови
+          standard: Стандардно време на Фолкландските Острови
+        type: Falkland
+      - 
+        long: 
+          daylight: Летно време во Фиџи
+          generic: Време во Фиџи
+          standard: Стандардно време во Фиџи
+        type: Fiji
+      - 
+        long: 
+          standard: Француска Гвајана време
+        type: French_Guiana
+      - 
+        long: 
+          standard: Француско јужно и антарктичко време
+        type: French_Southern
+      - 
+        long: 
+          standard: Време во Галапагос
+        type: Galapagos
+      - 
+        long: 
+          standard: Време во Гамбе
+        type: Gambier
+      - 
+        long: 
+          daylight: Летно време во Грузија
+          generic: Време во Грузија
+          standard: Стандардно време во Грузија
+        type: Georgia
+      - 
+        long: 
+          standard: Време на Островите Гилберт
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: Средно време според Гринич
+        type: GMT
+      - 
+        long: 
+          daylight: Источен Гренланд летно сметање на времето
+          generic: Источен Гренланд време
+          standard: Источен Гренланд стандардно време
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: Западен Гренланд летно сметање на времето
+          generic: Западен Гренланд време
+          standard: Западен Гренланд стандардно време
+        type: Greenland_Western
+      - 
+        long: 
+          standard: Време на Мексиканскиот Залив
+        type: Gulf
+      - 
+        long: 
+          standard: Гвајана време
+        type: Guyana
+      - 
+        long: 
+          daylight: Летно сметање на времето во Хаваи - Алеутски острови
+          generic: Време во Хаваи - Алеутски острови
+          standard: Стандардно време во Хаваи - Алеутски острови
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: Летно време во Хонг Конг
+          generic: Време во Хонг Конг
+          standard: Стандардно време во Хонг Конг
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: Летно време во Ховд
+          generic: Време во Ховд
+          standard: Стандардно време во Ховд
+        type: Hovd
+      - 
+        long: 
+          standard: Време во Индија
+        type: India
+      - 
+        long: 
+          standard: Време на Индиски океан
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: Време во Индокина
+        type: Indochina
+      - 
+        long: 
+          standard: Време во Централна Индонезија
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: Време во Источна Индонезија
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: Време во Западна Индонезија
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: Летно сметање на времето во Иран
+          generic: Време во Иран
+          standard: Стандардно време во Иран
+        type: Iran
+      - 
+        long: 
+          daylight: Летно време во Иркутск
+          generic: Време во Иркутск
+          standard: Стандардно време во Иркутск
+        type: Irkutsk
+      - 
+        long: 
+          daylight: Летно сметање на времето во Израел
+          generic: Време во Израел
+          standard: Стандардно време во Израел
+        type: Israel
+      - 
+        long: 
+          daylight: Летно сметање на времето во Јапонија
+          generic: Време во Јапонија
+          standard: Стандардно време во Јапонија
+        type: Japan
+      - 
+        long: 
+          standard: Време во Источен Казахстан
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: Време во Западен Казахстан
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: Летно сметање на времето во Кореја
+          generic: Време во Кореја
+          standard: Стандардно време во Кореја
+        type: Korea
+      - 
+        long: 
+          standard: Време во Косра
+        type: Kosrae
+      - 
+        long: 
+          daylight: Летно време во Краснојарск
+          generic: Време во Краснојарск
+          standard: Стандардно време во Краснојарск
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: Време во Киргистан
+        type: Kyrgystan
+      - 
+        long: 
+          standard: Време во Линиски Острови
+        type: Line_Islands
+      - 
+        long: 
+          daylight: Летно сметање на времето во Лорд Хау
+          generic: Време во Лорд Хау
+          standard: Стандардно време во Лорд Хау
+        type: Lord_Howe
+      - 
+        long: 
+          standard: Време на Островот Макуари
+        type: Macquarie
+      - 
+        long: 
+          daylight: Летно време во Магадан
+          generic: Време во Магадан
+          standard: Стандардно време во Магадан
+        type: Magadan
+      - 
+        long: 
+          standard: Време во Малезија
+        type: Malaysia
+      - 
+        long: 
+          standard: Време на Малдиви
+        type: Maldives
+      - 
+        long: 
+          standard: Време во Маркесас
+        type: Marquesas
+      - 
+        long: 
+          standard: Време на Маршалски острови
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: Летно сметање на времето на Маурициус
+          generic: Време на Маурициус
+          standard: стандардно Време на Маурициус
+        type: Mauritius
+      - 
+        long: 
+          standard: Мосон време
+        type: Mawson
+      - 
+        long: 
+          daylight: Летно време во Улан Батор
+          generic: Време во Улан Батор
+          standard: Стандардно време во Улан Батор
+        type: Mongolia
+      - 
+        long: 
+          daylight: Москва летно сметање на времето
+          generic: Москва време
+          standard: Москва стандардно време
+        type: Moscow
+      - 
+        long: 
+          standard: Време во Мјанмар
+        type: Myanmar
+      - 
+        long: 
+          standard: Време во Науру
+        type: Nauru
+      - 
+        long: 
+          standard: Време во Непал
+        type: Nepal
+      - 
+        long: 
+          daylight: Летно време во Нова Каледонија
+          generic: Време во Нова Каледонија
+          standard: Стандардно време во Нова Каледонија
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: Летно сметање на времето во Нов Зеланд
+          generic: Време во Нов Зеланд
+          standard: Стандардно време во Нов Зеланд
+        type: New_Zealand
+      - 
+        long: 
+          daylight: Њуфаундленд летно сметање на времето
+          generic: Њуфаундленд време
+          standard: Њуфаундленд стандардно време
+        type: Newfoundland
+      - 
+        long: 
+          standard: Време во Ниуе
+        type: Niue
+      - 
+        long: 
+          standard: Време на Островите Норфолк
+        type: Norfolk
+      - 
+        long: 
+          daylight: Фернандо де Нороња летно сметање на времето
+          generic: Фернандо де Нороња време
+          standard: Фернандо де Нороња стандардно време
+        type: Noronha
+      - 
+        long: 
+          daylight: Летно време во Новосибирск
+          generic: Време во Новосибирск
+          standard: Стандардно време во Новосибирск
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: Летно време во Омск
+          generic: Време во Омск
+          standard: Стандардно време во Омск
+        type: Omsk
+      - 
+        long: 
+          daylight: Летно време во Пакистан
+          generic: Време во Пакистан
+          standard: Стандардно време во Пакистан
+        type: Pakistan
+      - 
+        long: 
+          standard: Време во Палау
+        type: Palau
+      - 
+        long: 
+          standard: Време во Папуа Нова Гвинеја
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: Парагвајско летно сметање на времето
+          generic: Парагвајско време
+          standard: Парагвајско стандардно време
+        type: Paraguay
+      - 
+        long: 
+          daylight: Перу летно сметање на времето
+          generic: Перу време
+          standard: Перу стандардно време
+        type: Peru
+      - 
+        long: 
+          daylight: Летно време во Филипини
+          generic: Време во Филипини
+          standard: Стандардно време во Филипини
+        type: Philippines
+      - 
+        long: 
+          standard: Време на Островите Феникс
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: Сент Пјер и Микелон летно сметање на времето
+          generic: Сент Пјер и Микелон време
+          standard: Сент Пјер и Микелон стандардно време
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: Време во Питкерн
+        type: Pitcairn
+      - 
+        long: 
+          standard: Време во Понапе
+        type: Ponape
+      - 
+        long: 
+          standard: Време на Ријунион
+        type: Reunion
+      - 
+        long: 
+          standard: Ротера време
+        type: Rothera
+      - 
+        long: 
+          daylight: Летно време во Сакалин
+          generic: Време во Сакалин
+          standard: Стандардно време во Сакалин
+        type: Sakhalin
+      - 
+        long: 
+          daylight: Самара летно сметање на времето
+          generic: Самара време
+          standard: Самара стандардно време
+        type: Samara
+      - 
+        long: 
+          daylight: Летно време во Самоа
+          generic: Време во Самоа
+          standard: Стандардно време во Самоа
+        type: Samoa
+      - 
+        long: 
+          standard: Време на Сејшели
+        type: Seychelles
+      - 
+        long: 
+          standard: Време во синг
+        type: Singapore
+      - 
+        long: 
+          standard: Време на Соломонските острови
+        type: Solomon
+      - 
+        long: 
+          standard: Време во Јужна Грузија
+        type: South_Georgia
+      - 
+        long: 
+          standard: Време во Сајова
+        type: Syowa
+      - 
+        long: 
+          standard: Време во Тахити
+        type: Tahiti
+      - 
+        long: 
+          daylight: Летно сметање на времето во Таипеи
+          generic: Време во Таипеи
+          standard: Стандардно време во Таипеи
+        type: Taipei
+      - 
+        long: 
+          standard: Време во Таџикистан
+        type: Tajikistan
+      - 
+        long: 
+          standard: Време во Токелау
+        type: Tokelau
+      - 
+        long: 
+          daylight: Летно време во Тонга
+          generic: Време во Тонга
+          standard: Стандардно време во Тонга
+        type: Tonga
+      - 
+        long: 
+          standard: Време во Чуук
+        type: Truk
+      - 
+        long: 
+          daylight: Летно време во Туркменистан
+          generic: Време во Туркменистан
+          standard: Стандардно време во Туркменистан
+        type: Turkmenistan
+      - 
+        long: 
+          standard: Време во Тувалу
+        type: Tuvalu
+      - 
+        long: 
+          daylight: Уругвај летно сметање на времето
+          generic: Уругвај време
+          standard: Уругвај стандардно време
+        type: Uruguay
+      - 
+        long: 
+          daylight: Летно време во Узбекистан
+          generic: Време во Узбекистан
+          standard: Стандардно време во Узбекистан
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: Летно време во Вануату
+          generic: Време во Вануату
+          standard: Стандардно време во Вануату
+        type: Vanuatu
+      - 
+        long: 
+          standard: Венецуела време
+        type: Venezuela
+      - 
+        long: 
+          daylight: Летно време во Владивосток
+          generic: Време во Владивосток
+          standard: Стандардно време во Владивосток
+        type: Vladivostok
+      - 
+        long: 
+          daylight: Волгоград летно сметање на времето
+          generic: Волгоград време
+          standard: Волгоград стандардно време
+        type: Volgograd
+      - 
+        long: 
+          standard: Восток време
+        type: Vostok
+      - 
+        long: 
+          standard: Време на островот Вејк
+        type: Wake
+      - 
+        long: 
+          standard: Време во Валис и Футуна
+        type: Wallis
+      - 
+        long: 
+          daylight: Летно време во Јакутск
+          generic: Време во Јакутск
+          standard: Стандардно време во Јакутск
+        type: Yakutsk
+      - 
+        long: 
+          daylight: Летно време во Екатеринбург
+          generic: Време во Екатеринбург
+          standard: Стандардно време во Екатеринбург
+        type: Yekaterinburg
+    regionFormat: Време во {0}
+    zone: 
+      - 
+        exemplarCity: Непознато
+        type: Etc/Unknown
+      - 
+        exemplarCity: Ротера
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: Палмер
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: Јужен пол
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: Сајова
+        type: Antarctica/Syowa
+      - 
+        exemplarCity: Мосон
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: Дејвис
+        type: Antarctica/Davis
+      - 
+        exemplarCity: Восток
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: Кејси
+        type: Antarctica/Casey
+      - 
+        exemplarCity: Димон дурвиј
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: Мекмурдо
+        type: Antarctica/McMurdo
+      - 
+        exemplarCity: Рио Галегос
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: Мендоза
+        type: America/Mendoza
+      - 
+        exemplarCity: Сан Хуан
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: Ушуаја
+        type: America/Argentina/Ushuaia
+      - 
+        exemplarCity: Ла Риоха
+        type: America/Argentina/La_Rioja
+      - 
+        exemplarCity: Сан Луис
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: Катамарка
+        type: America/Catamarca
+      - 
+        exemplarCity: Салта
+        type: America/Argentina/Salta
+      - 
+        exemplarCity: Џуџуи
+        type: America/Jujuy
+      - 
+        exemplarCity: Тукуман
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: Кордоба
+        type: America/Cordoba
+      - 
+        exemplarCity: Буенос Аирес
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: Перт
+        type: Australia/Perth
+      - 
+        exemplarCity: Јукла
+        type: Australia/Eucla
+      - 
+        exemplarCity: Дарвин
+        type: Australia/Darwin
+      - 
+        exemplarCity: Аделаида
+        type: Australia/Adelaide
+      - 
+        exemplarCity: Брокен Хил
+        type: Australia/Broken_Hill
+      - 
+        exemplarCity: Курие
+        type: Australia/Currie
+      - 
+        exemplarCity: Мелбурн
+        type: Australia/Melbourne
+      - 
+        exemplarCity: Хобарт
+        type: Australia/Hobart
+      - 
+        exemplarCity: Линдеман
+        type: Australia/Lindeman
+      - 
+        exemplarCity: Сиднеј
+        type: Australia/Sydney
+      - 
+        exemplarCity: Бризбејн
+        type: Australia/Brisbane
+      - 
+        exemplarCity: Лорд Хоув
+        type: Australia/Lord_Howe
+      - 
+        exemplarCity: Еирунепе
+        type: America/Eirunepe
+      - 
+        exemplarCity: Рио Бранко
+        type: America/Rio_Branco
+      - 
+        exemplarCity: Порто Вељо
+        type: America/Porto_Velho
+      - 
+        exemplarCity: Боа Виста
+        type: America/Boa_Vista
+      - 
+        exemplarCity: Манаус
+        type: America/Manaus
+      - 
+        exemplarCity: Куиаба
+        type: America/Cuiaba
+      - 
+        exemplarCity: Сантарем
+        type: America/Santarem
+      - 
+        exemplarCity: Кампо Гранде
+        type: America/Campo_Grande
+      - 
+        exemplarCity: Белем
+        type: America/Belem
+      - 
+        exemplarCity: Арагвајана
+        type: America/Araguaina
+      - 
+        exemplarCity: Сао Паоло
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: Бахиа
+        type: America/Bahia
+      - 
+        exemplarCity: Форталеза
+        type: America/Fortaleza
+      - 
+        exemplarCity: Масијо
+        type: America/Maceio
+      - 
+        exemplarCity: Ресифе
+        type: America/Recife
+      - 
+        exemplarCity: Нороња
+        type: America/Noronha
+      - 
+        exemplarCity: Досон
+        type: America/Dawson
+      - 
+        exemplarCity: Вајтхорс
+        type: America/Whitehorse
+      - 
+        exemplarCity: Инувик
+        type: America/Inuvik
+      - 
+        exemplarCity: Ванкувер
+        type: America/Vancouver
+      - 
+        exemplarCity: Досон Крик
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: Јелоунајф
+        type: America/Yellowknife
+      - 
+        exemplarCity: Едмонтон
+        type: America/Edmonton
+      - 
+        exemplarCity: Свифт Курент
+        type: America/Swift_Current
+      - 
+        exemplarCity: Кембриџ Беј
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: Реџина
+        type: America/Regina
+      - 
+        exemplarCity: Винипег
+        type: America/Winnipeg
+      - 
+        exemplarCity: Резолут
+        type: America/Resolute
+      - 
+        exemplarCity: Рејни Ривер
+        type: America/Rainy_River
+      - 
+        exemplarCity: Ренкин Инлет
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: Корал Харбор
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: Тандр Беј
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: Нипигон
+        type: America/Nipigon
+      - 
+        exemplarCity: Торонто
+        type: America/Toronto
+      - 
+        exemplarCity: Монтреал
+        type: America/Montreal
+      - 
+        exemplarCity: Иквалит
+        type: America/Iqaluit
+      - 
+        exemplarCity: Пангниртунг
+        type: America/Pangnirtung
+      - 
+        exemplarCity: Монктон
+        type: America/Moncton
+      - 
+        exemplarCity: Халифакс
+        type: America/Halifax
+      - 
+        exemplarCity: Гус Беј
+        type: America/Goose_Bay
+      - 
+        exemplarCity: Глејс Беј
+        type: America/Glace_Bay
+      - 
+        exemplarCity: Бланк-Сејблон
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: Сент Џонс
+        type: America/St_Johns
+      - 
+        exemplarCity: Киншаса
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: Лубумбаши
+        type: Africa/Lubumbashi
+      - 
+        exemplarCity: Велигденски остров
+        type: Pacific/Easter
+      - 
+        exemplarCity: Кашгар
+        type: Asia/Kashgar
+      - 
+        exemplarCity: Урумки
+        type: Asia/Urumqi
+      - 
+        exemplarCity: Чонгкинг
+        type: Asia/Chongqing
+      - 
+        exemplarCity: Харбин
+        type: Asia/Harbin
+      - 
+        exemplarCity: Галапагос
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: Канарски острови
+        type: Atlantic/Canary
+      - 
+        exemplarCity: Сеута
+        type: Africa/Ceuta
+      - 
+        exemplarCity: Трук
+        type: Pacific/Truk
+      - 
+        exemplarCity: Понапе
+        type: Pacific/Ponape
+      - 
+        exemplarCity: Кошре
+        type: Pacific/Kosrae
+      - 
+        long: 
+          daylight: Британско летно време
+        type: Europe/London
+      - 
+        exemplarCity: Туле
+        type: America/Thule
+      - 
+        exemplarCity: Скорзбисинд
+        type: America/Scoresbysund
+      - 
+        exemplarCity: Данмаркшан
+        type: America/Danmarkshavn
+      - 
+        exemplarCity: Џакарта
+        type: Asia/Jakarta
+      - 
+        exemplarCity: Понтијанак
+        type: Asia/Pontianak
+      - 
+        exemplarCity: Макасар
+        type: Asia/Makassar
+      - 
+        exemplarCity: Џајапура
+        type: Asia/Jayapura
+      - 
+        long: 
+          daylight: Ирско летно време
+        type: Europe/Dublin
+      - 
+        exemplarCity: Ендербери
+        type: Pacific/Enderbury
+      - 
+        exemplarCity: Киритимати
+        type: Pacific/Kiritimati
+      - 
+        exemplarCity: Тарава
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: Актау
+        type: Asia/Aqtau
+      - 
+        exemplarCity: Орал
+        type: Asia/Oral
+      - 
+        exemplarCity: Акутобе
+        type: Asia/Aqtobe
+      - 
+        exemplarCity: Кизилорда
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: Алма-Ата
+        type: Asia/Almaty
+      - 
+        exemplarCity: Кваџалеин
+        type: Pacific/Kwajalein
+      - 
+        exemplarCity: Скопје
+        type: Europe/Skopje
+      - 
+        exemplarCity: Ховд
+        type: Asia/Hovd
+      - 
+        exemplarCity: Улан Батор
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: Чојбалсан
+        type: Asia/Choibalsan
+      - 
+        exemplarCity: Тихуана
+        type: America/Tijuana
+      - 
+        exemplarCity: Хермосиљо
+        type: America/Hermosillo
+      - 
+        exemplarCity: Мецатлан
+        type: America/Mazatlan
+      - 
+        exemplarCity: Чихуахуа
+        type: America/Chihuahua
+      - 
+        exemplarCity: Монтереј
+        type: America/Monterrey
+      - 
+        exemplarCity: Мексико Сити
+        type: America/Mexico_City
+      - 
+        exemplarCity: Мерида
+        type: America/Merida
+      - 
+        exemplarCity: Канкун
+        type: America/Cancun
+      - 
+        exemplarCity: Кучинг
+        type: Asia/Kuching
+      - 
+        exemplarCity: Катхам
+        type: Pacific/Chatham
+      - 
+        exemplarCity: Маркесас
+        type: Pacific/Marquesas
+      - 
+        exemplarCity: Гамбије
+        type: Pacific/Gambier
+      - 
+        exemplarCity: Азори
+        type: Atlantic/Azores
+      - 
+        exemplarCity: Мадеира
+        type: Atlantic/Madeira
+      - 
+        exemplarCity: Калининград
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: Москва
+        type: Europe/Moscow
+      - 
+        exemplarCity: Волгоград
+        type: Europe/Volgograd
+      - 
+        exemplarCity: Самара
+        type: Europe/Samara
+      - 
+        exemplarCity: Јекатеринбург
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: Омск
+        type: Asia/Omsk
+      - 
+        exemplarCity: Новосибирск
+        type: Asia/Novosibirsk
+      - 
+        exemplarCity: Краснојарск
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: Иркутск
+        type: Asia/Irkutsk
+      - 
+        exemplarCity: Јакутск
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: Владивосток
+        type: Asia/Vladivostok
+      - 
+        exemplarCity: Сакалин
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: Магадан
+        type: Asia/Magadan
+      - 
+        exemplarCity: Камчатка
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: Анадир
+        type: Asia/Anadyr
+      - 
+        exemplarCity: Ужгород
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: Симферопол
+        type: Europe/Simferopol
+      - 
+        exemplarCity: Запорожје
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: Мидвеј
+        type: Pacific/Midway
+      - 
+        exemplarCity: Џонстон
+        type: Pacific/Johnston
+      - 
+        exemplarCity: Вејк
+        type: Pacific/Wake
+      - 
+        exemplarCity: Адак
+        type: America/Adak
+      - 
+        exemplarCity: Ноум
+        type: America/Nome
+      - 
+        exemplarCity: Хонолулу
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: Енкориџ
+        type: America/Anchorage
+      - 
+        exemplarCity: Јакутат
+        type: America/Yakutat
+      - 
+        exemplarCity: Џуно
+        type: America/Juneau
+      - 
+        exemplarCity: Лос Анџелес
+        type: America/Los_Angeles
+      - 
+        exemplarCity: Бојзи
+        type: America/Boise
+      - 
+        exemplarCity: Феникс
+        type: America/Phoenix
+      - 
+        exemplarCity: Шипрок
+        type: America/Shiprock
+      - 
+        exemplarCity: Денвер
+        type: America/Denver
+      - 
+        exemplarCity: Њу Салем, Северна Дакота
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: Центар, Северна Дакота
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: Чикаго
+        type: America/Chicago
+      - 
+        exemplarCity: Меномини
+        type: America/Menominee
+      - 
+        exemplarCity: Винчен, Индијана
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: Питерсбург, Индијана
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: Тел Сити, Индијана
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: Нокс, Индијана
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: Винамек, Индијана
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: Маренго, Индијана
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: Индијанаполис
+        type: America/Indianapolis
+      - 
+        exemplarCity: Луизвил
+        type: America/Louisville
+      - 
+        exemplarCity: Вивај, Индијана
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: Монтичело, Кентаки
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: Детроит
+        type: America/Detroit
+      - 
+        exemplarCity: Њујорк
+        type: America/New_York
+      - 
+        exemplarCity: Самарканд
+        type: Asia/Samarkand
+delimiters: 
+  alternateQuotationEnd: ‘
+  alternateQuotationStart: ‚
+  quotationEnd: “
+  quotationStart: „
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: mk
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0}, {1}"
+        type: 2
+      - 
+        content: "{0}, {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Јазик: {0}"
+        type: language
+      - 
+        content: "Писмо: {0}"
+        type: script
+      - 
+        content: "Регион: {0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: Календар
+        type: calendar
+      - 
+        content: Сортирање
+        type: collation
+      - 
+        content: Валута
+        type: currency
+      - 
+        content: Броеви
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: афар
+        type: aa
+      - 
+        content: абхазиски
+        type: ab
+      - 
+        content: акинески
+        type: ace
+      - 
+        content: аколи
+        type: ach
+      - 
+        content: адангме
+        type: ada
+      - 
+        content: адиге
+        type: ady
+      - 
+        content: авестан
+        type: ae
+      - 
+        content: африкански
+        type: af
+      - 
+        content: афроазијатски
+        type: afa
+      - 
+        content: африхили
+        type: afh
+      - 
+        content: агемски
+        type: agq
+      - 
+        content: аину
+        type: ain
+      - 
+        content: акан
+        type: ak
+      - 
+        content: акадијски
+        type: akk
+      - 
+        content: алеут
+        type: ale
+      - 
+        content: алгонквијански
+        type: alg
+      - 
+        content: јужен алтај
+        type: alt
+      - 
+        content: амхариски
+        type: am
+      - 
+        content: арагонески
+        type: an
+      - 
+        content: стар англиски
+        type: ang
+      - 
+        content: ангика
+        type: anp
+      - 
+        content: апачи
+        type: apa
+      - 
+        content: арапски
+        type: ar
+      - 
+        content: арамејски
+        type: arc
+      - 
+        content: арокенски
+        type: arn
+      - 
+        content: арапахо
+        type: arp
+      - 
+        content: вештачки
+        type: art
+      - 
+        content: аравак
+        type: arw
+      - 
+        content: асамски
+        type: as
+      - 
+        content: асу
+        type: asa
+      - 
+        content: астуриски
+        type: ast
+      - 
+        content: атапаски
+        type: ath
+      - 
+        content: австралиски
+        type: aus
+      - 
+        content: аварски
+        type: av
+      - 
+        content: авади
+        type: awa
+      - 
+        content: ајмара
+        type: ay
+      - 
+        content: азербејџански
+        type: az
+      - 
+        content: башкирски
+        type: ba
+      - 
+        content: банда
+        type: bad
+      - 
+        content: бамилеке
+        type: bai
+      - 
+        content: балучи
+        type: bal
+      - 
+        content: балинезе
+        type: ban
+      - 
+        content: баса
+        type: bas
+      - 
+        content: балтички
+        type: bat
+      - 
+        content: бамунски
+        type: bax
+      - 
+        content: гомала
+        type: bbj
+      - 
+        content: белоруски
+        type: be
+      - 
+        content: беха
+        type: bej
+      - 
+        content: бемба
+        type: bem
+      - 
+        content: бербер
+        type: ber
+      - 
+        content: бена
+        type: bez
+      - 
+        content: бафут
+        type: bfd
+      - 
+        content: бугарски
+        type: bg
+      - 
+        content: бихари
+        type: bh
+      - 
+        content: бојпури
+        type: bho
+      - 
+        content: бислама
+        type: bi
+      - 
+        content: бикол
+        type: bik
+      - 
+        content: бини
+        type: bin
+      - 
+        content: ком
+        type: bkm
+      - 
+        content: сиксика
+        type: bla
+      - 
+        content: бамбара
+        type: bm
+      - 
+        content: бенгалски
+        type: bn
+      - 
+        content: банту
+        type: bnt
+      - 
+        content: тибетски
+        type: bo
+      - 
+        content: бретонски
+        type: br
+      - 
+        content: брај
+        type: bra
+      - 
+        content: бодо
+        type: brx
+      - 
+        content: босански
+        type: bs
+      - 
+        content: акосе
+        type: bss
+      - 
+        content: батак
+        type: btk
+      - 
+        content: буријат
+        type: bua
+      - 
+        content: буџински
+        type: bug
+      - 
+        content: булу
+        type: bum
+      - 
+        content: блин
+        type: byn
+      - 
+        content: медумба
+        type: byv
+      - 
+        content: каталонски
+        type: ca
+      - 
+        content: кадо
+        type: cad
+      - 
+        content: централноамерикански индијански
+        type: cai
+      - 
+        content: кариб
+        type: car
+      - 
+        content: кавкаски
+        type: cau
+      - 
+        content: кајуга
+        type: cay
+      - 
+        content: ацам
+        type: cch
+      - 
+        content: чеченски
+        type: ce
+      - 
+        content: себуано
+        type: ceb
+      - 
+        content: селтички
+        type: cel
+      - 
+        content: чига
+        type: cgg
+      - 
+        content: чаморо
+        type: ch
+      - 
+        content: чибча
+        type: chb
+      - 
+        content: чагатај
+        type: chg
+      - 
+        content: чуук
+        type: chk
+      - 
+        content: мари
+        type: chm
+      - 
+        content: жаргон чинук
+        type: chn
+      - 
+        content: чокто
+        type: cho
+      - 
+        content: чипујан
+        type: chp
+      - 
+        content: чироки
+        type: chr
+      - 
+        content: чејенски
+        type: chy
+      - 
+        content: сорански курдски
+        type: ckb
+      - 
+        content: чамски
+        type: cmc
+      - 
+        content: корзикански
+        type: co
+      - 
+        content: коптски
+        type: cop
+      - 
+        content: англиски креолски
+        type: cpe
+      - 
+        content: француски креолски
+        type: cpf
+      - 
+        content: португалски креолски
+        type: cpp
+      - 
+        content: кри
+        type: cr
+      - 
+        content: кримско турски
+        type: crh
+      - 
+        content: креолски
+        type: crp
+      - 
+        content: чешки
+        type: cs
+      - 
+        content: кашубиски
+        type: csb
+      - 
+        content: црковнословенски
+        type: cu
+      - 
+        content: кушитски
+        type: cus
+      - 
+        content: чувашки
+        type: cv
+      - 
+        content: велшки
+        type: cy
+      - 
+        content: дански
+        type: da
+      - 
+        content: дакота
+        type: dak
+      - 
+        content: даргва
+        type: dar
+      - 
+        content: таита
+        type: dav
+      - 
+        content: дајак
+        type: day
+      - 
+        content: германски
+        type: de
+      - 
+        content: германски (во Австрија)
+        type: de_AT
+      - 
+        content: германски (во Швајцарија)
+        type: de_CH
+      - 
+        content: делавер
+        type: del
+      - 
+        content: славски
+        type: den
+      - 
+        content: догриб
+        type: dgr
+      - 
+        content: динка
+        type: din
+      - 
+        content: зарма
+        type: dje
+      - 
+        content: догри
+        type: doi
+      - 
+        content: дравидијски
+        type: dra
+      - 
+        content: долносорбиски
+        type: dsb
+      - 
+        content: дуала
+        type: dua
+      - 
+        content: среднохоландски
+        type: dum
+      - 
+        content: дивехи
+        type: dv
+      - 
+        content: јола-фоњи
+        type: dyo
+      - 
+        content: џула
+        type: dyu
+      - 
+        content: џонга
+        type: dz
+      - 
+        content: дазага
+        type: dzg
+      - 
+        content: ембу
+        type: ebu
+      - 
+        content: еве
+        type: ee
+      - 
+        content: ефик
+        type: efi
+      - 
+        content: староегипетски
+        type: egy
+      - 
+        content: екајук
+        type: eka
+      - 
+        content: грчки
+        type: el
+      - 
+        content: еламит
+        type: elx
+      - 
+        content: англиски
+        type: en
+      - 
+        content: англиски (во Австралија)
+        type: en_AU
+      - 
+        content: англиски (во Канада)
+        type: en_CA
+      - 
+        content: англиски (во Велика Британија)
+        type: en_GB
+      - 
+        content: американски англиски
+        type: en_US
+      - 
+        content: средноанглиски
+        type: enm
+      - 
+        content: есперанто
+        type: eo
+      - 
+        content: шпански
+        type: es
+      - 
+        content: шпански (во Латинска Америка)
+        type: es_419
+      - 
+        content: шпански (во Португалија)
+        type: es_ES
+      - 
+        content: естонски
+        type: et
+      - 
+        content: баскиски
+        type: eu
+      - 
+        content: евондо
+        type: ewo
+      - 
+        content: персиски
+        type: fa
+      - 
+        content: фанг
+        type: fan
+      - 
+        content: фанти
+        type: fat
+      - 
+        content: фула
+        type: ff
+      - 
+        content: фински
+        type: fi
+      - 
+        content: филипински
+        type: fil
+      - 
+        content: финоугриски
+        type: fiu
+      - 
+        content: фиџиски
+        type: fj
+      - 
+        content: фарски
+        type: fo
+      - 
+        content: фон
+        type: fon
+      - 
+        content: француски
+        type: fr
+      - 
+        content: француски (во Канада)
+        type: fr_CA
+      - 
+        content: француски (во Швајцарија)
+        type: fr_CH
+      - 
+        content: среднофранцуски
+        type: frm
+      - 
+        content: стар француски
+        type: fro
+      - 
+        content: северен фризиски
+        type: frr
+      - 
+        content: источен фризиски
+        type: frs
+      - 
+        content: фрулијански
+        type: fur
+      - 
+        content: фризиски
+        type: fy
+      - 
+        content: ирски
+        type: ga
+      - 
+        content: га
+        type: gaa
+      - 
+        content: гајо
+        type: gay
+      - 
+        content: гбаја
+        type: gba
+      - 
+        content: шкотско галски
+        type: gd
+      - 
+        content: германски јазици
+        type: gem
+      - 
+        content: гиз
+        type: gez
+      - 
+        content: гилбертански
+        type: gil
+      - 
+        content: галициски
+        type: gl
+      - 
+        content: среден горногермански
+        type: gmh
+      - 
+        content: гуарани
+        type: gn
+      - 
+        content: стар високогермански
+        type: goh
+      - 
+        content: гонди
+        type: gon
+      - 
+        content: горонтало
+        type: gor
+      - 
+        content: готски
+        type: got
+      - 
+        content: гребо
+        type: grb
+      - 
+        content: старогрчки
+        type: grc
+      - 
+        content: швајцарско германски
+        type: gsw
+      - 
+        content: гуџарати
+        type: gu
+      - 
+        content: гуси
+        type: guz
+      - 
+        content: манкс
+        type: gv
+      - 
+        content: гвишин
+        type: gwi
+      - 
+        content: хауза
+        type: ha
+      - 
+        content: хајда
+        type: hai
+      - 
+        content: хавајски
+        type: haw
+      - 
+        content: хебрејски
+        type: he
+      - 
+        content: хинди
+        type: hi
+      - 
+        content: хилигајнон
+        type: hil
+      - 
+        content: химашали
+        type: him
+      - 
+        content: хитите
+        type: hit
+      - 
+        content: хмонг
+        type: hmn
+      - 
+        content: хири моту
+        type: ho
+      - 
+        content: хрватски
+        type: hr
+      - 
+        content: горносорбиски
+        type: hsb
+      - 
+        content: хаитски
+        type: ht
+      - 
+        content: унгарски
+        type: hu
+      - 
+        content: хупа
+        type: hup
+      - 
+        content: ерменски
+        type: hy
+      - 
+        content: хереро
+        type: hz
+      - 
+        content: интерлингва
+        type: ia
+      - 
+        content: ибан
+        type: iba
+      - 
+        content: ибибио
+        type: ibb
+      - 
+        content: индонезиски
+        type: id
+      - 
+        content: интерлинг
+        type: ie
+      - 
+        content: игбо
+        type: ig
+      - 
+        content: сичуан ји
+        type: ii
+      - 
+        content: ихо
+        type: ijo
+      - 
+        content: инупијак
+        type: ik
+      - 
+        content: илоко
+        type: ilo
+      - 
+        content: индиски јазици
+        type: inc
+      - 
+        content: индоевропски
+        type: ine
+      - 
+        content: ингуш
+        type: inh
+      - 
+        content: идо
+        type: io
+      - 
+        content: ирански
+        type: ira
+      - 
+        content: ироквијански јазици
+        type: iro
+      - 
+        content: исландски
+        type: is
+      - 
+        content: италијански
+        type: it
+      - 
+        content: инуктитут
+        type: iu
+      - 
+        content: јапонски
+        type: ja
+      - 
+        content: лојбански
+        type: jbo
+      - 
+        content: мачаме
+        type: jmc
+      - 
+        content: еврејско персиски
+        type: jpr
+      - 
+        content: еврејско арапски
+        type: jrb
+      - 
+        content: јавански
+        type: jv
+      - 
+        content: грузиски
+        type: ka
+      - 
+        content: кара калпак
+        type: kaa
+      - 
+        content: кабиле
+        type: kab
+      - 
+        content: кашин
+        type: kac
+      - 
+        content: жжи
+        type: kaj
+      - 
+        content: камба
+        type: kam
+      - 
+        content: карен
+        type: kar
+      - 
+        content: кави
+        type: kaw
+      - 
+        content: кабардиски
+        type: kbd
+      - 
+        content: канембу
+        type: kbl
+      - 
+        content: тјап
+        type: kcg
+      - 
+        content: маконде
+        type: kde
+      - 
+        content: кабувердиану
+        type: kea
+      - 
+        content: коро
+        type: kfo
+      - 
+        content: конго
+        type: kg
+      - 
+        content: каси
+        type: kha
+      - 
+        content: којсански јазици
+        type: khi
+      - 
+        content: котанески
+        type: kho
+      - 
+        content: којра чиини
+        type: khq
+      - 
+        content: кикују
+        type: ki
+      - 
+        content: куањама
+        type: kj
+      - 
+        content: казакстански
+        type: kk
+      - 
+        content: како
+        type: kkj
+      - 
+        content: калалисут
+        type: kl
+      - 
+        content: каленџин
+        type: kln
+      - 
+        content: камбоџански
+        type: km
+      - 
+        content: кимбунду
+        type: kmb
+      - 
+        content: каннада
+        type: kn
+      - 
+        content: корејски
+        type: ko
+      - 
+        content: конкани
+        type: kok
+      - 
+        content: козрејски
+        type: kos
+      - 
+        content: кпеле
+        type: kpe
+      - 
+        content: канури
+        type: kr
+      - 
+        content: карашај-балкар
+        type: krc
+      - 
+        content: карелијски
+        type: krl
+      - 
+        content: кру
+        type: kro
+      - 
+        content: курук
+        type: kru
+      - 
+        content: кашмирски
+        type: ks
+      - 
+        content: шамбала
+        type: ksb
+      - 
+        content: бафија
+        type: ksf
+      - 
+        content: колоњски
+        type: ksh
+      - 
+        content: курдски
+        type: ku
+      - 
+        content: кумик
+        type: kum
+      - 
+        content: кутенајски
+        type: kut
+      - 
+        content: коми
+        type: kv
+      - 
+        content: корнуолски келтски
+        type: kw
+      - 
+        content: киргистански
+        type: ky
+      - 
+        content: латински
+        type: la
+      - 
+        content: ладино
+        type: lad
+      - 
+        content: ланги
+        type: lag
+      - 
+        content: ланда
+        type: lah
+      - 
+        content: ламба
+        type: lam
+      - 
+        content: луксембуршки
+        type: lb
+      - 
+        content: лежгијски
+        type: lez
+      - 
+        content: ганда
+        type: lg
+      - 
+        content: лимбуршки
+        type: li
+      - 
+        content: лингала
+        type: ln
+      - 
+        content: лао
+        type: lo
+      - 
+        content: монго
+        type: lol
+      - 
+        content: лози
+        type: loz
+      - 
+        content: литвански
+        type: lt
+      - 
+        content: луба-катанга
+        type: lu
+      - 
+        content: луба-лулуа
+        type: lua
+      - 
+        content: луизено
+        type: lui
+      - 
+        content: лунда
+        type: lun
+      - 
+        content: луо
+        type: luo
+      - 
+        content: лушајски
+        type: lus
+      - 
+        content: луја
+        type: luy
+      - 
+        content: латвиски
+        type: lv
+      - 
+        content: мадурески
+        type: mad
+      - 
+        content: мафа
+        type: maf
+      - 
+        content: магахи
+        type: mag
+      - 
+        content: маитхили
+        type: mai
+      - 
+        content: макасарски
+        type: mak
+      - 
+        content: мандинго
+        type: man
+      - 
+        content: австронезиски
+        type: map
+      - 
+        content: масаи
+        type: mas
+      - 
+        content: маба
+        type: mde
+      - 
+        content: мокша
+        type: mdf
+      - 
+        content: мандар
+        type: mdr
+      - 
+        content: мендески
+        type: men
+      - 
+        content: меру
+        type: mer
+      - 
+        content: морисјен
+        type: mfe
+      - 
+        content: малгашки
+        type: mg
+      - 
+        content: средноирски
+        type: mga
+      - 
+        content: макува-мито
+        type: mgh
+      - 
+        content: маршалски
+        type: mh
+      - 
+        content: маорски
+        type: mi
+      - 
+        content: микмек
+        type: mic
+      - 
+        content: минанкабау
+        type: min
+      - 
+        content: други јазици
+        type: mis
+      - 
+        content: македонски
+        type: mk
+      - 
+        content: мон-кмерски јазици
+        type: mkh
+      - 
+        content: малајалам
+        type: ml
+      - 
+        content: монголски
+        type: mn
+      - 
+        content: манчу
+        type: mnc
+      - 
+        content: манипури
+        type: mni
+      - 
+        content: манобо
+        type: mno
+      - 
+        content: молдавски
+        type: mo
+      - 
+        content: мохак
+        type: moh
+      - 
+        content: моси
+        type: mos
+      - 
+        content: марати
+        type: mr
+      - 
+        content: малезиски
+        type: ms
+      - 
+        content: малтешки
+        type: mt
+      - 
+        content: мунданг
+        type: mua
+      - 
+        content: повеќе јазици
+        type: mul
+      - 
+        content: мунда јазици
+        type: mun
+      - 
+        content: крик
+        type: mus
+      - 
+        content: мирандески
+        type: mwl
+      - 
+        content: марвари
+        type: mwr
+      - 
+        content: бурмански
+        type: my
+      - 
+        content: мјене
+        type: mye
+      - 
+        content: мајански јазици
+        type: myn
+      - 
+        content: ержа
+        type: myv
+      - 
+        content: науру
+        type: na
+      - 
+        content: нахуатл
+        type: nah
+      - 
+        content: северноамерикански индијански јазици
+        type: nai
+      - 
+        content: неаполски
+        type: nap
+      - 
+        content: нама
+        type: naq
+      - 
+        content: норвешки бокмал
+        type: nb
+      - 
+        content: северен ндебеле
+        type: nd
+      - 
+        content: долногермански
+        type: nds
+      - 
+        content: непалски
+        type: ne
+      - 
+        content: невари
+        type: new
+      - 
+        content: ндонга
+        type: ng
+      - 
+        content: нијас
+        type: nia
+      - 
+        content: нигер-кордофаниски јазици
+        type: nic
+      - 
+        content: најуан
+        type: niu
+      - 
+        content: холандски
+        type: nl
+      - 
+        content: холандски (во Белгија)
+        type: nl_BE
+      - 
+        content: квазио
+        type: nmg
+      - 
+        content: норвешки ниноршк
+        type: nn
+      - 
+        content: нгиембун
+        type: nnh
+      - 
+        content: норвешки
+        type: 'no'
+      - 
+        content: ногај
+        type: nog
+      - 
+        content: стар норски
+        type: non
+      - 
+        content: нко
+        type: nqo
+      - 
+        content: јужен ндебелески
+        type: nr
+      - 
+        content: северен сото
+        type: nso
+      - 
+        content: нубијски јазици
+        type: nub
+      - 
+        content: нуер
+        type: nus
+      - 
+        content: навахо
+        type: nv
+      - 
+        content: класичен невари
+        type: nwc
+      - 
+        content: њања
+        type: ny
+      - 
+        content: њамвези
+        type: nym
+      - 
+        content: њанколе
+        type: nyn
+      - 
+        content: њоро
+        type: nyo
+      - 
+        content: нзима
+        type: nzi
+      - 
+        content: окситански
+        type: oc
+      - 
+        content: оџибва
+        type: oj
+      - 
+        content: оромо
+        type: om
+      - 
+        content: орија
+        type: or
+      - 
+        content: осетиски
+        type: os
+      - 
+        content: осаж
+        type: osa
+      - 
+        content: отомански турски
+        type: ota
+      - 
+        content: отомиски јазици
+        type: oto
+      - 
+        content: пунџаби
+        type: pa
+      - 
+        content: папуански
+        type: paa
+      - 
+        content: пангасинан
+        type: pag
+      - 
+        content: палависки
+        type: pal
+      - 
+        content: пампанга
+        type: pam
+      - 
+        content: папиаменто
+        type: pap
+      - 
+        content: палауански
+        type: pau
+      - 
+        content: стар персиски
+        type: peo
+      - 
+        content: филипински јазик
+        type: phi
+      - 
+        content: феникиски
+        type: phn
+      - 
+        content: пали
+        type: pi
+      - 
+        content: полски
+        type: pl
+      - 
+        content: понпејански
+        type: pon
+      - 
+        content: пракритски јазици
+        type: pra
+      - 
+        content: стар провенчал
+        type: pro
+      - 
+        content: пашто
+        type: ps
+      - 
+        content: португалски
+        type: pt
+      - 
+        content: португалски (во Бразил)
+        type: pt_BR
+      - 
+        content: португалски (во Европа)
+        type: pt_PT
+      - 
+        content: кечуа
+        type: qu
+      - 
+        content: раџастански
+        type: raj
+      - 
+        content: рапануи
+        type: rap
+      - 
+        content: раротонган
+        type: rar
+      - 
+        content: реторомански
+        type: rm
+      - 
+        content: рундиски
+        type: rn
+      - 
+        content: романски
+        type: ro
+      - 
+        content: романски јазици
+        type: roa
+      - 
+        content: ромбо
+        type: rof
+      - 
+        content: ромски
+        type: rom
+      - 
+        content: рутски
+        type: root
+      - 
+        content: руски
+        type: ru
+      - 
+        content: влашки
+        type: rup
+      - 
+        content: кињарванда
+        type: rw
+      - 
+        content: руа
+        type: rwk
+      - 
+        content: санскрит
+        type: sa
+      - 
+        content: сандаве
+        type: sad
+      - 
+        content: јакутски
+        type: sah
+      - 
+        content: јужноамерикански индијански
+        type: sai
+      - 
+        content: салишански јазици
+        type: sal
+      - 
+        content: самариќански арамејски
+        type: sam
+      - 
+        content: самбуру
+        type: saq
+      - 
+        content: сасак
+        type: sas
+      - 
+        content: сантали
+        type: sat
+      - 
+        content: нгембеј
+        type: sba
+      - 
+        content: сангу
+        type: sbp
+      - 
+        content: сардиниски
+        type: sc
+      - 
+        content: сицилијански
+        type: scn
+      - 
+        content: скоц
+        type: sco
+      - 
+        content: синди
+        type: sd
+      - 
+        content: северен самиски
+        type: se
+      - 
+        content: сенека
+        type: see
+      - 
+        content: сена
+        type: seh
+      - 
+        content: селкап
+        type: sel
+      - 
+        content: семитски
+        type: sem
+      - 
+        content: којраборо сени
+        type: ses
+      - 
+        content: санго
+        type: sg
+      - 
+        content: стар ирски
+        type: sga
+      - 
+        content: знаковни јазици
+        type: sgn
+      - 
+        content: српско-хрватски
+        type: sh
+      - 
+        content: тачелхит
+        type: shi
+      - 
+        content: шан
+        type: shn
+      - 
+        content: чадски арапски
+        type: shu
+      - 
+        content: синхалиски
+        type: si
+      - 
+        content: сидамо
+        type: sid
+      - 
+        content: сијуски јазици
+        type: sio
+      - 
+        content: синотибетански
+        type: sit
+      - 
+        content: словачки
+        type: sk
+      - 
+        content: словенечки јазик
+        type: sl
+      - 
+        content: словенски јазици
+        type: sla
+      - 
+        content: самоански
+        type: sm
+      - 
+        content: јужен сами
+        type: sma
+      - 
+        content: самиски јазици
+        type: smi
+      - 
+        content: луле сами
+        type: smj
+      - 
+        content: инари сами
+        type: smn
+      - 
+        content: сколт сами
+        type: sms
+      - 
+        content: шона
+        type: sn
+      - 
+        content: сонинке
+        type: snk
+      - 
+        content: сомалиски
+        type: so
+      - 
+        content: согдијен
+        type: sog
+      - 
+        content: сонгај
+        type: son
+      - 
+        content: албански
+        type: sq
+      - 
+        content: српски
+        type: sr
+      - 
+        content: срански тонго
+        type: srn
+      - 
+        content: серер
+        type: srr
+      - 
+        content: свати
+        type: ss
+      - 
+        content: нилско-сахарски јазици
+        type: ssa
+      - 
+        content: сахо
+        type: ssy
+      - 
+        content: сесото
+        type: st
+      - 
+        content: сунданески
+        type: su
+      - 
+        content: сукума
+        type: suk
+      - 
+        content: сусу
+        type: sus
+      - 
+        content: сумериски
+        type: sux
+      - 
+        content: шведски
+        type: sv
+      - 
+        content: свахили
+        type: sw
+      - 
+        content: коморијански
+        type: swb
+      - 
+        content: конго свахили
+        type: swc
+      - 
+        content: класичен сиријак
+        type: syc
+      - 
+        content: сиријак
+        type: syr
+      - 
+        content: тамилски
+        type: ta
+      - 
+        content: таи
+        type: tai
+      - 
+        content: телугу
+        type: te
+      - 
+        content: тимне
+        type: tem
+      - 
+        content: тесо
+        type: teo
+      - 
+        content: терено
+        type: ter
+      - 
+        content: тетум
+        type: tet
+      - 
+        content: таџикистански
+        type: tg
+      - 
+        content: тајландски
+        type: th
+      - 
+        content: тигрејски
+        type: ti
+      - 
+        content: тигре
+        type: tig
+      - 
+        content: тив
+        type: tiv
+      - 
+        content: туркменистански
+        type: tk
+      - 
+        content: токелау
+        type: tkl
+      - 
+        content: тагалог
+        type: tl
+      - 
+        content: клингонски
+        type: tlh
+      - 
+        content: тлингит
+        type: tli
+      - 
+        content: тамашек
+        type: tmh
+      - 
+        content: цвана
+        type: tn
+      - 
+        content: тонга
+        type: to
+      - 
+        content: њаса тонга
+        type: tog
+      - 
+        content: ток писин
+        type: tpi
+      - 
+        content: турски
+        type: tr
+      - 
+        content: тароко
+        type: trv
+      - 
+        content: цонга
+        type: ts
+      - 
+        content: цимшијански
+        type: tsi
+      - 
+        content: татарски
+        type: tt
+      - 
+        content: тумбука
+        type: tum
+      - 
+        content: туписки јазици
+        type: tup
+      - 
+        content: алтајски
+        type: tut
+      - 
+        content: тувалу
+        type: tvl
+      - 
+        content: тви
+        type: tw
+      - 
+        content: тазавак
+        type: twq
+      - 
+        content: тахитски
+        type: ty
+      - 
+        content: тувинијански
+        type: tyv
+      - 
+        content: централно марокански тамазитски
+        type: tzm
+      - 
+        content: удмурт
+        type: udm
+      - 
+        content: ујгурски
+        type: ug
+      - 
+        content: угаритски
+        type: uga
+      - 
+        content: украински
+        type: uk
+      - 
+        content: умбунду
+        type: umb
+      - 
+        content: непознат или неважечки јазик
+        type: und
+      - 
+        content: урду
+        type: ur
+      - 
+        content: узбекистански
+        type: uz
+      - 
+        content: ваи
+        type: vai
+      - 
+        content: венда
+        type: ve
+      - 
+        content: виетнамски
+        type: vi
+      - 
+        content: волапјок
+        type: vo
+      - 
+        content: вотски
+        type: vot
+      - 
+        content: вунџо
+        type: vun
+      - 
+        content: валунски
+        type: wa
+      - 
+        content: валсер
+        type: wae
+      - 
+        content: вакашански
+        type: wak
+      - 
+        content: валамо
+        type: wal
+      - 
+        content: вареј
+        type: war
+      - 
+        content: вашо
+        type: was
+      - 
+        content: сорбиски
+        type: wen
+      - 
+        content: волофски
+        type: wo
+      - 
+        content: калмик
+        type: xal
+      - 
+        content: хауса
+        type: xh
+      - 
+        content: сога
+        type: xog
+      - 
+        content: јао
+        type: yao
+      - 
+        content: јапезе
+        type: yap
+      - 
+        content: јенгбен
+        type: yav
+      - 
+        content: јемба
+        type: ybb
+      - 
+        content: јидски
+        type: yi
+      - 
+        content: јоруба
+        type: yo
+      - 
+        content: јуписки јазици
+        type: ypk
+      - 
+        content: кантонски
+        type: yue
+      - 
+        content: жуанг
+        type: za
+      - 
+        content: запотек
+        type: zap
+      - 
+        content: блисимболс
+        type: zbl
+      - 
+        content: зенага
+        type: zen
+      - 
+        content: кинески
+        type: zh
+      - 
+        content: поедноставен кинески
+        type: zh_Hans
+      - 
+        content: традиционален кинески
+        type: zh_Hant
+      - 
+        content: зандиски
+        type: znd
+      - 
+        content: зулу
+        type: zu
+      - 
+        content: зуни
+        type: zun
+      - 
+        content: без лингвистичка содржина
+        type: zxx
+      - 
+        content: заза
+        type: zza
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}: {1}"
+    localePattern: "{0} ({1})"
+    localeSeparator: ", "
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Метрички
+        type: metric
+      - 
+        content: UK
+        type: UK
+      - 
+        content: Американски
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: арапско писмо
+        type: Arab
+      - 
+        content: ерменско писмо
+        type: Armn
+      - 
+        content: бенгалско писмо
+        type: Beng
+      - 
+        content: бопомофо писмо
+        type: Bopo
+      - 
+        content: браево писмо
+        type: Brai
+      - 
+        content: кирилично писмо
+        type: Cyrl
+      - 
+        content: деванагари
+        type: Deva
+      - 
+        content: етиопско писмо
+        type: Ethi
+      - 
+        content: грузиско писмо
+        type: Geor
+      - 
+        content: грчко писмо
+        type: Grek
+      - 
+        content: гуџарати писмо
+        type: Gujr
+      - 
+        content: гурмуки писмо
+        type: Guru
+      - 
+        content: хангул
+        type: Hang
+      - 
+        content: хан
+        type: Hani
+      - 
+        content: Поедноставено
+        type: Hans
+      - 
+        content: Традиционално
+        type: Hant
+      - 
+        content: хебрејско писмо
+        type: Hebr
+      - 
+        content: хирагана
+        type: Hira
+      - 
+        content: јапонско писмо
+        type: Jpan
+      - 
+        content: катакана
+        type: Kana
+      - 
+        content: кмер
+        type: Khmr
+      - 
+        content: каннада писмо
+        type: Knda
+      - 
+        content: корејско писмо
+        type: Kore
+      - 
+        content: лаоско писмо
+        type: Laoo
+      - 
+        content: латинично писмо
+        type: Latn
+      - 
+        content: малајаламско писмо
+        type: Mlym
+      - 
+        content: монголско писмо
+        type: Mong
+      - 
+        content: мјанмарско писмо
+        type: Mymr
+      - 
+        content: оријанско писмо
+        type: Orya
+      - 
+        content: синхала писмо
+        type: Sinh
+      - 
+        content: тамилско писмо
+        type: Taml
+      - 
+        content: телугу писмо
+        type: Telu
+      - 
+        content: таана писмо
+        type: Thaa
+      - 
+        content: тајландско писмо
+        type: Thai
+      - 
+        content: тибетанско писмо
+        type: Tibt
+      - 
+        content: симболи
+        type: Zsym
+      - 
+        content: без писмо
+        type: Zxxx
+      - 
+        content: општо
+        type: Zyyy
+      - 
+        content: непознато или неважечко писмо
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Свет
+        type: '001'
+      - 
+        content: Африка
+        type: '002'
+      - 
+        content: Северна Америка
+        type: '003'
+      - 
+        content: Јужна Америка
+        type: '005'
+      - 
+        content: Океанија
+        type: '009'
+      - 
+        content: Западна Африка
+        type: '011'
+      - 
+        content: Централна Америка
+        type: '013'
+      - 
+        content: Источна Африка
+        type: '014'
+      - 
+        content: Северна Африка
+        type: '015'
+      - 
+        content: Средна Африка
+        type: '017'
+      - 
+        content: Јужна континентална Африка
+        type: '018'
+      - 
+        content: Америки
+        type: '019'
+      - 
+        content: Северна континентална Америка
+        type: '021'
+      - 
+        content: Кариби
+        type: '029'
+      - 
+        content: Источна Азија
+        type: '030'
+      - 
+        content: Јужна Азија
+        type: '034'
+      - 
+        content: Југоисточна Азија
+        type: '035'
+      - 
+        content: Јужна Европа
+        type: '039'
+      - 
+        content: Австралија и Нов Зеланд
+        type: '053'
+      - 
+        content: Меланезија
+        type: '054'
+      - 
+        content: Микронезиски регион
+        type: '057'
+      - 
+        content: Полинезија
+        type: '061'
+      - 
+        content: Азија
+        type: 142
+      - 
+        content: Централна Азија
+        type: 143
+      - 
+        content: Западна Азија
+        type: 145
+      - 
+        content: Европа
+        type: 150
+      - 
+        content: Источна Европа
+        type: 151
+      - 
+        content: Северна Европа
+        type: 154
+      - 
+        content: Западна Европа
+        type: 155
+      - 
+        content: Латинска Америка
+        type: 419
+      - 
+        content: Остров Асенсион
+        type: AC
+      - 
+        content: Андора
+        type: AD
+      - 
+        content: Обединети Арапски Емирати
+        type: AE
+      - 
+        content: Авганистан
+        type: AF
+      - 
+        content: Антигва и Барбуда
+        type: AG
+      - 
+        content: Ангвила
+        type: AI
+      - 
+        content: Албанија
+        type: AL
+      - 
+        content: Ерменија
+        type: AM
+      - 
+        content: Холандски Антили
+        type: AN
+      - 
+        content: Ангола
+        type: AO
+      - 
+        content: Антарктик
+        type: AQ
+      - 
+        content: Аргентина
+        type: AR
+      - 
+        content: Американска Самоа
+        type: AS
+      - 
+        content: Австрија
+        type: AT
+      - 
+        content: Австралија
+        type: AU
+      - 
+        content: Аруба
+        type: AW
+      - 
+        content: Аландски острови
+        type: AX
+      - 
+        content: Азербејџан
+        type: AZ
+      - 
+        content: Босна и Херцеговина
+        type: BA
+      - 
+        content: Барбадос
+        type: BB
+      - 
+        content: Бангладеш
+        type: BD
+      - 
+        content: Белгија
+        type: BE
+      - 
+        content: Буркина Фасо
+        type: BF
+      - 
+        content: Бугарија
+        type: BG
+      - 
+        content: Бахреин
+        type: BH
+      - 
+        content: Бурунди
+        type: BI
+      - 
+        content: Бенин
+        type: BJ
+      - 
+        content: Сент Бартоломеј
+        type: BL
+      - 
+        content: Бермуди
+        type: BM
+      - 
+        content: Брунеи
+        type: BN
+      - 
+        content: Боливија
+        type: BO
+      - 
+        content: Карипска Холандија
+        type: BQ
+      - 
+        content: Бразил
+        type: BR
+      - 
+        content: Бахами
+        type: BS
+      - 
+        content: Бутан
+        type: BT
+      - 
+        content: Боувитови острови
+        type: BV
+      - 
+        content: Боцвана
+        type: BW
+      - 
+        content: Белорусија
+        type: BY
+      - 
+        content: Белизе
+        type: BZ
+      - 
+        content: Канада
+        type: CA
+      - 
+        content: Кокосови острови
+        type: CC
+      - 
+        content: Конго - Киншаса
+        type: CD
+      - 
+        alt: variant
+        content: Конго [Демократска Република Конго]
+        type: CD
+      - 
+        content: Централна Африканска Република
+        type: CF
+      - 
+        content: Конго - Бразавил
+        type: CG
+      - 
+        alt: variant
+        content: Конго [Република]
+        type: CG
+      - 
+        content: Швајцарија
+        type: CH
+      - 
+        content: Брегот на Слоновата Коска
+        type: CI
+      - 
+        alt: variant
+        content: Брег на Слонова Коска
+        type: CI
+      - 
+        content: Кукови Острови
+        type: CK
+      - 
+        content: Чиле
+        type: CL
+      - 
+        content: Камерун
+        type: CM
+      - 
+        content: Кина
+        type: CN
+      - 
+        content: Колумбија
+        type: CO
+      - 
+        content: Остров Клипертон
+        type: CP
+      - 
+        content: Костарика
+        type: CR
+      - 
+        content: Куба
+        type: CU
+      - 
+        content: Зеленортски Острови
+        type: CV
+      - 
+        content: Курасао
+        type: CW
+      - 
+        content: Божиќни Острови
+        type: CX
+      - 
+        content: Кипар
+        type: CY
+      - 
+        content: Чешка Република
+        type: CZ
+      - 
+        content: Германија
+        type: DE
+      - 
+        content: Диего Гарсија
+        type: DG
+      - 
+        content: Џибути
+        type: DJ
+      - 
+        content: Данска
+        type: DK
+      - 
+        content: Доминика
+        type: DM
+      - 
+        content: Доминиканска Република
+        type: DO
+      - 
+        content: Алжир
+        type: DZ
+      - 
+        content: Сеута и Мелија
+        type: EA
+      - 
+        content: Еквадор
+        type: EC
+      - 
+        content: Естонија
+        type: EE
+      - 
+        content: Египет
+        type: EG
+      - 
+        content: Западна Сахара
+        type: EH
+      - 
+        content: Еритреја
+        type: ER
+      - 
+        content: Шпанија
+        type: ES
+      - 
+        content: Етиопија
+        type: ET
+      - 
+        content: Европска унија
+        type: EU
+      - 
+        content: Финска
+        type: FI
+      - 
+        content: Фиџи
+        type: FJ
+      - 
+        content: Фолкландски Острови
+        type: FK
+      - 
+        alt: variant
+        content: Фолкландски Острови [малвински острови]
+        type: FK
+      - 
+        content: Микронезија
+        type: FM
+      - 
+        content: Фарски Острови
+        type: FO
+      - 
+        content: Франција
+        type: FR
+      - 
+        content: Габон
+        type: GA
+      - 
+        content: Велика Британија
+        type: GB
+      - 
+        content: Гренада
+        type: GD
+      - 
+        content: Грузија
+        type: GE
+      - 
+        content: Француска Гвајана
+        type: GF
+      - 
+        content: Гвернзи
+        type: GG
+      - 
+        content: Гана
+        type: GH
+      - 
+        content: Гибралтар
+        type: GI
+      - 
+        content: Гренланд
+        type: GL
+      - 
+        content: Гамбија
+        type: GM
+      - 
+        content: Гвинеја
+        type: GN
+      - 
+        content: Гвадалупе
+        type: GP
+      - 
+        content: Екваторска Гвинеја
+        type: GQ
+      - 
+        content: Грција
+        type: GR
+      - 
+        content: Јужна Грузија и Јужни Сендвич Острови
+        type: GS
+      - 
+        content: Гватемала
+        type: GT
+      - 
+        content: Гвам
+        type: GU
+      - 
+        content: Гвинеа-Биса
+        type: GW
+      - 
+        content: Гвајана
+        type: GY
+      - 
+        content: Хонг Конг С.А.Р Кина
+        type: HK
+      - 
+        alt: short
+        content: Хонг Конг
+        type: HK
+      - 
+        content: Хардови острови и Мекдоналд Острови
+        type: HM
+      - 
+        content: Хондурас
+        type: HN
+      - 
+        content: Хрватска
+        type: HR
+      - 
+        content: Хаити
+        type: HT
+      - 
+        content: Унгарија
+        type: HU
+      - 
+        content: Канарски острови
+        type: IC
+      - 
+        content: Индонезија
+        type: ID
+      - 
+        content: Ирска
+        type: IE
+      - 
+        content: Израел
+        type: IL
+      - 
+        content: Островот Ман
+        type: IM
+      - 
+        content: Индија
+        type: IN
+      - 
+        content: Британско Индиско Океанска територија
+        type: IO
+      - 
+        content: Ирак
+        type: IQ
+      - 
+        content: Иран
+        type: IR
+      - 
+        content: Исланд
+        type: IS
+      - 
+        content: Италија
+        type: IT
+      - 
+        content: Џерси
+        type: JE
+      - 
+        content: Јамајка
+        type: JM
+      - 
+        content: Јордан
+        type: JO
+      - 
+        content: Јапонија
+        type: JP
+      - 
+        content: Кенија
+        type: KE
+      - 
+        content: Киргистан
+        type: KG
+      - 
+        content: Камбоџа
+        type: KH
+      - 
+        content: Кирибати
+        type: KI
+      - 
+        content: Коморос
+        type: KM
+      - 
+        content: Сент Кристофер и Невис
+        type: KN
+      - 
+        content: Северна Кореја
+        type: KP
+      - 
+        content: Јужна Кореја
+        type: KR
+      - 
+        content: Кувајт
+        type: KW
+      - 
+        content: Кајмански Острови
+        type: KY
+      - 
+        content: Казахстан
+        type: KZ
+      - 
+        content: Лаос
+        type: LA
+      - 
+        content: Либан
+        type: LB
+      - 
+        content: Света Лучија
+        type: LC
+      - 
+        content: Лихтенштајн
+        type: LI
+      - 
+        content: Шри Ланка
+        type: LK
+      - 
+        content: Либерија
+        type: LR
+      - 
+        content: Лесото
+        type: LS
+      - 
+        content: Литванија
+        type: LT
+      - 
+        content: Луксембург
+        type: LU
+      - 
+        content: Латвија
+        type: LV
+      - 
+        content: Либија
+        type: LY
+      - 
+        content: Мароко
+        type: MA
+      - 
+        content: Монако
+        type: MC
+      - 
+        content: Молдавија
+        type: MD
+      - 
+        content: Црна Гора
+        type: ME
+      - 
+        content: Сент Мартин
+        type: MF
+      - 
+        content: Мадагаскар
+        type: MG
+      - 
+        content: Маршалови острови
+        type: MH
+      - 
+        content: Македонија
+        type: MK
+      - 
+        alt: variant
+        content: Македонија
+        type: MK
+      - 
+        content: Мали
+        type: ML
+      - 
+        content: Мјанмар [Бурма]
+        type: MM
+      - 
+        content: Монголија
+        type: MN
+      - 
+        content: Макао С.А.Р Кина
+        type: MO
+      - 
+        alt: short
+        content: Макао
+        type: MO
+      - 
+        content: Северни Маријанини Острови
+        type: MP
+      - 
+        content: Мартиник
+        type: MQ
+      - 
+        content: Мавританија
+        type: MR
+      - 
+        content: Монсерат
+        type: MS
+      - 
+        content: Малта
+        type: MT
+      - 
+        content: Маурициус
+        type: MU
+      - 
+        content: Малдиви
+        type: MV
+      - 
+        content: Малави
+        type: MW
+      - 
+        content: Мексико
+        type: MX
+      - 
+        content: Малезија
+        type: MY
+      - 
+        content: Мозамбик
+        type: MZ
+      - 
+        content: Намибија
+        type: NA
+      - 
+        content: Нова Каледонија
+        type: NC
+      - 
+        content: Нигер
+        type: NE
+      - 
+        content: Нофролк Остров
+        type: NF
+      - 
+        content: Нигерија
+        type: NG
+      - 
+        content: Никарагва
+        type: NI
+      - 
+        content: Холандија
+        type: NL
+      - 
+        content: Норвешка
+        type: 'NO'
+      - 
+        content: Непал
+        type: NP
+      - 
+        content: Науру
+        type: NR
+      - 
+        content: Ние
+        type: NU
+      - 
+        content: Нов Зеланд
+        type: NZ
+      - 
+        content: Оман
+        type: OM
+      - 
+        content: Панама
+        type: PA
+      - 
+        content: Перу
+        type: PE
+      - 
+        content: Француска Полинезија
+        type: PF
+      - 
+        content: Папуа Нова Гвинеја
+        type: PG
+      - 
+        content: Филипини
+        type: PH
+      - 
+        content: Пакистан
+        type: PK
+      - 
+        content: Полска
+        type: PL
+      - 
+        content: Сент Пјер и Микелан
+        type: PM
+      - 
+        content: Питкарн
+        type: PN
+      - 
+        content: Порторико
+        type: PR
+      - 
+        content: Палестински територии
+        type: PS
+      - 
+        content: Португалија
+        type: PT
+      - 
+        content: Палау
+        type: PW
+      - 
+        content: Парагвај
+        type: PY
+      - 
+        content: Катар
+        type: QA
+      - 
+        content: Зависни земји во Океанија
+        type: QO
+      - 
+        content: Ријунион
+        type: RE
+      - 
+        content: Романија
+        type: RO
+      - 
+        content: Србија
+        type: RS
+      - 
+        content: Русија
+        type: RU
+      - 
+        content: Руанда
+        type: RW
+      - 
+        content: Саудиска Арабија
+        type: SA
+      - 
+        content: Соломоновите Острови
+        type: SB
+      - 
+        content: Сејшели
+        type: SC
+      - 
+        content: Судан
+        type: SD
+      - 
+        content: Шведска
+        type: SE
+      - 
+        content: Сингапур
+        type: SG
+      - 
+        content: Света Елена
+        type: SH
+      - 
+        content: Словенија
+        type: SI
+      - 
+        content: Свалбард и Жан Мејен
+        type: SJ
+      - 
+        content: Словачка
+        type: SK
+      - 
+        content: Сиера Леоне
+        type: SL
+      - 
+        content: Сан Марино
+        type: SM
+      - 
+        content: Сенегал
+        type: SN
+      - 
+        content: Сомалија
+        type: SO
+      - 
+        content: Суринам
+        type: SR
+      - 
+        content: Јужен Судан
+        type: SS
+      - 
+        content: Сао Томе и Принчипе
+        type: ST
+      - 
+        content: Ел Салвадор
+        type: SV
+      - 
+        content: Свети Мартин
+        type: SX
+      - 
+        content: Сирија
+        type: SY
+      - 
+        content: Свазиленд
+        type: SZ
+      - 
+        content: Тристан да Куња
+        type: TA
+      - 
+        content: Турк и Каикос Острови
+        type: TC
+      - 
+        content: Чад
+        type: TD
+      - 
+        content: Француски Јужни територии
+        type: TF
+      - 
+        content: Того
+        type: TG
+      - 
+        content: Тајланд
+        type: TH
+      - 
+        content: Таџикистан
+        type: TJ
+      - 
+        content: Токелау
+        type: TK
+      - 
+        content: Источен Тимор [Тимор Лесте]
+        type: TL
+      - 
+        alt: variant
+        content: Источен Тимор
+        type: TL
+      - 
+        content: Туркменистан
+        type: TM
+      - 
+        content: Тунис
+        type: TN
+      - 
+        content: Тонга
+        type: TO
+      - 
+        content: Турција
+        type: TR
+      - 
+        content: Тринидад и Тобаго
+        type: TT
+      - 
+        content: Тувалу
+        type: TV
+      - 
+        content: Тајван
+        type: TW
+      - 
+        content: Танзанија
+        type: TZ
+      - 
+        content: Украина
+        type: UA
+      - 
+        content: Уганда
+        type: UG
+      - 
+        content: Американски територии во Пацификот
+        type: UM
+      - 
+        content: Соединети Американски Држави
+        type: US
+      - 
+        content: Уругвај
+        type: UY
+      - 
+        content: Узбекистан
+        type: UZ
+      - 
+        content: Ватикан
+        type: VA
+      - 
+        content: Сент Винсент и Гренадините
+        type: VC
+      - 
+        content: Венецуела
+        type: VE
+      - 
+        content: Британски Девствени Острови
+        type: VG
+      - 
+        content: Девствени Острови на САД
+        type: VI
+      - 
+        content: Виетнам
+        type: VN
+      - 
+        content: Ванату
+        type: VU
+      - 
+        content: Волис и Футуна острови
+        type: WF
+      - 
+        content: Самоа
+        type: WS
+      - 
+        content: Јемен
+        type: YE
+      - 
+        content: Мајоте
+        type: YT
+      - 
+        content: Јужна Африка
+        type: ZA
+      - 
+        content: Замбија
+        type: ZM
+      - 
+        content: Зимбабве
+        type: ZW
+      - 
+        content: Непознат регион
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: Календар на Република Кина
+        type: roc
+      collation: 
+        content: Традиционално сортирање
+        type: traditional
+      numbers: 
+        content: Тибетски цифри
+        type: tibt
+  variants: 
+    variant: 
+      - 
+        content: Пинјин романизација
+        type: PINYIN
+      - 
+        content: Вејд-Џајлс романизација
+        type: WADEGILE
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Андорска Пезета
+        type: ADP
+      - 
+        displayName: Обединети Арапски Емирати Дирхам
+        type: AED
+      - 
+        displayName: Авгани (1927-2002)
+        type: AFA
+      - 
+        displayName: Авгани
+        type: AFN
+      - 
+        displayName: Албански Лек
+        type: ALL
+      - 
+        displayName: Ермениски Драм
+        type: AMD
+      - 
+        displayName: 
+          - Холандски антилски гилдер
+          - 
+            content: Холандски антилски гилдер
+            count: one
+          - 
+            content: Холандски антилски гилдери
+            count: other
+        type: ANG
+      - 
+        displayName: Анголска Кванза
+        type: AOA
+      - 
+        displayName: Анголска Кванза (1977-1990)
+        type: AOK
+      - 
+        displayName: Анголска нова Кванза (1990-2000)
+        type: AON
+      - 
+        displayName: Аргентински Пезос (1983-1985)
+        type: ARP
+      - 
+        displayName: Аргентински Пезос
+        type: ARS
+      - 
+        displayName: Австралиски Шилинг
+        type: ATS
+      - 
+        displayName: Австралиски Долар
+        type: AUD
+      - 
+        displayName: 
+          - Арубиски флорин
+          - 
+            content: Арубиски флорин
+            count: one
+          - 
+            content: Арубиски флорин
+            count: other
+        type: AWG
+      - 
+        displayName: 
+          - Азербејџански манат
+          - 
+            content: Азербејџански манат
+            count: one
+          - 
+            content: Азербејџански манати
+            count: other
+        type: AZN
+      - 
+        displayName: Босанско-Херцеговски Динар
+        type: BAD
+      - 
+        displayName: Босанско-Херцеговска конвертибилна марка
+        type: BAM
+      - 
+        displayName: Барбадоски Долар
+        type: BBD
+      - 
+        displayName: 
+          - Бангладешка така
+          - 
+            content: Бангладешка така
+            count: one
+          - 
+            content: Бангладешки таки
+            count: other
+        type: BDT
+      - 
+        displayName: Белгиски Франк (конвертибилен)
+        type: BEC
+      - 
+        displayName: Белгиски Франк
+        type: BEF
+      - 
+        displayName: Белгиски Франк (финансиски)
+        type: BEL
+      - 
+        displayName: Бугарски цврст лев
+        type: BGL
+      - 
+        displayName: Бугарски нов лев
+        type: BGN
+      - 
+        displayName: Бахреински Динар
+        type: BHD
+      - 
+        displayName: Бурундиски Франк
+        type: BIF
+      - 
+        displayName: Бермудски Долар
+        type: BMD
+      - 
+        displayName: Брунејски долар
+        type: BND
+      - 
+        displayName: 
+          - Бразилски реал
+          - 
+            content: Бразилски реал
+            count: one
+          - 
+            content: Бразилски реали
+            count: other
+        symbol: R$
+        type: BRL
+      - 
+        displayName: Бахамски Долар
+        type: BSD
+      - 
+        displayName: 
+          - Бутански нгултрум
+          - 
+            content: Бутански нгултрум
+            count: one
+          - 
+            content: Бутански нгултруми
+            count: other
+        type: BTN
+      - 
+        displayName: Боцванска Пула
+        type: BWP
+      - 
+        displayName: Белоруска нова рубља (1994-1999)
+        type: BYB
+      - 
+        displayName: Белоруска Рубља
+        type: BYR
+      - 
+        displayName: Белизиски Долар
+        type: BZD
+      - 
+        displayName: Канадски Долар
+        symbol: CA$
+        type: CAD
+      - 
+        displayName: 
+          - Конголски франк
+          - 
+            content: Конголски франк
+            count: one
+          - 
+            content: Конголски франци
+            count: other
+        type: CDF
+      - 
+        displayName: Швајцарски Франк
+        type: CHF
+      - 
+        displayName: Чилеански пезос
+        type: CLP
+      - 
+        displayName: 
+          - Кинески јуан
+          - 
+            content: Кинески јуан
+            count: one
+          - 
+            content: Кинески јуани
+            count: other
+        type: CNY
+      - 
+        displayName: Колумбиски Пезос
+        type: COP
+      - 
+        displayName: Костарикански Колон
+        type: CRC
+      - 
+        displayName: Чехословачка цврста корона
+        type: CSK
+      - 
+        displayName: 
+          - Кубански пезос (конвертибилен)
+          - 
+            content: Кубански пезос (конвертибилен)
+            count: one
+          - 
+            content: Кубански пезос (конвертибилен)
+            count: other
+        type: CUC
+      - 
+        displayName: Кубански пезос
+        type: CUP
+      - 
+        displayName: 
+          - Зелено'ртски ескудо
+          - 
+            content: Зелено'ртски ескудо
+            count: one
+          - 
+            content: Зелено'ртски ескуди
+            count: other
+        type: CVE
+      - 
+        displayName: Кипарска фунта
+        type: CYP
+      - 
+        displayName: Чешка корона
+        type: CZK
+      - 
+        displayName: Германска Марка
+        type: DEM
+      - 
+        displayName: 
+          - Џибути франк
+          - 
+            content: Џибути франк
+            count: one
+          - 
+            content: Џибути франци
+            count: other
+        type: DJF
+      - 
+        displayName: Данска круна
+        type: DKK
+      - 
+        displayName: Доминикански Пезос
+        type: DOP
+      - 
+        displayName: Алжирски Динар
+        type: DZD
+      - 
+        displayName: Египетска Фунта
+        type: EGP
+      - 
+        displayName: 
+          - Еритрејска Накфа
+          - 
+            content: Еритрејска Накфа
+            count: one
+          - 
+            content: Еритрејски Накфи
+            count: other
+        type: ERN
+      - 
+        displayName: Шпанска Пезета
+        type: ESP
+      - 
+        displayName: Етиописки Бир
+        type: ETB
+      - 
+        displayName: Евро
+        type: EUR
+      - 
+        displayName: Финска марка
+        type: FIM
+      - 
+        displayName: Фиџи долар
+        type: FJD
+      - 
+        displayName: Фолкландска фунта
+        type: FKP
+      - 
+        displayName: Француски франк
+        type: FRF
+      - 
+        displayName: Британска Фунта
+        type: GBP
+      - 
+        displayName: Грузиски лари
+        type: GEL
+      - 
+        displayName: Ганајски Седи
+        type: GHC
+      - 
+        displayName: 
+          - Гански седи
+          - 
+            content: Гански седи
+            count: one
+          - 
+            content: Гански седи
+            count: other
+        type: GHS
+      - 
+        displayName: Гибралтарска фунта
+        type: GIP
+      - 
+        displayName: Гамбиски Даласи
+        type: GMD
+      - 
+        displayName: Гвинејски франк
+        type: GNF
+      - 
+        displayName: Грчка драхма
+        type: GRD
+      - 
+        displayName: Гватемалски кветцал
+        type: GTQ
+      - 
+        displayName: Гвинејски Бисау пезос
+        type: GWP
+      - 
+        displayName: Гвијански Долар
+        type: GYD
+      - 
+        displayName: Хонгконшки долар
+        type: HKD
+      - 
+        displayName: Хондурска лемпира
+        type: HNL
+      - 
+        displayName: Хрватски динар
+        type: HRD
+      - 
+        displayName: Хрватска Куна
+        type: HRK
+      - 
+        displayName: Хаитски гурд
+        type: HTG
+      - 
+        displayName: Унгарска форинта
+        type: HUF
+      - 
+        displayName: Индонезиска рупија
+        type: IDR
+      - 
+        displayName: Ирска фунта
+        type: IEP
+      - 
+        displayName: Изрелска фунта
+        type: ILP
+      - 
+        displayName: Израелски нов шекел
+        type: ILS
+      - 
+        displayName: Индијска рупија
+        type: INR
+      - 
+        displayName: Ирачки динар
+        type: IQD
+      - 
+        displayName: Ирански риал
+        type: IRR
+      - 
+        displayName: Исландска крона
+        type: ISK
+      - 
+        displayName: Италијанска лира
+        type: ITL
+      - 
+        displayName: Јамајкански долар
+        type: JMD
+      - 
+        displayName: Јордански динар
+        type: JOD
+      - 
+        displayName: Јапонски јен
+        type: JPY
+      - 
+        displayName: Кениски шилинг
+        type: KES
+      - 
+        displayName: Киргистански сом
+        type: KGS
+      - 
+        displayName: Камбоџиски рел
+        type: KHR
+      - 
+        displayName: Коморски долар
+        type: KMF
+      - 
+        displayName: Северно корејски вон
+        type: KPW
+      - 
+        displayName: Јужно корејски вон
+        type: KRW
+      - 
+        displayName: Кувајтски динар
+        type: KWD
+      - 
+        displayName: 
+          - Долар на кајмански острови
+          - 
+            content: Долар на кајмански острови
+            count: one
+          - 
+            content: Долари на кајмански острови
+            count: other
+        type: KYD
+      - 
+        displayName: Казахстанска тенга
+        type: KZT
+      - 
+        displayName: Лаоски кип
+        type: LAK
+      - 
+        displayName: Либанска фунта
+        type: LBP
+      - 
+        displayName: Шриланканска рупија
+        type: LKR
+      - 
+        displayName: 
+          - Либериски долар
+          - 
+            content: Либериски долар
+            count: one
+          - 
+            content: Либериски долари
+            count: other
+        type: LRD
+      - 
+        displayName: Лесотско лоти
+        type: LSL
+      - 
+        displayName: Литваниска лита
+        type: LTL
+      - 
+        displayName: Литваниски литаз
+        type: LTT
+      - 
+        displayName: Луксембуршки франк
+        type: LUF
+      - 
+        displayName: Латвијски лат
+        type: LVL
+      - 
+        displayName: Латвијска рубља
+        type: LVR
+      - 
+        displayName: Либијски динар
+        type: LYD
+      - 
+        displayName: Марокански Дирхам
+        type: MAD
+      - 
+        displayName: Марокански франк
+        type: MAF
+      - 
+        displayName: Молдавски леу
+        type: MDL
+      - 
+        displayName: 
+          - Малагасиски ариари
+          - 
+            content: Малагасиски ариари
+            count: one
+          - 
+            content: Малагасиски ариари
+            count: other
+        type: MGA
+      - 
+        displayName: Македонски денар
+        symbol: ден
+        type: MKD
+      - 
+        displayName: Малски франк
+        type: MLF
+      - 
+        displayName: 
+          - Мја
+          - 
+            content: Мјанмарски киат
+            count: one
+          - 
+            content: Мјанмарски киати
+            count: other
+        type: MMK
+      - 
+        displayName: Монголиски тугрик
+        type: MNT
+      - 
+        displayName: Макао патака
+        type: MOP
+      - 
+        displayName: 
+          - Мавританска угија
+          - 
+            content: Мавританска угија
+            count: one
+          - 
+            content: Мавритански угии
+            count: other
+        type: MRO
+      - 
+        displayName: Малтешка лира
+        type: MTL
+      - 
+        displayName: Малтешка фунта
+        type: MTP
+      - 
+        displayName: 
+          - Мавританска рупија
+          - 
+            content: Мавританска рупија
+            count: one
+          - 
+            content: Мавритански рупии
+            count: other
+        type: MUR
+      - 
+        displayName: 
+          - Малдивиска руфија
+          - 
+            content: Малдивска руфија
+            count: one
+          - 
+            content: Малдивски руфии
+            count: other
+        type: MVR
+      - 
+        displayName: 
+          - Малависка квача
+          - 
+            content: Малависка квача
+            count: one
+          - 
+            content: Малависки квачи
+            count: other
+        type: MWK
+      - 
+        displayName: Мексикански пезос
+        symbol: MX$
+        type: MXN
+      - 
+        displayName: Мексикански сребрен пезос (1861-1992)
+        type: MXP
+      - 
+        displayName: Малазиски рингит
+        type: MYR
+      - 
+        displayName: Мозамбиско ескудо
+        type: MZE
+      - 
+        displayName: Стар мозамбиски метикал
+        type: MZM
+      - 
+        displayName: 
+          - Мозамбиски метикал
+          - 
+            content: Мозамбиски метикали
+            count: one
+          - 
+            content: Мозамбиски метикал
+            count: other
+        type: MZN
+      - 
+        displayName: Намибиски долар
+        type: NAD
+      - 
+        displayName: Нигериска наира
+        type: NGN
+      - 
+        displayName: Никарагванска кордоба
+        type: NIC
+      - 
+        displayName: 
+          - Никарагванска Кордоба
+          - 
+            content: Никарагванска Кордоба
+            count: one
+          - 
+            content: Никарагвански кордоби
+            count: other
+        type: NIO
+      - 
+        displayName: Холандски гилдер
+        type: NLG
+      - 
+        displayName: Норвешка круна
+        type: NOK
+      - 
+        displayName: Непалска рупија
+        type: NPR
+      - 
+        displayName: Новозеландски долар
+        type: NZD
+      - 
+        displayName: Омански риал
+        type: OMR
+      - 
+        displayName: Панамска балбоа
+        type: PAB
+      - 
+        displayName: Перуански нов сол
+        type: PEN
+      - 
+        displayName: Перуански сол
+        type: PES
+      - 
+        displayName: Папуа новогвинејска кина
+        type: PGK
+      - 
+        displayName: Филипински пезос
+        type: PHP
+      - 
+        displayName: Пакистанска рупија
+        type: PKR
+      - 
+        displayName: Полска злота
+        type: PLN
+      - 
+        displayName: Полска злота (1950-1995)
+        type: PLZ
+      - 
+        displayName: Португалско ескудо
+        type: PTE
+      - 
+        displayName: Парагвајска гуарана
+        type: PYG
+      - 
+        displayName: Катарски риал
+        type: QAR
+      - 
+        displayName: 
+          - Романска леи (1952-2006)
+          - 
+            content: Романска леи (1952-2006)
+            count: one
+          - 
+            content: Романска леи (1952-2006)
+            count: other
+        type: ROL
+      - 
+        displayName: 
+          - Романска леи
+          - 
+            content: Романска леи
+            count: one
+          - 
+            content: Романска леи
+            count: other
+        type: RON
+      - 
+        displayName: Српски динар
+        type: RSD
+      - 
+        displayName: Руска рубља
+        type: RUB
+      - 
+        displayName: Руска рубља (1991-1998)
+        type: RUR
+      - 
+        displayName: Руандски франк
+        type: RWF
+      - 
+        displayName: Саудиски ријал
+        type: SAR
+      - 
+        displayName: Соломонски долар
+        type: SBD
+      - 
+        displayName: 
+          - Сејшелска рупија
+          - 
+            content: Сејшелска рупија
+            count: one
+          - 
+            content: Сејшелски рупии
+            count: other
+        type: SCR
+      - 
+        displayName: Стар судански динар
+        type: SDD
+      - 
+        displayName: 
+          - Суданска фунта
+          - 
+            content: Суданска фунта
+            count: one
+          - 
+            content: Судански фунти
+            count: other
+        type: SDG
+      - 
+        displayName: Стара суданска фунта
+        type: SDP
+      - 
+        displayName: Шведска круна
+        type: SEK
+      - 
+        displayName: Сингапурски долар
+        type: SGD
+      - 
+        displayName: 
+          - Фунта на Света Елена
+          - 
+            content: Фунта на Света Елена
+            count: one
+          - 
+            content: Фунти на Света Елена
+            count: other
+        type: SHP
+      - 
+        displayName: Словенечки толар
+        type: SIT
+      - 
+        displayName: Словачка круна
+        type: SKK
+      - 
+        displayName: Сиералеонско леоне
+        type: SLL
+      - 
+        displayName: 
+          - Сомалијски шилинг
+          - 
+            content: Сомалијски шилинзи
+            count: one
+          - 
+            content: Сомалијски шилинзи
+            count: other
+        type: SOS
+      - 
+        displayName: 
+          - Суринамски долар
+          - 
+            content: Суринамски долар
+            count: one
+          - 
+            content: Суринамски долари
+            count: other
+        type: SRD
+      - 
+        displayName: Суринамски гилдер
+        type: SRG
+      - 
+        displayName: 
+          - Јужносуданска фунта
+          - 
+            content: Јужносуданска фунта
+            count: one
+          - 
+            content: Јужносудански фунти
+            count: other
+        type: SSP
+      - 
+        displayName: 
+          - Добра на Сао Томе и Принсипе
+          - 
+            content: Добра на Сао Томе и Принсипе
+            count: one
+          - 
+            content: Добри на Сао Томе и Принсипе
+            count: other
+        type: STD
+      - 
+        displayName: Советска рубља
+        type: SUR
+      - 
+        displayName: Салвадорски колон
+        type: SVC
+      - 
+        displayName: Сиријска фунта
+        type: SYP
+      - 
+        displayName: Свазилендски лиланген
+        type: SZL
+      - 
+        displayName: Таи бат
+        type: THB
+      - 
+        displayName: Таџикистанска рубља
+        type: TJR
+      - 
+        displayName: Таџикистански сомони
+        type: TJS
+      - 
+        displayName: Туркменистански манат
+        type: TMM
+      - 
+        displayName: 
+          - 
+            content: Туркменистански манати
+            count: one
+          - 
+            content: Туркменистански манати
+            count: other
+        type: TMT
+      - 
+        displayName: 
+          - Тунизиски динар
+          - 
+            content: Тунизиски динар
+            count: one
+          - 
+            content: Тунизиски динари
+            count: other
+        type: TND
+      - 
+        displayName: 
+          - Тонганска панга
+          - 
+            content: Тонганска панга
+            count: one
+          - 
+            content: Тонганска панга
+            count: other
+        type: TOP
+      - 
+        displayName: Тиморски ескудо
+        type: TPE
+      - 
+        displayName: 
+          - Турска лира (1922-2005)
+          - 
+            content: Турска лира (1922-2005)
+            count: one
+          - 
+            content: Турска лира (1922-2005)
+            count: other
+        type: TRL
+      - 
+        displayName: 
+          - Турска лира
+          - 
+            content: Турска лира
+            count: one
+          - 
+            content: Турски лири
+            count: other
+        type: TRY
+      - 
+        displayName: Тајвански нов долар
+        type: TWD
+      - 
+        displayName: Танзаниски шилинг
+        type: TZS
+      - 
+        displayName: Украинска хривнија
+        type: UAH
+      - 
+        displayName: Угандиски шилинг (1966-1987)
+        type: UGS
+      - 
+        displayName: Угандиски шилинг
+        type: UGX
+      - 
+        displayName: Американски долар
+        symbol: US$
+        type: USD
+      - 
+        displayName: САД долар (Next day)
+        type: USN
+      - 
+        displayName: САД долар (Same day)
+        type: USS
+      - 
+        displayName: Уругвајски пезос (1975-1993)
+        type: UYP
+      - 
+        displayName: Уругвајски пезос
+        type: UYU
+      - 
+        displayName: Узбекистански сом
+        type: UZS
+      - 
+        displayName: 
+          - Венецуелски боливар (1871-2008)
+          - 
+            content: Венецуелски боливар (1871-2008)
+            count: one
+          - 
+            content: Венецуелски боливар (1871-2008)
+            count: other
+        type: VEB
+      - 
+        displayName: 
+          - Венецуелски боливар
+          - 
+            content: Венецуелски боливар
+            count: one
+          - 
+            content: Венецуелски боливари
+            count: other
+        type: VEF
+      - 
+        displayName: Виетнамски донг
+        type: VND
+      - 
+        displayName: Ванатски вату
+        type: VUV
+      - 
+        displayName: Самоанска тала
+        type: WST
+      - 
+        displayName: 
+          - 
+            content: XAF
+            count: one
+          - 
+            content: XAF
+            count: other
+        symbol: FCFA
+        type: XAF
+      - 
+        displayName: Источно карибиски долар
+        symbol: EC$
+        type: XCD
+      - 
+        displayName: 
+          - 
+            content: XOF
+            count: one
+          - 
+            content: XOF
+            count: other
+        symbol: CFA
+        type: XOF
+      - 
+        displayName: 
+          - ЦФП франк
+          - 
+            content: ЦФП франк
+            count: one
+          - 
+            content: ЦФП франци
+            count: other
+        symbol: CFPF
+        type: XPF
+      - 
+        displayName: 
+          - Непозната валута
+          - 
+            content: Непозната валута
+            count: one
+          - 
+            content: Непозната валута
+            count: other
+        type: XXX
+      - 
+        displayName: Јеменски динар
+        type: YDD
+      - 
+        displayName: Јеменски риал
+        type: YER
+      - 
+        displayName: Југословенски динар
+        type: YUD
+      - 
+        displayName: Југословенски конвертибилен динар
+        type: YUN
+      - 
+        displayName: Јужно афрички ранд(финансиски)
+        type: ZAL
+      - 
+        displayName: Јужно афрички ранд
+        type: ZAR
+      - 
+        displayName: Замбијска квача (1968-2012)
+        type: ZMK
+      - 
+        displayName: Замбијска квача
+        type: ZMW
+      - 
+        displayName: Заирско новозаире
+        type: ZRN
+      - 
+        displayName: Заирско заире
+        type: ZRZ
+      - 
+        displayName: Зимбабвиски долар
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##0.00
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 илјади
+              count: one
+              type: 1000
+            - 
+              content: 0 илјади
+              count: other
+              type: 1000
+            - 
+              content: 00 илјади
+              count: one
+              type: 10000
+            - 
+              content: 00 илјади
+              count: other
+              type: 10000
+            - 
+              content: 000 илјади
+              count: one
+              type: 100000
+            - 
+              content: 000 илјади
+              count: other
+              type: 100000
+            - 
+              content: 0 милиони
+              count: one
+              type: 1000000
+            - 
+              content: 0 милиони
+              count: other
+              type: 1000000
+            - 
+              content: 00 милиони
+              count: one
+              type: 10000000
+            - 
+              content: 00 милиони
+              count: other
+              type: 10000000
+            - 
+              content: 000 милиони
+              count: one
+              type: 100000000
+            - 
+              content: 000 милиони
+              count: other
+              type: 100000000
+            - 
+              content: 0 милијарди
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 милијарди
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 милијарди
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 милијарди
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 милијарди
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 милијарди
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 трилиони
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 трилиони
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 трилиони
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 трилиони
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 трилиони
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 трилиони
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 илј'.'
+              count: one
+              type: 1000
+            - 
+              content: 0 илј'.'
+              count: other
+              type: 1000
+            - 
+              content: 00 илј'.'
+              count: one
+              type: 10000
+            - 
+              content: 00 илј'.'
+              count: other
+              type: 10000
+            - 
+              content: 000 илј'.'
+              count: one
+              type: 100000
+            - 
+              content: 000 илј'.'
+              count: other
+              type: 100000
+            - 
+              content: 0 мил'.'
+              count: one
+              type: 1000000
+            - 
+              content: 0 мил'.'
+              count: other
+              type: 1000000
+            - 
+              content: 00 мил'.'
+              count: one
+              type: 10000000
+            - 
+              content: 00 мил'.'
+              count: other
+              type: 10000000
+            - 
+              content: 000 мил'.'
+              count: one
+              type: 100000000
+            - 
+              content: 000 мил'.'
+              count: other
+              type: 100000000
+            - 
+              content: 0 милј'.'
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 милј'.'
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 милј'.'
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 милј'.'
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 милј'.'
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 милј'.'
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 трил'.'
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 трил'.'
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 трил'.'
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 трил'.'
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 трил'.'
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 трил'.'
+              count: other
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: .
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: не:н
+    yesstr: да:д
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} ден"
+          count: one
+        - 
+          alt: short
+          content: "{0} ден"
+          count: one
+        - 
+          content: "{0} денови"
+          count: other
+        - 
+          alt: short
+          content: "{0} денови"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: за {0} ден
+          count: one
+        - 
+          content: за {0} денови
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: пред {0} ден
+          count: one
+        - 
+          content: пред {0} денови
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} час"
+          count: one
+        - 
+          alt: short
+          content: "{0} час"
+          count: one
+        - 
+          content: "{0} часови"
+          count: other
+        - 
+          alt: short
+          content: "{0} часови"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: За {0} час
+          count: one
+        - 
+          content: За {0} часови
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: Пред {0} час
+          count: one
+        - 
+          content: Пред {0} часови
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} минута"
+          count: one
+        - 
+          alt: short
+          content: "{0} мин"
+          count: one
+        - 
+          content: "{0} минути"
+          count: other
+        - 
+          alt: short
+          content: "{0} минути"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: За {0} минута
+          count: one
+        - 
+          content: За {0} минути
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: Пред {0} минута
+          count: one
+        - 
+          content: Пред {0} минути
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} месец"
+          count: one
+        - 
+          alt: short
+          content: "{0} мсц"
+          count: one
+        - 
+          content: "{0} месеци"
+          count: other
+        - 
+          alt: short
+          content: "{0} мсци"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: За {0} месец
+          count: one
+        - 
+          content: За {0} месеци
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: Пред {0} месец
+          count: one
+        - 
+          content: Пред {0} месеци
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} секунда"
+          count: one
+        - 
+          alt: short
+          content: "{0} сек"
+          count: one
+        - 
+          content: "{0} секунди"
+          count: other
+        - 
+          alt: short
+          content: "{0} сек."
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: За {0} секунда
+          count: one
+        - 
+          content: За {0} секунди
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: Пред {0} секунда
+          count: one
+        - 
+          content: Пред {0} секунди
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} недела"
+          count: one
+        - 
+          alt: short
+          content: "{0} нед"
+          count: one
+        - 
+          content: "{0} недели"
+          count: other
+        - 
+          alt: short
+          content: "{0} нед."
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: За {0} недела
+          count: one
+        - 
+          content: За {0} недели
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: Пред {0} недела
+          count: one
+        - 
+          content: Пред {0} недели
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} година"
+          count: one
+        - 
+          alt: short
+          content: "{0} год"
+          count: one
+        - 
+          content: "{0} години"
+          count: other
+        - 
+          alt: short
+          content: "{0} год."
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: За {0} година
+          count: one
+        - 
+          content: За {0} години
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: Пред {0} година
+          count: one
+        - 
+          content: Пред {0} години
+          count: other

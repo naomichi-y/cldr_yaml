@@ -1,0 +1,665 @@
+characters: 
+  exemplarCharacters: 
+    - "[\\u0A71 \\u0A70 \\u0A3C ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ ੴ ੳ ਉ ਊ ਓ ਅ ਆ ਐ ਔ ੲ ਇ ਈ ਏ ਸ {ਸ\\u0A3C} ਹ ਕ ਖ {ਖ\\u0A3C} ਗ {ਗ\\u0A3C} ਘ ਙ ਚ ਛ ਜ {ਜ\\u0A3C} ਝ ਞ ਟ ਠ ਡ ਢ ਣ ਤ ਥ ਦ ਧ ਨ ਪ ਫ {ਫ\\u0A3C} ਬ ਭ ਮ ਯ ਰ ਲ ਵ ੜ \\u0A4D ਾ ਿ ੀ \\u0A41 \\u0A42 \\u0A47 \\u0A48 \\u0A4B \\u0A4C]"
+    - 
+      content: "[\\u200C\\u200D ਃ \\u0A02 \\u0A01 {ਲ\\u0A3C}]"
+      type: auxiliary
+    - 
+      content: "[ੴ ੳ ਉ ਊ ਓ ਅ ਆ ਐ ਔ ੲ ਇ ਈ ਏ ਸ ਹ ਕ ਖ ਗ ਘ ਙ ਚ ਛ ਜ ਝ ਞ ਟ ਠ ਡ ਢ ਣ ਤ ਥ ਦ ਧ ਨ ਪ ਫ ਬ ਭ ਮ ਯ ਰ ਲ ਵ ੜ]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              HHmmss: 
+                content: HH:mm:ss
+              Md: 
+                content: d/M
+              mmss: 
+                content: mm:ss
+              yMMM: 
+                content: MMM y
+              yQQQ: 
+                content: QQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              HHmmss: 
+                content: HH:mm:ss
+              Md: 
+                content: d/M
+              mmss: 
+                content: mm:ss
+              yMMM: 
+                content: MMM y
+              yQQQ: 
+                content: QQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: ਪੂਰਵ ਦੁਪਹਿਰ
+                  type: am
+                - 
+                  content: ਬਾਅਦ ਦੁਪਹਿਰ
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ਐਤ.
+                      type: sun
+                    - 
+                      content: ਸੋਮ.
+                      type: mon
+                    - 
+                      content: ਮੰਗਲ.
+                      type: tue
+                    - 
+                      content: ਬੁਧ.
+                      type: wed
+                    - 
+                      content: ਵੀਰ.
+                      type: thu
+                    - 
+                      content: ਸ਼ੁਕਰ.
+                      type: fri
+                    - 
+                      content: ਸ਼ਨੀ.
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ਐਤਵਾਰ
+                      type: sun
+                    - 
+                      content: ਸੋਮਵਾਰ
+                      type: mon
+                    - 
+                      content: ਮੰਗਲਵਾਰ
+                      type: tue
+                    - 
+                      content: ਬੁਧਵਾਰ
+                      type: wed
+                    - 
+                      content: ਵੀਰਵਾਰ
+                      type: thu
+                    - 
+                      content: ਸ਼ੁੱਕਰਵਾਰ
+                      type: fri
+                    - 
+                      content: ਸ਼ਨੀਚਰਵਾਰ
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ਐ
+                      type: sun
+                    - 
+                      content: ਸੋ
+                      type: mon
+                    - 
+                      content: ਮੰ
+                      type: tue
+                    - 
+                      content: ਬੁੱ
+                      type: wed
+                    - 
+                      content: ਵੀ
+                      type: thu
+                    - 
+                      content: ਸ਼ੁੱ
+                      type: fri
+                    - 
+                      content: ਸ਼
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ਐਤਵਾਰ
+                      type: sun
+                    - 
+                      content: ਸੋਮਵਾਰ
+                      type: mon
+                    - 
+                      content: ਮੰਗਲਵਾਰ
+                      type: tue
+                    - 
+                      content: ਬੁਧਵਾਰ
+                      type: wed
+                    - 
+                      content: ਵੀਰਵਾਰ
+                      type: thu
+                    - 
+                      content: ਸ਼ੁੱਕਰਵਾਰ
+                      type: fri
+                    - 
+                      content: ਸ਼ਨੀਚਰਵਾਰ
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ਈ. ਪੂ.
+                type: 0
+              - 
+                content: ਸਾਲ
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: ਜਨਵਰੀ
+                    type: 1
+                  - 
+                    content: ਫ਼ਰਵਰੀ
+                    type: 2
+                  - 
+                    content: ਮਾਰਚ
+                    type: 3
+                  - 
+                    content: ਅਪ੍ਰੈਲ
+                    type: 4
+                  - 
+                    content: ਮਈ
+                    type: 5
+                  - 
+                    content: ਜੂਨ
+                    type: 6
+                  - 
+                    content: ਜੁਲਾਈ
+                    type: 7
+                  - 
+                    content: ਅਗਸਤ
+                    type: 8
+                  - 
+                    content: ਸਤੰਬਰ
+                    type: 9
+                  - 
+                    content: ਅਕਤੂਬਰ
+                    type: 10
+                  - 
+                    content: ਨਵੰਬਰ
+                    type: 11
+                  - 
+                    content: ਦਸੰਬਰ
+                    type: 12
+                type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ਜ
+                      type: 1
+                    - 
+                      content: ਫ
+                      type: 2
+                    - 
+                      content: ਮਾ
+                      type: 3
+                    - 
+                      content: ਅ
+                      type: 4
+                    - 
+                      content: ਮ
+                      type: 5
+                    - 
+                      content: ਜੂ
+                      type: 6
+                    - 
+                      content: ਜੁ
+                      type: 7
+                    - 
+                      content: ਅ
+                      type: 8
+                    - 
+                      content: ਸ
+                      type: 9
+                    - 
+                      content: ਅ
+                      type: 10
+                    - 
+                      content: ਨ
+                      type: 11
+                    - 
+                      content: ਦ
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: ਜਨਵਰੀ
+                      type: 1
+                    - 
+                      content: ਫ਼ਰਵਰੀ
+                      type: 2
+                    - 
+                      content: ਮਾਰਚ
+                      type: 3
+                    - 
+                      content: ਅਪ੍ਰੈਲ
+                      type: 4
+                    - 
+                      content: ਮਈ
+                      type: 5
+                    - 
+                      content: ਜੂਨ
+                      type: 6
+                    - 
+                      content: ਜੁਲਾਈ
+                      type: 7
+                    - 
+                      content: ਅਗਸਤ
+                      type: 8
+                    - 
+                      content: ਸਤੰਬਰ
+                      type: 9
+                    - 
+                      content: ਅਕਤੂਬਰ
+                      type: 10
+                    - 
+                      content: ਨਵੰਬਰ
+                      type: 11
+                    - 
+                      content: ਦਸੰਬਰ
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: ਇਕ ਚੌਥਾਈ
+                    type: 1
+                  - 
+                    content: ਅੱਧਾ
+                    type: 2
+                  - 
+                    content: ਪੌਣਾ
+                    type: 3
+                  - 
+                    content: ਪੂਰਾ
+                    type: 4
+                type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: ਇਕ ਚੌਥਾਈ
+                    type: 1
+                  - 
+                    content: ਅੱਧਾ
+                    type: 2
+                  - 
+                    content: ਪੌਣਾ
+                    type: 3
+                  - 
+                    content: ਪੂਰਾ
+                    type: 4
+                type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: ਯੁੱਗ
+        type: era
+      - 
+        displayName: ਸਾਲ
+        type: year
+      - 
+        displayName: ਮਹੀਨਾ
+        type: month
+      - 
+        displayName: ਹਫ਼ਤਾ
+        type: week
+      - 
+        displayName: ਦਿਨ
+        relative: 
+          - 
+            content: ਲੰਘਿਆਂ ਕੱਲ
+            type: -1
+          - 
+            content: ਅੱਜ
+            type: 0
+          - 
+            content: ਭਲਕੇ
+            type: 1
+        type: day
+      - 
+        displayName: ਹਫ਼ਤੇ ਦਾ ਦਿਨ
+        type: weekday
+      - 
+        displayName: ਘੰਟਾ
+        type: hour
+      - 
+        displayName: ਮਿੰਟ
+        type: minute
+      - 
+        displayName: ਸਕਿੰਡ
+        type: second
+      - 
+        displayName: ਖੇਤਰ
+        type: zone
+  timeZoneNames: 
+    metazone: 
+      short: 
+        standard: IST
+      type: India
+delimiters: 
+  alternateQuotationEnd: 
+    content: "\""
+    draft: unconfirmed
+  alternateQuotationStart: 
+    content: "\""
+    draft: unconfirmed
+  quotationEnd: 
+    content: "'"
+    draft: unconfirmed
+  quotationStart: 
+    content: "'"
+    draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: pa
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: ਅਬਖਾਜ਼ੀਅਨ
+        draft: contributed
+        type: ab
+      - 
+        content: ਅਚੀਨੀ
+        draft: contributed
+        type: ace
+      - 
+        content: ਅਕੋਲੀ
+        draft: contributed
+        type: ach
+      - 
+        content: ਅਫ਼ਰੀਕੀ
+        draft: contributed
+        type: af
+      - 
+        content: ਅਪਾਚੇ ਭਾਸ਼ਾ
+        draft: contributed
+        type: apa
+      - 
+        content: ਅਰਬੀ
+        draft: contributed
+        type: ar
+      - 
+        content: ਅਸਾਮੀ
+        draft: contributed
+        type: as
+      - 
+        content: ਆਸਟਰੇਲੀਅਨ ਭਾਸ਼ਾ
+        draft: contributed
+        type: aus
+      - 
+        content: ਅਜ਼ੇਰਬੈਜਨਿ
+        draft: contributed
+        type: az
+      - 
+        content: ਬੈਲਟਿਕ ਭਾਸ਼ਾ
+        draft: contributed
+        type: bat
+      - 
+        content: ਬੇਲਾਰੂਸੀਅਨ
+        draft: contributed
+        type: be
+      - 
+        content: ਬੰਗਾਲੀ
+        draft: contributed
+        type: bn
+      - 
+        content: ਡੈਨਿਸ਼
+        draft: contributed
+        type: da
+      - 
+        content: ਜਰਮਨ
+        draft: contributed
+        type: de
+      - 
+        content: ਅੰਗਰੇਜ਼ੀ
+        draft: contributed
+        type: en
+      - 
+        content: ਏਸਪਰੇਂਟੋ
+        draft: contributed
+        type: eo
+      - 
+        content: ਸਪੇਨਿਸ਼
+        draft: contributed
+        type: es
+      - 
+        content: ਫਿਨਿਸ਼
+        draft: contributed
+        type: fi
+      - 
+        content: ਫਰੈਂਚ
+        draft: contributed
+        type: fr
+      - 
+        content: ਗੁਜਰਾਤੀ
+        draft: contributed
+        type: gu
+      - 
+        content: ਹਿੰਦੀ
+        draft: contributed
+        type: hi
+      - 
+        content: ਇੰਡੋਨੇਸ਼ੀਆਈ
+        draft: contributed
+        type: id
+      - 
+        content: ਇਤਾਲਵੀ
+        draft: contributed
+        type: it
+      - 
+        content: ਜਾਪਾਨੀ
+        draft: unconfirmed
+        type: ja
+      - 
+        content: ਮੈਕੇਡੋਨੀਅਨ
+        draft: contributed
+        type: mk
+      - 
+        content: ਡੱਚ
+        draft: contributed
+        type: nl
+      - 
+        content: ਨਾਰਵੇਜੀਅਨ
+        draft: contributed
+        type: 'no'
+      - 
+        content: ਪੰਜਾਬੀ
+        type: pa
+      - 
+        content: ਪੋਰਤੂਗੂਈਸ
+        draft: contributed
+        type: pt
+      - 
+        content: ਸਵੈਡਿਸ਼
+        draft: contributed
+        type: sv
+      - 
+        content: ਤਾਮਿਲ
+        draft: contributed
+        type: ta
+      - 
+        content: ਤੇਲਗੂ
+        draft: contributed
+        type: te
+      - 
+        content: ਥਾਈ
+        draft: contributed
+        type: th
+      - 
+        content: ਤ੍ਵਿ
+        draft: contributed
+        type: tw
+      - 
+        content: ਉਇਘੁਰ
+        draft: contributed
+        type: ug
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: ਮੀਟਰਿਕ
+        type: metric
+      - 
+        content: ਯੂ. ਐੱਸ.
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: ਦੇਵਨਾਗਰੀ
+        draft: unconfirmed
+        type: Deva
+      - 
+        content: ਗੁਰਮੁਖੀ
+        draft: unconfirmed
+        type: Guru
+  territories: 
+    territory: 
+      - 
+        content: ਭਾਰਤ
+        type: IN
+      - 
+        content: ਅਣਜਾਣ
+        draft: unconfirmed
+        type: ZZ
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          content: ਅਫ਼ਗਾਨੀ
+          draft: unconfirmed
+        type: AFN
+      - 
+        displayName: 
+          content: ਯੂਰੋ
+          draft: unconfirmed
+        type: EUR
+      - 
+        displayName: ਰੁਪਿਯ
+        type: INR
+      - 
+        displayName: 
+          content: ਅਣਜਾਣ
+          draft: unconfirmed
+        type: XXX
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##,##0.###"
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: guru
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##,##0%"
+posix: 
+  messages: 
+    nostr: 
+      content: ਨਹੀਂ
+      draft: unconfirmed
+    yesstr: 
+      content: ਹਾਂ
+      draft: unconfirmed

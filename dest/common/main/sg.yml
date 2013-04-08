@@ -1,0 +1,1475 @@
+characters: 
+  exemplarCharacters: 
+    - "[a â ä b d e ê ë f g h i î ï j k l m n o ô ö p r s t u ù û ü v w y z]"
+    - 
+      content: "[c q x]"
+      type: auxiliary
+    - 
+      content: "[A B D E F G H I J K L M N O P R S T U V W Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              M: 
+                content: M
+              MMM: 
+                content: MMM
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMMdd: 
+                content: dd MMM
+              MMd: 
+                content: d/MM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d/M
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              M: 
+                content: M
+              MMM: 
+                content: MMM
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMMdd: 
+                content: dd MMM
+              MMd: 
+                content: d/MM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d/M
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: ND
+                  type: am
+                - 
+                  content: LK
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Bk1
+                      type: sun
+                    - 
+                      content: Bk2
+                      type: mon
+                    - 
+                      content: Bk3
+                      type: tue
+                    - 
+                      content: Bk4
+                      type: wed
+                    - 
+                      content: Bk5
+                      type: thu
+                    - 
+                      content: Lâp
+                      type: fri
+                    - 
+                      content: Lây
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Bikua-ôko
+                      type: sun
+                    - 
+                      content: Bïkua-ûse
+                      type: mon
+                    - 
+                      content: Bïkua-ptâ
+                      type: tue
+                    - 
+                      content: Bïkua-usïö
+                      type: wed
+                    - 
+                      content: Bïkua-okü
+                      type: thu
+                    - 
+                      content: Lâpôsö
+                      type: fri
+                    - 
+                      content: Lâyenga
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: K
+                    type: sun
+                  - 
+                    content: S
+                    type: mon
+                  - 
+                    content: T
+                    type: tue
+                  - 
+                    content: S
+                    type: wed
+                  - 
+                    content: K
+                    type: thu
+                  - 
+                    content: P
+                    type: fri
+                  - 
+                    content: 'Y'
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: KnK
+                type: 0
+              - 
+                content: NpK
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Kôzo na Krîstu
+                type: 0
+              - 
+                content: Na pekô tî Krîstu
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Nye
+                      type: 1
+                    - 
+                      content: Ful
+                      type: 2
+                    - 
+                      content: Mbä
+                      type: 3
+                    - 
+                      content: Ngu
+                      type: 4
+                    - 
+                      content: Bêl
+                      type: 5
+                    - 
+                      content: Fön
+                      type: 6
+                    - 
+                      content: Len
+                      type: 7
+                    - 
+                      content: Kük
+                      type: 8
+                    - 
+                      content: Mvu
+                      type: 9
+                    - 
+                      content: Ngb
+                      type: 10
+                    - 
+                      content: Nab
+                      type: 11
+                    - 
+                      content: Kak
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Nyenye
+                      type: 1
+                    - 
+                      content: Fulundïgi
+                      type: 2
+                    - 
+                      content: Mbängü
+                      type: 3
+                    - 
+                      content: Ngubùe
+                      type: 4
+                    - 
+                      content: Bêläwü
+                      type: 5
+                    - 
+                      content: Föndo
+                      type: 6
+                    - 
+                      content: Lengua
+                      type: 7
+                    - 
+                      content: Kükürü
+                      type: 8
+                    - 
+                      content: Mvuka
+                      type: 9
+                    - 
+                      content: Ngberere
+                      type: 10
+                    - 
+                      content: Nabändüru
+                      type: 11
+                    - 
+                      content: Kakauka
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: 'N'
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: 'N'
+                    type: 4
+                  - 
+                    content: B
+                    type: 5
+                  - 
+                    content: F
+                    type: 6
+                  - 
+                    content: L
+                    type: 7
+                  - 
+                    content: K
+                    type: 8
+                  - 
+                    content: M
+                    type: 9
+                  - 
+                    content: 'N'
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: K
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: F4-1
+                    type: 1
+                  - 
+                    content: F4-2
+                    type: 2
+                  - 
+                    content: F4-3
+                    type: 3
+                  - 
+                    content: F4-4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: Fângbisïö ôko
+                    type: 1
+                  - 
+                    content: Fângbisïö ûse
+                    type: 2
+                  - 
+                    content: Fângbisïö otâ
+                    type: 3
+                  - 
+                    content: Fângbisïö usïö
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Kùotângo
+        type: era
+      - 
+        displayName: Ngû
+        type: year
+      - 
+        displayName: Nze
+        type: month
+      - 
+        displayName: Dimâsi
+        type: week
+      - 
+        displayName: Lâ
+        relative: 
+          - 
+            content: Bîrï
+            type: -1
+          - 
+            content: Lâsô
+            type: 0
+          - 
+            content: Kêkerêke
+            type: 1
+        type: day
+      - 
+        displayName: Bïkua
+        type: weekday
+      - 
+        displayName: Na lâ
+        type: dayperiod
+      - 
+        displayName: Ngbonga
+        type: hour
+      - 
+        displayName: Ndurü ngbonga
+        type: minute
+      - 
+        displayName: Nzîna ngbonga
+        type: second
+      - 
+        displayName: Zukangbonga
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ”
+  alternateQuotationStart: “
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: sg
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Akâan
+        type: ak
+      - 
+        content: Amarîki
+        type: am
+      - 
+        content: Arâbo
+        type: ar
+      - 
+        content: Bielörûsi
+        type: be
+      - 
+        content: Bulugäri
+        type: bg
+      - 
+        content: Bengäli
+        type: bn
+      - 
+        content: Tyêki
+        type: cs
+      - 
+        content: Zâmani
+        type: de
+      - 
+        content: Gerêki
+        type: el
+      - 
+        content: Anglëe
+        type: en
+      - 
+        content: Espanyöl
+        type: es
+      - 
+        content: Farsî
+        type: fa
+      - 
+        content: Farânzi
+        type: fr
+      - 
+        content: Haüsä
+        type: ha
+      - 
+        content: Hîndi
+        type: hi
+      - 
+        content: Hongruäa
+        type: hu
+      - 
+        content: Enndonezïi
+        type: id
+      - 
+        content: Ïgbö
+        type: ig
+      - 
+        content: Ênnde
+        type: it
+      - 
+        content: Zaponëe
+        type: ja
+      - 
+        content: Zavanëe
+        type: jv
+      - 
+        content: Kmêre
+        type: km
+      - 
+        content: Koreyëen
+        type: ko
+      - 
+        content: Malëe
+        type: ms
+      - 
+        content: Miamära, Birimäni
+        type: my
+      - 
+        content: Nepalëe
+        type: ne
+      - 
+        content: Holandëe
+        type: nl
+      - 
+        content: Penzäbï
+        type: pa
+      - 
+        content: Polonëe
+        type: pl
+      - 
+        content: Portugëe, Pûra
+        type: pt
+      - 
+        content: Rumëen
+        type: ro
+      - 
+        content: Rûsi
+        type: ru
+      - 
+        content: Ruandäa
+        type: rw
+      - 
+        content: Sängö
+        type: sg
+      - 
+        content: Somalïi
+        type: so
+      - 
+        content: Sueduäa
+        type: sv
+      - 
+        content: Tämûli
+        type: ta
+      - 
+        content: Thâi
+        type: th
+      - 
+        content: Tûrûku
+        type: tr
+      - 
+        content: Ukrêni
+        type: uk
+      - 
+        content: Ûrdu
+        type: ur
+      - 
+        content: Vietnäm
+        type: vi
+      - 
+        content: Yoruba
+        type: yo
+      - 
+        content: Shinuäa
+        type: zh
+      - 
+        content: Zûlu
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Andôro
+        type: AD
+      - 
+        content: Arâbo Emirâti Ôko
+        type: AE
+      - 
+        content: Faganïta, Afganïstäan
+        type: AF
+      - 
+        content: Antîgua na Barbûda
+        type: AG
+      - 
+        content: Angûîla
+        type: AI
+      - 
+        content: Albanïi
+        type: AL
+      - 
+        content: Armenïi
+        type: AM
+      - 
+        content: Antîyi tî Holânde
+        type: AN
+      - 
+        content: Angoläa
+        type: AO
+      - 
+        content: Arzantîna
+        type: AR
+      - 
+        content: Samöa tî Amerîka
+        type: AS
+      - 
+        content: Otrîsi
+        type: AT
+      - 
+        content: Ostralïi, Sotralïi
+        type: AU
+      - 
+        content: Arûba
+        type: AW
+      - 
+        content: Zerebaidyäan, Azerbaidyäan,
+        type: AZ
+      - 
+        content: Bosnïi na Herzegovînni
+        type: BA
+      - 
+        content: Barabâda
+        type: BB
+      - 
+        content: Bengladêshi
+        type: BD
+      - 
+        content: Bêleze, Belezîki
+        type: BE
+      - 
+        content: Burkina Faso
+        type: BF
+      - 
+        content: Bulugarïi
+        type: BG
+      - 
+        content: Bahrâina
+        type: BH
+      - 
+        content: Burundïi
+        type: BI
+      - 
+        content: Benëen
+        type: BJ
+      - 
+        content: Beremûda
+        type: BM
+      - 
+        content: Brunêi
+        type: BN
+      - 
+        content: Bolivïi
+        type: BO
+      - 
+        content: Brezîli
+        type: BR
+      - 
+        content: Bahâmasa
+        type: BS
+      - 
+        content: Butäan
+        type: BT
+      - 
+        content: Botswana
+        type: BW
+      - 
+        content: Belarüsi
+        type: BY
+      - 
+        content: Belîzi
+        type: BZ
+      - 
+        content: Kanadäa
+        type: CA
+      - 
+        content: Ködörösêse tî Ngunuhalëzo tî kongö
+        type: CD
+      - 
+        content: Ködörösêse tî Bêafrîka
+        type: CF
+      - 
+        content: Kongö
+        type: CG
+      - 
+        content: Sûîsi
+        type: CH
+      - 
+        content: Kôdivüära
+        type: CI
+      - 
+        content: âzûâ Kûku
+        type: CK
+      - 
+        content: Shilïi
+        type: CL
+      - 
+        content: Kamerûne
+        type: CM
+      - 
+        content: Shîna
+        type: CN
+      - 
+        content: Kolombïi
+        type: CO
+      - 
+        content: Kôsta Rîka
+        type: CR
+      - 
+        content: Kubäa
+        type: CU
+      - 
+        content: Azûâ tî Kâpo-Vêre
+        type: CV
+      - 
+        content: Sîpri
+        type: CY
+      - 
+        content: Ködörösêse tî Tyêki
+        type: CZ
+      - 
+        content: Zâmani
+        type: DE
+      - 
+        content: Dibutùii
+        type: DJ
+      - 
+        content: Danemêrke
+        type: DK
+      - 
+        content: Dömïnîka
+        type: DM
+      - 
+        content: Ködörösêse tî Dominîka
+        type: DO
+      - 
+        content: Alzerïi
+        type: DZ
+      - 
+        content: Ekuatëre
+        type: EC
+      - 
+        content: Estonïi
+        type: EE
+      - 
+        content: Kâmitâ
+        type: EG
+      - 
+        content: Eritrëe
+        type: ER
+      - 
+        content: Espânye
+        type: ES
+      - 
+        content: Etiopïi
+        type: ET
+      - 
+        content: Fëlânde
+        type: FI
+      - 
+        content: Fidyïi
+        type: FJ
+      - 
+        content: Âzûâ tî Mälüîni
+        type: FK
+      - 
+        content: Mikronezïi
+        type: FM
+      - 
+        content: Farânzi
+        type: FR
+      - 
+        content: Gaböon
+        type: GA
+      - 
+        content: Ködörögbïä--Ôko
+        type: GB
+      - 
+        content: Grenâda
+        type: GD
+      - 
+        content: Zorzïi
+        type: GE
+      - 
+        content: Güyâni tî farânzi
+        type: GF
+      - 
+        content: Ganäa
+        type: GH
+      - 
+        content: Zibraltära, Zibaratära
+        type: GI
+      - 
+        content: Gorolânde
+        type: GL
+      - 
+        content: Gambïi
+        type: GM
+      - 
+        content: Ginëe
+        type: GN
+      - 
+        content: Guadelûpu
+        type: GP
+      - 
+        content: Ginëe tî Ekuatëre
+        type: GQ
+      - 
+        content: Gerêsi
+        type: GR
+      - 
+        content: Guatêmälä
+        type: GT
+      - 
+        content: Guâm
+        type: GU
+      - 
+        content: Gninëe-Bisau
+        type: GW
+      - 
+        content: Gayâna
+        type: GY
+      - 
+        content: Honduräsi
+        type: HN
+      - 
+        content: Kroasïi
+        type: HR
+      - 
+        content: Haitïi
+        type: HT
+      - 
+        content: Hongirùii
+        type: HU
+      - 
+        content: Ênndonezïi
+        type: ID
+      - 
+        content: Irlânde
+        type: IE
+      - 
+        content: Israëli
+        type: IL
+      - 
+        content: Ênnde
+        type: IN
+      - 
+        content: Sêse tî Anglëe na Ngûyämä tî Ênnde
+        type: IO
+      - 
+        content: Irâki
+        type: IQ
+      - 
+        content: Iräan
+        type: IR
+      - 
+        content: Islânde
+        type: IS
+      - 
+        content: Italùii
+        type: IT
+      - 
+        content: Zamaîka
+        type: JM
+      - 
+        content: Zordanïi
+        type: JO
+      - 
+        content: Zapöon
+        type: JP
+      - 
+        content: Kenyäa
+        type: KE
+      - 
+        content: Kirigizitùaan
+        type: KG
+      - 
+        content: Kämbôzi
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Kömôro
+        type: KM
+      - 
+        content: Sên-Krïstôfo-na-Nevîsi
+        type: KN
+      - 
+        content: Korëe tî Banga
+        type: KP
+      - 
+        content: Korëe tî Mbongo
+        type: KR
+      - 
+        content: Köwêti
+        type: KW
+      - 
+        content: Âzûâ Ngundë, Kaimäni
+        type: KY
+      - 
+        content: Kazakisitäan
+        type: KZ
+      - 
+        content: Lùaôsi
+        type: LA
+      - 
+        content: Libùaan
+        type: LB
+      - 
+        content: Sênt-Lisïi
+        type: LC
+      - 
+        content: Liechtenstein,
+        type: LI
+      - 
+        content: Sirî-Lanka
+        type: LK
+      - 
+        content: Liberïa
+        type: LR
+      - 
+        content: Lesôtho
+        type: LS
+      - 
+        content: Lituanïi
+        type: LT
+      - 
+        content: Lugzambûru
+        type: LU
+      - 
+        content: Letonùii
+        type: LV
+      - 
+        content: Libïi
+        type: LY
+      - 
+        content: Marôko
+        type: MA
+      - 
+        content: Monaköo
+        type: MC
+      - 
+        content: Moldavùii
+        type: MD
+      - 
+        content: Madagaskära
+        type: MG
+      - 
+        content: Âzûâ Märshâl
+        type: MH
+      - 
+        content: Maseduäni
+        type: MK
+      - 
+        content: Malïi
+        type: ML
+      - 
+        content: Myämâra
+        type: MM
+      - 
+        content: Mongolïi
+        type: MN
+      - 
+        content: Âzûâ Märïâni tî Banga
+        type: MP
+      - 
+        content: Märtïnîki
+        type: MQ
+      - 
+        content: Moritanïi
+        type: MR
+      - 
+        content: Monserâte
+        type: MS
+      - 
+        content: Mâlta
+        type: MT
+      - 
+        content: Mörîsi
+        type: MU
+      - 
+        content: Maldîva
+        type: MV
+      - 
+        content: Malawïi
+        type: MW
+      - 
+        content: Mekisîki
+        type: MX
+      - 
+        content: Malezïi
+        type: MY
+      - 
+        content: Mözämbîka
+        type: MZ
+      - 
+        content: Namibùii
+        type: NA
+      - 
+        content: Finî Kaledonïi
+        type: NC
+      - 
+        content: Nizëre
+        type: NE
+      - 
+        content: Zûâ Nôrfôlko
+        type: NF
+      - 
+        content: Nizerïa
+        type: NG
+      - 
+        content: Nikaragua
+        type: NI
+      - 
+        content: Holände
+        type: NL
+      - 
+        content: Nörvêzi
+        type: 'NO'
+      - 
+        content: Nëpâli
+        type: NP
+      - 
+        content: Nauru
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: Finî Zelânde
+        type: NZ
+      - 
+        content: Omâni
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Perüu
+        type: PE
+      - 
+        content: Polinezïi tî farânzi
+        type: PF
+      - 
+        content: Papû Finî Ginëe, Papuazïi
+        type: PG
+      - 
+        content: Filipîni
+        type: PH
+      - 
+        content: Pakistäan
+        type: PK
+      - 
+        content: Pölôni
+        type: PL
+      - 
+        content: Sên-Pyêre na Mikelöon
+        type: PM
+      - 
+        content: Pitikêrni
+        type: PN
+      - 
+        content: Porto Rîko
+        type: PR
+      - 
+        content: Sêse tî Palestîni
+        type: PS
+      - 
+        content: Pörtugäle, Ködörö Pûra
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paraguëe
+        type: PY
+      - 
+        content: Katära
+        type: QA
+      - 
+        content: Reinïon
+        type: RE
+      - 
+        content: Rumanïi
+        type: RO
+      - 
+        content: Rusïi
+        type: RU
+      - 
+        content: Ruandäa
+        type: RW
+      - 
+        content: Saûdi Arabïi
+        type: SA
+      - 
+        content: Zûâ Salomöon
+        type: SB
+      - 
+        content: Sëyshêle
+        type: SC
+      - 
+        content: Sudäan
+        type: SD
+      - 
+        content: Suêde
+        type: SE
+      - 
+        content: Sïngäpûru
+        type: SG
+      - 
+        content: Sênt-Helêna
+        type: SH
+      - 
+        content: Solovenïi
+        type: SI
+      - 
+        content: Solovakïi
+        type: SK
+      - 
+        content: Sierä-Leône
+        type: SL
+      - 
+        content: Sên-Marëen
+        type: SM
+      - 
+        content: Senegäle
+        type: SN
+      - 
+        content: Somalïi
+        type: SO
+      - 
+        content: Surinäm
+        type: SR
+      - 
+        content: Sudäan-Mbongo
+        draft: provisional
+        type: SS
+      - 
+        content: Sâô Tömê na Prinsîpe
+        type: ST
+      - 
+        content: Salvadöro
+        type: SV
+      - 
+        content: Sirïi
+        type: SY
+      - 
+        content: Swäzïlânde
+        type: SZ
+      - 
+        content: Âzûâ Turku na Kaîki
+        type: TC
+      - 
+        content: Tyâde
+        type: TD
+      - 
+        content: Togö
+        type: TG
+      - 
+        content: Tailânde
+        type: TH
+      - 
+        content: Taazikiistäan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Timôro tî Tö
+        type: TL
+      - 
+        content: Turkumenistäan
+        type: TM
+      - 
+        content: Tunizïi
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Turukïi
+        type: TR
+      - 
+        content: Trinitùee na Tobagö
+        type: TT
+      - 
+        content: Tüvalü
+        type: TV
+      - 
+        content: Tâiwâni
+        type: TW
+      - 
+        content: Tanzanïi
+        type: TZ
+      - 
+        content: Ukrêni
+        type: UA
+      - 
+        content: Ugandäa
+        type: UG
+      - 
+        content: ÂLeaa-Ôko tî Amerika
+        type: US
+      - 
+        content: Uruguëe
+        type: UY
+      - 
+        content: Uzbekistäan
+        type: UZ
+      - 
+        content: Letëe tî Vatikäan
+        type: VA
+      - 
+        content: Sên-Vensäan na âGrenadîni
+        type: VC
+      - 
+        content: Venezueläa
+        type: VE
+      - 
+        content: Âzôâ Viîrîggo tî Anglëe
+        type: VG
+      - 
+        content: Âzûâ Virîgo tî Amerîka
+        type: VI
+      - 
+        content: Vietnäm
+        type: VN
+      - 
+        content: Vanuatü
+        type: VU
+      - 
+        content: Walîsi na Futuna
+        type: WF
+      - 
+        content: Samoäa
+        type: WS
+      - 
+        content: Yëmêni
+        type: YE
+      - 
+        content: Mäyôte
+        type: YT
+      - 
+        content: Mbongo-Afrîka
+        type: ZA
+      - 
+        content: Zambïi
+        type: ZM
+      - 
+        content: Zimbäbwe
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: dirâm tî âEmirâti tî Arâbo Ôko
+        type: AED
+      - 
+        displayName: kwânza tî Angoläa
+        type: AOA
+      - 
+        displayName: dolära tî Ostralïi
+        type: AUD
+      - 
+        displayName: dolùara tî Bahrâina
+        type: BHD
+      - 
+        displayName: farânga tî Burundïi
+        type: BIF
+      - 
+        displayName: pûla tî Botswana
+        type: BWP
+      - 
+        displayName: dolära tî kanadäa
+        type: CAD
+      - 
+        displayName: farânga tî Kongöo
+        type: CDF
+      - 
+        displayName: farânga tî Sûîsi
+        type: CHF
+      - 
+        displayName: yuan renminbi tî Shîni
+        type: CNY
+      - 
+        displayName: eskûêdo tî Kâpo-Vêre
+        type: CVE
+      - 
+        displayName: farânga tî Dibutïi
+        type: DJF
+      - 
+        displayName: dinäri tî Alzerïi
+        type: DZD
+      - 
+        displayName: pôndo tî Kâmitâ
+        type: EGP
+      - 
+        displayName: nakafa tî Eritrëe
+        type: ERN
+      - 
+        displayName: bir tî Etiopïi
+        type: ETB
+      - 
+        displayName: zoröo
+        type: EUR
+      - 
+        displayName: pôndo tî Anglëe
+        type: GBP
+      - 
+        displayName: sêdi tî Ganäa
+        type: GHC
+      - 
+        displayName: dalasi tî gambïi
+        type: GMD
+      - 
+        displayName: sili tî Ginëe
+        type: GNS
+      - 
+        displayName: rupïi tî Ênnde
+        type: INR
+      - 
+        displayName: yêni tî Zapön
+        type: JPY
+      - 
+        displayName: shilîngi tî Kenyäa
+        type: KES
+      - 
+        displayName: farânga tî Kömôro
+        type: KMF
+      - 
+        displayName: dolära tî Liberïa
+        type: LRD
+      - 
+        displayName: loti tî Lesôtho
+        type: LSL
+      - 
+        displayName: dinäar tî Libïi
+        type: LYD
+      - 
+        displayName: dirâm tî Marôko
+        type: MAD
+      - 
+        displayName: ariâri tî Madagasikära
+        type: MGA
+      - 
+        displayName: ugîya tî Moritanïi
+        type: MRO
+      - 
+        displayName: rupïi tî Mörîsi
+        type: MUR
+      - 
+        displayName: kwâtia tî Malawïi
+        type: MWK
+      - 
+        displayName: metikala tî Mozambîka
+        type: MZM
+      - 
+        displayName: dolära tî Namibïi
+        type: NAD
+      - 
+        displayName: nâîra tî Nizerïa
+        type: NGN
+      - 
+        displayName: farânga tî Ruandäa
+        type: RWF
+      - 
+        displayName: riâli tî Saûdi Arabïi
+        type: SAR
+      - 
+        displayName: rupïi tî Sëyshêle
+        type: SCR
+      - 
+        displayName: pôndo tî Sudäan
+        type: SDG
+      - 
+        displayName: pôndo tî Zûâ Sênt-Helêna
+        type: SHP
+      - 
+        displayName: leône tî Sierâ-Leône
+        type: SLL
+      - 
+        displayName: shilîngi tî Somalïi
+        type: SOS
+      - 
+        displayName: dôbra tî Sâô Tomë na Prinsîpe
+        type: STD
+      - 
+        displayName: lilangùeni tî Swazïlânde
+        type: SZL
+      - 
+        displayName: dinära tî Tunizïi
+        type: TND
+      - 
+        displayName: shilîngi tî Tanzanïi
+        type: TZS
+      - 
+        displayName: shilîngi tî Ugandäa
+        type: UGX
+      - 
+        displayName: dol$ara ttî äLetäa-Ôko tî Amerîka
+        type: USD
+      - 
+        displayName: farânga CFA (BEAC)
+        type: XAF
+      - 
+        displayName: farânga CFA (BCEAO)
+        type: XOF
+      - 
+        displayName: rânde tî Mbongo-Afrîka
+        type: ZAR
+      - 
+        displayName: kwâtia tî Zambïi (1968-2012)
+        type: ZMK
+      - 
+        displayName: kwâtia tî Zambïi
+        type: ZMW
+      - 
+        displayName: dolära tî Zimbäbwe
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;¤-#,##0.00
+    numberSystem: latn
+  symbols: 
+    decimal: ","
+    group: .
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: Én-en:E
+    yesstr: Iin:I

@@ -1,0 +1,178 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: d-MMM-y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/MM - E d/MM
+                    draft: unconfirmed
+                  d: 
+                    content: E d/MM - E d/MM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/MM - d/MM
+                    draft: unconfirmed
+                  d: 
+                    content: d/MM - d/MM
+                    draft: unconfirmed
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM/y - MM/y G
+                    draft: unconfirmed
+                  "y": 
+                    content: MM/y - MM/y G
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/MM/y - E d/MM/y G
+                    draft: unconfirmed
+                  d: 
+                    content: E d/MM/y - E d/MM/y G
+                    draft: unconfirmed
+                  "y": 
+                    content: E d/MM/y - E d/MM/y G
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/MM/y - d/MM/y G
+                    draft: unconfirmed
+                  d: 
+                    content: d/MM/y - d/MM/y G
+                    draft: unconfirmed
+                  "y": 
+                    content: d/MM/y - d/MM/y G
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: d-MMM-y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/MM/yy
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/MM - E d/MM
+                    draft: unconfirmed
+                  d: 
+                    content: E d/MM - E d/MM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/MM - d/MM
+                    draft: unconfirmed
+                  d: 
+                    content: d/MM - d/MM
+                    draft: unconfirmed
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM/y - MM/y
+                    draft: unconfirmed
+                  "y": 
+                    content: MM/y - MM/y
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/MM/y - E d/MM/y
+                    draft: unconfirmed
+                  d: 
+                    content: E d/MM/y - E d/MM/y
+                    draft: unconfirmed
+                  "y": 
+                    content: E d/MM/y - E d/MM/y
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/MM/y - d/MM/y
+                    draft: unconfirmed
+                  d: 
+                    content: d/MM/y - d/MM/y
+                    draft: unconfirmed
+                  "y": 
+                    content: d/MM/y - d/MM/y
+                    draft: unconfirmed
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: nl
+  territory: 
+    type: BE
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Lets
+        type: lv
+      - 
+        content: Occitaans; Provençaals
+        type: oc
+      - 
+        content: Servo-Kroatisch
+        type: sh
+      - 
+        content: Nilo-Saharaans
+        draft: provisional
+        type: ssa
+  territories: 
+    territory: 
+      - 
+        content: Centraal-Amerika
+        draft: provisional
+        type: '013'
+      - 
+        content: Het Eiland Man
+        type: IM
+      - 
+        content: Malediven
+        draft: unconfirmed
+        type: MV
+      - 
+        content: Salomoneilanden
+        draft: unconfirmed
+        type: SB
+  types: 
+    type: 
+      content: Traditioneel
+      key: collation
+      type: traditional
+numbers: 
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤"
+    numberSystem: latn

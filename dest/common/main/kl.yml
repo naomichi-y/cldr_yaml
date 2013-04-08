@@ -1,0 +1,3058 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      draft: unconfirmed
+      type: final
+    - 
+      content: …{0}
+      draft: unconfirmed
+      type: initial
+    - 
+      content: "{0}…{1}"
+      draft: unconfirmed
+      type: medial
+  exemplarCharacters: 
+    - "[a á â ã b c d e é ê f g h i í î ĩ j k l m n o ô p q ĸ r s t u ú û ũ v w x y z æ ø å]"
+    - 
+      content: "[b c d h x z æ ø å]"
+      draft: unconfirmed
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å]"
+      draft: unconfirmed
+      type: index
+  moreInformation: 
+    content: "?"
+    draft: unconfirmed
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE dd MMMM y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: MMM dd, y G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: GGGGG y-MM-dd
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+                draft: unconfirmed
+              H: 
+                content: HH
+                draft: unconfirmed
+              Hm: 
+                content: HH:mm
+                draft: unconfirmed
+              Hms: 
+                content: HH:mm:ss
+                draft: unconfirmed
+              M: 
+                content: L
+                draft: unconfirmed
+              MEd: 
+                content: E, d/M
+                draft: unconfirmed
+              Md: 
+                content: d/M
+                draft: unconfirmed
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+                draft: unconfirmed
+              hms: 
+                content: h:mm:ss a
+                draft: unconfirmed
+              ms: 
+                content: mm:ss
+                draft: unconfirmed
+              yM: 
+                content: y-MM
+                draft: unconfirmed
+              yMEd: 
+                content: E, y-MM-dd
+                draft: unconfirmed
+              yMMM: 
+                content: MMM y
+                draft: unconfirmed
+              yMMMEd: 
+                content: E, MMM d, y
+                draft: unconfirmed
+              yMMMd: 
+                content: MMM d, y
+                draft: unconfirmed
+              yMd: 
+                content: y-MM-dd
+                draft: unconfirmed
+              yQQQ: 
+                content: y QQQQ
+                draft: unconfirmed
+              yQQQQ: 
+                content: y QQQQ
+                draft: unconfirmed
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} – {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-dd – E, MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-dd – E, MM-dd
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-d – E, MM-d
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-d – E, MM-d
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MM-d – MM-d
+                    draft: unconfirmed
+                  d: 
+                    content: MM-d – d
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd – MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd – dd
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM – y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM – y-MM
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM – y-MM
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-d
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-d – d
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd – dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE dd MMMM y
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: MMM dd, y
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: y-MM-dd
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+                draft: unconfirmed
+              H: 
+                content: HH
+                draft: unconfirmed
+              Hm: 
+                content: HH:mm
+                draft: unconfirmed
+              Hms: 
+                content: HH:mm:ss
+                draft: unconfirmed
+              M: 
+                content: L
+                draft: unconfirmed
+              MEd: 
+                content: E, d/M
+                draft: unconfirmed
+              Md: 
+                content: d/M
+                draft: unconfirmed
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+                draft: unconfirmed
+              hms: 
+                content: h:mm:ss a
+                draft: unconfirmed
+              ms: 
+                content: mm:ss
+                draft: unconfirmed
+              yM: 
+                content: y-MM
+                draft: unconfirmed
+              yMEd: 
+                content: E, y-MM-dd
+                draft: unconfirmed
+              yMMM: 
+                content: MMM y
+                draft: unconfirmed
+              yMMMEd: 
+                content: E, MMM d, y
+                draft: unconfirmed
+              yMMMd: 
+                content: MMM d, y
+                draft: unconfirmed
+              yMd: 
+                content: y-MM-dd
+                draft: unconfirmed
+              yQQQ: 
+                content: y QQQQ
+                draft: unconfirmed
+              yQQQQ: 
+                content: y QQQQ
+                draft: unconfirmed
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} – {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-dd – E, MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-dd – E, MM-dd
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-d – E, MM-d
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-d – E, MM-d
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MM-d – MM-d
+                    draft: unconfirmed
+                  d: 
+                    content: MM-d – d
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd – MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd – dd
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM – y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM – y-MM
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+                    draft: unconfirmed
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM – y-MM
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-d
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-d – d
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd – dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+                    draft: unconfirmed
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: u.t.
+                    draft: unconfirmed
+                    type: am
+                  - 
+                    content: u.k.
+                    draft: unconfirmed
+                    type: pm
+                type: abbreviated
+              - 
+                dayPeriod: 
+                  - 
+                    content: ulloqeqqata-tungaa
+                    draft: unconfirmed
+                    type: am
+                  - 
+                    content: ulloqeqqata-kingorna
+                    draft: unconfirmed
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: sab
+                      type: sun
+                    - 
+                      content: ata
+                      type: mon
+                    - 
+                      content: mar
+                      type: tue
+                    - 
+                      content: pin
+                      type: wed
+                    - 
+                      content: sis
+                      type: thu
+                    - 
+                      content: tal
+                      type: fri
+                    - 
+                      content: arf
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: sabaat
+                      type: sun
+                    - 
+                      content: ataasinngorneq
+                      type: mon
+                    - 
+                      content: marlunngorneq
+                      type: tue
+                    - 
+                      content: pingasunngorneq
+                      type: wed
+                    - 
+                      content: sisamanngorneq
+                      type: thu
+                    - 
+                      content: tallimanngorneq
+                      type: fri
+                    - 
+                      content: arfininngorneq
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: S
+                    draft: unconfirmed
+                    type: sun
+                  - 
+                    content: A
+                    draft: unconfirmed
+                    type: mon
+                  - 
+                    content: M
+                    draft: unconfirmed
+                    type: tue
+                  - 
+                    content: P
+                    draft: unconfirmed
+                    type: wed
+                  - 
+                    content: S
+                    draft: unconfirmed
+                    type: thu
+                  - 
+                    content: T
+                    draft: unconfirmed
+                    type: fri
+                  - 
+                    content: A
+                    draft: unconfirmed
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: Kr.in.si.
+                draft: unconfirmed
+                type: 0
+              - 
+                content: Kr.in.king.
+                draft: unconfirmed
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Kristusip inunngornerata siornagut
+                draft: unconfirmed
+                type: 0
+              - 
+                content: Kristusip inunngornerata kingornagut
+                draft: unconfirmed
+                type: 1
+          eraNarrow: 
+            era: 
+              - 
+                content: Kr.s.
+                draft: unconfirmed
+                type: 0
+              - 
+                content: Kr.k.
+                draft: unconfirmed
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: jan
+                      type: 1
+                    - 
+                      content: feb
+                      type: 2
+                    - 
+                      content: mar
+                      type: 3
+                    - 
+                      content: apr
+                      type: 4
+                    - 
+                      content: maj
+                      type: 5
+                    - 
+                      content: jun
+                      type: 6
+                    - 
+                      content: jul
+                      type: 7
+                    - 
+                      content: aug
+                      type: 8
+                    - 
+                      content: sep
+                      type: 9
+                    - 
+                      content: okt
+                      type: 10
+                    - 
+                      content: nov
+                      type: 11
+                    - 
+                      content: dec
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: F
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: A
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: A
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: S
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: O
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: 'N'
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: D
+                      draft: unconfirmed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: januari
+                      type: 1
+                    - 
+                      content: februari
+                      type: 2
+                    - 
+                      content: martsi
+                      type: 3
+                    - 
+                      content: aprili
+                      type: 4
+                    - 
+                      content: maji
+                      type: 5
+                    - 
+                      content: juni
+                      type: 6
+                    - 
+                      content: juli
+                      type: 7
+                    - 
+                      content: augustusi
+                      type: 8
+                    - 
+                      content: septemberi
+                      type: 9
+                    - 
+                      content: oktoberi
+                      type: 10
+                    - 
+                      content: novemberi
+                      type: 11
+                    - 
+                      content: decemberi
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: jan
+                      type: 1
+                    - 
+                      content: feb
+                      type: 2
+                    - 
+                      content: mar
+                      type: 3
+                    - 
+                      content: apr
+                      type: 4
+                    - 
+                      content: maj
+                      type: 5
+                    - 
+                      content: jun
+                      type: 6
+                    - 
+                      content: jul
+                      type: 7
+                    - 
+                      content: aug
+                      type: 8
+                    - 
+                      content: sep
+                      type: 9
+                    - 
+                      content: okt
+                      type: 10
+                    - 
+                      content: nov
+                      type: 11
+                    - 
+                      content: dec
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: F
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: A
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: A
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: S
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: O
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: 'N'
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: D
+                      draft: unconfirmed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: januari
+                      type: 1
+                    - 
+                      content: februari
+                      type: 2
+                    - 
+                      content: martsi
+                      type: 3
+                    - 
+                      content: aprili
+                      type: 4
+                    - 
+                      content: maji
+                      type: 5
+                    - 
+                      content: juni
+                      type: 6
+                    - 
+                      content: juli
+                      type: 7
+                    - 
+                      content: augustusi
+                      type: 8
+                    - 
+                      content: septemberi
+                      type: 9
+                    - 
+                      content: oktoberi
+                      type: 10
+                    - 
+                      content: novemberi
+                      type: 11
+                    - 
+                      content: decemberi
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: S1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: S2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: S3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: S4
+                      draft: unconfirmed
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: S1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: S2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: S3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: S4
+                      draft: unconfirmed
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: ukiup sisamararterutaa 1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: ukiup sisamararterutaa 2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: ukiup sisamararterutaa 3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: ukiup sisamararterutaa 4
+                      draft: unconfirmed
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: S1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: S2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: S3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: S4
+                      draft: unconfirmed
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: S1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: S2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: S3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: S4
+                      draft: unconfirmed
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: ukiup sisamararterutaa 1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: ukiup sisamararterutaa 2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: ukiup sisamararterutaa 3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: ukiup sisamararterutaa 4
+                      draft: unconfirmed
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm a
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: æra
+          draft: unconfirmed
+        type: era
+      - 
+        displayName: 
+          content: ukioq
+          draft: unconfirmed
+        type: year
+      - 
+        displayName: 
+          content: qaammat
+          draft: unconfirmed
+        type: month
+      - 
+        displayName: 
+          content: sapaatip-akunnera
+          draft: unconfirmed
+        type: week
+      - 
+        displayName: 
+          content: ulloq
+          draft: unconfirmed
+        relative: 
+          - 
+            content: ippassaani
+            draft: unconfirmed
+            type: -2
+          - 
+            content: ippassaq
+            draft: unconfirmed
+            type: -1
+          - 
+            content: ullumi
+            draft: unconfirmed
+            type: 0
+          - 
+            content: aqagu
+            draft: unconfirmed
+            type: 1
+          - 
+            content: aqaguagu
+            draft: unconfirmed
+            type: 2
+        type: day
+      - 
+        displayName: 
+          content: sapaatip akunnerata ullui
+          draft: unconfirmed
+        type: weekday
+      - 
+        displayName: 
+          content: piffissaq ulloq
+          draft: unconfirmed
+        type: dayperiod
+      - 
+        displayName: 
+          content: nalunaaquttap-akunnera
+          draft: unconfirmed
+        type: hour
+      - 
+        displayName: 
+          content: minutsi
+          draft: unconfirmed
+        type: minute
+      - 
+        displayName: 
+          content: sekindi
+          draft: unconfirmed
+        type: second
+      - 
+        displayName: 
+          content: nalunaaqutaqaqatigiissut
+          draft: unconfirmed
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: 
+      content: "{0} ({1})"
+      draft: unconfirmed
+    fallbackRegionFormat: 
+      content: "{0} ({1})"
+      draft: unconfirmed
+    gmtFormat: 
+      content: GMT{0}
+      draft: unconfirmed
+    gmtZeroFormat: 
+      content: GMT
+      draft: unconfirmed
+    hourFormat: 
+      content: +HH:mm;−HH:mm
+      draft: unconfirmed
+    regionFormat: 
+      content: "{0}"
+      draft: unconfirmed
+    zone: 
+      - 
+        exemplarCity: 
+          content: atorsinnaanngitsoq nalunaaqutaqaqatigiissut
+          draft: unconfirmed
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: Qaanaaq
+          draft: unconfirmed
+        type: America/Thule
+      - 
+        exemplarCity: 
+          content: Ittoqqortoormiit
+          draft: unconfirmed
+        type: America/Scoresbysund
+delimiters: 
+  alternateQuotationEnd: 
+    content: ‹
+    draft: unconfirmed
+  alternateQuotationStart: 
+    content: ›
+    draft: unconfirmed
+  quotationEnd: 
+    content: «
+    draft: unconfirmed
+  quotationStart: 
+    content: »
+    draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: kl
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} aamma {1}"
+        draft: unconfirmed
+        type: 2
+      - 
+        content: "{0} aamma {1}"
+        draft: unconfirmed
+        type: end
+      - 
+        content: "{0}, {1}"
+        draft: unconfirmed
+        type: middle
+      - 
+        content: "{0}, {1}"
+        draft: unconfirmed
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "oqaatsit: {0}"
+        draft: unconfirmed
+        type: language
+      - 
+        content: "allaqqitaq: {0}"
+        draft: unconfirmed
+        type: script
+      - 
+        content: "nunap imartaa nunataalu: {0}"
+        draft: unconfirmed
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: ullorsiut
+        draft: unconfirmed
+        type: calendar
+      - 
+        content: akissaat
+        draft: unconfirmed
+        type: currency
+      - 
+        content: normu
+        draft: unconfirmed
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: arabiamiusut
+        draft: unconfirmed
+        type: ar
+      - 
+        content: aserbajdsjaniskisut
+        draft: unconfirmed
+        type: az
+      - 
+        content: bengalimiutut
+        draft: unconfirmed
+        type: bn
+      - 
+        content: tjekkiamut
+        draft: unconfirmed
+        type: cs
+      - 
+        content: qallunaatut
+        draft: unconfirmed
+        type: da
+      - 
+        content: tyskisut
+        draft: unconfirmed
+        type: de
+      - 
+        content: tuluttut
+        draft: unconfirmed
+        type: en
+      - 
+        content: esperanto
+        draft: unconfirmed
+        type: eo
+      - 
+        content: spanskisut
+        draft: unconfirmed
+        type: es
+      - 
+        content: estlandimiutut
+        draft: unconfirmed
+        type: et
+      - 
+        content: persiskisut
+        draft: unconfirmed
+        type: fa
+      - 
+        content: finlandimiutut
+        draft: unconfirmed
+        type: fi
+      - 
+        content: savalimmiutut
+        draft: unconfirmed
+        type: fo
+      - 
+        content: franskisut
+        draft: unconfirmed
+        type: fr
+      - 
+        content: irlandimiutut
+        draft: unconfirmed
+        type: ga
+      - 
+        content: hebraimiutut
+        draft: unconfirmed
+        type: he
+      - 
+        content: hindimiutut
+        draft: unconfirmed
+        type: hi
+      - 
+        content: indonesiamiutut
+        draft: unconfirmed
+        type: id
+      - 
+        content: islandimiusut
+        draft: unconfirmed
+        type: is
+      - 
+        content: italiamiutut
+        draft: unconfirmed
+        type: it
+      - 
+        content: japanimiusut
+        draft: unconfirmed
+        type: ja
+      - 
+        content: kalaallisut
+        type: kl
+      - 
+        content: koreamiusut
+        draft: unconfirmed
+        type: ko
+      - 
+        content: kurdiskisut
+        draft: unconfirmed
+        type: ku
+      - 
+        content: latiinerisut
+        draft: unconfirmed
+        type: la
+      - 
+        content: litauenimiutut
+        draft: unconfirmed
+        type: lt
+      - 
+        content: letlandimiutut
+        draft: unconfirmed
+        type: lv
+      - 
+        content: malagassiskisut
+        draft: unconfirmed
+        type: mg
+      - 
+        content: maorimiutut
+        draft: unconfirmed
+        type: mi
+      - 
+        content: hollandimiutut
+        draft: unconfirmed
+        type: nl
+      - 
+        content: polenimiutut
+        draft: unconfirmed
+        type: pl
+      - 
+        content: pashtomiutut
+        draft: unconfirmed
+        type: ps
+      - 
+        content: portugalimiutut
+        draft: unconfirmed
+        type: pt
+      - 
+        content: rumænimiutut
+        draft: unconfirmed
+        type: ro
+      - 
+        content: russisut
+        draft: unconfirmed
+        type: ru
+      - 
+        content: slovakimiusut
+        draft: unconfirmed
+        type: sk
+      - 
+        content: svenskisut
+        draft: unconfirmed
+        type: sv
+      - 
+        content: swahilimiutut
+        draft: unconfirmed
+        type: sw
+      - 
+        content: thailandimiutut
+        draft: unconfirmed
+        type: th
+      - 
+        content: tyrkiskisut
+        draft: unconfirmed
+        type: tr
+      - 
+        content: ukrainimiusut
+        draft: unconfirmed
+        type: uk
+      - 
+        content: (atorsinnaanngitsoq oqaatsit)
+        draft: unconfirmed
+        type: und
+      - 
+        content: urdumiutut
+        draft: unconfirmed
+        type: ur
+      - 
+        content: vietnamimiusut
+        draft: unconfirmed
+        type: vi
+      - 
+        content: kineserisut
+        draft: unconfirmed
+        type: zh
+  localeDisplayPattern: 
+    localeKeyTypePattern: 
+      content: "{0}: {1}"
+      draft: unconfirmed
+    localePattern: 
+      content: "{0} ({1})"
+      draft: unconfirmed
+    localeSeparator: 
+      content: ", "
+      draft: unconfirmed
+  measurementSystemNames: 
+    measurementSystemName: 
+      content: SI
+      draft: unconfirmed
+      type: metric
+  scripts: 
+    script: 
+      - 
+        content: latin allakkat
+        draft: unconfirmed
+        type: Latn
+      - 
+        content: assersuut
+        draft: unconfirmed
+        type: Zsym
+      - 
+        content: peqatigiipput
+        draft: unconfirmed
+        type: Zyyy
+      - 
+        content: atorsinnaanngitsoq allakkat
+        draft: unconfirmed
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: silarsuaq
+        draft: unconfirmed
+        type: '001'
+      - 
+        content: Afrika
+        draft: unconfirmed
+        type: '002'
+      - 
+        content: Amerika Avannarleq
+        draft: unconfirmed
+        type: '003'
+      - 
+        content: Amerika Kujalleq
+        draft: unconfirmed
+        type: '005'
+      - 
+        content: Oceania
+        draft: unconfirmed
+        type: '009'
+      - 
+        content: Afrika Killiit
+        draft: unconfirmed
+        type: '011'
+      - 
+        content: America Qitiusumik
+        draft: unconfirmed
+        type: '013'
+      - 
+        content: Afrika Kangilliit
+        draft: unconfirmed
+        type: '014'
+      - 
+        content: Afrika Avannarleq
+        draft: unconfirmed
+        type: '015'
+      - 
+        content: Afrika Qitiusumik
+        draft: unconfirmed
+        type: '017'
+      - 
+        content: Amerika
+        draft: unconfirmed
+        type: '019'
+      - 
+        content: Asia Kangilliit
+        draft: unconfirmed
+        type: '030'
+      - 
+        content: Asia Kujalleq
+        draft: unconfirmed
+        type: '034'
+      - 
+        content: Europa Kujalleq
+        draft: unconfirmed
+        type: '039'
+      - 
+        content: Australia aamma Nutaaq Zeelandi
+        draft: unconfirmed
+        type: '053'
+      - 
+        content: Melanesia
+        draft: unconfirmed
+        type: '054'
+      - 
+        content: Polynesia
+        draft: unconfirmed
+        type: '061'
+      - 
+        content: Asia
+        draft: unconfirmed
+        type: 142
+      - 
+        content: Asia Qitiusumik
+        draft: unconfirmed
+        type: 143
+      - 
+        content: Asia Killiit
+        draft: unconfirmed
+        type: 145
+      - 
+        content: Europa
+        draft: unconfirmed
+        type: 150
+      - 
+        content: Europa Kangilliit
+        draft: unconfirmed
+        type: 151
+      - 
+        content: Europa Avannarleq
+        draft: unconfirmed
+        type: 154
+      - 
+        content: Europa Killiit
+        draft: unconfirmed
+        type: 155
+      - 
+        content: America Latin aamma Karibia
+        draft: unconfirmed
+        type: 419
+      - 
+        content: Ascension qeqertaq
+        draft: unconfirmed
+        type: AC
+      - 
+        content: Andorra
+        draft: unconfirmed
+        type: AD
+      - 
+        content: Afghanistani
+        draft: unconfirmed
+        type: AF
+      - 
+        content: Antigua aamma Barbuda
+        draft: unconfirmed
+        type: AG
+      - 
+        content: Anguilla
+        draft: unconfirmed
+        type: AI
+      - 
+        content: Albania
+        draft: unconfirmed
+        type: AL
+      - 
+        content: Armenia
+        draft: unconfirmed
+        type: AM
+      - 
+        content: Angola
+        draft: unconfirmed
+        type: AO
+      - 
+        content: Qalasersuaq Kujalleq
+        draft: unconfirmed
+        type: AQ
+      - 
+        content: Argentina
+        draft: unconfirmed
+        type: AR
+      - 
+        content: Østrigi
+        draft: unconfirmed
+        type: AT
+      - 
+        content: Australia
+        draft: unconfirmed
+        type: AU
+      - 
+        content: Aruba
+        draft: unconfirmed
+        type: AW
+      - 
+        content: Ålandi
+        draft: unconfirmed
+        type: AX
+      - 
+        content: Bosnia aamma Herzegovina
+        draft: unconfirmed
+        type: BA
+      - 
+        content: Barbados
+        draft: unconfirmed
+        type: BB
+      - 
+        content: Bangladesh
+        draft: unconfirmed
+        type: BD
+      - 
+        content: Belgia
+        draft: unconfirmed
+        type: BE
+      - 
+        content: Burkina Faso
+        draft: unconfirmed
+        type: BF
+      - 
+        content: Bulgaria
+        draft: unconfirmed
+        type: BG
+      - 
+        content: Bahrain
+        draft: unconfirmed
+        type: BH
+      - 
+        content: Burundi
+        draft: unconfirmed
+        type: BI
+      - 
+        content: Benin
+        draft: unconfirmed
+        type: BJ
+      - 
+        content: Saint Barthélemy
+        draft: unconfirmed
+        type: BL
+      - 
+        content: Bermuda
+        draft: unconfirmed
+        type: BM
+      - 
+        content: Brunei
+        draft: unconfirmed
+        type: BN
+      - 
+        content: Bolivia
+        draft: unconfirmed
+        type: BO
+      - 
+        content: Brazil
+        draft: unconfirmed
+        type: BR
+      - 
+        content: Bahamas
+        draft: unconfirmed
+        type: BS
+      - 
+        content: Bhutan
+        draft: unconfirmed
+        type: BT
+      - 
+        content: Bouvet qeqertaq
+        draft: unconfirmed
+        type: BV
+      - 
+        content: Botswana
+        draft: unconfirmed
+        type: BW
+      - 
+        content: Hvideruslandi
+        draft: unconfirmed
+        type: BY
+      - 
+        content: Belize
+        draft: unconfirmed
+        type: BZ
+      - 
+        content: Canada
+        draft: unconfirmed
+        type: CA
+      - 
+        content: Cocos qeqertaq
+        draft: unconfirmed
+        type: CC
+      - 
+        content: Kongo-Kinshasa
+        draft: unconfirmed
+        type: CD
+      - 
+        alt: variant
+        content: Kongo-Kinshasa
+        draft: unconfirmed
+        type: CD
+      - 
+        content: Kongo-Brazzaville
+        draft: unconfirmed
+        type: CG
+      - 
+        alt: variant
+        content: Kongo-Brazzaville
+        draft: unconfirmed
+        type: CG
+      - 
+        content: Schweizi
+        draft: unconfirmed
+        type: CH
+      - 
+        content: Cook qeqertaq
+        draft: unconfirmed
+        type: CK
+      - 
+        content: Chile
+        draft: unconfirmed
+        type: CL
+      - 
+        content: Kamerun
+        draft: unconfirmed
+        type: CM
+      - 
+        content: Kina
+        draft: unconfirmed
+        type: CN
+      - 
+        content: Colombia
+        draft: unconfirmed
+        type: CO
+      - 
+        content: Clipperton qeqertaq
+        draft: unconfirmed
+        type: CP
+      - 
+        content: Costa Rica
+        draft: unconfirmed
+        type: CR
+      - 
+        content: Kuba
+        draft: unconfirmed
+        type: CU
+      - 
+        content: Cap Verde
+        draft: unconfirmed
+        type: CV
+      - 
+        content: Curaçao
+        draft: unconfirmed
+        type: CW
+      - 
+        content: Jul-qeqertaq
+        draft: unconfirmed
+        type: CX
+      - 
+        content: Cypern
+        draft: unconfirmed
+        type: CY
+      - 
+        content: Tjekkia
+        draft: unconfirmed
+        type: CZ
+      - 
+        content: Tysklandi
+        draft: unconfirmed
+        type: DE
+      - 
+        content: Diego Garcia
+        draft: unconfirmed
+        type: DG
+      - 
+        content: Djibouti
+        draft: unconfirmed
+        type: DJ
+      - 
+        content: Danmarki
+        draft: unconfirmed
+        type: DK
+      - 
+        content: Dominica
+        draft: unconfirmed
+        type: DM
+      - 
+        content: Algeriet
+        draft: unconfirmed
+        type: DZ
+      - 
+        content: Ceuta aamma Melilla
+        draft: unconfirmed
+        type: EA
+      - 
+        content: Ecuador
+        draft: unconfirmed
+        type: EC
+      - 
+        content: Estlandi
+        draft: unconfirmed
+        type: EE
+      - 
+        content: Egypten
+        draft: unconfirmed
+        type: EG
+      - 
+        content: Sahara Killiit
+        draft: unconfirmed
+        type: EH
+      - 
+        content: Eritrea
+        draft: unconfirmed
+        type: ER
+      - 
+        content: Spania
+        draft: unconfirmed
+        type: ES
+      - 
+        content: Ethiopia
+        draft: unconfirmed
+        type: ET
+      - 
+        content: Europami nunat kattusimaffiat
+        draft: unconfirmed
+        type: EU
+      - 
+        content: Finlandi
+        draft: unconfirmed
+        type: FI
+      - 
+        content: Fiji
+        draft: unconfirmed
+        type: FJ
+      - 
+        content: Falklandi qeqertaq
+        draft: unconfirmed
+        type: FK
+      - 
+        alt: variant
+        content: Falklandi qeqertaq
+        draft: unconfirmed
+        type: FK
+      - 
+        content: Micronesia
+        draft: unconfirmed
+        type: FM
+      - 
+        content: Savalimmiut
+        draft: unconfirmed
+        type: FO
+      - 
+        content: Frankrigi
+        draft: unconfirmed
+        type: FR
+      - 
+        content: Gabon
+        draft: unconfirmed
+        type: GA
+      - 
+        content: Tuluit Nunaat
+        draft: unconfirmed
+        type: GB
+      - 
+        content: Grenada
+        draft: unconfirmed
+        type: GD
+      - 
+        content: Georgia
+        draft: unconfirmed
+        type: GE
+      - 
+        content: Guernsey
+        draft: unconfirmed
+        type: GG
+      - 
+        content: Ghana
+        draft: unconfirmed
+        type: GH
+      - 
+        content: Gibraltar
+        draft: unconfirmed
+        type: GI
+      - 
+        content: Kalaallit Nunaat
+        type: GL
+      - 
+        content: Gambia
+        draft: unconfirmed
+        type: GM
+      - 
+        content: Guinea
+        draft: unconfirmed
+        type: GN
+      - 
+        content: Guadeloupe
+        draft: unconfirmed
+        type: GP
+      - 
+        content: Grækenlandi
+        draft: unconfirmed
+        type: GR
+      - 
+        content: Guatemala
+        draft: unconfirmed
+        type: GT
+      - 
+        content: Guam
+        draft: unconfirmed
+        type: GU
+      - 
+        content: Guinea-Bissau
+        draft: unconfirmed
+        type: GW
+      - 
+        content: Guyana
+        draft: unconfirmed
+        type: GY
+      - 
+        content: Hongkong
+        draft: unconfirmed
+        type: HK
+      - 
+        alt: short
+        content: Hongkong
+        draft: unconfirmed
+        type: HK
+      - 
+        content: Honduras
+        draft: unconfirmed
+        type: HN
+      - 
+        content: Haiti
+        draft: unconfirmed
+        type: HT
+      - 
+        content: Ungarni
+        draft: unconfirmed
+        type: HU
+      - 
+        content: Kanaria qeqertaq
+        draft: unconfirmed
+        type: IC
+      - 
+        content: Indonesia
+        draft: unconfirmed
+        type: ID
+      - 
+        content: Irlandi
+        draft: unconfirmed
+        type: IE
+      - 
+        content: Israel
+        draft: unconfirmed
+        type: IL
+      - 
+        content: India
+        draft: unconfirmed
+        type: IN
+      - 
+        content: Irak
+        draft: unconfirmed
+        type: IQ
+      - 
+        content: Iran
+        draft: unconfirmed
+        type: IR
+      - 
+        content: Islandi
+        draft: unconfirmed
+        type: IS
+      - 
+        content: Italia
+        draft: unconfirmed
+        type: IT
+      - 
+        content: Jersey
+        draft: unconfirmed
+        type: JE
+      - 
+        content: Jamaica
+        draft: unconfirmed
+        type: JM
+      - 
+        content: Jordani
+        draft: unconfirmed
+        type: JO
+      - 
+        content: Japani
+        draft: unconfirmed
+        type: JP
+      - 
+        content: Kenya
+        draft: unconfirmed
+        type: KE
+      - 
+        content: Kambodia
+        draft: unconfirmed
+        type: KH
+      - 
+        content: Kiribati
+        draft: unconfirmed
+        type: KI
+      - 
+        content: Saint Kitts aamma Nevis
+        draft: unconfirmed
+        type: KN
+      - 
+        content: Korea Avannarleq
+        draft: unconfirmed
+        type: KP
+      - 
+        content: Korea Kujalleq
+        draft: unconfirmed
+        type: KR
+      - 
+        content: Kuwait
+        draft: unconfirmed
+        type: KW
+      - 
+        content: Kasakhstani
+        draft: unconfirmed
+        type: KZ
+      - 
+        content: Laos
+        draft: unconfirmed
+        type: LA
+      - 
+        content: Libanon
+        draft: unconfirmed
+        type: LB
+      - 
+        content: Saint Lucia
+        draft: unconfirmed
+        type: LC
+      - 
+        content: Liechtensteini
+        draft: unconfirmed
+        type: LI
+      - 
+        content: Sri Lanka
+        draft: unconfirmed
+        type: LK
+      - 
+        content: Liberia
+        draft: unconfirmed
+        type: LR
+      - 
+        content: Lesotho
+        draft: unconfirmed
+        type: LS
+      - 
+        content: Litaueni
+        draft: unconfirmed
+        type: LT
+      - 
+        content: Luxembourg
+        draft: unconfirmed
+        type: LU
+      - 
+        content: Letlandi
+        draft: unconfirmed
+        type: LV
+      - 
+        content: Libya
+        draft: unconfirmed
+        type: LY
+      - 
+        content: Marocko
+        draft: unconfirmed
+        type: MA
+      - 
+        content: Monaco
+        draft: unconfirmed
+        type: MC
+      - 
+        content: Moldova
+        draft: unconfirmed
+        type: MD
+      - 
+        content: Montenegro
+        draft: unconfirmed
+        type: ME
+      - 
+        content: Frankrigi Saint Martin
+        draft: unconfirmed
+        type: MF
+      - 
+        content: Madagaskar
+        draft: unconfirmed
+        type: MG
+      - 
+        content: Makedonia
+        draft: unconfirmed
+        type: MK
+      - 
+        alt: variant
+        content: Makedonia
+        draft: unconfirmed
+        type: MK
+      - 
+        content: Mali
+        draft: unconfirmed
+        type: ML
+      - 
+        content: Burma
+        draft: unconfirmed
+        type: MM
+      - 
+        content: Macao
+        draft: unconfirmed
+        type: MO
+      - 
+        alt: short
+        content: Macao
+        draft: unconfirmed
+        type: MO
+      - 
+        content: Martinique
+        draft: unconfirmed
+        type: MQ
+      - 
+        content: Mauritania
+        draft: unconfirmed
+        type: MR
+      - 
+        content: Montserrat
+        draft: unconfirmed
+        type: MS
+      - 
+        content: Malta
+        draft: unconfirmed
+        type: MT
+      - 
+        content: Mauritius
+        draft: unconfirmed
+        type: MU
+      - 
+        content: Malawi
+        draft: unconfirmed
+        type: MW
+      - 
+        content: Mexiko
+        draft: unconfirmed
+        type: MX
+      - 
+        content: Malaysia
+        draft: unconfirmed
+        type: MY
+      - 
+        content: Moçambique
+        draft: unconfirmed
+        type: MZ
+      - 
+        content: Namibia
+        draft: unconfirmed
+        type: NA
+      - 
+        content: Nutaaq Caledonia
+        draft: unconfirmed
+        type: NC
+      - 
+        content: Niger
+        draft: unconfirmed
+        type: NE
+      - 
+        content: Nigeria
+        draft: unconfirmed
+        type: NG
+      - 
+        content: Nicaragua
+        draft: unconfirmed
+        type: NI
+      - 
+        content: Hollandi
+        draft: unconfirmed
+        type: NL
+      - 
+        content: Norge
+        draft: unconfirmed
+        type: 'NO'
+      - 
+        content: Nepal
+        draft: unconfirmed
+        type: NP
+      - 
+        content: Nauru
+        draft: unconfirmed
+        type: NR
+      - 
+        content: Niue
+        draft: unconfirmed
+        type: NU
+      - 
+        content: Nutaaq Zeelandi
+        draft: unconfirmed
+        type: NZ
+      - 
+        content: Oman
+        draft: unconfirmed
+        type: OM
+      - 
+        content: Panama
+        draft: unconfirmed
+        type: PA
+      - 
+        content: Peru
+        draft: unconfirmed
+        type: PE
+      - 
+        content: Papua Nutaaq Guinea
+        draft: unconfirmed
+        type: PG
+      - 
+        content: Pakistani
+        draft: unconfirmed
+        type: PK
+      - 
+        content: Poleni
+        draft: unconfirmed
+        type: PL
+      - 
+        content: Saint Pierre aamma Miquelon
+        draft: unconfirmed
+        type: PM
+      - 
+        content: Puerto Rico
+        draft: unconfirmed
+        type: PR
+      - 
+        content: Portugali
+        draft: unconfirmed
+        type: PT
+      - 
+        content: Palau
+        draft: unconfirmed
+        type: PW
+      - 
+        content: Paraguay
+        draft: unconfirmed
+        type: PY
+      - 
+        content: Quatar
+        draft: unconfirmed
+        type: QA
+      - 
+        content: Réunion
+        draft: unconfirmed
+        type: RE
+      - 
+        content: Rumænia
+        draft: unconfirmed
+        type: RO
+      - 
+        content: Serbia
+        draft: unconfirmed
+        type: RS
+      - 
+        content: Ruslandi
+        draft: unconfirmed
+        type: RU
+      - 
+        content: Rwanda
+        draft: unconfirmed
+        type: RW
+      - 
+        content: Saudi Arabia
+        draft: unconfirmed
+        type: SA
+      - 
+        content: Sudan
+        draft: unconfirmed
+        type: SD
+      - 
+        content: Sverige
+        draft: unconfirmed
+        type: SE
+      - 
+        content: Singapore
+        draft: unconfirmed
+        type: SG
+      - 
+        content: Saint Helena
+        draft: unconfirmed
+        type: SH
+      - 
+        content: Slovenia
+        draft: unconfirmed
+        type: SI
+      - 
+        content: Svalbard aamma Jan Mayen
+        draft: unconfirmed
+        type: SJ
+      - 
+        content: Slovakia
+        draft: unconfirmed
+        type: SK
+      - 
+        content: Sierra Leone
+        draft: unconfirmed
+        type: SL
+      - 
+        content: San Marino
+        draft: unconfirmed
+        type: SM
+      - 
+        content: Senegal
+        draft: unconfirmed
+        type: SN
+      - 
+        content: Somalia
+        draft: unconfirmed
+        type: SO
+      - 
+        content: Suriname
+        draft: unconfirmed
+        type: SR
+      - 
+        content: São Tomé aamma Príncipe
+        draft: unconfirmed
+        type: ST
+      - 
+        content: El Salvador
+        draft: unconfirmed
+        type: SV
+      - 
+        content: Syria
+        draft: unconfirmed
+        type: SY
+      - 
+        content: Swazilandi
+        draft: unconfirmed
+        type: SZ
+      - 
+        content: Tristan da Cunha
+        draft: unconfirmed
+        type: TA
+      - 
+        content: Chad
+        draft: unconfirmed
+        type: TD
+      - 
+        content: Togo
+        draft: unconfirmed
+        type: TG
+      - 
+        content: Thailandi
+        draft: unconfirmed
+        type: TH
+      - 
+        content: Tajikistani
+        draft: unconfirmed
+        type: TJ
+      - 
+        content: Tokelau
+        draft: unconfirmed
+        type: TK
+      - 
+        content: Timor Kangilliit
+        draft: unconfirmed
+        type: TL
+      - 
+        alt: variant
+        content: Timor Kangilliit
+        draft: unconfirmed
+        type: TL
+      - 
+        content: Turkmenistani
+        draft: unconfirmed
+        type: TM
+      - 
+        content: Tunisia
+        draft: unconfirmed
+        type: TN
+      - 
+        content: Tonga
+        draft: unconfirmed
+        type: TO
+      - 
+        content: Tyrkia
+        draft: unconfirmed
+        type: TR
+      - 
+        content: Trinidad aamma Tobago
+        draft: unconfirmed
+        type: TT
+      - 
+        content: Tuvalu
+        draft: unconfirmed
+        type: TV
+      - 
+        content: Taiwan
+        draft: unconfirmed
+        type: TW
+      - 
+        content: Tanzania
+        draft: unconfirmed
+        type: TZ
+      - 
+        content: Ukraina
+        draft: unconfirmed
+        type: UA
+      - 
+        content: Uganda
+        draft: unconfirmed
+        type: UG
+      - 
+        content: Naalagaaffeqatigiit
+        draft: unconfirmed
+        type: US
+      - 
+        content: Uruguay
+        draft: unconfirmed
+        type: UY
+      - 
+        content: Uzbekistani
+        draft: unconfirmed
+        type: UZ
+      - 
+        content: Vatikani
+        draft: unconfirmed
+        type: VA
+      - 
+        content: Venezuela
+        draft: unconfirmed
+        type: VE
+      - 
+        content: Vietnam
+        draft: unconfirmed
+        type: VN
+      - 
+        content: Vanuatu
+        draft: unconfirmed
+        type: VU
+      - 
+        content: Wallis aamma Futuna
+        draft: unconfirmed
+        type: WF
+      - 
+        content: Samoa
+        draft: unconfirmed
+        type: WS
+      - 
+        content: Jemen
+        draft: unconfirmed
+        type: YE
+      - 
+        content: Mayotte
+        draft: unconfirmed
+        type: YT
+      - 
+        content: Zambia
+        draft: unconfirmed
+        type: ZM
+      - 
+        content: Zimbabwe
+        draft: unconfirmed
+        type: ZW
+      - 
+        content: (atorsinnaanngitsoq nunap imartaa nunataalu)
+        draft: unconfirmed
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: gregorianskit ullorsiutaat
+        draft: unconfirmed
+        type: gregorian
+      numbers: 
+        content: naqippoq ruumamiut-kisitsisaat
+        draft: unconfirmed
+        type: romanlow
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - 
+            content: dannskinut koruuni
+            draft: unconfirmed
+          - 
+            content: danskinut koruuni
+            count: one
+            draft: unconfirmed
+          - 
+            content: danskinut koruuni
+            count: other
+            draft: unconfirmed
+        symbol: kr
+        type: DKK
+      - 
+        displayName: 
+          - euro
+          - 
+            content: euro
+            count: one
+          - 
+            content: euro
+            count: other
+        symbol: €
+        type: EUR
+      - 
+        displayName: 
+          - 
+            content: norskit koruuni
+            draft: unconfirmed
+          - 
+            content: norskit koruuni
+            count: one
+            draft: unconfirmed
+          - 
+            content: norskit koruuni
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: Nkr
+          draft: unconfirmed
+        type: NOK
+      - 
+        displayName: 
+          - 
+            content: svenskit koruuni
+            draft: unconfirmed
+          - 
+            content: svenskit koruuni
+            count: one
+            draft: unconfirmed
+          - 
+            content: svenskit koruuni
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: Skr
+          draft: unconfirmed
+        type: SEK
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;¤-#,##0.00
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+        draft: unconfirmed
+      - 
+        content: "{0} {1}"
+        count: other
+        draft: unconfirmed
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: 
+            content: "#,##0.###"
+            draft: unconfirmed
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 tusind
+              count: one
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 0 tusind
+              count: other
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 00 tusind
+              count: one
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 00 tusind
+              count: other
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 000 tusind
+              count: one
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 000 tusind
+              count: other
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 0 million
+              count: one
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 0 millioner
+              count: other
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 00 million
+              count: one
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 00 millioner
+              count: other
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 000 million
+              count: one
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 000 millioner
+              count: other
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 0 milliard
+              count: one
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 0 milliarder
+              count: other
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 00 milliard
+              count: one
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 00 milliarder
+              count: other
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 000 milliard
+              count: one
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 000 milliarder
+              count: other
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 0 billion
+              count: one
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 0 billioner
+              count: other
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 00 billion
+              count: one
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 00 billioner
+              count: other
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 000 billion
+              count: one
+              draft: unconfirmed
+              type: '100000000000000'
+            - 
+              content: 000 billioner
+              count: other
+              draft: unconfirmed
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 td
+              count: one
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 0 td
+              count: other
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 00 td
+              count: one
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 00 td
+              count: other
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 000 td
+              count: one
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 000 td
+              count: other
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 0 mn
+              count: one
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 0 mn
+              count: other
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 00 mn
+              count: one
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 00 mn
+              count: other
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 000 mn
+              count: one
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 000 mn
+              count: other
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 0 md
+              count: one
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 0 md
+              count: other
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 00 md
+              count: one
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 00 md
+              count: other
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 000 md
+              count: one
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 000 md
+              count: other
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 0 bn
+              count: one
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 0 bn
+              count: other
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 00 bn
+              count: one
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 00 bn
+              count: other
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 000 bn
+              count: one
+              draft: unconfirmed
+              type: '100000000000000'
+            - 
+              content: 000 bn
+              count: other
+              draft: unconfirmed
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0 %"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: 
+          content: "#E0"
+          draft: unconfirmed
+  symbols: 
+    decimal: ","
+    exponential: 
+      content: ×10^
+      draft: unconfirmed
+    group: .
+    "infinity": 
+      content: ∞
+      draft: unconfirmed
+    list: 
+      content: ;
+      draft: unconfirmed
+    minusSign: 
+      content: −
+      draft: unconfirmed
+    "nan": 
+      content: ¤¤¤
+      draft: unconfirmed
+    numberSystem: latn
+    perMille: 
+      content: ‰
+      draft: unconfirmed
+    percentSign: 
+      content: "%"
+      draft: unconfirmed
+    plusSign: 
+      content: +
+      draft: unconfirmed
+posix: 
+  messages: 
+    nostr: 
+      content: naagga:n
+      draft: unconfirmed
+    yesstr: 
+      content: aap:a
+      draft: unconfirmed
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} ulloq unnuarlu"
+          count: one
+        - 
+          content: "{0} ulloq unnuarlu"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} nalunaaquttap-akunnera"
+          count: one
+        - 
+          content: "{0} nalunaaquttap-akunnera"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minutsi"
+          count: one
+        - 
+          content: "{0} minutsi"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} qaammat"
+          count: one
+        - 
+          content: "{0} qaammat"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} sekundi"
+          count: one
+        - 
+          content: "{0} sekundi"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} sapaatip-akunnera"
+          count: one
+        - 
+          content: "{0} sapaatip-akunnera"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} ukioq"
+          count: one
+        - 
+          content: "{0} ukioq"
+          count: other

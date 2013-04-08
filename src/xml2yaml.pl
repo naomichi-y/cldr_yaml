@@ -24,7 +24,8 @@ foreach (readdir(DIR_HANDLE)) {
   my $xml = XMLin($targetPath);
   my $yaml = Dump($xml);
 
-  my $writePath = $absolutePath . '/dest/common/main/' . $_;
+  my @parse = split(/\./, $_);
+  my $writePath = sprintf('%s/dest/common/main/%s.yml', $absolutePath, $parse[0]);
 
   open(OUT_HANDLE,">" . $writePath);
   print OUT_HANDLE $yaml;

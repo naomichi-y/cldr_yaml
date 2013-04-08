@@ -1,0 +1,6049 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[a á b c d e é f g h i í j k l m n ñ o ó p q r s t u ú ü v w x y z]"
+    - 
+      content: "[ª à â ä ã ç è ê ë ì î ï º ò ô ö õ ù û]"
+      draft: contributed
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z]"
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE dd MMMM y G
+                  draft: contributed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y G
+                  draft: contributed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMM, y G
+                  draft: contributed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy GGGGG
+                  draft: contributed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+                draft: contributed
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+                draft: contributed
+              MEd: 
+                content: E, d-M
+                draft: contributed
+              MMM: 
+                content: LLL
+                draft: contributed
+              MMMEd: 
+                content: E d MMM
+                draft: contributed
+              MMMMEd: 
+                content: E d MMMM
+                draft: contributed
+              MMMMd: 
+                content: d MMMM
+                draft: contributed
+              MMMMdd: 
+                content: dd MMMM
+                draft: contributed
+              MMMd: 
+                content: d MMM
+                draft: contributed
+              MMdd: 
+                content: dd/MM
+                draft: contributed
+              Md: 
+                content: d-M
+                draft: contributed
+              d: 
+                content: d
+                draft: contributed
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+                draft: contributed
+              "y": 
+                content: 'y'
+                draft: contributed
+              yM: 
+                content: M-y
+                draft: contributed
+              yMEd: 
+                content: E, d/M/y
+              yMM: 
+                content: MM/y
+                draft: contributed
+              yMMM: 
+                content: MMM y
+                draft: contributed
+              yMMMEd: 
+                content: E, d MMM, y
+              yMMMM: 
+                content: MMMM y
+                draft: contributed
+              yMMMd: 
+                content: d MMM, y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+                draft: contributed
+              yQQQQ: 
+                content: QQQQ y
+                draft: contributed
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M – E, d/M
+                  d: 
+                    content: E, d/M – E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM
+                  d: 
+                    content: E, d MMM – E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d–d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d/M – d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y – E, d/M/y
+                  d: 
+                    content: E, d/M/y – E, d/M/y
+                  "y": 
+                    content: E, d/M/y – E, d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, d MMM, y – E, d MMM, y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM, y
+                  d: 
+                    content: d–d MMM, y
+                  "y": 
+                    content: d MMM, y – d MMM, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE dd MMMM y
+                  draft: contributed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y
+                  draft: contributed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMM, y
+                  draft: contributed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy
+                  draft: contributed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+                draft: contributed
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+                draft: contributed
+              MEd: 
+                content: E, d-M
+                draft: contributed
+              MMM: 
+                content: LLL
+                draft: contributed
+              MMMEd: 
+                content: E d MMM
+                draft: contributed
+              MMMMEd: 
+                content: E d MMMM
+                draft: contributed
+              MMMMd: 
+                content: d MMMM
+                draft: contributed
+              MMMMdd: 
+                content: dd MMMM
+                draft: contributed
+              MMMd: 
+                content: d MMM
+                draft: contributed
+              MMdd: 
+                content: dd/MM
+                draft: contributed
+              Md: 
+                content: d-M
+                draft: contributed
+              d: 
+                content: d
+                draft: contributed
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+                draft: contributed
+              "y": 
+                content: 'y'
+                draft: contributed
+              yM: 
+                content: M-y
+                draft: contributed
+              yMEd: 
+                content: E, d/M/y
+              yMM: 
+                content: MM/y
+                draft: contributed
+              yMMM: 
+                content: MMM y
+                draft: contributed
+              yMMMEd: 
+                content: E, d MMM, y
+              yMMMM: 
+                content: MMMM y
+                draft: contributed
+              yMMMd: 
+                content: d MMM, y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+                draft: contributed
+              yQQQQ: 
+                content: QQQQ y
+                draft: contributed
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M – E, d/M
+                  d: 
+                    content: E, d/M – E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM
+                  d: 
+                    content: E, d MMM – E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d–d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d/M – d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y – E, d/M/y
+                  d: 
+                    content: E, d/M/y – E, d/M/y
+                  "y": 
+                    content: E, d/M/y – E, d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, d MMM, y – E, d MMM, y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM, y
+                  d: 
+                    content: d–d MMM, y
+                  "y": 
+                    content: d MMM, y – d MMM, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: a.m.
+                    type: am
+                  - 
+                    content: p.m.
+                    type: pm
+                type: abbreviated
+              - 
+                dayPeriod: 
+                  - 
+                    content: a
+                    type: am
+                  - 
+                    content: p
+                    type: pm
+                type: narrow
+              - 
+                dayPeriod: 
+                  - 
+                    content: a.m.
+                    type: am
+                  - 
+                    content: p.m.
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Dom
+                      type: sun
+                    - 
+                      content: Lun
+                      type: mon
+                    - 
+                      content: Mar
+                      type: tue
+                    - 
+                      content: Mér
+                      type: wed
+                    - 
+                      content: Xov
+                      type: thu
+                    - 
+                      content: Ven
+                      type: fri
+                    - 
+                      content: Sáb
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Dom
+                      type: sun
+                    - 
+                      content: Luns
+                      type: mon
+                    - 
+                      content: Mt
+                      type: tue
+                    - 
+                      content: Mc
+                      type: wed
+                    - 
+                      content: Xv
+                      type: thu
+                    - 
+                      content: Ve
+                      type: fri
+                    - 
+                      content: Sáb
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: Domingo
+                      type: sun
+                    - 
+                      content: Luns
+                      type: mon
+                    - 
+                      content: Martes
+                      type: tue
+                    - 
+                      content: Mércores
+                      type: wed
+                    - 
+                      content: Xoves
+                      type: thu
+                    - 
+                      content: Venres
+                      type: fri
+                    - 
+                      content: Sábado
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: D
+                      draft: contributed
+                      type: sun
+                    - 
+                      content: L
+                      draft: contributed
+                      type: mon
+                    - 
+                      content: M
+                      draft: contributed
+                      type: tue
+                    - 
+                      content: M
+                      draft: contributed
+                      type: wed
+                    - 
+                      content: X
+                      draft: contributed
+                      type: thu
+                    - 
+                      content: V
+                      draft: contributed
+                      type: fri
+                    - 
+                      content: S
+                      draft: contributed
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Dom
+                      type: sun
+                    - 
+                      content: Luns
+                      type: mon
+                    - 
+                      content: Mt
+                      type: tue
+                    - 
+                      content: Mc
+                      type: wed
+                    - 
+                      content: Xv
+                      type: thu
+                    - 
+                      content: Ven
+                      type: fri
+                    - 
+                      content: Sáb
+                      type: sat
+                  type: short
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: a.C.
+                draft: contributed
+                type: 0
+              - 
+                content: d.C.
+                draft: contributed
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: antes de Cristo
+                draft: contributed
+                type: 0
+              - 
+                content: despois de Cristo
+                draft: contributed
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Xan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mar
+                      type: 3
+                    - 
+                      content: Abr
+                      type: 4
+                    - 
+                      content: Mai
+                      type: 5
+                    - 
+                      content: Xuñ
+                      type: 6
+                    - 
+                      content: Xul
+                      type: 7
+                    - 
+                      content: Ago
+                      type: 8
+                    - 
+                      content: Set
+                      type: 9
+                    - 
+                      content: Out
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Dec
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Xaneiro
+                      type: 1
+                    - 
+                      content: Febreiro
+                      type: 2
+                    - 
+                      content: Marzo
+                      type: 3
+                    - 
+                      content: Abril
+                      type: 4
+                    - 
+                      content: Maio
+                      type: 5
+                    - 
+                      content: Xuño
+                      type: 6
+                    - 
+                      content: Xullo
+                      type: 7
+                    - 
+                      content: Agosto
+                      type: 8
+                    - 
+                      content: Setembro
+                      type: 9
+                    - 
+                      content: Outubro
+                      type: 10
+                    - 
+                      content: Novembro
+                      type: 11
+                    - 
+                      content: Decembro
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: X
+                    draft: contributed
+                    type: 1
+                  - 
+                    content: F
+                    draft: contributed
+                    type: 2
+                  - 
+                    content: M
+                    draft: contributed
+                    type: 3
+                  - 
+                    content: A
+                    draft: contributed
+                    type: 4
+                  - 
+                    content: M
+                    draft: contributed
+                    type: 5
+                  - 
+                    content: X
+                    draft: contributed
+                    type: 6
+                  - 
+                    content: X
+                    draft: contributed
+                    type: 7
+                  - 
+                    content: A
+                    draft: contributed
+                    type: 8
+                  - 
+                    content: S
+                    draft: contributed
+                    type: 9
+                  - 
+                    content: O
+                    draft: contributed
+                    type: 10
+                  - 
+                    content: 'N'
+                    draft: contributed
+                    type: 11
+                  - 
+                    content: D
+                    draft: contributed
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: T1
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: T2
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: T3
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: T4
+                      draft: contributed
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1o trimestre
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: 2o trimestre
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: 3o trimestre
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: 4o trimestre
+                      draft: contributed
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: 1
+                    type: 1
+                  - 
+                    content: 2
+                    type: 2
+                  - 
+                    content: 3
+                    type: 3
+                  - 
+                    content: 4
+                    type: 4
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss zzzz
+                  draft: contributed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss z
+                  draft: contributed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss
+                  draft: contributed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm
+                  draft: contributed
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Era
+        type: era
+      - 
+        displayName: 
+          content: Ano
+          draft: contributed
+        relative: 
+          - 
+            content: Ano pasado
+            type: -1
+          - 
+            content: Este ano
+            type: 0
+          - 
+            content: Seguinte ano
+            type: 1
+        type: year
+      - 
+        displayName: 
+          content: Mes
+          draft: contributed
+        relative: 
+          - 
+            content: Mes pasado
+            type: -1
+          - 
+            content: Este mes
+            type: 0
+          - 
+            content: Mes seguinte
+            type: 1
+        type: month
+      - 
+        displayName: 
+          content: Semana
+          draft: contributed
+        relative: 
+          - 
+            content: Semana pasada
+            type: -1
+          - 
+            content: Esta semana
+            type: 0
+          - 
+            content: Semana seguinte
+            type: 1
+        type: week
+      - 
+        displayName: 
+          content: Día
+          draft: contributed
+        relative: 
+          - 
+            content: antonte
+            draft: contributed
+            type: -2
+          - 
+            content: onte
+            draft: contributed
+            type: -1
+          - 
+            content: hoxe
+            draft: contributed
+            type: 0
+          - 
+            content: mañá
+            draft: contributed
+            type: 1
+          - 
+            content: pasadomañá
+            draft: contributed
+            type: 2
+        type: day
+      - 
+        displayName: 
+          content: Día da semana
+          draft: contributed
+        type: weekday
+      - 
+        displayName: a.m./p.m.
+        type: dayperiod
+      - 
+        displayName: 
+          content: Hora
+          draft: contributed
+        type: hour
+      - 
+        displayName: 
+          content: Minuto
+          draft: contributed
+        type: minute
+      - 
+        displayName: 
+          content: Segundo
+          draft: contributed
+        type: second
+      - 
+        displayName: 
+          content: Fuso horario
+          draft: contributed
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: 
+      content: "{1} ({0})"
+      draft: contributed
+    fallbackRegionFormat: Horario de {1} ({0})
+    gmtFormat: 
+      content: GMT{0}
+      draft: contributed
+    gmtZeroFormat: GMT
+    hourFormat: 
+      content: +HH:mm;-HH:mm
+      draft: contributed
+    metazone: 
+      - 
+        long: 
+          standard: Horario de Afganistán
+        type: Afghanistan
+      - 
+        long: 
+          standard: Horario de África Central
+        type: Africa_Central
+      - 
+        long: 
+          standard: Horario de África Oriental
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Horario estándar de Sudáfrica
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Horario de verán de África Occidental
+          generic: Horario de África Occidental
+          standard: Horario estándar de África Occidental
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Horario de verán de Alasca
+          generic: Horario de Alasca
+          standard: Horario estándar de Alasca
+        type: Alaska
+      - 
+        long: 
+          daylight: Horario de verán do Amazonas
+          generic: Horario do Amazonas
+          standard: Horario estándar do Amazonas
+        type: Amazon
+      - 
+        long: 
+          daylight: Horario de verán da zona central
+          generic: Horario central
+          standard: Horario estándar central
+        type: America_Central
+      - 
+        long: 
+          daylight: Horario de verán de América Oriental
+          generic: Horario de América Oriental
+          standard: Horario estándar América Oriental
+        type: America_Eastern
+      - 
+        long: 
+          daylight: Horario de verán das montañas americanas
+          generic: Horario das montañas de América
+          standard: Horario estándar das montañas americanas
+        type: America_Mountain
+      - 
+        long: 
+          daylight: Horario de verán do Pacífico
+          generic: Horario do Pacífico
+          standard: Horario estándar do Pacífico
+        type: America_Pacific
+      - 
+        long: 
+          daylight: Horario de verán de Anadir
+          generic: Horario de Anadir
+          standard: Horario estándar de Anadir
+        type: Anadyr
+      - 
+        long: 
+          daylight: Horario de verán árabe
+          generic: Horario árabe
+          standard: Horario estándar árabe
+        type: Arabian
+      - 
+        long: 
+          daylight: Horario de verán de Arxentina
+          generic: Horario de Arxentina
+          standard: Horario estándar de Arxentina
+        type: Argentina
+      - 
+        long: 
+          daylight: Horario de verán de Arxentina occidental
+          generic: Horario de Arxentina occidental
+          standard: Horario estándar de Arxentina occidental
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: Horario de verán de Armenia
+          generic: Horario de Armenia
+          standard: Horario estándar de Armenia
+        type: Armenia
+      - 
+        long: 
+          daylight: Horario de verán do Atlántico
+          generic: Horario do Atlántico
+          standard: Horario estándar do Atlántico
+        type: Atlantic
+      - 
+        long: 
+          daylight: Horario de verán de Australia Central
+          generic: Horario de Australia Central
+          standard: Horario estándar de Australia Central
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Horario de verán de Australia Occidental Central
+          generic: Horario de Australia Occidental Central
+          standard: Horario estándar de Australia Occidental Central
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Horario de verán de Australia Oriental
+          generic: Horario de Australia Oriental
+          standard: Horario estándar de Australia Oriental
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Horario de verán de Australia Occidental
+          generic: Horario de Australia Occidental
+          standard: Horario estándar de Australia Occidental
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Horario de verán de Acerbaixán
+          generic: Horario de Acerbaixán
+          standard: Horario estándar de Acerbaixán
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: Horario de verán das Azores
+          generic: Horario das Azores
+          standard: Horario estándar das Azores
+        type: Azores
+      - 
+        long: 
+          daylight: Horario de verán de Bangladesh
+          generic: Horario de Bangladesh
+          standard: Horario estándar de Bangladesh
+        type: Bangladesh
+      - 
+        long: 
+          standard: Horario de Bután
+        type: Bhutan
+      - 
+        long: 
+          standard: Horario de Bolivia
+        type: Bolivia
+      - 
+        long: 
+          daylight: Horario de verán de Brasilia
+          generic: Horario de Brasilia
+          standard: Horario estándar de Brasilia
+        type: Brasilia
+      - 
+        long: 
+          standard: Horario de Brunei Darussalam
+        type: Brunei
+      - 
+        long: 
+          daylight: Horario de verán de Cabo Verde
+          generic: Horario de Cabo Verde
+          standard: Horario estándar de Cabo Verde
+        type: Cape_Verde
+      - 
+        long: 
+          standard: Horario estándar de Chamorro
+        type: Chamorro
+      - 
+        long: 
+          daylight: Horario de verán de Chatham
+          generic: Horario de Chatham
+          standard: Horario estándar de Chatham
+        type: Chatham
+      - 
+        long: 
+          daylight: Horario de verán de Chile
+          generic: Horario de Chile
+          standard: Horario estándar de Chile
+        type: Chile
+      - 
+        long: 
+          daylight: Horario de verán de China
+          generic: Horario de China
+          standard: Horario estándar de China
+        type: China
+      - 
+        long: 
+          daylight: Horario de verán de Choibalsan
+          generic: Horario de Choibalsan
+          standard: Horario estándar de Choibalsan
+        type: Choibalsan
+      - 
+        long: 
+          standard: Horario da Illa de Nadal
+        type: Christmas
+      - 
+        long: 
+          standard: Horario das Illas Cocos
+        type: Cocos
+      - 
+        long: 
+          daylight: Horario de verán de Colombia
+          generic: Horario de Colombia
+          standard: Horario estándar de Colombia
+        type: Colombia
+      - 
+        long: 
+          daylight: Horario de verán medio das Illas Cook
+          generic: Horario das Illas Cook
+          standard: Horario estándar das Illas Cook
+        type: Cook
+      - 
+        long: 
+          daylight: Horario de verán de Cuba
+          generic: Horario de Cuba
+          standard: Horario estándar de Cuba
+        type: Cuba
+      - 
+        long: 
+          standard: Horario de Davis
+        type: Davis
+      - 
+        long: 
+          standard: Horario de Dumont-d’Urville
+        type: DumontDUrville
+      - 
+        long: 
+          standard: Horario de Timor Leste
+        type: East_Timor
+      - 
+        long: 
+          daylight: Horario de verán da Illa de Pascua
+          generic: Horario da Illa de Pascua
+          standard: Horario estándar da Illa de Pascua
+        type: Easter
+      - 
+        long: 
+          standard: Horario de Ecuador
+        type: Ecuador
+      - 
+        long: 
+          daylight: Horario de verán de Europa Central
+          generic: Horario de Europa Central
+          standard: Horario estándar de Europa Central
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Horario de verán de Europa Oriental
+          generic: Horario de Europa Oriental
+          standard: Horario estándar de Europa Oriental
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Horario de verán de Europa Occidental
+          generic: Horario de Europa Occidental
+          standard: Horario estándar de Europa Occidental
+        type: Europe_Western
+      - 
+        long: 
+          daylight: Horario de verán das Illas Malvinas
+          generic: Horario das Illas Malvinas
+          standard: Horario estándar das Illas Malvinas
+        type: Falkland
+      - 
+        long: 
+          daylight: Horario de verán de Fidxi
+          generic: Horario de Fidxi
+          standard: Horario estándar de Fidxi
+        type: Fiji
+      - 
+        long: 
+          standard: Horario da Güiana Francesa
+        type: French_Guiana
+      - 
+        long: 
+          standard: Horario das Terras Austrais e Antárticas Francesas
+        type: French_Southern
+      - 
+        long: 
+          standard: Horario das Galápagos
+        type: Galapagos
+      - 
+        long: 
+          standard: Horario de Gambier
+        type: Gambier
+      - 
+        long: 
+          daylight: Horario de verán de Xeorxia
+          generic: Horario de Xeorxia
+          standard: Horario estándar de Xeorxia
+        type: Georgia
+      - 
+        long: 
+          standard: Horario das Illas Gilbert
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: Horario do meridiano de Greenwich
+        type: GMT
+      - 
+        long: 
+          daylight: Horario de verán de Grenlandia Oriental
+          generic: Horario de Grenlandia Oriental
+          standard: Horario estándar de Grenlandia Oriental
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: Horario de verán de Grenlandia Occidental
+          generic: Horario de Grenlandia Occidental
+          standard: Horario estándar de Grenlandia Occidental
+        type: Greenland_Western
+      - 
+        long: 
+          standard: Horario estándar do Golfo
+        type: Gulf
+      - 
+        long: 
+          standard: Horario da Güiana
+        type: Guyana
+      - 
+        long: 
+          daylight: Horario de verán de Hawai-Aleutianas
+          generic: Horario de Hawai-Aleutiano
+          standard: Horario estándar de Hawai-Aleutianas
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: Horario de verán de Hong Kong
+          generic: Horario de Hong Kong
+          standard: Horario estándar de Hong Kong
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: Horario de verán de Hovd
+          generic: Horario de Hovd
+          standard: Horario estándar de Hovd
+        type: Hovd
+      - 
+        long: 
+          standard: Horario estándar da India
+        type: India
+      - 
+        long: 
+          standard: Horario do Océano Índico
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: Horario de Indochina
+        type: Indochina
+      - 
+        long: 
+          standard: Horario de Indonesia Central
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: Horario de Indonesia Oriental
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: Horario de Indonesia Occidental
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: Horario de verán de Irán
+          generic: Horario de Irán
+          standard: Horario estándar de Irán
+        type: Iran
+      - 
+        long: 
+          daylight: Horario de verán de Irkutsk
+          generic: Horario de Irkutsk
+          standard: Horario estándar de Irkutsk
+        type: Irkutsk
+      - 
+        long: 
+          daylight: Horario de verán de Israel
+          generic: Horario de Israel
+          standard: Horario estándar de Israel
+        type: Israel
+      - 
+        long: 
+          daylight: Horario de verán de Xapón
+          generic: Horario de Xapón
+          standard: Horario estándar de Xapón
+        type: Japan
+      - 
+        long: 
+          daylight: Horario de verán de Petropávlovsk-Kamchatski
+          generic: Horario de Petropávlovsk-Kamchatski
+          standard: Horario estándar de Petropávlovsk-Kamchatski
+        type: Kamchatka
+      - 
+        long: 
+          standard: Horario de Casaquistán este
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: Horario de Casaquistán oeste
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: Horario de verán de Corea
+          generic: Horario de Corea
+          standard: Horario estándar de Corea
+        type: Korea
+      - 
+        long: 
+          standard: Horario de Kosrae
+        type: Kosrae
+      - 
+        long: 
+          daylight: Horario de verán de Krasnoyarsk
+          generic: Horario de Krasnoyarsk
+          standard: Horario estándar de Krasnoyarsk
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: Horario de Quirguicistán
+        type: Kyrgystan
+      - 
+        long: 
+          standard: Horario das Illas da Liña
+        type: Line_Islands
+      - 
+        long: 
+          daylight: Horario de verán de Lord Howe
+          generic: Horario de Lord Howe
+          standard: Horario estándar de Lord Howe
+        type: Lord_Howe
+      - 
+        long: 
+          standard: Horario da Illa Macquarie
+        type: Macquarie
+      - 
+        long: 
+          daylight: Horario de verán de Magadán
+          generic: Horario de Magadán
+          standard: Horario estándar de Magadán
+        type: Magadan
+      - 
+        long: 
+          standard: Horario de Malaisia
+        type: Malaysia
+      - 
+        long: 
+          standard: Horario das Maldivas
+        type: Maldives
+      - 
+        long: 
+          standard: Horario das Marquesas
+        type: Marquesas
+      - 
+        long: 
+          standard: Horario das Illas Marshall
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: Horario de verán de Mauricio
+          generic: Horario de Mauricio
+          standard: Horario estándar de Mauricio
+        type: Mauritius
+      - 
+        long: 
+          standard: Horario de Mawson
+        type: Mawson
+      - 
+        long: 
+          daylight: Horario de verán de Ulán Bátor
+          generic: Horario de Ulán Bátor
+          standard: Horario estándar de Ulán Bátor
+        type: Mongolia
+      - 
+        long: 
+          daylight: Horario de verán de Moscova
+          generic: Horario de Moscova
+          standard: Horario estándar de Moscova
+        type: Moscow
+      - 
+        long: 
+          standard: Horario de Birmania
+        type: Myanmar
+      - 
+        long: 
+          standard: Horario de Nauru
+        type: Nauru
+      - 
+        long: 
+          standard: Horario de Nepal
+        type: Nepal
+      - 
+        long: 
+          daylight: Horario de verán de Nova Caledonia
+          generic: Horario de Nova Caledonia
+          standard: Horario estándar de Nova Caledonia
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: Horario de verán de Nova Zelandia
+          generic: Horario de Nova Zelandia
+          standard: Horario estándar de Nova Zelandia
+        type: New_Zealand
+      - 
+        long: 
+          daylight: Horario de verán de Terranova
+          generic: Horario de Terranova
+          standard: Horario estándar de Terranova
+        type: Newfoundland
+      - 
+        long: 
+          standard: Horario de Niue
+        type: Niue
+      - 
+        long: 
+          standard: Horario das Illas Norfolk
+        type: Norfolk
+      - 
+        long: 
+          daylight: Horario de verán de Fernando de Noronha
+          generic: Horario de Fernando de Noronha
+          standard: Horario estándar de Fernando de Noronha
+        type: Noronha
+      - 
+        long: 
+          daylight: Horario de verán de Novosibirsk
+          generic: Horario de Novosibirsk
+          standard: Horario estándar de Novosibirsk
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: Horario de verán de Omsk
+          generic: Horario de Omsk
+          standard: Horario estándar de Omsk
+        type: Omsk
+      - 
+        long: 
+          daylight: Horario de verán de Paquistán
+          generic: Horario de Paquistán
+          standard: Horario estándar de Paquistán
+        type: Pakistan
+      - 
+        long: 
+          standard: Horario de Palau
+        type: Palau
+      - 
+        long: 
+          standard: Horario de Papúa Nova Guinea
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: Horario de verán de Paraguai
+          generic: Horario de Paraguai
+          standard: Horario estándar de Paraguai
+        type: Paraguay
+      - 
+        long: 
+          daylight: Horario de verán de Perú
+          generic: Horario de Perú
+          standard: Horario estándar de Perú
+        type: Peru
+      - 
+        long: 
+          daylight: Horario de verán de Filipinas
+          generic: Horario de Filipinas
+          standard: Horario estándar de Filipinas
+        type: Philippines
+      - 
+        long: 
+          standard: Horario das Illas Fénix
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: Horario de verán de San Pedro e Miguelón
+          generic: Horario de San Pedro e Miguelón
+          standard: Horario estándar de San Pedro e Miguelón
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: Horario de Pitcairn
+        type: Pitcairn
+      - 
+        long: 
+          standard: Horario de Pohnpei
+        type: Ponape
+      - 
+        long: 
+          standard: Horario de Reunión
+        type: Reunion
+      - 
+        long: 
+          standard: Horario de Rothera
+        type: Rothera
+      - 
+        long: 
+          daylight: Horario de verán de Sakhalin
+          generic: Horario de Sakhalin
+          standard: Horario estándar de Sakhalín
+        type: Sakhalin
+      - 
+        long: 
+          daylight: Horario de verán de Samara
+          generic: Horario de Samara
+          standard: Horario estándar de Samara
+        type: Samara
+      - 
+        long: 
+          daylight: Horario de verán de Samoa
+          generic: Horario de Samoa
+          standard: Horario estándar de Samoa
+        type: Samoa
+      - 
+        long: 
+          standard: Horario das Seixeles
+        type: Seychelles
+      - 
+        long: 
+          standard: Horario estándar de Singapur
+        type: Singapore
+      - 
+        long: 
+          standard: Horario das Illas Salomón
+        type: Solomon
+      - 
+        long: 
+          standard: Horario de Xeorxia do Sur
+        type: South_Georgia
+      - 
+        long: 
+          standard: Horario de Syowa
+        type: Syowa
+      - 
+        long: 
+          standard: Horario de Tahití
+        type: Tahiti
+      - 
+        long: 
+          daylight: Horario de verán de Taipei
+          generic: Horario de Taipei
+          standard: Horario estándar de Taipei
+        type: Taipei
+      - 
+        long: 
+          standard: Horario de Taxiquistán
+        type: Tajikistan
+      - 
+        long: 
+          standard: Horario de Toquelau
+        type: Tokelau
+      - 
+        long: 
+          daylight: Horario de verán de Tonga
+          generic: Horario de Tonga
+          standard: Horario estándar de Tonga
+        type: Tonga
+      - 
+        long: 
+          standard: Horario de Chuuk
+        type: Truk
+      - 
+        long: 
+          daylight: Horario de verán de Turcomenistán
+          generic: Horario de Turcomenistán
+          standard: Horario estándar de Turcomenistán
+        type: Turkmenistan
+      - 
+        long: 
+          standard: Horario de Tuvalu
+        type: Tuvalu
+      - 
+        long: 
+          daylight: Horario de verán de Uruguai
+          generic: Horario de Uruguai
+          standard: Horario estándar de Uruguai
+        type: Uruguay
+      - 
+        long: 
+          daylight: Horario de verán de Usbequistán
+          generic: Horario de Usbequistán
+          standard: Horario estándar de Usbequistán
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: Horario de verán de Vanuatu
+          generic: Horario de Vanuatu
+          standard: Horario estándar de Vanuatu
+        type: Vanuatu
+      - 
+        long: 
+          standard: Horario de Venezuela
+        type: Venezuela
+      - 
+        long: 
+          daylight: Horario de verán de Vladivostok
+          generic: Horario de Vladivostok
+          standard: Horario estándar de Vladivostok
+        type: Vladivostok
+      - 
+        long: 
+          daylight: Horario de verán de Volgogrado
+          generic: Horario de Volgogrado
+          standard: Horario estándar de Volgogrado
+        type: Volgograd
+      - 
+        long: 
+          standard: Horario de Vostok
+        type: Vostok
+      - 
+        long: 
+          standard: Horario da Illa Wake
+        type: Wake
+      - 
+        long: 
+          standard: Horario de Wallis e Futuna
+        type: Wallis
+      - 
+        long: 
+          daylight: Horario de verán de Yakutsk
+          generic: Horario de Iakutsk
+          standard: Horario estándar de Yakutsk
+        type: Yakutsk
+      - 
+        long: 
+          daylight: Horario de verán de Ekaterimburgo
+          generic: Horario de Ekaterimburgo
+          standard: Horario estándar de Ekaterimburgo
+        type: Yekaterinburg
+    regionFormat: 
+      content: Horario de {0}
+      draft: contributed
+    zone: 
+      - 
+        exemplarCity: Cidade descoñecida
+        type: Etc/Unknown
+      - 
+        exemplarCity: Anguila
+        type: America/Anguilla
+      - 
+        exemplarCity: 
+          content: Polo Sul
+          draft: contributed
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: 
+          content: Dumont-d'Urville
+          draft: contributed
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: 
+          content: Río Gallegos
+          draft: contributed
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: 
+          content: Tucumán
+          draft: contributed
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: 
+          content: Córdoba
+          draft: contributed
+        type: America/Cordoba
+      - 
+        exemplarCity: 
+          content: Bos Aires
+          draft: contributed
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: Saint Barthélemy
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: Bermudas
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: 
+          content: Belém
+          draft: contributed
+        type: America/Belem
+      - 
+        exemplarCity: 
+          content: São Paulo
+          draft: contributed
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: 
+          content: Maceió
+          draft: contributed
+        type: America/Maceio
+      - 
+        exemplarCity: Belice
+        type: America/Belize
+      - 
+        exemplarCity: St. John’s
+        type: America/St_Johns
+      - 
+        exemplarCity: 
+          content: Illa de Pascua
+          draft: contributed
+        type: Pacific/Easter
+      - 
+        exemplarCity: Cabo Verde
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: Curaçao
+        type: America/Curacao
+      - 
+        exemplarCity: Xibutí
+        type: Africa/Djibouti
+      - 
+        exemplarCity: 
+          content: Illas Galápagos
+          draft: contributed
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: 
+          content: Illas Canarias
+          draft: contributed
+        type: Atlantic/Canary
+      - 
+        exemplarCity: Fidxi
+        type: Pacific/Fiji
+      - 
+        exemplarCity: París
+        type: Europe/Paris
+      - 
+        exemplarCity: Granada
+        type: America/Grenada
+      - 
+        exemplarCity: Xibraltar
+        type: Europe/Gibraltar
+      - 
+        exemplarCity: Guadalupe
+        type: America/Guadeloupe
+      - 
+        exemplarCity: Güiana
+        type: America/Guyana
+      - 
+        exemplarCity: 
+          content: Iacarta
+          draft: contributed
+        type: Asia/Jakarta
+      - 
+        exemplarCity: Xamaica
+        type: America/Jamaica
+      - 
+        exemplarCity: Luxemburgo
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: Mónaco
+        type: Europe/Monaco
+      - 
+        exemplarCity: 
+          content: Ulan Bator
+          draft: contributed
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: Martinica
+        type: America/Martinique
+      - 
+        exemplarCity: Mauricio
+        type: Indian/Mauritius
+      - 
+        exemplarCity: Maldivas
+        type: Indian/Maldives
+      - 
+        exemplarCity: 
+          content: Mazatlán
+          draft: contributed
+        type: America/Mazatlan
+      - 
+        exemplarCity: 
+          content: Monterrei
+          draft: contributed
+        type: America/Monterrey
+      - 
+        exemplarCity: 
+          content: Cidade de México
+          draft: contributed
+        type: America/Mexico_City
+      - 
+        exemplarCity: 
+          content: Mérida
+          draft: contributed
+        type: America/Merida
+      - 
+        exemplarCity: 
+          content: Cancún
+          draft: contributed
+        type: America/Cancun
+      - 
+        exemplarCity: Panamá
+        type: America/Panama
+      - 
+        exemplarCity: Porto Rico
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: Asunción
+        type: America/Asuncion
+      - 
+        exemplarCity: Reunión
+        type: Indian/Reunion
+      - 
+        exemplarCity: 
+          content: Kaliningrado
+          draft: contributed
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: 
+          content: Moscova
+          draft: contributed
+        type: Europe/Moscow
+      - 
+        exemplarCity: 
+          content: Volgogrado
+          draft: contributed
+        type: Europe/Volgograd
+      - 
+        exemplarCity: 
+          content: Ecaterinburgo
+          draft: contributed
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: Singapur
+        type: Asia/Singapore
+      - 
+        exemplarCity: São Tomé
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: Lower Prince's Quarter
+        type: America/Lower_Princes
+      - 
+        exemplarCity: 
+          content: Honolulú
+          draft: contributed
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: 
+          content: New Salem
+          draft: contributed
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: 
+          content: Central
+          draft: contributed
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: 
+          content: Vincennes
+          draft: contributed
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: 
+          content: Petersburg
+          draft: contributed
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: 
+          content: Tell City
+          draft: contributed
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: 
+          content: Knox
+          draft: contributed
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: 
+          content: Winamac
+          draft: contributed
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: 
+          content: Marengo
+          draft: contributed
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: 
+          content: Vevay
+          draft: contributed
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: 
+          content: Monticello
+          draft: contributed
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: 
+          content: Samarcanda
+          draft: contributed
+        type: Asia/Samarkand
+delimiters: 
+  alternateQuotationEnd: 
+    content: ’
+    draft: contributed
+  alternateQuotationStart: 
+    content: ‘
+    draft: contributed
+  quotationEnd: 
+    content: ”
+    draft: contributed
+  quotationStart: 
+    content: “
+    draft: contributed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: gl
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} e {1}"
+        type: 2
+      - 
+        content: "{0} e {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Idioma: {0}"
+        draft: contributed
+        type: language
+      - 
+        content: "Alfabeto: {0}"
+        draft: contributed
+        type: script
+      - 
+        content: "Rexión: {0}"
+        draft: contributed
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: Calendario
+        type: calendar
+      - 
+        content: Ignorar clasificación de símbolos
+        type: colAlternate
+      - 
+        content: Clasificación de acentos invertida
+        type: colBackwards
+      - 
+        content: Orde de maiúsculas/minúsculas
+        type: colCaseFirst
+      - 
+        content: Clasificación que distingue entre maiúsculas e minúsculas
+        type: colCaseLevel
+      - 
+        content: Clasificación Kana
+        type: colHiraganaQuaternary
+      - 
+        content: Orde de clasificación
+        type: collation
+      - 
+        content: Clasificación normalizada
+        type: colNormalization
+      - 
+        content: Clasificación numérica
+        type: colNumeric
+      - 
+        content: Forza de clasificación
+        type: colStrength
+      - 
+        content: Moeda
+        type: currency
+      - 
+        content: Números
+        type: numbers
+      - 
+        content: Fuso horario
+        type: timezone
+      - 
+        content: Variante local
+        type: va
+      - 
+        content: Clasificar como símbolos
+        type: variableTop
+      - 
+        content: Uso privado
+        type: x
+  languages: 
+    language: 
+      - 
+        content: abkhazo
+        type: ab
+      - 
+        content: Acoli
+        type: ach
+      - 
+        content: afrikaans
+        draft: contributed
+        type: af
+      - 
+        content: lingua afro-asiática
+        draft: contributed
+        type: afa
+      - 
+        content: Akán
+        type: ak
+      - 
+        content: lingua algonquina
+        draft: contributed
+        type: alg
+      - 
+        content: amárico
+        draft: contributed
+        type: am
+      - 
+        content: aragonés
+        draft: contributed
+        type: an
+      - 
+        content: lingua apache
+        draft: contributed
+        type: apa
+      - 
+        content: árabe
+        draft: contributed
+        type: ar
+      - 
+        content: arameo
+        draft: contributed
+        type: arc
+      - 
+        content: lingua artificial
+        draft: contributed
+        type: art
+      - 
+        content: assamés
+        draft: contributed
+        type: as
+      - 
+        content: asturiano
+        draft: contributed
+        type: ast
+      - 
+        content: lingua australiana
+        draft: contributed
+        type: aus
+      - 
+        content: aimará
+        type: ay
+      - 
+        content: azerbaiano
+        draft: contributed
+        type: az
+      - 
+        alt: short
+        content: acerbaixano
+        type: az
+      - 
+        content: lingua báltica
+        draft: contributed
+        type: bat
+      - 
+        content: bielorruso
+        draft: contributed
+        type: be
+      - 
+        content: Bemba
+        type: bem
+      - 
+        content: búlgaro
+        draft: contributed
+        type: bg
+      - 
+        content: Bihariano
+        type: bh
+      - 
+        content: bengalí
+        draft: contributed
+        type: bn
+      - 
+        content: tibetano
+        type: bo
+      - 
+        content: Bretón
+        type: br
+      - 
+        content: bosnio
+        draft: contributed
+        type: bs
+      - 
+        content: catalán
+        draft: contributed
+        type: ca
+      - 
+        content: lingua india centroamericana
+        draft: contributed
+        type: cai
+      - 
+        content: lingua caucásica
+        draft: contributed
+        type: cau
+      - 
+        content: lingua céltica
+        draft: contributed
+        type: cel
+      - 
+        content: Cheroqui
+        type: chr
+      - 
+        content: Kurdo soraní
+        type: ckb
+      - 
+        content: Corso
+        type: co
+      - 
+        content: checo
+        draft: contributed
+        type: cs
+      - 
+        content: eslavo eclesiástico
+        draft: contributed
+        type: cu
+      - 
+        content: galés
+        draft: contributed
+        type: cy
+      - 
+        content: dinamarqués
+        draft: contributed
+        type: da
+      - 
+        content: alemán
+        draft: contributed
+        type: de
+      - 
+        content: alemán de austria
+        draft: contributed
+        type: de_AT
+      - 
+        content: alto alemán suízo
+        type: de_CH
+      - 
+        content: divehi
+        type: dv
+      - 
+        content: dzongkha
+        type: dz
+      - 
+        content: Ewé
+        type: ee
+      - 
+        content: ibibio
+        type: efi
+      - 
+        content: exipcio antigo
+        draft: contributed
+        type: egy
+      - 
+        content: grego
+        draft: contributed
+        type: el
+      - 
+        content: inglés
+        draft: contributed
+        type: en
+      - 
+        content: inglés australiano
+        draft: contributed
+        type: en_AU
+      - 
+        content: inglés canadiano
+        draft: contributed
+        type: en_CA
+      - 
+        content: inglés británico
+        draft: contributed
+        type: en_GB
+      - 
+        content: inglés americano
+        draft: contributed
+        type: en_US
+      - 
+        content: esperanto
+        draft: contributed
+        type: eo
+      - 
+        content: español
+        draft: contributed
+        type: es
+      - 
+        content: español latinoamericano
+        draft: contributed
+        type: es_419
+      - 
+        content: castelán
+        type: es_ES
+      - 
+        content: estoniano
+        draft: contributed
+        type: et
+      - 
+        content: éuscaro
+        draft: contributed
+        type: eu
+      - 
+        content: persa
+        draft: contributed
+        type: fa
+      - 
+        content: finés
+        draft: contributed
+        type: fi
+      - 
+        content: filipino
+        draft: contributed
+        type: fil
+      - 
+        content: lingua finno-úgrica
+        draft: contributed
+        type: fiu
+      - 
+        content: fixiano
+        type: fj
+      - 
+        content: faroés
+        draft: contributed
+        type: fo
+      - 
+        content: francés
+        draft: contributed
+        type: fr
+      - 
+        content: francés canadiano
+        draft: contributed
+        type: fr_CA
+      - 
+        content: francés suízo
+        draft: contributed
+        type: fr_CH
+      - 
+        content: frisón
+        draft: contributed
+        type: fy
+      - 
+        content: irlandés
+        draft: contributed
+        type: ga
+      - 
+        content: Ga
+        type: gaa
+      - 
+        content: gaélico escocés
+        draft: contributed
+        type: gd
+      - 
+        content: lingua xermánica
+        draft: contributed
+        type: gem
+      - 
+        content: galego
+        type: gl
+      - 
+        content: guaraní
+        draft: contributed
+        type: gn
+      - 
+        content: grego antigo
+        draft: contributed
+        type: grc
+      - 
+        content: alemán suízo
+        type: gsw
+      - 
+        content: guxaratiano
+        draft: contributed
+        type: gu
+      - 
+        content: hausa
+        type: ha
+      - 
+        content: hawaiano
+        type: haw
+      - 
+        content: hebreo
+        draft: contributed
+        type: he
+      - 
+        content: hindi
+        draft: contributed
+        type: hi
+      - 
+        content: croata
+        draft: contributed
+        type: hr
+      - 
+        content: haitiano
+        type: ht
+      - 
+        content: húngaro
+        draft: contributed
+        type: hu
+      - 
+        content: armenio
+        draft: contributed
+        type: hy
+      - 
+        content: Interlingua
+        type: ia
+      - 
+        content: indonesio
+        draft: contributed
+        type: id
+      - 
+        content: ibo
+        type: ig
+      - 
+        content: lingua índica
+        draft: contributed
+        type: inc
+      - 
+        content: lingua indoeuropea
+        draft: contributed
+        type: ine
+      - 
+        content: islandés
+        draft: contributed
+        type: is
+      - 
+        content: italiano
+        draft: contributed
+        type: it
+      - 
+        content: xaponés
+        draft: contributed
+        type: ja
+      - 
+        content: xavanés
+        draft: contributed
+        type: jv
+      - 
+        content: xeorxiano
+        draft: contributed
+        type: ka
+      - 
+        content: Congolés
+        type: kg
+      - 
+        content: casaco
+        type: kk
+      - 
+        content: cambodiano
+        draft: contributed
+        type: km
+      - 
+        content: kannada
+        draft: contributed
+        type: kn
+      - 
+        content: coreano
+        draft: contributed
+        type: ko
+      - 
+        content: cachemir
+        type: ks
+      - 
+        content: kurdo
+        draft: contributed
+        type: ku
+      - 
+        content: kyrgiz
+        draft: contributed
+        type: ky
+      - 
+        content: latín
+        draft: contributed
+        type: la
+      - 
+        content: luxemburgués
+        type: lb
+      - 
+        content: Ganda
+        type: lg
+      - 
+        content: lingala
+        draft: contributed
+        type: ln
+      - 
+        content: laotiano
+        draft: contributed
+        type: lo
+      - 
+        content: Lozi
+        type: loz
+      - 
+        content: lituano
+        draft: contributed
+        type: lt
+      - 
+        content: Luba-Lulua
+        type: lua
+      - 
+        content: letón
+        draft: contributed
+        type: lv
+      - 
+        content: Crioulo mauritano
+        type: mfe
+      - 
+        content: malgaxe
+        type: mg
+      - 
+        content: maorí
+        type: mi
+      - 
+        content: lingua miscelánea
+        draft: contributed
+        type: mis
+      - 
+        content: macedonio
+        draft: contributed
+        type: mk
+      - 
+        content: malabar
+        type: ml
+      - 
+        content: mongol
+        draft: contributed
+        type: mn
+      - 
+        content: marathi
+        draft: contributed
+        type: mr
+      - 
+        content: malaio
+        draft: contributed
+        type: ms
+      - 
+        content: maltés
+        draft: contributed
+        type: mt
+      - 
+        content: varias linguas
+        draft: contributed
+        type: mul
+      - 
+        content: birmano
+        type: my
+      - 
+        content: lingua india norteamericana
+        draft: contributed
+        type: nai
+      - 
+        content: noruegués bokmal
+        draft: contributed
+        type: nb
+      - 
+        content: ndebele do norte
+        type: nd
+      - 
+        content: nepalí
+        draft: contributed
+        type: ne
+      - 
+        content: holandés
+        draft: contributed
+        type: nl
+      - 
+        content: flamenco
+        draft: contributed
+        type: nl_BE
+      - 
+        content: noruegués nynorsk
+        draft: contributed
+        type: nn
+      - 
+        content: noruegués
+        draft: contributed
+        type: 'no'
+      - 
+        content: Sesotho sa leboa
+        type: nso
+      - 
+        content: lingua nubia
+        draft: contributed
+        type: nub
+      - 
+        content: chewa
+        type: ny
+      - 
+        content: Nyankole
+        type: nyn
+      - 
+        content: Occitano
+        type: oc
+      - 
+        content: Oromo
+        type: om
+      - 
+        content: oriya
+        type: or
+      - 
+        content: osetio
+        type: os
+      - 
+        content: punjabi
+        draft: contributed
+        type: pa
+      - 
+        content: lingua filipina
+        draft: contributed
+        type: phi
+      - 
+        content: polaco
+        draft: contributed
+        type: pl
+      - 
+        content: paxtún
+        type: ps
+      - 
+        alt: variant
+        content: paxtún
+        type: ps
+      - 
+        content: portugués
+        draft: contributed
+        type: pt
+      - 
+        content: portugués brasileiro
+        draft: contributed
+        type: pt_BR
+      - 
+        content: Portugués europeo
+        type: pt_PT
+      - 
+        content: quechua
+        type: qu
+      - 
+        content: romanche
+        type: rm
+      - 
+        content: rundi
+        type: rn
+      - 
+        content: romanés
+        draft: contributed
+        type: ro
+      - 
+        content: lingua románica
+        draft: contributed
+        type: roa
+      - 
+        content: ruso
+        draft: contributed
+        type: ru
+      - 
+        content: ruandés
+        type: rw
+      - 
+        content: sánscrito
+        draft: contributed
+        type: sa
+      - 
+        content: lingua india sudamericana
+        draft: contributed
+        type: sai
+      - 
+        content: sindhi
+        draft: contributed
+        type: sd
+      - 
+        content: sami do norte
+        type: se
+      - 
+        content: lingua semita
+        draft: contributed
+        type: sem
+      - 
+        content: sango
+        type: sg
+      - 
+        content: lingua de signos
+        draft: contributed
+        type: sgn
+      - 
+        content: serbocroata
+        draft: contributed
+        type: sh
+      - 
+        content: cingalés
+        type: si
+      - 
+        content: eslovaco
+        draft: contributed
+        type: sk
+      - 
+        content: esloveno
+        type: sl
+      - 
+        content: lingua eslávica
+        draft: contributed
+        type: sla
+      - 
+        content: samoano
+        type: sm
+      - 
+        content: shona
+        type: sn
+      - 
+        content: somalí
+        type: so
+      - 
+        content: albanés
+        draft: contributed
+        type: sq
+      - 
+        content: serbio
+        draft: contributed
+        type: sr
+      - 
+        content: swati
+        type: ss
+      - 
+        content: lingua do nilo-sáhara
+        draft: contributed
+        type: ssa
+      - 
+        content: sesoto
+        type: st
+      - 
+        content: sondanés
+        type: su
+      - 
+        content: sueco
+        draft: contributed
+        type: sv
+      - 
+        content: swahili
+        type: sw
+      - 
+        content: tamil
+        draft: contributed
+        type: ta
+      - 
+        content: telugu
+        draft: contributed
+        type: te
+      - 
+        content: tetún
+        type: tet
+      - 
+        content: taxico
+        type: tg
+      - 
+        content: tailandés
+        draft: contributed
+        type: th
+      - 
+        content: tigriña
+        type: ti
+      - 
+        content: turcomano
+        type: tk
+      - 
+        content: tagalo
+        draft: contributed
+        type: tl
+      - 
+        content: Clingon
+        type: tlh
+      - 
+        content: tswana
+        type: tn
+      - 
+        content: tonganés
+        type: to
+      - 
+        content: tok pisin
+        type: tpi
+      - 
+        content: turco
+        draft: contributed
+        type: tr
+      - 
+        content: xitsonga
+        type: ts
+      - 
+        content: tártaro
+        type: tt
+      - 
+        content: Tumbuka
+        type: tum
+      - 
+        content: lingua altaica
+        draft: contributed
+        type: tut
+      - 
+        content: twi
+        draft: unconfirmed
+        type: tw
+      - 
+        content: tahitiano
+        type: ty
+      - 
+        content: uigur
+        type: ug
+      - 
+        alt: variant
+        content: uigur
+        type: ug
+      - 
+        content: ucraíno
+        draft: contributed
+        type: uk
+      - 
+        content: lingua descoñecida ou non válida
+        draft: contributed
+        type: und
+      - 
+        content: urdú
+        draft: contributed
+        type: ur
+      - 
+        content: uzbeco
+        draft: contributed
+        type: uz
+      - 
+        content: venda
+        type: ve
+      - 
+        content: vietnamita
+        draft: contributed
+        type: vi
+      - 
+        content: wólof
+        type: wo
+      - 
+        content: xhosa
+        draft: contributed
+        type: xh
+      - 
+        content: Yiddish
+        type: yi
+      - 
+        content: ioruba
+        type: yo
+      - 
+        content: chinés
+        draft: contributed
+        type: zh
+      - 
+        content: chinés simplificado
+        draft: contributed
+        type: zh_Hans
+      - 
+        content: chinés tradicional
+        draft: contributed
+        type: zh_Hant
+      - 
+        content: zulú
+        draft: contributed
+        type: zu
+      - 
+        content: sen contido lingüístico
+        draft: contributed
+        type: zxx
+  localeDisplayPattern: 
+    localePattern: 
+      content: "{0} ({1})"
+      draft: contributed
+    localeSeparator: 
+      content: ", "
+      draft: contributed
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: métrico decimal
+        draft: contributed
+        type: metric
+      - 
+        content: RU
+        type: UK
+      - 
+        content: americano
+        draft: contributed
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: Árabe
+        draft: contributed
+        type: Arab
+      - 
+        alt: variant
+        content: Perso-Árabe
+        type: Arab
+      - 
+        content: Armenio
+        type: Armn
+      - 
+        content: Bengalí
+        type: Beng
+      - 
+        content: Bopomofo
+        type: Bopo
+      - 
+        content: Braille
+        draft: contributed
+        type: Brai
+      - 
+        content: Silabario aborixe canadiano unificado
+        draft: contributed
+        type: Cans
+      - 
+        content: Cirílico
+        draft: contributed
+        type: Cyrl
+      - 
+        content: Devanagari
+        type: Deva
+      - 
+        content: Etíope
+        type: Ethi
+      - 
+        content: Xeorxiano
+        type: Geor
+      - 
+        content: Grego
+        draft: contributed
+        type: Grek
+      - 
+        content: Guxarati
+        type: Gujr
+      - 
+        content: Gurmukhi
+        type: Guru
+      - 
+        content: Hangul
+        type: Hang
+      - 
+        content: Han
+        type: Hani
+      - 
+        content: Simplificado
+        type: Hans
+      - 
+        alt: stand-alone
+        content: Han simplificado
+        type: Hans
+      - 
+        content: Tradicional
+        type: Hant
+      - 
+        alt: stand-alone
+        content: Han tradicional
+        type: Hant
+      - 
+        content: Hebreo
+        draft: contributed
+        type: Hebr
+      - 
+        content: Hiragana
+        type: Hira
+      - 
+        content: Xaponés
+        type: Jpan
+      - 
+        content: Katakana
+        type: Kana
+      - 
+        content: Camboxano
+        type: Khmr
+      - 
+        content: Kannadés
+        type: Knda
+      - 
+        content: Coreano
+        type: Kore
+      - 
+        content: Laosiano
+        type: Laoo
+      - 
+        content: Latino
+        draft: contributed
+        type: Latn
+      - 
+        content: Malabar
+        type: Mlym
+      - 
+        content: Mongol
+        type: Mong
+      - 
+        content: Birmania
+        type: Mymr
+      - 
+        content: Oriya
+        type: Orya
+      - 
+        content: Cingalés
+        type: Sinh
+      - 
+        content: Támil
+        type: Taml
+      - 
+        content: Telugú
+        type: Telu
+      - 
+        content: Thaana
+        type: Thaa
+      - 
+        content: Tailandés
+        type: Thai
+      - 
+        content: Tibetano
+        type: Tibt
+      - 
+        content: Símbolos
+        type: Zsym
+      - 
+        content: Non escrita
+        type: Zxxx
+      - 
+        content: Común
+        type: Zyyy
+      - 
+        content: Escritura descoñecida
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Mundo
+        draft: contributed
+        type: '001'
+      - 
+        content: África
+        draft: contributed
+        type: '002'
+      - 
+        content: Norteamérica
+        draft: contributed
+        type: '003'
+      - 
+        content: Sudamérica
+        draft: contributed
+        type: '005'
+      - 
+        content: Oceanía
+        draft: contributed
+        type: '009'
+      - 
+        content: África Occidental
+        draft: contributed
+        type: '011'
+      - 
+        content: América Central
+        draft: contributed
+        type: '013'
+      - 
+        content: África Oriental
+        draft: contributed
+        type: '014'
+      - 
+        content: África Septentrional
+        draft: contributed
+        type: '015'
+      - 
+        content: África Central
+        draft: contributed
+        type: '017'
+      - 
+        content: África Meridional
+        draft: contributed
+        type: '018'
+      - 
+        content: América
+        draft: contributed
+        type: '019'
+      - 
+        content: América do Norte
+        draft: contributed
+        type: '021'
+      - 
+        content: Caribe
+        draft: contributed
+        type: '029'
+      - 
+        content: Asia Oriental
+        draft: contributed
+        type: '030'
+      - 
+        content: Sul de Asia
+        draft: contributed
+        type: '034'
+      - 
+        content: Sureste Asiático
+        draft: contributed
+        type: '035'
+      - 
+        content: Europa Meridional
+        draft: contributed
+        type: '039'
+      - 
+        content: Australasia
+        type: '053'
+      - 
+        content: Melanesia
+        draft: contributed
+        type: '054'
+      - 
+        content: Rexión da Micronesia
+        draft: contributed
+        type: '057'
+      - 
+        content: Polinesia
+        draft: contributed
+        type: '061'
+      - 
+        content: Asia
+        draft: contributed
+        type: 142
+      - 
+        content: Asia Central
+        draft: contributed
+        type: 143
+      - 
+        content: Asia Occidental
+        draft: contributed
+        type: 145
+      - 
+        content: Europa
+        draft: contributed
+        type: 150
+      - 
+        content: Europa do Leste
+        draft: contributed
+        type: 151
+      - 
+        content: Europa Septentrional
+        draft: contributed
+        type: 154
+      - 
+        content: Europa Occidental
+        draft: contributed
+        type: 155
+      - 
+        content: América Latina
+        draft: contributed
+        type: 419
+      - 
+        content: Illa de Ascensión
+        type: AC
+      - 
+        content: Andorra
+        draft: contributed
+        type: AD
+      - 
+        content: Emiratos Árabes Unidos
+        draft: contributed
+        type: AE
+      - 
+        content: Afganistán
+        draft: contributed
+        type: AF
+      - 
+        content: Antiga e Barbuda
+        draft: contributed
+        type: AG
+      - 
+        content: Anguila
+        draft: contributed
+        type: AI
+      - 
+        content: Albania
+        draft: contributed
+        type: AL
+      - 
+        content: Armenia
+        draft: contributed
+        type: AM
+      - 
+        content: Antillas Holandesas
+        draft: contributed
+        type: AN
+      - 
+        content: Angola
+        draft: contributed
+        type: AO
+      - 
+        content: Antártida
+        draft: contributed
+        type: AQ
+      - 
+        content: Arxentina
+        draft: contributed
+        type: AR
+      - 
+        content: Samoa Americana
+        draft: contributed
+        type: AS
+      - 
+        content: Austria
+        draft: contributed
+        type: AT
+      - 
+        content: Australia
+        draft: contributed
+        type: AU
+      - 
+        content: Aruba
+        draft: contributed
+        type: AW
+      - 
+        content: Illas Aland
+        draft: contributed
+        type: AX
+      - 
+        content: Acerbaixán
+        draft: contributed
+        type: AZ
+      - 
+        content: Bosnia e Hercegovina
+        draft: contributed
+        type: BA
+      - 
+        content: Barbados
+        draft: contributed
+        type: BB
+      - 
+        content: Bangladesh
+        draft: contributed
+        type: BD
+      - 
+        content: Bélxica
+        draft: contributed
+        type: BE
+      - 
+        content: Burkina Faso
+        draft: contributed
+        type: BF
+      - 
+        content: Bulgaria
+        draft: contributed
+        type: BG
+      - 
+        content: Bahrein
+        draft: contributed
+        type: BH
+      - 
+        content: Burundi
+        draft: contributed
+        type: BI
+      - 
+        content: Benin
+        draft: contributed
+        type: BJ
+      - 
+        content: San Bartolomé
+        draft: contributed
+        type: BL
+      - 
+        content: Bermudas
+        draft: contributed
+        type: BM
+      - 
+        content: Brunei
+        draft: contributed
+        type: BN
+      - 
+        content: Bolivia
+        draft: contributed
+        type: BO
+      - 
+        content: Caribe neerlandés
+        type: BQ
+      - 
+        content: Brasil
+        draft: contributed
+        type: BR
+      - 
+        content: Bahamas
+        draft: contributed
+        type: BS
+      - 
+        content: Bután
+        draft: contributed
+        type: BT
+      - 
+        content: Illa Bouvet
+        draft: contributed
+        type: BV
+      - 
+        content: Botsuana
+        draft: contributed
+        type: BW
+      - 
+        content: Bielorrusia
+        draft: contributed
+        type: BY
+      - 
+        content: Belice
+        draft: contributed
+        type: BZ
+      - 
+        content: Canadá
+        draft: contributed
+        type: CA
+      - 
+        content: Illas Cocos [Keeling]
+        type: CC
+      - 
+        content: República Democrática do Congo
+        draft: contributed
+        type: CD
+      - 
+        alt: variant
+        content: Congo [República Democrática do]
+        type: CD
+      - 
+        content: República Africana Central
+        draft: contributed
+        type: CF
+      - 
+        content: Congo
+        draft: contributed
+        type: CG
+      - 
+        alt: variant
+        content: Congo [República]
+        type: CG
+      - 
+        content: Suíza
+        draft: contributed
+        type: CH
+      - 
+        content: Costa de Marfil
+        type: CI
+      - 
+        alt: variant
+        content: Costa do Marfil
+        type: CI
+      - 
+        content: Illas Cook
+        draft: contributed
+        type: CK
+      - 
+        content: Chile
+        draft: contributed
+        type: CL
+      - 
+        content: Camerún
+        draft: contributed
+        type: CM
+      - 
+        content: China
+        draft: contributed
+        type: CN
+      - 
+        content: Colombia
+        draft: contributed
+        type: CO
+      - 
+        content: Illa Clipperton
+        type: CP
+      - 
+        content: Costa Rica
+        draft: contributed
+        type: CR
+      - 
+        content: Cuba
+        draft: contributed
+        type: CU
+      - 
+        content: Cabo Verde
+        draft: contributed
+        type: CV
+      - 
+        content: Curaçao
+        type: CW
+      - 
+        content: Illa Christmas
+        draft: contributed
+        type: CX
+      - 
+        content: Chipre
+        draft: contributed
+        type: CY
+      - 
+        content: República Checa
+        draft: contributed
+        type: CZ
+      - 
+        content: Alemaña
+        draft: contributed
+        type: DE
+      - 
+        content: Diego García
+        type: DG
+      - 
+        content: Xibuti
+        draft: contributed
+        type: DJ
+      - 
+        content: Dinamarca
+        draft: contributed
+        type: DK
+      - 
+        content: Dominica
+        draft: contributed
+        type: DM
+      - 
+        content: República Dominicana
+        draft: contributed
+        type: DO
+      - 
+        content: Arxelia
+        draft: contributed
+        type: DZ
+      - 
+        content: Ceuta e Melilla
+        type: EA
+      - 
+        content: Ecuador
+        draft: contributed
+        type: EC
+      - 
+        content: Estonia
+        draft: contributed
+        type: EE
+      - 
+        content: Exipto
+        draft: contributed
+        type: EG
+      - 
+        content: Sahara Occidental
+        draft: contributed
+        type: EH
+      - 
+        content: Eritrea
+        draft: contributed
+        type: ER
+      - 
+        content: España
+        type: ES
+      - 
+        content: Etiopía
+        draft: contributed
+        type: ET
+      - 
+        content: Unión Europea
+        draft: contributed
+        type: EU
+      - 
+        content: Finlandia
+        draft: contributed
+        type: FI
+      - 
+        content: Fixi
+        draft: contributed
+        type: FJ
+      - 
+        content: Illas Malvinas
+        draft: contributed
+        type: FK
+      - 
+        alt: variant
+        content: Illas Malvinas
+        type: FK
+      - 
+        content: Micronesia
+        draft: contributed
+        type: FM
+      - 
+        content: Illas Feroe
+        draft: contributed
+        type: FO
+      - 
+        content: Francia
+        draft: contributed
+        type: FR
+      - 
+        content: Gabón
+        draft: contributed
+        type: GA
+      - 
+        content: Reino Unido
+        draft: contributed
+        type: GB
+      - 
+        content: Granada
+        draft: contributed
+        type: GD
+      - 
+        content: Xeorxia
+        draft: contributed
+        type: GE
+      - 
+        content: Güiana Francesa
+        draft: contributed
+        type: GF
+      - 
+        content: Guernsey
+        draft: contributed
+        type: GG
+      - 
+        content: Gana
+        draft: contributed
+        type: GH
+      - 
+        content: Xibraltar
+        draft: contributed
+        type: GI
+      - 
+        content: Grenlandia
+        draft: contributed
+        type: GL
+      - 
+        content: Gambia
+        draft: contributed
+        type: GM
+      - 
+        content: Guinea
+        draft: contributed
+        type: GN
+      - 
+        content: Guadalupe
+        draft: contributed
+        type: GP
+      - 
+        content: Guinea Ecuatorial
+        draft: contributed
+        type: GQ
+      - 
+        content: Grecia
+        draft: contributed
+        type: GR
+      - 
+        content: Xeorxia do Sur e Illas Sandwich
+        draft: contributed
+        type: GS
+      - 
+        content: Guatemala
+        draft: contributed
+        type: GT
+      - 
+        content: Guam
+        draft: contributed
+        type: GU
+      - 
+        content: Guinea-Bissau
+        draft: contributed
+        type: GW
+      - 
+        content: Güiana
+        draft: contributed
+        type: GY
+      - 
+        content: Hong Kong RAE de China
+        draft: contributed
+        type: HK
+      - 
+        alt: short
+        content: Hong Kong
+        draft: contributed
+        type: HK
+      - 
+        content: Illa Heard e Illas McDonald
+        draft: contributed
+        type: HM
+      - 
+        content: Honduras
+        draft: contributed
+        type: HN
+      - 
+        content: Croacia
+        draft: contributed
+        type: HR
+      - 
+        content: Haití
+        draft: contributed
+        type: HT
+      - 
+        content: Hungría
+        draft: contributed
+        type: HU
+      - 
+        content: Illas Canarias
+        type: IC
+      - 
+        content: Indonesia
+        draft: contributed
+        type: ID
+      - 
+        content: Irlanda
+        draft: contributed
+        type: IE
+      - 
+        content: Israel
+        draft: contributed
+        type: IL
+      - 
+        content: Illa de Man
+        draft: contributed
+        type: IM
+      - 
+        content: India
+        draft: contributed
+        type: IN
+      - 
+        content: Territorio Británico do Océano Índico
+        draft: contributed
+        type: IO
+      - 
+        content: Iraq
+        draft: contributed
+        type: IQ
+      - 
+        content: Irán
+        draft: contributed
+        type: IR
+      - 
+        content: Islandia
+        draft: contributed
+        type: IS
+      - 
+        content: Italia
+        draft: contributed
+        type: IT
+      - 
+        content: Jersey
+        draft: contributed
+        type: JE
+      - 
+        content: Xamaica
+        draft: contributed
+        type: JM
+      - 
+        content: Xordania
+        draft: contributed
+        type: JO
+      - 
+        content: Xapón
+        draft: contributed
+        type: JP
+      - 
+        content: Quenia
+        draft: contributed
+        type: KE
+      - 
+        content: Quirguicistán
+        draft: contributed
+        type: KG
+      - 
+        content: Cambodia
+        draft: contributed
+        type: KH
+      - 
+        content: Kiribati
+        draft: contributed
+        type: KI
+      - 
+        content: Comores
+        draft: contributed
+        type: KM
+      - 
+        content: San Cristovo e Nevis
+        draft: contributed
+        type: KN
+      - 
+        content: Corea do Norte
+        draft: contributed
+        type: KP
+      - 
+        content: Corea do Sur
+        draft: contributed
+        type: KR
+      - 
+        content: Kuwait
+        draft: contributed
+        type: KW
+      - 
+        content: Illas Caimán
+        draft: contributed
+        type: KY
+      - 
+        content: Kazakhstan
+        draft: contributed
+        type: KZ
+      - 
+        content: Laos
+        draft: contributed
+        type: LA
+      - 
+        content: Líbano
+        draft: contributed
+        type: LB
+      - 
+        content: Santa Lucía
+        draft: contributed
+        type: LC
+      - 
+        content: Liechtenstein
+        draft: contributed
+        type: LI
+      - 
+        content: Sri Lanka
+        draft: contributed
+        type: LK
+      - 
+        content: Liberia
+        draft: contributed
+        type: LR
+      - 
+        content: Lesotho
+        draft: contributed
+        type: LS
+      - 
+        content: Lituania
+        draft: contributed
+        type: LT
+      - 
+        content: Luxemburgo
+        draft: contributed
+        type: LU
+      - 
+        content: Letonia
+        draft: contributed
+        type: LV
+      - 
+        content: Libia
+        draft: contributed
+        type: LY
+      - 
+        content: Marrocos
+        draft: contributed
+        type: MA
+      - 
+        content: Mónaco
+        draft: contributed
+        type: MC
+      - 
+        content: Moldova
+        draft: contributed
+        type: MD
+      - 
+        content: Montenegro
+        draft: contributed
+        type: ME
+      - 
+        content: San Martiño
+        draft: contributed
+        type: MF
+      - 
+        content: Madagascar
+        draft: contributed
+        type: MG
+      - 
+        content: Illas Marshall
+        draft: contributed
+        type: MH
+      - 
+        content: Macedonia
+        draft: contributed
+        type: MK
+      - 
+        alt: variant
+        content: Macedonia [Antiga República Iugoslava de Macedonia]
+        type: MK
+      - 
+        content: Mali
+        draft: contributed
+        type: ML
+      - 
+        content: Myanmar [Birmania]
+        type: MM
+      - 
+        content: Mongolia
+        draft: contributed
+        type: MN
+      - 
+        content: Macau RAE de China
+        draft: contributed
+        type: MO
+      - 
+        alt: short
+        content: Macau
+        draft: contributed
+        type: MO
+      - 
+        content: Illas Marianas do norte
+        draft: contributed
+        type: MP
+      - 
+        content: Martinica
+        draft: contributed
+        type: MQ
+      - 
+        content: Mauritania
+        draft: contributed
+        type: MR
+      - 
+        content: Montserrat
+        draft: contributed
+        type: MS
+      - 
+        content: Malta
+        draft: contributed
+        type: MT
+      - 
+        content: Mauricio
+        draft: contributed
+        type: MU
+      - 
+        content: Maldivas
+        draft: contributed
+        type: MV
+      - 
+        content: Malaui
+        draft: contributed
+        type: MW
+      - 
+        content: México
+        draft: contributed
+        type: MX
+      - 
+        content: Malaisia
+        draft: contributed
+        type: MY
+      - 
+        content: Mozambique
+        draft: contributed
+        type: MZ
+      - 
+        content: Namibia
+        draft: contributed
+        type: NA
+      - 
+        content: Nova Caledonia
+        draft: contributed
+        type: NC
+      - 
+        content: Níxer
+        draft: contributed
+        type: NE
+      - 
+        content: Illa Norfolk
+        draft: contributed
+        type: NF
+      - 
+        content: Nixeria
+        draft: contributed
+        type: NG
+      - 
+        content: Nicaragua
+        draft: contributed
+        type: NI
+      - 
+        content: Países Baixos
+        draft: contributed
+        type: NL
+      - 
+        content: Noruega
+        draft: contributed
+        type: 'NO'
+      - 
+        content: Nepal
+        draft: contributed
+        type: NP
+      - 
+        content: Nauru
+        draft: contributed
+        type: NR
+      - 
+        content: Niue
+        draft: contributed
+        type: NU
+      - 
+        content: Nova Celandia
+        draft: contributed
+        type: NZ
+      - 
+        content: Omán
+        draft: contributed
+        type: OM
+      - 
+        content: Panamá
+        draft: contributed
+        type: PA
+      - 
+        content: Perú
+        draft: contributed
+        type: PE
+      - 
+        content: Polinesia Francesa
+        draft: contributed
+        type: PF
+      - 
+        content: Papúa Nova Guinea
+        draft: contributed
+        type: PG
+      - 
+        content: Filipinas
+        draft: contributed
+        type: PH
+      - 
+        content: Paquistán
+        draft: contributed
+        type: PK
+      - 
+        content: Polonia
+        draft: contributed
+        type: PL
+      - 
+        content: San Pedro e Miguelón
+        draft: contributed
+        type: PM
+      - 
+        content: Illas Pitcairn
+        type: PN
+      - 
+        content: Porto Rico
+        draft: contributed
+        type: PR
+      - 
+        content: Territorios palestinos
+        type: PS
+      - 
+        alt: short
+        content: Palestina
+        type: PS
+      - 
+        content: Portugal
+        draft: contributed
+        type: PT
+      - 
+        content: Palau
+        draft: contributed
+        type: PW
+      - 
+        content: Paraguai
+        draft: contributed
+        type: PY
+      - 
+        content: Qatar
+        draft: contributed
+        type: QA
+      - 
+        content: Oceanía Distante
+        draft: contributed
+        type: QO
+      - 
+        content: Reunión
+        draft: contributed
+        type: RE
+      - 
+        content: Romanía
+        draft: contributed
+        type: RO
+      - 
+        content: Serbia
+        draft: contributed
+        type: RS
+      - 
+        content: Rusia
+        draft: contributed
+        type: RU
+      - 
+        content: Ruanda
+        draft: contributed
+        type: RW
+      - 
+        content: Arabia Saudita
+        draft: contributed
+        type: SA
+      - 
+        content: Illas Salomón
+        draft: contributed
+        type: SB
+      - 
+        content: Seixeles
+        type: SC
+      - 
+        content: Sudán
+        draft: contributed
+        type: SD
+      - 
+        content: Suecia
+        draft: contributed
+        type: SE
+      - 
+        content: Singapur
+        draft: contributed
+        type: SG
+      - 
+        content: Santa Helena
+        draft: contributed
+        type: SH
+      - 
+        content: Eslovenia
+        draft: contributed
+        type: SI
+      - 
+        content: Svalbard e Jan Mayen
+        draft: contributed
+        type: SJ
+      - 
+        content: Eslovaquia
+        draft: contributed
+        type: SK
+      - 
+        content: Serra Leoa
+        draft: contributed
+        type: SL
+      - 
+        content: San Marino
+        draft: contributed
+        type: SM
+      - 
+        content: Senegal
+        draft: contributed
+        type: SN
+      - 
+        content: Somalia
+        draft: contributed
+        type: SO
+      - 
+        content: Surinam
+        draft: contributed
+        type: SR
+      - 
+        content: Sudán do sur
+        type: SS
+      - 
+        content: Santo Tomé e Príncipe
+        draft: contributed
+        type: ST
+      - 
+        content: El Salvador
+        draft: contributed
+        type: SV
+      - 
+        content: Sint Maarten
+        type: SX
+      - 
+        content: Siria
+        draft: contributed
+        type: SY
+      - 
+        content: Suacilandia
+        draft: contributed
+        type: SZ
+      - 
+        content: Tristán da Cunha
+        type: TA
+      - 
+        content: Illas Turks e Caicos
+        draft: contributed
+        type: TC
+      - 
+        content: Chad
+        type: TD
+      - 
+        content: Territorios Franceses do Sul
+        draft: contributed
+        type: TF
+      - 
+        content: Togo
+        draft: contributed
+        type: TG
+      - 
+        content: Tailandia
+        draft: contributed
+        type: TH
+      - 
+        content: Taxiquistán
+        draft: contributed
+        type: TJ
+      - 
+        content: Tokelau
+        draft: contributed
+        type: TK
+      - 
+        content: Timor Leste
+        draft: contributed
+        type: TL
+      - 
+        alt: variant
+        content: Timor-Leste
+        type: TL
+      - 
+        content: Turkmenistán
+        draft: contributed
+        type: TM
+      - 
+        content: Tunisia
+        draft: contributed
+        type: TN
+      - 
+        content: Tonga
+        draft: contributed
+        type: TO
+      - 
+        content: Turquía
+        draft: contributed
+        type: TR
+      - 
+        content: Trindade e Tobago
+        draft: contributed
+        type: TT
+      - 
+        content: Tuvalu
+        draft: contributed
+        type: TV
+      - 
+        content: Taiwán
+        draft: contributed
+        type: TW
+      - 
+        content: Tanzania
+        draft: contributed
+        type: TZ
+      - 
+        content: Ucraína
+        draft: contributed
+        type: UA
+      - 
+        content: Uganda
+        draft: contributed
+        type: UG
+      - 
+        content: Illas Menores Distantes dos EUA.
+        type: UM
+      - 
+        content: Estados Unidos de América
+        draft: contributed
+        type: US
+      - 
+        content: Uruguai
+        draft: contributed
+        type: UY
+      - 
+        content: Uzbekistán
+        draft: contributed
+        type: UZ
+      - 
+        content: Cidade do Vaticano
+        draft: contributed
+        type: VA
+      - 
+        content: San Vicente e Granadinas
+        draft: contributed
+        type: VC
+      - 
+        content: Venezuela
+        draft: contributed
+        type: VE
+      - 
+        content: Illas Virxes Británicas
+        draft: contributed
+        type: VG
+      - 
+        content: Illas Virxes Estadounidenses
+        draft: contributed
+        type: VI
+      - 
+        content: Vietnam
+        draft: contributed
+        type: VN
+      - 
+        content: Vanuatu
+        draft: contributed
+        type: VU
+      - 
+        content: Wallis e Futuna
+        draft: contributed
+        type: WF
+      - 
+        content: Samoa
+        draft: contributed
+        type: WS
+      - 
+        content: Iemen
+        draft: contributed
+        type: YE
+      - 
+        content: Mayotte
+        draft: contributed
+        type: YT
+      - 
+        content: Sudáfrica
+        draft: contributed
+        type: ZA
+      - 
+        content: Zambia
+        draft: contributed
+        type: ZM
+      - 
+        content: Cimbabue
+        draft: contributed
+        type: ZW
+      - 
+        content: Rexión descoñecida
+        type: ZZ
+  transformNames: 
+    transformName: 
+      - 
+        content: BGN
+        type: BGN
+      - 
+        content: Numérico
+        type: Numeric
+      - 
+        content: Ton
+        type: Tone
+      - 
+        content: UNGEGN
+        type: UNGEGN
+      - 
+        content: Acentos
+        type: x-Accents
+      - 
+        content: Ancho completo
+        type: x-Fullwidth
+      - 
+        content: Ancho medio
+        type: x-Halfwidth
+      - 
+        content: Jamo
+        type: x-Jamo
+      - 
+        content: Pinyin
+        type: x-Pinyin
+      - 
+        content: Publicación
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: Calendario Minguo
+        type: roc
+      colAlternate: 
+        content: Clasificar ignorando símbolos
+        type: shifted
+      colBackwards: 
+        content: Clasificar acentos invertidos
+        type: 'yes'
+      colCaseFirst: 
+        content: Clasificar primeiro as maiúsculas
+        type: upper
+      colCaseLevel: 
+        content: Clasificar distinguindo entre maiúsculas e minúsculas
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: Clasificar Kana de modo diferente
+        type: 'yes'
+      colNormalization: 
+        content: Clasificar Unicode normalizado
+        type: 'yes'
+      colNumeric: 
+        content: Clasificar díxitos numericamente
+        type: 'yes'
+      colStrength: 
+        content: Clasificar acentos/maiúsculas e minúsculas/ancho
+        type: tertiary
+      collation: 
+        content: Criterio de ordenación radical-trazo
+        type: unihan
+      numbers: 
+        content: Díxitos Vai
+        type: vaii
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - peseta andorrana
+          - 
+            content: peseta andorrana
+            count: one
+            draft: contributed
+          - 
+            content: pesetas andorranas
+            count: other
+            draft: contributed
+        type: ADP
+      - 
+        displayName: Dirham dos Emiratos Árabes Unidos
+        type: AED
+      - 
+        displayName: Afgani afgano
+        type: AFN
+      - 
+        displayName: Lek albanés
+        type: ALL
+      - 
+        displayName: Dram armenio
+        type: AMD
+      - 
+        displayName: Florín das Antillas Neerlandesas
+        type: ANG
+      - 
+        displayName: Kwanza angoleño
+        type: AOA
+      - 
+        displayName: 
+          - 
+            content: Peso arxentino (1983-1985)
+            draft: contributed
+          - 
+            content: peso arxentino (ARP)
+            count: one
+            draft: contributed
+          - 
+            content: pesos arxentinos (ARP)
+            count: other
+            draft: contributed
+        type: ARP
+      - 
+        displayName: 
+          - 
+            content: Peso arxentino
+            draft: contributed
+          - 
+            content: peso arxentino
+            count: one
+            draft: contributed
+          - 
+            content: pesos arxentinos
+            count: other
+            draft: contributed
+        type: ARS
+      - 
+        displayName: Dólar australiano
+        type: AUD
+      - 
+        displayName: Florín arubeño
+        type: AWG
+      - 
+        displayName: Manat acerbaixano
+        type: AZN
+      - 
+        displayName: Marco convertible de Bosnia e Hercegovina
+        type: BAM
+      - 
+        displayName: Dólar de Barbados
+        type: BBD
+      - 
+        displayName: Taka de Bangladesh
+        type: BDT
+      - 
+        displayName: 
+          - 
+            content: Franco belga (convertible)
+            draft: contributed
+          - 
+            content: franco belga (convertible)
+            count: one
+            draft: contributed
+          - 
+            content: francos belgas (convertibles)
+            count: other
+            draft: contributed
+        type: BEC
+      - 
+        displayName: 
+          - 
+            content: Franco belga
+            draft: contributed
+          - 
+            content: franco belga
+            count: one
+            draft: contributed
+          - 
+            content: francos belgas
+            count: other
+            draft: contributed
+        type: BEF
+      - 
+        displayName: 
+          - 
+            content: Franco belga (financeiro)
+            draft: contributed
+          - 
+            content: franco belga (financeiro)
+            count: one
+            draft: contributed
+          - 
+            content: francos belgas (financeiros)
+            count: other
+            draft: contributed
+        type: BEL
+      - 
+        displayName: Lev búlgaro
+        type: BGN
+      - 
+        displayName: Dinar de Baréin
+        type: BHD
+      - 
+        displayName: Franco burundés
+        type: BIF
+      - 
+        displayName: Dólar das Bemudas
+        type: BMD
+      - 
+        displayName: Dólar de Brunei
+        type: BND
+      - 
+        displayName: 
+          - 
+            content: Boliviano
+            draft: contributed
+          - 
+            content: boliviano
+            count: one
+            draft: contributed
+          - 
+            content: bolivianos
+            count: other
+            draft: contributed
+        type: BOB
+      - 
+        displayName: 
+          - 
+            content: Peso boliviano
+            draft: contributed
+          - 
+            content: peso boliviano
+            count: one
+            draft: contributed
+          - 
+            content: pesos bolivianos
+            count: other
+            draft: contributed
+        type: BOP
+      - 
+        displayName: 
+          content: MVDOL boliviano
+          draft: contributed
+        type: BOV
+      - 
+        displayName: 
+          - 
+            content: Cruzeiro novo brasileiro (1967-1986)
+            draft: contributed
+          - 
+            content: cruzeiro novo brasileiro
+            count: one
+            draft: contributed
+          - 
+            content: cruzeiros novos brasileiros
+            count: other
+            draft: contributed
+        type: BRB
+      - 
+        displayName: 
+          - 
+            content: Cruzado brasileiro
+            draft: contributed
+          - 
+            content: cruzado brasileiro
+            count: one
+            draft: contributed
+          - 
+            content: cruzados brasileiros
+            count: other
+            draft: contributed
+        type: BRC
+      - 
+        displayName: 
+          - 
+            content: Cruzeiro brasileiro (1990-1993)
+            draft: contributed
+          - 
+            content: cruzeiro brasileiro (BRE)
+            count: one
+            draft: contributed
+          - 
+            content: cruzeiros brasileiros (BRE)
+            count: other
+            draft: contributed
+        type: BRE
+      - 
+        displayName: 
+          - 
+            content: Real brasileiro
+            draft: contributed
+          - 
+            content: real brasileiro
+            count: one
+            draft: contributed
+          - 
+            content: reais brasileiros
+            count: other
+            draft: contributed
+        type: BRL
+      - 
+        displayName: 
+          - 
+            content: Cruzado novo brasileiro
+            draft: contributed
+          - 
+            content: cruzado novo brasileiro
+            count: one
+            draft: contributed
+          - 
+            content: cruzados novos brasileiros
+            count: other
+            draft: contributed
+        type: BRN
+      - 
+        displayName: 
+          - 
+            content: Cruzeiro brasileiro
+            draft: contributed
+          - 
+            content: cruzeiro brasileiro
+            count: one
+            draft: contributed
+          - 
+            content: cruzeiros brasileiros
+            count: other
+            draft: contributed
+        type: BRR
+      - 
+        displayName: Dólar das Bahamas
+        type: BSD
+      - 
+        displayName: Ngultrum butanés
+        type: BTN
+      - 
+        displayName: Pula botsuano
+        type: BWP
+      - 
+        displayName: Rublo bielorruso
+        type: BYR
+      - 
+        displayName: Dólar beliceño
+        type: BZD
+      - 
+        displayName: 
+          content: Dólar canadiano
+          draft: contributed
+        type: CAD
+      - 
+        displayName: Franco congolés
+        type: CDF
+      - 
+        displayName: 
+          content: Franco suizo
+          draft: contributed
+        type: CHF
+      - 
+        displayName: 
+          - 
+            content: Unidades de fomento chilenas
+            draft: contributed
+          - 
+            content: unidade de fomento chilena
+            count: one
+            draft: contributed
+          - 
+            content: unidades de fomento chilenas
+            count: other
+            draft: contributed
+        type: CLF
+      - 
+        displayName: 
+          - 
+            content: Peso chileno
+            draft: contributed
+          - 
+            content: peso chileno
+            count: one
+            draft: contributed
+          - 
+            content: pesos chilenos
+            count: other
+            draft: contributed
+        type: CLP
+      - 
+        displayName: 
+          - 
+            content: Iuan renminbi chinés
+            draft: contributed
+          - 
+            content: iuán chinés
+            count: one
+            draft: contributed
+          - 
+            content: iuáns chineses
+            count: other
+            draft: contributed
+        type: CNY
+      - 
+        displayName: 
+          - 
+            content: Peso colombiano
+            draft: contributed
+          - 
+            content: peso colombiano
+            count: one
+            draft: contributed
+          - 
+            content: pesos colombianos
+            count: other
+            draft: contributed
+        type: COP
+      - 
+        displayName: 
+          - 
+            content: Colón costarricense
+            draft: contributed
+          - 
+            content: colón costarricense
+            count: one
+            draft: contributed
+          - 
+            content: colóns costarricenses
+            count: other
+            draft: contributed
+        type: CRC
+      - 
+        displayName: Peso cubano convertible
+        type: CUC
+      - 
+        displayName: 
+          - 
+            content: Peso cubano
+            draft: contributed
+          - 
+            content: peso cubano
+            count: one
+          - 
+            content: pesos cubanos
+            count: other
+        type: CUP
+      - 
+        displayName: Escudo caboverdiano
+        type: CVE
+      - 
+        displayName: Coroa checa
+        type: CZK
+      - 
+        displayName: 
+          - 
+            content: Marco alemán
+            draft: contributed
+          - 
+            content: marco alemán
+            count: one
+            draft: contributed
+          - 
+            content: marcos alemáns
+            count: other
+            draft: contributed
+        type: DEM
+      - 
+        displayName: Franco xibutiano
+        type: DJF
+      - 
+        displayName: 
+          content: Coroa dinamarquesa
+          draft: contributed
+        type: DKK
+      - 
+        displayName: 
+          - 
+            content: Peso dominicano
+            draft: contributed
+          - 
+            content: peso dominicano
+            count: one
+            draft: contributed
+          - 
+            content: pesos dominicanos
+            count: other
+            draft: contributed
+        type: DOP
+      - 
+        displayName: Dinar alxeriano
+        type: DZD
+      - 
+        displayName: 
+          - 
+            content: Sucre ecuatoriano
+            draft: contributed
+          - 
+            content: sucre ecuatoriano
+            count: one
+            draft: contributed
+          - 
+            content: sucres ecuatorianos
+            count: other
+            draft: contributed
+        type: ECS
+      - 
+        displayName: 
+          content: Unidade de valor constante ecuatoriana
+          draft: contributed
+        type: ECV
+      - 
+        displayName: Libra exipcia
+        type: EGP
+      - 
+        displayName: Nakfa eritreo
+        type: ERN
+      - 
+        displayName: 
+          content: Peseta española (conta A)
+          draft: contributed
+        type: ESA
+      - 
+        displayName: 
+          content: Peseta española (conta convertible)
+          draft: contributed
+        type: ESB
+      - 
+        decimal: ","
+        displayName: 
+          - 
+            content: Peseta española
+            draft: contributed
+          - 
+            content: peseta
+            count: one
+            draft: contributed
+          - 
+            content: pesetas
+            count: other
+            draft: contributed
+        group: .
+        pattern: "#,##0.00 ¤"
+        symbol: ₧
+        type: ESP
+      - 
+        displayName: Birr etíope
+        type: ETB
+      - 
+        displayName: 
+          - 
+            content: Euro
+            draft: contributed
+          - 
+            content: euro
+            count: one
+            draft: contributed
+          - 
+            content: euros
+            count: other
+            draft: contributed
+        type: EUR
+      - 
+        displayName: Dólar fixiano
+        type: FJD
+      - 
+        displayName: Libra das Malvinas
+        type: FKP
+      - 
+        displayName: 
+          - 
+            content: Franco francés
+            draft: contributed
+          - 
+            content: franco francés
+            count: one
+            draft: contributed
+          - 
+            content: francos franceses
+            count: other
+            draft: contributed
+        type: FRF
+      - 
+        displayName: 
+          - 
+            content: Libra esterlina
+            draft: contributed
+          - 
+            content: libra esterlina
+            count: one
+            draft: contributed
+          - 
+            content: libras esterlinas
+            count: other
+            draft: contributed
+        type: GBP
+      - 
+        displayName: Lari xeorxiano
+        type: GEL
+      - 
+        displayName: Cedi de Gana
+        type: GHS
+      - 
+        displayName: 
+          - 
+            content: Libra de Xibraltar
+            draft: contributed
+          - 
+            content: libra xibraltareña
+            count: one
+            draft: contributed
+          - 
+            content: libras xibraltareñas
+            count: other
+            draft: contributed
+        type: GIP
+      - 
+        displayName: Dalasi gambiano
+        type: GMD
+      - 
+        displayName: 
+          content: Franco guineano
+          draft: contributed
+        type: GNF
+      - 
+        displayName: 
+          content: Syli guineano
+          draft: contributed
+        type: GNS
+      - 
+        displayName: 
+          content: Ekwele guineana
+          draft: contributed
+        type: GQE
+      - 
+        displayName: 
+          content: Dracma grego
+          draft: contributed
+        type: GRD
+      - 
+        displayName: 
+          content: Quetzal guatemalteco
+          draft: contributed
+        type: GTQ
+      - 
+        displayName: Dólar güianés
+        type: GYD
+      - 
+        displayName: Dólar de Hong Kong
+        type: HKD
+      - 
+        displayName: 
+          content: Lempira hondureño
+          draft: contributed
+        type: HNL
+      - 
+        displayName: Kuna croata
+        type: HRK
+      - 
+        displayName: Gourde haitiano
+        type: HTG
+      - 
+        displayName: 
+          content: Florín húngaro
+          draft: contributed
+        type: HUF
+      - 
+        displayName: Rupia indonesia
+        type: IDR
+      - 
+        displayName: 
+          - 
+            content: Libra irlandesa
+            draft: contributed
+          - 
+            content: libra irlandesa
+            count: one
+            draft: contributed
+          - 
+            content: libras irlandesas
+            count: other
+            draft: contributed
+        type: IEP
+      - 
+        displayName: Novo shequel israelí
+        type: ILS
+      - 
+        displayName: 
+          content: Rupia india
+          draft: contributed
+        type: INR
+      - 
+        displayName: Dinar iraquí
+        type: IQD
+      - 
+        displayName: Rial iraniano
+        type: IRR
+      - 
+        displayName: 
+          content: Coroa islandesa
+          draft: contributed
+        type: ISK
+      - 
+        displayName: 
+          content: Lira italiana
+          draft: contributed
+        type: ITL
+      - 
+        displayName: Dólar xamaicano
+        type: JMD
+      - 
+        displayName: Dinar xordano
+        type: JOD
+      - 
+        displayName: 
+          content: Ien xaponés
+          draft: contributed
+        type: JPY
+      - 
+        displayName: Chelín kenyano
+        type: KES
+      - 
+        displayName: Som quirguizo
+        type: KGS
+      - 
+        displayName: Riel camboxano
+        type: KHR
+      - 
+        displayName: Franco comoriano
+        type: KMF
+      - 
+        displayName: Won norcoreano
+        type: KPW
+      - 
+        displayName: Won surcoreano
+        type: KRW
+      - 
+        displayName: Dinar kuwaití
+        type: KWD
+      - 
+        displayName: Dólar das Illas Caimán
+        type: KYD
+      - 
+        displayName: Tenge casaco
+        type: KZT
+      - 
+        displayName: Kip laosiano
+        type: LAK
+      - 
+        displayName: Libra libanesa
+        type: LBP
+      - 
+        displayName: Rupia de Sri Lanka
+        type: LKR
+      - 
+        displayName: Dólar liberiano
+        type: LRD
+      - 
+        displayName: Loti de Lesoto
+        type: LSL
+      - 
+        displayName: Litas lituana
+        type: LTL
+      - 
+        displayName: 
+          content: Franco convertible luxemburgués
+          draft: contributed
+        type: LUC
+      - 
+        displayName: 
+          content: Franco luxemburgués
+          draft: contributed
+        type: LUF
+      - 
+        displayName: 
+          content: Franco financeiro luxemburgués
+          draft: contributed
+        type: LUL
+      - 
+        displayName: Lats letón
+        type: LVL
+      - 
+        displayName: Dinar libio
+        type: LYD
+      - 
+        displayName: 
+          content: Dirham marroquí
+          draft: contributed
+        type: MAD
+      - 
+        displayName: 
+          content: Franco marroquí
+          draft: contributed
+        type: MAF
+      - 
+        displayName: Leu moldavo
+        type: MDL
+      - 
+        displayName: Ariary malgaxe
+        type: MGA
+      - 
+        displayName: Dinar macedonio
+        type: MKD
+      - 
+        displayName: Kiat birmano
+        type: MMK
+      - 
+        displayName: Tugrik mongol
+        type: MNT
+      - 
+        displayName: Pataca de Macau
+        type: MOP
+      - 
+        displayName: Ouguiya mauritano
+        type: MRO
+      - 
+        displayName: Rupia de Mauricio
+        type: MUR
+      - 
+        displayName: Rupia maldiva
+        type: MVR
+      - 
+        displayName: Kwacha de Malaui
+        type: MWK
+      - 
+        displayName: 
+          - 
+            content: Peso mexicano
+            draft: contributed
+          - 
+            content: peso mexicano
+            count: one
+            draft: contributed
+          - 
+            content: pesos mexicanos
+            count: other
+            draft: contributed
+        type: MXN
+      - 
+        displayName: 
+          content: Peso de prata mexicano (1861-1992)
+          draft: contributed
+        type: MXP
+      - 
+        displayName: 
+          content: Unidade de inversión mexicana
+          draft: contributed
+        type: MXV
+      - 
+        displayName: Ringgit malaio
+        type: MYR
+      - 
+        displayName: 
+          - Metical de Mozambique
+          - 
+            content: metical de Mozambique
+            count: one
+          - 
+            content: meticais de Mozambique
+            count: other
+        type: MZN
+      - 
+        displayName: Dólar namibio
+        type: NAD
+      - 
+        displayName: Naira nixeriano
+        type: NGN
+      - 
+        displayName: 
+          content: Córdoba nicaragüense
+          draft: contributed
+        type: NIC
+      - 
+        displayName: 
+          content: Córdoba de ouro nicaragüense
+          draft: contributed
+        type: NIO
+      - 
+        displayName: 
+          content: Florín holandés
+          draft: contributed
+        type: NLG
+      - 
+        displayName: 
+          content: Coroa norueguesa
+          draft: contributed
+        type: NOK
+      - 
+        displayName: Rupia nepalesa
+        type: NPR
+      - 
+        displayName: Dólar neozelandés
+        type: NZD
+      - 
+        displayName: Rial omaní
+        type: OMR
+      - 
+        displayName: 
+          content: Balboa panameño
+          draft: contributed
+        type: PAB
+      - 
+        displayName: 
+          content: Inti peruano
+          draft: contributed
+        type: PEI
+      - 
+        displayName: 
+          content: Sol novo peruano
+          draft: contributed
+        type: PEN
+      - 
+        displayName: 
+          content: Sol peruano
+          draft: contributed
+        type: PES
+      - 
+        displayName: Kina de Papúa Nova Guinea
+        type: PGK
+      - 
+        displayName: 
+          content: Peso filipino
+          draft: contributed
+        type: PHP
+      - 
+        displayName: Rupia paquistaní
+        type: PKR
+      - 
+        displayName: Zloty polaco
+        type: PLN
+      - 
+        displayName: 
+          - 
+            content: Escudo portugués
+            draft: contributed
+          - 
+            content: escudo portugués
+            count: one
+            draft: contributed
+          - 
+            content: escudos portugueses
+            count: other
+            draft: contributed
+        type: PTE
+      - 
+        displayName: 
+          - 
+            content: Guaraní paraguaio
+            draft: contributed
+          - 
+            content: Guaraní paraguaio
+            count: one
+          - 
+            content: Guaranís paraguaios
+            count: other
+        type: PYG
+      - 
+        displayName: Rial qatarí
+        type: QAR
+      - 
+        displayName: 
+          - Leu romanés
+          - 
+            content: leu romanés
+            count: one
+          - 
+            content: lei romanés
+            count: other
+        type: RON
+      - 
+        displayName: Dinar serbio
+        type: RSD
+      - 
+        displayName: 
+          - 
+            content: Rublo ruso
+            draft: contributed
+          - 
+            content: rublo ruso
+            count: one
+          - 
+            content: rublos rusos
+            count: other
+        type: RUB
+      - 
+        displayName: 
+          content: Rublo ruso (1991-1998)
+          draft: contributed
+        type: RUR
+      - 
+        displayName: Franco ruandés
+        type: RWF
+      - 
+        displayName: Rial saudita
+        type: SAR
+      - 
+        displayName: Dólar das Illas Salomón
+        type: SBD
+      - 
+        displayName: Rupia de Seixeles
+        type: SCR
+      - 
+        displayName: Libra sudanesa
+        type: SDG
+      - 
+        displayName: 
+          content: Coroa sueca
+          draft: contributed
+        type: SEK
+      - 
+        displayName: Dólar de Singapur
+        type: SGD
+      - 
+        displayName: Libra de Santa Helena
+        type: SHP
+      - 
+        displayName: Leone de Serra Leoa
+        type: SLL
+      - 
+        displayName: Chelín somalí
+        type: SOS
+      - 
+        displayName: Dólar surinamés
+        type: SRD
+      - 
+        displayName: 
+          - Libra sursudanesa
+          - 
+            content: libra sursudanesa
+            count: one
+          - 
+            content: libras sursudanesa
+            count: other
+        type: SSP
+      - 
+        displayName: Dobra de San Tomé e Príncipe
+        type: STD
+      - 
+        displayName: 
+          - 
+            content: Rublo soviético
+            draft: contributed
+          - 
+            content: rublo soviético
+            count: one
+            draft: contributed
+          - 
+            content: rublos soviéticos
+            count: other
+            draft: contributed
+        type: SUR
+      - 
+        displayName: 
+          - 
+            content: Colón salvadoreño
+            draft: contributed
+          - 
+            content: colón salvadoreño
+            count: one
+            draft: contributed
+          - 
+            content: colóns salvadoreños
+            count: other
+            draft: contributed
+        type: SVC
+      - 
+        displayName: Libra siria
+        type: SYP
+      - 
+        displayName: Lilanxeni de Suacilandia
+        type: SZL
+      - 
+        displayName: Baht tailandés
+        type: THB
+      - 
+        displayName: Somoni taxico
+        type: TJS
+      - 
+        displayName: Manat turcomano
+        type: TMT
+      - 
+        displayName: Dinar tunesino
+        type: TND
+      - 
+        displayName: Paʻanga de Tonga
+        type: TOP
+      - 
+        displayName: Lira turca
+        type: TRY
+      - 
+        displayName: Dólar de Trinidade e Tobago
+        type: TTD
+      - 
+        displayName: Novo dólar taiwanés
+        type: TWD
+      - 
+        displayName: Chelín tanzano
+        type: TZS
+      - 
+        displayName: Grivna ucraína
+        type: UAH
+      - 
+        displayName: Chelín ugandés
+        type: UGX
+      - 
+        displayName: 
+          - 
+            content: Dólar estadounidense
+            draft: contributed
+          - 
+            content: dólar estadounidense
+            count: one
+          - 
+            content: dólares estadounidenses
+            count: other
+        type: USD
+      - 
+        displayName: 
+          content: Peso en unidades indexadas uruguaio
+          draft: contributed
+        type: UYI
+      - 
+        displayName: 
+          content: Peso uruguaio (1975-1993)
+          draft: contributed
+        type: UYP
+      - 
+        displayName: 
+          - 
+            content: Peso uruguaio
+            draft: contributed
+          - 
+            content: peso uruguaio
+            count: one
+            draft: contributed
+          - 
+            content: pesos uruguaios
+            count: other
+            draft: contributed
+        type: UYU
+      - 
+        displayName: Som usbeco
+        type: UZS
+      - 
+        displayName: 
+          - 
+            content: Bolívar venezolano (1871-2008)
+            draft: contributed
+          - 
+            content: bolívar venezolano (1871-2008)
+            count: one
+            draft: contributed
+          - 
+            content: bolívares venezolanos (1871-2008)
+            count: other
+            draft: contributed
+        type: VEB
+      - 
+        displayName: 
+          - 
+            content: Bolívar venezolano
+            draft: contributed
+          - 
+            content: bolívar venezolano
+            count: one
+            draft: contributed
+          - 
+            content: bolívares venezolanos
+            count: other
+            draft: contributed
+        type: VEF
+      - 
+        displayName: Dong vietnamita
+        type: VND
+      - 
+        displayName: Vatu vanuatense
+        type: VUV
+      - 
+        displayName: Tala samoano
+        type: WST
+      - 
+        displayName: Franco CFA BEAC
+        type: XAF
+      - 
+        displayName: 
+          content: Prata
+          draft: contributed
+        type: XAG
+      - 
+        displayName: 
+          content: Ouro
+          draft: contributed
+        type: XAU
+      - 
+        displayName: Dólar Caribe-Leste
+        type: XCD
+      - 
+        displayName: Franco CFA BCEAO
+        type: XOF
+      - 
+        displayName: 
+          content: Paladio
+          draft: contributed
+        type: XPD
+      - 
+        displayName: Franco CFP
+        type: XPF
+      - 
+        displayName: 
+          content: Platino
+          draft: contributed
+        type: XPT
+      - 
+        displayName: 
+          - 
+            content: Unidade monetaria descoñecida ou non válida
+            draft: contributed
+          - 
+            content: unidade monetaria descoñecida ou non válida
+            count: one
+            draft: contributed
+          - 
+            content: unidades monetarias descoñecidas ou non válidas
+            count: other
+            draft: contributed
+        type: XXX
+      - 
+        displayName: Rial iemení
+        type: YER
+      - 
+        displayName: 
+          content: Rand sudafricano
+          draft: contributed
+        type: ZAR
+      - 
+        displayName: Kwacha zambiano (1968-2012)
+        type: ZMK
+      - 
+        displayName: Kwacha zambiano
+        type: ZMW
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+        draft: contributed
+      - 
+        content: "{0} {1}"
+        count: other
+        draft: contributed
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 mil
+              count: one
+              type: 1000
+            - 
+              content: 0 mil
+              count: other
+              type: 1000
+            - 
+              content: 00 mil
+              count: one
+              type: 10000
+            - 
+              content: 00 mil
+              count: other
+              type: 10000
+            - 
+              content: 000 mil
+              count: one
+              type: 100000
+            - 
+              content: 000 mil
+              count: other
+              type: 100000
+            - 
+              content: 0 millón
+              count: one
+              type: 1000000
+            - 
+              content: 0 millóns
+              count: other
+              type: 1000000
+            - 
+              content: 00 millón
+              count: one
+              type: 10000000
+            - 
+              content: 00 millóns
+              count: other
+              type: 10000000
+            - 
+              content: 000 millón
+              count: one
+              type: 100000000
+            - 
+              content: 000 millóns
+              count: other
+              type: 100000000
+            - 
+              content: 0 mil millóns
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 mil millóns
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 mil millóns
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 mil millóns
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 mil millóns
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 mil millóns
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 billóns
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 billóns
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 billóns
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 billóns
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 billóns
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 billóns
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0
+              count: one
+              draft: contributed
+              type: 1000
+            - 
+              content: 0
+              count: other
+              draft: contributed
+              type: 1000
+            - 
+              content: 00k
+              count: one
+              draft: contributed
+              type: 10000
+            - 
+              content: 00k
+              count: other
+              draft: contributed
+              type: 10000
+            - 
+              content: 000k
+              count: one
+              draft: contributed
+              type: 100000
+            - 
+              content: 000k
+              count: other
+              draft: contributed
+              type: 100000
+            - 
+              content: 0 M
+              count: one
+              draft: contributed
+              type: 1000000
+            - 
+              content: 0 M
+              count: other
+              draft: contributed
+              type: 1000000
+            - 
+              content: 00 M
+              count: one
+              draft: contributed
+              type: 10000000
+            - 
+              content: 00 M
+              count: other
+              draft: contributed
+              type: 10000000
+            - 
+              content: 000 M
+              count: one
+              draft: contributed
+              type: 100000000
+            - 
+              content: 000 M
+              count: other
+              draft: contributed
+              type: 100000000
+            - 
+              content: 0000 M
+              count: one
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0000 M
+              count: other
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 00k M
+              count: one
+              draft: contributed
+              type: '10000000000'
+            - 
+              content: 00k M
+              count: other
+              draft: contributed
+              type: '10000000000'
+            - 
+              content: 000k M
+              count: one
+              draft: contributed
+              type: '100000000000'
+            - 
+              content: 000k M
+              count: other
+              draft: contributed
+              type: '100000000000'
+            - 
+              content: 0 B
+              count: one
+              draft: contributed
+              type: '1000000000000'
+            - 
+              content: 0 B
+              count: other
+              draft: contributed
+              type: '1000000000000'
+            - 
+              content: 00 B
+              count: one
+              draft: contributed
+              type: '10000000000000'
+            - 
+              content: 00 B
+              count: other
+              draft: contributed
+              type: '10000000000000'
+            - 
+              content: 000 B
+              count: one
+              draft: contributed
+              type: '100000000000000'
+            - 
+              content: 000 B
+              count: other
+              draft: contributed
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: .
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: 
+      content: non:n
+      draft: contributed
+    yesstr: 
+      content: si:s
+      draft: contributed
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} día"
+          count: one
+        - 
+          alt: short
+          content: "{0} día"
+          count: one
+        - 
+          content: "{0} días"
+          count: other
+        - 
+          alt: short
+          content: "{0} días"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: En {0} día
+          count: one
+        - 
+          content: En {0} días
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: Hai {0} día
+          count: one
+        - 
+          content: Hai {0} días
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} hora"
+          count: one
+        - 
+          alt: short
+          content: "{0} h"
+          count: one
+        - 
+          content: "{0} horas"
+          count: other
+        - 
+          alt: short
+          content: "{0} h"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: En {0} hora
+          count: one
+        - 
+          content: En {0} horas
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: Hai {0} hora
+          count: one
+        - 
+          content: Hai {0} horas
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minuto"
+          count: one
+        - 
+          alt: short
+          content: "{0} min"
+          count: one
+        - 
+          content: "{0} minutos"
+          count: other
+        - 
+          alt: short
+          content: "{0} min"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: En {0} minuto
+          count: one
+        - 
+          content: En {0} minutos
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: Hai {0} minuto
+          count: one
+        - 
+          content: Hai {0} minutos
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} mes"
+          count: one
+        - 
+          alt: short
+          content: "{0} mes"
+          count: one
+        - 
+          content: "{0} meses"
+          count: other
+        - 
+          alt: short
+          content: "{0} meses"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: En {0} mes
+          count: one
+        - 
+          content: En {0} meses
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: Hai {0} mes
+          count: one
+        - 
+          content: Hai {0} meses
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} segundo"
+          count: one
+        - 
+          alt: short
+          content: "{0} S"
+          count: one
+        - 
+          content: "{0} segundos"
+          count: other
+        - 
+          alt: short
+          content: "{0} s"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: En {0} segundo
+          count: one
+        - 
+          content: En {0} segundos
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: Hai {0} segundo
+          count: one
+        - 
+          content: En {0} segundos
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} semana"
+          count: one
+        - 
+          alt: short
+          content: "{0} semana"
+          count: one
+        - 
+          content: "{0} semanas"
+          count: other
+        - 
+          alt: short
+          content: "{0} sem"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: En {0} semana
+          count: one
+        - 
+          content: En {0} semanas
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: Hai {0} semana
+          count: one
+        - 
+          content: Hai {0} semanas
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} ano"
+          count: one
+        - 
+          alt: short
+          content: "{0} ano"
+          count: one
+        - 
+          content: "{0} anos"
+          count: other
+        - 
+          alt: short
+          content: "{0} anos"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: En {0} ano
+          count: one
+        - 
+          content: En {0} anos
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: Hai {0} ano
+          count: one
+        - 
+          content: Hai {0} anos
+          count: other

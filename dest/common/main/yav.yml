@@ -1,0 +1,1353 @@
+characters: 
+  exemplarCharacters: 
+    - "[a á à â ǎ ā b c d e é è ɛ {ɛ\\u0301} {ɛ\\u0300} f h i í ì î ī k l m {mb} n {ny} ŋ {ŋg} o ó ò ô ǒ ō ɔ {ɔ\\u0301} {ɔ\\u0300} p s t u ú ù û ǔ ū v w y]"
+    - 
+      content: "[g j q r x z]"
+      type: auxiliary
+    - 
+      content: "[A B C D E Ɛ F H I K L M N Ŋ O Ɔ P S T U V W Y]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E d MMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E d MMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: kiɛmɛ́ɛm
+                  type: am
+                - 
+                  content: kisɛ́ndɛ
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: sd
+                      type: sun
+                    - 
+                      content: md
+                      type: mon
+                    - 
+                      content: mw
+                      type: tue
+                    - 
+                      content: et
+                      type: wed
+                    - 
+                      content: kl
+                      type: thu
+                    - 
+                      content: fl
+                      type: fri
+                    - 
+                      content: ss
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: sɔ́ndiɛ
+                      type: sun
+                    - 
+                      content: móndie
+                      type: mon
+                    - 
+                      content: muányáŋmóndie
+                      type: tue
+                    - 
+                      content: metúkpíápɛ
+                      type: wed
+                    - 
+                      content: kúpélimetúkpiapɛ
+                      type: thu
+                    - 
+                      content: feléte
+                      type: fri
+                    - 
+                      content: séselé
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: s
+                    type: sun
+                  - 
+                    content: m
+                    type: mon
+                  - 
+                    content: m
+                    type: tue
+                  - 
+                    content: e
+                    type: wed
+                  - 
+                    content: k
+                    type: thu
+                  - 
+                    content: f
+                    type: fri
+                  - 
+                    content: s
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: -J.C.
+                type: 0
+              - 
+                content: +J.C.
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: katikupíen Yésuse
+                type: 0
+              - 
+                content: ékélémkúnupíén n
+                type: 1
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: o.1
+                    type: 1
+                  - 
+                    content: o.2
+                    type: 2
+                  - 
+                    content: o.3
+                    type: 3
+                  - 
+                    content: o.4
+                    type: 4
+                  - 
+                    content: o.5
+                    type: 5
+                  - 
+                    content: o.6
+                    type: 6
+                  - 
+                    content: o.7
+                    type: 7
+                  - 
+                    content: o.8
+                    type: 8
+                  - 
+                    content: o.9
+                    type: 9
+                  - 
+                    content: o.10
+                    type: 10
+                  - 
+                    content: o.11
+                    type: 11
+                  - 
+                    content: o.12
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: pikítíkítie, oólí ú kutúan
+                    type: 1
+                  - 
+                    content: siɛyɛ́, oóli ú kándíɛ
+                    type: 2
+                  - 
+                    content: ɔnsúmbɔl, oóli ú kátátúɛ
+                    type: 3
+                  - 
+                    content: mesiŋ, oóli ú kénie
+                    type: 4
+                  - 
+                    content: ensil, oóli ú kátánuɛ
+                    type: 5
+                  - 
+                    content: ɔsɔn
+                    type: 6
+                  - 
+                    content: efute
+                    type: 7
+                  - 
+                    content: pisuyú
+                    type: 8
+                  - 
+                    content: imɛŋ i puɔs
+                    type: 9
+                  - 
+                    content: imɛŋ i putúk,oóli ú kátíɛ
+                    type: 10
+                  - 
+                    content: makandikɛ
+                    type: 11
+                  - 
+                    content: pilɔndɔ́
+                    type: 12
+                type: wide
+            type: format
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: Q1
+                    type: 1
+                  - 
+                    content: Q2
+                    type: 2
+                  - 
+                    content: Q3
+                    type: 3
+                  - 
+                    content: Q4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: ndátúɛ 1
+                    type: 1
+                  - 
+                    content: ndátúɛ 2
+                    type: 2
+                  - 
+                    content: ndátúɛ 3
+                    type: 3
+                  - 
+                    content: ndátúɛ 4
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: kipéŋén
+        type: era
+      - 
+        displayName: yɔɔŋ
+        type: year
+      - 
+        displayName: oóli
+        type: month
+      - 
+        displayName: sɔ́ndiɛ
+        type: week
+      - 
+        displayName: puɔ́sɛ́
+        relative: 
+          - 
+            content: púyoó
+            type: -1
+          - 
+            content: ínaan
+            type: 0
+          - 
+            content: nakinyám
+            type: 1
+        type: day
+      - 
+        displayName: metúk mɔ́sɔ́ndiɛ
+        type: weekday
+      - 
+        displayName: kiɛmɛ́ɛm,kisɛ́ndɛ
+        type: dayperiod
+      - 
+        displayName: kisikɛl,
+        type: hour
+      - 
+        displayName: minít
+        type: minute
+      - 
+        displayName: síkɛn
+        type: second
+      - 
+        displayName: kinúki kisikɛl ɔ́ pitɔŋ
+        type: zone
+delimiters: 
+  alternateQuotationEnd: »
+  alternateQuotationStart: «
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: yav
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: akánɛ
+        type: ak
+      - 
+        content: amalíke
+        type: am
+      - 
+        content: ́pakas
+        type: ar
+      - 
+        content: pielúse
+        type: be
+      - 
+        content: bulgálɛ
+        type: bg
+      - 
+        content: pengálɛ́ɛ
+        type: bn
+      - 
+        content: cɛ́kɛ́ɛ
+        type: cs
+      - 
+        content: ŋndiáman
+        type: de
+      - 
+        content: yavánɛ
+        type: el
+      - 
+        content: íŋgilísé
+        type: en
+      - 
+        content: nuɛspanyɔ́lɛ
+        type: es
+      - 
+        content: nupɛ́lisɛ
+        type: fa
+      - 
+        content: feleŋsí
+        type: fr
+      - 
+        content: pakas
+        type: ha
+      - 
+        content: índí
+        type: hi
+      - 
+        content: ɔ́ŋgɛ
+        type: hu
+      - 
+        content: índonísiɛ
+        type: id
+      - 
+        content: íbo
+        type: ig
+      - 
+        content: itáliɛ
+        type: it
+      - 
+        content: ndiáman
+        type: ja
+      - 
+        content: yávanɛ
+        type: jv
+      - 
+        content: kímɛɛ
+        type: km
+      - 
+        content: kolíe
+        type: ko
+      - 
+        content: máliɛ
+        type: ms
+      - 
+        content: bímanɛ
+        type: my
+      - 
+        content: nunipálɛ
+        type: ne
+      - 
+        content: nilándɛ
+        type: nl
+      - 
+        content: nupunsapíɛ́
+        type: pa
+      - 
+        content: nupolonɛ́ɛ
+        type: pl
+      - 
+        content: nupɔlitukɛ́ɛ
+        type: pt
+      - 
+        content: nulumɛ́ŋɛ
+        type: ro
+      - 
+        content: nulúse
+        type: ru
+      - 
+        content: nuluándɛ́ɛ
+        type: rw
+      - 
+        content: nusomalíɛ
+        type: so
+      - 
+        content: nusuetua
+        type: sv
+      - 
+        content: nutámule
+        type: ta
+      - 
+        content: nutáyɛ
+        type: th
+      - 
+        content: nutúluke
+        type: tr
+      - 
+        content: nukeleniɛ́ŋɛ
+        type: uk
+      - 
+        content: nulutú
+        type: ur
+      - 
+        content: nufiɛtnamíɛŋ
+        type: vi
+      - 
+        content: nuasue
+        type: yav
+      - 
+        content: nuyolúpa
+        type: yo
+      - 
+        content: sinúɛ
+        type: zh
+      - 
+        content: nusulú
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Aŋtúla
+        type: AD
+      - 
+        content: imiláat i paaláap
+        type: AE
+      - 
+        content: Afkanistáŋ
+        type: AF
+      - 
+        content: Aŋtíka na Palpúta
+        type: AG
+      - 
+        content: Aŋkíla
+        type: AI
+      - 
+        content: Alpaní
+        type: AL
+      - 
+        content: Almanía
+        type: AM
+      - 
+        content: andíiy u nitililáand
+        type: AN
+      - 
+        content: Aŋkúla
+        type: AO
+      - 
+        content: Alsaŋtín
+        type: AR
+      - 
+        content: Sámua u Amelíka
+        type: AS
+      - 
+        content: Otilís
+        type: AT
+      - 
+        content: Otalalí
+        type: AU
+      - 
+        content: Alúpa
+        type: AW
+      - 
+        content: Asɛlpaisáŋ
+        type: AZ
+      - 
+        content: Pusiní-ɛlkofína
+        type: BA
+      - 
+        content: Palpatós
+        type: BB
+      - 
+        content: Paŋkalatɛs
+        type: BD
+      - 
+        content: Pɛlsíik
+        type: BE
+      - 
+        content: Pulikínafásó
+        type: BF
+      - 
+        content: Pulukalíi
+        type: BG
+      - 
+        content: Palɛŋ
+        type: BH
+      - 
+        content: Púlúndí
+        type: BI
+      - 
+        content: Penɛŋ
+        type: BJ
+      - 
+        content: Pɛlmúta
+        type: BM
+      - 
+        content: Pulunéy
+        type: BN
+      - 
+        content: Polífia
+        type: BO
+      - 
+        content: Pilesíl
+        type: BR
+      - 
+        content: Pahámas
+        type: BS
+      - 
+        content: Putaŋ
+        type: BT
+      - 
+        content: Posuána
+        type: BW
+      - 
+        content: Pelalús
+        type: BY
+      - 
+        content: Pelíse
+        type: BZ
+      - 
+        content: Kánáta
+        type: CA
+      - 
+        content: kitɔŋ kí kongó
+        type: CD
+      - 
+        content: Santalafilíik
+        type: CF
+      - 
+        content: Kongó
+        type: CG
+      - 
+        content: suwíis
+        type: CH
+      - 
+        content: Kótifualɛ
+        type: CI
+      - 
+        content: Kúuke
+        type: CK
+      - 
+        content: Silí
+        type: CL
+      - 
+        content: Kemelún
+        type: CM
+      - 
+        content: Síine
+        type: CN
+      - 
+        content: Kɔlɔ́mbía
+        type: CO
+      - 
+        content: Kóstálíka
+        type: CR
+      - 
+        content: kúpa
+        type: CU
+      - 
+        content: Kápfɛl
+        type: CV
+      - 
+        content: síplɛ
+        type: CY
+      - 
+        content: kitɔŋ kí cɛ́k
+        type: CZ
+      - 
+        content: nsáman
+        type: DE
+      - 
+        content: síputí
+        type: DJ
+      - 
+        content: tanemálk
+        type: DK
+      - 
+        content: túmúnéke
+        type: DM
+      - 
+        content: kitɔŋ kí tumunikɛ́ŋ
+        type: DO
+      - 
+        content: Alselí
+        type: DZ
+      - 
+        content: ekuatɛ́l
+        type: EC
+      - 
+        content: ɛstoni
+        type: EE
+      - 
+        content: isípit
+        type: EG
+      - 
+        content: elitée
+        type: ER
+      - 
+        content: panyá
+        type: ES
+      - 
+        content: etiopí
+        type: ET
+      - 
+        content: fɛnlánd
+        type: FI
+      - 
+        content: físi
+        type: FJ
+      - 
+        content: maluwín
+        type: FK
+      - 
+        content: mikolonesí
+        type: FM
+      - 
+        content: felensí
+        type: FR
+      - 
+        content: kapɔ́ŋ
+        type: GA
+      - 
+        content: ingilíís
+        type: GB
+      - 
+        content: kelenáat
+        type: GD
+      - 
+        content: sɔlsíi
+        type: GE
+      - 
+        content: kuyáan u felensí
+        type: GF
+      - 
+        content: kaná
+        type: GH
+      - 
+        content: sílpalatáal
+        type: GI
+      - 
+        content: kuluɛnlánd
+        type: GL
+      - 
+        content: kambíi
+        type: GM
+      - 
+        content: kiiné
+        type: GN
+      - 
+        content: kuatelúup
+        type: GP
+      - 
+        content: kinéekuatolial
+        type: GQ
+      - 
+        content: kilɛ́ɛk
+        type: GR
+      - 
+        content: kuatemalá
+        type: GT
+      - 
+        content: kuamiɛ
+        type: GU
+      - 
+        content: kiinépisaó
+        type: GW
+      - 
+        content: kuyáan
+        type: GY
+      - 
+        content: ɔndúlas
+        type: HN
+      - 
+        content: Kolowasíi
+        type: HR
+      - 
+        content: ayíti
+        type: HT
+      - 
+        content: ɔngilí
+        type: HU
+      - 
+        content: ɛndonesí
+        type: ID
+      - 
+        content: ililánd
+        type: IE
+      - 
+        content: ísilayɛ́l
+        type: IL
+      - 
+        content: ɛ́ɛnd
+        type: IN
+      - 
+        content: Kɔɔ́m kí ndián yi ngilís
+        type: IO
+      - 
+        content: ilák
+        type: IQ
+      - 
+        content: iláŋ
+        type: IR
+      - 
+        content: isláand
+        type: IS
+      - 
+        content: italí
+        type: IT
+      - 
+        content: samayíik
+        type: JM
+      - 
+        content: sɔltaní
+        type: JO
+      - 
+        content: sapɔ́ɔŋ
+        type: JP
+      - 
+        content: kénia
+        type: KE
+      - 
+        content: kilikisistáŋ
+        type: KG
+      - 
+        content: Kámbóse
+        type: KH
+      - 
+        content: kilipatí
+        type: KI
+      - 
+        content: Kɔmɔ́ɔl
+        type: KM
+      - 
+        content: sɛ́ŋkilistɔ́f eniɛ́f
+        type: KN
+      - 
+        content: kɔlé u muɛnɛ́
+        type: KP
+      - 
+        content: kɔlé wu mbát
+        type: KR
+      - 
+        content: kowéet
+        type: KW
+      - 
+        content: Káyímanɛ
+        type: KY
+      - 
+        content: kasaksitáŋ
+        type: KZ
+      - 
+        content: lawós
+        type: LA
+      - 
+        content: lipáŋ
+        type: LB
+      - 
+        content: sɛ́ŋtɛ́lusí
+        type: LC
+      - 
+        content: lístɛ́nsitáyin
+        type: LI
+      - 
+        content: silíláŋka
+        type: LK
+      - 
+        content: lipélia
+        type: LR
+      - 
+        content: lesotó
+        type: LS
+      - 
+        content: litiyaní
+        type: LT
+      - 
+        content: liksambúul
+        type: LU
+      - 
+        content: letoní
+        type: LV
+      - 
+        content: lipíi
+        type: LY
+      - 
+        content: malóok
+        type: MA
+      - 
+        content: monakó
+        type: MC
+      - 
+        content: moltafí
+        type: MD
+      - 
+        content: matakaskáal
+        type: MG
+      - 
+        content: ílmalasáal
+        type: MH
+      - 
+        content: masetuán
+        type: MK
+      - 
+        content: malí
+        type: ML
+      - 
+        content: miaŋmáal
+        type: MM
+      - 
+        content: mongolí
+        type: MN
+      - 
+        content: il maliyanɛ u muɛnɛ́
+        type: MP
+      - 
+        content: maltiníik
+        type: MQ
+      - 
+        content: molitaní
+        type: MR
+      - 
+        content: mɔŋsilá
+        type: MS
+      - 
+        content: málɛ́t
+        type: MT
+      - 
+        content: molís
+        type: MU
+      - 
+        content: maletíif
+        type: MV
+      - 
+        content: malawí
+        type: MW
+      - 
+        content: mɛksíik
+        type: MX
+      - 
+        content: malesí
+        type: MY
+      - 
+        content: mosambík
+        type: MZ
+      - 
+        content: namipí
+        type: NA
+      - 
+        content: nufɛ́l kaletoní
+        type: NC
+      - 
+        content: nisɛ́ɛl
+        type: NE
+      - 
+        content: il nɔ́lfɔ́lɔk
+        type: NF
+      - 
+        content: nisélia
+        type: NG
+      - 
+        content: nikalaká
+        type: NI
+      - 
+        content: nitililáand
+        type: NL
+      - 
+        content: nɔlfɛ́ɛs
+        type: 'NO'
+      - 
+        content: nepáal
+        type: NP
+      - 
+        content: nawulú
+        type: NR
+      - 
+        content: niyuwé
+        type: NU
+      - 
+        content: nufɛ́l seláand
+        type: NZ
+      - 
+        content: omáŋ
+        type: OM
+      - 
+        content: panamá
+        type: PA
+      - 
+        content: pelú
+        type: PE
+      - 
+        content: polinesí u felensí
+        type: PF
+      - 
+        content: papuasí nufɛ́l kiiné
+        type: PG
+      - 
+        content: filipíin
+        type: PH
+      - 
+        content: pakistáŋ
+        type: PK
+      - 
+        content: pɔlɔ́ɔny
+        type: PL
+      - 
+        content: sɛ́ŋpiɛ́l e mikelɔ́ŋ
+        type: PM
+      - 
+        content: pitikɛ́ɛlínɛ́
+        type: PN
+      - 
+        content: pólótolíko
+        type: PR
+      - 
+        content: kitɔŋ ki palɛstíin
+        type: PS
+      - 
+        content: pɔltukáal
+        type: PT
+      - 
+        content: palawú
+        type: PW
+      - 
+        content: palakúé
+        type: PY
+      - 
+        content: katáal
+        type: QA
+      - 
+        content: elewuniɔ́ŋ
+        type: RE
+      - 
+        content: ulumaní
+        type: RO
+      - 
+        content: ulusí
+        type: RU
+      - 
+        content: uluándá
+        type: RW
+      - 
+        content: alapísawutíit
+        type: SA
+      - 
+        content: il salomɔ́ŋ
+        type: SB
+      - 
+        content: sesɛ́ɛl
+        type: SC
+      - 
+        content: sutáaŋ
+        type: SD
+      - 
+        content: suɛ́t
+        type: SE
+      - 
+        content: singapúul
+        type: SG
+      - 
+        content: sɛ́ŋtɛ́ elɛ́ɛnɛ
+        type: SH
+      - 
+        content: silofení
+        type: SI
+      - 
+        content: silofakí
+        type: SK
+      - 
+        content: sieláleyɔ́ɔn
+        type: SL
+      - 
+        content: san malíno
+        type: SM
+      - 
+        content: senekáal
+        type: SN
+      - 
+        content: somalí
+        type: SO
+      - 
+        content: sulináam
+        type: SR
+      - 
+        content: sáwó tomé e pelensípe
+        type: ST
+      - 
+        content: salfatɔ́ɔl
+        type: SV
+      - 
+        content: suasiláand
+        type: SZ
+      - 
+        content: túluk na káyiik
+        type: TC
+      - 
+        content: Sáat
+        type: TD
+      - 
+        content: tokó
+        type: TG
+      - 
+        content: tayiláand
+        type: TH
+      - 
+        content: tasikistáaŋ
+        type: TJ
+      - 
+        content: tokeló
+        type: TK
+      - 
+        content: timɔ́ɔl u nipálɛ́n
+        type: TL
+      - 
+        content: tulukmenisitáaŋ
+        type: TM
+      - 
+        content: tunusí
+        type: TN
+      - 
+        content: tɔ́ŋka
+        type: TO
+      - 
+        content: tulukíi
+        type: TR
+      - 
+        content: tilinitáat na tupákɔ
+        type: TT
+      - 
+        content: tufalú
+        type: TV
+      - 
+        content: tayiwáan
+        type: TW
+      - 
+        content: taŋsaní
+        type: TZ
+      - 
+        content: ukilɛ́ɛn
+        type: UA
+      - 
+        content: ukánda
+        type: UG
+      - 
+        content: amálíka
+        type: US
+      - 
+        content: ulukuéy
+        type: UY
+      - 
+        content: usupekistáaŋ
+        type: UZ
+      - 
+        content: fatikáaŋ
+        type: VA
+      - 
+        content: sɛ́ŋ fɛŋsáŋ elekelenatíin
+        type: VC
+      - 
+        content: fenesuwelá
+        type: VE
+      - 
+        content: Filisíin ungilís
+        type: VG
+      - 
+        content: pindisúlɛ́ pi amálíka
+        type: VI
+      - 
+        content: fiɛtnáam
+        type: VN
+      - 
+        content: fanuatú
+        type: VU
+      - 
+        content: walíis na futúna
+        type: WF
+      - 
+        content: samowá
+        type: WS
+      - 
+        content: yémɛn
+        type: YE
+      - 
+        content: mayɔ́ɔt
+        type: YT
+      - 
+        content: afilí mbátɛ́
+        type: ZA
+      - 
+        content: saambíi
+        type: ZM
+      - 
+        content: simbapuwé
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: kuansa wu angolá
+        type: AOA
+      - 
+        displayName: toláal wu ostalalí
+        type: AUD
+      - 
+        displayName: tináal wu paaléen
+        type: BHD
+      - 
+        displayName: faláŋɛ u pulundí
+        type: BIF
+      - 
+        displayName: pula pu posuána
+        type: BWP
+      - 
+        displayName: toláal u kanáta
+        type: CAD
+      - 
+        displayName: ́faláŋɛ u kongó
+        type: CDF
+      - 
+        displayName: yuan ɛlɛnmimbí
+        type: CNY
+      - 
+        displayName: ɛskúdo u kápfɛ́ɛl
+        type: CVE
+      - 
+        displayName: ́faláŋɛ u síputí
+        type: DJF
+      - 
+        displayName: tináal wu alselí
+        type: DZD
+      - 
+        displayName: lífilɛ wu isípit
+        type: EGP
+      - 
+        displayName: náfka wu elitilée
+        type: ERN
+      - 
+        displayName: píil wu etiopí
+        type: ETB
+      - 
+        displayName: olóo
+        type: EUR
+      - 
+        displayName: lífilɛ sitelelíiŋ
+        type: GBP
+      - 
+        displayName: setí
+        type: GHC
+      - 
+        displayName: talasí u kaambí
+        type: GMD
+      - 
+        displayName: silí u kiiné
+        type: GNS
+      - 
+        displayName: ulupí
+        type: INR
+      - 
+        displayName: yɛ́ɛn u sapɔ́ɔŋ
+        type: JPY
+      - 
+        displayName: síliŋ u kénia
+        type: KES
+      - 
+        displayName: ́faláŋɛ u kɔmɔ́ɔl
+        type: KMF
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤;(#,##0.00 ¤)"
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##0.###"
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: aákó:a
+    yesstr: ɛ́ɛ́ɛ:ɛ

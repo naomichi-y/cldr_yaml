@@ -1,0 +1,5798 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[ا أ آ ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں و ؤ ہ ۂ ھ ء ی ئ ے ة ه]"
+    - 
+      content: "[؀؁؂؃\\u200C\\u200D\\u200E\\u200F \\u0652 \\u064E \\u0650 \\u064F \\u0670 \\u0656 \\u0657 \\u064B \\u064D \\u064C \\u0654 \\u0651 \\u0658 ۃ ٻ ٺ ټ ٽ ي]"
+      type: auxiliary
+    - 
+      content: "[ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ہ ھ ء ی ے]"
+      type: index
+    - 
+      content: "[، ؍ ٫ ٬ ؛ \\: ؟ . ۔ ( ) \\[ \\]]"
+      type: punctuation
+  moreInformation: ؟
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE، d MMMM، y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM، y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM، y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E، d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E، d MMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E، d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E، d MMM، y
+              yMMMd: 
+                content: d MMM، y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d/M – E، d/M
+                  d: 
+                    content: E، d/M – E، d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d MMM – E، d MMM
+                  d: 
+                    content: E، d MMM – E، d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d–d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d/M – d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d/M/y – E، d/M/y
+                  d: 
+                    content: E، d/M/y – E، d/M/y
+                  "y": 
+                    content: E، d/M/y – E، d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d MMM – E، d MMM، y
+                  d: 
+                    content: E، d MMM – E، d MMM، y
+                  "y": 
+                    content: E، d MMM، y – E، d MMM، y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM، y
+                  d: 
+                    content: d-d MMM، y
+                  "y": 
+                    content: d MMM، y – d MMM، y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y - d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE، d MMMM، y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM، y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM، y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E، d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E، d MMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E، d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E، d MMM، y
+              yMMMd: 
+                content: d MMM، y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d/M – E، d/M
+                  d: 
+                    content: E، d/M – E، d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d MMM – E، d MMM
+                  d: 
+                    content: E، d MMM – E، d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM
+                  d: 
+                    content: d–d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d/M – d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d/M/y – E، d/M/y
+                  d: 
+                    content: E، d/M/y – E، d/M/y
+                  "y": 
+                    content: E، d/M/y – E، d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E، d MMM – E، d MMM، y
+                  d: 
+                    content: E، d MMM – E، d MMM، y
+                  "y": 
+                    content: E، d MMM، y – E، d MMM، y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM – d MMM، y
+                  d: 
+                    content: d-d MMM، y
+                  "y": 
+                    content: d MMM، y – d MMM، y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y - d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: قبل دوپہر
+                    type: am
+                  - 
+                    content: بعد دوپہر
+                    type: pm
+                type: abbreviated
+              - 
+                dayPeriod: 
+                  - 
+                    content: قبل دوپہر
+                    type: am
+                  - 
+                    content: بعد دوپہر
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: S
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: W
+                      type: wed
+                    - 
+                      content: T
+                      type: thu
+                    - 
+                      content: F
+                      type: fri
+                    - 
+                      content: S
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: اتوار
+                      type: sun
+                    - 
+                      content: سوموار
+                      type: mon
+                    - 
+                      content: منگل
+                      type: tue
+                    - 
+                      content: بدھ
+                      type: wed
+                    - 
+                      content: جمعرات
+                      type: thu
+                    - 
+                      content: جمعہ
+                      type: fri
+                    - 
+                      content: ہفتہ
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: اتوار
+                      type: sun
+                    - 
+                      content: پیر
+                      type: mon
+                    - 
+                      content: منگل
+                      type: tue
+                    - 
+                      content: بده
+                      type: wed
+                    - 
+                      content: جمعرات
+                      type: thu
+                    - 
+                      content: جمعہ
+                      type: fri
+                    - 
+                      content: ہفتہ
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: S
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: W
+                      type: wed
+                    - 
+                      content: T
+                      type: thu
+                    - 
+                      content: F
+                      type: fri
+                    - 
+                      content: S
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: اتوار
+                      type: sun
+                    - 
+                      content: سوموار
+                      type: mon
+                    - 
+                      content: منگل
+                      type: tue
+                    - 
+                      content: بدھ
+                      type: wed
+                    - 
+                      content: جمعرات
+                      type: thu
+                    - 
+                      content: جمعہ
+                      type: fri
+                    - 
+                      content: ہفتہ
+                      type: sat
+                  type: short
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ق م
+                type: 0
+              - 
+                content: عیسوی سن
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: قبل مسیح
+                type: 0
+              - 
+                content: عیسوی سن
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: J
+                      type: 1
+                    - 
+                      content: F
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: A
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: J
+                      type: 6
+                    - 
+                      content: J
+                      type: 7
+                    - 
+                      content: A
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: D
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: جنوری
+                      type: 1
+                    - 
+                      content: فروری
+                      type: 2
+                    - 
+                      content: مارچ
+                      type: 3
+                    - 
+                      content: اپریل
+                      type: 4
+                    - 
+                      content: مئ
+                      type: 5
+                    - 
+                      content: جون
+                      type: 6
+                    - 
+                      content: جولائ
+                      type: 7
+                    - 
+                      content: اگست
+                      type: 8
+                    - 
+                      content: ستمبر
+                      type: 9
+                    - 
+                      content: اکتوبر
+                      type: 10
+                    - 
+                      content: نومبر
+                      type: 11
+                    - 
+                      content: دسمبر
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: J
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: A
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: J
+                    type: 6
+                  - 
+                    content: J
+                    type: 7
+                  - 
+                    content: A
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: O
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: پہلی سہ ماہی
+                      type: 1
+                    - 
+                      content: دوسری سہ ماہی
+                      type: 2
+                    - 
+                      content: تیسری سہ ماہی
+                      type: 3
+                    - 
+                      content: چوتهی سہ ماہی
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: 1
+                    type: 1
+                  - 
+                    content: 2
+                    type: 2
+                  - 
+                    content: 3
+                    type: 3
+                  - 
+                    content: 4
+                    type: 4
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+      - 
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ق م
+                draft: unconfirmed
+                type: 0
+              - 
+                content: عیسوی سن
+                draft: unconfirmed
+                type: 1
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: محرم
+                  draft: contributed
+                  type: 1
+                - 
+                  content: صفر
+                  draft: contributed
+                  type: 2
+                - 
+                  content: ر بیع الاول
+                  draft: contributed
+                  type: 3
+                - 
+                  content: ر بیع الثانی
+                  draft: contributed
+                  type: 4
+                - 
+                  content: جمادی الاول
+                  draft: contributed
+                  type: 5
+                - 
+                  content: جمادی الثانی
+                  draft: contributed
+                  type: 6
+                - 
+                  content: رجب
+                  draft: contributed
+                  type: 7
+                - 
+                  content: شعبان
+                  draft: contributed
+                  type: 8
+                - 
+                  content: رمضان
+                  draft: contributed
+                  type: 9
+                - 
+                  content: شوال
+                  draft: contributed
+                  type: 10
+                - 
+                  content: ذوالقعدۃ
+                  draft: contributed
+                  type: 11
+                - 
+                  content: ذوالحجۃ
+                  draft: contributed
+                  type: 12
+              type: wide
+            type: format
+        type: islamic
+  fields: 
+    field: 
+      - 
+        displayName: عہد
+        type: era
+      - 
+        displayName: سال
+        relative: 
+          - 
+            content: پچھلے سال
+            type: -1
+          - 
+            content: اس سال
+            type: 0
+          - 
+            content: اگلے سال
+            type: 1
+        type: year
+      - 
+        displayName: مہینہ
+        relative: 
+          - 
+            content: پچھلے مہینہ
+            type: -1
+          - 
+            content: اس مہینہ
+            type: 0
+          - 
+            content: اگلے مہینہ
+            type: 1
+        type: month
+      - 
+        displayName: ہفتہ
+        relative: 
+          - 
+            content: پچھلے ہفتہ
+            type: -1
+          - 
+            content: اس ہفتہ
+            type: 0
+          - 
+            content: اگلے ہفتہ
+            type: 1
+        type: week
+      - 
+        displayName: دن
+        relative: 
+          - 
+            content: گزشتہ پرسوں
+            type: -2
+          - 
+            content: گزشتہ کل
+            type: -1
+          - 
+            content: آج
+            type: 0
+          - 
+            content: آئندہ کل
+            type: 1
+          - 
+            content: آنے والا پرسوں
+            type: 2
+        type: day
+      - 
+        displayName: ہفتے کا دن
+        type: weekday
+      - 
+        displayName: رات/صبح
+        type: dayperiod
+      - 
+        displayName: گھنٹہ
+        type: hour
+      - 
+        displayName: منٹ
+        type: minute
+      - 
+        displayName: سیکنڈ
+        type: second
+      - 
+        displayName: منطقہ وقت
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} وقت ({0})"
+    gmtFormat: GMT {0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: افغانستان کا وقت
+        type: Afghanistan
+      - 
+        long: 
+          standard: وسطی افریقہ کا وقت
+        type: Africa_Central
+      - 
+        long: 
+          standard: مشرقی افریقہ کا وقت
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: جنوبی افریقہ کا معیاری وقت
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: مغربی افریقہ کا موسم گرما کا وقت
+          generic: مغربی افریقہ کا وقت
+          standard: مغربی افریقہ کا معیاری وقت
+        type: Africa_Western
+      - 
+        long: 
+          daylight: الاسکا ڈے لائٹ ٹائم
+          generic: الاسکا ٹائم
+          standard: الاسکا اسٹینڈرڈ ٹائم
+        type: Alaska
+      - 
+        long: 
+          daylight: امیزون کا موسم گرما کا وقت
+          generic: امیزون ٹائم
+          standard: امیزن اسٹینڈرڈ ٹائم
+        type: Amazon
+      - 
+        long: 
+          daylight: سنٹرل ڈے لائٹ ٹائم
+          generic: سنٹرل ٹائم
+          standard: سنٹرل اسٹینڈرڈ ٹائم
+        type: America_Central
+      - 
+        long: 
+          daylight: ایسٹرن ڈے لائٹ ٹائم
+          generic: ایسٹرن ٹائم
+          standard: ایسٹرن اسٹینڈرڈ ٹائم
+        type: America_Eastern
+      - 
+        long: 
+          daylight: ماؤنٹین ڈے لائٹ ٹائم
+          generic: ماؤنٹین ٹائم
+          standard: ماؤنٹین اسٹینڈرڈ ٹائم
+        type: America_Mountain
+      - 
+        long: 
+          daylight: پیسفک ڈے لائٹ ٹائم
+          generic: پیسفک ٹائم
+          standard: پیسفک اسٹینڈرڈ ٹائم
+        type: America_Pacific
+      - 
+        long: 
+          daylight: انیدر سمر ٹائم
+          generic: انیدر ٹائم
+          standard: انیدر اسٹینڈرڈ ٹائم
+        type: Anadyr
+      - 
+        long: 
+          daylight: عرب کا دن کا وقت
+          generic: عرب کا وقت
+          standard: عرب کا معیاری وقت
+        type: Arabian
+      - 
+        long: 
+          daylight: ارجنٹینا سمر ٹائم
+          generic: ارجنٹینا ٹائم
+          standard: ارجنٹینا کا معیاری وقت
+        type: Argentina
+      - 
+        long: 
+          daylight: مغربی ارجنٹینا کا موسم گرما کا وقت
+          generic: مغربی ارجنٹینا کا وقت
+          standard: مغربی ارجنٹینا کا معیاری وقت
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: آرمینیا کا موسم گرما کا وقت
+          generic: آرمینیا کا وقت
+          standard: آرمینیا کا معیاری وقت
+        type: Armenia
+      - 
+        long: 
+          daylight: اٹلانٹک ڈے لائٹ ٹائم
+          generic: اٹلانٹک ٹائم
+          standard: اٹلانٹک اسٹینڈرڈ ٹائم
+        type: Atlantic
+      - 
+        long: 
+          daylight: آسٹریلین سنٹرل ڈے لائٹ ٹائم
+          generic: سنٹرل آسٹریلیا ٹائم
+          standard: آسٹریلین سنٹرل اسٹینڈرڈ ٹائم
+        type: Australia_Central
+      - 
+        long: 
+          daylight: آسٹریلین سنٹرل ویسٹرن ڈے لائٹ ٹائم
+          generic: آسٹریلین سنٹرل ویسٹرن ٹائم
+          standard: آسٹریلین سنٹرل ویسٹرن اسٹینڈرڈ ٹائم
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: آسٹریلین ایسٹرن ڈے لائٹ ٹائم
+          generic: ایسٹرن آسٹریلیا ٹائم
+          standard: آسٹریلین ایسٹرن اسٹنڈرڈ ٹائم
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: آسٹریلین ویسٹرن ڈے لائٹ ٹائم
+          generic: ویسٹرن آسٹریلیا ٹائم
+          standard: آسٹریلیا ویسٹرن اسٹینڈرڈ ٹائم
+        type: Australia_Western
+      - 
+        long: 
+          daylight: آذربائیجان کا موسم گرما کا وقت
+          generic: آذربائیجان کا وقت
+          standard: آذربائیجان کا معیاری وقت
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: ازوریس کا موسم گرما کا وقت
+          generic: ازوریس کا وقت
+          standard: ازوریس کا معیاری وقت
+        type: Azores
+      - 
+        long: 
+          daylight: بنگلہ دیش کا موسم گرما کا وقت
+          generic: بنگلہ دیش کا وقت
+          standard: بنگلہ دیش کا معیاری وقت
+        type: Bangladesh
+      - 
+        long: 
+          standard: بھوٹان کا وقت
+        type: Bhutan
+      - 
+        long: 
+          standard: بولیویا کا وقت
+        type: Bolivia
+      - 
+        long: 
+          daylight: برازیلیا سمر ٹائم
+          generic: برازیلیا ٹائم
+          standard: برازیلیا اسٹینڈرڈ ٹائم
+        type: Brasilia
+      - 
+        long: 
+          standard: برونئی دارالسلام کا وقت
+        type: Brunei
+      - 
+        long: 
+          daylight: کیپ ورڈی کا موسم گرما کا وقت
+          generic: کیپ ورڈی کا وقت
+          standard: کیپ ورڈی کا معیاری وقت
+        type: Cape_Verde
+      - 
+        long: 
+          standard: شمورو کا معیاری وقت
+        type: Chamorro
+      - 
+        long: 
+          daylight: چیتھم کا دن کا وقت
+          generic: چیتھم کا وقت
+          standard: چیتھم کا موسم گرما کا وقت
+        type: Chatham
+      - 
+        long: 
+          daylight: چلی کا موسم گرما کا وقت
+          generic: چلی کا وقت
+          standard: چلی کا معیاری وقت
+        type: Chile
+      - 
+        long: 
+          daylight: چین کا دن کا وقت
+          generic: چین کا وقت
+          standard: چین کا معیاری وقت
+        type: China
+      - 
+        long: 
+          daylight: کوائبلسان سمر ٹائم
+          generic: کوئبلسان ٹائم
+          standard: کوئبلسان کا معیاری وقت
+        type: Choibalsan
+      - 
+        long: 
+          standard: کرسمس آئلینڈ کا وقت
+        type: Christmas
+      - 
+        long: 
+          standard: کوکوس آئلینڈز کا وقت
+        type: Cocos
+      - 
+        long: 
+          daylight: کولمبیا کا موسم گرما کا وقت
+          generic: کولمبیا کا وقت
+          standard: کولمبیا کا معیاری وقت
+        type: Colombia
+      - 
+        long: 
+          daylight: کک آئلینڈز کا نصف موسم گرما کا وقت
+          generic: کک آئلینڈز کا وقت
+          standard: کک آئلینڈز کا معیاری وقت
+        type: Cook
+      - 
+        long: 
+          daylight: کیوبا کا دن کا وقت
+          generic: کیوبا کا وقت
+          standard: کیوبا کا معیاری وقت
+        type: Cuba
+      - 
+        long: 
+          standard: ڈیوس کا وقت
+        type: Davis
+      - 
+        long: 
+          standard: ڈومونٹ-ڈی'ارویلے کا وقت
+        type: DumontDUrville
+      - 
+        long: 
+          standard: مشرقی تیمور کا وقت
+        type: East_Timor
+      - 
+        long: 
+          daylight: ایسٹر آئلینڈ کا موسم گرما کا وقت
+          generic: ایسٹر آئلینڈ کا وقت
+          standard: ایسٹر آئلینڈ کا معیاری وقت
+        type: Easter
+      - 
+        long: 
+          standard: ایکواڈور کا وقت
+        type: Ecuador
+      - 
+        long: 
+          daylight: وسطی یورپ کا موسم گرما کا وقت
+          generic: وسط یورپ کا وقت
+          standard: وسطی یورپ کا معیاری وقت
+        type: Europe_Central
+      - 
+        long: 
+          daylight: مشرقی یورپ کا موسم گرما کا وقت
+          generic: مشرقی یورپ کا وقت
+          standard: مشرقی یورپ کا معیاری وقت
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: مغربی یورپ کا موسم گرما کا وقت
+          generic: مغربی یورپ کا وقت
+          standard: مغربی یورپ کا معیاری وقت
+        type: Europe_Western
+      - 
+        long: 
+          daylight: فاک لینڈ آئلینڈز کا موسم گرما کا وقت
+          generic: فاک لینڈ آئلینڈز کا وقت
+          standard: فاک لینڈ آئلینڈز کا معیاری وقت
+        type: Falkland
+      - 
+        long: 
+          daylight: فجی کا موسم گرما کا وقت
+          generic: فجی کا وقت
+          standard: فجی کا معیاری وقت
+        type: Fiji
+      - 
+        long: 
+          standard: فرینچ گیانا کا وقت
+        type: French_Guiana
+      - 
+        long: 
+          standard: فرینچ سدرن اور انٹارکٹک کا وقت
+        type: French_Southern
+      - 
+        long: 
+          standard: گالاپاگوز کا وقت
+        type: Galapagos
+      - 
+        long: 
+          standard: گیمبیئر کا وقت
+        type: Gambier
+      - 
+        long: 
+          daylight: جارجیا کا موسم گرما کا وقت
+          generic: جارجیا کا وقت
+          standard: جارجیا کا معیاری وقت
+        type: Georgia
+      - 
+        long: 
+          standard: جلبرٹ آئلینڈز کا وقت
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: گرین وچ کا اصل وقت
+        type: GMT
+      - 
+        long: 
+          daylight: مشرقی گرین لینڈ کا موسم گرما کا وقت
+          generic: مشرقی گرین لینڈ کا وقت
+          standard: مشرقی گرین لینڈ کا معیاری وقت
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: مغربی گرین لینڈ کا موسم گرما کا وقت
+          generic: مغربی گرین لینڈ کا وقت
+          standard: مغربی گرین لینڈ کا معیاری وقت
+        type: Greenland_Western
+      - 
+        long: 
+          standard: خلیج کا معیاری وقت
+        type: Gulf
+      - 
+        long: 
+          standard: گیانا کا وقت
+        type: Guyana
+      - 
+        long: 
+          daylight: ہوائی الیوٹیئن ڈے لائٹ ٹائم
+          generic: ہوائی الیوٹیئن ٹائم
+          standard: ہوائی الیوٹیئن اسٹینڈرڈ ٹائم
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: ہانگ کانگ کا موسم گرما کا وقت
+          generic: ہانگ کانگ کا وقت
+          standard: ہانگ کانگ کا معیاری وقت
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: ہووارڈ سمر ٹائم
+          generic: ہووارڈ ٹائم
+          standard: ہاورڈ کا معیاری وقت
+        type: Hovd
+      - 
+        long: 
+          standard: ہندوستان کا معیاری وقت
+        type: India
+      - 
+        long: 
+          standard: بحر ہند کا وقت
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: ہند چین کا وقت
+        type: Indochina
+      - 
+        long: 
+          standard: وسطی انڈونیشیا کا وقت
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: مشرقی انڈونیشیا کا وقت
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: مغربی انڈونیشیا کا وقت
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: ایران کا دن کا وقت
+          generic: ایران کا وقت
+          standard: ایران کا معیاری وقت
+        type: Iran
+      - 
+        long: 
+          daylight: ارکتسک سمر ٹائم
+          generic: ارکتسک ٹائم
+          standard: ارکتسک کا معیاری وقت
+        type: Irkutsk
+      - 
+        long: 
+          daylight: اسرائیل کا دن کا وقت
+          generic: اسرائیل کا وقت
+          standard: اسرائیل کا معیاری وقت
+        type: Israel
+      - 
+        long: 
+          daylight: جاپان کا دن کا وقت
+          generic: جاپان کا وقت
+          standard: جاپان کا معیاری وقت
+        type: Japan
+      - 
+        long: 
+          daylight: پیٹروپاؤلووسک-کیمچسکی سمر ٹائم
+          generic: پیٹروپاؤلووسک-کیمچسکی ٹائم
+          standard: پیٹروپاؤلووسک-کیمچسکی اسٹینڈرڈ ٹائم
+        type: Kamchatka
+      - 
+        long: 
+          standard: مشرقی قزاخستان کا وقت
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: مغربی قزاخستان کا وقت
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: کوریا کا دن کا وقت
+          generic: کوریا کا وقت
+          standard: کوریا کا معیاری وقت
+        type: Korea
+      - 
+        long: 
+          standard: کوسرے کا وقت
+        type: Kosrae
+      - 
+        long: 
+          daylight: کریسنویارسک سمر ٹائم
+          generic: کریسنویارسک ٹائم
+          standard: کرسنویارسک کا معیاری وقت
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: کرغستان کا وقت
+        type: Kyrgystan
+      - 
+        long: 
+          standard: لائن آئلینڈز کا وقت
+        type: Line_Islands
+      - 
+        long: 
+          daylight: لارڈ ہووے ڈے لائٹ ٹائم
+          generic: لارڈ ہووے ٹائم
+          standard: لارڈ ہووے اسٹینڈرڈ ٹائم
+        type: Lord_Howe
+      - 
+        long: 
+          standard: مکوآری آئلینڈ کا وقت
+        type: Macquarie
+      - 
+        long: 
+          daylight: میگیدن سمر ٹائم
+          generic: میگیدن ٹائم
+          standard: میگدان کا معیاری وقت
+        type: Magadan
+      - 
+        long: 
+          standard: ملیشیا کا وقت
+        type: Malaysia
+      - 
+        long: 
+          standard: مالدیپ کا وقت
+        type: Maldives
+      - 
+        long: 
+          standard: مارکیسس کا وقت
+        type: Marquesas
+      - 
+        long: 
+          standard: مارشل آئلینڈز کا وقت
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: ماریشس کا موسم گرما کا وقت
+          generic: ماریشس کا وقت
+          standard: ماریشس کا معیاری وقت
+        type: Mauritius
+      - 
+        long: 
+          standard: ماؤسن کا وقت
+        type: Mawson
+      - 
+        long: 
+          daylight: یولان بیٹور سمر ٹائم
+          generic: یولان بیتور کا وقت
+          standard: یولان بیتور کا معیاری وقت
+        type: Mongolia
+      - 
+        long: 
+          daylight: ماسکو سمر ٹائم
+          generic: ماسکو ٹائم
+          standard: ماسکو اسٹینڈرڈ ٹائم
+        type: Moscow
+      - 
+        long: 
+          standard: میانمار کا وقت
+        type: Myanmar
+      - 
+        long: 
+          standard: ناؤرو کا وقت
+        type: Nauru
+      - 
+        long: 
+          standard: نیپال کا وقت
+        type: Nepal
+      - 
+        long: 
+          daylight: نیو کیلیڈونیا کا موسم گرما کا وقت
+          generic: نیو کیلیڈونیا کا وقت
+          standard: نیو کیلیڈونیا کا معیاری وقت
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: نیوزی لینڈ کا دن کا وقت
+          generic: نیوزی لینڈ کا وقت
+          standard: نیوزی لینڈ کا معیاری وقت
+        type: New_Zealand
+      - 
+        long: 
+          daylight: نیو فاؤنڈ لینڈ ڈے لائٹ ٹائم
+          generic: نیو فاؤنڈ لینڈ ٹائم
+          standard: نیو فاؤنڈ لینڈ اسٹینڈرڈ ٹائم
+        type: Newfoundland
+      - 
+        long: 
+          standard: نیئو کا وقت
+        type: Niue
+      - 
+        long: 
+          standard: نارفوک آئلینڈز کا وقت
+        type: Norfolk
+      - 
+        long: 
+          daylight: فرنانڈو ڈی نورونہا سمر ٹائم
+          generic: فرنانڈو ڈی نورنہا کا وقت
+          standard: فرنانڈو ڈی نورنہا کا معیاری وقت
+        type: Noronha
+      - 
+        long: 
+          daylight: نوووسِبِرسک سمر ٹائم
+          generic: نوووسیبرسک ٹائم
+          standard: نوووسیبرسک کا معیاری وقت
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: اومسک سمر ٹائم
+          generic: اومسک ٹائم
+          standard: اومسک کا معیاری وقت
+        type: Omsk
+      - 
+        long: 
+          daylight: پاکستان کا موسم گرما کا وقت
+          generic: پاکستان کا وقت
+          standard: پاکستان کا معیاری وقت
+        type: Pakistan
+      - 
+        long: 
+          standard: پلاؤ کا وقت
+        type: Palau
+      - 
+        long: 
+          standard: پاپوآ نیو گنی کا وقت
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: پیراگوئے کا موسم گرما کا وقت
+          generic: پیراگوئے کا وقت
+          standard: پیراگوئے کا معیاری وقت
+        type: Paraguay
+      - 
+        long: 
+          daylight: پیرو کا موسم گرما کا وقت
+          generic: پیرو کا وقت
+          standard: پیرو کا معیاری وقت
+        type: Peru
+      - 
+        long: 
+          daylight: فلپائن کا موسم گرما کا وقت
+          generic: فلپائن کا وقت
+          standard: فلپائن کا معیاری وقت
+        type: Philippines
+      - 
+        long: 
+          standard: فینکس آئلینڈز کا وقت
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: سینٹ پیئر اور مکلیئون کا دن کا وقت
+          generic: سینٹ پیئر اور مکلیئون کا وقت
+          standard: سینٹ پیئر اور مکلیئون کا معیاری وقت
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: پٹکائرن کا وقت
+        type: Pitcairn
+      - 
+        long: 
+          standard: پوناپے کا وقت
+        type: Ponape
+      - 
+        long: 
+          standard: ری یونین کا وقت
+        type: Reunion
+      - 
+        long: 
+          standard: روتھیرا کا وقت
+        type: Rothera
+      - 
+        long: 
+          daylight: سخالین سمر ٹائم
+          generic: سخالین ٹائم
+          standard: سخالین کا معیاری وقت
+        type: Sakhalin
+      - 
+        long: 
+          daylight: سمارا سمر ٹائم
+          generic: سمارا ٹائم
+          standard: سمارا اسٹینڈرڈ ٹائم
+        type: Samara
+      - 
+        long: 
+          daylight: ساموآ سمر وقت
+          generic: ساموآ وقت
+          standard: ساموآ کا معیاری وقت
+        type: Samoa
+      - 
+        long: 
+          standard: سیشلیز کا وقت
+        type: Seychelles
+      - 
+        long: 
+          standard: سنگاپور کا معیاری وقت
+        type: Singapore
+      - 
+        long: 
+          standard: سولمن آئلینڈز کا وقت
+        type: Solomon
+      - 
+        long: 
+          standard: جنوبی جارجیا کا وقت
+        type: South_Georgia
+      - 
+        long: 
+          standard: سیووا کا وقت
+        type: Syowa
+      - 
+        long: 
+          standard: تاہیتی کا وقت
+        type: Tahiti
+      - 
+        long: 
+          daylight: تائیپے کا دن کا وقت
+          generic: تائیپے کا وقت
+          standard: تائیپے کا معیاری وقت
+        type: Taipei
+      - 
+        long: 
+          standard: تاجکستان کا وقت
+        type: Tajikistan
+      - 
+        long: 
+          standard: ٹوکیلاؤ کا وقت
+        type: Tokelau
+      - 
+        long: 
+          daylight: ٹونگا کا موسم گرما کا وقت
+          generic: ٹونگا کا وقت
+          standard: ٹونگا کا معیاری وقت
+        type: Tonga
+      - 
+        long: 
+          standard: چوک کا وقت
+        type: Truk
+      - 
+        long: 
+          daylight: ترکمانستان کا موسم گرما کا وقت
+          generic: ترکمانستان کا وقت
+          standard: ترکمانستان کا معیاری وقت
+        type: Turkmenistan
+      - 
+        long: 
+          standard: ٹوالو کا وقت
+        type: Tuvalu
+      - 
+        long: 
+          daylight: یوروگوئے کا موسم گرما کا وقت
+          generic: یوروگوئے کا وقت
+          standard: یوروگوئے کا معیاری وقت
+        type: Uruguay
+      - 
+        long: 
+          daylight: ازبکستان کا موسم گرما کا وقت
+          generic: ازبکستان کا وقت
+          standard: ازبکستان کا معیاری وقت
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: وانوآٹو کا موسم گرما کا وقت
+          generic: وانوآٹو کا وقت
+          standard: وانوآٹو کا معیاری وقت
+        type: Vanuatu
+      - 
+        long: 
+          standard: وینزوئیلا کا وقت
+        type: Venezuela
+      - 
+        long: 
+          daylight: ولادی ووستک سمر ٹائم
+          generic: ولادی ووستک ٹائم
+          standard: ولادی ووستک کا معیاری وقت
+        type: Vladivostok
+      - 
+        long: 
+          daylight: وولگوگراد سمر ٹائم
+          generic: وولگوگراد ٹائم
+          standard: بلغراد کا معیاری وقت
+        type: Volgograd
+      - 
+        long: 
+          standard: ووسٹاک کا وقت
+        type: Vostok
+      - 
+        long: 
+          standard: ویک آئلینڈ کا وقت
+        type: Wake
+      - 
+        long: 
+          standard: والیز اور فٹونا کا وقت
+        type: Wallis
+      - 
+        long: 
+          daylight: یکوتسک سمر ٹائم
+          generic: یکوتسک ٹائم
+          standard: یاکتسک کا معیاری وقت
+        type: Yakutsk
+      - 
+        long: 
+          daylight: یکاٹیرِنبرگ سمر ٹائم
+          generic: یکاٹیرِنبرگ ٹائم
+          standard: یکیترنگبرگ کا معیاری وقت
+        type: Yekaterinburg
+    regionFormat: "{0} وقت"
+    zone: 
+      - 
+        exemplarCity: نامعلوم شہر
+        type: Etc/Unknown
+      - 
+        exemplarCity: انڈورا
+        type: Europe/Andorra
+      - 
+        exemplarCity: دوبئی
+        type: Asia/Dubai
+      - 
+        exemplarCity: کابل
+        type: Asia/Kabul
+      - 
+        exemplarCity: انٹیگوا
+        type: America/Antigua
+      - 
+        exemplarCity: انگویلا
+        type: America/Anguilla
+      - 
+        exemplarCity: ٹیرانی
+        type: Europe/Tirane
+      - 
+        exemplarCity: یریوان
+        type: Asia/Yerevan
+      - 
+        exemplarCity: لوانڈا
+        type: Africa/Luanda
+      - 
+        exemplarCity: روتھیرا
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: پلمیر
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: قطب جنوبی
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: سیووا
+        type: Antarctica/Syowa
+      - 
+        exemplarCity: ماؤسن
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: ڈیوس
+        type: Antarctica/Davis
+      - 
+        exemplarCity: ووستوک
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: کیسی
+        type: Antarctica/Casey
+      - 
+        exemplarCity: ڈومونٹ ڈی ارویلے
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: میک مرڈو
+        type: Antarctica/McMurdo
+      - 
+        exemplarCity: ریو گالیگوس
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: مینڈوزا
+        type: America/Mendoza
+      - 
+        exemplarCity: سان جوآن
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: اوشوآئیا
+        type: America/Argentina/Ushuaia
+      - 
+        exemplarCity: لا ریئوجا
+        type: America/Argentina/La_Rioja
+      - 
+        exemplarCity: سان لوئس
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: کیٹامارکا
+        type: America/Catamarca
+      - 
+        exemplarCity: سالٹا
+        type: America/Argentina/Salta
+      - 
+        exemplarCity: جوجوئی
+        type: America/Jujuy
+      - 
+        exemplarCity: ٹوکومین
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: کورڈوبا
+        type: America/Cordoba
+      - 
+        exemplarCity: بیونس آئرس
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: پاگو پاگو
+        type: Pacific/Pago_Pago
+      - 
+        exemplarCity: ویانا
+        type: Europe/Vienna
+      - 
+        exemplarCity: پرتھ
+        type: Australia/Perth
+      - 
+        exemplarCity: ایوکلا
+        type: Australia/Eucla
+      - 
+        exemplarCity: ڈارون
+        type: Australia/Darwin
+      - 
+        exemplarCity: اڈیلائڈ
+        type: Australia/Adelaide
+      - 
+        exemplarCity: بروکن ہِل
+        type: Australia/Broken_Hill
+      - 
+        exemplarCity: کیوری
+        type: Australia/Currie
+      - 
+        exemplarCity: ملبورن
+        type: Australia/Melbourne
+      - 
+        exemplarCity: ہوبارٹ
+        type: Australia/Hobart
+      - 
+        exemplarCity: لِنڈمین
+        type: Australia/Lindeman
+      - 
+        exemplarCity: سڈنی
+        type: Australia/Sydney
+      - 
+        exemplarCity: برسبین
+        type: Australia/Brisbane
+      - 
+        exemplarCity: لارڈ ہووے
+        type: Australia/Lord_Howe
+      - 
+        exemplarCity: اروبا
+        type: America/Aruba
+      - 
+        exemplarCity: میریہام
+        type: Europe/Mariehamn
+      - 
+        exemplarCity: باکو
+        type: Asia/Baku
+      - 
+        exemplarCity: سراجیوو
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: باربادوس
+        type: America/Barbados
+      - 
+        exemplarCity: ڈھاکہ
+        type: Asia/Dhaka
+      - 
+        exemplarCity: برسلز
+        type: Europe/Brussels
+      - 
+        exemplarCity: اؤگاڈؤگوو
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: صوفیہ
+        type: Europe/Sofia
+      - 
+        exemplarCity: بحرین
+        type: Asia/Bahrain
+      - 
+        exemplarCity: بجمبرا
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: پورٹو نووا
+        type: Africa/Porto-Novo
+      - 
+        exemplarCity: سینٹ برتھیلمی
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: برمودا
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: برونئی
+        type: Asia/Brunei
+      - 
+        exemplarCity: لا پاز
+        type: America/La_Paz
+      - 
+        exemplarCity: ایرونیپ
+        type: America/Eirunepe
+      - 
+        exemplarCity: ریئو برینکو
+        type: America/Rio_Branco
+      - 
+        exemplarCity: پورٹو ویلہو
+        type: America/Porto_Velho
+      - 
+        exemplarCity: بوآ وسٹا
+        type: America/Boa_Vista
+      - 
+        exemplarCity: مناؤس
+        type: America/Manaus
+      - 
+        exemplarCity: کوئیابا
+        type: America/Cuiaba
+      - 
+        exemplarCity: سنٹارین
+        type: America/Santarem
+      - 
+        exemplarCity: کیمپو گرینڈ
+        type: America/Campo_Grande
+      - 
+        exemplarCity: بیلیم
+        type: America/Belem
+      - 
+        exemplarCity: اراگویانا
+        type: America/Araguaina
+      - 
+        exemplarCity: ساؤ پالو
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: باہیا
+        type: America/Bahia
+      - 
+        exemplarCity: فورٹالیزا
+        type: America/Fortaleza
+      - 
+        exemplarCity: میسیئو
+        type: America/Maceio
+      - 
+        exemplarCity: ریسائف
+        type: America/Recife
+      - 
+        exemplarCity: نورونہا
+        type: America/Noronha
+      - 
+        exemplarCity: نساؤ
+        type: America/Nassau
+      - 
+        exemplarCity: تھمپو
+        type: Asia/Thimphu
+      - 
+        exemplarCity: جیبورون
+        type: Africa/Gaborone
+      - 
+        exemplarCity: مِنسک
+        type: Europe/Minsk
+      - 
+        exemplarCity: بیلائز
+        type: America/Belize
+      - 
+        exemplarCity: ڈاؤسن
+        type: America/Dawson
+      - 
+        exemplarCity: وہائٹ ہارس
+        type: America/Whitehorse
+      - 
+        exemplarCity: انووِک
+        type: America/Inuvik
+      - 
+        exemplarCity: وینکوور
+        type: America/Vancouver
+      - 
+        exemplarCity: ڈاؤسن کریک
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: ایلو نائف
+        type: America/Yellowknife
+      - 
+        exemplarCity: ایڈمونٹن
+        type: America/Edmonton
+      - 
+        exemplarCity: سوِفٹ کرنٹ
+        type: America/Swift_Current
+      - 
+        exemplarCity: کیمبرج کی کھاڑی
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: ریجینا
+        type: America/Regina
+      - 
+        exemplarCity: ونّیپیگ
+        type: America/Winnipeg
+      - 
+        exemplarCity: ریزولیوٹ
+        type: America/Resolute
+      - 
+        exemplarCity: برساتی ندی
+        type: America/Rainy_River
+      - 
+        exemplarCity: رینکن انلیٹ
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: اٹیکوکن
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: تھنڈر بے
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: نپیگون
+        type: America/Nipigon
+      - 
+        exemplarCity: ٹورنٹو
+        type: America/Toronto
+      - 
+        exemplarCity: مونٹریال
+        type: America/Montreal
+      - 
+        exemplarCity: ایکالوئٹ
+        type: America/Iqaluit
+      - 
+        exemplarCity: پینگنِرٹنگ
+        type: America/Pangnirtung
+      - 
+        exemplarCity: مونکٹن
+        type: America/Moncton
+      - 
+        exemplarCity: ہیلیفیکس
+        type: America/Halifax
+      - 
+        exemplarCity: گوس کی کھاڑی
+        type: America/Goose_Bay
+      - 
+        exemplarCity: گلیس کی کھاڑی
+        type: America/Glace_Bay
+      - 
+        exemplarCity: بلانک سبلون
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: سینٹ جانز
+        type: America/St_Johns
+      - 
+        exemplarCity: کوکوس
+        type: Indian/Cocos
+      - 
+        exemplarCity: کنشاسا
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: لوبمباشی
+        type: Africa/Lubumbashi
+      - 
+        exemplarCity: بنگوئی
+        type: Africa/Bangui
+      - 
+        exemplarCity: برازاویلے
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: زیورخ
+        type: Europe/Zurich
+      - 
+        exemplarCity: عابدجان
+        type: Africa/Abidjan
+      - 
+        exemplarCity: راروٹونگا
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: ایسٹر
+        type: Pacific/Easter
+      - 
+        exemplarCity: سنٹیاگو
+        type: America/Santiago
+      - 
+        exemplarCity: ڈوآلا
+        type: Africa/Douala
+      - 
+        exemplarCity: کاشغر
+        type: Asia/Kashgar
+      - 
+        exemplarCity: یورومکی
+        type: Asia/Urumqi
+      - 
+        exemplarCity: چانگ کنگ
+        type: Asia/Chongqing
+      - 
+        exemplarCity: شنگھائی
+        type: Asia/Shanghai
+      - 
+        exemplarCity: ہربِن
+        type: Asia/Harbin
+      - 
+        exemplarCity: بگوٹا
+        type: America/Bogota
+      - 
+        exemplarCity: کوسٹا ریکا
+        type: America/Costa_Rica
+      - 
+        exemplarCity: ہوانا
+        type: America/Havana
+      - 
+        exemplarCity: کیپ ورڈی
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: کیوراکاؤ
+        type: America/Curacao
+      - 
+        exemplarCity: کرسمس
+        type: Indian/Christmas
+      - 
+        exemplarCity: نکوسیا
+        type: Asia/Nicosia
+      - 
+        exemplarCity: پراگ
+        type: Europe/Prague
+      - 
+        exemplarCity: برلن
+        type: Europe/Berlin
+      - 
+        exemplarCity: جبوتی
+        type: Africa/Djibouti
+      - 
+        exemplarCity: کوپن ہیگن
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: ڈومنیکا
+        type: America/Dominica
+      - 
+        exemplarCity: سانتو ڈومنگو
+        type: America/Santo_Domingo
+      - 
+        exemplarCity: الجیئرس
+        type: Africa/Algiers
+      - 
+        exemplarCity: گیلاپیگوس
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: گوآیاکوئل
+        type: America/Guayaquil
+      - 
+        exemplarCity: تالِّن
+        type: Europe/Tallinn
+      - 
+        exemplarCity: قاہرہ
+        type: Africa/Cairo
+      - 
+        exemplarCity: العیون
+        type: Africa/El_Aaiun
+      - 
+        exemplarCity: اسمارا
+        type: Africa/Asmera
+      - 
+        exemplarCity: کینری
+        type: Atlantic/Canary
+      - 
+        exemplarCity: سیوٹا
+        type: Africa/Ceuta
+      - 
+        exemplarCity: میڈرڈ
+        type: Europe/Madrid
+      - 
+        exemplarCity: عدیس ابابا
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: ہیلسنکی
+        type: Europe/Helsinki
+      - 
+        exemplarCity: فجی
+        type: Pacific/Fiji
+      - 
+        exemplarCity: اسٹینلے
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: چیوک
+        type: Pacific/Truk
+      - 
+        exemplarCity: پونپیئی
+        type: Pacific/Ponape
+      - 
+        exemplarCity: کوسرائی
+        type: Pacific/Kosrae
+      - 
+        exemplarCity: فروئی
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: پیرس
+        type: Europe/Paris
+      - 
+        exemplarCity: لبرے ویلے
+        type: Africa/Libreville
+      - 
+        exemplarCity: لندن
+        type: Europe/London
+      - 
+        exemplarCity: غرناطہ
+        type: America/Grenada
+      - 
+        exemplarCity: طبلیسی
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: کیینّی
+        type: America/Cayenne
+      - 
+        exemplarCity: گوئرنسی
+        type: Europe/Guernsey
+      - 
+        exemplarCity: اکّرا
+        type: Africa/Accra
+      - 
+        exemplarCity: جبل الطارق
+        type: Europe/Gibraltar
+      - 
+        exemplarCity: تھولو
+        type: America/Thule
+      - 
+        exemplarCity: گاڈتھیب
+        type: America/Godthab
+      - 
+        exemplarCity: اسکورز بائی سنڈ
+        type: America/Scoresbysund
+      - 
+        exemplarCity: ڈنمارک شاون
+        type: America/Danmarkshavn
+      - 
+        exemplarCity: بنجول
+        type: Africa/Banjul
+      - 
+        exemplarCity: کونکری
+        type: Africa/Conakry
+      - 
+        exemplarCity: گواڈیلوپ
+        type: America/Guadeloupe
+      - 
+        exemplarCity: ملابو
+        type: Africa/Malabo
+      - 
+        exemplarCity: ایتھنز
+        type: Europe/Athens
+      - 
+        exemplarCity: جنوبی جارجیا
+        type: Atlantic/South_Georgia
+      - 
+        exemplarCity: گواٹے مالا
+        type: America/Guatemala
+      - 
+        exemplarCity: گوآم
+        type: Pacific/Guam
+      - 
+        exemplarCity: بِساؤ
+        type: Africa/Bissau
+      - 
+        exemplarCity: گیانا
+        type: America/Guyana
+      - 
+        exemplarCity: ہانگ کانگ
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: ٹیگوسیگالپے
+        type: America/Tegucigalpa
+      - 
+        exemplarCity: زیگریب
+        type: Europe/Zagreb
+      - 
+        exemplarCity: پورٹ او پرنس
+        type: America/Port-au-Prince
+      - 
+        exemplarCity: بدھاپیسٹ
+        type: Europe/Budapest
+      - 
+        exemplarCity: جکارتہ
+        type: Asia/Jakarta
+      - 
+        exemplarCity: پونٹیانک
+        type: Asia/Pontianak
+      - 
+        exemplarCity: مکاسر
+        type: Asia/Makassar
+      - 
+        exemplarCity: جے پورہ
+        type: Asia/Jayapura
+      - 
+        exemplarCity: ڈبلن
+        type: Europe/Dublin
+      - 
+        exemplarCity: یروشلم
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: آئل آف مین
+        type: Europe/Isle_of_Man
+      - 
+        exemplarCity: کولکاتا
+        type: Asia/Calcutta
+      - 
+        exemplarCity: چاگوس
+        type: Indian/Chagos
+      - 
+        exemplarCity: بغداد
+        type: Asia/Baghdad
+      - 
+        exemplarCity: تہران
+        type: Asia/Tehran
+      - 
+        exemplarCity: ریکجاوک
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: روم
+        type: Europe/Rome
+      - 
+        exemplarCity: جرسی
+        type: Europe/Jersey
+      - 
+        exemplarCity: جمائیکا
+        type: America/Jamaica
+      - 
+        exemplarCity: امّان
+        type: Asia/Amman
+      - 
+        exemplarCity: ٹوکیو
+        type: Asia/Tokyo
+      - 
+        exemplarCity: نیروبی
+        type: Africa/Nairobi
+      - 
+        exemplarCity: بشکیک
+        type: Asia/Bishkek
+      - 
+        exemplarCity: نام پنہ
+        type: Asia/Phnom_Penh
+      - 
+        exemplarCity: اینڈربری
+        type: Pacific/Enderbury
+      - 
+        exemplarCity: کریتیماٹی
+        type: Pacific/Kiritimati
+      - 
+        exemplarCity: ٹراوا
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: کومورو
+        type: Indian/Comoro
+      - 
+        exemplarCity: سینٹ کٹس
+        type: America/St_Kitts
+      - 
+        exemplarCity: پیونگ یانگ
+        type: Asia/Pyongyang
+      - 
+        exemplarCity: سیئول
+        type: Asia/Seoul
+      - 
+        exemplarCity: کویت
+        type: Asia/Kuwait
+      - 
+        exemplarCity: کیمین
+        type: America/Cayman
+      - 
+        exemplarCity: اکتاؤ
+        type: Asia/Aqtau
+      - 
+        exemplarCity: زبانی
+        type: Asia/Oral
+      - 
+        exemplarCity: اکٹوب
+        type: Asia/Aqtobe
+      - 
+        exemplarCity: کیزیلورڈا
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: الماٹی
+        type: Asia/Almaty
+      - 
+        exemplarCity: وینٹیانا
+        type: Asia/Vientiane
+      - 
+        exemplarCity: بیروت
+        type: Asia/Beirut
+      - 
+        exemplarCity: سینٹ لوسیا
+        type: America/St_Lucia
+      - 
+        exemplarCity: ویڈوز
+        type: Europe/Vaduz
+      - 
+        exemplarCity: کولمبو
+        type: Asia/Colombo
+      - 
+        exemplarCity: مونروویا
+        type: Africa/Monrovia
+      - 
+        exemplarCity: مسیرو
+        type: Africa/Maseru
+      - 
+        exemplarCity: وِلنیئس
+        type: Europe/Vilnius
+      - 
+        exemplarCity: لگژمبرگ
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: ریگا
+        type: Europe/Riga
+      - 
+        exemplarCity: ٹریپولی
+        type: Africa/Tripoli
+      - 
+        exemplarCity: کیسا بلانکا
+        type: Africa/Casablanca
+      - 
+        exemplarCity: موناکو
+        type: Europe/Monaco
+      - 
+        exemplarCity: چیسیناؤ
+        type: Europe/Chisinau
+      - 
+        exemplarCity: پوڈگورسیا
+        type: Europe/Podgorica
+      - 
+        exemplarCity: میریگوٹ
+        type: America/Marigot
+      - 
+        exemplarCity: انٹاناناریوو
+        type: Indian/Antananarivo
+      - 
+        exemplarCity: کواجیلین
+        type: Pacific/Kwajalein
+      - 
+        exemplarCity: مجورو
+        type: Pacific/Majuro
+      - 
+        exemplarCity: اسکوپجے
+        type: Europe/Skopje
+      - 
+        exemplarCity: بماکو
+        type: Africa/Bamako
+      - 
+        exemplarCity: رنگون
+        type: Asia/Rangoon
+      - 
+        exemplarCity: ہووارڈ
+        type: Asia/Hovd
+      - 
+        exemplarCity: اولان باتار
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: کوائبلسان
+        type: Asia/Choibalsan
+      - 
+        exemplarCity: مکاؤ
+        type: Asia/Macau
+      - 
+        exemplarCity: سائپین
+        type: Pacific/Saipan
+      - 
+        exemplarCity: مارٹینک
+        type: America/Martinique
+      - 
+        exemplarCity: نؤآک چاٹ
+        type: Africa/Nouakchott
+      - 
+        exemplarCity: مونٹسیراٹ
+        type: America/Montserrat
+      - 
+        exemplarCity: مالٹا
+        type: Europe/Malta
+      - 
+        exemplarCity: ماریشس
+        type: Indian/Mauritius
+      - 
+        exemplarCity: مالدیپ کا باشندہ
+        type: Indian/Maldives
+      - 
+        exemplarCity: بلینٹائر
+        type: Africa/Blantyre
+      - 
+        exemplarCity: تیجوآنا
+        type: America/Tijuana
+      - 
+        exemplarCity: ہرموسیلو
+        type: America/Hermosillo
+      - 
+        exemplarCity: میزٹلان
+        type: America/Mazatlan
+      - 
+        exemplarCity: چیہوآہوآ
+        type: America/Chihuahua
+      - 
+        exemplarCity: مونٹیری
+        type: America/Monterrey
+      - 
+        exemplarCity: میکسیکو سٹی
+        type: America/Mexico_City
+      - 
+        exemplarCity: میریڈا
+        type: America/Merida
+      - 
+        exemplarCity: کنکیون
+        type: America/Cancun
+      - 
+        exemplarCity: کوالا لمپور
+        type: Asia/Kuala_Lumpur
+      - 
+        exemplarCity: کیوچنگ
+        type: Asia/Kuching
+      - 
+        exemplarCity: مپوٹو
+        type: Africa/Maputo
+      - 
+        exemplarCity: ونڈہوک
+        type: Africa/Windhoek
+      - 
+        exemplarCity: نؤمیا
+        type: Pacific/Noumea
+      - 
+        exemplarCity: نیامی
+        type: Africa/Niamey
+      - 
+        exemplarCity: نورفوک
+        type: Pacific/Norfolk
+      - 
+        exemplarCity: لاگوس
+        type: Africa/Lagos
+      - 
+        exemplarCity: مناگوآ
+        type: America/Managua
+      - 
+        exemplarCity: ایمسٹرڈم
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: اوسلو
+        type: Europe/Oslo
+      - 
+        exemplarCity: کاٹھمنڈو
+        type: Asia/Katmandu
+      - 
+        exemplarCity: ناؤرو
+        type: Pacific/Nauru
+      - 
+        exemplarCity: نیئو
+        type: Pacific/Niue
+      - 
+        exemplarCity: چیتھم
+        type: Pacific/Chatham
+      - 
+        exemplarCity: آکلینڈ
+        type: Pacific/Auckland
+      - 
+        exemplarCity: مسقط
+        type: Asia/Muscat
+      - 
+        exemplarCity: پنامہ
+        type: America/Panama
+      - 
+        exemplarCity: لیما
+        type: America/Lima
+      - 
+        exemplarCity: تاہیتی
+        type: Pacific/Tahiti
+      - 
+        exemplarCity: مارکیساس
+        type: Pacific/Marquesas
+      - 
+        exemplarCity: گامبیئر
+        type: Pacific/Gambier
+      - 
+        exemplarCity: پورٹ موریسبی
+        type: Pacific/Port_Moresby
+      - 
+        exemplarCity: منیلا
+        type: Asia/Manila
+      - 
+        exemplarCity: کراچی
+        type: Asia/Karachi
+      - 
+        exemplarCity: وارسا
+        type: Europe/Warsaw
+      - 
+        exemplarCity: میکلیئون
+        type: America/Miquelon
+      - 
+        exemplarCity: پٹکائرن
+        type: Pacific/Pitcairn
+      - 
+        exemplarCity: پیورٹو ریکو
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: غزہ
+        type: Asia/Gaza
+      - 
+        exemplarCity: ازوریس
+        type: Atlantic/Azores
+      - 
+        exemplarCity: مڈیئرا
+        type: Atlantic/Madeira
+      - 
+        exemplarCity: لسبن
+        type: Europe/Lisbon
+      - 
+        exemplarCity: پلاؤ
+        type: Pacific/Palau
+      - 
+        exemplarCity: اسنسیئن
+        type: America/Asuncion
+      - 
+        exemplarCity: قطر
+        type: Asia/Qatar
+      - 
+        exemplarCity: ری یونین
+        type: Indian/Reunion
+      - 
+        exemplarCity: بخارسٹ
+        type: Europe/Bucharest
+      - 
+        exemplarCity: بلغراد
+        type: Europe/Belgrade
+      - 
+        exemplarCity: لینن گراد
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: ماسکو
+        type: Europe/Moscow
+      - 
+        exemplarCity: وولگوگراد
+        type: Europe/Volgograd
+      - 
+        exemplarCity: سمارا
+        type: Europe/Samara
+      - 
+        exemplarCity: یکاٹیرِنبرگ
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: اومسک
+        type: Asia/Omsk
+      - 
+        exemplarCity: نوووسِبِرسک
+        type: Asia/Novosibirsk
+      - 
+        exemplarCity: کریسنویارسک
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: ارکتسک
+        type: Asia/Irkutsk
+      - 
+        exemplarCity: یکوتسک
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: ولادی ووستک
+        type: Asia/Vladivostok
+      - 
+        exemplarCity: سخالین
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: میگیدن
+        type: Asia/Magadan
+      - 
+        exemplarCity: کیمچٹکا
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: انیدر
+        type: Asia/Anadyr
+      - 
+        exemplarCity: کگالی
+        type: Africa/Kigali
+      - 
+        exemplarCity: ریاض
+        type: Asia/Riyadh
+      - 
+        exemplarCity: گواڈل کینال
+        type: Pacific/Guadalcanal
+      - 
+        exemplarCity: ماہی
+        type: Indian/Mahe
+      - 
+        exemplarCity: خرطوم
+        type: Africa/Khartoum
+      - 
+        exemplarCity: اسٹاک ہوم
+        type: Europe/Stockholm
+      - 
+        exemplarCity: سنگاپور
+        type: Asia/Singapore
+      - 
+        exemplarCity: سینٹ ہیلینا
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: جبجانا
+        type: Europe/Ljubljana
+      - 
+        exemplarCity: لانگ ایئر بین
+        type: Arctic/Longyearbyen
+      - 
+        exemplarCity: بریٹِسلاوا
+        type: Europe/Bratislava
+      - 
+        exemplarCity: فری ٹاؤن
+        type: Africa/Freetown
+      - 
+        exemplarCity: سان ماریانو
+        type: Europe/San_Marino
+      - 
+        exemplarCity: ڈکار
+        type: Africa/Dakar
+      - 
+        exemplarCity: موگادیشو
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: پراماریبو
+        type: America/Paramaribo
+      - 
+        exemplarCity: ساؤ ٹوم
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: ال سلواڈور
+        type: America/El_Salvador
+      - 
+        exemplarCity: لوور پرنسس کوارٹر
+        type: America/Lower_Princes
+      - 
+        exemplarCity: دمشق
+        type: Asia/Damascus
+      - 
+        exemplarCity: مبابین
+        type: Africa/Mbabane
+      - 
+        exemplarCity: عظیم ترک
+        type: America/Grand_Turk
+      - 
+        exemplarCity: ڈجامینا
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: کرگیولین
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: لوم
+        type: Africa/Lome
+      - 
+        exemplarCity: بنکاک
+        type: Asia/Bangkok
+      - 
+        exemplarCity: دوشانبے
+        type: Asia/Dushanbe
+      - 
+        exemplarCity: فکاؤفو
+        type: Pacific/Fakaofo
+      - 
+        exemplarCity: ڈلی
+        type: Asia/Dili
+      - 
+        exemplarCity: اشغبت
+        type: Asia/Ashgabat
+      - 
+        exemplarCity: تیونس
+        type: Africa/Tunis
+      - 
+        exemplarCity: ٹونگاٹاپو
+        type: Pacific/Tongatapu
+      - 
+        exemplarCity: استنبول
+        type: Europe/Istanbul
+      - 
+        exemplarCity: پورٹ آف اسپین
+        type: America/Port_of_Spain
+      - 
+        exemplarCity: فیونافیوٹی
+        type: Pacific/Funafuti
+      - 
+        exemplarCity: تائپے
+        type: Asia/Taipei
+      - 
+        exemplarCity: دار السلام
+        type: Africa/Dar_es_Salaam
+      - 
+        exemplarCity: ازگوروڈ
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: کیوو
+        type: Europe/Kiev
+      - 
+        exemplarCity: سمفروپول
+        type: Europe/Simferopol
+      - 
+        exemplarCity: زیپوروزائی
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: کیمپالا
+        type: Africa/Kampala
+      - 
+        exemplarCity: وسط دن
+        type: Pacific/Midway
+      - 
+        exemplarCity: جانسٹن
+        type: Pacific/Johnston
+      - 
+        exemplarCity: بیدار
+        type: Pacific/Wake
+      - 
+        exemplarCity: اداک
+        type: America/Adak
+      - 
+        exemplarCity: نوم
+        type: America/Nome
+      - 
+        exemplarCity: ہونولولو
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: اینکریج
+        type: America/Anchorage
+      - 
+        exemplarCity: یکوٹیٹ
+        type: America/Yakutat
+      - 
+        exemplarCity: جونیئو
+        type: America/Juneau
+      - 
+        exemplarCity: لاس اینجلس
+        type: America/Los_Angeles
+      - 
+        exemplarCity: بوائس
+        type: America/Boise
+      - 
+        exemplarCity: فینکس
+        type: America/Phoenix
+      - 
+        exemplarCity: شپراک
+        type: America/Shiprock
+      - 
+        exemplarCity: ڈینور
+        type: America/Denver
+      - 
+        exemplarCity: بیولاہ، شمالی ڈکوٹا
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: نیو سلیم، شمالی ڈکوٹا
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: وسط، شمالی ڈکوٹا
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: شکاگو
+        type: America/Chicago
+      - 
+        exemplarCity: مینومینی
+        type: America/Menominee
+      - 
+        exemplarCity: ونسینیز، انڈیانا
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: پیٹرزبرگ، انڈیانا
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: ٹیل سٹی، انڈیانا
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: کنوکس، انڈیانا
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: وینامیک، انڈیانا
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: مرینگو، انڈیانا
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: انڈیاناپولس
+        type: America/Indianapolis
+      - 
+        exemplarCity: لوئس ویلے
+        type: America/Louisville
+      - 
+        exemplarCity: ویوے، انڈیانا
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: مونٹیسیلو، کینٹوکی
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: ڈیٹرائٹ
+        type: America/Detroit
+      - 
+        exemplarCity: نیو یارک
+        type: America/New_York
+      - 
+        exemplarCity: مونٹی ویڈیو
+        type: America/Montevideo
+      - 
+        exemplarCity: سمرقند
+        type: Asia/Samarkand
+      - 
+        exemplarCity: تاشقند
+        type: Asia/Tashkent
+      - 
+        exemplarCity: واٹیکن
+        type: Europe/Vatican
+      - 
+        exemplarCity: سینٹ ونسنٹ
+        type: America/St_Vincent
+      - 
+        exemplarCity: کراکاس
+        type: America/Caracas
+      - 
+        exemplarCity: ٹورٹولا
+        type: America/Tortola
+      - 
+        exemplarCity: سینٹ تھامس
+        type: America/St_Thomas
+      - 
+        exemplarCity: ہو چی منہ سٹی
+        type: Asia/Saigon
+      - 
+        exemplarCity: ایفیٹ
+        type: Pacific/Efate
+      - 
+        exemplarCity: ولّیس
+        type: Pacific/Wallis
+      - 
+        exemplarCity: اپیا
+        type: Pacific/Apia
+      - 
+        exemplarCity: عدن
+        type: Asia/Aden
+      - 
+        exemplarCity: مایوٹ
+        type: Indian/Mayotte
+      - 
+        exemplarCity: جوہانسبرگ
+        type: Africa/Johannesburg
+      - 
+        exemplarCity: لیوساکا
+        type: Africa/Lusaka
+      - 
+        exemplarCity: ہرارے
+        type: Africa/Harare
+delimiters: 
+  alternateQuotationEnd: ‘
+  alternateQuotationStart: ’
+  quotationEnd: “
+  quotationStart: ”
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ur
+  version: 
+    number: "$Revision: 8245 $"
+layout: 
+  orientation: 
+    characterOrder: right-to-left
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} اور {1}"
+        type: 2
+      - 
+        content: "{0}، اور {1}"
+        type: end
+      - 
+        content: "{0}، {1}"
+        type: middle
+      - 
+        content: "{0}، {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: زبان:{0}
+        type: language
+      - 
+        content: رسم الخط:{0}
+        type: script
+      - 
+        content: خطہ:{0}
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: کیلنڈر
+        type: calendar
+      - 
+        content: علامات کی چھٹائی نظرانداز کریں
+        type: colAlternate
+      - 
+        content: معکوس تلفظ کی چھٹائی
+        type: colBackwards
+      - 
+        content: بڑے حروف/ چھوٹے حروف کی ترتیب بندی
+        type: colCaseFirst
+      - 
+        content: حروف کے تئیں حساس چھٹائی
+        type: colCaseLevel
+      - 
+        content: Kena چھٹائی
+        type: colHiraganaQuaternary
+      - 
+        content: چھٹائی کی ترتیب
+        type: collation
+      - 
+        content: معمول کی چھٹائی
+        type: colNormalization
+      - 
+        content: عددی چھٹائی
+        type: colNumeric
+      - 
+        content: چھٹائی کی قوت
+        type: colStrength
+      - 
+        content: کرنسی
+        type: currency
+      - 
+        content: اعداد
+        type: numbers
+      - 
+        content: منطقۂ وقت
+        type: timezone
+      - 
+        content: مقام کا متغیرہ
+        type: va
+      - 
+        content: بطور علامات چھٹائی کریں
+        type: variableTop
+      - 
+        content: نجی-استعمال
+        type: x
+  languages: 
+    language: 
+      - 
+        content: ابقازیان
+        type: ab
+      - 
+        content: اکولی
+        type: ach
+      - 
+        content: ایفریکانز
+        draft: contributed
+        type: af
+      - 
+        content: اکان
+        type: ak
+      - 
+        content: امہاری
+        draft: contributed
+        type: am
+      - 
+        content: عربی
+        draft: contributed
+        type: ar
+      - 
+        content: آسامی
+        draft: contributed
+        type: as
+      - 
+        content: ایمارا
+        type: ay
+      - 
+        content: آزربائیجانی
+        draft: contributed
+        type: az
+      - 
+        alt: short
+        content: ازیری
+        type: az
+      - 
+        content: بیلاروسی
+        draft: contributed
+        type: be
+      - 
+        content: بیمبا
+        type: bem
+      - 
+        content: بلغاری
+        draft: contributed
+        type: bg
+      - 
+        content: بہاری
+        type: bh
+      - 
+        content: بنگالی
+        draft: contributed
+        type: bn
+      - 
+        content: تبتی
+        type: bo
+      - 
+        content: بریٹن
+        type: br
+      - 
+        content: بوسنی
+        draft: contributed
+        type: bs
+      - 
+        content: کاٹالانین
+        draft: contributed
+        type: ca
+      - 
+        content: چیروکی
+        type: chr
+      - 
+        content: سورانی کردش
+        type: ckb
+      - 
+        content: کوراسیکن
+        type: co
+      - 
+        content: چیک
+        draft: contributed
+        type: cs
+      - 
+        content: ویلش
+        type: cy
+      - 
+        content: ڈینش
+        draft: contributed
+        type: da
+      - 
+        content: جرمن
+        draft: contributed
+        type: de
+      - 
+        content: آسٹریائی جرمن
+        type: de_AT
+      - 
+        content: سوئس ہائی جرمن
+        type: de_CH
+      - 
+        content: ڈیویہی
+        type: dv
+      - 
+        content: ژونگکھا
+        type: dz
+      - 
+        content: ایو
+        type: ee
+      - 
+        content: ایفِک
+        type: efi
+      - 
+        content: یونانی
+        draft: contributed
+        type: el
+      - 
+        content: انگریزی
+        draft: contributed
+        type: en
+      - 
+        content: آسٹریلیائی انگریزی
+        type: en_AU
+      - 
+        content: کینیڈین انگریزی
+        type: en_CA
+      - 
+        content: برطانوی انگریزی
+        draft: contributed
+        type: en_GB
+      - 
+        content: امریکی انگریزی
+        type: en_US
+      - 
+        content: ایسپرانٹو
+        draft: contributed
+        type: eo
+      - 
+        content: ہسپانوی
+        type: es
+      - 
+        content: لاطینی امریکی ہسپانوی
+        type: es_419
+      - 
+        content: یورپی ہسپانوی
+        type: es_ES
+      - 
+        content: اسٹونین
+        type: et
+      - 
+        content: باسکی
+        type: eu
+      - 
+        content: فارسی
+        draft: contributed
+        type: fa
+      - 
+        content: فینیش
+        type: fi
+      - 
+        content: فلیپینو
+        type: fil
+      - 
+        content: فجی کا باشندہ
+        type: fj
+      - 
+        content: فیروئیز
+        draft: contributed
+        type: fo
+      - 
+        content: فرانسیسی
+        draft: contributed
+        type: fr
+      - 
+        content: کینیڈین فرانسیسی
+        type: fr_CA
+      - 
+        content: سوئس فرینچ
+        type: fr_CH
+      - 
+        content: مغربی فریسیئن
+        type: fy
+      - 
+        content: آئیرِش
+        draft: contributed
+        type: ga
+      - 
+        content: گا
+        type: gaa
+      - 
+        content: سکاٹ گیلِک
+        draft: contributed
+        type: gd
+      - 
+        content: گالیشیائی
+        draft: contributed
+        type: gl
+      - 
+        content: گُارانی
+        draft: contributed
+        type: gn
+      - 
+        content: سوئس جرمن
+        type: gsw
+      - 
+        content: گجراتی
+        draft: contributed
+        type: gu
+      - 
+        content: ہؤسا
+        type: ha
+      - 
+        content: ہوائی کا باشندہ
+        type: haw
+      - 
+        content: عبرانی
+        draft: contributed
+        type: he
+      - 
+        content: ہندی
+        draft: contributed
+        type: hi
+      - 
+        content: کراتی
+        draft: contributed
+        type: hr
+      - 
+        content: ہیتی
+        type: ht
+      - 
+        content: ہنگیرین
+        draft: contributed
+        type: hu
+      - 
+        content: ارمینی
+        draft: contributed
+        type: hy
+      - 
+        content: بین لسانیات
+        type: ia
+      - 
+        content: انڈونیثیائی
+        draft: contributed
+        type: id
+      - 
+        content: اِگبو
+        type: ig
+      - 
+        content: آئس لینڈ کا باشندہ
+        type: is
+      - 
+        content: اطالوی
+        draft: contributed
+        type: it
+      - 
+        content: جاپانی
+        draft: contributed
+        type: ja
+      - 
+        content: جاوی
+        draft: contributed
+        type: jv
+      - 
+        content: جارجی
+        draft: contributed
+        type: ka
+      - 
+        content: کانگو
+        type: kg
+      - 
+        content: قزاخ
+        type: kk
+      - 
+        content: کمبوڈیَن
+        draft: contributed
+        type: km
+      - 
+        content: کنّاڈا
+        draft: contributed
+        type: kn
+      - 
+        content: کورین
+        draft: contributed
+        type: ko
+      - 
+        content: کشمیری
+        type: ks
+      - 
+        content: کردش
+        type: ku
+      - 
+        content: کرغیزی
+        draft: contributed
+        type: ky
+      - 
+        content: لاطینی
+        draft: contributed
+        type: la
+      - 
+        content: لگژمبرگ کا باشندہ
+        type: lb
+      - 
+        content: گینڈا
+        type: lg
+      - 
+        content: لِنگَلا
+        draft: contributed
+        type: ln
+      - 
+        content: لاؤشِیَن
+        draft: contributed
+        type: lo
+      - 
+        content: لوزی
+        type: loz
+      - 
+        content: لتھُواینین
+        draft: contributed
+        type: lt
+      - 
+        content: لیوبا لولوآ
+        type: lua
+      - 
+        content: لیٹوین
+        draft: contributed
+        type: lv
+      - 
+        content: موریسیین
+        type: mfe
+      - 
+        content: ملاگاسی
+        type: mg
+      - 
+        content: ماؤری
+        type: mi
+      - 
+        content: مقدونیائی
+        draft: contributed
+        type: mk
+      - 
+        content: مالایالم
+        draft: contributed
+        type: ml
+      - 
+        content: منگؤلی
+        draft: contributed
+        type: mn
+      - 
+        content: مراٹهی
+        draft: contributed
+        type: mr
+      - 
+        content: مالائی
+        draft: contributed
+        type: ms
+      - 
+        content: مالٹی
+        draft: contributed
+        type: mt
+      - 
+        content: برمی
+        type: my
+      - 
+        content: نارویجین بوکمل
+        type: nb
+      - 
+        content: شمالی دبیل
+        type: nd
+      - 
+        content: نیپالی
+        draft: contributed
+        type: ne
+      - 
+        content: ڈچ
+        draft: contributed
+        type: nl
+      - 
+        content: فلیمِش
+        type: nl_BE
+      - 
+        content: نورویجینی نینورسک
+        type: nn
+      - 
+        content: نارویجین
+        draft: contributed
+        type: 'no'
+      - 
+        content: شمالی سوتھو
+        type: nso
+      - 
+        content: نیانجا
+        type: ny
+      - 
+        content: نینکول
+        type: nyn
+      - 
+        content: آکسیٹان
+        type: oc
+      - 
+        content: اورومو
+        type: om
+      - 
+        content: اورِیا
+        draft: contributed
+        type: or
+      - 
+        content: اوسیٹک
+        type: os
+      - 
+        content: پنجابی
+        draft: contributed
+        type: pa
+      - 
+        content: پولستانی
+        draft: contributed
+        type: pl
+      - 
+        content: پشتو
+        draft: contributed
+        type: ps
+      - 
+        alt: variant
+        content: پشتو
+        type: ps
+      - 
+        content: پُرتگالی
+        draft: contributed
+        type: pt
+      - 
+        content: برازیلی پرتگالی
+        type: pt_BR
+      - 
+        content: یورپی پرتگالی
+        type: pt_PT
+      - 
+        content: کویچوآ
+        type: qu
+      - 
+        content: رومانش
+        type: rm
+      - 
+        content: رونڈی
+        type: rn
+      - 
+        content: رومنی
+        draft: contributed
+        type: ro
+      - 
+        content: روسی
+        draft: contributed
+        type: ru
+      - 
+        content: کینیاروانڈا
+        type: rw
+      - 
+        content: سَنسکرِت
+        draft: contributed
+        type: sa
+      - 
+        content: سندھی
+        type: sd
+      - 
+        content: شمالی سامی
+        type: se
+      - 
+        content: سانگو
+        type: sg
+      - 
+        content: سربو-کروئیشین
+        draft: contributed
+        type: sh
+      - 
+        content: سنہالا
+        type: si
+      - 
+        content: سلوواک
+        type: sk
+      - 
+        content: سلووینیائی
+        type: sl
+      - 
+        content: ساموآن
+        type: sm
+      - 
+        content: شونا
+        type: sn
+      - 
+        content: صومالی
+        type: so
+      - 
+        content: البانی
+        draft: contributed
+        type: sq
+      - 
+        content: صربی
+        draft: contributed
+        type: sr
+      - 
+        content: سواتی
+        type: ss
+      - 
+        content: جنوبی سوتھو
+        type: st
+      - 
+        content: سنڈانیز
+        type: su
+      - 
+        content: سویڈش
+        type: sv
+      - 
+        content: سواحلی
+        type: sw
+      - 
+        content: تمل
+        type: ta
+      - 
+        content: تیلگو
+        type: te
+      - 
+        content: ٹیٹم
+        type: tet
+      - 
+        content: تاجک
+        type: tg
+      - 
+        content: تھائی
+        type: th
+      - 
+        content: ٹگرینیا
+        type: ti
+      - 
+        content: ترکمان
+        type: tk
+      - 
+        content: ٹیگا لوگ
+        draft: unconfirmed
+        type: tl
+      - 
+        content: کلنگن
+        type: tlh
+      - 
+        content: سوانا
+        type: tn
+      - 
+        content: ٹونگن
+        type: to
+      - 
+        content: ٹوک پِسِن
+        type: tpi
+      - 
+        content: ترکی
+        type: tr
+      - 
+        content: زونگا
+        type: ts
+      - 
+        content: تاتار
+        type: tt
+      - 
+        content: ٹمبوکا
+        type: tum
+      - 
+        content: توی
+        draft: unconfirmed
+        type: tw
+      - 
+        content: تاہیتی
+        type: ty
+      - 
+        content: یوئگہر
+        type: ug
+      - 
+        alt: variant
+        content: ییگہر
+        type: ug
+      - 
+        content: یوکرینیائی
+        type: uk
+      - 
+        content: نامعلوم زبان
+        type: und
+      - 
+        content: اردو
+        type: ur
+      - 
+        content: ازبیک
+        type: uz
+      - 
+        content: وینڈا
+        type: ve
+      - 
+        content: ویتنامی
+        type: vi
+      - 
+        content: وولوف
+        type: wo
+      - 
+        content: ژوسا
+        type: xh
+      - 
+        content: یدش
+        type: yi
+      - 
+        content: یوروبا
+        type: yo
+      - 
+        content: چینی
+        type: zh
+      - 
+        content: چینی (آسان کردہ)
+        draft: contributed
+        type: zh_Hans
+      - 
+        content: روایتی چینی
+        type: zh_Hant
+      - 
+        content: زولو
+        type: zu
+      - 
+        content: کوئی لسانی مواد نہیں
+        type: zxx
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}: {1}"
+    localePattern: "{0} ({1})"
+    localeSeparator: ،
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: پیمانہ
+        type: metric
+      - 
+        content: سلطنت متحدہ
+        type: UK
+      - 
+        content: ریاستہائے متحدہ
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: عربی
+        type: Arab
+      - 
+        alt: variant
+        content: فارسی عربی
+        type: Arab
+      - 
+        content: آرمینیائی
+        type: Armn
+      - 
+        content: بنگالی
+        type: Beng
+      - 
+        content: بوپوموفو
+        type: Bopo
+      - 
+        content: بریل
+        type: Brai
+      - 
+        content: کریلِک
+        type: Cyrl
+      - 
+        content: دیوناگری
+        type: Deva
+      - 
+        content: ایتھوپیا کا باشندہ
+        type: Ethi
+      - 
+        content: جارجیا کا باشندہ
+        type: Geor
+      - 
+        content: یونانی
+        type: Grek
+      - 
+        content: گجراتی
+        type: Gujr
+      - 
+        content: گرمکھی
+        type: Guru
+      - 
+        content: ہنگول
+        type: Hang
+      - 
+        content: ہان
+        type: Hani
+      - 
+        content: آسان
+        type: Hans
+      - 
+        alt: stand-alone
+        content: آسان ہان
+        type: Hans
+      - 
+        content: روایتی
+        type: Hant
+      - 
+        alt: stand-alone
+        content: روایتی ہان
+        type: Hant
+      - 
+        content: عبرانی
+        type: Hebr
+      - 
+        content: ہیراگینا
+        type: Hira
+      - 
+        content: جاپانی
+        type: Jpan
+      - 
+        content: کٹاکانا
+        type: Kana
+      - 
+        content: خمیر
+        type: Khmr
+      - 
+        content: کنڑ
+        type: Knda
+      - 
+        content: کوریائی
+        type: Kore
+      - 
+        content: لاؤ
+        type: Laoo
+      - 
+        content: لاطینی
+        type: Latn
+      - 
+        content: ملیالم
+        type: Mlym
+      - 
+        content: منگولیائی
+        type: Mong
+      - 
+        content: میانمار
+        type: Mymr
+      - 
+        content: اڑیہ
+        type: Orya
+      - 
+        content: سنہالا
+        type: Sinh
+      - 
+        content: تمل
+        type: Taml
+      - 
+        content: تیلگو
+        type: Telu
+      - 
+        content: تھانا
+        type: Thaa
+      - 
+        content: تھائی
+        type: Thai
+      - 
+        content: تبتی
+        type: Tibt
+      - 
+        content: علامات
+        type: Zsym
+      - 
+        content: غیر تحریر شدہ
+        type: Zxxx
+      - 
+        content: عام
+        type: Zyyy
+      - 
+        content: نامعلوم رسم الخط
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: دنیا
+        type: '001'
+      - 
+        content: افریقہ
+        type: '002'
+      - 
+        content: شمالی امریکہ
+        type: '003'
+      - 
+        content: جنوبی امریکہ
+        type: '005'
+      - 
+        content: اوشیانیا
+        type: '009'
+      - 
+        content: مغربی افریقہ
+        type: '011'
+      - 
+        content: وسطی امریکہ
+        type: '013'
+      - 
+        content: مشرقی افریقہ
+        type: '014'
+      - 
+        content: شمالی افریقہ
+        type: '015'
+      - 
+        content: وسطی افریقہ
+        type: '017'
+      - 
+        content: جنوبی افریقہ کے علاقہ
+        type: '018'
+      - 
+        content: امیریکاز
+        type: '019'
+      - 
+        content: شمالی امریکہ کا علاقہ
+        type: '021'
+      - 
+        content: کریبیائی
+        type: '029'
+      - 
+        content: مشرقی ایشیا
+        type: '030'
+      - 
+        content: جنوبی ایشیا
+        type: '034'
+      - 
+        content: جنوب مشرقی ایشیا
+        type: '035'
+      - 
+        content: جنوبی یورپ
+        type: '039'
+      - 
+        content: آسٹریلیشیا
+        type: '053'
+      - 
+        content: مالینیشیا
+        type: '054'
+      - 
+        content: مائکرونیشیائی علاقہ
+        type: '057'
+      - 
+        content: پولینیشیا
+        type: '061'
+      - 
+        content: ایشیا
+        type: 142
+      - 
+        content: وسطی ایشیا
+        type: 143
+      - 
+        content: مغربی ایشیا
+        type: 145
+      - 
+        content: یوروپ
+        type: 150
+      - 
+        content: مشرقی یورپ
+        type: 151
+      - 
+        content: شمالی یورپ
+        type: 154
+      - 
+        content: مغربی یورپ
+        type: 155
+      - 
+        content: لاطینی امریکہ
+        type: 419
+      - 
+        content: اسکینسیئن آئلینڈ
+        type: AC
+      - 
+        content: انڈورا
+        type: AD
+      - 
+        content: متحدہ عرب امارات
+        type: AE
+      - 
+        content: افغانستان
+        type: AF
+      - 
+        content: انٹیگوا اور باربودا
+        type: AG
+      - 
+        content: انگوئیلا
+        type: AI
+      - 
+        content: البانیہ
+        type: AL
+      - 
+        content: آرمینیا
+        type: AM
+      - 
+        content: نیدرلینڈز انٹیلیز
+        type: AN
+      - 
+        content: انگولا
+        type: AO
+      - 
+        content: انٹارکٹیکا
+        type: AQ
+      - 
+        content: ارجنٹینا
+        type: AR
+      - 
+        content: امریکی ساموآ
+        type: AS
+      - 
+        content: آسٹریا
+        type: AT
+      - 
+        content: آسٹریلیا
+        type: AU
+      - 
+        content: اروبا
+        type: AW
+      - 
+        content: آلینڈ آئلینڈز
+        type: AX
+      - 
+        content: آذربائجان
+        type: AZ
+      - 
+        content: بوسنیا اور ہرزیگووینا
+        type: BA
+      - 
+        content: باربادوس
+        type: BB
+      - 
+        content: بنگلہ دیش
+        type: BD
+      - 
+        content: بیلجیم
+        type: BE
+      - 
+        content: برکینا فاسو
+        type: BF
+      - 
+        content: بلغاریہ
+        type: BG
+      - 
+        content: بحرین
+        type: BH
+      - 
+        content: برونڈی
+        type: BI
+      - 
+        content: بینن
+        type: BJ
+      - 
+        content: سینٹ برتھلیمی
+        type: BL
+      - 
+        content: برمودا
+        type: BM
+      - 
+        content: برونئی
+        type: BN
+      - 
+        content: بولیویا
+        type: BO
+      - 
+        content: کریبیائی نیدرلینڈز
+        type: BQ
+      - 
+        content: برازیلی
+        type: BR
+      - 
+        content: بہاماس
+        type: BS
+      - 
+        content: بھوٹان
+        type: BT
+      - 
+        content: بؤویٹ آئلینڈ
+        type: BV
+      - 
+        content: بوتسوانا
+        type: BW
+      - 
+        content: بیلاروس
+        type: BY
+      - 
+        content: بیلائز
+        type: BZ
+      - 
+        content: کینیڈا
+        type: CA
+      - 
+        content: کوکوس [کیلنگ] جزائر
+        type: CC
+      - 
+        content: کانگو - کنشاسا
+        type: CD
+      - 
+        alt: variant
+        content: کانگو [DRC]
+        type: CD
+      - 
+        content: وسط افریقی جمہوریہ
+        type: CF
+      - 
+        content: کانگو - برازاویلے
+        type: CG
+      - 
+        alt: variant
+        content: کانگو [جمہوریہ]
+        type: CG
+      - 
+        content: سوئٹزر لینڈ
+        type: CH
+      - 
+        content: کوٹ ڈی آئیوری
+        type: CI
+      - 
+        alt: variant
+        content: آئیوری کوسٹ
+        type: CI
+      - 
+        content: کک آئلینڈز
+        type: CK
+      - 
+        content: چلی
+        type: CL
+      - 
+        content: کیمرون
+        type: CM
+      - 
+        content: چین
+        type: CN
+      - 
+        content: کولمبیا
+        type: CO
+      - 
+        content: کلپّرٹن آئلینڈ
+        type: CP
+      - 
+        content: کوسٹا ریکا
+        type: CR
+      - 
+        content: کیوبا
+        type: CU
+      - 
+        content: کیپ ورڈی
+        type: CV
+      - 
+        content: کیوراکاؤ
+        type: CW
+      - 
+        content: کرسمس آئلینڈ
+        type: CX
+      - 
+        content: قبرص
+        type: CY
+      - 
+        content: چیک جمہوریہ
+        type: CZ
+      - 
+        content: جرمنی
+        type: DE
+      - 
+        content: ڈائجو گارسیا
+        type: DG
+      - 
+        content: جبوتی
+        type: DJ
+      - 
+        content: ڈنمارک
+        type: DK
+      - 
+        content: ڈومنیکا
+        type: DM
+      - 
+        content: ڈومنیکن جمہوریہ
+        type: DO
+      - 
+        content: الجیریا
+        type: DZ
+      - 
+        content: سیئوٹا اور میلیلا
+        type: EA
+      - 
+        content: ایکواڈور
+        type: EC
+      - 
+        content: اسٹونیا
+        type: EE
+      - 
+        content: مصر
+        type: EG
+      - 
+        content: مغربی صحارا
+        type: EH
+      - 
+        content: اریٹیریا
+        type: ER
+      - 
+        content: ہسپانیہ
+        type: ES
+      - 
+        content: ایتھوپیا
+        type: ET
+      - 
+        content: یوروپی یونین
+        type: EU
+      - 
+        content: فن لینڈ
+        type: FI
+      - 
+        content: فجی
+        type: FJ
+      - 
+        content: فاکلینڈ آئلینڈز
+        type: FK
+      - 
+        alt: variant
+        content: فاکلینڈ آئلینڈز [ازلاس مالوینس]
+        type: FK
+      - 
+        content: مائکرونیشیا
+        type: FM
+      - 
+        content: فروئی آئلینڈز
+        type: FO
+      - 
+        content: فرانس
+        type: FR
+      - 
+        content: گیبون
+        type: GA
+      - 
+        content: سلطنت متحدہ
+        type: GB
+      - 
+        content: غرناطہ
+        type: GD
+      - 
+        content: جارجیا
+        type: GE
+      - 
+        content: فرینچ گیانا
+        type: GF
+      - 
+        content: گوئرنسی
+        type: GG
+      - 
+        content: گھانا
+        type: GH
+      - 
+        content: جبل الطارق
+        type: GI
+      - 
+        content: گرین لینڈ
+        type: GL
+      - 
+        content: گامبیا
+        type: GM
+      - 
+        content: گنی
+        type: GN
+      - 
+        content: گواڈیلوپ
+        type: GP
+      - 
+        content: استوائی گیانا
+        type: GQ
+      - 
+        content: یونان
+        type: GR
+      - 
+        content: جنوبی جارجیا اور جنوبی سینڈوچ جزائر
+        type: GS
+      - 
+        content: گواٹے مالا
+        type: GT
+      - 
+        content: گوآم
+        type: GU
+      - 
+        content: گنی بساؤ
+        type: GW
+      - 
+        content: گیانا
+        type: GY
+      - 
+        content: ہانگ کانگ SAR چین
+        type: HK
+      - 
+        alt: short
+        content: ہانگ کانگ
+        type: HK
+      - 
+        content: ہیئرڈ آئلینڈ اور میکڈونالڈ آئلینڈز
+        type: HM
+      - 
+        content: ہونڈاروس
+        type: HN
+      - 
+        content: کروشیا
+        type: HR
+      - 
+        content: ہیتی
+        type: HT
+      - 
+        content: ہنگری
+        type: HU
+      - 
+        content: کینری آئلینڈز
+        type: IC
+      - 
+        content: انڈونیشیا
+        type: ID
+      - 
+        content: آئرلینڈ
+        type: IE
+      - 
+        content: اسرائیل
+        type: IL
+      - 
+        content: آئل آف مین
+        type: IM
+      - 
+        content: بھارت
+        type: IN
+      - 
+        content: برطانوی ہندوستانی سمندری خطہ
+        type: IO
+      - 
+        content: عراق
+        type: IQ
+      - 
+        content: ایران
+        type: IR
+      - 
+        content: آئس لینڈ
+        type: IS
+      - 
+        content: اٹلی
+        type: IT
+      - 
+        content: جرسی
+        type: JE
+      - 
+        content: جمائیکا
+        type: JM
+      - 
+        content: اردن
+        type: JO
+      - 
+        content: جاپان
+        type: JP
+      - 
+        content: کینیا
+        type: KE
+      - 
+        content: کرغزستان
+        type: KG
+      - 
+        content: کمبوڈیا
+        type: KH
+      - 
+        content: کریباتی
+        type: KI
+      - 
+        content: کوموروس
+        type: KM
+      - 
+        content: سینٹ کٹس اور نیویس
+        type: KN
+      - 
+        content: شمالی کوریا
+        type: KP
+      - 
+        content: جنوبی کوریا
+        type: KR
+      - 
+        content: کویت
+        type: KW
+      - 
+        content: کیمین آئلینڈز
+        type: KY
+      - 
+        content: قزاخستان
+        type: KZ
+      - 
+        content: لاؤس
+        type: LA
+      - 
+        content: لبنان
+        type: LB
+      - 
+        content: سینٹ لوسیا
+        type: LC
+      - 
+        content: لیشٹنسٹائن
+        type: LI
+      - 
+        content: سری لنکا
+        type: LK
+      - 
+        content: لائبیریا
+        type: LR
+      - 
+        content: لیسوتھو
+        type: LS
+      - 
+        content: لتھوانیا
+        type: LT
+      - 
+        content: لگژمبرگ
+        type: LU
+      - 
+        content: لٹویا
+        type: LV
+      - 
+        content: لیبیا
+        type: LY
+      - 
+        content: مراقش
+        type: MA
+      - 
+        content: موناکو
+        type: MC
+      - 
+        content: مالدووا
+        type: MD
+      - 
+        content: مونٹے نیگرو
+        type: ME
+      - 
+        content: سینٹ مارٹن
+        type: MF
+      - 
+        content: مڈغاسکر
+        type: MG
+      - 
+        content: مارشل آئلینڈز
+        type: MH
+      - 
+        content: مقدونیہ
+        type: MK
+      - 
+        alt: variant
+        content: مقدونیہ [FYROM]
+        type: MK
+      - 
+        content: مالی
+        type: ML
+      - 
+        content: میانمار [برما]
+        type: MM
+      - 
+        content: منگولیا
+        type: MN
+      - 
+        content: مکاؤ SAR چین
+        type: MO
+      - 
+        alt: short
+        content: مکاؤ
+        type: MO
+      - 
+        content: شمالی ماریانا آئلینڈز
+        type: MP
+      - 
+        content: مارٹینک
+        type: MQ
+      - 
+        content: موریطانیہ
+        type: MR
+      - 
+        content: مونٹسیراٹ
+        type: MS
+      - 
+        content: مالٹا
+        type: MT
+      - 
+        content: ماریشس
+        type: MU
+      - 
+        content: مالدیو
+        type: MV
+      - 
+        content: ملاوی
+        type: MW
+      - 
+        content: میکسیکو
+        type: MX
+      - 
+        content: ملیشیا
+        type: MY
+      - 
+        content: موزمبیق
+        type: MZ
+      - 
+        content: نامیبیا
+        type: NA
+      - 
+        content: نیو کلیڈونیا
+        type: NC
+      - 
+        content: نائجر
+        type: NE
+      - 
+        content: نار فاک آئلینڈ
+        type: NF
+      - 
+        content: نائجیریا
+        type: NG
+      - 
+        content: نکاراگووا
+        type: NI
+      - 
+        content: نیدر لینڈز
+        type: NL
+      - 
+        content: ناروے
+        type: 'NO'
+      - 
+        content: نیپال
+        type: NP
+      - 
+        content: نؤرو
+        type: NR
+      - 
+        content: نیئو
+        type: NU
+      - 
+        content: نیوزی ینڈ
+        type: NZ
+      - 
+        content: عمان
+        type: OM
+      - 
+        content: پنامہ
+        type: PA
+      - 
+        content: پیرو
+        type: PE
+      - 
+        content: فرانسیسی پولینیشیا
+        type: PF
+      - 
+        content: پاپوآ نیو گنی
+        type: PG
+      - 
+        content: فلپائنی
+        type: PH
+      - 
+        content: پاکستان
+        type: PK
+      - 
+        content: پولینڈ
+        type: PL
+      - 
+        content: سینٹ پیئر اور میکلیئون
+        type: PM
+      - 
+        content: پٹکائرن جزائر
+        type: PN
+      - 
+        content: پیورٹو ریکو
+        type: PR
+      - 
+        content: فلسطینی خطے
+        type: PS
+      - 
+        alt: short
+        content: فلسطین
+        type: PS
+      - 
+        content: پرتگال
+        type: PT
+      - 
+        content: پلاؤ
+        type: PW
+      - 
+        content: پیراگوئے
+        type: PY
+      - 
+        content: قطر
+        type: QA
+      - 
+        content: بیرونی اوشیانیا
+        type: QO
+      - 
+        content: ری یونین
+        type: RE
+      - 
+        content: رومانیا
+        type: RO
+      - 
+        content: سربیا
+        type: RS
+      - 
+        content: روسی
+        type: RU
+      - 
+        content: روانڈا
+        type: RW
+      - 
+        content: سعودی عرب
+        type: SA
+      - 
+        content: سولومن آئلینڈز
+        type: SB
+      - 
+        content: سشلیز
+        type: SC
+      - 
+        content: سوڈان
+        type: SD
+      - 
+        content: سویڈن
+        type: SE
+      - 
+        content: سنگاپور
+        type: SG
+      - 
+        content: سینٹ ہیلینا
+        type: SH
+      - 
+        content: سلووینیا
+        type: SI
+      - 
+        content: سوالبرڈ اور جان ماین
+        type: SJ
+      - 
+        content: سلوواکیہ
+        type: SK
+      - 
+        content: سیئر لیون
+        type: SL
+      - 
+        content: سان مارینو
+        type: SM
+      - 
+        content: سینیگل
+        type: SN
+      - 
+        content: صومالیہ
+        type: SO
+      - 
+        content: سورینام
+        type: SR
+      - 
+        content: جنوبی سوڈان
+        type: SS
+      - 
+        content: ساؤ ٹوم اور پرنسپے
+        type: ST
+      - 
+        content: ال سلواڈور
+        type: SV
+      - 
+        content: سنٹ مارٹن
+        type: SX
+      - 
+        content: شام
+        type: SY
+      - 
+        content: سوازی لینڈ
+        type: SZ
+      - 
+        content: ٹرسٹن ڈا کیونہا
+        type: TA
+      - 
+        content: ترکس اور کیکاؤس جزائر
+        type: TC
+      - 
+        content: چاڈ
+        type: TD
+      - 
+        content: فرانسیسی جنوبی خطے
+        type: TF
+      - 
+        content: ٹوگو
+        type: TG
+      - 
+        content: تھائی لینڈ
+        type: TH
+      - 
+        content: تاجکستان
+        type: TJ
+      - 
+        content: ٹوکیلاؤ
+        type: TK
+      - 
+        content: تیمور لیسٹ
+        type: TL
+      - 
+        alt: variant
+        content: مشرقی تیمور
+        type: TL
+      - 
+        content: ترکمانستان
+        type: TM
+      - 
+        content: تیونیسیا
+        type: TN
+      - 
+        content: ٹونگا
+        type: TO
+      - 
+        content: ترکی
+        type: TR
+      - 
+        content: ترینیداد اور ٹوباگو
+        type: TT
+      - 
+        content: ٹووالو
+        type: TV
+      - 
+        content: تائیوان
+        type: TW
+      - 
+        content: تنزانیہ
+        type: TZ
+      - 
+        content: یوکرین
+        type: UA
+      - 
+        content: یوگانڈا
+        type: UG
+      - 
+        content: امریکہ سے باہر کے چھوٹے جزائز
+        type: UM
+      - 
+        content: ریاستہائے متحدہ
+        type: US
+      - 
+        content: یوروگوئے
+        type: UY
+      - 
+        content: ازبکستان
+        type: UZ
+      - 
+        content: واٹیکن سٹی
+        type: VA
+      - 
+        content: سینٹ ونسنٹ اور گرینیڈائنز
+        type: VC
+      - 
+        content: وینزوئیلا
+        type: VE
+      - 
+        content: برٹش ورجن آئلینڈز
+        type: VG
+      - 
+        content: امریکی ورجن آئلینڈز
+        type: VI
+      - 
+        content: ویتنام
+        type: VN
+      - 
+        content: وینوآٹو
+        type: VU
+      - 
+        content: ویلیز اور فیوٹیونا
+        type: WF
+      - 
+        content: ساموآ
+        type: WS
+      - 
+        content: یمن
+        type: YE
+      - 
+        content: مایوٹ
+        type: YT
+      - 
+        content: جنوبی افریقہ
+        type: ZA
+      - 
+        content: زامبیا
+        type: ZM
+      - 
+        content: زمبابوے
+        type: ZW
+      - 
+        content: نامعلوم علاقہ
+        type: ZZ
+  transformNames: 
+    transformName: 
+      - 
+        content: BGN
+        type: BGN
+      - 
+        content: عددی
+        type: Numeric
+      - 
+        content: ٹون
+        type: Tone
+      - 
+        content: UNGEGN
+        type: UNGEGN
+      - 
+        content: لہجے
+        type: x-Accents
+      - 
+        content: پورا عرض
+        type: x-Fullwidth
+      - 
+        content: نصف عرض
+        type: x-Halfwidth
+      - 
+        content: جامو
+        type: x-Jamo
+      - 
+        content: پن یِن
+        type: x-Pinyin
+      - 
+        content: اشاعت
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: منگوو کیلنڈر
+        type: roc
+      colAlternate: 
+        content: علامات کو نظرانداز کرکے چھٹائی کریں
+        type: shifted
+      colBackwards: 
+        content: لہجوں کی معکوس چھٹائی کریں
+        type: 'yes'
+      colCaseFirst: 
+        content: پہلے بالائی حروف کی چھٹائی کریں
+        type: upper
+      colCaseLevel: 
+        content: حروف کے تئیں حساس کی چھٹائی کریں
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: Kana کی مختلف طریقے سے چھٹائی کریں
+        type: 'yes'
+      colNormalization: 
+        content: معمول کے یونیکوڈ کی چھٹائی کریں
+        type: 'yes'
+      colNumeric: 
+        content: اعداد کے لحاظ سے ہندسوں کی چھٹائی کریں
+        type: 'yes'
+      colStrength: 
+        content: لہجوں/حروف/چوڑائی کی چھٹائی کریں
+        type: tertiary
+      collation: 
+        content: اساسی-سٹروک کی چھٹنی کی ترتیب
+        type: unihan
+      numbers: 
+        content: وائی ہندسے
+        type: vaii
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          content: متحدہ عرب اماراتی درہم
+          draft: contributed
+        type: AED
+      - 
+        displayName: افغان افغانی
+        type: AFN
+      - 
+        displayName: البانیا کا لیک
+        type: ALL
+      - 
+        displayName: آرمینیائی ڈرم
+        type: AMD
+      - 
+        displayName: نیدر لینڈز انٹیلیئن گلڈر
+        type: ANG
+      - 
+        displayName: انگولا کا کوانزا
+        type: AOA
+      - 
+        displayName: 
+          content: ارجنٹائن پیسہ
+          draft: contributed
+        type: ARS
+      - 
+        displayName: 
+          content: آسٹریلین ڈالر
+          draft: contributed
+        symbol: A$
+        type: AUD
+      - 
+        displayName: اروبن فلورِن
+        type: AWG
+      - 
+        displayName: آذربائجانی منات
+        type: AZN
+      - 
+        displayName: بوسنیا ہرزیگووینا کا قابل منتقلی نشان
+        type: BAM
+      - 
+        displayName: باربیڈین ڈالر
+        type: BBD
+      - 
+        displayName: بنگلہ دیشی ٹکا
+        type: BDT
+      - 
+        displayName: بلغارین لیو
+        type: BGN
+      - 
+        displayName: بحرینی دینار
+        type: BHD
+      - 
+        displayName: برونڈیئن فرینک
+        type: BIF
+      - 
+        displayName: برمودا کا ڈالر
+        type: BMD
+      - 
+        displayName: برونئی ڈالر
+        type: BND
+      - 
+        displayName: بولیوین بولیویانو
+        type: BOB
+      - 
+        displayName: 
+          content: برازیلی ریئل
+          draft: contributed
+        type: BRL
+      - 
+        displayName: بہامانی ڈالر
+        type: BSD
+      - 
+        displayName: بھوٹانی گُلٹرم
+        type: BTN
+      - 
+        displayName: بوتسوانا کا پولا
+        type: BWP
+      - 
+        displayName: بیلاروسی روبل
+        type: BYR
+      - 
+        displayName: بیلائز ڈالر
+        type: BZD
+      - 
+        displayName: 
+          content: کنیڈین ڈالر
+          draft: contributed
+        type: CAD
+      - 
+        displayName: کانگولیز فرینک
+        type: CDF
+      - 
+        displayName: 
+          content: سوئس فرانکس
+          draft: contributed
+        type: CHF
+      - 
+        displayName: 
+          content: چلّین پیسہ
+          draft: contributed
+        type: CLP
+      - 
+        displayName: چینی یوآن
+        type: CNY
+      - 
+        displayName: 
+          content: کولمبین پیسہ
+          draft: contributed
+        type: COP
+      - 
+        displayName: کوسٹا ریکا کا کولن
+        type: CRC
+      - 
+        displayName: کیوبا کا قابل منتقلی پیسو
+        type: CUC
+      - 
+        displayName: کیوبا کا پیسو
+        type: CUP
+      - 
+        displayName: کیپ ورڈی کا اسکیوڈو
+        type: CVE
+      - 
+        displayName: 
+          content: چیک کرونا
+          draft: contributed
+        type: CZK
+      - 
+        displayName: 
+          content: ڈچ مارکس
+          draft: contributed
+        type: DEM
+      - 
+        displayName: جبوتی کا فرینک
+        type: DJF
+      - 
+        displayName: 
+          content: ڈنمارک کرونر
+          draft: contributed
+        type: DKK
+      - 
+        displayName: ڈومنیکن پیسو
+        type: DOP
+      - 
+        displayName: الجیریائی دینار
+        type: DZD
+      - 
+        displayName: 
+          content: ایسٹونین کرون
+          draft: contributed
+        type: EEK
+      - 
+        displayName: 
+          content: مصری پائونڈ
+          draft: contributed
+        type: EGP
+      - 
+        displayName: اریٹیریا کا نافکا
+        type: ERN
+      - 
+        displayName: ایتھوپیائی بِرّ
+        type: ETB
+      - 
+        displayName: 
+          content: یورو
+          draft: contributed
+        type: EUR
+      - 
+        displayName: فجی کا ڈالر
+        type: FJD
+      - 
+        displayName: فاکلینڈ آئلینڈز پونڈ
+        type: FKP
+      - 
+        displayName: 
+          content: فرانسیسی فرانک
+          draft: provisional
+        type: FRF
+      - 
+        displayName: 
+          content: انگلستانی پاونڈ سٹرلنگ
+          draft: contributed
+        type: GBP
+      - 
+        displayName: جارجیائی لاری
+        type: GEL
+      - 
+        displayName: گھانا کا سیڈی
+        type: GHS
+      - 
+        displayName: جبل الطارق پونڈ
+        type: GIP
+      - 
+        displayName: گامبیا کا ڈلاسی
+        type: GMD
+      - 
+        displayName: گنی کا فرینک
+        type: GNF
+      - 
+        displayName: گواٹے مالا کا کوئٹزل
+        type: GTQ
+      - 
+        displayName: گویانیز ڈالر
+        type: GYD
+      - 
+        displayName: 
+          content: ھانگ کانگ ڈالر
+          draft: contributed
+        type: HKD
+      - 
+        displayName: ہونڈوران لیمپیرا
+        type: HNL
+      - 
+        displayName: 
+          content: کروشین کونا
+          draft: contributed
+        type: HRK
+      - 
+        displayName: ہیتی کا گؤرڈی
+        type: HTG
+      - 
+        displayName: 
+          content: ہنگرین فورنٹ
+          draft: contributed
+        type: HUF
+      - 
+        displayName: 
+          content: انڈونیشین روپیہ
+          draft: contributed
+        type: IDR
+      - 
+        displayName: 
+          - اسرائیلی نیا شیکل
+          - 
+            content: اسرائیلی نیا شیکل
+            count: one
+          - 
+            content: اسرائیلی نیا شیکلز
+            count: other
+        type: ILS
+      - 
+        displayName: انڈین روپیہ
+        type: INR
+      - 
+        displayName: عراقی دینار
+        type: IQD
+      - 
+        displayName: ایرانی ریال
+        type: IRR
+      - 
+        displayName: آئس لینڈ کا کرونا
+        type: ISK
+      - 
+        displayName: جمائیکن ڈالر
+        type: JMD
+      - 
+        displayName: اردنی دینار
+        type: JOD
+      - 
+        displayName: 
+          content: جاپانی ین
+          draft: contributed
+        type: JPY
+      - 
+        displayName: کینیائی شلنگ
+        type: KES
+      - 
+        displayName: کرغستانی سوم
+        type: KGS
+      - 
+        displayName: کمبوڈیائی ریئل
+        type: KHR
+      - 
+        displayName: کوموریئن فرینک
+        type: KMF
+      - 
+        displayName: شمالی کوریائی وون
+        type: KPW
+      - 
+        displayName: جنوبی کوریائی وون
+        type: KRW
+      - 
+        displayName: کویتی دینار
+        type: KWD
+      - 
+        displayName: کیمین آئلینڈز ڈالر
+        type: KYD
+      - 
+        displayName: قزاخستانی ٹینگ
+        type: KZT
+      - 
+        displayName: لاؤشیائی کِپ
+        type: LAK
+      - 
+        displayName: لبانی پونڈ
+        type: LBP
+      - 
+        displayName: سری لنکائی روپیہ
+        type: LKR
+      - 
+        displayName: لائبریائی ڈالر
+        type: LRD
+      - 
+        displayName: لیسوتھو لوٹی
+        type: LSL
+      - 
+        displayName: لیتھوانی لیٹاس
+        type: LTL
+      - 
+        displayName: لاتویائی لیٹس
+        type: LVL
+      - 
+        displayName: لیبیائی دینار
+        type: LYD
+      - 
+        displayName: 
+          content: مراکشی درہم
+          draft: contributed
+        type: MAD
+      - 
+        displayName: مالدیپ کا لیو
+        type: MDL
+      - 
+        displayName: ملاگاسی اریاری
+        type: MGA
+      - 
+        displayName: مقدونیائی دینار
+        type: MKD
+      - 
+        displayName: میانما کیاٹ
+        type: MMK
+      - 
+        displayName: منگولیائی ٹگرِ
+        type: MNT
+      - 
+        displayName: میکانیز پٹاکا
+        type: MOP
+      - 
+        displayName: موریطانیائی اوگوئیا
+        type: MRO
+      - 
+        displayName: ماریشس کا روپیہ
+        type: MUR
+      - 
+        displayName: مالدیپ کا روفیہ
+        type: MVR
+      - 
+        displayName: ملاوی کواچا
+        type: MWK
+      - 
+        displayName: 
+          content: میکسیکی پیسہ
+          draft: contributed
+        type: MXN
+      - 
+        displayName: ملیشیائی رنگِٹ
+        type: MYR
+      - 
+        displayName: 
+          - موزامبیقی میٹیکل
+          - 
+            content: موزامبیقی میٹیکل
+            count: one
+          - 
+            content: موزامبیقی میٹیکلز
+            count: other
+        type: MZN
+      - 
+        displayName: نامیبیائی ڈالر
+        type: NAD
+      - 
+        displayName: نائیجیریائی نائرا
+        type: NGN
+      - 
+        displayName: نکارا گوا کا کورڈوبا
+        type: NIO
+      - 
+        displayName: 
+          content: ناروے کرونر
+          draft: contributed
+        type: NOK
+      - 
+        displayName: نیپالی روپیہ
+        type: NPR
+      - 
+        displayName: 
+          content: نیوزی لینڈ ڈالر
+          draft: contributed
+        type: NZD
+      - 
+        displayName: عمانی ریال
+        type: OMR
+      - 
+        displayName: پنامہ کا بالبوآ
+        type: PAB
+      - 
+        displayName: پیروین نیووسول
+        type: PEN
+      - 
+        displayName: پاپوآ نیو گنی کا کینا
+        type: PGK
+      - 
+        displayName: 
+          content: فلپائینی پیسہ
+          draft: contributed
+        type: PHP
+      - 
+        displayName: پاکستانی روپیہ
+        symbol: Rs
+        type: PKR
+      - 
+        displayName: 
+          content: پولش نیو زلوٹی
+          draft: contributed
+        type: PLN
+      - 
+        displayName: پیراگوئے کا گوآرنی
+        type: PYG
+      - 
+        displayName: قطری ریال
+        type: QAR
+      - 
+        displayName: 
+          - رومانیائی لیو
+          - 
+            content: رومانیائی لیو
+            count: one
+          - 
+            content: رومانیائی لی
+            count: other
+        type: RON
+      - 
+        displayName: 
+          content: سربین دینار
+          draft: contributed
+        type: RSD
+      - 
+        displayName: 
+          content: روسی روبل
+          draft: contributed
+        type: RUB
+      - 
+        displayName: روانڈا کا فرینک
+        type: RWF
+      - 
+        displayName: 
+          content: سعودی ریال
+          draft: contributed
+        type: SAR
+      - 
+        displayName: سولومن آئلینڈز ڈالر
+        type: SBD
+      - 
+        displayName: سشلی کا روپیہ
+        type: SCR
+      - 
+        displayName: سوڈانی پونڈ
+        type: SDG
+      - 
+        displayName: 
+          content: سویڈن کرونر
+          draft: contributed
+        type: SEK
+      - 
+        displayName: 
+          content: سنگا پور ڈالر
+          draft: contributed
+        type: SGD
+      - 
+        displayName: سینٹ ہیلینا پونڈ
+        type: SHP
+      - 
+        displayName: 
+          content: سلوانین ٹولر
+          draft: contributed
+        type: SIT
+      - 
+        displayName: 
+          content: سلووک کرونا
+          draft: contributed
+        type: SKK
+      - 
+        displayName: سیئرا لیون لیون
+        type: SLL
+      - 
+        displayName: صومالی شلنگ
+        type: SOS
+      - 
+        displayName: سورینامی ڈالر
+        type: SRD
+      - 
+        displayName: 
+          - جنوبی سوڈانی پاؤنڈ
+          - 
+            content: جنوبی سوڈانی پاؤنڈ
+            count: one
+          - 
+            content: جنوبی سوڈانی پاؤنڈز
+            count: other
+        type: SSP
+      - 
+        displayName: ساؤ ٹوم اور پرنسپے ڈوبرا
+        type: STD
+      - 
+        displayName: شامی پونڈ
+        type: SYP
+      - 
+        displayName: سوازی لیلانجینی
+        type: SZL
+      - 
+        displayName: 
+          content: تھائی باہت
+          draft: contributed
+        type: THB
+      - 
+        displayName: تاجکستانی سومونی
+        type: TJS
+      - 
+        displayName: ترکمانستانی منات
+        type: TMT
+      - 
+        displayName: تیونیسیائی دینار
+        type: TND
+      - 
+        displayName: ٹونگن پانگا
+        type: TOP
+      - 
+        displayName: ترکی لیرا
+        type: TRY
+      - 
+        displayName: ترینیداد اور ٹوباگو کا ڈالر
+        type: TTD
+      - 
+        displayName: نیو تائیوان ڈالر
+        type: TWD
+      - 
+        displayName: تنزانیائی شلنگ
+        type: TZS
+      - 
+        displayName: یوکرینیائی ہریونیا
+        type: UAH
+      - 
+        displayName: یوگانڈا شلنگ
+        type: UGX
+      - 
+        displayName: 
+          content: امریکی ڈالر
+          draft: contributed
+        symbol: $
+        type: USD
+      - 
+        displayName: یوروگویان پیسو
+        type: UYU
+      - 
+        displayName: ازبکستان سوم
+        type: UZS
+      - 
+        displayName: وینزویلا بولیور (1871-2008)
+        type: VEB
+      - 
+        displayName: وینزویلا بولیور
+        type: VEF
+      - 
+        displayName: ویتنامی ڈانگ
+        type: VND
+      - 
+        displayName: وینوواتو واتو
+        type: VUV
+      - 
+        displayName: ساموآ کا ٹالا
+        type: WST
+      - 
+        displayName: 
+          - CFA فرانک BEAC
+          - 
+            content: CFA فرانک BEAC
+            count: one
+          - 
+            content: CFA فرانکس BEAC
+            count: other
+        type: XAF
+      - 
+        displayName: مشرقی کریبیا کا ڈالر
+        type: XCD
+      - 
+        displayName: 
+          - CFA فرانک BCEAO
+          - 
+            content: CFA فرانک BCEAO
+            count: one
+          - 
+            content: CFA فرانکس BCEAO
+            count: other
+        symbol: CFA
+        type: XOF
+      - 
+        displayName: 
+          - CFP فرانک
+          - 
+            content: CFP فرانک
+            count: one
+          - 
+            content: CFP فرانکس
+            count: other
+        type: XPF
+      - 
+        displayName: نامعلوم کرنسی
+        type: XXX
+      - 
+        displayName: یمنی ریال
+        type: YER
+      - 
+        displayName: 
+          content: جنوبی افریقی رانڈ
+          draft: contributed
+        type: ZAR
+      - 
+        displayName: زامبیائی کواچا (1968-2012)
+        type: ZMK
+      - 
+        displayName: زامبیائی کواچا
+        type: ZMW
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 ہزار
+              count: one
+              type: 1000
+            - 
+              content: 0 ہزار
+              count: other
+              type: 1000
+            - 
+              content: 00 ہزار
+              count: one
+              type: 10000
+            - 
+              content: 00 ہزار
+              count: other
+              type: 10000
+            - 
+              content: 0 لاکھ
+              count: one
+              type: 100000
+            - 
+              content: 0 لاکھ
+              count: other
+              type: 100000
+            - 
+              content: 00 لاکھ
+              count: one
+              type: 1000000
+            - 
+              content: 00 لاکھ
+              count: other
+              type: 1000000
+            - 
+              content: 0 کروڑ
+              count: one
+              type: 10000000
+            - 
+              content: 0 کروڑ
+              count: other
+              type: 10000000
+            - 
+              content: 00 کروڑ
+              count: one
+              type: 100000000
+            - 
+              content: 00 کروڑ
+              count: other
+              type: 100000000
+            - 
+              content: 0 ارب
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 ارب
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 ارب
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 ارب
+              count: other
+              type: '10000000000'
+            - 
+              content: 0 کھرب
+              count: one
+              type: '100000000000'
+            - 
+              content: 0 کھرب
+              count: other
+              type: '100000000000'
+            - 
+              content: 00 کھرب
+              count: one
+              type: '1000000000000'
+            - 
+              content: 00 کھرب
+              count: other
+              type: '1000000000000'
+            - 
+              content: 000 کھرب
+              count: one
+              type: '10000000000000'
+            - 
+              content: 000 کھرب
+              count: other
+              type: '10000000000000'
+            - 
+              content: 0000 کھرب
+              count: one
+              type: '100000000000000'
+            - 
+              content: 0000 کھرب
+              count: other
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: arabext
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  symbols: 
+    - 
+      decimal: .
+      exponential: 
+        content: ق
+        draft: unconfirmed
+      group: ","
+      "infinity": ∞
+      list: ;
+      minusSign: "-"
+      "nan": 
+        content: یہ عدد نہیں
+        draft: unconfirmed
+      numberSystem: arabext
+      perMille: ‰
+      percentSign: "%"
+      plusSign: +
+    - 
+      decimal: .
+      exponential: E
+      group: ","
+      "infinity": ∞
+      list: ;
+      minusSign: "-"
+      "nan": 'NaN'
+      numberSystem: latn
+      perMille: ‰
+      percentSign: "%"
+      plusSign: +
+posix: 
+  messages: 
+    nostr: نہیں:نہیں
+    yesstr: ہاں:ہاں
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} دن"
+          count: one
+        - 
+          alt: short
+          content: "{0} دن"
+          count: one
+        - 
+          content: "{0} دن"
+          count: other
+        - 
+          alt: short
+          content: "{0} دن"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} دن میں"
+          count: one
+        - 
+          content: "{0} دن میں"
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} دن پہلے"
+          count: one
+        - 
+          content: "{0} دن پہلے"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} گھنٹہ"
+          count: one
+        - 
+          alt: short
+          content: "{0} گھنٹہ"
+          count: one
+        - 
+          content: "{0} گھنٹے"
+          count: other
+        - 
+          alt: short
+          content: "{0} گھنٹے"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} گھنٹہ میں"
+          count: one
+        - 
+          content: "{0} گھنٹے میں"
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} گھنٹہ پہلے"
+          count: one
+        - 
+          content: "{0} گھنٹے پہلے"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} منٹ"
+          count: one
+        - 
+          alt: short
+          content: "{0} منٹ"
+          count: one
+        - 
+          content: "{0} منٹ"
+          count: other
+        - 
+          alt: short
+          content: "{0} منٹ"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: "{0} منٹ میں"
+          count: one
+        - 
+          content: "{0} منٹ میں"
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: "{0} منٹ پہلے"
+          count: one
+        - 
+          content: "{0} منٹ پہلے"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} مہینہ"
+          count: one
+        - 
+          alt: short
+          content: "{0} مہینہ"
+          count: one
+        - 
+          content: "{0} مہینے"
+          count: other
+        - 
+          alt: short
+          content: "{0} مہینے"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: "{0} مہینہ میں"
+          count: one
+        - 
+          content: "{0} مہینے میں"
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: "{0} مہینہ پہلے"
+          count: one
+        - 
+          content: "{0} مہینے پہلے"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} سیکنڈ"
+          count: one
+        - 
+          alt: short
+          content: "{0} سیکنڈ"
+          count: one
+        - 
+          content: "{0} سیکنڈ"
+          count: other
+        - 
+          alt: short
+          content: "{0} سیکنڈ"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: "{0} سیکنڈ میں"
+          count: one
+        - 
+          content: "{0} سیکنڈ میں"
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: "{0} سیکنڈ پہلے"
+          count: one
+        - 
+          content: "{0} سیکنڈ پہلے"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} ہفتہ"
+          count: one
+        - 
+          alt: short
+          content: "{0} ہفتہ"
+          count: one
+        - 
+          content: "{0} ہفتے"
+          count: other
+        - 
+          alt: short
+          content: "{0} ہفتے"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: "{0} ہفتہ میں"
+          count: one
+        - 
+          content: "{0} ہفتے میں"
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: "{0} ہفتہ پہلے"
+          count: one
+        - 
+          content: "{0} ہفتے پہلے"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} سال"
+          count: one
+        - 
+          alt: short
+          content: "{0} سال"
+          count: one
+        - 
+          content: "{0} سال"
+          count: other
+        - 
+          alt: short
+          content: "{0} سال"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: "{0} سال میں"
+          count: one
+        - 
+          content: "{0} سال میں"
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: "{0} سال پہلے"
+          count: one
+        - 
+          content: "{0} سال پہلے"
+          count: other

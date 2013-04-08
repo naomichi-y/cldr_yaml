@@ -1,0 +1,1468 @@
+characters: 
+  exemplarCharacters: 
+    - "[a á b c d e é f g h i í ɨ j k l m n o ó p q r s t u ú ʉ v w x y z]"
+    - 
+      content: "[A B C D E F G H I Ɨ J K L M N O P Q R S T U Ʉ V W X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: TOO
+                  type: am
+                - 
+                  content: MUU
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Píili
+                      type: sun
+                    - 
+                      content: Táatu
+                      type: mon
+                    - 
+                      content: Íne
+                      type: tue
+                    - 
+                      content: Táano
+                      type: wed
+                    - 
+                      content: Alh
+                      type: thu
+                    - 
+                      content: Ijm
+                      type: fri
+                    - 
+                      content: Móosi
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Jumapíiri
+                      type: sun
+                    - 
+                      content: Jumatátu
+                      type: mon
+                    - 
+                      content: Jumaíne
+                      type: tue
+                    - 
+                      content: Jumatáano
+                      type: wed
+                    - 
+                      content: Alamíisi
+                      type: thu
+                    - 
+                      content: Ijumáa
+                      type: fri
+                    - 
+                      content: Jumamóosi
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: P
+                    type: sun
+                  - 
+                    content: T
+                    type: mon
+                  - 
+                    content: E
+                    type: tue
+                  - 
+                    content: O
+                    type: wed
+                  - 
+                    content: A
+                    type: thu
+                  - 
+                    content: I
+                    type: fri
+                  - 
+                    content: M
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: KSA
+                type: 0
+              - 
+                content: KA
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Kɨrɨsitʉ sɨ anavyaal
+                type: 0
+              - 
+                content: Kɨrɨsitʉ akavyaalwe
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Fúngatɨ
+                      type: 1
+                    - 
+                      content: Naanɨ
+                      type: 2
+                    - 
+                      content: Keenda
+                      type: 3
+                    - 
+                      content: Ikúmi
+                      type: 4
+                    - 
+                      content: Inyambala
+                      type: 5
+                    - 
+                      content: Idwaata
+                      type: 6
+                    - 
+                      content: Mʉʉnchɨ
+                      type: 7
+                    - 
+                      content: Vɨɨrɨ
+                      type: 8
+                    - 
+                      content: Saatʉ
+                      type: 9
+                    - 
+                      content: Inyi
+                      type: 10
+                    - 
+                      content: Saano
+                      type: 11
+                    - 
+                      content: Sasatʉ
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Kʉfúngatɨ
+                      type: 1
+                    - 
+                      content: Kʉnaanɨ
+                      type: 2
+                    - 
+                      content: Kʉkeenda
+                      type: 3
+                    - 
+                      content: Kwiikumi
+                      type: 4
+                    - 
+                      content: Kwiinyambála
+                      type: 5
+                    - 
+                      content: Kwiidwaata
+                      type: 6
+                    - 
+                      content: Kʉmʉʉnchɨ
+                      type: 7
+                    - 
+                      content: Kʉvɨɨrɨ
+                      type: 8
+                    - 
+                      content: Kʉsaatʉ
+                      type: 9
+                    - 
+                      content: Kwiinyi
+                      type: 10
+                    - 
+                      content: Kʉsaano
+                      type: 11
+                    - 
+                      content: Kʉsasatʉ
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: F
+                    type: 1
+                  - 
+                    content: 'N'
+                    type: 2
+                  - 
+                    content: K
+                    type: 3
+                  - 
+                    content: I
+                    type: 4
+                  - 
+                    content: I
+                    type: 5
+                  - 
+                    content: I
+                    type: 6
+                  - 
+                    content: M
+                    type: 7
+                  - 
+                    content: V
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: I
+                    type: 10
+                  - 
+                    content: S
+                    type: 11
+                  - 
+                    content: S
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: Ncho 1
+                    type: 1
+                  - 
+                    content: Ncho 2
+                    type: 2
+                  - 
+                    content: Ncho 3
+                    type: 3
+                  - 
+                    content: Ncho 4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: Ncholo ya 1
+                    type: 1
+                  - 
+                    content: Ncholo ya 2
+                    type: 2
+                  - 
+                    content: Ncholo ya 3
+                    type: 3
+                  - 
+                    content: Ncholo ya 4
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Mpɨɨndɨ
+        type: era
+      - 
+        displayName: Mwaáka
+        type: year
+      - 
+        displayName: Mweéri
+        type: month
+      - 
+        displayName: Wíiki
+        type: week
+      - 
+        displayName: Sikʉ
+        relative: 
+          - 
+            content: Niijo
+            type: -1
+          - 
+            content: Isikʉ
+            type: 0
+          - 
+            content: Lamʉtoondo
+            type: 1
+        type: day
+      - 
+        displayName: Sikʉ ya júma
+        type: weekday
+      - 
+        displayName: Mpɨɨndɨ ja sikʉ
+        type: dayperiod
+      - 
+        displayName: Sáa
+        type: hour
+      - 
+        displayName: Dakíka
+        type: minute
+      - 
+        displayName: Sekúunde
+        type: second
+      - 
+        displayName: Mpɨɨndɨ ja mɨɨtʉ
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ’
+  quotationEnd: ”
+  quotationStart: ”
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: lag
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Kɨakáani
+        type: ak
+      - 
+        content: Kɨmʉháari
+        type: am
+      - 
+        content: Kɨaráabu
+        type: ar
+      - 
+        content: Kɨberalúusi
+        type: be
+      - 
+        content: Kɨbulugária
+        type: bg
+      - 
+        content: Kɨbangála
+        type: bn
+      - 
+        content: Kɨchéeki
+        type: cs
+      - 
+        content: Kɨjerʉmáani
+        type: de
+      - 
+        content: Kɨgiríki
+        type: el
+      - 
+        content: Kɨɨngeréesa
+        type: en
+      - 
+        content: Kɨhispánia
+        type: es
+      - 
+        content: Kɨajéemi
+        type: fa
+      - 
+        content: Kɨfaráansa
+        type: fr
+      - 
+        content: Kɨhaúusa
+        type: ha
+      - 
+        content: Kɨhíindi
+        type: hi
+      - 
+        content: Kɨhungári
+        type: hu
+      - 
+        content: Kɨɨndonésia
+        type: id
+      - 
+        content: Kiígibo
+        type: ig
+      - 
+        content: Kɨtaliáano
+        type: it
+      - 
+        content: Kɨjapáani
+        type: ja
+      - 
+        content: Kɨjáava
+        type: jv
+      - 
+        content: Kɨkambódia
+        type: km
+      - 
+        content: Kɨkoréa
+        type: ko
+      - 
+        content: Kɨlaangi
+        type: lag
+      - 
+        content: Kɨmelésia
+        type: ms
+      - 
+        content: Kɨbáama
+        type: my
+      - 
+        content: Kɨnepáali
+        type: ne
+      - 
+        content: Kɨholáanzi
+        type: nl
+      - 
+        content: Kɨpúnjabi
+        type: pa
+      - 
+        content: Kɨpólandi
+        type: pl
+      - 
+        content: Kɨréeno
+        type: pt
+      - 
+        content: Kɨromanía
+        type: ro
+      - 
+        content: Kɨrúusi
+        type: ru
+      - 
+        content: Kɨnyarwáanda
+        type: rw
+      - 
+        content: Kɨsómáali
+        type: so
+      - 
+        content: Kɨswíidi
+        type: sv
+      - 
+        content: Kɨtamíili
+        type: ta
+      - 
+        content: Kɨtáilandi
+        type: th
+      - 
+        content: Kɨturúuki
+        type: tr
+      - 
+        content: Kɨukɨranía
+        type: uk
+      - 
+        content: Kɨúrdu
+        type: ur
+      - 
+        content: Kɨvietináamu
+        type: vi
+      - 
+        content: Kɨyorúuba
+        type: yo
+      - 
+        content: Kɨchíina
+        type: zh
+      - 
+        content: Kɨzúulu
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Andóra
+        type: AD
+      - 
+        content: Ʉtemi wa Kɨaráabu
+        type: AE
+      - 
+        content: Afuganisitáani
+        type: AF
+      - 
+        content: Antigúua na Baribúuda
+        type: AG
+      - 
+        content: Anguíila
+        type: AI
+      - 
+        content: Alubánia
+        type: AL
+      - 
+        content: Ariménia
+        type: AM
+      - 
+        content: Antili ya Ʉholáanzi
+        type: AN
+      - 
+        content: Angóola
+        type: AO
+      - 
+        content: Ajentíina
+        type: AR
+      - 
+        content: Samóoa ya Amerɨ́ka
+        type: AS
+      - 
+        content: Áusitiria
+        type: AT
+      - 
+        content: Ausiteréelia
+        type: AU
+      - 
+        content: Arúuba
+        type: AW
+      - 
+        content: Azabajáani
+        type: AZ
+      - 
+        content: Bósinia
+        type: BA
+      - 
+        content: Babadóosi
+        type: BB
+      - 
+        content: Bangaladéeshi
+        type: BD
+      - 
+        content: Ʉbeligíiji
+        type: BE
+      - 
+        content: Bukinafáaso
+        type: BF
+      - 
+        content: Buligaría
+        type: BG
+      - 
+        content: Baharéeni
+        type: BH
+      - 
+        content: Burúundi
+        type: BI
+      - 
+        content: Beníini
+        type: BJ
+      - 
+        content: Berimúuda
+        type: BM
+      - 
+        content: Burunéei
+        type: BN
+      - 
+        content: Bolívia
+        type: BO
+      - 
+        content: Brasíili
+        type: BR
+      - 
+        content: Baháama
+        type: BS
+      - 
+        content: Butáani
+        type: BT
+      - 
+        content: Botiswáana
+        type: BW
+      - 
+        content: Belarúusi
+        type: BY
+      - 
+        content: Belíise
+        type: BZ
+      - 
+        content: Kánada
+        type: CA
+      - 
+        content: Jamuhúuri ya Kɨdemokurasía ya Kóongo
+        type: CD
+      - 
+        content: Juhúuri ya Afɨrɨka ya katɨ katɨ
+        type: CF
+      - 
+        content: Kóongo
+        type: CG
+      - 
+        content: Uswíisi
+        type: CH
+      - 
+        content: Ivori Kositi
+        type: CI
+      - 
+        content: Visíiwa vya Kúuku
+        type: CK
+      - 
+        content: Chíile
+        type: CL
+      - 
+        content: Kamerúuni
+        type: CM
+      - 
+        content: Chíina
+        type: CN
+      - 
+        content: Kolómbia
+        type: CO
+      - 
+        content: Kósita Rɨ́ɨka
+        type: CR
+      - 
+        content: Kyúuba
+        type: CU
+      - 
+        content: Kepuvéede
+        type: CV
+      - 
+        content: Kupuróosi
+        type: CY
+      - 
+        content: Jamuhúuri ya Chéeki
+        type: CZ
+      - 
+        content: Ʉjerumáani
+        type: DE
+      - 
+        content: Jibúuti
+        type: DJ
+      - 
+        content: Denimaki
+        type: DK
+      - 
+        content: Domínɨka
+        type: DM
+      - 
+        content: Jamuhúuri ya Dominɨka
+        type: DO
+      - 
+        content: Alijéria
+        type: DZ
+      - 
+        content: Íkwado
+        type: EC
+      - 
+        content: Estonía
+        type: EE
+      - 
+        content: Mísiri
+        type: EG
+      - 
+        content: Eriterea
+        type: ER
+      - 
+        content: Hisipánia
+        type: ES
+      - 
+        content: Ʉhabéeshi
+        type: ET
+      - 
+        content: Ufíini
+        type: FI
+      - 
+        content: Fíiji
+        type: FJ
+      - 
+        content: Visíiwa vya Fakulandi
+        type: FK
+      - 
+        content: Mikironésia
+        type: FM
+      - 
+        content: Ʉfaráansa
+        type: FR
+      - 
+        content: Gabóoni
+        type: GA
+      - 
+        content: Ʉɨngeréesa
+        type: GB
+      - 
+        content: Girenáada
+        type: GD
+      - 
+        content: Jójia
+        type: GE
+      - 
+        content: Gwiyáana yʉ Ʉfaráansa
+        type: GF
+      - 
+        content: Gáana
+        type: GH
+      - 
+        content: Jiburálita
+        type: GI
+      - 
+        content: Giriniláandi
+        type: GL
+      - 
+        content: Gámbia
+        type: GM
+      - 
+        content: Gíine
+        type: GN
+      - 
+        content: Gwadelúupe
+        type: GP
+      - 
+        content: Gíine Ikwéeta
+        type: GQ
+      - 
+        content: Ugiríki
+        type: GR
+      - 
+        content: Gwatemáala
+        type: GT
+      - 
+        content: Gwani
+        type: GU
+      - 
+        content: Gíine Bisáau
+        type: GW
+      - 
+        content: Guyáana
+        type: GY
+      - 
+        content: Honduráasi
+        type: HN
+      - 
+        content: Koréshia
+        type: HR
+      - 
+        content: Haíiti
+        type: HT
+      - 
+        content: Hungária
+        type: HU
+      - 
+        content: Indonésia
+        type: ID
+      - 
+        content: Ayaláandi
+        type: IE
+      - 
+        content: Isiraéeli
+        type: IL
+      - 
+        content: Índia
+        type: IN
+      - 
+        content: Ɨsɨ yʉ Ʉɨngeréesa irivii ra Híindi
+        type: IO
+      - 
+        content: Iráaki
+        type: IQ
+      - 
+        content: Ʉajéemi
+        type: IR
+      - 
+        content: Aisiláandi
+        type: IS
+      - 
+        content: Itália
+        type: IT
+      - 
+        content: Jamáika
+        type: JM
+      - 
+        content: Jódani
+        type: JO
+      - 
+        content: Japáani
+        type: JP
+      - 
+        content: Kéenya
+        type: KE
+      - 
+        content: Kirigisitáani
+        type: KG
+      - 
+        content: Kambódia
+        type: KH
+      - 
+        content: Kiribáati
+        type: KI
+      - 
+        content: Komóoro
+        type: KM
+      - 
+        content: Mʉtakatíifu kitisi na Nevíisi
+        type: KN
+      - 
+        content: Koréa yʉ ʉtʉrʉko
+        type: KP
+      - 
+        content: Koréa ya Saame
+        type: KR
+      - 
+        content: Kʉwáiti
+        type: KW
+      - 
+        content: Visíiwa vya Kayimani
+        type: KY
+      - 
+        content: Kazakasitáani
+        type: KZ
+      - 
+        content: Laóosi
+        type: LA
+      - 
+        content: Lebanóoni
+        type: LB
+      - 
+        content: Mʉtakatíifu Lusíia
+        type: LC
+      - 
+        content: Lishentéeni
+        type: LI
+      - 
+        content: Siriláanka
+        type: LK
+      - 
+        content: Liibéria
+        type: LR
+      - 
+        content: Lesóoto
+        type: LS
+      - 
+        content: Lisuánia
+        type: LT
+      - 
+        content: Lasembáagi
+        type: LU
+      - 
+        content: Lativia
+        type: LV
+      - 
+        content: Líbia
+        type: LY
+      - 
+        content: Moróoko
+        type: MA
+      - 
+        content: Monáako
+        type: MC
+      - 
+        content: Molidóova
+        type: MD
+      - 
+        content: Bukíini
+        type: MG
+      - 
+        content: Visíiwa vya Marisháali
+        type: MH
+      - 
+        content: Masedónia
+        type: MK
+      - 
+        content: Máali
+        type: ML
+      - 
+        content: Miáama
+        type: MM
+      - 
+        content: Mongólia
+        type: MN
+      - 
+        content: Visiwa vya Mariana vya Kaskazini
+        type: MP
+      - 
+        content: Maritiníiki
+        type: MQ
+      - 
+        content: Moritánia
+        type: MR
+      - 
+        content: Monteráati
+        type: MS
+      - 
+        content: Málita
+        type: MT
+      - 
+        content: Moríisi
+        type: MU
+      - 
+        content: Modíivu
+        type: MV
+      - 
+        content: Maláawi
+        type: MW
+      - 
+        content: Mekisiko
+        type: MX
+      - 
+        content: Maleísia
+        type: MY
+      - 
+        content: Musumbíiji
+        type: MZ
+      - 
+        content: Namíbia
+        type: NA
+      - 
+        content: Kaledónia Ifya
+        type: NC
+      - 
+        content: Níija
+        type: NE
+      - 
+        content: Kisíiwa cha Nofifóoki
+        type: NF
+      - 
+        content: Niijéria
+        type: NG
+      - 
+        content: Nikarágʉa
+        type: NI
+      - 
+        content: Ʉholáanzi
+        type: NL
+      - 
+        content: Norwe
+        type: 'NO'
+      - 
+        content: Nepáali
+        type: NP
+      - 
+        content: Naúuru
+        type: NR
+      - 
+        content: Niúue
+        type: NU
+      - 
+        content: Nyuzílandi
+        type: NZ
+      - 
+        content: Ómani
+        type: OM
+      - 
+        content: Panáama
+        type: PA
+      - 
+        content: Péeru
+        type: PE
+      - 
+        content: Polinésia yʉ Ʉfaráansa
+        type: PF
+      - 
+        content: Papúua
+        type: PG
+      - 
+        content: Ufilipíino
+        type: PH
+      - 
+        content: Pakisitáani
+        type: PK
+      - 
+        content: Pólandi
+        type: PL
+      - 
+        content: Mʉtakatíifu Peéteri na Mɨkaéeli
+        type: PM
+      - 
+        content: Patikaírini
+        type: PN
+      - 
+        content: Pwetorɨ́ɨko
+        type: PR
+      - 
+        content: Mweemberera wa kʉmweeri wa Gáaza
+        type: PS
+      - 
+        content: Ʉréeno
+        type: PT
+      - 
+        content: Paláau
+        type: PW
+      - 
+        content: Paraguáai
+        type: PY
+      - 
+        content: Katáari
+        type: QA
+      - 
+        content: Reyunióoni
+        type: RE
+      - 
+        content: Romaníia
+        type: RO
+      - 
+        content: Urúusi
+        type: RU
+      - 
+        content: Rwáanda
+        type: RW
+      - 
+        content: Saudíia Arabíia
+        type: SA
+      - 
+        content: Visíiwa vya Solomóoni
+        type: SB
+      - 
+        content: Shelishéeli
+        type: SC
+      - 
+        content: Sudáani
+        type: SD
+      - 
+        content: Uswíidi
+        type: SE
+      - 
+        content: Singapoo
+        type: SG
+      - 
+        content: Mʉtakatíifu Heléena
+        type: SH
+      - 
+        content: Sulovénia
+        type: SI
+      - 
+        content: Sulováakia
+        type: SK
+      - 
+        content: Seraleóoni
+        type: SL
+      - 
+        content: Samaríino
+        type: SM
+      - 
+        content: Senegáali
+        type: SN
+      - 
+        content: Somália
+        type: SO
+      - 
+        content: Surináamu
+        type: SR
+      - 
+        content: Sao Tóome na Pirinsipe
+        type: ST
+      - 
+        content: Elisalivado
+        type: SV
+      - 
+        content: Síria
+        type: SY
+      - 
+        content: Ʉswáazi
+        type: SZ
+      - 
+        content: Visíiwa vya Turíiki na Kaíiko
+        type: TC
+      - 
+        content: Cháadi
+        type: TD
+      - 
+        content: Tóogo
+        type: TG
+      - 
+        content: Táilandi
+        type: TH
+      - 
+        content: Tajikisitáani
+        type: TJ
+      - 
+        content: Tokeláau
+        type: TK
+      - 
+        content: Timóori yi Itʉʉmba
+        type: TL
+      - 
+        content: Uturukimenisitáani
+        type: TM
+      - 
+        content: Tunísia
+        type: TN
+      - 
+        content: Tóonga
+        type: TO
+      - 
+        content: Uturúuki
+        type: TR
+      - 
+        content: Tiriníida ya Tobáago
+        type: TT
+      - 
+        content: Tuváalu
+        type: TV
+      - 
+        content: Taiwáani
+        type: TW
+      - 
+        content: Taansanía
+        type: TZ
+      - 
+        content: Ʉkɨréeni
+        type: UA
+      - 
+        content: Ʉgáanda
+        type: UG
+      - 
+        content: Amerɨka
+        type: US
+      - 
+        content: Uruguáai
+        type: UY
+      - 
+        content: Usibekisitáani
+        type: UZ
+      - 
+        content: Vatikáani
+        type: VA
+      - 
+        content: Mʉtakatíifu Viséenti na Gernadíini
+        type: VC
+      - 
+        content: Venezuéela
+        type: VE
+      - 
+        content: Visíiwa vya Vigíini vya Ʉɨngeréesa
+        type: VG
+      - 
+        content: Visíiwa vya Vigíini vya Amerɨ́ka
+        type: VI
+      - 
+        content: Vietináamu
+        type: VN
+      - 
+        content: Vanuáatu
+        type: VU
+      - 
+        content: Walíisi na Futúuna
+        type: WF
+      - 
+        content: Samóoa
+        type: WS
+      - 
+        content: Yémeni
+        type: YE
+      - 
+        content: Mayóote
+        type: YT
+      - 
+        content: Afɨrɨka ya Saame
+        type: ZA
+      - 
+        content: Sámbia
+        type: ZM
+      - 
+        content: Simbáabwe
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Diriháamu ya Ʉtemi wa Kɨaráabu
+        type: AED
+      - 
+        displayName: Kwáanza ya Angóola
+        type: AOA
+      - 
+        displayName: Dóola ya Ausitereelía
+        type: AUD
+      - 
+        displayName: Dináari ya Baharéeni
+        type: BHD
+      - 
+        displayName: Faráanga ya Burúundi
+        type: BIF
+      - 
+        displayName: Púula ya Botiswáana
+        type: BWP
+      - 
+        displayName: Dóola ya Kánada
+        type: CAD
+      - 
+        displayName: Faráanga ya Kóongo
+        type: CDF
+      - 
+        displayName: Faráaka ya Uswíisi
+        type: CHF
+      - 
+        displayName: Yúani Renimínibi ya Chíina
+        type: CNY
+      - 
+        displayName: Esikúudo ya Kepuvéede
+        type: CVE
+      - 
+        displayName: Faráanga ya Jibóuti
+        type: DJF
+      - 
+        displayName: Dináairi ya Alijéria
+        type: DZD
+      - 
+        displayName: Páundi ya Mísiri
+        type: EGP
+      - 
+        displayName: Nákɨfa ya Eriterea
+        type: ERN
+      - 
+        displayName: Bíiri ya Ʉhabéeshi
+        type: ETB
+      - 
+        displayName: Yúuro
+        type: EUR
+      - 
+        displayName: Páundi ya Ʉɨngɨréesa
+        type: GBP
+      - 
+        displayName: Séedi ya Gáana
+        type: GHC
+      - 
+        displayName: Daláasi ya Gámbia
+        type: GMD
+      - 
+        displayName: Faráanga ya Gíine
+        type: GNS
+      - 
+        displayName: Rupía ya Índia
+        type: INR
+      - 
+        displayName: Yéeni ya Japáani
+        type: JPY
+      - 
+        displayName: Shilíingi ya Kéenya
+        type: KES
+      - 
+        displayName: Faráanga ya Komóoro
+        type: KMF
+      - 
+        displayName: Dóola ya Libéria
+        type: LRD
+      - 
+        displayName: Lóoti ya Lesóoto
+        type: LSL
+      - 
+        displayName: Dináari ya Líbia
+        type: LYD
+      - 
+        displayName: Diriháamu ya Moróoko
+        type: MAD
+      - 
+        displayName: Mpía ya bukini
+        type: MGA
+      - 
+        displayName: Ungwíiya ya Moritánia
+        type: MRO
+      - 
+        displayName: Rupía ya Moríisi
+        type: MUR
+      - 
+        displayName: Kwáacha ya Maláawi
+        type: MWK
+      - 
+        displayName: Metikáali ya Musumbíiji
+        type: MZM
+      - 
+        displayName: Dóola ya Namíbia
+        type: NAD
+      - 
+        displayName: Naíira ya Niijéria
+        type: NGN
+      - 
+        displayName: Faráanga ya Rwáanda
+        type: RWF
+      - 
+        displayName: Riyáali ya Saudía
+        type: SAR
+      - 
+        displayName: Rupía ya Shelishéeli
+        type: SCR
+      - 
+        displayName: Páundi ya Sudáani
+        type: SDG
+      - 
+        displayName: Páundi ya Mʉtakatíifu Heléena
+        type: SHP
+      - 
+        displayName: Leóoni
+        type: SLL
+      - 
+        displayName: Shilíingi ya Somália
+        type: SOS
+      - 
+        displayName: Dóbura ya SaoTóome na Pirínsipe
+        type: STD
+      - 
+        displayName: Lilengéeni
+        type: SZL
+      - 
+        displayName: Dináari ya Tunísia
+        type: TND
+      - 
+        displayName: Shilíingi ya Taansanía
+        symbol: TSh
+        type: TZS
+      - 
+        displayName: Shilíingi ya Ugáanda
+        type: UGX
+      - 
+        displayName: Dóola ya Amerɨ́ka
+        type: USD
+      - 
+        displayName: Faráanga ya CFA BEAC
+        type: XAF
+      - 
+        displayName: Faráanga ya CFA BCEAO
+        type: XOF
+      - 
+        displayName: Ráandi ya Afɨrɨka ya Saame
+        type: ZAR
+      - 
+        displayName: Kwácha ya Sámbia (1968-2012)
+        type: ZMK
+      - 
+        displayName: Kwácha ya Sámbia
+        type: ZMW
+      - 
+        displayName: Dóola ya Simbáabwe
+        type: ZWD
+posix: 
+  messages: 
+    nostr: Tʉkʉ:T
+    yesstr: Hɨɨ:H

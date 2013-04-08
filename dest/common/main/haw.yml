@@ -1,0 +1,495 @@
+characters: 
+  exemplarCharacters: 
+    - "[a ā e ē i ī o ō u ū h k l m n p w ʻ]"
+    - 
+      content: "[b c d f g j q r s t v x y z]"
+      type: auxiliary
+    - 
+      content: "[A E I O U H K L M N P W ʻ B C D F G J Q R S T V X Y Z]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d MMMM y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM y G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMM y G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d/M/yy GGGGG
+                  draft: unconfirmed
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d MMMM y
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM y
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMM y
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d/M/yy
+                  draft: unconfirmed
+              type: short
+        days: 
+          dayContext: 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: LP
+                    type: sun
+                  - 
+                    content: P1
+                    type: mon
+                  - 
+                    content: P2
+                    type: tue
+                  - 
+                    content: P3
+                    type: wed
+                  - 
+                    content: P4
+                    type: thu
+                  - 
+                    content: P5
+                    type: fri
+                  - 
+                    content: P6
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: Lāpule
+                    type: sun
+                  - 
+                    content: Poʻakahi
+                    type: mon
+                  - 
+                    content: Poʻalua
+                    type: tue
+                  - 
+                    content: Poʻakolu
+                    type: wed
+                  - 
+                    content: Poʻahā
+                    type: thu
+                  - 
+                    content: Poʻalima
+                    type: fri
+                  - 
+                    content: Poʻaono
+                    type: sat
+                type: wide
+            type: format
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: Ian.
+                    type: 1
+                  - 
+                    content: Pep.
+                    type: 2
+                  - 
+                    content: Mal.
+                    type: 3
+                  - 
+                    content: ʻAp.
+                    type: 4
+                  - 
+                    content: Mei
+                    type: 5
+                  - 
+                    content: Iun.
+                    type: 6
+                  - 
+                    content: Iul.
+                    type: 7
+                  - 
+                    content: ʻAu.
+                    type: 8
+                  - 
+                    content: Kep.
+                    type: 9
+                  - 
+                    content: ʻOk.
+                    type: 10
+                  - 
+                    content: Now.
+                    type: 11
+                  - 
+                    content: Kek.
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: Ianuali
+                    type: 1
+                  - 
+                    content: Pepeluali
+                    type: 2
+                  - 
+                    content: Malaki
+                    type: 3
+                  - 
+                    content: ʻApelila
+                    type: 4
+                  - 
+                    content: Mei
+                    type: 5
+                  - 
+                    content: Iune
+                    type: 6
+                  - 
+                    content: Iulai
+                    type: 7
+                  - 
+                    content: ʻAukake
+                    type: 8
+                  - 
+                    content: Kepakemapa
+                    type: 9
+                  - 
+                    content: ʻOkakopa
+                    type: 10
+                  - 
+                    content: Nowemapa
+                    type: 11
+                  - 
+                    content: Kekemapa
+                    type: 12
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm a
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: haw
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: ʻAlapia
+        type: ar
+      - 
+        content: Wale
+        type: cy
+      - 
+        content: Kenemaka
+        type: da
+      - 
+        content: Kelemānia
+        type: de
+      - 
+        content: Helene
+        type: el
+      - 
+        content: Pelekānia
+        type: en
+      - 
+        content: Pelekāne Nū Hōlani
+        type: en_AU
+      - 
+        content: Pelekāne Kanakā
+        type: en_CA
+      - 
+        content: Pelekānia Pekekāne
+        type: en_GB
+      - 
+        content: Pelekānia ʻAmelika
+        type: en_US
+      - 
+        content: Paniolo
+        type: es
+      - 
+        content: Pīkī
+        type: fj
+      - 
+        content: Palani
+        type: fr
+      - 
+        content: Palani Kanakā
+        type: fr_CA
+      - 
+        content: Kuikilani
+        type: fr_CH
+      - 
+        content: ʻAiliki
+        type: ga
+      - 
+        content: Kuikilani Kelemānia
+        type: gsw
+      - 
+        content: ʻŌlelo Hawaiʻi
+        type: haw
+      - 
+        content: Hebera
+        type: he
+      - 
+        content: ʻĪkālia
+        type: it
+      - 
+        content: Kepanī
+        type: ja
+      - 
+        content: Kōlea
+        type: ko
+      - 
+        content: Lākina
+        type: la
+      - 
+        content: Māori
+        type: mi
+      - 
+        content: Hōlani
+        type: nl
+      - 
+        content: Pukikī
+        type: pt
+      - 
+        content: Pukikī Palakila
+        type: pt_BR
+      - 
+        content: Lūkia
+        type: ru
+      - 
+        content: Kāmoa
+        type: sm
+      - 
+        content: Kuekene
+        type: sv
+      - 
+        content: Tonga
+        type: to
+      - 
+        content: Polapola
+        type: ty
+      - 
+        content: ʻIke ʻole ‘ia a kūpono ʻole paha ka ʻōlelo
+        type: und
+      - 
+        content: Wiekanama
+        type: vi
+      - 
+        content: Pākē
+        type: zh
+      - 
+        content: Pākē Hoʻomaʻalahi ʻia
+        type: zh_Hans
+      - 
+        content: Pākē Kuʻuna
+        type: zh_Hant
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Mekalika
+        type: metric
+      - 
+        content: ʻAmelika Hui Pū ʻIa
+        type: US
+  territories: 
+    territory: 
+      - 
+        content: Nūhōlani
+        type: AU
+      - 
+        content: Kanakā
+        type: CA
+      - 
+        content: Kina
+        type: CN
+      - 
+        content: Kelemānia
+        type: DE
+      - 
+        content: Kenemaka
+        type: DK
+      - 
+        content: Kepania
+        type: ES
+      - 
+        content: Palani
+        type: FR
+      - 
+        content: Aupuni Mōʻī Hui Pū ʻIa
+        type: GB
+      - 
+        content: Helene
+        type: GR
+      - 
+        content: ʻIlelani
+        type: IE
+      - 
+        content: ʻIseraʻela
+        type: IL
+      - 
+        content: ʻĪnia
+        type: IN
+      - 
+        content: ʻĪkālia
+        type: IT
+      - 
+        content: Iāpana
+        type: JP
+      - 
+        content: Mekiko
+        type: MX
+      - 
+        content: Hōlani
+        type: NL
+      - 
+        content: Aotearoa
+        type: NZ
+      - 
+        content: ʻĀina Pilipino
+        type: PH
+      - 
+        content: Lūkia
+        type: RU
+      - 
+        content: ʻAmelika Hui Pū ʻIa
+        type: US
+numbers: 
+  currencies: 
+    currency: 
+      symbol: $
+      type: USD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} lā"
+          count: one
+        - 
+          content: "{0} lā"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} hola"
+          count: one
+        - 
+          content: "{0} hola"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minuke"
+          count: one
+        - 
+          content: "{0} minuke"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} mahina"
+          count: one
+        - 
+          content: "{0} mahina"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} kekona"
+          count: one
+        - 
+          content: "{0} kekona"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} pule"
+          count: one
+        - 
+          content: "{0} pule"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} makahiki"
+          count: one
+        - 
+          content: "{0} makahiki"
+          count: other

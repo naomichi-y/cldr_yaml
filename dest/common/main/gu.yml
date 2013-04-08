@@ -1,0 +1,7193 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: … {0}
+      type: initial
+    - 
+      content: "{0} … {1}"
+      type: medial
+  exemplarCharacters: 
+    - "[\\u0ABC ૐ \\u0A82 \\u0A81 ઃ અ આ ઇ ઈ ઉ ઊ ઋ ૠ ઍ એ ઐ ઑ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન પ ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ ઽ ા િ ી \\u0AC1 \\u0AC2 \\u0AC3 \\u0AC4 \\u0AC5 \\u0AC7 \\u0AC8 ૉ ો ૌ \\u0ACD]"
+    - 
+      content: "[\\u200C\\u200D ૰]"
+      type: auxiliary
+    - 
+      content: "[અ આ ઇ ઈ ઉ ઊ ઋ એ ઐ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન પ ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ]"
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM, y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM, y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d-MM-yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMdd: 
+                content: dd-MM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: hh:mm a
+              hms: 
+                content: hh:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMM: 
+                content: MM-y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d, MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E,d/M-E,d/M
+                  d: 
+                    content: E, d/M-E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM-E, d MMM
+                  d: 
+                    content: E, d MMM-E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM- d MMM
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M-d/M
+                  d: 
+                    content: d/M-d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E,d/M/y- E,d/M/y
+                  d: 
+                    content: E,d/M/y- E,d/M/y
+                  "y": 
+                    content: E,d/M/y-E,d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E,d MMM-E,d MMM y
+                  d: 
+                    content: E, d MMM-E, d MMM y
+                  "y": 
+                    content: E, d MMM y-E, d MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM-d MMM y
+                  d: 
+                    content: d-d MMM,y
+                  "y": 
+                    content: d MMM,y-d MMM,y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y-d/M/y
+                  d: 
+                    content: d/M/y-d/M/y
+                  "y": 
+                    content: d/M/y-d/M/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM, y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM, y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d-MM-yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, d MMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMdd: 
+                content: dd-MM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: hh:mm a
+              hms: 
+                content: hh:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMM: 
+                content: MM-y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d, MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E,d/M-E,d/M
+                  d: 
+                    content: E, d/M-E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM-E, d MMM
+                  d: 
+                    content: E, d MMM-E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM- d MMM
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M-d/M
+                  d: 
+                    content: d/M-d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E,d/M/y- E,d/M/y
+                  d: 
+                    content: E,d/M/y- E,d/M/y
+                  "y": 
+                    content: E,d/M/y-E,d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E,d MMM-E,d MMM y
+                  d: 
+                    content: E, d MMM-E, d MMM y
+                  "y": 
+                    content: E, d MMM y-E, d MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM-d MMM y
+                  d: 
+                    content: d-d MMM,y
+                  "y": 
+                    content: d MMM,y-d MMM,y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y-d/M/y
+                  d: 
+                    content: d/M/y-d/M/y
+                  "y": 
+                    content: d/M/y-d/M/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: AM
+                    type: am
+                  - 
+                    content: PM
+                    type: pm
+                type: narrow
+              - 
+                dayPeriod: 
+                  - 
+                    content: AM
+                    type: am
+                  - 
+                    content: PM
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: રવિ
+                      type: sun
+                    - 
+                      content: સોમ
+                      type: mon
+                    - 
+                      content: મંગળ
+                      type: tue
+                    - 
+                      content: બુધ
+                      type: wed
+                    - 
+                      content: ગુરુ
+                      type: thu
+                    - 
+                      content: શુક્ર
+                      type: fri
+                    - 
+                      content: શનિ
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ર
+                      type: sun
+                    - 
+                      content: સો
+                      type: mon
+                    - 
+                      content: મં
+                      type: tue
+                    - 
+                      content: બુ
+                      type: wed
+                    - 
+                      content: ગુ
+                      type: thu
+                    - 
+                      content: શુ
+                      type: fri
+                    - 
+                      content: શ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ર
+                      type: sun
+                    - 
+                      content: સો
+                      type: mon
+                    - 
+                      content: મં
+                      type: tue
+                    - 
+                      content: બુ
+                      type: wed
+                    - 
+                      content: ગુ
+                      type: thu
+                    - 
+                      content: શુ
+                      type: fri
+                    - 
+                      content: શ
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: રવિવાર
+                      type: sun
+                    - 
+                      content: સોમવાર
+                      type: mon
+                    - 
+                      content: મંગળવાર
+                      type: tue
+                    - 
+                      content: બુધવાર
+                      type: wed
+                    - 
+                      content: ગુરુવાર
+                      type: thu
+                    - 
+                      content: શુક્રવાર
+                      type: fri
+                    - 
+                      content: શનિવાર
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: રવિ
+                      type: sun
+                    - 
+                      content: સોમ
+                      type: mon
+                    - 
+                      content: મંગળ
+                      type: tue
+                    - 
+                      content: બુધ
+                      type: wed
+                    - 
+                      content: ગુરુ
+                      type: thu
+                    - 
+                      content: શુક્ર
+                      type: fri
+                    - 
+                      content: શનિ
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ર
+                      type: sun
+                    - 
+                      content: સો
+                      type: mon
+                    - 
+                      content: મં
+                      type: tue
+                    - 
+                      content: બુ
+                      type: wed
+                    - 
+                      content: ગુ
+                      type: thu
+                    - 
+                      content: શુ
+                      type: fri
+                    - 
+                      content: શ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ર
+                      type: sun
+                    - 
+                      content: સો
+                      type: mon
+                    - 
+                      content: મં
+                      type: tue
+                    - 
+                      content: બુ
+                      type: wed
+                    - 
+                      content: ગુ
+                      type: thu
+                    - 
+                      content: શુ
+                      type: fri
+                    - 
+                      content: શ
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: રવિવાર
+                      type: sun
+                    - 
+                      content: સોમવાર
+                      type: mon
+                    - 
+                      content: મંગળવાર
+                      type: tue
+                    - 
+                      content: બુધવાર
+                      type: wed
+                    - 
+                      content: ગુરુવાર
+                      type: thu
+                    - 
+                      content: શુક્રવાર
+                      type: fri
+                    - 
+                      content: શનિવાર
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ઈલુના જન્મ પહેસાં
+                type: 0
+              - 
+                content: ઇસવીસન
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: ઈસવીસન પૂર્વે
+                type: 0
+              - 
+                content: ઇસવીસન
+                type: 1
+          eraNarrow: 
+            era: 
+              - 
+                content: ઇ સ પુ
+                type: 0
+              - 
+                content: ઇસ
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: જાન્યુ
+                      type: 1
+                    - 
+                      content: ફેબ્રુ
+                      type: 2
+                    - 
+                      content: માર્ચ
+                      type: 3
+                    - 
+                      content: એપ્રિલ
+                      type: 4
+                    - 
+                      content: મે
+                      type: 5
+                    - 
+                      content: જૂન
+                      type: 6
+                    - 
+                      content: જુલાઈ
+                      type: 7
+                    - 
+                      content: ઑગસ્ટ
+                      type: 8
+                    - 
+                      content: સપ્ટે
+                      type: 9
+                    - 
+                      content: ઑક્ટો
+                      type: 10
+                    - 
+                      content: નવે
+                      type: 11
+                    - 
+                      content: ડિસે
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: જા
+                      type: 1
+                    - 
+                      content: ફે
+                      type: 2
+                    - 
+                      content: મા
+                      type: 3
+                    - 
+                      content: એ
+                      type: 4
+                    - 
+                      content: મે
+                      type: 5
+                    - 
+                      content: જૂ
+                      type: 6
+                    - 
+                      content: જુ
+                      type: 7
+                    - 
+                      content: ઑ
+                      type: 8
+                    - 
+                      content: સ
+                      type: 9
+                    - 
+                      content: ઑ
+                      type: 10
+                    - 
+                      content: ન
+                      type: 11
+                    - 
+                      content: ડિ
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: જાન્યુઆરી
+                      type: 1
+                    - 
+                      content: ફેબ્રુઆરી
+                      type: 2
+                    - 
+                      content: માર્ચ
+                      type: 3
+                    - 
+                      content: એપ્રિલ
+                      type: 4
+                    - 
+                      content: મે
+                      type: 5
+                    - 
+                      content: જૂન
+                      type: 6
+                    - 
+                      content: જુલાઈ
+                      type: 7
+                    - 
+                      content: ઑગસ્ટ
+                      type: 8
+                    - 
+                      content: સપ્ટેમ્બર
+                      type: 9
+                    - 
+                      content: ઑક્ટોબર
+                      type: 10
+                    - 
+                      content: નવેમ્બર
+                      type: 11
+                    - 
+                      content: ડિસેમ્બર
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: જાન્યુ
+                      type: 1
+                    - 
+                      content: ફેબ્રુ
+                      type: 2
+                    - 
+                      content: માર્ચ
+                      type: 3
+                    - 
+                      content: એપ્રિલ
+                      type: 4
+                    - 
+                      content: મે
+                      type: 5
+                    - 
+                      content: જૂન
+                      type: 6
+                    - 
+                      content: જુલાઈ
+                      type: 7
+                    - 
+                      content: ઑગ
+                      type: 8
+                    - 
+                      content: સપ્ટે
+                      type: 9
+                    - 
+                      content: ઑક્ટો
+                      type: 10
+                    - 
+                      content: નવે
+                      type: 11
+                    - 
+                      content: ડિસે
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: જા
+                      type: 1
+                    - 
+                      content: ફે
+                      type: 2
+                    - 
+                      content: મા
+                      type: 3
+                    - 
+                      content: એ
+                      type: 4
+                    - 
+                      content: મે
+                      type: 5
+                    - 
+                      content: જૂ
+                      type: 6
+                    - 
+                      content: જુ
+                      type: 7
+                    - 
+                      content: ઑ
+                      type: 8
+                    - 
+                      content: સ
+                      type: 9
+                    - 
+                      content: ઑ
+                      type: 10
+                    - 
+                      content: ન
+                      type: 11
+                    - 
+                      content: ડિ
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: જાન્યુઆરી
+                      type: 1
+                    - 
+                      content: ફેબ્રુઆરી
+                      type: 2
+                    - 
+                      content: માર્ચ
+                      type: 3
+                    - 
+                      content: એપ્રિલ
+                      type: 4
+                    - 
+                      content: મે
+                      type: 5
+                    - 
+                      content: જૂન
+                      type: 6
+                    - 
+                      content: જુલાઈ
+                      type: 7
+                    - 
+                      content: ઑગસ્ટ
+                      type: 8
+                    - 
+                      content: સપ્ટેમ્બર
+                      type: 9
+                    - 
+                      content: ઑક્ટ્બર
+                      type: 10
+                    - 
+                      content: નવેમ્બર
+                      type: 11
+                    - 
+                      content: ડિસેમ્બર
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: Q1
+                      type: 1
+                    - 
+                      content: Q2
+                      type: 2
+                    - 
+                      content: Q3
+                      type: 3
+                    - 
+                      content: Q4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: પહેલો હંત
+                      type: 1
+                    - 
+                      content: બીજો હંત
+                      type: 2
+                    - 
+                      content: ત્રીજો હંત
+                      type: 3
+                    - 
+                      content: ચોથો હંત
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: Q1
+                      type: 1
+                    - 
+                      content: Q2
+                      type: 2
+                    - 
+                      content: Q3
+                      type: 3
+                    - 
+                      content: Q4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: પહેલો હંત
+                      type: 1
+                    - 
+                      content: બીજો હંત
+                      type: 2
+                    - 
+                      content: ત્રીજો હંત
+                      type: 3
+                    - 
+                      content: ચોથો હંત
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: hh:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: hh:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: hh:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: hh:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: યુગ
+        type: era
+      - 
+        displayName: વર્ષ
+        relative: 
+          - 
+            content: પાછલું વર્ષ
+            type: -1
+          - 
+            content: આ વર્ષ
+            type: 0
+          - 
+            content: આગલું વર્ષ
+            type: 1
+        type: year
+      - 
+        displayName: મહિનો
+        relative: 
+          - 
+            content: છેલ્લો મહિનો
+            type: -1
+          - 
+            content: આ મહિને
+            type: 0
+          - 
+            content: આગલો મહીનો
+            type: 1
+        type: month
+      - 
+        displayName: અહવાડિયું
+        relative: 
+          - 
+            content: છેલ્લું અઠવાડિયું
+            type: -1
+          - 
+            content: આ અઠવાડિયે
+            type: 0
+          - 
+            content: આગલા અઠવાડિયે
+            type: 1
+        type: week
+      - 
+        displayName: દિવસ
+        relative: 
+          - 
+            content: ગઈકાસ પહેસાંનો દિવસ
+            type: -2
+          - 
+            content: ગઈકાલ
+            type: -1
+          - 
+            content: આજ
+            type: 0
+          - 
+            content: આવતીકાલ
+            type: 1
+          - 
+            content: પરમ દિવસ
+            type: 2
+        type: day
+      - 
+        displayName: અઠવાડિયાનો દિવસ
+        type: weekday
+      - 
+        displayName: AM/PM
+        type: dayperiod
+      - 
+        displayName: કલાક
+        type: hour
+      - 
+        displayName: મિનિટ
+        type: minute
+      - 
+        displayName: ક્ષણ
+        type: second
+      - 
+        displayName: વિસ્તાર
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} સમય ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          daylight: એકર ગ્રીષ્મ સમય
+          generic: એકર સમય
+          standard: એકર પ્રમાણભૂત સમય
+        type: Acre
+      - 
+        long: 
+          standard: અફઘાનિસ્તાન સમય
+        type: Afghanistan
+      - 
+        long: 
+          standard: મધ્ય આફ્રિકા સમય
+        type: Africa_Central
+      - 
+        long: 
+          standard: પૂર્વ આફ્રિકા સમય
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: દક્ષિણ આફ્રિકા માનક સમય
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: પશ્ચિમ આફ્રિકા ગ્રીષ્મ સમય
+          generic: પશ્ચિમ આફ્રિકા સમય
+          standard: પશ્ચિમ આફ્રિકા માનક સમય
+        type: Africa_Western
+      - 
+        long: 
+          daylight: અલાસ્કા દિવસ સમય
+          generic: અલાસ્કા સમય
+          standard: અલાસ્કા પ્રમાણભૂત સમય
+        type: Alaska
+      - 
+        long: 
+          daylight: અલ્માટી ગ્રીષ્મ સમય
+          generic: અલ્માટી સમય
+          standard: અલ્માટી પ્રમાણભૂત સમય
+        type: Almaty
+      - 
+        long: 
+          daylight: એમેઝોન ગ્રીષ્મ સમય
+          generic: એમેઝોન સમય
+          standard: એમેઝોન માનક સમય
+        type: Amazon
+      - 
+        long: 
+          daylight: મધ્ય દિવસ સમય
+          generic: મધ્ય સમય
+          standard: મધ્ય પ્રમાણભૂત સમય
+        type: America_Central
+      - 
+        long: 
+          daylight: પૂર્વી દિવસ સમય
+          generic: પૂર્વી સમય
+          standard: પૂર્વી પ્રમાણભૂત સમય
+        type: America_Eastern
+      - 
+        long: 
+          daylight: માઉન્ટન દિવસ સમય
+          generic: માઉન્ટન સમય
+          standard: માઉન્ટન પ્રમાણભૂત સમય
+        type: America_Mountain
+      - 
+        long: 
+          daylight: પેસિફિક દિવસ સમય
+          generic: પેસિફિક સમય
+          standard: પેસિફિક પ્રમાણભૂત સમય
+        type: America_Pacific
+      - 
+        long: 
+          daylight: અનાડિર ગ્રીષ્મ સમય
+          generic: અનાદિર સમય
+          standard: અનાડિર પ્રમાણભૂત સમય
+        type: Anadyr
+      - 
+        long: 
+          daylight: અક્તાઉ ગ્રીષ્મ સમય
+          generic: અક્તાઉ સમય
+          standard: અક્તાઉ પ્રમાણભૂત સમય
+        type: Aqtau
+      - 
+        long: 
+          daylight: ઍક્ટોબ ગ્રીષ્મ સમય
+          generic: ઍક્ટોબ સમય
+          standard: ઍક્ટોબ પ્રમાણભૂત સમય
+        type: Aqtobe
+      - 
+        long: 
+          daylight: અરેબિયન દિવસ સમય
+          generic: અરેબિયન સમય
+          standard: અરેબિયન માનક સમય
+        type: Arabian
+      - 
+        long: 
+          daylight: આર્જેન્ટીના ગ્રીષ્મ સમય
+          generic: અર્જેન્ટીના સમય
+          standard: અર્જેન્ટીના માનક સમય
+        type: Argentina
+      - 
+        long: 
+          daylight: પશ્ચિમી અર્જેન્ટીના ગ્રીષ્મ સમય
+          generic: પશ્ચિમી અર્જેન્ટીના સમય
+          standard: પશ્ચિમી અર્જેન્ટીના માનક સમય
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: આર્મેનિયા ગ્રીષ્મ સમય
+          generic: આર્મેનિયા સમય
+          standard: આર્મેનિયા માનક સમય
+        type: Armenia
+      - 
+        long: 
+          daylight: અટલાન્ટિક દિવસ સમય
+          generic: અટલાન્ટિક સમય
+          standard: અટલાન્ટિક પ્રમાણભૂત સમય
+        type: Atlantic
+      - 
+        long: 
+          daylight: ઓસ્ટ્રેલિયન મધ્ય દિવસ સમય
+          generic: મધ્ય ઓસ્ટ્રેલિયન સમય
+          standard: ઓસ્ટ્રેલિયન મધ્ય પ્રમાણભૂત સમય
+        type: Australia_Central
+      - 
+        long: 
+          daylight: ઓસ્ટ્રેલિયન મધ્ય પશ્ચિમી દિવસ સમય
+          generic: ઓસ્ટ્રેલિયન મધ્ય પશ્ચિમી સમય
+          standard: ઓસ્ટ્રેલિયન મધ્ય પશ્ચિમી પ્રમાણભૂત સમય
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: ઓસ્ટ્રેલિયન પૂર્વી દિવસ સમય
+          generic: પૂર્વી ઓસ્ટ્રેલિયા સમય
+          standard: ઓસ્ટ્રેલિયન પૂર્વી પ્રમાણભૂત સમય
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: ઓસ્ટ્રેલિયન પશ્ચિમી દિવસ સમય
+          generic: પશ્ચિમી ઓસ્ટ્રેલિયા સમય
+          standard: ઓસ્ટ્રેલિયન પશ્ચિમી પ્રમાણભૂત સમય
+        type: Australia_Western
+      - 
+        long: 
+          daylight: અઝરબૈજાન ગ્રીષ્મ સમય
+          generic: અઝરબૈજાન સમય
+          standard: અઝરબૈજાન માનક સમય
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: એઝોર્સ ગ્રીષ્મ સમય
+          generic: એઝોર્સ સમય
+          standard: એઝોર્સ માનક સમય
+        type: Azores
+      - 
+        long: 
+          daylight: બાંગ્લાદેશ ગ્રીષ્મ સમય
+          generic: બાંગ્લાદેશ સમય
+          standard: બાંગ્લાદેશ માનક સમય
+        type: Bangladesh
+      - 
+        long: 
+          standard: ભૂટાન સમય
+        type: Bhutan
+      - 
+        long: 
+          standard: બોલિવિયા સમય
+        type: Bolivia
+      - 
+        long: 
+          daylight: બ્રાઝિલિયા ગ્રીષ્મ સમય
+          generic: બ્રાઝિલિયા સમય
+          standard: બ્રાઝિલિયા માનક સમય
+        type: Brasilia
+      - 
+        long: 
+          standard: બ્રૂનેઈ દારુસલામ સમય
+        type: Brunei
+      - 
+        long: 
+          daylight: કૅપ વર્ડે ગ્રીષ્મ સમય
+          generic: કૅપ વર્ડે સમય
+          standard: કૅપ વર્ડે માનક સમય
+        type: Cape_Verde
+      - 
+        long: 
+          standard: કેમોરો માનક સમય
+        type: Chamorro
+      - 
+        long: 
+          daylight: ચેતહામ દિવસ સમય
+          generic: ચેતહામ સમય
+          standard: ચેતહામ માનક સમય
+        type: Chatham
+      - 
+        long: 
+          daylight: ચિલી ગ્રીષ્મ સમય
+          generic: ચિલી સમય
+          standard: ચિલી માનક સમય
+        type: Chile
+      - 
+        long: 
+          daylight: ચીન દિવસ સમય
+          generic: ચીન સમય
+          standard: ચીન માનક સમય
+        type: China
+      - 
+        long: 
+          daylight: ચોઇબાલ્સેન ગ્રીષ્મ સમય
+          generic: ચોઇબાલ્સન સમય
+          standard: ચોઇબાલ્સાન માનક સમય
+        type: Choibalsan
+      - 
+        long: 
+          standard: ક્રિસમસ આઇલેન્ડ સમય
+        type: Christmas
+      - 
+        long: 
+          standard: કોકોઝ આઇલેન્ડ સમય
+        type: Cocos
+      - 
+        long: 
+          daylight: કોલંબિયા ગ્રીષ્મ સમય
+          generic: કોલંબિયા સમય
+          standard: કોલંબિયા માનક સમય
+        type: Colombia
+      - 
+        long: 
+          daylight: કુક આઇલેન્ડ્સ અર્ધ ગ્રીષ્મ સમય
+          generic: કુક આઇલેન્ડ્સ સમય
+          standard: કુક આઇલેન્ડ્સ માનક સમય
+        type: Cook
+      - 
+        long: 
+          daylight: ક્યૂબા દિવસ સમય
+          generic: ક્યૂબા સમય
+          standard: ક્યૂબા માનક સમય
+        type: Cuba
+      - 
+        long: 
+          standard: ડેવિસ સમય
+        type: Davis
+      - 
+        long: 
+          standard: ડ્યુમોન્ટ-ડી'ઉર્વિલ સમય
+        type: DumontDUrville
+      - 
+        long: 
+          standard: પૂર્વ તિમોર સમય
+        type: East_Timor
+      - 
+        long: 
+          daylight: ઇસ્ટર આઇલેન્ડ ગ્રીષ્મ સમય
+          generic: ઇસ્ટર આઇલેન્ડ સમય
+          standard: ઇસ્ટર આઇલેન્ડ માનક સમય
+        type: Easter
+      - 
+        long: 
+          standard: એક્વાડોર સમય
+        type: Ecuador
+      - 
+        long: 
+          daylight: મધ્ય યુરોપિયન ગ્રીષ્મ સમય
+          generic: મધ્ય યુરોપિયન સમય
+          standard: મધ્ય યુરોપિયન માનક સમય
+        type: Europe_Central
+      - 
+        long: 
+          daylight: પૂર્વી યુરોપીયન ગ્રીષ્મ સમય
+          generic: પૂર્વી યુરોપિયન સમય
+          standard: પૂર્વી યુરોપિયન માનક સમય
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: પશ્ચિમી યુરોપિયન ગ્રીષ્મ સમય
+          generic: પશ્ચિમી યુરોપિયન સમય
+          standard: પશ્ચિમી યુરોપિયન માનક સમય
+        type: Europe_Western
+      - 
+        long: 
+          daylight: ફોકલૅંડ આઇલેન્ડ્સ ગ્રીષ્મ સમય
+          generic: ફોકલૅંડ આઇલેન્ડ્સ સમય
+          standard: ફૉકલૅંડ આઇલેન્ડ્સ માનક સમય
+        type: Falkland
+      - 
+        long: 
+          daylight: ફિજી ગ્રીષ્મ સમય
+          generic: ફિજી સમય
+          standard: ફિજી માનક સમય
+        type: Fiji
+      - 
+        long: 
+          standard: ફ્રેન્ચ ગયાના સમય
+        type: French_Guiana
+      - 
+        long: 
+          standard: ફ્રેન્ચ સાઉધર્ન અને એન્ટાર્કટિક સમય
+        type: French_Southern
+      - 
+        long: 
+          standard: ગાલાપાગોસ સમય
+        type: Galapagos
+      - 
+        long: 
+          standard: ગેમ્બિયર સમય
+        type: Gambier
+      - 
+        long: 
+          daylight: જ્યોર્જિયા ગ્રીષ્મ સમય
+          generic: જ્યોર્જિયા સમય
+          standard: જ્યોર્જિયા માનક સમય
+        type: Georgia
+      - 
+        long: 
+          standard: ગિલબર્ટ આઇલેન્ડ સમય
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: ગ્રીનવિચ મધ્યમ સમય
+        type: GMT
+      - 
+        long: 
+          daylight: પૂર્વ ગ્રીનલેન્ડ ગ્રીષ્મ સમય
+          generic: પૂર્વ ગ્રીનલેન્ડ સમય
+          standard: પૂર્વ ગ્રીનલેન્ડ માનક સમય
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: પશ્ચિમ ગ્રીનલેન્ડ ગ્રીષ્મ સમય
+          generic: પશ્ચિમ ગ્રીનલેન્ડ સમય
+          standard: પશ્ચિમ ગ્રીનલેન્ડ માનક સમય
+        type: Greenland_Western
+      - 
+        long: 
+          standard: ગ્વામ પ્રમાણભૂત સમય
+        type: Guam
+      - 
+        long: 
+          standard: ગલ્ફ માનક સમય
+        type: Gulf
+      - 
+        long: 
+          standard: ગયાના સમય
+        type: Guyana
+      - 
+        long: 
+          daylight: હવાઇ-એલ્યુશિઅન દિવસ સમય
+          generic: હવાઈ-એલ્યુશિઅન સમય
+          standard: હવાઇ-એલ્યુશિઅન માનક સમય
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: હોંગ કોંગ ગ્રીષ્મ સમય
+          generic: હોંગ કોંગ સમય
+          standard: હોંગ કોંગ માનક સમય
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: હોવ્ડ ગ્રીષ્મ સમય
+          generic: હોવ્ડ સમય
+          standard: હોવ્ડ માનક સમય
+        type: Hovd
+      - 
+        long: 
+          standard: ભારતીય માનક સમય
+        short: 
+          standard: IST
+        type: India
+      - 
+        long: 
+          standard: ભારતીય મહાસાગર સમય
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: ઇન્ડોચાઇના સમય
+        type: Indochina
+      - 
+        long: 
+          standard: મધ્ય ઇન્ડોનેશિયા સમય
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: પૂર્વી ઇન્ડોનેશિયા સમય
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: પશ્ચિમી ઇન્ડોનેશિયા સમય
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: ઈરાન દિવસ સમય
+          generic: ઈરાન સમય
+          standard: ઈરાન માનક સમય
+        type: Iran
+      - 
+        long: 
+          daylight: ઇર્કુત્સ્ક ગ્રીષ્મ સમય
+          generic: ઇર્કુત્સ્ક સમય
+          standard: ઇર્કુત્સ્ક માનક સમય
+        type: Irkutsk
+      - 
+        long: 
+          daylight: ઇઝરાઇલ દિવસ સમય
+          generic: ઇઝરાઇલ સમય
+          standard: ઇઝરાઇલ માનક સમય
+        type: Israel
+      - 
+        long: 
+          daylight: જાપાન દિવસ સમય
+          generic: જાપાન સમય
+          standard: જાપાન માનક સમય
+        type: Japan
+      - 
+        long: 
+          daylight: પેટ્રોપેવલોવ્સ્ક-કામચતસ્કી ગ્રીષ્મ સમય
+          generic: પેટ્રોપેવલોવ્સ્ક-કામચતસ્કી સમય
+          standard: પેટ્રોપેવલોવ્સ્ક-કામચતસ્કી પ્રમાણભૂત સમય
+        type: Kamchatka
+      - 
+        long: 
+          standard: પૂર્વ કઝાકિસ્તાન સમય
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: પશ્ચિમ કઝાકિસ્તાન સમય
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: કોરિયન દિવસ સમય
+          generic: કોરિયન સમય
+          standard: કોરિયન માનક સમય
+        type: Korea
+      - 
+        long: 
+          standard: કોસરે સમય
+        type: Kosrae
+      - 
+        long: 
+          daylight: ક્રેસનોયાર્સ્ક ગ્રીષ્મ સમય
+          generic: ક્રેસ્નોયાર્સ્કી સમય
+          standard: ક્રસ્નોયાર્સ્ક માનક સમય
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: કિર્ગિઝતાન સમય
+        type: Kyrgystan
+      - 
+        long: 
+          standard: લંકા સમય
+        type: Lanka
+      - 
+        long: 
+          standard: લાઇન આઇલેન્ડ્સ સમય
+        type: Line_Islands
+      - 
+        long: 
+          daylight: લોર્ડ હોવ દિવસ સમય
+          generic: લોર્ડ હોવ સમય
+          standard: લોર્ડ હોવ પ્રમાણભૂત સમય
+        type: Lord_Howe
+      - 
+        long: 
+          daylight: મકાઉ ગ્રીષ્મ સમય
+          generic: મકાઉ સમય
+          standard: મકાઉ પ્રમાણભૂત સમય
+        type: Macau
+      - 
+        long: 
+          standard: મેક્વાયર આઇલેન્ડ સમય
+        type: Macquarie
+      - 
+        long: 
+          daylight: મગદન ગ્રીષ્મ સમય
+          generic: મેગાડન સમય
+          standard: માગાદાન માનક સમય
+        type: Magadan
+      - 
+        long: 
+          standard: મલેશિયા સમય
+        type: Malaysia
+      - 
+        long: 
+          standard: માલદીવ સમય
+        type: Maldives
+      - 
+        long: 
+          standard: માર્ક્યૂસસ સમય
+        type: Marquesas
+      - 
+        long: 
+          standard: માર્શલ આઇલેન્ડ્સ સમય
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: મોરિશિયસ ગ્રીષ્મ સમય
+          generic: મોરિશિયસ સમય
+          standard: મોરિશિયસ માનક સમય
+        type: Mauritius
+      - 
+        long: 
+          standard: મોસન સમય
+        type: Mawson
+      - 
+        long: 
+          daylight: ઉલાન બટોર ગ્રીષ્મ સમય
+          generic: ઉલાન બાટોર સમય
+          standard: ઉલાન બાટોર માનક સમય
+        type: Mongolia
+      - 
+        long: 
+          daylight: મોસ્કો ગ્રીષ્મ સમય
+          generic: મોસ્કો સમય
+          standard: મોસ્કો પ્રમાણભૂત સમય
+        type: Moscow
+      - 
+        long: 
+          standard: મ્યાનમાર સમય
+        type: Myanmar
+      - 
+        long: 
+          standard: નૌરુ સમય
+        type: Nauru
+      - 
+        long: 
+          standard: નેપાળ સમય
+        type: Nepal
+      - 
+        long: 
+          daylight: ન્યુ સેલેડોનિયા ગ્રીષ્મ સમય
+          generic: ન્યુ સેલેડોનિયા સમય
+          standard: ન્યુ સેલેડોનિયા માનક સમય
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: ન્યુઝીલેન્ડ દિવસ સમય
+          generic: ન્યુઝીલેન્ડ સમય
+          standard: ન્યુઝીલેન્ડ માનક સમય
+        type: New_Zealand
+      - 
+        long: 
+          daylight: ન્યૂફાઉન્ડલેન્ડ દિવસ સમય
+          generic: ન્યૂફાઉન્ડલેન્ડ સમય
+          standard: ન્યૂફાઉન્ડલેન્ડ પ્રમાણભૂત સમય
+        type: Newfoundland
+      - 
+        long: 
+          standard: નીયુ સમય
+        type: Niue
+      - 
+        long: 
+          standard: નોરફૉક આઇલેન્ડ સમય
+        type: Norfolk
+      - 
+        long: 
+          daylight: ફરનેન્ડો દે નોરોહા ગ્રીષ્મ સમય
+          generic: ફર્નાન્ડો ડી નોરોન્હા સમય
+          standard: ફર્નાન્ડો ડી નોરોન્હા માનક સમય
+        type: Noronha
+      - 
+        long: 
+          standard: ઉત્તર મારિયાના આઇલેન્ડ્સ
+        type: North_Mariana
+      - 
+        long: 
+          daylight: નોવોસીબર્ક્સ ગ્રીષ્મ સમય
+          generic: નોવોસીર્બિર્સ્ક સમય
+          standard: નોવોસિબિર્સ્ક માનક સમય
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: ઓમ્સ્ક ગ્રીષ્મ સમય
+          generic: ઓમ્સ્ક સમય
+          standard: ઓમસ્ક માનક સમય
+        type: Omsk
+      - 
+        long: 
+          daylight: પાકિસ્તાન ગ્રીષ્મ સમય
+          generic: પાકિસ્તાન સમય
+          standard: પાકિસ્તાન માનક સમય
+        type: Pakistan
+      - 
+        long: 
+          standard: પલાઉ સમય
+        type: Palau
+      - 
+        long: 
+          standard: પાપુઆ ન્યુ ગિની સમય
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: પેરાગ્વે ગ્રીષ્મ સમય
+          generic: પેરાગ્વે સમય
+          standard: પેરાગ્વે માનક સમય
+        type: Paraguay
+      - 
+        long: 
+          daylight: પેરુ ગ્રીષ્મ સમય
+          generic: પેરુ સમય
+          standard: પેરુ માનક સમય
+        type: Peru
+      - 
+        long: 
+          daylight: ફિલિપાઇન ગ્રીષ્મ સમય
+          generic: ફિલિપાઇન સમય
+          standard: ફિલિપાઇન માનક સમય
+        type: Philippines
+      - 
+        long: 
+          standard: ફોનિક્સ આઇલેન્ડ્સ સમય
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: સેંટ પીએરે એન્ડ મિકીલોન દિવસ સમય
+          generic: સેંટ પીએરે એન્ડ મિકીલોન સમય
+          standard: સેંટ પીએરે એન્ડ મિકીલોન માનક સમય
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: પિટકેયર્ન સમય
+        type: Pitcairn
+      - 
+        long: 
+          standard: પોનપે સમય
+        type: Ponape
+      - 
+        long: 
+          daylight: કિઝિલોર્ડા ગ્રીષ્મ સમય
+          generic: કિઝિલોર્ડા સમય
+          standard: કિઝિલોર્ડા પ્રમાણભૂત સમય
+        type: Qyzylorda
+      - 
+        long: 
+          standard: રીયૂનિયન સમય
+        type: Reunion
+      - 
+        long: 
+          standard: રોથેરા સમય
+        type: Rothera
+      - 
+        long: 
+          daylight: સખાલિન ગ્રીષ્મ સમય
+          generic: સખાલિન સમય
+          standard: સખાલિન માનક સમય
+        type: Sakhalin
+      - 
+        long: 
+          daylight: સમારા ગ્રીષ્મ સમય
+          generic: સમારા સમય
+          standard: સમારા પ્રમાણભૂત સમય
+        type: Samara
+      - 
+        long: 
+          daylight: સમોઆ ગ્રીષ્મ સમય
+          generic: સમોઆ સમય
+          standard: સમોઆ માનક સમય
+        type: Samoa
+      - 
+        long: 
+          standard: સેશલ્સ સમય
+        type: Seychelles
+      - 
+        long: 
+          standard: સિંગાપુર માનક સમય
+        type: Singapore
+      - 
+        long: 
+          standard: સોલોમન આઇલેન્ડ્સ સમય
+        type: Solomon
+      - 
+        long: 
+          standard: દક્ષિણ જ્યોર્જીયા સમય
+        type: South_Georgia
+      - 
+        long: 
+          standard: સ્યોવા સમય
+        type: Syowa
+      - 
+        long: 
+          standard: તાહિતી સમય
+        type: Tahiti
+      - 
+        long: 
+          daylight: તાઇપેઇ દિવસ સમય
+          generic: તાઇપેઇ સમય
+          standard: તાઇપેઇ માનક સમય
+        type: Taipei
+      - 
+        long: 
+          standard: તાજીકિસ્તાન સમય
+        type: Tajikistan
+      - 
+        long: 
+          standard: ટોકલાઉ સમય
+        type: Tokelau
+      - 
+        long: 
+          daylight: ટોંગા ગ્રીષ્મ સમય
+          generic: ટોંગા સમય
+          standard: ટોંગા માનક સમય
+        type: Tonga
+      - 
+        long: 
+          standard: ચુઉક સમય
+        type: Truk
+      - 
+        long: 
+          daylight: તુર્કમેનિસ્તાન ગ્રીષ્મ સમય
+          generic: તુર્કમેનિસ્તાન સમય
+          standard: તુર્કમેનિસ્તાન માનક સમય
+        type: Turkmenistan
+      - 
+        long: 
+          standard: ટવાલૂ સમય
+        type: Tuvalu
+      - 
+        long: 
+          daylight: ઉરૂગ્વે ગ્રીષ્મ સમય
+          generic: ઉરૂગ્વે સમય
+          standard: ઉરૂગ્વે માનક સમય
+        type: Uruguay
+      - 
+        long: 
+          daylight: ઉઝ્બેકિસ્તાન ગ્રીષ્મ સમય
+          generic: ઉઝ્બેકિસ્તાન સમય
+          standard: ઉઝ્બેકિસ્તાન માનક સમય
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: વનાતૂ ગ્રીષ્મ સમય
+          generic: વનાતૂ સમય
+          standard: વનાતૂ માનક સમય
+        type: Vanuatu
+      - 
+        long: 
+          standard: વેનેઝુએલા સમય
+        type: Venezuela
+      - 
+        long: 
+          daylight: વ્લેડિવોસ્ટોક ગ્રીષ્મ સમય
+          generic: વ્લેડિવોસ્ટોક સમય
+          standard: વ્લાદિવોસ્તોક માનક સમય
+        type: Vladivostok
+      - 
+        long: 
+          daylight: વોલ્ગોગ્રેડ ગ્રીષ્મ સમય
+          generic: વોલ્ગોગ્રેડ સમય
+          standard: વોલ્ગોગ્રેડ માનક સમય
+        type: Volgograd
+      - 
+        long: 
+          standard: વોસ્ટોક સમય
+        type: Vostok
+      - 
+        long: 
+          standard: વૅક આઇલેન્ડ સમય
+        type: Wake
+      - 
+        long: 
+          standard: વૉલિસ અને ફ્યુચુના સમય
+        type: Wallis
+      - 
+        long: 
+          daylight: યકુત્સ્ક ગ્રીષ્મ સમય
+          generic: યકુત્સક સમય
+          standard: યાકુત્સ્ક માનક સમય
+        type: Yakutsk
+      - 
+        long: 
+          daylight: ઇકાટેરિન્બર્ગ ગ્રીષ્મ સમય
+          generic: યેકાતેરિંબર્ગ સમય
+          standard: યેકાટેરીન્બર્ગ માનક સમય
+        type: Yekaterinburg
+    regionFormat: "{0} સમય"
+    zone: 
+      - 
+        exemplarCity: અજ્ઞાત શહેર
+        type: Etc/Unknown
+      - 
+        exemplarCity: ઍંડોરા
+        type: Europe/Andorra
+      - 
+        exemplarCity: દુબઈ
+        type: Asia/Dubai
+      - 
+        exemplarCity: કાબુલ
+        type: Asia/Kabul
+      - 
+        exemplarCity: ઍન્ટિગુઆ
+        type: America/Antigua
+      - 
+        exemplarCity: ઍંગ્વિલા
+        type: America/Anguilla
+      - 
+        exemplarCity: તિરાને
+        type: Europe/Tirane
+      - 
+        exemplarCity: યેરેવાન
+        type: Asia/Yerevan
+      - 
+        exemplarCity: લ્યુએન્ડા
+        type: Africa/Luanda
+      - 
+        exemplarCity: રોથેરા
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: પાલ્મર
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: દક્ષિણ ધ્રુવ
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: સ્યોવા
+        type: Antarctica/Syowa
+      - 
+        exemplarCity: મોસન
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: ડૅવિસ
+        type: Antarctica/Davis
+      - 
+        exemplarCity: વોસ્ટૉક
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: કૅસી
+        type: Antarctica/Casey
+      - 
+        exemplarCity: દુમોન્ત દી'ઉર્વિલ
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: મૅકમર્ડો
+        type: Antarctica/McMurdo
+      - 
+        exemplarCity: રિઓ ગેલેગોસ
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: મેન્ડોઝા
+        type: America/Mendoza
+      - 
+        exemplarCity: સેન જુએન
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: ઉશાયા
+        type: America/Argentina/Ushuaia
+      - 
+        exemplarCity: લા રિઓહા
+        type: America/Argentina/La_Rioja
+      - 
+        exemplarCity: સેન લુઇસ
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: કાતામાર્કા
+        type: America/Catamarca
+      - 
+        exemplarCity: સાલ્ટા
+        type: America/Argentina/Salta
+      - 
+        exemplarCity: હુહુઇ
+        type: America/Jujuy
+      - 
+        exemplarCity: તુકુમાન
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: કોર્ડોબા
+        type: America/Cordoba
+      - 
+        exemplarCity: બ્યુનસ એયર્સ
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: પેગો પેગો
+        type: Pacific/Pago_Pago
+      - 
+        exemplarCity: વિયેના
+        type: Europe/Vienna
+      - 
+        exemplarCity: પર્થ
+        type: Australia/Perth
+      - 
+        exemplarCity: ઉક્લા
+        type: Australia/Eucla
+      - 
+        exemplarCity: ડાર્વિન
+        type: Australia/Darwin
+      - 
+        exemplarCity: એડિલેઇડ
+        type: Australia/Adelaide
+      - 
+        exemplarCity: બ્રોકન હિલ
+        type: Australia/Broken_Hill
+      - 
+        exemplarCity: ક્યુરી
+        type: Australia/Currie
+      - 
+        exemplarCity: મેલબોર્ન
+        type: Australia/Melbourne
+      - 
+        exemplarCity: હોબાર્ટ
+        type: Australia/Hobart
+      - 
+        exemplarCity: લિન્ડેમેન
+        type: Australia/Lindeman
+      - 
+        exemplarCity: સિડ્ની
+        type: Australia/Sydney
+      - 
+        exemplarCity: બ્રિસબેન
+        type: Australia/Brisbane
+      - 
+        exemplarCity: લોર્ડ હોવ
+        type: Australia/Lord_Howe
+      - 
+        exemplarCity: અરુબા
+        type: America/Aruba
+      - 
+        exemplarCity: મેરિહેમ
+        type: Europe/Mariehamn
+      - 
+        exemplarCity: બાકુ
+        type: Asia/Baku
+      - 
+        exemplarCity: સારાજેવો
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: બારબાડોસ
+        type: America/Barbados
+      - 
+        exemplarCity: ઢાકા
+        type: Asia/Dhaka
+      - 
+        exemplarCity: બ્રસેલ્સ
+        type: Europe/Brussels
+      - 
+        exemplarCity: ઔઆગાદૌગૌ
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: સોફિયા
+        type: Europe/Sofia
+      - 
+        exemplarCity: બેહરીન
+        type: Asia/Bahrain
+      - 
+        exemplarCity: બુજમ્બુરા
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: પોર્ટો-નોવો
+        type: Africa/Porto-Novo
+      - 
+        exemplarCity: સેંટ બાર્થેલેમી
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: બર્મુડા
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: બ્રુનેઇ
+        type: Asia/Brunei
+      - 
+        exemplarCity: લા પેઝ
+        type: America/La_Paz
+      - 
+        exemplarCity: ઇરુનેપ
+        type: America/Eirunepe
+      - 
+        exemplarCity: રિયો બ્રાંકો
+        type: America/Rio_Branco
+      - 
+        exemplarCity: પોર્ટો વેલ્હો
+        type: America/Porto_Velho
+      - 
+        exemplarCity: બોઆ વિસ્ટા
+        type: America/Boa_Vista
+      - 
+        exemplarCity: મનૌસ
+        type: America/Manaus
+      - 
+        exemplarCity: ક્યુએબા
+        type: America/Cuiaba
+      - 
+        exemplarCity: સેન્તારેમ
+        type: America/Santarem
+      - 
+        exemplarCity: કામ્પો ગ્રાંડ
+        type: America/Campo_Grande
+      - 
+        exemplarCity: બેલેમ
+        type: America/Belem
+      - 
+        exemplarCity: અરાગુઇના
+        type: America/Araguaina
+      - 
+        exemplarCity: સાઓ પાઉલો
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: બાહિયા
+        type: America/Bahia
+      - 
+        exemplarCity: ફોર્ટાલેઝા
+        type: America/Fortaleza
+      - 
+        exemplarCity: મેસિઓ
+        type: America/Maceio
+      - 
+        exemplarCity: રેસીફ
+        type: America/Recife
+      - 
+        exemplarCity: નોરોન્હા
+        type: America/Noronha
+      - 
+        exemplarCity: નાસાઉ
+        type: America/Nassau
+      - 
+        exemplarCity: થીમ્ફુ
+        type: Asia/Thimphu
+      - 
+        exemplarCity: ગૅબોરોન
+        type: Africa/Gaborone
+      - 
+        exemplarCity: મિંસ્ક
+        type: Europe/Minsk
+      - 
+        exemplarCity: બેલીઝ
+        type: America/Belize
+      - 
+        exemplarCity: ડૌસન
+        type: America/Dawson
+      - 
+        exemplarCity: વ્હાઇટહોર્સ
+        type: America/Whitehorse
+      - 
+        exemplarCity: ઇનુવિક
+        type: America/Inuvik
+      - 
+        exemplarCity: વેન્કુવર
+        type: America/Vancouver
+      - 
+        exemplarCity: ડૌસન ક્રિક
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: યેલોનાઇફ
+        type: America/Yellowknife
+      - 
+        exemplarCity: એડમેન્ટન
+        type: America/Edmonton
+      - 
+        exemplarCity: સ્વિફ્ટ કરંટ
+        type: America/Swift_Current
+      - 
+        exemplarCity: કેમ્બ્રિજ બે
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: રેજીના
+        type: America/Regina
+      - 
+        exemplarCity: વિન્નિપેગ
+        type: America/Winnipeg
+      - 
+        exemplarCity: રેઝોલૂટ
+        type: America/Resolute
+      - 
+        exemplarCity: બરસાતી નદી
+        type: America/Rainy_River
+      - 
+        exemplarCity: રેંકિન ઇન્લેટ
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: એટિકોકેન
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: થંડર બે
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: નિપિગોન
+        type: America/Nipigon
+      - 
+        exemplarCity: ટોરન્ટો
+        type: America/Toronto
+      - 
+        exemplarCity: મોન્ટ્રિયલ
+        type: America/Montreal
+      - 
+        exemplarCity: ઇકાલુઇત
+        type: America/Iqaluit
+      - 
+        exemplarCity: પેંગનિરતુંગ
+        type: America/Pangnirtung
+      - 
+        exemplarCity: મોન્કટન
+        type: America/Moncton
+      - 
+        exemplarCity: હેલિફેક્સ
+        type: America/Halifax
+      - 
+        exemplarCity: ગૂસ બે
+        type: America/Goose_Bay
+      - 
+        exemplarCity: ગ્લેસ બે
+        type: America/Glace_Bay
+      - 
+        exemplarCity: બ્લાંક-સેબલોન
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: સેન્ટ જ્હોન્સ
+        type: America/St_Johns
+      - 
+        exemplarCity: કૉકોસ
+        type: Indian/Cocos
+      - 
+        exemplarCity: કિંશાસા
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: લુબુમ્બાશી
+        type: Africa/Lubumbashi
+      - 
+        exemplarCity: બાંગુઈ
+        type: Africa/Bangui
+      - 
+        exemplarCity: બ્રાઝાવિલે
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: ઝુરીક
+        type: Europe/Zurich
+      - 
+        exemplarCity: આબિદ્જાન
+        type: Africa/Abidjan
+      - 
+        exemplarCity: રેરોટોંગા
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: ઇસ્ટર
+        type: Pacific/Easter
+      - 
+        exemplarCity: સાંટિયાગો
+        type: America/Santiago
+      - 
+        exemplarCity: ડૌઆલા
+        type: Africa/Douala
+      - 
+        exemplarCity: કાશ્ગર
+        type: Asia/Kashgar
+      - 
+        exemplarCity: ઉરુમ્કી
+        type: Asia/Urumqi
+      - 
+        exemplarCity: ચોંગકિંગ
+        type: Asia/Chongqing
+      - 
+        exemplarCity: શેંઘાઇ
+        type: Asia/Shanghai
+      - 
+        exemplarCity: હારબિન
+        type: Asia/Harbin
+      - 
+        exemplarCity: બોગોટા
+        type: America/Bogota
+      - 
+        exemplarCity: કોસ્ટા રિકા
+        type: America/Costa_Rica
+      - 
+        exemplarCity: હવાના
+        type: America/Havana
+      - 
+        exemplarCity: કૅપ વેર્ડે
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: કુરાકાઓ
+        type: America/Curacao
+      - 
+        exemplarCity: ક્રિસમસ
+        type: Indian/Christmas
+      - 
+        exemplarCity: નિકોસિયા
+        type: Asia/Nicosia
+      - 
+        exemplarCity: પ્રાગ
+        type: Europe/Prague
+      - 
+        exemplarCity: બર્લિન
+        type: Europe/Berlin
+      - 
+        exemplarCity: જીબુટી
+        type: Africa/Djibouti
+      - 
+        exemplarCity: કૉપેનહૅજેન
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: ડોમિનિકા
+        type: America/Dominica
+      - 
+        exemplarCity: સેંટો ડોમિંગો
+        type: America/Santo_Domingo
+      - 
+        exemplarCity: અલ્જીયર્સ
+        type: Africa/Algiers
+      - 
+        exemplarCity: ગાલાપેગોસ
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: ગુયાક્વિલ
+        type: America/Guayaquil
+      - 
+        exemplarCity: તલ્લીન
+        type: Europe/Tallinn
+      - 
+        exemplarCity: કૈરો
+        type: Africa/Cairo
+      - 
+        exemplarCity: એલ ઐઉન
+        type: Africa/El_Aaiun
+      - 
+        exemplarCity: અસ્મારા
+        type: Africa/Asmera
+      - 
+        exemplarCity: કૅનેરી
+        type: Atlantic/Canary
+      - 
+        exemplarCity: ક્વેટા
+        type: Africa/Ceuta
+      - 
+        exemplarCity: મૅડ્રીડ
+        type: Europe/Madrid
+      - 
+        exemplarCity: એડિસ અબાબા
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: હેલસિંકી
+        type: Europe/Helsinki
+      - 
+        exemplarCity: ફીજી
+        type: Pacific/Fiji
+      - 
+        exemplarCity: સ્ટેનલી
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: ચુક
+        type: Pacific/Truk
+      - 
+        exemplarCity: પોન્પે
+        type: Pacific/Ponape
+      - 
+        exemplarCity: કોસરે
+        type: Pacific/Kosrae
+      - 
+        exemplarCity: ફેરો
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: પેરિસ
+        type: Europe/Paris
+      - 
+        exemplarCity: લિબ્રેવિલે
+        type: Africa/Libreville
+      - 
+        exemplarCity: લંડન
+        type: Europe/London
+      - 
+        exemplarCity: ગ્રેનેડા
+        type: America/Grenada
+      - 
+        exemplarCity: બિલિસિ
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: કાયેને
+        type: America/Cayenne
+      - 
+        exemplarCity: ગર્નઝી
+        type: Europe/Guernsey
+      - 
+        exemplarCity: ઍકરા
+        type: Africa/Accra
+      - 
+        exemplarCity: જીબ્રાલ્ટર
+        type: Europe/Gibraltar
+      - 
+        exemplarCity: થુલે
+        type: America/Thule
+      - 
+        exemplarCity: ગોડ્થાબ
+        type: America/Godthab
+      - 
+        exemplarCity: સ્કોર્સબાયસન્દ
+        type: America/Scoresbysund
+      - 
+        exemplarCity: ડેનમાર્કશૉન
+        type: America/Danmarkshavn
+      - 
+        exemplarCity: બાંજુલ
+        type: Africa/Banjul
+      - 
+        exemplarCity: કોનૅક્રી
+        type: Africa/Conakry
+      - 
+        exemplarCity: ગ્વાડેલોપ
+        type: America/Guadeloupe
+      - 
+        exemplarCity: મલાબો
+        type: Africa/Malabo
+      - 
+        exemplarCity: એથેંસ
+        type: Europe/Athens
+      - 
+        exemplarCity: સાઉથ જ્યોર્જિયા
+        type: Atlantic/South_Georgia
+      - 
+        exemplarCity: ગ્વાટેમાલા
+        type: America/Guatemala
+      - 
+        exemplarCity: ગ્વામ
+        type: Pacific/Guam
+      - 
+        exemplarCity: બિસાઉ
+        type: Africa/Bissau
+      - 
+        exemplarCity: ગયાના
+        type: America/Guyana
+      - 
+        exemplarCity: હોંગકોંગ
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: તેગુસિગલ્પા
+        type: America/Tegucigalpa
+      - 
+        exemplarCity: ઝેગરેબ
+        type: Europe/Zagreb
+      - 
+        exemplarCity: પોર્ટ-ઓ-પ્રિન્સ
+        type: America/Port-au-Prince
+      - 
+        exemplarCity: બુડાપેસ્ટ
+        type: Europe/Budapest
+      - 
+        exemplarCity: જાકાર્તા
+        type: Asia/Jakarta
+      - 
+        exemplarCity: પોન્ટિયનેક
+        type: Asia/Pontianak
+      - 
+        exemplarCity: માકસ્સર
+        type: Asia/Makassar
+      - 
+        exemplarCity: જયાપુરા
+        type: Asia/Jayapura
+      - 
+        exemplarCity: ડબલિન
+        type: Europe/Dublin
+      - 
+        exemplarCity: જેરુસલેમ
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: આય્લ ઓફ મૅન
+        type: Europe/Isle_of_Man
+      - 
+        exemplarCity: કોલકાતા
+        type: Asia/Calcutta
+      - 
+        exemplarCity: ચાગોસ
+        type: Indian/Chagos
+      - 
+        exemplarCity: બગદાદ
+        type: Asia/Baghdad
+      - 
+        exemplarCity: તેહરાન
+        type: Asia/Tehran
+      - 
+        exemplarCity: રૅકયાવિક
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: રોમ
+        type: Europe/Rome
+      - 
+        exemplarCity: જર્સી
+        type: Europe/Jersey
+      - 
+        exemplarCity: જમૈકા
+        type: America/Jamaica
+      - 
+        exemplarCity: અમ્માન
+        type: Asia/Amman
+      - 
+        exemplarCity: ટોક્યો
+        type: Asia/Tokyo
+      - 
+        exemplarCity: નૈરોબી
+        type: Africa/Nairobi
+      - 
+        exemplarCity: બિશકેક
+        type: Asia/Bishkek
+      - 
+        exemplarCity: ફ્નોમ પેન્હ
+        type: Asia/Phnom_Penh
+      - 
+        exemplarCity: એંડર્બરી
+        type: Pacific/Enderbury
+      - 
+        exemplarCity: કિરિતિમાતી
+        type: Pacific/Kiritimati
+      - 
+        exemplarCity: તારાવા
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: કોમોરો
+        type: Indian/Comoro
+      - 
+        exemplarCity: સેન્ટ કીટ્સ
+        type: America/St_Kitts
+      - 
+        exemplarCity: પ્યોંગયાંગ
+        type: Asia/Pyongyang
+      - 
+        exemplarCity: સીઓલ
+        type: Asia/Seoul
+      - 
+        exemplarCity: કુવૈત
+        type: Asia/Kuwait
+      - 
+        exemplarCity: કેમેન
+        type: America/Cayman
+      - 
+        exemplarCity: અકટાઉ
+        type: Asia/Aqtau
+      - 
+        exemplarCity: ઓરલ
+        type: Asia/Oral
+      - 
+        exemplarCity: ઍક્ટોબ
+        type: Asia/Aqtobe
+      - 
+        exemplarCity: કિઝિલોર્ડા
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: અલ્માટી
+        type: Asia/Almaty
+      - 
+        exemplarCity: વિયેનટિયેન
+        type: Asia/Vientiane
+      - 
+        exemplarCity: બૈરુત
+        type: Asia/Beirut
+      - 
+        exemplarCity: સેંટ લુસિયા
+        type: America/St_Lucia
+      - 
+        exemplarCity: વૅદુઝ
+        type: Europe/Vaduz
+      - 
+        exemplarCity: કોલંબો
+        type: Asia/Colombo
+      - 
+        exemplarCity: મોંરોવિયા
+        type: Africa/Monrovia
+      - 
+        exemplarCity: મસેરુ
+        type: Africa/Maseru
+      - 
+        exemplarCity: વિલ્નિઅસ
+        type: Europe/Vilnius
+      - 
+        exemplarCity: લક્ઝમબર્ગ
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: રિગા
+        type: Europe/Riga
+      - 
+        exemplarCity: ટ્રીપોલી
+        type: Africa/Tripoli
+      - 
+        exemplarCity: કાસાબ્લાંકા
+        type: Africa/Casablanca
+      - 
+        exemplarCity: મોનાકો
+        type: Europe/Monaco
+      - 
+        exemplarCity: ચિસીનાઉ
+        type: Europe/Chisinau
+      - 
+        exemplarCity: પોડગોરિકા
+        type: Europe/Podgorica
+      - 
+        exemplarCity: મેરીગોટ
+        type: America/Marigot
+      - 
+        exemplarCity: અંતાનાનારિવો
+        type: Indian/Antananarivo
+      - 
+        exemplarCity: ક્વાજાલીન
+        type: Pacific/Kwajalein
+      - 
+        exemplarCity: માજુરો
+        type: Pacific/Majuro
+      - 
+        exemplarCity: સ્કોપયે
+        type: Europe/Skopje
+      - 
+        exemplarCity: બમેકો
+        type: Africa/Bamako
+      - 
+        exemplarCity: રંગૂન
+        type: Asia/Rangoon
+      - 
+        exemplarCity: હોવ્ડ
+        type: Asia/Hovd
+      - 
+        exemplarCity: ઉલાંબાતર
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: ચોઇબાલ્સન
+        type: Asia/Choibalsan
+      - 
+        exemplarCity: મકાઉ
+        type: Asia/Macau
+      - 
+        exemplarCity: સાઇપન
+        type: Pacific/Saipan
+      - 
+        exemplarCity: માર્ટીનીક
+        type: America/Martinique
+      - 
+        exemplarCity: નૌકચોટ
+        type: Africa/Nouakchott
+      - 
+        exemplarCity: મોંટસેરાત
+        type: America/Montserrat
+      - 
+        exemplarCity: માલ્ટા
+        type: Europe/Malta
+      - 
+        exemplarCity: મોરિશિયસ
+        type: Indian/Mauritius
+      - 
+        exemplarCity: માલદિવ્સ
+        type: Indian/Maldives
+      - 
+        exemplarCity: બ્લેંટીર
+        type: Africa/Blantyre
+      - 
+        exemplarCity: તિજુઆના
+        type: America/Tijuana
+      - 
+        exemplarCity: એરમોસિયો
+        type: America/Hermosillo
+      - 
+        exemplarCity: મઝત્લાન
+        type: America/Mazatlan
+      - 
+        exemplarCity: ચિહુઆહુઆ
+        type: America/Chihuahua
+      - 
+        exemplarCity: મોન્તોરે
+        type: America/Monterrey
+      - 
+        exemplarCity: મેક્સિકો સિટી
+        type: America/Mexico_City
+      - 
+        exemplarCity: મેરિદા
+        type: America/Merida
+      - 
+        exemplarCity: કાન્કુન
+        type: America/Cancun
+      - 
+        exemplarCity: કુઆલાલમ્પુર
+        type: Asia/Kuala_Lumpur
+      - 
+        exemplarCity: કુચિંગ
+        type: Asia/Kuching
+      - 
+        exemplarCity: માપુટો
+        type: Africa/Maputo
+      - 
+        exemplarCity: વિંડહૉક
+        type: Africa/Windhoek
+      - 
+        exemplarCity: નૌમીઆ
+        type: Pacific/Noumea
+      - 
+        exemplarCity: યામેય
+        type: Africa/Niamey
+      - 
+        exemplarCity: નૉરફૉક
+        type: Pacific/Norfolk
+      - 
+        exemplarCity: લાગોસ
+        type: Africa/Lagos
+      - 
+        exemplarCity: માનાગુઆ
+        type: America/Managua
+      - 
+        exemplarCity: ઍમ્સ્ટરડૅમ
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: ઑસ્લો
+        type: Europe/Oslo
+      - 
+        exemplarCity: કથમન્ડુ
+        type: Asia/Katmandu
+      - 
+        exemplarCity: નૌરુ
+        type: Pacific/Nauru
+      - 
+        exemplarCity: નીયુ
+        type: Pacific/Niue
+      - 
+        exemplarCity: ચથમ
+        type: Pacific/Chatham
+      - 
+        exemplarCity: ઑકલેન્ડ
+        type: Pacific/Auckland
+      - 
+        exemplarCity: મસ્કત
+        type: Asia/Muscat
+      - 
+        exemplarCity: પનામા
+        type: America/Panama
+      - 
+        exemplarCity: લિમા
+        type: America/Lima
+      - 
+        exemplarCity: તાહીતી
+        type: Pacific/Tahiti
+      - 
+        exemplarCity: માર્કીસાસ
+        type: Pacific/Marquesas
+      - 
+        exemplarCity: ગેમ્બિયર
+        type: Pacific/Gambier
+      - 
+        exemplarCity: પોર્ટ મોર્સ્બી
+        type: Pacific/Port_Moresby
+      - 
+        exemplarCity: મનિલા
+        type: Asia/Manila
+      - 
+        exemplarCity: કરાચી
+        type: Asia/Karachi
+      - 
+        exemplarCity: વોરસૉ
+        type: Europe/Warsaw
+      - 
+        exemplarCity: માઇક્યુલોન
+        type: America/Miquelon
+      - 
+        exemplarCity: પીટકૈર્ન
+        type: Pacific/Pitcairn
+      - 
+        exemplarCity: પ્યુઅર્ટો રિકો
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: ગાઝા
+        type: Asia/Gaza
+      - 
+        exemplarCity: એઝોરેઝ
+        type: Atlantic/Azores
+      - 
+        exemplarCity: મડિરા
+        type: Atlantic/Madeira
+      - 
+        exemplarCity: લિસ્બન
+        type: Europe/Lisbon
+      - 
+        exemplarCity: પલાઉ
+        type: Pacific/Palau
+      - 
+        exemplarCity: એસન્શિયન
+        type: America/Asuncion
+      - 
+        exemplarCity: કતાર
+        type: Asia/Qatar
+      - 
+        exemplarCity: રિયુનિયન
+        type: Indian/Reunion
+      - 
+        exemplarCity: બુકરેસ્ટ
+        type: Europe/Bucharest
+      - 
+        exemplarCity: બેલગ્રેડ
+        type: Europe/Belgrade
+      - 
+        exemplarCity: કલિનિન્ગ્રેડ
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: મોસ્કો
+        type: Europe/Moscow
+      - 
+        exemplarCity: વોલ્ગોગ્રેડ
+        type: Europe/Volgograd
+      - 
+        exemplarCity: સમારા
+        type: Europe/Samara
+      - 
+        exemplarCity: યેકાતેરિનબર્ગ
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: ઓમ્સ્ક
+        type: Asia/Omsk
+      - 
+        exemplarCity: નોવોસીર્બિર્સ્ક
+        type: Asia/Novosibirsk
+      - 
+        exemplarCity: ક્રિસ્નોયાર્સ્ક
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: ઇર્કુત્સ્ક
+        type: Asia/Irkutsk
+      - 
+        exemplarCity: યકુત્સક
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: વ્લેડિવોસ્ટોક
+        type: Asia/Vladivostok
+      - 
+        exemplarCity: સખાલિન
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: મેગાડન
+        type: Asia/Magadan
+      - 
+        exemplarCity: કામચટ્કા
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: અનદિર
+        type: Asia/Anadyr
+      - 
+        exemplarCity: કિગાલી
+        type: Africa/Kigali
+      - 
+        exemplarCity: રિયાધ
+        type: Asia/Riyadh
+      - 
+        exemplarCity: ગૌડલકૅનલ
+        type: Pacific/Guadalcanal
+      - 
+        exemplarCity: માહે
+        type: Indian/Mahe
+      - 
+        exemplarCity: ખાર્ટૂમ
+        type: Africa/Khartoum
+      - 
+        exemplarCity: સ્ટોકહૉમ
+        type: Europe/Stockholm
+      - 
+        exemplarCity: સિંગાપુર
+        type: Asia/Singapore
+      - 
+        exemplarCity: સેન્ટ હેલેના
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: લુબ્લિયાના
+        type: Europe/Ljubljana
+      - 
+        exemplarCity: લોંગઇયરબિયેન
+        type: Arctic/Longyearbyen
+      - 
+        exemplarCity: બ્રેટિસલાવા
+        type: Europe/Bratislava
+      - 
+        exemplarCity: ફ્રીટાઉન
+        type: Africa/Freetown
+      - 
+        exemplarCity: સૅન મેરિનો
+        type: Europe/San_Marino
+      - 
+        exemplarCity: ડકાર
+        type: Africa/Dakar
+      - 
+        exemplarCity: મોગાડીશુ
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: પેરામેરિબો
+        type: America/Paramaribo
+      - 
+        exemplarCity: સાઓ ટૉમ
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: એલ સેલ્વાડોર
+        type: America/El_Salvador
+      - 
+        exemplarCity: લોઅર પ્રિન્સનું ક્વાર્ટર
+        type: America/Lower_Princes
+      - 
+        exemplarCity: દમાસ્કસ
+        type: Asia/Damascus
+      - 
+        exemplarCity: અમ્બબાન
+        type: Africa/Mbabane
+      - 
+        exemplarCity: ગ્રાન્ડ ટર્ક
+        type: America/Grand_Turk
+      - 
+        exemplarCity: અન્જમેન
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: કેરગ્વેલિન
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: લોમ
+        type: Africa/Lome
+      - 
+        exemplarCity: બેંગકોક
+        type: Asia/Bangkok
+      - 
+        exemplarCity: દુશામ્બે
+        type: Asia/Dushanbe
+      - 
+        exemplarCity: ફાકાઓફો
+        type: Pacific/Fakaofo
+      - 
+        exemplarCity: દિલિ
+        type: Asia/Dili
+      - 
+        exemplarCity: અશગાબટ
+        type: Asia/Ashgabat
+      - 
+        exemplarCity: ટ્યુનિસ
+        type: Africa/Tunis
+      - 
+        exemplarCity: ટૉંગાટાપુ
+        type: Pacific/Tongatapu
+      - 
+        exemplarCity: ઇસ્તાંબુલ
+        type: Europe/Istanbul
+      - 
+        exemplarCity: પોર્ટ ઑફ સ્પેન
+        type: America/Port_of_Spain
+      - 
+        exemplarCity: ફુનાફુટી
+        type: Pacific/Funafuti
+      - 
+        exemplarCity: તાઇપેઇ
+        type: Asia/Taipei
+      - 
+        exemplarCity: દાર એસ સલામ
+        type: Africa/Dar_es_Salaam
+      - 
+        exemplarCity: ઉઝ્ગોરોદ
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: કૈવ
+        type: Europe/Kiev
+      - 
+        exemplarCity: સિમ્ફેરોપોલ
+        type: Europe/Simferopol
+      - 
+        exemplarCity: જેપોરોઝિયે
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: કમ્પાલા
+        type: Africa/Kampala
+      - 
+        exemplarCity: મીડવે
+        type: Pacific/Midway
+      - 
+        exemplarCity: જોહ્નસ્ટોન
+        type: Pacific/Johnston
+      - 
+        exemplarCity: વેક
+        type: Pacific/Wake
+      - 
+        exemplarCity: અદક
+        type: America/Adak
+      - 
+        exemplarCity: નોમ
+        type: America/Nome
+      - 
+        exemplarCity: હોનોલુલુ
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: એન્કોરેજ
+        type: America/Anchorage
+      - 
+        exemplarCity: યકુતત
+        type: America/Yakutat
+      - 
+        exemplarCity: જુનો
+        type: America/Juneau
+      - 
+        exemplarCity: લોસ એંજેલેસ
+        type: America/Los_Angeles
+      - 
+        exemplarCity: બોઇઝ
+        type: America/Boise
+      - 
+        exemplarCity: ફોનિક્સ
+        type: America/Phoenix
+      - 
+        exemplarCity: શિપરોક
+        type: America/Shiprock
+      - 
+        exemplarCity: દેન્વર
+        type: America/Denver
+      - 
+        exemplarCity: બિયુલાહ,ઉત્તર ડેકોટા
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: નવું સેલમ,ઉત્તર ડેકોટા
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: સેન્ટર,ઉત્તર ડેકોટા
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: શિકાગો
+        type: America/Chicago
+      - 
+        exemplarCity: મેનોમિની
+        type: America/Menominee
+      - 
+        exemplarCity: વેસેંન, ઇન્ડિયાના
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: પિટર્સબર્ગ,ઇન્ડિયાના
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: ટેલ સિટી,ઇન્ડિયાના
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: નોક્સ,ઇન્ડિયાના
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: વિનામેક,ઇન્ડિયાના
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: મેરેંગો, ઇન્ડિયાના
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: ઇન્ડિયાનપોલિસ
+        type: America/Indianapolis
+      - 
+        exemplarCity: લૂઇવિલ
+        type: America/Louisville
+      - 
+        exemplarCity: વેવૈ, ઇન્ડિયાના
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: મોંટીસેલો,કેન્ટુકી
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: ડેટ્રોઇટ
+        type: America/Detroit
+      - 
+        exemplarCity: ન્યૂયોર્ક
+        type: America/New_York
+      - 
+        exemplarCity: મૉંટેવિડિઓ
+        type: America/Montevideo
+      - 
+        exemplarCity: સમરકન્ડ
+        type: Asia/Samarkand
+      - 
+        exemplarCity: તાશકેન્ટ
+        type: Asia/Tashkent
+      - 
+        exemplarCity: વેટિકન
+        type: Europe/Vatican
+      - 
+        exemplarCity: સેન્ટ વિંસેંટ
+        type: America/St_Vincent
+      - 
+        exemplarCity: કૅરાકસ
+        type: America/Caracas
+      - 
+        exemplarCity: ટોર્ટોલા
+        type: America/Tortola
+      - 
+        exemplarCity: સેંટ થોમસ
+        type: America/St_Thomas
+      - 
+        exemplarCity: હો ચી મીન સિટી
+        type: Asia/Saigon
+      - 
+        exemplarCity: એફેટ
+        type: Pacific/Efate
+      - 
+        exemplarCity: વાલિસ
+        type: Pacific/Wallis
+      - 
+        exemplarCity: એપિયા
+        type: Pacific/Apia
+      - 
+        exemplarCity: એદેન
+        type: Asia/Aden
+      - 
+        exemplarCity: મેયોટ
+        type: Indian/Mayotte
+      - 
+        exemplarCity: જોહાન્સબર્ગ
+        type: Africa/Johannesburg
+      - 
+        exemplarCity: લુસાકા
+        type: Africa/Lusaka
+      - 
+        exemplarCity: હરારે
+        type: Africa/Harare
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 14:24:27 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: gu
+  version: 
+    number: "$Revision: 8247 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} અને {1}"
+        type: 2
+      - 
+        content: "{0} અને {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  keys: 
+    key: 
+      - 
+        content: કેલેન્ડર
+        draft: contributed
+        type: calendar
+      - 
+        content: પ્રતીકોની સૉર્ટિંગને અવગણો
+        type: colAlternate
+      - 
+        content: વિપરીત એક્સેંટ સૉર્ટિંગ
+        type: colBackwards
+      - 
+        content: અપરકેસ/લોઅરકેસ ક્રમાંકન
+        type: colCaseFirst
+      - 
+        content: કેસ સંવેદી સૉર્ટિંગ
+        type: colCaseLevel
+      - 
+        content: કાના સૉર્ટિંગ
+        type: colHiraganaQuaternary
+      - 
+        content: સૉર્ટ ક્રમ
+        type: collation
+      - 
+        content: સામાન્ય સૉર્ટિંગ
+        type: colNormalization
+      - 
+        content: આંકડાકીય સૉર્ટિંગ
+        type: colNumeric
+      - 
+        content: સૉર્ટિંગ શક્તિ
+        type: colStrength
+      - 
+        content: ચલણ
+        draft: contributed
+        type: currency
+      - 
+        content: આંકડાઓ
+        type: numbers
+      - 
+        content: સમય ઝોન
+        type: timezone
+      - 
+        content: લોકેલ વેરિએન્ટ
+        type: va
+      - 
+        content: પ્રતીકો તરીકે સૉર્ટ કરો
+        type: variableTop
+      - 
+        content: ખાનગી-ઉપયોગ
+        type: x
+  languages: 
+    language: 
+      - 
+        content: અફાર
+        type: aa
+      - 
+        content: અબખાજિયન
+        type: ab
+      - 
+        content: અચીની
+        type: ace
+      - 
+        content: એકોલી
+        type: ach
+      - 
+        content: અદાંગ્મી
+        type: ada
+      - 
+        content: અદિઘે
+        type: ady
+      - 
+        content: અવેસ્તન
+        type: ae
+      - 
+        content: આફ્રિકન્સ
+        type: af
+      - 
+        content: અફ્રો-એશિયાટીક ભાષાઓ
+        type: afa
+      - 
+        content: અફ્રિહિલી
+        type: afh
+      - 
+        content: એનૂ
+        type: ain
+      - 
+        content: અકાન
+        type: ak
+      - 
+        content: અક્કાદીયાન
+        type: akk
+      - 
+        content: અલેઉત
+        type: ale
+      - 
+        content: એલ્ગોક્વિયન ભાષા
+        type: alg
+      - 
+        content: દક્ષિણ અલ્તાઇ
+        type: alt
+      - 
+        content: એમ્હારિક
+        type: am
+      - 
+        content: અર્ગોનીઝ
+        type: an
+      - 
+        content: જુની અંગ્રેજી
+        type: ang
+      - 
+        content: અંગીકા
+        type: anp
+      - 
+        content: અપાચે ભાષા
+        type: apa
+      - 
+        content: અરબી
+        type: ar
+      - 
+        content: અર્માઇક
+        type: arc
+      - 
+        content: એરોકૈનિયન
+        type: arn
+      - 
+        content: અરાપાહો
+        type: arp
+      - 
+        content: કૃત્રિમ ભાષા
+        type: art
+      - 
+        content: અરાવક
+        type: arw
+      - 
+        content: આસામી
+        type: as
+      - 
+        content: અસ્તુરિયન
+        type: ast
+      - 
+        content: અથાપાસ્કાન ભાષા
+        type: ath
+      - 
+        content: ઓસ્ટ્રેલિયન ભાષા
+        type: aus
+      - 
+        content: અવેરિક
+        type: av
+      - 
+        content: અવધી
+        type: awa
+      - 
+        content: આયમારા
+        type: ay
+      - 
+        content: અઝરબૈજાની
+        type: az
+      - 
+        alt: short
+        content: અઝેરી
+        type: az
+      - 
+        content: બષ્ખિર
+        type: ba
+      - 
+        content: બાંદા
+        type: bad
+      - 
+        content: બમિલેકે ભાષા
+        type: bai
+      - 
+        content: બલૂચી
+        type: bal
+      - 
+        content: બાલિનીસ
+        type: ban
+      - 
+        content: બસા
+        type: bas
+      - 
+        content: બાલ્ટિક ભાષા
+        type: bat
+      - 
+        content: બેલારુશિયન
+        type: be
+      - 
+        content: બેજા
+        type: bej
+      - 
+        content: બેમ્બા
+        type: bem
+      - 
+        content: બર્બર
+        type: ber
+      - 
+        content: બલ્ગેરિયન
+        type: bg
+      - 
+        content: બિહારી
+        type: bh
+      - 
+        content: ભોજપુરી
+        type: bho
+      - 
+        content: બિસ્લામા
+        type: bi
+      - 
+        content: બિકોલ
+        type: bik
+      - 
+        content: બિની
+        type: bin
+      - 
+        content: સિક્સિકા
+        type: bla
+      - 
+        content: બામ્બારા
+        type: bm
+      - 
+        content: બંગાળી
+        type: bn
+      - 
+        content: બન્ટુ
+        type: bnt
+      - 
+        content: તિબેટી
+        type: bo
+      - 
+        content: બ્રેટોન
+        type: br
+      - 
+        content: બ્રજ
+        type: bra
+      - 
+        content: બોસ્નિયન
+        type: bs
+      - 
+        content: બતાક
+        type: btk
+      - 
+        content: બુરિયાત
+        type: bua
+      - 
+        content: બગિનીસ
+        type: bug
+      - 
+        content: બ્લિન
+        type: byn
+      - 
+        content: કતલાન
+        type: ca
+      - 
+        content: કડ્ડો
+        type: cad
+      - 
+        content: મધ્ય અમેરિકન ઇંડિયન ભાષા
+        type: cai
+      - 
+        content: કરિબ
+        type: car
+      - 
+        content: કાકેશિયન ભાષા
+        type: cau
+      - 
+        content: અત્સમ
+        type: cch
+      - 
+        content: ચેચન
+        type: ce
+      - 
+        content: સિબુઆનો
+        type: ceb
+      - 
+        content: સેલ્ટિક ભાષા
+        type: cel
+      - 
+        content: કેમોરો
+        type: ch
+      - 
+        content: ચિબ્ચા
+        type: chb
+      - 
+        content: છગાતાઇ
+        type: chg
+      - 
+        content: ચૂકીસે
+        type: chk
+      - 
+        content: મારી
+        type: chm
+      - 
+        content: ચિનૂક જાર્ગન
+        type: chn
+      - 
+        content: ચોક્તૌ
+        type: cho
+      - 
+        content: શિપેવ્યાન
+        type: chp
+      - 
+        content: શેરોકી
+        type: chr
+      - 
+        content: શેયેન્ન
+        type: chy
+      - 
+        content: સોરાની કુર્દિશ
+        type: ckb
+      - 
+        content: ચાર્મિક ભાષા
+        type: cmc
+      - 
+        content: કોર્સિકન
+        type: co
+      - 
+        content: કોપ્ટિક
+        type: cop
+      - 
+        content: અંગ્રેજી આધારિત ક્રેઓલ અથવા પિજિન
+        type: cpe
+      - 
+        content: ફ્રેંચ આધારિત ક્રેઓલ અથવા પિજિન
+        type: cpf
+      - 
+        content: પાર્ટુગીઝ આધારિત ક્રેઓલ અથવા પિજિન
+        type: cpp
+      - 
+        content: ક્રી
+        type: cr
+      - 
+        content: ક્રિમીન તુર્કી
+        type: crh
+      - 
+        content: ક્રેઓલ અથવા પિજિન
+        type: crp
+      - 
+        content: ચેક
+        type: cs
+      - 
+        content: કાશુબિયન
+        type: csb
+      - 
+        content: ચર્ચ સ્લાવિક
+        type: cu
+      - 
+        content: કુશિતિક ભાષા
+        type: cus
+      - 
+        content: ચૂવાશ
+        type: cv
+      - 
+        content: વેલ્શ
+        type: cy
+      - 
+        content: ડેનિશ
+        type: da
+      - 
+        content: દાકોતા
+        type: dak
+      - 
+        content: દાર્ગવા
+        type: dar
+      - 
+        content: દાયક
+        type: day
+      - 
+        content: જર્મન
+        type: de
+      - 
+        content: ઓસ્ટ્રિઅન જર્મન
+        type: de_AT
+      - 
+        content: સ્વિસ હાય જર્મન
+        type: de_CH
+      - 
+        content: દેલેવેર
+        type: del
+      - 
+        content: સ્લેવ
+        type: den
+      - 
+        content: ડોગ્રિબ
+        type: dgr
+      - 
+        content: દિન્કા
+        type: din
+      - 
+        content: ડોગ્રી
+        type: doi
+      - 
+        content: દ્રવિડિઅન ભાષા
+        type: dra
+      - 
+        content: નિમ્ન સોર્બિયન
+        type: dsb
+      - 
+        content: દુઆલા
+        type: dua
+      - 
+        content: મધ્ય ડચ
+        type: dum
+      - 
+        content: દિવેહી
+        type: dv
+      - 
+        content: ડ્યુલા
+        type: dyu
+      - 
+        content: ઝોંગખા
+        type: dz
+      - 
+        content: ઈવ
+        type: ee
+      - 
+        content: એફિક
+        type: efi
+      - 
+        content: પ્રાચીન ઇજીપ્શિયન
+        type: egy
+      - 
+        content: એકાજુક
+        type: eka
+      - 
+        content: ગ્રીક
+        type: el
+      - 
+        content: એલામાઇટ
+        type: elx
+      - 
+        content: અંગ્રેજી
+        type: en
+      - 
+        content: ઓસ્ટ્રેલિયન અંગ્રેજી
+        type: en_AU
+      - 
+        content: કેનેડિયન અંગ્રેજી
+        type: en_CA
+      - 
+        content: બ્રિટિશ અંગ્રેજી
+        type: en_GB
+      - 
+        content: યુ એસ અંગ્રેજી
+        type: en_US
+      - 
+        content: મિડિલ અંગ્રેજી
+        type: enm
+      - 
+        content: એસ્પેરાન્ટો
+        type: eo
+      - 
+        content: સ્પેનિશ
+        type: es
+      - 
+        content: લેટિન અમેરિકન સ્પેનિશ
+        type: es_419
+      - 
+        content: યુરોપિયન સ્પેનિશ
+        type: es_ES
+      - 
+        content: એસ્ટોનિયન
+        type: et
+      - 
+        content: બાસ્ક
+        type: eu
+      - 
+        content: ઇવોન્ડો
+        type: ewo
+      - 
+        content: પર્શિયન
+        type: fa
+      - 
+        content: ફેંગ
+        type: fan
+      - 
+        content: ફન્ટી
+        type: fat
+      - 
+        content: ફુલાહ
+        type: ff
+      - 
+        content: ફિનિશ
+        type: fi
+      - 
+        content: ફિલિપિનો
+        type: fil
+      - 
+        content: ફિન્નો-ઉગ્રીયન ભાષા
+        type: fiu
+      - 
+        content: ફિજીયન
+        type: fj
+      - 
+        content: ફોરિસ્ત
+        type: fo
+      - 
+        content: ફોન
+        type: fon
+      - 
+        content: ફ્રેન્ચ
+        type: fr
+      - 
+        content: કેનેડિયન ફ્રેંચ
+        type: fr_CA
+      - 
+        content: સ્વિસ ફ્રેંચ
+        type: fr_CH
+      - 
+        content: મિડિલ ફ્રેંચ
+        type: frm
+      - 
+        content: જૂની ફ્રેંચ
+        type: fro
+      - 
+        content: નોર્ધર્ન ફ્રિશિયન
+        type: frr
+      - 
+        content: પૂર્વ ફ્રિશિયન
+        type: frs
+      - 
+        content: ફ્રિયુલિયાન
+        type: fur
+      - 
+        content: પશ્ચિમી ફ્રિશિયન
+        type: fy
+      - 
+        content: આઇરિશ
+        type: ga
+      - 
+        content: Ga
+        type: gaa
+      - 
+        content: ગાયો
+        type: gay
+      - 
+        content: બાયા
+        type: gba
+      - 
+        content: સ્કોટ્સ ગેલિક
+        type: gd
+      - 
+        content: જર્મેનિક ભાષા
+        type: gem
+      - 
+        content: ગીઝ
+        type: gez
+      - 
+        content: જિલ્બરટીઝ
+        type: gil
+      - 
+        content: ગેલિશિયન
+        type: gl
+      - 
+        content: મધ્ય હાઇ જર્મન
+        type: gmh
+      - 
+        content: ગુઆરાની
+        type: gn
+      - 
+        content: જૂની હાઇ જર્મન
+        type: goh
+      - 
+        content: ગોંડી
+        type: gon
+      - 
+        content: ગોરોન્તાલો
+        type: gor
+      - 
+        content: ગોથિક
+        type: got
+      - 
+        content: ગ્રેબો
+        type: grb
+      - 
+        content: પ્રાચીન ગ્રીક
+        type: grc
+      - 
+        content: સ્વિસ જર્મન
+        type: gsw
+      - 
+        content: ગુજરાતી
+        type: gu
+      - 
+        content: માંક્સ
+        type: gv
+      - 
+        content: ગ્વિચ'ઇન
+        type: gwi
+      - 
+        content: હૌસા
+        type: ha
+      - 
+        content: હૈડા
+        type: hai
+      - 
+        content: હાવાઇયન
+        type: haw
+      - 
+        content: હીબ્રુ
+        type: he
+      - 
+        content: હિન્દી
+        type: hi
+      - 
+        content: હિલિગેનોન
+        type: hil
+      - 
+        content: હિમાચલી
+        type: him
+      - 
+        content: હિટ્ટિતે
+        type: hit
+      - 
+        content: મોંગ
+        type: hmn
+      - 
+        content: હિરી મોટૂ
+        type: ho
+      - 
+        content: ક્રોએશિયન
+        type: hr
+      - 
+        content: અપ્પર સોર્બિયન
+        type: hsb
+      - 
+        content: હૈતીયન
+        type: ht
+      - 
+        content: હંગેરિયન
+        type: hu
+      - 
+        content: હૂપા
+        type: hup
+      - 
+        content: આર્મેનિયન
+        type: hy
+      - 
+        content: હેરેરો
+        type: hz
+      - 
+        content: ઇંટરલિંગુઆ
+        type: ia
+      - 
+        content: ઇબાન
+        type: iba
+      - 
+        content: ઇન્ડોનેશિયન
+        type: id
+      - 
+        content: ઇંટરલિંગ
+        type: ie
+      - 
+        content: ઇગ્બો
+        type: ig
+      - 
+        content: સિચુઆન યી
+        type: ii
+      - 
+        content: ઇજો
+        type: ijo
+      - 
+        content: ઇનુપિયાક
+        type: ik
+      - 
+        content: ઇલોકો
+        type: ilo
+      - 
+        content: ભારતીય ભાષા
+        type: inc
+      - 
+        content: ઇંડો-યુરોપીયન ભાષા
+        type: ine
+      - 
+        content: ઇંગુશ
+        type: inh
+      - 
+        content: ઇડૌ
+        type: io
+      - 
+        content: ઇરાની ભાષા
+        type: ira
+      - 
+        content: ઇરોક્વોઇયન ભાષા
+        type: iro
+      - 
+        content: આઇસલેન્ડિક
+        type: is
+      - 
+        content: ઇટાલિયન
+        type: it
+      - 
+        content: ઇનુકિટૂટ
+        type: iu
+      - 
+        content: જાપાનીઝ
+        type: ja
+      - 
+        content: લોજ્બાન
+        type: jbo
+      - 
+        content: જુદેઓ-પર્શિયન
+        type: jpr
+      - 
+        content: જુદેઓ-અરબી
+        type: jrb
+      - 
+        content: જાવાનીસ
+        type: jv
+      - 
+        content: જ્યોર્જિઅન
+        type: ka
+      - 
+        content: કારા-કલ્પક
+        type: kaa
+      - 
+        content: કબાઇલ
+        type: kab
+      - 
+        content: કાચિન
+        type: kac
+      - 
+        content: જ્જુ
+        type: kaj
+      - 
+        content: કમ્બા
+        type: kam
+      - 
+        content: કારેન
+        type: kar
+      - 
+        content: કાવી
+        type: kaw
+      - 
+        content: કબાર્ડિયન
+        type: kbd
+      - 
+        content: ત્યાપ
+        type: kcg
+      - 
+        content: કોરો
+        type: kfo
+      - 
+        content: કોંગો
+        type: kg
+      - 
+        content: ખાસી
+        type: kha
+      - 
+        content: ખોસિયન ભાષા
+        type: khi
+      - 
+        content: ખોતાનીસ
+        type: kho
+      - 
+        content: કિકુયૂ
+        type: ki
+      - 
+        content: ક્વાન્યામા
+        type: kj
+      - 
+        content: કઝાક
+        type: kk
+      - 
+        content: કલાલ્લિસુત
+        type: kl
+      - 
+        content: ખ્મેર
+        type: km
+      - 
+        content: કિમ્બન્દુ
+        type: kmb
+      - 
+        content: કન્નડા
+        type: kn
+      - 
+        content: કોરિયન
+        type: ko
+      - 
+        content: કોંકણી
+        type: kok
+      - 
+        content: કોસરિયન
+        type: kos
+      - 
+        content: ક્પેલ્લે
+        type: kpe
+      - 
+        content: કનુરી
+        type: kr
+      - 
+        content: કરાચય-બલ્કાર
+        type: krc
+      - 
+        content: કરેલિયન
+        type: krl
+      - 
+        content: ક્રૂ
+        type: kro
+      - 
+        content: કુરૂખ
+        type: kru
+      - 
+        content: કશ્મીરી
+        type: ks
+      - 
+        content: કુર્દિશ
+        type: ku
+      - 
+        content: કુમીક
+        type: kum
+      - 
+        content: કુતેનાઇ
+        type: kut
+      - 
+        content: કોમી
+        type: kv
+      - 
+        content: કોર્નિશ
+        type: kw
+      - 
+        content: કિરગીઝ
+        type: ky
+      - 
+        content: લેટિન
+        type: la
+      - 
+        content: લાદીનો
+        type: lad
+      - 
+        content: લાહન્ડા
+        type: lah
+      - 
+        content: લામ્બા
+        type: lam
+      - 
+        content: લક્ઝેમબર્ગિશ
+        type: lb
+      - 
+        content: લેઝધીયન
+        type: lez
+      - 
+        content: ગાંડા
+        type: lg
+      - 
+        content: લિંબૂર્ગિશ
+        type: li
+      - 
+        content: લિંગાલા
+        type: ln
+      - 
+        content: લાઓથિયન
+        type: lo
+      - 
+        content: મોગો
+        type: lol
+      - 
+        content: લોઝી
+        type: loz
+      - 
+        content: લિથુનિયન
+        type: lt
+      - 
+        content: લ્યૂબા કટાંગા
+        type: lu
+      - 
+        content: લ્યૂબા-લુલુઆ
+        type: lua
+      - 
+        content: લુઇસેનો
+        type: lui
+      - 
+        content: લુન્ડા
+        type: lun
+      - 
+        content: લ્યુઓ
+        type: luo
+      - 
+        content: લુશાઇ
+        type: lus
+      - 
+        content: લાતવિયન
+        type: lv
+      - 
+        content: માદુરીસ
+        type: mad
+      - 
+        content: મગહી
+        type: mag
+      - 
+        content: મૈથિલી
+        type: mai
+      - 
+        content: મકાસર
+        type: mak
+      - 
+        content: મન્ડિન્ગો
+        type: man
+      - 
+        content: ઓસ્ટ્રોનેશિયન
+        type: map
+      - 
+        content: મસાઇ
+        type: mas
+      - 
+        content: મોક્ષ
+        type: mdf
+      - 
+        content: મંડાર
+        type: mdr
+      - 
+        content: મેન્ડે
+        type: men
+      - 
+        content: મોરીસ્યેન
+        type: mfe
+      - 
+        content: મલાગસી
+        type: mg
+      - 
+        content: મિડિલ આઇરિશ
+        type: mga
+      - 
+        content: માર્શલીઝ
+        type: mh
+      - 
+        content: માઓરી
+        type: mi
+      - 
+        content: મિકમેક
+        type: mic
+      - 
+        content: મિનાંગ્કાબાઉ
+        type: min
+      - 
+        content: વિવિધ ભાષા
+        type: mis
+      - 
+        content: મેસેડોનિયન
+        type: mk
+      - 
+        content: મોન-ખ્મેર ભાષા
+        type: mkh
+      - 
+        content: મલયાલમ
+        type: ml
+      - 
+        content: મોંગોલિયન
+        type: mn
+      - 
+        content: માન્ચુ
+        type: mnc
+      - 
+        content: મનિપૂરી
+        type: mni
+      - 
+        content: મનોબો ભાષા
+        type: mno
+      - 
+        content: મોલડાવિયન
+        type: mo
+      - 
+        content: મોહૌક
+        type: moh
+      - 
+        content: મોસ્સી
+        type: mos
+      - 
+        content: મરાઠી
+        type: mr
+      - 
+        content: મલય
+        type: ms
+      - 
+        content: માલ્ટિઝ
+        type: mt
+      - 
+        content: બહુવિધ ભાષા
+        type: mul
+      - 
+        content: મુન્ડા ભાષા
+        type: mun
+      - 
+        content: ક્રિક
+        type: mus
+      - 
+        content: મિરાંડી
+        type: mwl
+      - 
+        content: મારવાડી
+        type: mwr
+      - 
+        content: બર્મીઝ
+        type: my
+      - 
+        content: માયા ભાષા
+        type: myn
+      - 
+        content: એર્ઝયા
+        type: myv
+      - 
+        content: નાઉરૂ
+        type: na
+      - 
+        content: નહઆત્લ
+        type: nah
+      - 
+        content: ઉતરી અમેરીકન ઇંડિયન ભાષા
+        type: nai
+      - 
+        content: નેપોલિટાન
+        type: nap
+      - 
+        content: નોર્વેજીયન બોકમાલ
+        type: nb
+      - 
+        content: ઉતર દેબેલ
+        type: nd
+      - 
+        content: લો જર્મન
+        type: nds
+      - 
+        content: નેપાળી
+        type: ne
+      - 
+        content: નેવારી
+        type: new
+      - 
+        content: ડોન્ગા
+        type: ng
+      - 
+        content: નિયાસ
+        type: nia
+      - 
+        content: નાઇગર-કોર્ડોફેનિયન ભાષા
+        type: nic
+      - 
+        content: નિયુઆન
+        type: niu
+      - 
+        content: ડચ
+        type: nl
+      - 
+        content: ફ્લેમિશ
+        type: nl_BE
+      - 
+        content: નૉર્વેજીયન નાયનૉર્સ્ક
+        type: nn
+      - 
+        content: નૉર્વેજીયન
+        type: 'no'
+      - 
+        content: નોગાઇ
+        type: nog
+      - 
+        content: જૂની નોર્સ
+        type: non
+      - 
+        content: એન'કો
+        type: nqo
+      - 
+        content: દક્ષિણ દેબેલ
+        type: nr
+      - 
+        content: ઉતરી સોથો
+        type: nso
+      - 
+        content: ન્યુબિયાન ભાષા
+        type: nub
+      - 
+        content: નાવાજો
+        type: nv
+      - 
+        content: પરંપરાગત નેવારી
+        type: nwc
+      - 
+        content: ન્યાન્જા
+        type: ny
+      - 
+        content: ન્યામવેઝી
+        type: nym
+      - 
+        content: ન્યાનકોલ
+        type: nyn
+      - 
+        content: ન્યોરો
+        type: nyo
+      - 
+        content: ન્ઝિમા
+        type: nzi
+      - 
+        content: ઓક્સિટન
+        type: oc
+      - 
+        content: ઓઝિંબ્વા
+        type: oj
+      - 
+        content: ઓરોમો
+        type: om
+      - 
+        content: ઉડિયા
+        type: or
+      - 
+        content: ઓસ્સેટિક
+        type: os
+      - 
+        content: ઓસેજ
+        type: osa
+      - 
+        content: ઓટોમાન તુર્કિશ
+        type: ota
+      - 
+        content: ઓટોમિયન ભાષા
+        type: oto
+      - 
+        content: પંજાબી
+        type: pa
+      - 
+        content: પાપુન ભાષા
+        type: paa
+      - 
+        content: પંગાસીનાન
+        type: pag
+      - 
+        content: પહલવી
+        type: pal
+      - 
+        content: પમ્પાન્ગા
+        type: pam
+      - 
+        content: પાપિયામેન્ટો
+        type: pap
+      - 
+        content: પલાઉઆન
+        type: pau
+      - 
+        content: જૂની પર્શિયન
+        type: peo
+      - 
+        content: ફિલિપીની ભાષા
+        type: phi
+      - 
+        content: ફોનિશિયન
+        type: phn
+      - 
+        content: પાલી
+        type: pi
+      - 
+        content: પોલીશ
+        type: pl
+      - 
+        content: પોહપિએન
+        type: pon
+      - 
+        content: પ્રક્રૃત ભાષા
+        type: pra
+      - 
+        content: જુની પ્રોવેન્સલ
+        type: pro
+      - 
+        content: પશ્તો
+        type: ps
+      - 
+        alt: variant
+        content: પુશ્ટો
+        type: ps
+      - 
+        content: પોર્ટુગીઝ
+        type: pt
+      - 
+        content: બ્રાઝિલીયન પોર્ટુગીઝ
+        type: pt_BR
+      - 
+        content: યુરોપિયન પોર્ટુગીઝ
+        type: pt_PT
+      - 
+        content: ક્વેચુઆ
+        type: qu
+      - 
+        content: રાજસ્થાની
+        type: raj
+      - 
+        content: રાપાનુઇ
+        type: rap
+      - 
+        content: રારોટોંગન
+        type: rar
+      - 
+        content: રહેટો રોમાન્સ
+        type: rm
+      - 
+        content: રૂન્દી
+        type: rn
+      - 
+        content: રોમાનિયન
+        type: ro
+      - 
+        content: રોમાંસ ભાષા
+        type: roa
+      - 
+        content: રોમાની
+        type: rom
+      - 
+        content: મૂલ
+        type: root
+      - 
+        content: રશિયન
+        type: ru
+      - 
+        content: અરોમેનિયન
+        type: rup
+      - 
+        content: કિન્યારવાન્ડા
+        type: rw
+      - 
+        content: સંસ્કૃત
+        type: sa
+      - 
+        content: સોંડવે
+        type: sad
+      - 
+        content: યાકૂત
+        type: sah
+      - 
+        content: દક્ષિણ અમેરીકન ઇંડિયન ભાષા
+        type: sai
+      - 
+        content: સલીશન ભાષા
+        type: sal
+      - 
+        content: સામરિટાન અરેમિક
+        type: sam
+      - 
+        content: સાસાક
+        type: sas
+      - 
+        content: સંતાલી
+        type: sat
+      - 
+        content: સાર્દિનિયન
+        type: sc
+      - 
+        content: સિસિલિયાન
+        type: scn
+      - 
+        content: સ્કોટ્સ
+        type: sco
+      - 
+        content: સિંધી
+        type: sd
+      - 
+        content: નૉર્થન સામી
+        type: se
+      - 
+        content: સેલ્કપ
+        type: sel
+      - 
+        content: સેમિટિક ભાષા
+        type: sem
+      - 
+        content: સાંગો
+        type: sg
+      - 
+        content: જૂની આયરિશ
+        type: sga
+      - 
+        content: સાંકેતિક ભાષા
+        type: sgn
+      - 
+        content: સર્બો-ક્રોએશિયન
+        type: sh
+      - 
+        content: શેન
+        type: shn
+      - 
+        content: સિંહલી
+        type: si
+      - 
+        content: સિદામો
+        type: sid
+      - 
+        content: સિઉઆન ભાષા
+        type: sio
+      - 
+        content: ચીની-ટિબેટી ભાષા
+        type: sit
+      - 
+        content: સ્લોવૅક
+        type: sk
+      - 
+        content: સ્લોવેનિયન
+        type: sl
+      - 
+        content: સ્લોવિક ભાષા
+        type: sla
+      - 
+        content: સામોન
+        type: sm
+      - 
+        content: દક્ષિણ સામી
+        type: sma
+      - 
+        content: સામી ભાષા
+        type: smi
+      - 
+        content: લ્યુલ સામી
+        type: smj
+      - 
+        content: ઇનારી સામી
+        type: smn
+      - 
+        content: સ્કોલ્ટ સામી
+        type: sms
+      - 
+        content: શોના
+        type: sn
+      - 
+        content: સોનિન્કે
+        type: snk
+      - 
+        content: સોમાલી
+        type: so
+      - 
+        content: સોગ્ડિએન
+        type: sog
+      - 
+        content: સોન્ઘાઇ
+        type: son
+      - 
+        content: અલ્બેનિયન
+        type: sq
+      - 
+        content: સર્બિયન
+        type: sr
+      - 
+        content: સ્રાનન ટોન્ગો
+        type: srn
+      - 
+        content: સેરેર
+        type: srr
+      - 
+        content: સ્વાતી
+        type: ss
+      - 
+        content: નીલો-સહારન ભાષા
+        type: ssa
+      - 
+        content: સદર્ન સોથો
+        type: st
+      - 
+        content: સંડેનીઝ
+        type: su
+      - 
+        content: સુકુમા
+        type: suk
+      - 
+        content: સુસુ
+        type: sus
+      - 
+        content: સુમેરિયન
+        type: sux
+      - 
+        content: સ્વીડિશ
+        type: sv
+      - 
+        content: સ્વાહિલી
+        type: sw
+      - 
+        content: કોમોરિયન
+        type: swb
+      - 
+        content: પરંપરાગત સિરિએક
+        type: syc
+      - 
+        content: સિરિએક
+        type: syr
+      - 
+        content: તમિલ
+        type: ta
+      - 
+        content: તાઇ ભાષા
+        type: tai
+      - 
+        content: તેલુગુ
+        type: te
+      - 
+        content: ટિમ્ને
+        type: tem
+      - 
+        content: તેરેનો
+        type: ter
+      - 
+        content: તેતુમ
+        type: tet
+      - 
+        content: તાજીક
+        type: tg
+      - 
+        content: થાઈ
+        type: th
+      - 
+        content: ટાઇગ્રિનિયા
+        type: ti
+      - 
+        content: ટાઇગ્રે
+        type: tig
+      - 
+        content: તિવ
+        type: tiv
+      - 
+        content: તુર્કમેન
+        type: tk
+      - 
+        content: તોકેલાઉ
+        type: tkl
+      - 
+        content: ટાગાલોગ
+        type: tl
+      - 
+        content: ક્લિન્ગોન
+        type: tlh
+      - 
+        content: લિંગિત
+        type: tli
+      - 
+        content: તામાશેખ
+        type: tmh
+      - 
+        content: ત્સ્વાના
+        type: tn
+      - 
+        content: ટોંગાન
+        type: to
+      - 
+        content: ન્યાસા ટોન્ગા
+        type: tog
+      - 
+        content: ટોક પિસિન
+        type: tpi
+      - 
+        content: ટર્કીશ
+        type: tr
+      - 
+        content: સોંગા
+        type: ts
+      - 
+        content: સિમ્શિયન
+        type: tsi
+      - 
+        content: તતાર
+        type: tt
+      - 
+        content: તુમ્બુકા
+        type: tum
+      - 
+        content: ટ્યૂપી ભાષા
+        type: tup
+      - 
+        content: અલ્ટેઇક ભાષા
+        type: tut
+      - 
+        content: તુવાલુ
+        type: tvl
+      - 
+        content: ટ્વાઇ
+        type: tw
+      - 
+        content: તાહિતિયન
+        type: ty
+      - 
+        content: ટુવીનિયન
+        type: tyv
+      - 
+        content: ઉદમુર્ત
+        type: udm
+      - 
+        content: ઇગુર
+        type: ug
+      - 
+        alt: variant
+        content: વિઘર
+        type: ug
+      - 
+        content: યુગેરિટિક
+        type: uga
+      - 
+        content: યુક્રેનિયન
+        type: uk
+      - 
+        content: ઉમ્બુન્ડૂ
+        type: umb
+      - 
+        content: અજ્ઞાત ભાષા
+        type: und
+      - 
+        content: ઉર્દુ
+        type: ur
+      - 
+        content: ઉઝ્બેક
+        type: uz
+      - 
+        content: વાઇ
+        type: vai
+      - 
+        content: વેન્દા
+        type: ve
+      - 
+        content: વિયેતનામીસ
+        type: vi
+      - 
+        content: વોલાપુક
+        type: vo
+      - 
+        content: વોટિક
+        type: vot
+      - 
+        content: વાલૂન
+        type: wa
+      - 
+        content: વાકાશન ભાષા
+        type: wak
+      - 
+        content: વલામો
+        type: wal
+      - 
+        content: વારે
+        type: war
+      - 
+        content: વાશો
+        type: was
+      - 
+        content: સોર્બિયન ભાષા
+        type: wen
+      - 
+        content: વોલોફ
+        type: wo
+      - 
+        content: કાલ્મિક
+        type: xal
+      - 
+        content: ખોસા
+        type: xh
+      - 
+        content: યાઓ
+        type: yao
+      - 
+        content: યાપીસ
+        type: yap
+      - 
+        content: યિદ્દિશ
+        type: yi
+      - 
+        content: યોરૂબા
+        type: yo
+      - 
+        content: યૂપિક ભાષા
+        type: ypk
+      - 
+        content: કેંટોનીઝ
+        type: yue
+      - 
+        content: ઝુઆગ
+        type: za
+      - 
+        content: ઝેપોટેક
+        type: zap
+      - 
+        content: બ્લિસિમ્બોલ્સ
+        type: zbl
+      - 
+        content: ઝેનાગા
+        type: zen
+      - 
+        content: ચાઇનીઝ
+        type: zh
+      - 
+        content: સરળીકૃત ચિની
+        type: zh_Hans
+      - 
+        content: પારંપરિક ચિની
+        type: zh_Hant
+      - 
+        content: ઝન્ડે
+        type: znd
+      - 
+        content: ઝુલુ
+        type: zu
+      - 
+        content: ઝૂની
+        type: zun
+      - 
+        content: કોઇ ભાષાશાસ્ત્રીય સામગ્રી નથી
+        type: zxx
+      - 
+        content: ઝાઝા
+        type: zza
+  localeDisplayPattern: 
+    localePattern: "{0} ({1})"
+    localeSeparator: ","
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: મેટ્રિક
+        type: metric
+      - 
+        content: યુકે
+        type: UK
+      - 
+        content: અમેરિકા
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: અરેબી
+        type: Arab
+      - 
+        alt: variant
+        content: પર્સો-અરેબીક
+        type: Arab
+      - 
+        content: ઇમ્પિરિયલ આર્મનિક
+        type: Armi
+      - 
+        content: અર્મેનિયન
+        type: Armn
+      - 
+        content: અવેસ્તન
+        type: Avst
+      - 
+        content: બાલીનીઝ
+        type: Bali
+      - 
+        content: બટાક
+        type: Batk
+      - 
+        content: બંગાળી
+        type: Beng
+      - 
+        content: બ્લિસિમ્બોલ્સ
+        type: Blis
+      - 
+        content: બોપોમોફો
+        type: Bopo
+      - 
+        content: બ્રહ્મી
+        type: Brah
+      - 
+        content: બ્રેલ
+        type: Brai
+      - 
+        content: બગિનીસ
+        type: Bugi
+      - 
+        content: બુહિદ
+        type: Buhd
+      - 
+        content: ચકમા
+        type: Cakm
+      - 
+        content: યુનાઇટેડ કેનેડિયન એબોરિજનલ સિલેબિક્સ
+        type: Cans
+      - 
+        content: કરૈન
+        type: Cari
+      - 
+        content: ચેરોકી
+        type: Cher
+      - 
+        content: સિર્થ
+        type: Cirt
+      - 
+        content: કોપ્ટિક
+        type: Copt
+      - 
+        content: સિપ્રાયટ
+        type: Cprt
+      - 
+        content: સિરિલિક
+        type: Cyrl
+      - 
+        content: ઓલ્ડ ચર્ચ સ્લાવોનિક સિરિલિક
+        type: Cyrs
+      - 
+        content: દેવનાગરી
+        type: Deva
+      - 
+        content: ડેસરેટ
+        type: Dsrt
+      - 
+        content: ઇજિપ્શિયન ડેમોટિક
+        type: Egyd
+      - 
+        content: ઇજિપ્શિયન હાઇરેટિક
+        type: Egyh
+      - 
+        content: ઇજિપ્શિયન હાઇરોગ્લિફ્સ
+        type: Egyp
+      - 
+        content: ઇથિયોપિક
+        type: Ethi
+      - 
+        content: જ્યોર્જિઅન ખુતસુરી
+        type: Geok
+      - 
+        content: જ્યોર્જિઅન
+        type: Geor
+      - 
+        content: ગ્લેગોલિટિક
+        type: Glag
+      - 
+        content: ગોથિક
+        type: Goth
+      - 
+        content: ગ્રીક
+        type: Grek
+      - 
+        content: ગુજરાતી
+        type: Gujr
+      - 
+        content: ગુરૂમુખી
+        type: Guru
+      - 
+        content: હંગુલ
+        type: Hang
+      - 
+        content: હાન
+        type: Hani
+      - 
+        content: હનુનૂ
+        type: Hano
+      - 
+        content: સરળીકૃત
+        type: Hans
+      - 
+        alt: stand-alone
+        content: સરળીકૃત હેન
+        type: Hans
+      - 
+        content: પરંપરાગત
+        type: Hant
+      - 
+        alt: stand-alone
+        content: પરંપરાગત હાન
+        type: Hant
+      - 
+        content: હીબ્રુ
+        type: Hebr
+      - 
+        content: હિરાગાના
+        type: Hira
+      - 
+        content: પહાઉ મોન્ગ
+        type: Hmng
+      - 
+        content: કતાકના અને હિરાગના
+        type: Hrkt
+      - 
+        content: ઓલ્ડ હંગેરિયન
+        type: Hung
+      - 
+        content: સિન્ધુ
+        type: Inds
+      - 
+        content: જૂનુ ઇટાલિક
+        type: Ital
+      - 
+        content: જાવાનીસ
+        type: Java
+      - 
+        content: જાપાની
+        type: Jpan
+      - 
+        content: કાયાહ લી
+        type: Kali
+      - 
+        content: કટાકાના
+        type: Kana
+      - 
+        content: ખારોશ્થી
+        type: Khar
+      - 
+        content: ખ્મેર
+        type: Khmr
+      - 
+        content: કન્નડા
+        type: Knda
+      - 
+        content: કોરિયન
+        type: Kore
+      - 
+        content: કૈથી
+        type: Kthi
+      - 
+        content: લાના
+        type: Lana
+      - 
+        content: લાઓ
+        type: Laoo
+      - 
+        content: ફ્રેકતુર લેટિન
+        type: Latf
+      - 
+        content: ગૈલિક લેટિન
+        type: Latg
+      - 
+        content: લેટિન
+        type: Latn
+      - 
+        content: લેપચા
+        type: Lepc
+      - 
+        content: લિમ્બૂ
+        type: Limb
+      - 
+        content: લીનિયર અ
+        type: Lina
+      - 
+        content: લીનિયર બી
+        type: Linb
+      - 
+        content: લિશિયન
+        type: Lyci
+      - 
+        content: લિડિયન
+        type: Lydi
+      - 
+        content: માન્ડાયીન
+        type: Mand
+      - 
+        content: માનીચાયીન
+        type: Mani
+      - 
+        content: મયાન હાઇરોગ્લિફ્સ
+        type: Maya
+      - 
+        content: મેરોઇટિક
+        type: Mero
+      - 
+        content: મલયાલમ
+        type: Mlym
+      - 
+        content: મોંગોલિયન
+        type: Mong
+      - 
+        content: મૂન
+        type: Moon
+      - 
+        content: મેઇતેઇ માયેક
+        type: Mtei
+      - 
+        content: મ્યાંમાર
+        type: Mymr
+      - 
+        content: એન' કો
+        type: Nkoo
+      - 
+        content: ઓઘામ
+        type: Ogam
+      - 
+        content: ઓલ ચિકી
+        type: Olck
+      - 
+        content: ઓરખોન
+        type: Orkh
+      - 
+        content: ઉડિયા
+        type: Orya
+      - 
+        content: ઓસ્માન્યા
+        type: Osma
+      - 
+        content: ઓલ્ડ પરમિક
+        type: Perm
+      - 
+        content: ફાગ્સ-પા
+        type: Phag
+      - 
+        content: ઇન્સ્ક્રિપ્શનલ પહલવી
+        type: Phli
+      - 
+        content: સાલટર પહલવી
+        type: Phlp
+      - 
+        content: બુક પહલવી
+        type: Phlv
+      - 
+        content: ફોનિશિયન
+        type: Phnx
+      - 
+        content: પોલાર્ડ ફોનેટિક
+        type: Plrd
+      - 
+        content: ઇન્સ્ક્રિપ્શનલ પાર્થિયન
+        type: Prti
+      - 
+        content: રીજાંગ
+        type: Rjng
+      - 
+        content: રોંગોરોંગો
+        type: Roro
+      - 
+        content: રૂનિક
+        type: Runr
+      - 
+        content: સમરિટાન
+        type: Samr
+      - 
+        content: સરાતી
+        type: Sara
+      - 
+        content: સૌરાષ્ટ્ર
+        type: Saur
+      - 
+        content: સંકેત લિપી
+        type: Sgnw
+      - 
+        content: શાવિયાન
+        type: Shaw
+      - 
+        content: સિંહલી
+        type: Sinh
+      - 
+        content: સુદાનીઝ
+        type: Sund
+      - 
+        content: સિલોતી નાગરી
+        type: Sylo
+      - 
+        content: સિરિયેક
+        type: Syrc
+      - 
+        content: એસ્ત્રેન્જેલો સિરિયાક
+        type: Syre
+      - 
+        content: પશ્ચિમ સિરિયાક
+        type: Syrj
+      - 
+        content: પૂર્વ સિરિયાક
+        type: Syrn
+      - 
+        content: તગબન્વા
+        type: Tagb
+      - 
+        content: તાઇ લી
+        type: Tale
+      - 
+        content: નવીન તાઇ લૂ
+        type: Talu
+      - 
+        content: તમિલ
+        type: Taml
+      - 
+        content: તાઇ વેઇત
+        type: Tavt
+      - 
+        content: તેલુગુ
+        type: Telu
+      - 
+        content: તેન્ગવાર
+        type: Teng
+      - 
+        content: તિફિનાઘ
+        type: Tfng
+      - 
+        content: ટેગાલોગ
+        type: Tglg
+      - 
+        content: થાના
+        type: Thaa
+      - 
+        content: થાઇ
+        type: Thai
+      - 
+        content: ટિબેટી
+        type: Tibt
+      - 
+        content: યુગાતિટિક
+        type: Ugar
+      - 
+        content: વાઇ
+        type: Vaii
+      - 
+        content: વિસિબલ સ્પીચ
+        type: Visp
+      - 
+        content: જુની ફારસી
+        type: Xpeo
+      - 
+        content: સુમેરો અક્કાદિયન સુનિફોર્મ
+        type: Xsux
+      - 
+        content: યી
+        type: Yiii
+      - 
+        content: વંશાગત
+        type: Zinh
+      - 
+        content: ગણિતીય સંકેતલિપિ
+        type: Zmth
+      - 
+        content: પ્રતીક લિપી
+        type: Zsym
+      - 
+        content: અલિખિત
+        type: Zxxx
+      - 
+        content: સામાન્ય
+        type: Zyyy
+      - 
+        content: અજ્ઞાત લિપિ
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: વિશ્વ
+        type: '001'
+      - 
+        content: આફ્રિકા
+        type: '002'
+      - 
+        content: ઉતર અમેરિકા
+        type: '003'
+      - 
+        content: દક્ષિણ અમેરિકા
+        type: '005'
+      - 
+        content: ઓશિઆનિયા
+        type: '009'
+      - 
+        content: પશ્ચિમ આફ્રિકા
+        type: '011'
+      - 
+        content: મધ્ય અમેરિકા
+        type: '013'
+      - 
+        content: પૂર્વ અમેરિકા
+        type: '014'
+      - 
+        content: ઉતરીય આફ્રિકા
+        type: '015'
+      - 
+        content: મધ્ય આફ્રિકા
+        type: '017'
+      - 
+        content: દક્ષિણી આફ્રિકા
+        type: '018'
+      - 
+        content: અમેરિકાસ
+        type: '019'
+      - 
+        content: ઉતરીય અમેરિકા
+        type: '021'
+      - 
+        content: કેરિબિયન
+        type: '029'
+      - 
+        content: પૂર્વી એશિયા
+        type: '030'
+      - 
+        content: દક્ષિણી એશિયા
+        type: '034'
+      - 
+        content: દક્ષિણ- પૂર્વ એશિયા
+        type: '035'
+      - 
+        content: દક્ષિણી યૂરોપ
+        type: '039'
+      - 
+        content: ઓસ્ટ્રેલિયા
+        type: '053'
+      - 
+        content: મેલાનેશિયા
+        type: '054'
+      - 
+        content: માઇક્રોનેશિયન રીજન
+        type: '057'
+      - 
+        content: પોલિનેશિયા
+        type: '061'
+      - 
+        content: એશિયા
+        type: 142
+      - 
+        content: મધ્ય એશિયા
+        type: 143
+      - 
+        content: પશ્ચિમ એશિયા
+        type: 145
+      - 
+        content: યૂરોપ
+        type: 150
+      - 
+        content: પૂર્વી યૂરોપ
+        type: 151
+      - 
+        content: ઉતરીય યૂરોપ
+        type: 154
+      - 
+        content: પશ્ચિમ યૂરોપ
+        type: 155
+      - 
+        content: લેટિન અમેરિકા અને કેરીબિયન
+        type: 419
+      - 
+        content: એસેન્શન આઇલેન્ડ
+        type: AC
+      - 
+        content: ઍંડોરા
+        type: AD
+      - 
+        content: યુનાઇટેડ અરબ એમિરેટ્સ
+        type: AE
+      - 
+        content: અફઘાનિસ્તાન
+        type: AF
+      - 
+        content: એન્ટીગુઆ અને બરબુડા
+        type: AG
+      - 
+        content: ઍંગ્વિલા
+        type: AI
+      - 
+        content: અલ્બેનિયા
+        type: AL
+      - 
+        content: આર્મેનિયા
+        type: AM
+      - 
+        content: નેધરલેંડ્સ એંટિલેસ
+        type: AN
+      - 
+        content: અંગોલા
+        type: AO
+      - 
+        content: એન્ટાર્કટિકા
+        type: AQ
+      - 
+        content: આર્જેન્ટીના
+        type: AR
+      - 
+        content: અમેરીકન સમોઆ
+        type: AS
+      - 
+        content: ઑસ્ટ્રિયા
+        type: AT
+      - 
+        content: ઑસ્ટ્રેલિયા
+        type: AU
+      - 
+        content: અરુબા
+        type: AW
+      - 
+        content: એલેંડ આઇલેન્ડ્સ
+        type: AX
+      - 
+        content: અઝરબૈજાન
+        type: AZ
+      - 
+        content: બોસ્નિયા અને હર્ઝેગોવિના
+        type: BA
+      - 
+        content: બાર્બાડોસ
+        type: BB
+      - 
+        content: બાંગ્લાદેશ
+        type: BD
+      - 
+        content: બેલ્જીયમ
+        type: BE
+      - 
+        content: બુર્કિના ફાસો
+        type: BF
+      - 
+        content: બલ્ગેરિયા
+        type: BG
+      - 
+        content: બેહરીન
+        type: BH
+      - 
+        content: બુરુંડી
+        type: BI
+      - 
+        content: બેનિન
+        type: BJ
+      - 
+        content: સેંટ બાર્થલેમી
+        type: BL
+      - 
+        content: બર્મુડા
+        type: BM
+      - 
+        content: બ્રુનેઇ
+        type: BN
+      - 
+        content: બોલિવિયા
+        type: BO
+      - 
+        content: કેરેબિયન નેધરલેન્ડ્ઝ
+        type: BQ
+      - 
+        content: બ્રાઝિલ
+        type: BR
+      - 
+        content: બહામાસ
+        type: BS
+      - 
+        content: ભૂટાન
+        type: BT
+      - 
+        content: બૌવેત આઇલેન્ડ
+        type: BV
+      - 
+        content: બોત્સ્વાના
+        type: BW
+      - 
+        content: બેલારુસ
+        type: BY
+      - 
+        content: બેલીઝ
+        type: BZ
+      - 
+        content: કેનેડા
+        type: CA
+      - 
+        content: કોકોઝ આઇલેન્ડ
+        type: CC
+      - 
+        content: કોંગો - કિંશાસા
+        type: CD
+      - 
+        alt: variant
+        content: કોંગો [ડીઆરસી]
+        type: CD
+      - 
+        content: સેંટ્રલ આફ્રિકન રીપબ્લિક
+        type: CF
+      - 
+        content: કોંગો - બ્રાઝાવિલે
+        type: CG
+      - 
+        alt: variant
+        content: કોંગો [પ્રજાસત્તાક]
+        type: CG
+      - 
+        content: સ્વિટ્ઝર્લૅન્ડ
+        type: CH
+      - 
+        content: આઇવરી કોસ્ટ
+        type: CI
+      - 
+        alt: variant
+        content: આઇવરી કોસ્ટ
+        type: CI
+      - 
+        content: કુક આઇલેન્ડ્સ
+        type: CK
+      - 
+        content: ચિલી
+        type: CL
+      - 
+        content: કૅમરૂન
+        type: CM
+      - 
+        content: ચીન
+        type: CN
+      - 
+        content: કોલમ્બિયા
+        type: CO
+      - 
+        content: ક્લિપરટન આઇલેન્ડ
+        type: CP
+      - 
+        content: કોસ્ટા રિકા
+        type: CR
+      - 
+        content: ક્યુબા
+        type: CU
+      - 
+        content: કૅપ વર્ડે
+        type: CV
+      - 
+        content: કુરાકાઓ
+        type: CW
+      - 
+        content: ક્રિસમસ આઇલેંડ
+        type: CX
+      - 
+        content: સાયપ્રસ
+        type: CY
+      - 
+        content: ચેક રીપબ્લિક
+        type: CZ
+      - 
+        content: જર્મની
+        type: DE
+      - 
+        content: ડિએગો ગારસિઆ
+        type: DG
+      - 
+        content: જીબૌટી
+        type: DJ
+      - 
+        content: ડેનમાર્ક
+        type: DK
+      - 
+        content: ડોમિનિકા
+        type: DM
+      - 
+        content: ડોમિનિકન રીપબ્લિક
+        type: DO
+      - 
+        content: અલ્જીરિયા
+        type: DZ
+      - 
+        content: સ્યુટા અને મેલિલા
+        type: EA
+      - 
+        content: એક્વાડોર
+        type: EC
+      - 
+        content: એસ્ટોનિયા
+        type: EE
+      - 
+        content: ઇજિપ્ત
+        type: EG
+      - 
+        content: પશ્ચિમી સહારા
+        type: EH
+      - 
+        content: એરિટ્રિયા
+        type: ER
+      - 
+        content: સ્પેન
+        type: ES
+      - 
+        content: ઇથિઓપિયા
+        type: ET
+      - 
+        content: યુરોપિયન સંઘ
+        type: EU
+      - 
+        content: ફીનલેંડ
+        type: FI
+      - 
+        content: ફીજી
+        type: FJ
+      - 
+        content: ફૉકલૅંડ આઇલૅંડ્સ
+        type: FK
+      - 
+        alt: variant
+        content: ફૉકલેન્ડ આઇલેન્ડ્સ
+        type: FK
+      - 
+        content: માઇક્રોનેશિયા
+        type: FM
+      - 
+        content: ફૅરો આઇલેન્ડ્સ
+        type: FO
+      - 
+        content: ફ્રાંસ
+        type: FR
+      - 
+        content: ગેબન
+        type: GA
+      - 
+        content: યુનાઇટેડ કિંગડમ
+        type: GB
+      - 
+        content: ગ્રેનેડા
+        type: GD
+      - 
+        content: જ્યોર્જીયા
+        type: GE
+      - 
+        content: ફ્રેંચ ગયાના
+        type: GF
+      - 
+        content: ગ્વેર્નસે
+        type: GG
+      - 
+        content: ઘાના
+        type: GH
+      - 
+        content: જીબ્રાલ્ટર
+        type: GI
+      - 
+        content: ગ્રીનલેન્ડ
+        type: GL
+      - 
+        content: ગેમ્બિયા
+        type: GM
+      - 
+        content: ગિની
+        type: GN
+      - 
+        content: ગ્વાડેલોપ
+        type: GP
+      - 
+        content: ઇક્વેટોરિયલ ગિની
+        type: GQ
+      - 
+        content: ગ્રીસ
+        type: GR
+      - 
+        content: દક્ષિણ જ્યોર્જીયા અને દક્ષિણ સેન્ડવિચ આઇલેન્ડ
+        type: GS
+      - 
+        content: ગ્વાટેમાલા
+        type: GT
+      - 
+        content: ગ્વામ
+        type: GU
+      - 
+        content: ગિની-બિસાઉ
+        type: GW
+      - 
+        content: ગયાના
+        type: GY
+      - 
+        content: હોંગકોંગ સાર ચીન
+        type: HK
+      - 
+        alt: short
+        content: હોંગ કોંગ
+        type: HK
+      - 
+        content: હર્ડ આઇલૅંડ એંડ મેકડોનાલ્ડ આઇલૅંડ્સ
+        type: HM
+      - 
+        content: હોન્ડુરસ
+        type: HN
+      - 
+        content: ક્રોએશિયા
+        type: HR
+      - 
+        content: હૈતિ
+        type: HT
+      - 
+        content: હંગેરી
+        type: HU
+      - 
+        content: કૅનેરી આઇલેન્ડ્સ
+        type: IC
+      - 
+        content: ઇન્ડોનેશિયા
+        type: ID
+      - 
+        content: આયર્લેંડ
+        type: IE
+      - 
+        content: ઇઝરાઇલ
+        type: IL
+      - 
+        content: ઇસ્લે ઓફ મૅન
+        type: IM
+      - 
+        content: ભારત
+        type: IN
+      - 
+        content: બ્રિટિશ ઇન્ડિયન ઓશન ટેરિટરી
+        type: IO
+      - 
+        content: ઇરાક
+        type: IQ
+      - 
+        content: ઈરાન
+        type: IR
+      - 
+        content: આઇસલેન્ડ
+        type: IS
+      - 
+        content: ઇટાલી
+        type: IT
+      - 
+        content: જર્સી
+        type: JE
+      - 
+        content: જમૈકા
+        type: JM
+      - 
+        content: જોર્ડન
+        type: JO
+      - 
+        content: જાપાન
+        type: JP
+      - 
+        content: કેન્યા
+        type: KE
+      - 
+        content: કિર્ગિઝ્સ્તાન
+        type: KG
+      - 
+        content: કંબોડિયા
+        type: KH
+      - 
+        content: કિરિબાટી
+        type: KI
+      - 
+        content: કોમોરસ
+        type: KM
+      - 
+        content: સેંટ કિટ્સ એંડ નેવિસ
+        type: KN
+      - 
+        content: ઉત્તર કોરિયા
+        type: KP
+      - 
+        content: દક્ષિણ કોરિયા
+        type: KR
+      - 
+        content: કુવૈત
+        type: KW
+      - 
+        content: કેયમેન આઇલૅંડ્સ
+        type: KY
+      - 
+        content: કઝાકિસ્તાન
+        type: KZ
+      - 
+        content: લાઓસ
+        type: LA
+      - 
+        content: લેબનોન
+        type: LB
+      - 
+        content: સેંટ લુસિયા
+        type: LC
+      - 
+        content: લૈચટેંસ્ટેઇન
+        type: LI
+      - 
+        content: શ્રીલંકા
+        type: LK
+      - 
+        content: લાઇબેરિયા
+        type: LR
+      - 
+        content: લેસોથો
+        type: LS
+      - 
+        content: લિથુઆનિયા
+        type: LT
+      - 
+        content: લક્ઝમબર્ગ
+        type: LU
+      - 
+        content: લાત્વિયા
+        type: LV
+      - 
+        content: લિબિયા
+        type: LY
+      - 
+        content: મોરોક્કો
+        type: MA
+      - 
+        content: મોનાકો
+        type: MC
+      - 
+        content: મોલડોવા
+        type: MD
+      - 
+        content: મૉન્ટેંનેગ્રો
+        type: ME
+      - 
+        content: સેંટ માર્ટિન
+        type: MF
+      - 
+        content: મેડાગાસ્કર
+        type: MG
+      - 
+        content: માર્શલ આઇલેન્ડ્સ
+        type: MH
+      - 
+        content: મેસેડોનિયા
+        type: MK
+      - 
+        alt: variant
+        content: મેસેડોનિયા [ફાયરોમ]
+        type: MK
+      - 
+        content: માલી
+        type: ML
+      - 
+        content: મ્યાંમાર
+        type: MM
+      - 
+        content: મંગોલિયા
+        type: MN
+      - 
+        content: મકાઉ SAR ચીન
+        type: MO
+      - 
+        alt: short
+        content: મકાઓ
+        type: MO
+      - 
+        content: ઉતરીય મારિયાના આઇલેન્ડ્સ
+        type: MP
+      - 
+        content: માર્ટીનીક
+        type: MQ
+      - 
+        content: મૌરિટાનિયા
+        type: MR
+      - 
+        content: મોંટસેરાત
+        type: MS
+      - 
+        content: માલ્ટા
+        type: MT
+      - 
+        content: મોરિશિયસ
+        type: MU
+      - 
+        content: માલદિવ્સ
+        type: MV
+      - 
+        content: માલાવી
+        type: MW
+      - 
+        content: મેક્સિકો
+        type: MX
+      - 
+        content: મલેશિયા
+        type: MY
+      - 
+        content: મોઝામ્બિક
+        type: MZ
+      - 
+        content: નામિબિયા
+        type: NA
+      - 
+        content: ન્યુ સેલેડોનિયા
+        type: NC
+      - 
+        content: નાઇજર
+        type: NE
+      - 
+        content: નોરફૉક આઇલેન્ડ
+        type: NF
+      - 
+        content: નાઇજીરીયા
+        type: NG
+      - 
+        content: નિકારાગુઆ
+        type: NI
+      - 
+        content: નેધરલેન્ડ
+        type: NL
+      - 
+        content: નૉર્વે
+        type: 'NO'
+      - 
+        content: નેપાળ
+        type: NP
+      - 
+        content: નૌરુ
+        type: NR
+      - 
+        content: નીયુ
+        type: NU
+      - 
+        content: ન્યુઝીલેન્ડ
+        type: NZ
+      - 
+        content: ઓમાન
+        type: OM
+      - 
+        content: પનામા
+        type: PA
+      - 
+        content: પેરુ
+        type: PE
+      - 
+        content: ફ્રેંચ પોલિનેશિયા
+        type: PF
+      - 
+        content: પાપુઆ ન્યૂ ગિની
+        type: PG
+      - 
+        content: ફિલિપિન્સ
+        type: PH
+      - 
+        content: પાકિસ્તાન
+        type: PK
+      - 
+        content: પોલેંડ
+        type: PL
+      - 
+        content: સેંટ પીએરે એન્ડ મિકીલોન
+        type: PM
+      - 
+        content: પીટકૈર્ન
+        type: PN
+      - 
+        content: પ્યુઅર્ટો રિકો
+        type: PR
+      - 
+        content: પેલેસ્ટિનિયન ટેરિટરી
+        type: PS
+      - 
+        alt: short
+        content: પેલેસ્ટાઇન
+        type: PS
+      - 
+        content: પોર્ટુગલ
+        type: PT
+      - 
+        content: પલાઉ
+        type: PW
+      - 
+        content: પેરાગ્વે
+        type: PY
+      - 
+        content: કતાર
+        type: QA
+      - 
+        content: આઉટલાયિંગ ઓશનિયા
+        type: QO
+      - 
+        content: રીયુનિયન
+        type: RE
+      - 
+        content: રોમાનિયા
+        type: RO
+      - 
+        content: સર્બિયા
+        type: RS
+      - 
+        content: રશિયન ફેડરેશન
+        type: RU
+      - 
+        content: રવાંડા
+        type: RW
+      - 
+        content: સાઉદી અરેબિયા
+        type: SA
+      - 
+        content: સોલોમન આઇલેન્ડ
+        type: SB
+      - 
+        content: શેશેલ્સ
+        type: SC
+      - 
+        content: સુદાન
+        type: SD
+      - 
+        content: સ્વીડન
+        type: SE
+      - 
+        content: સિંગાપુર
+        type: SG
+      - 
+        content: સેંટ હેલેના
+        type: SH
+      - 
+        content: સ્લોવેનિયા
+        type: SI
+      - 
+        content: સ્વાલબર્ડ એંડ જેન મેયન
+        type: SJ
+      - 
+        content: સ્લોવેકિયા
+        type: SK
+      - 
+        content: સીએરા લેઓન
+        type: SL
+      - 
+        content: સૅન મેરિનો
+        type: SM
+      - 
+        content: સેનેગલ
+        type: SN
+      - 
+        content: સોમાલિયા
+        type: SO
+      - 
+        content: સુરીનામ
+        type: SR
+      - 
+        content: દક્ષિણ સુદાન
+        type: SS
+      - 
+        content: સાઓ ટૉમ અને પ્રિંસિપે
+        type: ST
+      - 
+        content: એલ સેલ્વાડોર
+        type: SV
+      - 
+        content: સિંટ માર્ટેન
+        type: SX
+      - 
+        content: સીરિયા
+        type: SY
+      - 
+        content: સ્વાઝિલેન્ડ
+        type: SZ
+      - 
+        content: ટ્રિસ્ટન ડે કુના
+        type: TA
+      - 
+        content: ટર્ક્સ એન્ડ કૈકોસ આઇલેન્ડ્સ
+        type: TC
+      - 
+        content: ચાડ
+        type: TD
+      - 
+        content: ફ્રેંચ સદર્ન ટેરિટરીઝ
+        type: TF
+      - 
+        content: ટોગો
+        type: TG
+      - 
+        content: થાઇલેંડ
+        type: TH
+      - 
+        content: તાજીકિસ્તાન
+        type: TJ
+      - 
+        content: ટોકેલાઉ
+        type: TK
+      - 
+        content: પૂર્વ તિમોર
+        type: TL
+      - 
+        alt: variant
+        content: પૂર્વ તિમોર
+        type: TL
+      - 
+        content: તુર્ક્મનિસ્તાન
+        type: TM
+      - 
+        content: ટ્યુનિશિયા
+        type: TN
+      - 
+        content: ટોંગા
+        type: TO
+      - 
+        content: તુર્કસ્તાન
+        type: TR
+      - 
+        content: ત્રિનિડાડ અને ટોબેગો
+        type: TT
+      - 
+        content: તુવાલુ
+        type: TV
+      - 
+        content: તાઇવાન
+        type: TW
+      - 
+        content: તાંઝાનિયા
+        type: TZ
+      - 
+        content: યૂક્રેન
+        type: UA
+      - 
+        content: યુગાંડા
+        type: UG
+      - 
+        content: સંયુક્ત રાજ્ય માઇનર આઉટલાઇંગ આયલેન્ડ
+        type: UM
+      - 
+        content: સંયુકત રાજ્ય/ અમેરિકા
+        type: US
+      - 
+        content: ઉરુગ્વે
+        type: UY
+      - 
+        content: ઉઝ્બેકિસ્તાન
+        type: UZ
+      - 
+        content: વેટિકન
+        type: VA
+      - 
+        content: સેંટ વિંસેંટ એંડ ધ ગ્રેનેડિન્સ
+        type: VC
+      - 
+        content: વેનેઝુએલા
+        type: VE
+      - 
+        content: બ્રિટિશ વર્જિન આઇલેન્ડ
+        type: VG
+      - 
+        content: યુ.એસ વર્જિન આઇલેન્ડ
+        type: VI
+      - 
+        content: વિયેતનામ
+        type: VN
+      - 
+        content: વાનુઆતુ
+        type: VU
+      - 
+        content: વૉલિસ એંડ ફ્યુચુના આઇલેન્ડ્સ
+        type: WF
+      - 
+        content: સમોઆ
+        type: WS
+      - 
+        content: યેમેન
+        type: YE
+      - 
+        content: મેયોટ
+        type: YT
+      - 
+        content: દક્ષિણ આફ્રિકા
+        type: ZA
+      - 
+        content: ઝામ્બિયા
+        type: ZM
+      - 
+        content: ઝિમ્બાબ્વે
+        type: ZW
+      - 
+        content: અજ્ઞાત અથવા અમાન્ય પ્રદેશ
+        type: ZZ
+  transformNames: 
+    transformName: 
+      - 
+        content: BGN
+        type: BGN
+      - 
+        content: સંખ્યા
+        type: Numeric
+      - 
+        content: ધ્વની
+        type: Tone
+      - 
+        content: UNGEGN
+        type: UNGEGN
+      - 
+        content: સ્વરાઘાતો
+        type: x-Accents
+      - 
+        content: પૂર્ણપહોળાઇ
+        type: x-Fullwidth
+      - 
+        content: અર્ધપહોળાઈ
+        type: x-Halfwidth
+      - 
+        content: જેમો
+        type: x-Jamo
+      - 
+        content: પીનયીન
+        type: x-Pinyin
+      - 
+        content: પ્રકાશન
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: મિંગુઓ કેલેન્ડર
+        type: roc
+      colAlternate: 
+        content: પ્રતીકોને અવગણીને સૉર્ટ કરો
+        type: shifted
+      colBackwards: 
+        content: ઉચ્ચારોને વિપરીત સૉર્ટ કરો
+        type: 'yes'
+      colCaseFirst: 
+        content: પ્રથમ અપરકેસ સૉર્ટ કરો
+        type: upper
+      colCaseLevel: 
+        content: કેસ સંવેદી સૉર્ટ કરો
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: કાનાને અલગ રીતે સૉર્ટ કરો
+        type: 'yes'
+      colNormalization: 
+        content: યુનિકોડ સામાન્યકૃતને સૉર્ટ કરો
+        type: 'yes'
+      colNumeric: 
+        content: અંકોને સંખ્યાત્મક રીતે સૉર્ટ કરો
+        type: 'yes'
+      colStrength: 
+        content: ઉચ્ચારો/કેસ/પહોળાઈ સૉર્ટ કરો
+        type: tertiary
+      collation: 
+        content: રેડિકલ-સ્ટ્રોક
+        type: unihan
+      numbers: 
+        content: વાઇ અંકો
+        type: vaii
+  variants: 
+    variant: 
+      - 
+        content: પિનયિન રોમનાઇઝેશન
+        type: PINYIN
+      - 
+        content: વેડ-ગિલ્સ રોમનાઇઝેશન
+        type: WADEGILE
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: યુનાઇટેડ અરબ એમિરેટ્સ
+        type: AED
+      - 
+        displayName: અફ્ગાન અફ્ગાની
+        type: AFN
+      - 
+        displayName: અલ્બેનિયન લેક
+        type: ALL
+      - 
+        displayName: અર્મેનિયન ડ્રેમ
+        type: AMD
+      - 
+        displayName: નેધરલેંડ એંટિલિન ગિલ્ડર
+        type: ANG
+      - 
+        displayName: અંગોલિયન ક્વાન્ઝા
+        type: AOA
+      - 
+        displayName: અર્જેન્ટીના પેસો
+        type: ARS
+      - 
+        displayName: ઑસ્ટ્રેલિયન ડૉલર
+        type: AUD
+      - 
+        displayName: અરુબન ફ્લોરિન
+        type: AWG
+      - 
+        displayName: અઝરબૈજાની મનાત
+        type: AZN
+      - 
+        displayName: બોસ્નિયા અને હર્ઝેગોવિના રૂપાંતર યોગ્ય માર્ક
+        type: BAM
+      - 
+        displayName: બાર્બાડિયન ડોલર
+        type: BBD
+      - 
+        displayName: બાંગલાદેશી ટાકા
+        type: BDT
+      - 
+        displayName: બલ્ગેરીયન લેવ
+        type: BGN
+      - 
+        displayName: બેહરિની દિનાર
+        type: BHD
+      - 
+        displayName: બુરુન્ડિયન ફ્રેંક
+        type: BIF
+      - 
+        displayName: બર્મુડન ડોલર
+        type: BMD
+      - 
+        displayName: બ્રુનેઇ ડોલર
+        type: BND
+      - 
+        displayName: બોલિવિયન બોલિવિયાનો
+        type: BOB
+      - 
+        displayName: બ્રાઝિલીયન રિઆલ
+        type: BRL
+      - 
+        displayName: બહામિયન ડોલર
+        type: BSD
+      - 
+        displayName: ભુતાનિઝ એંગુલ્ત્રમ
+        type: BTN
+      - 
+        displayName: બોત્સવાનન પુલા
+        type: BWP
+      - 
+        displayName: બેલારુશિયન રબલ
+        type: BYR
+      - 
+        displayName: બેલિઝ ડોલર
+        type: BZD
+      - 
+        displayName: કેનેડિયન ડૉલર
+        type: CAD
+      - 
+        displayName: કોંગોલિઝ ફ્રેંક
+        type: CDF
+      - 
+        displayName: સ્વિસ ફ્રેંક
+        type: CHF
+      - 
+        displayName: ચિલિઅન પેસો
+        type: CLP
+      - 
+        displayName: ચાઇનિઝ યુઆન
+        type: CNY
+      - 
+        displayName: કોલમ્બિયન પેસો
+        type: COP
+      - 
+        displayName: કોસ્ટા રિકન કોલોન
+        type: CRC
+      - 
+        displayName: ક્યુબન રૂપાંતર યોગ્ય પેસો
+        type: CUC
+      - 
+        displayName: ક્યુબન પેસો
+        type: CUP
+      - 
+        displayName: કેપ વર્દિયન એસ્કુડો
+        type: CVE
+      - 
+        displayName: ચેક રીપબ્લિક કોરુના
+        type: CZK
+      - 
+        displayName: જિબુટિયન ફ્રેંક
+        type: DJF
+      - 
+        displayName: ડેનિશ ક્રોન
+        type: DKK
+      - 
+        displayName: ડોમિનિકન પેસો
+        type: DOP
+      - 
+        displayName: અલ્જિરિયન દિનાર
+        type: DZD
+      - 
+        displayName: ઇજિપ્તિયન પાઉન્ડ
+        type: EGP
+      - 
+        displayName: એરિટ્રેયન નક્ફા
+        type: ERN
+      - 
+        displayName: એથિયોપિયન બિર
+        type: ETB
+      - 
+        displayName: યુરો
+        type: EUR
+      - 
+        displayName: ફિજિઅન ડોલર
+        type: FJD
+      - 
+        displayName: ફૉકલેન્ડ આઇલેંડ્સ પાઉન્ડ
+        type: FKP
+      - 
+        displayName: બ્રિટિશ પાઉન્ડ સ્ટરલિંગ
+        type: GBP
+      - 
+        displayName: જ્યોર્જિઅન લારી
+        type: GEL
+      - 
+        displayName: ઘાનાઇયન સેડી
+        type: GHS
+      - 
+        displayName: જીબ્રાલ્ટર પાઉન્ડ
+        type: GIP
+      - 
+        displayName: ગેમ્બિયન દલાસી
+        type: GMD
+      - 
+        displayName: ગિનીયન ફ્રેંક
+        type: GNF
+      - 
+        displayName: ગ્વાટેમાલા કુઇટ્સલ
+        type: GTQ
+      - 
+        displayName: ગયાનિઝ ડોલર
+        type: GYD
+      - 
+        displayName: હોંગ કોંગ ડૉલર
+        type: HKD
+      - 
+        displayName: હોન્ડ્યુરન લેમ્પિરા
+        type: HNL
+      - 
+        displayName: ક્રોએશિયન ક્યુના
+        type: HRK
+      - 
+        displayName: હાઇટિઇન ગોર્ડ
+        type: HTG
+      - 
+        displayName: હંગેરીયન ફોરિન્ત
+        type: HUF
+      - 
+        displayName: ઇન્ડોનેશિય રૂપીયા
+        type: IDR
+      - 
+        displayName: ઇઝરેઇલ ન્યુ શેકેલ
+        type: ILS
+      - 
+        displayName: ભારતીય રૂપીયા
+        type: INR
+      - 
+        displayName: ઇરાકી દિનાર
+        type: IQD
+      - 
+        displayName: ઇરાનિયન રિયાલ
+        type: IRR
+      - 
+        displayName: આઇસ્લેંડિક ક્રોના
+        type: ISK
+      - 
+        displayName: જમૈકિયન ડોલર
+        type: JMD
+      - 
+        displayName: જોરડનનું દિનાર
+        type: JOD
+      - 
+        displayName: જાપાનીઝ યેન
+        type: JPY
+      - 
+        displayName: કેન્યેન શિલિંગ
+        type: KES
+      - 
+        displayName: કિર્ગિસ્તાની સોમ
+        type: KGS
+      - 
+        displayName: કેમ્બોડિયન રીઅલ
+        type: KHR
+      - 
+        displayName: કોમોરિઅન ફ્રેંક
+        type: KMF
+      - 
+        displayName: ઉત્તર કોરિયન વન
+        type: KPW
+      - 
+        displayName: દક્ષિણ કોરિયન વન
+        type: KRW
+      - 
+        displayName: કુવૈતી દીનાર
+        type: KWD
+      - 
+        displayName: કેયમેન આઇલેંડ્સ ડોલર
+        type: KYD
+      - 
+        displayName: કઝાકિસ્તાની ટેંગ
+        type: KZT
+      - 
+        displayName: લાઓશિયન કિપ
+        type: LAK
+      - 
+        displayName: લેબેનિઝ પાઉન્ડ
+        type: LBP
+      - 
+        displayName: શ્રી લંકન રૂપી
+        type: LKR
+      - 
+        displayName: લિબેરિયન ડોલર
+        type: LRD
+      - 
+        displayName: લેસોથો લોતી
+        type: LSL
+      - 
+        displayName: લિથુએનિયન લિતાસ
+        type: LTL
+      - 
+        displayName: લાતવિયન લેત્સ
+        type: LVL
+      - 
+        displayName: લિબ્યન દિનાર
+        type: LYD
+      - 
+        displayName: મોરોકન દિરામ
+        type: MAD
+      - 
+        displayName: મોલડોવેન લિયુ
+        type: MDL
+      - 
+        displayName: માલાગેસી અરીઆરી
+        type: MGA
+      - 
+        displayName: મેસેડોનિયન દિનાર
+        type: MKD
+      - 
+        displayName: મયાન્મા ક્યાત
+        type: MMK
+      - 
+        displayName: મોંગોલિયન ટગરિક
+        type: MNT
+      - 
+        displayName: માકાનિઝ પતાકા
+        type: MOP
+      - 
+        displayName: મોરીશેનિયન ઓગુયા
+        type: MRO
+      - 
+        displayName: મૌરીશીઅન રૂપી
+        type: MUR
+      - 
+        displayName: માલ્દિવિયન રુફિયા
+        type: MVR
+      - 
+        displayName: માલાવિયન ક્વાચા
+        type: MWK
+      - 
+        displayName: મેક્સિકન પેસો
+        type: MXN
+      - 
+        displayName: મલેશિયન રિંગ્ગેટ
+        type: MYR
+      - 
+        displayName: મોઝામ્બિકન મેટિકલ
+        type: MZN
+      - 
+        displayName: નામિબિયા ડોલર
+        type: NAD
+      - 
+        displayName: નાઇજીરિયન નૈરા
+        type: NGN
+      - 
+        displayName: નિકારાગુઅન કોર્ડોબા
+        type: NIO
+      - 
+        displayName: નૉર્વેજિયન ક્રોન
+        type: NOK
+      - 
+        displayName: નેપાલિઝ રૂપી
+        type: NPR
+      - 
+        displayName: ન્યૂઝિલેંડ ડૉલર
+        type: NZD
+      - 
+        displayName: ઓમાની રિયાલ
+        type: OMR
+      - 
+        displayName: પનામેનિયન બાલ્બોઆ
+        type: PAB
+      - 
+        displayName: પેરુવિયન ન્યુવો સોલ
+        type: PEN
+      - 
+        displayName: પાપુઆ ન્યૂ ગિનીયન કિના
+        type: PGK
+      - 
+        displayName: ફિલીપાઇન પેસો
+        type: PHP
+      - 
+        displayName: પાકિસ્તાની રૂપી
+        type: PKR
+      - 
+        displayName: પોલિસ ઝ્લોટી
+        type: PLN
+      - 
+        displayName: પરાગ્વેયન ગૌરાની
+        type: PYG
+      - 
+        displayName: કતારી રિયાલ
+        type: QAR
+      - 
+        displayName: રોમાનિયન લેઉ
+        type: RON
+      - 
+        displayName: સર્બિયન દિનાર
+        type: RSD
+      - 
+        displayName: રશિયન રબલ
+        type: RUB
+      - 
+        displayName: રવાંડા ફ્રેંક
+        type: RWF
+      - 
+        displayName: સાઉદી રિયાલ
+        type: SAR
+      - 
+        displayName: સોલોમન આઇલેંડ્સ ડોલર
+        type: SBD
+      - 
+        displayName: સેશેલોઈ રૂપી
+        type: SCR
+      - 
+        displayName: સુદાનિઝ પાઉન્ડ
+        type: SDG
+      - 
+        displayName: સ્વીડિશ ક્રોના
+        type: SEK
+      - 
+        displayName: સિંગાપુર ડૉલર
+        type: SGD
+      - 
+        displayName: સેંટ હેલેના પાઉન્ડ
+        type: SHP
+      - 
+        displayName: સિએરા લિઓનિઅન લિઓન
+        type: SLL
+      - 
+        displayName: સોમાલી શિલિંગ
+        type: SOS
+      - 
+        displayName: સૂરીનામિઝ ડોલર
+        type: SRD
+      - 
+        displayName: દક્ષિણ સુદાનિઝ પાઉન્ડ
+        type: SSP
+      - 
+        displayName: સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા
+        type: STD
+      - 
+        displayName: સાઇરિયન પાઉન્ડ
+        type: SYP
+      - 
+        displayName: સ્વાઝી લિલાન્ગેની
+        type: SZL
+      - 
+        displayName: થાઇ બાહ્ત
+        type: THB
+      - 
+        displayName: તાજિકિસ્તાન સોમોની
+        type: TJS
+      - 
+        displayName: તુર્કમેનિસ્તાન મનત
+        type: TMT
+      - 
+        displayName: ટ્યુનિશિયા દિનાર
+        type: TND
+      - 
+        displayName: ટોંગન પ'અંગા
+        type: TOP
+      - 
+        displayName: તુર્કિશ લિરા
+        type: TRY
+      - 
+        displayName: ત્રિનિદાદ અને ટોબેગો
+        type: TTD
+      - 
+        displayName: ન્યુ તાઇવાન ડૉલર
+        type: TWD
+      - 
+        displayName: તાન્ઝાનિયા શિલિંગ
+        type: TZS
+      - 
+        displayName: યુક્રેનિયન હ્રિવિનિયા
+        type: UAH
+      - 
+        displayName: યુગાંડન શિલિંગ
+        type: UGX
+      - 
+        displayName: યિએસ ડોલર
+        type: USD
+      - 
+        displayName: ઉરુગ્વેયન પેસો
+        type: UYU
+      - 
+        displayName: ઉઝ્બેકિસ્તાન સોમ
+        type: UZS
+      - 
+        displayName: વેનેઝ્વીલિયન બોલિવર
+        type: VEF
+      - 
+        displayName: વિયેતનામીસ ડોંગ
+        type: VND
+      - 
+        displayName: વનૌતુ વાતુ
+        type: VUV
+      - 
+        displayName: સમોઅન તાલા
+        type: WST
+      - 
+        displayName: CFA ફ્રેંક BEAC
+        type: XAF
+      - 
+        displayName: ઇસ્ટ કેરિબિયન ડોલર
+        type: XCD
+      - 
+        displayName: CFA ફ્રેંક BCEAO
+        type: XOF
+      - 
+        displayName: CFP ફ્રેંક
+        type: XPF
+      - 
+        displayName: અજ્ઞાત ચલણ
+        type: XXX
+      - 
+        displayName: યેમેની રિઆલ
+        type: YER
+      - 
+        displayName: દક્ષિણ આફ્રિકી રેંડ
+        type: ZAR
+      - 
+        displayName: ઝામ્બિયન ક્વાચા (1968-2012)
+        type: ZMK
+      - 
+        displayName: ઝામ્બિયન ક્વાચા
+        type: ZMW
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 હજાર
+              count: one
+              type: 1000
+            - 
+              content: 0 હજાર
+              count: other
+              type: 1000
+            - 
+              content: 00 હજાર
+              count: one
+              type: 10000
+            - 
+              content: 00 હજાર
+              count: other
+              type: 10000
+            - 
+              content: 000 હજાર
+              count: one
+              type: 100000
+            - 
+              content: 000 હજાર
+              count: other
+              type: 100000
+            - 
+              content: 0 મિલિયન
+              count: one
+              type: 1000000
+            - 
+              content: 0 મિલિયન
+              count: other
+              type: 1000000
+            - 
+              content: 00 મિલિયન
+              count: one
+              type: 10000000
+            - 
+              content: 00 મિલિયન
+              count: other
+              type: 10000000
+            - 
+              content: 000 મિલિયન
+              count: one
+              type: 100000000
+            - 
+              content: 000 મિલિયન
+              count: other
+              type: 100000000
+            - 
+              content: 0 બિલિયન
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 બિલિયન
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 બિલિયન
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 બિલિયન
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 બિલિયન
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 બિલિયન
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 ટ્રિલિયન
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 ટ્રિલિયન
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 ટ્રિલિયન
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 ટ્રિલિયન
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 ટ્રિલિયન
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 ટ્રિલિયન
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0K
+              count: one
+              draft: contributed
+              type: 1000
+            - 
+              content: 0K
+              count: other
+              draft: contributed
+              type: 1000
+            - 
+              content: 00K
+              count: one
+              draft: contributed
+              type: 10000
+            - 
+              content: 00K
+              count: other
+              draft: contributed
+              type: 10000
+            - 
+              content: 000K
+              count: one
+              draft: contributed
+              type: 100000
+            - 
+              content: 000K
+              count: other
+              draft: contributed
+              type: 100000
+            - 
+              content: 0M
+              count: one
+              draft: contributed
+              type: 1000000
+            - 
+              content: 0M
+              count: other
+              draft: contributed
+              type: 1000000
+            - 
+              content: 00M
+              count: one
+              draft: contributed
+              type: 10000000
+            - 
+              content: 00M
+              count: other
+              draft: contributed
+              type: 10000000
+            - 
+              content: 000M
+              count: one
+              draft: contributed
+              type: 100000000
+            - 
+              content: 000M
+              count: other
+              draft: contributed
+              type: 100000000
+            - 
+              content: 0B
+              count: one
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0B
+              count: other
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 00B
+              count: one
+              draft: contributed
+              type: '10000000000'
+            - 
+              content: 00B
+              count: other
+              draft: contributed
+              type: '10000000000'
+            - 
+              content: 000B
+              count: one
+              draft: contributed
+              type: '100000000000'
+            - 
+              content: 000B
+              count: other
+              draft: contributed
+              type: '100000000000'
+            - 
+              content: 0T
+              count: one
+              draft: contributed
+              type: '1000000000000'
+            - 
+              content: 0T
+              count: other
+              draft: contributed
+              type: '1000000000000'
+            - 
+              content: 00T
+              count: one
+              draft: contributed
+              type: '10000000000000'
+            - 
+              content: 00T
+              count: other
+              draft: contributed
+              type: '10000000000000'
+            - 
+              content: 000T
+              count: one
+              draft: contributed
+              type: '100000000000000'
+            - 
+              content: 000T
+              count: other
+              draft: contributed
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: gujr
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: .
+    exponential: E
+    group: ","
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: ના
+    yesstr: હા
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} દિવસ"
+          count: one
+        - 
+          alt: short
+          content: "{0} દિવસ"
+          count: one
+        - 
+          content: "{0} દિવસ"
+          count: other
+        - 
+          alt: short
+          content: "{0} દિવસ"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} દિવસમાં"
+          count: one
+        - 
+          content: "{0} દિવસમાં"
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} દિવસ પહેલા"
+          count: one
+        - 
+          content: "{0} દિવસ પહેલા"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} કલાક"
+          count: one
+        - 
+          alt: short
+          content: "{0} કલાક"
+          count: one
+        - 
+          content: "{0} કલાક"
+          count: other
+        - 
+          alt: short
+          content: "{0} કલાક"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} કલાકમાં"
+          count: one
+        - 
+          content: "{0} કલાકમાં"
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} કલાક પહેલા"
+          count: one
+        - 
+          content: "{0} કલાક પહેલા"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} મિનિટ"
+          count: one
+        - 
+          alt: short
+          content: "{0} મિનિટ"
+          count: one
+        - 
+          content: "{0} મિનિટ"
+          count: other
+        - 
+          alt: short
+          content: "{0} મિનિટ"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: "{0} મિનિટમાં"
+          count: one
+        - 
+          content: "{0} મિનિટમાં"
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: "{0} મિનિટ પહેલા"
+          count: one
+        - 
+          content: "{0} મિનિટ પહેલા"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} મહિનો"
+          count: one
+        - 
+          alt: short
+          content: "{0} મહિનો"
+          count: one
+        - 
+          content: "{0} મહિનો"
+          count: other
+        - 
+          alt: short
+          content: "{0} મહિનો"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: "{0} મહિનામાં"
+          count: one
+        - 
+          content: "{0} મહિનામાં"
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: "{0} મહિના પહેલા"
+          count: one
+        - 
+          content: "{0} મહિના પહેલા"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} સેકંડ"
+          count: one
+        - 
+          alt: short
+          content: "{0} સેકંડ"
+          count: one
+        - 
+          content: "{0} સેકંડ"
+          count: other
+        - 
+          alt: short
+          content: "{0} સેકંડ"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: "{0} સેકંડમાં"
+          count: one
+        - 
+          content: "{0} સેકંડમાં"
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: "{0} સેકંડ પહેલા"
+          count: one
+        - 
+          content: "{0} સેકંડ પહેલા"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} અઠવાડિયું"
+          count: one
+        - 
+          alt: short
+          content: "{0} અઠ."
+          count: one
+        - 
+          content: "{0} અઠવાડિયા"
+          count: other
+        - 
+          alt: short
+          content: "{0} અઠ."
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: "{0} અઠવાડિયામાં"
+          count: one
+        - 
+          content: "{0} અઠવાડિયામાં"
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: "{0} અઠવાડિયા પહેલા"
+          count: one
+        - 
+          content: "{0} અઠવાડિયા પહેલા"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} વર્ષ"
+          count: one
+        - 
+          alt: short
+          content: "{0} વર્ષ"
+          count: one
+        - 
+          content: "{0} વર્ષ"
+          count: other
+        - 
+          alt: short
+          content: "{0} વર્ષ"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: "{0} વર્ષમાં"
+          count: one
+        - 
+          content: "{0} વર્ષમાં"
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: "{0} વર્ષ પહેલા"
+          count: one
+        - 
+          content: "{0} વર્ષ પહેલા"
+          count: other

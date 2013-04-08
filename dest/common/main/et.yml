@@ -1,0 +1,7788 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0} …"
+      type: final
+    - 
+      content: … {0}
+      type: initial
+    - 
+      content: "{0} … {1}"
+      type: medial
+  exemplarCharacters: 
+    - "[a b c d e f g h i j k l m n o p q r s š z ž t u v w õ ä ö ü x y]"
+    - 
+      content: "[á à â å ā æ ç é è ê ë ē í ì î ï ī ñ ó ò ŏ ô ø ō œ ú ù û ū]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S Š Z Ž T U V Õ Ä Ö Ü X Y]"
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d. MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d. MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd.MM.y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.MM.yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: H:mm.ss
+              M: 
+                content: M
+              MEd: 
+                content: E, d.M
+              MMM: 
+                content: MMMM
+              MMMEd: 
+                content: E, d. MMM
+              MMMMEd: 
+                content: E, d. MMMM
+              MMMMd: 
+                content: d. MMMM
+              MMMd: 
+                content: d. MMM
+              MMdd: 
+                content: dd.MM
+              Md: 
+                content: d.M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm.ss a
+              mmss: 
+                content: mm.ss
+              ms: 
+                content: mm.ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M.y
+              yMEd: 
+                content: E, d.M y
+              yMM: 
+                content: MM.y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, d. MMMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d. MMM y
+              yMd: 
+                content: d.M.y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0}–{1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm–HH.mm
+                  m: 
+                    content: HH.mm–HH.mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm–HH.mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM–E, dd.MM
+                  d: 
+                    content: E, dd.MM–E, dd.MM
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM–E, d. MMM
+                  d: 
+                    content: E, d. MMM–E, d. MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM
+                  d: 
+                    content: d.–d. MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM–dd.MM
+                  d: 
+                    content: dd.MM–dd.MM
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: HH.mma–HH.mma v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y–MM.y
+                  "y": 
+                    content: MM.y–MM.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM.y–E, dd.MM.y
+                  d: 
+                    content: E, dd.MM.y–E, dd.MM.y
+                  "y": 
+                    content: E, dd.MM.y–E, dd.MM.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y–MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM–E, d. MMM y
+                  d: 
+                    content: E, d. MMM–E, d. MMM y
+                  "y": 
+                    content: E, d. MMM y–E, d. MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM y
+                  d: 
+                    content: d.–d. MMM y
+                  "y": 
+                    content: d. MMM y–d. MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y–dd.MM.y
+                  d: 
+                    content: dd.MM.y–dd.MM.y
+                  "y": 
+                    content: dd.MM.y–dd.MM.y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d. MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d. MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd.MM.y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.MM.yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: H:mm.ss
+              M: 
+                content: M
+              MEd: 
+                content: E, d.M
+              MMM: 
+                content: MMMM
+              MMMEd: 
+                content: E, d. MMM
+              MMMMEd: 
+                content: E, d. MMMM
+              MMMMd: 
+                content: d. MMMM
+              MMMd: 
+                content: d. MMM
+              MMdd: 
+                content: dd.MM
+              Md: 
+                content: d.M
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm.ss a
+              mmss: 
+                content: mm.ss
+              ms: 
+                content: mm.ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M.y
+              yMEd: 
+                content: E, d.M y
+              yMM: 
+                content: MM.y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, d. MMMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d. MMM y
+              yMd: 
+                content: d.M.y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0}–{1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm–HH.mm
+                  m: 
+                    content: HH.mm–HH.mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH.mm–HH.mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM–E, dd.MM
+                  d: 
+                    content: E, dd.MM–E, dd.MM
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM–E, d. MMM
+                  d: 
+                    content: E, d. MMM–E, d. MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM
+                  d: 
+                    content: d.–d. MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM–dd.MM
+                  d: 
+                    content: dd.MM–dd.MM
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: HH.mma–HH.mma v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y–MM.y
+                  "y": 
+                    content: MM.y–MM.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM.y–E, dd.MM.y
+                  d: 
+                    content: E, dd.MM.y–E, dd.MM.y
+                  "y": 
+                    content: E, dd.MM.y–E, dd.MM.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y–MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM–E, d. MMM y
+                  d: 
+                    content: E, d. MMM–E, d. MMM y
+                  "y": 
+                    content: E, d. MMM y–E, d. MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM y
+                  d: 
+                    content: d.–d. MMM y
+                  "y": 
+                    content: d. MMM y–d. MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y–dd.MM.y
+                  d: 
+                    content: dd.MM.y–dd.MM.y
+                  "y": 
+                    content: dd.MM.y–dd.MM.y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: e.k.
+                    type: am
+                  - 
+                    content: p.k.
+                    type: pm
+                type: abbreviated
+              - 
+                dayPeriod: 
+                  - 
+                    content: AM
+                    type: am
+                  - 
+                    content: PM
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: P
+                      type: sun
+                    - 
+                      content: E
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: K
+                      type: wed
+                    - 
+                      content: 'N'
+                      type: thu
+                    - 
+                      content: R
+                      type: fri
+                    - 
+                      content: L
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: P
+                      type: sun
+                    - 
+                      content: E
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: K
+                      type: wed
+                    - 
+                      content: 'N'
+                      type: thu
+                    - 
+                      content: R
+                      type: fri
+                    - 
+                      content: L
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: P
+                      type: sun
+                    - 
+                      content: E
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: K
+                      type: wed
+                    - 
+                      content: 'N'
+                      type: thu
+                    - 
+                      content: R
+                      type: fri
+                    - 
+                      content: L
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: pühapäev
+                      type: sun
+                    - 
+                      content: esmaspäev
+                      type: mon
+                    - 
+                      content: teisipäev
+                      type: tue
+                    - 
+                      content: kolmapäev
+                      type: wed
+                    - 
+                      content: neljapäev
+                      type: thu
+                    - 
+                      content: reede
+                      type: fri
+                    - 
+                      content: laupäev
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: P
+                      type: sun
+                    - 
+                      content: E
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: K
+                      type: wed
+                    - 
+                      content: 'N'
+                      type: thu
+                    - 
+                      content: R
+                      type: fri
+                    - 
+                      content: L
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: P
+                      type: sun
+                    - 
+                      content: E
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: K
+                      type: wed
+                    - 
+                      content: 'N'
+                      type: thu
+                    - 
+                      content: R
+                      type: fri
+                    - 
+                      content: L
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: P
+                      type: sun
+                    - 
+                      content: E
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: K
+                      type: wed
+                    - 
+                      content: 'N'
+                      type: thu
+                    - 
+                      content: R
+                      type: fri
+                    - 
+                      content: L
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: pühapäev
+                      type: sun
+                    - 
+                      content: esmaspäev
+                      type: mon
+                    - 
+                      content: teisipäev
+                      type: tue
+                    - 
+                      content: kolmapäev
+                      type: wed
+                    - 
+                      content: neljapäev
+                      type: thu
+                    - 
+                      content: reede
+                      type: fri
+                    - 
+                      content: laupäev
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: e.m.a.
+                type: 0
+              - 
+                content: m.a.j.
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: enne meie aega
+                type: 0
+              - 
+                content: meie aja järgi
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: jaan
+                      type: 1
+                    - 
+                      content: veebr
+                      type: 2
+                    - 
+                      content: märts
+                      type: 3
+                    - 
+                      content: apr
+                      type: 4
+                    - 
+                      content: mai
+                      type: 5
+                    - 
+                      content: juuni
+                      type: 6
+                    - 
+                      content: juuli
+                      type: 7
+                    - 
+                      content: aug
+                      type: 8
+                    - 
+                      content: sept
+                      type: 9
+                    - 
+                      content: okt
+                      type: 10
+                    - 
+                      content: nov
+                      type: 11
+                    - 
+                      content: dets
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      type: 1
+                    - 
+                      content: V
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: A
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: J
+                      type: 6
+                    - 
+                      content: J
+                      type: 7
+                    - 
+                      content: A
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: D
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: jaanuar
+                      type: 1
+                    - 
+                      content: veebruar
+                      type: 2
+                    - 
+                      content: märts
+                      type: 3
+                    - 
+                      content: aprill
+                      type: 4
+                    - 
+                      content: mai
+                      type: 5
+                    - 
+                      content: juuni
+                      type: 6
+                    - 
+                      content: juuli
+                      type: 7
+                    - 
+                      content: august
+                      type: 8
+                    - 
+                      content: september
+                      type: 9
+                    - 
+                      content: oktoober
+                      type: 10
+                    - 
+                      content: november
+                      type: 11
+                    - 
+                      content: detsember
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: jaan
+                      type: 1
+                    - 
+                      content: veebr
+                      type: 2
+                    - 
+                      content: märts
+                      type: 3
+                    - 
+                      content: apr
+                      type: 4
+                    - 
+                      content: mai
+                      type: 5
+                    - 
+                      content: juuni
+                      type: 6
+                    - 
+                      content: juuli
+                      type: 7
+                    - 
+                      content: aug
+                      type: 8
+                    - 
+                      content: sept
+                      type: 9
+                    - 
+                      content: okt
+                      type: 10
+                    - 
+                      content: nov
+                      type: 11
+                    - 
+                      content: dets
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      type: 1
+                    - 
+                      content: V
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: A
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: J
+                      type: 6
+                    - 
+                      content: J
+                      type: 7
+                    - 
+                      content: A
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: D
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: jaanuar
+                      type: 1
+                    - 
+                      content: veebruar
+                      type: 2
+                    - 
+                      content: märts
+                      type: 3
+                    - 
+                      content: aprill
+                      type: 4
+                    - 
+                      content: mai
+                      type: 5
+                    - 
+                      content: juuni
+                      type: 6
+                    - 
+                      content: juuli
+                      type: 7
+                    - 
+                      content: august
+                      type: 8
+                    - 
+                      content: september
+                      type: 9
+                    - 
+                      content: oktoober
+                      type: 10
+                    - 
+                      content: november
+                      type: 11
+                    - 
+                      content: detsember
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: K1
+                      type: 1
+                    - 
+                      content: K2
+                      type: 2
+                    - 
+                      content: K3
+                      type: 3
+                    - 
+                      content: K4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1. kvartal
+                      type: 1
+                    - 
+                      content: 2. kvartal
+                      type: 2
+                    - 
+                      content: 3. kvartal
+                      type: 3
+                    - 
+                      content: 4. kvartal
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: K1
+                      type: 1
+                    - 
+                      content: K2
+                      type: 2
+                    - 
+                      content: K3
+                      type: 3
+                    - 
+                      content: K4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: '1.'
+                      type: 1
+                    - 
+                      content: '2.'
+                      type: 2
+                    - 
+                      content: '3.'
+                      type: 3
+                    - 
+                      content: '4.'
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1. kvartal
+                      type: 1
+                    - 
+                      content: 2. kvartal
+                      type: 2
+                    - 
+                      content: 3. kvartal
+                      type: 3
+                    - 
+                      content: 4. kvartal
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: H:mm.ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: H:mm.ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: H:mm.ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: H:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: ajastu
+        type: era
+      - 
+        displayName: aasta
+        relative: 
+          - 
+            content: Eelmine aasta
+            type: -1
+          - 
+            content: Sel aastal
+            type: 0
+          - 
+            content: Järgmine aasta
+            type: 1
+        type: year
+      - 
+        displayName: kuu
+        relative: 
+          - 
+            content: Eelmine kuu
+            type: -1
+          - 
+            content: See kuu
+            type: 0
+          - 
+            content: Järgmine kuu
+            type: 1
+        type: month
+      - 
+        displayName: nädal
+        relative: 
+          - 
+            content: Eelmine nädal
+            type: -1
+          - 
+            content: See nädal
+            type: 0
+          - 
+            content: Järgmine nädal
+            type: 1
+        type: week
+      - 
+        displayName: päev
+        relative: 
+          - 
+            content: üleeile
+            type: -2
+          - 
+            content: eile
+            type: -1
+          - 
+            content: täna
+            type: 0
+          - 
+            content: homme
+            type: 1
+          - 
+            content: ülehomme
+            type: 2
+        type: day
+      - 
+        displayName: nädalapäev
+        type: weekday
+      - 
+        displayName: enne/pärast lõunat
+        type: dayperiod
+      - 
+        displayName: tund
+        type: hour
+      - 
+        displayName: minut
+        type: minute
+      - 
+        displayName: sekund
+        type: second
+      - 
+        displayName: vöönd
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          daylight: Acre suveaeg
+          generic: Acre aeg
+          standard: Acre standardaeg
+        type: Acre
+      - 
+        long: 
+          standard: Afganistaani aeg
+        type: Afghanistan
+      - 
+        long: 
+          standard: Kesk-Aafrika aeg
+        type: Africa_Central
+      - 
+        long: 
+          standard: Ida-Aafrika aeg
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Lõuna-Aafrika standardaeg
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Lääne-Aafrika suveaeg
+          generic: Lääne-Aafrika aeg
+          standard: Lääne-Aafrika standardaeg
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Alaska suveaeg
+          generic: Alaska aeg
+          standard: Alaska standardaeg
+        type: Alaska
+      - 
+        long: 
+          daylight: Amazonase suveaeg
+          generic: Amazonase aeg
+          standard: Amazonase standardaeg
+        type: Amazon
+      - 
+        long: 
+          daylight: Kesk-Ameerika suveaeg
+          generic: Kesk-Ameerika aeg
+          standard: Kesk-Ameerika standardaeg
+        type: America_Central
+      - 
+        long: 
+          daylight: Idaranniku suveaeg
+          generic: Idaranniku aeg
+          standard: Idaranniku standardaeg
+        type: America_Eastern
+      - 
+        long: 
+          daylight: Mäestikuvööndi suveaeg
+          generic: Mäestikuvööndi aeg
+          standard: Mäestikuvööndi standardaeg
+        type: America_Mountain
+      - 
+        long: 
+          daylight: Vaikse ookeani suveaeg
+          generic: Vaikse ookeani aeg
+          standard: Vaikse ookeani standardaeg
+        type: America_Pacific
+      - 
+        long: 
+          daylight: Anadõri suveaeg
+          generic: Anadõri aeg
+          standard: Anadõri standardaeg
+        type: Anadyr
+      - 
+        long: 
+          daylight: Araabia suveaeg
+          generic: Araabia aeg
+          standard: Araabia standardaeg
+        type: Arabian
+      - 
+        long: 
+          daylight: Argentina suveaeg
+          generic: Argentina aeg
+          standard: Argentina standardaeg
+        type: Argentina
+      - 
+        long: 
+          daylight: Lääne-Argentina suveaeg
+          generic: Lääne-Argentina aeg
+          standard: Lääne-Argentina standardaeg
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: Armeenia suveaeg
+          generic: Armeenia aeg
+          standard: Armeenia standardaeg
+        type: Armenia
+      - 
+        long: 
+          daylight: Atlandi suveaeg
+          generic: Atlandi aeg
+          standard: Atlandi standardaeg
+        type: Atlantic
+      - 
+        long: 
+          daylight: Kesk-Austraalia suveaeg
+          generic: Kesk-Austraalia aeg
+          standard: Kesk-Austraalia standardaeg
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Kesk-Lääne Austraalia suveaeg
+          generic: Kesk-Lääne Austraalia aeg
+          standard: Kesk-Lääne Austraalia standardaeg
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Ida-Austraalia suveaeg
+          generic: Ida-Austraalia aeg
+          standard: Ida-Austraalia standardaeg
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Lääne-Austraalia suveaeg
+          generic: Lääne-Austraalia aeg
+          standard: Lääne-Austraalia standardaeg
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Aserbaidžaani suveaeg
+          generic: Aserbaidžaani aeg
+          standard: Aserbaidžaani standardaeg
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: Assooride suveaeg
+          generic: Assooride aeg
+          standard: Assooride standardaeg
+        type: Azores
+      - 
+        long: 
+          daylight: Bangladeshi suveaeg
+          generic: Bangladeshi aeg
+          standard: Bangladeshi standardaeg
+        type: Bangladesh
+      - 
+        long: 
+          standard: Bhutani aeg
+        type: Bhutan
+      - 
+        long: 
+          standard: Boliivia aeg
+        type: Bolivia
+      - 
+        long: 
+          daylight: Brasiilia suveaeg
+          generic: Brasiilia aeg
+          standard: Brasiilia standardaeg
+        type: Brasilia
+      - 
+        long: 
+          standard: Brunei aeg
+        type: Brunei
+      - 
+        long: 
+          daylight: Roheneemesaarte suveaeg
+          generic: Roheneemesaarte aeg
+          standard: Roheneemesaarte standardaeg
+        type: Cape_Verde
+      - 
+        long: 
+          standard: Tšamorro standardaeg
+        type: Chamorro
+      - 
+        long: 
+          daylight: Chathami suveaeg
+          generic: Chathami aeg
+          standard: Chathami standardaeg
+        type: Chatham
+      - 
+        long: 
+          daylight: Tšiili suveaeg
+          generic: Tšiili aeg
+          standard: Tšiili standardaeg
+        type: Chile
+      - 
+        long: 
+          daylight: Hiina suveaeg
+          generic: Hiina aeg
+          standard: Hiina standardaeg
+        type: China
+      - 
+        long: 
+          daylight: Tšojbalsani suveaeg
+          generic: Tšojbalsani aeg
+          standard: Tšojbalsani standardaeg
+        type: Choibalsan
+      - 
+        long: 
+          standard: Jõulusaare aeg
+        type: Christmas
+      - 
+        long: 
+          standard: Kookossaarte aeg
+        type: Cocos
+      - 
+        long: 
+          daylight: Colombia suveaeg
+          generic: Colombia aeg
+          standard: Colombia standardaeg
+        type: Colombia
+      - 
+        long: 
+          daylight: Cooki saarte osaline suveaeg
+          generic: Cooki saarte aeg
+          standard: Cooki saarte standardaeg
+        type: Cook
+      - 
+        long: 
+          daylight: Kuuba suveaeg
+          generic: Kuuba aeg
+          standard: Kuuba standardaeg
+        type: Cuba
+      - 
+        long: 
+          standard: Davise aeg
+        type: Davis
+      - 
+        long: 
+          standard: Dumont-d'Urville'i aeg
+        type: DumontDUrville
+      - 
+        long: 
+          standard: Ida-Timori aeg
+        type: East_Timor
+      - 
+        long: 
+          daylight: Lihavõttesaare suveaeg
+          generic: Lihavõttesaare aeg
+          standard: Lihavõttesaare standardaeg
+        type: Easter
+      - 
+        long: 
+          standard: Ecuadori aeg
+        type: Ecuador
+      - 
+        long: 
+          daylight: Kesk-Euroopa suveaeg
+          generic: Kesk-Euroopa aeg
+          standard: Kesk-Euroopa standardaeg
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Ida-Euroopa suveaeg
+          generic: Ida-Euroopa aeg
+          standard: Ida-Euroopa standardaeg
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Lääne-Euroopa suveaeg
+          generic: Lääne-Euroopa aeg
+          standard: Lääne-Euroopa standardaeg
+        type: Europe_Western
+      - 
+        long: 
+          daylight: Falklandi saarte suveaeg
+          generic: Falklandi saarte aeg
+          standard: Falklandi saarte standardaeg
+        type: Falkland
+      - 
+        long: 
+          daylight: Fidži suveaeg
+          generic: Fidži aeg
+          standard: Fidži standardaeg
+        type: Fiji
+      - 
+        long: 
+          standard: Prantsuse Guajaana aeg
+        type: French_Guiana
+      - 
+        long: 
+          standard: Prantsuse Lõunaalade ja Antarktika aeg
+        type: French_Southern
+      - 
+        long: 
+          standard: Galapagose aeg
+        type: Galapagos
+      - 
+        long: 
+          standard: Gambier' aeg
+        type: Gambier
+      - 
+        long: 
+          daylight: Gruusia suveaeg
+          generic: Gruusia aeg
+          standard: Gruusia standardaeg
+        type: Georgia
+      - 
+        long: 
+          standard: Gilberti saarte aeg
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: Greenwichi aeg
+        type: GMT
+      - 
+        long: 
+          daylight: Ida-Gröönimaa suveaeg
+          generic: Ida-Gröönimaa aeg
+          standard: Ida-Gröönimaa standardaeg
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: Lääne-Gröönimaa suveaeg
+          generic: Lääne-Gröönimaa aeg
+          standard: Lääne-Gröönimaa standardaeg
+        type: Greenland_Western
+      - 
+        long: 
+          standard: Guami standardaeg
+        type: Guam
+      - 
+        long: 
+          standard: Pärsia lahe standardaeg
+        type: Gulf
+      - 
+        long: 
+          standard: Guyana aeg
+        type: Guyana
+      - 
+        long: 
+          daylight: Hawaii-Aleuudi suveaeg
+          generic: Hawaii-aleuudi aeg
+          standard: Hawaii-Aleuudi standardaeg
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: Hongkongi suveaeg
+          generic: Hongkongi aeg
+          standard: Hongkongi standardaeg
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: Hovdi suveaeg
+          generic: Hovdi aeg
+          standard: Hovdi standardaeg
+        type: Hovd
+      - 
+        long: 
+          standard: India aeg
+        type: India
+      - 
+        long: 
+          standard: India ookeani aeg
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: Indohiina aeg
+        type: Indochina
+      - 
+        long: 
+          standard: Kesk-Indoneesia aeg
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: Ida-Indoneesia aeg
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: Lääne-Indoneesia aeg
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: Iraani suveaeg
+          generic: Iraani aeg
+          standard: Iraani standardaeg
+        type: Iran
+      - 
+        long: 
+          daylight: Irkutski suveaeg
+          generic: Irkutski aeg
+          standard: Irkutski standardaeg
+        type: Irkutsk
+      - 
+        long: 
+          daylight: Iisraeli suveaeg
+          generic: Iisraeli aeg
+          standard: Iisraeli standardaeg
+        type: Israel
+      - 
+        long: 
+          daylight: Jaapani suveaeg
+          generic: Jaapani aeg
+          standard: Jaapani standardaeg
+        type: Japan
+      - 
+        long: 
+          daylight: Kamtšatka suveaeg
+          generic: Kamtšatka aeg
+          standard: Kamtšatka standardaeg
+        type: Kamchatka
+      - 
+        long: 
+          standard: Ida-Kasahstani aeg
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: Lääne-Kasahstani aeg
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: Korea suveaeg
+          generic: Korea aeg
+          standard: Korea standardaeg
+        type: Korea
+      - 
+        long: 
+          standard: Kosrae aeg
+        type: Kosrae
+      - 
+        long: 
+          daylight: Krasnojarski suveaeg
+          generic: Krasnojarski aeg
+          standard: Krasnojarski standardaeg
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: Kõrgõzstani aeg
+        type: Kyrgystan
+      - 
+        long: 
+          standard: Line'i saarte aeg
+        type: Line_Islands
+      - 
+        long: 
+          daylight: Lord Howe suveaeg
+          generic: Lord Howe aeg
+          standard: Lord Howe standardaeg
+        type: Lord_Howe
+      - 
+        long: 
+          standard: Macquarie saare aeg
+        type: Macquarie
+      - 
+        long: 
+          daylight: Magadani suveaeg
+          generic: Magadani aeg
+          standard: Magadani standardaeg
+        type: Magadan
+      - 
+        long: 
+          standard: Malaisia ​​aeg
+        type: Malaysia
+      - 
+        long: 
+          standard: Maldiivide aeg
+        type: Maldives
+      - 
+        long: 
+          standard: Markiisaarte aeg
+        type: Marquesas
+      - 
+        long: 
+          standard: Marshalli saarte aeg
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: Mauritiuse suveaeg
+          generic: Mauritiuse aeg
+          standard: Mauritiuse standardaeg
+        type: Mauritius
+      - 
+        long: 
+          standard: Mawsoni aeg
+        type: Mawson
+      - 
+        long: 
+          daylight: Ulaanbaatari suveaeg
+          generic: Ulaanbaatari aeg
+          standard: Ulaanbaatari standardaeg
+        type: Mongolia
+      - 
+        long: 
+          daylight: Moskva suveaeg
+          generic: Moskva aeg
+          standard: Moskva standardaeg
+        type: Moscow
+      - 
+        long: 
+          standard: Birma aeg
+        type: Myanmar
+      - 
+        long: 
+          standard: Nauru aeg
+        type: Nauru
+      - 
+        long: 
+          standard: Nepali aeg
+        type: Nepal
+      - 
+        long: 
+          daylight: Uus-Kaledoonia suveaeg
+          generic: Uus-Kaledoonia aeg
+          standard: Uus-Kaledoonia standardaeg
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: Uus-Meremaa suveaeg
+          generic: Uus-Meremaa aeg
+          standard: Uus-Meremaa standardaeg
+        type: New_Zealand
+      - 
+        long: 
+          daylight: Newfoundlandi suveaeg
+          generic: Newfoundlandi aeg
+          standard: Newfoundlandi standardaeg
+        type: Newfoundland
+      - 
+        long: 
+          standard: Niue aeg
+        type: Niue
+      - 
+        long: 
+          standard: Norfolki saarte aeg
+        type: Norfolk
+      - 
+        long: 
+          daylight: Fernando de Noronha suveaeg
+          generic: Fernando de Noronha aeg
+          standard: Fernando de Noronha standardaeg
+        type: Noronha
+      - 
+        long: 
+          daylight: Novosibirski suveaeg
+          generic: Novosibirski aeg
+          standard: Novosibirski standardaeg
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: Omski suveaeg
+          generic: Omski aeg
+          standard: Omski standardaeg
+        type: Omsk
+      - 
+        long: 
+          daylight: Pakistani suveaeg
+          generic: Pakistani aeg
+          standard: Pakistani standardaeg
+        type: Pakistan
+      - 
+        long: 
+          standard: Belau aeg
+        type: Palau
+      - 
+        long: 
+          standard: Paapua Uus-Guinea aeg
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: Paraguay suveaeg
+          generic: Paraguay aeg
+          standard: Paraguay standardaeg
+        type: Paraguay
+      - 
+        long: 
+          daylight: Peruu suveaeg
+          generic: Peruu aeg
+          standard: Peruu standardaeg
+        type: Peru
+      - 
+        long: 
+          daylight: Filipiinide suveaeg
+          generic: Filipiinide aeg
+          standard: Filipiinide standardaeg
+        type: Philippines
+      - 
+        long: 
+          standard: Fööniksisaarte aeg
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: Saint-Pierre’i ja Miqueloni suveaeg
+          generic: Saint-Pierre’i ja Miqueloni aeg
+          standard: Saint-Pierre’i ja Miqueloni standardaeg
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: Pitcairni aeg
+        type: Pitcairn
+      - 
+        long: 
+          standard: Pohnpei aeg
+        type: Ponape
+      - 
+        long: 
+          standard: Réunioni aeg
+        type: Reunion
+      - 
+        long: 
+          standard: Rothera aeg
+        type: Rothera
+      - 
+        long: 
+          daylight: Sahhalini suveaeg
+          generic: Sahhalini aeg
+          standard: Sahhalini standardaeg
+        type: Sakhalin
+      - 
+        long: 
+          daylight: Samara suveaeg
+          generic: Samara aeg
+          standard: Samara standardaeg
+        type: Samara
+      - 
+        long: 
+          daylight: Samoa suveaeg
+          generic: Samoa aeg
+          standard: Samoa standardaeg
+        type: Samoa
+      - 
+        long: 
+          standard: Seišellide aeg
+        type: Seychelles
+      - 
+        long: 
+          standard: Singapuri standardaeg
+        type: Singapore
+      - 
+        long: 
+          standard: Saalomoni saarte aeg
+        type: Solomon
+      - 
+        long: 
+          standard: Lõuna-Georgia aeg
+        type: South_Georgia
+      - 
+        long: 
+          standard: Syowa aeg
+        type: Syowa
+      - 
+        long: 
+          standard: Tahiti aeg
+        type: Tahiti
+      - 
+        long: 
+          daylight: Taipei suveaeg
+          generic: Taipei aeg
+          standard: Taipei standardaeg
+        type: Taipei
+      - 
+        long: 
+          standard: Tadžikistani aeg
+        type: Tajikistan
+      - 
+        long: 
+          standard: Tokelau aeg
+        type: Tokelau
+      - 
+        long: 
+          daylight: Tonga suveaeg
+          generic: Tonga aeg
+          standard: Tonga standardaeg
+        type: Tonga
+      - 
+        long: 
+          standard: Chuuki aeg
+        type: Truk
+      - 
+        long: 
+          daylight: Türkmenistani suveaeg
+          generic: Türkmenistani aeg
+          standard: Türkmenistani standardaeg
+        type: Turkmenistan
+      - 
+        long: 
+          standard: Tuvalu aeg
+        type: Tuvalu
+      - 
+        long: 
+          daylight: Uruguay suveaeg
+          generic: Uruguay aeg
+          standard: Uruguay standardaeg
+        type: Uruguay
+      - 
+        long: 
+          daylight: Usbekistani suveaeg
+          generic: Usbekistani aeg
+          standard: Usbekistani standardaeg
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: Vanuatu suveaeg
+          generic: Vanuatu aeg
+          standard: Vanuatu standardaeg
+        type: Vanuatu
+      - 
+        long: 
+          standard: Venezuela aeg
+        type: Venezuela
+      - 
+        long: 
+          daylight: Vladivostoki suveaeg
+          generic: Vladivostoki aeg
+          standard: Vladivostoki standardaeg
+        type: Vladivostok
+      - 
+        long: 
+          daylight: Volgogradi suveaeg
+          generic: Volgogradi aeg
+          standard: Volgogradi standardaeg
+        type: Volgograd
+      - 
+        long: 
+          standard: Vostoki aeg
+        type: Vostok
+      - 
+        long: 
+          standard: Wake'i aeg
+        type: Wake
+      - 
+        long: 
+          standard: Wallise ja Futuna aeg
+        type: Wallis
+      - 
+        long: 
+          daylight: Jakutski suveaeg
+          generic: Jakutski aeg
+          standard: Jakutski standardaeg
+        type: Yakutsk
+      - 
+        long: 
+          daylight: Jakaterinburgi suveaeg
+          generic: Jakaterinburgi aeg
+          standard: Jekaterinburgi standardaeg
+        type: Yekaterinburg
+    regionFormat: "{0} aeg"
+    zone: 
+      - 
+        exemplarCity: määramata
+        type: Etc/Unknown
+      - 
+        exemplarCity: Jerevan
+        type: Asia/Yerevan
+      - 
+        exemplarCity: Lõunapoolus
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: Dumont d’Urville
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: Viin
+        type: Europe/Vienna
+      - 
+        exemplarCity: Brüssel
+        type: Europe/Brussels
+      - 
+        exemplarCity: Saint Barthélemy
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: Atikokan
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: St. John’s
+        type: America/St_Johns
+      - 
+        exemplarCity: Zürich
+        type: Europe/Zurich
+      - 
+        exemplarCity: Lihavõttesaar
+        type: Pacific/Easter
+      - 
+        exemplarCity: Havanna
+        type: America/Havana
+      - 
+        exemplarCity: Roheneemesaared
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: Curaçao
+        type: America/Curacao
+      - 
+        exemplarCity: Jõulusaar
+        type: Indian/Christmas
+      - 
+        exemplarCity: Praha
+        type: Europe/Prague
+      - 
+        exemplarCity: Berliin
+        type: Europe/Berlin
+      - 
+        exemplarCity: Kopenhaagen
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: Alžiir
+        type: Africa/Algiers
+      - 
+        exemplarCity: Kairo
+        type: Africa/Cairo
+      - 
+        exemplarCity: Asmara
+        type: Africa/Asmera
+      - 
+        exemplarCity: Kanaari saared
+        type: Atlantic/Canary
+      - 
+        exemplarCity: Helsingi
+        type: Europe/Helsinki
+      - 
+        exemplarCity: Fidži
+        type: Pacific/Fiji
+      - 
+        exemplarCity: Chuuk
+        type: Pacific/Truk
+      - 
+        exemplarCity: Pohnpei
+        type: Pacific/Ponape
+      - 
+        exemplarCity: Fääri
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: Pariis
+        type: Europe/Paris
+      - 
+        exemplarCity: Thbilisi
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: Ateena
+        type: Europe/Athens
+      - 
+        exemplarCity: Jeruusalemm
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: Mani saar
+        type: Europe/Isle_of_Man
+      - 
+        exemplarCity: Kolkata
+        type: Asia/Calcutta
+      - 
+        exemplarCity: Bagdad
+        type: Asia/Baghdad
+      - 
+        exemplarCity: Teheran
+        type: Asia/Tehran
+      - 
+        exemplarCity: Rooma
+        type: Europe/Rome
+      - 
+        exemplarCity: Biškek
+        type: Asia/Bishkek
+      - 
+        exemplarCity: St. Kitts
+        type: America/St_Kitts
+      - 
+        exemplarCity: Kuveit
+        type: Asia/Kuwait
+      - 
+        exemplarCity: Aktau
+        type: Asia/Aqtau
+      - 
+        exemplarCity: Kõzõlorda
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: Almatõ
+        type: Asia/Almaty
+      - 
+        exemplarCity: St. Lucia
+        type: America/St_Lucia
+      - 
+        exemplarCity: Riia
+        type: Europe/Riga
+      - 
+        exemplarCity: Maldiivid
+        type: Indian/Maldives
+      - 
+        exemplarCity: Kathmandu
+        type: Asia/Katmandu
+      - 
+        exemplarCity: Varssavi
+        type: Europe/Warsaw
+      - 
+        exemplarCity: Assoorid
+        type: Atlantic/Azores
+      - 
+        exemplarCity: Lissabon
+        type: Europe/Lisbon
+      - 
+        exemplarCity: Asunción
+        type: America/Asuncion
+      - 
+        exemplarCity: Katar
+        type: Asia/Qatar
+      - 
+        exemplarCity: Réunion
+        type: Indian/Reunion
+      - 
+        exemplarCity: Bukarest
+        type: Europe/Bucharest
+      - 
+        exemplarCity: Belgrad
+        type: Europe/Belgrade
+      - 
+        exemplarCity: Moskva
+        type: Europe/Moscow
+      - 
+        exemplarCity: Jekaterinburg
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: Krasnojarsk
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: Jakutsk
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: Sahhalin
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: Kamtšatka
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: Anadõr
+        type: Asia/Anadyr
+      - 
+        exemplarCity: Singapur
+        type: Asia/Singapore
+      - 
+        exemplarCity: St. Helena
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: São Tomé
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: Lower Prince's Quarter
+        type: America/Lower_Princes
+      - 
+        exemplarCity: Damaskus
+        type: Asia/Damascus
+      - 
+        exemplarCity: Dušanbe
+        type: Asia/Dushanbe
+      - 
+        exemplarCity: Asgabat
+        type: Asia/Ashgabat
+      - 
+        exemplarCity: Užgorod
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: Kiiev
+        type: Europe/Kiev
+      - 
+        exemplarCity: Zaporožje
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: Beulah, North Dakota
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: New Salem, North Dakota
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: Center, North Dakota
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: Vincennes, Indiana
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: Petersburg, Indiana
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: Tell City, Indiana
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: Knox, Indiana
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: Winamac, Indiana
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: Marengo, Indiana
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: Vevay, Indiana
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: Monticello, Kentucky
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: Taškent
+        type: Asia/Tashkent
+      - 
+        exemplarCity: Vatikan
+        type: Europe/Vatican
+      - 
+        exemplarCity: St. Vincent
+        type: America/St_Vincent
+      - 
+        exemplarCity: St. Thomas
+        type: America/St_Thomas
+      - 
+        exemplarCity: Ho Chi Minh
+        type: Asia/Saigon
+delimiters: 
+  alternateQuotationEnd: ‘
+  alternateQuotationStart: ‚
+  quotationEnd: “
+  quotationStart: „
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 14:24:27 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: et
+  version: 
+    number: "$Revision: 8247 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} ja {1}"
+        type: 2
+      - 
+        content: "{0} ja {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Keel: {0}"
+        type: language
+      - 
+        content: "Skript: {0}"
+        type: script
+      - 
+        content: "Regioon: {0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: kalender
+        type: calendar
+      - 
+        content: Sortimine sümboleid eirates
+        type: colAlternate
+      - 
+        content: Vastupidine sortimine rõhumärkide alusel
+        type: colBackwards
+      - 
+        content: Suur-/väiketähtede järjestus
+        type: colCaseFirst
+      - 
+        content: Tõstutundlik sortimine
+        type: colCaseLevel
+      - 
+        content: Sortimine kana kirjasüsteemi alusel
+        type: colHiraganaQuaternary
+      - 
+        content: Sortimisjärjestus
+        type: collation
+      - 
+        content: Normeeritud sortimine
+        type: colNormalization
+      - 
+        content: Sortimine numbrite alusel
+        type: colNumeric
+      - 
+        content: Sortimisalus
+        type: colStrength
+      - 
+        content: vääring
+        type: currency
+      - 
+        content: Numbrid
+        type: numbers
+      - 
+        content: Ajavöönd
+        type: timezone
+      - 
+        content: Lokaadi variant
+        type: va
+      - 
+        content: Sümbolite alusel sortimine
+        type: variableTop
+      - 
+        content: Erakasutus
+        type: x
+  languages: 
+    language: 
+      - 
+        content: afari
+        type: aa
+      - 
+        content: abhaasi
+        type: ab
+      - 
+        content: atšehi
+        type: ace
+      - 
+        content: akoli
+        type: ach
+      - 
+        content: adangme
+        type: ada
+      - 
+        content: adõgee
+        type: ady
+      - 
+        content: avesta
+        type: ae
+      - 
+        content: afrikaani
+        type: af
+      - 
+        content: afroaasia keel
+        type: afa
+      - 
+        content: afrihili
+        type: afh
+      - 
+        content: aghemi
+        type: agq
+      - 
+        content: ainu
+        type: ain
+      - 
+        content: akani
+        type: ak
+      - 
+        content: akadi
+        type: akk
+      - 
+        content: aleuudi
+        type: ale
+      - 
+        content: algonkini keel
+        type: alg
+      - 
+        content: altai
+        type: alt
+      - 
+        content: amhari
+        type: am
+      - 
+        content: aragoni
+        type: an
+      - 
+        content: vanainglise
+        type: ang
+      - 
+        content: angika
+        type: anp
+      - 
+        content: apatši keel
+        type: apa
+      - 
+        content: araabia
+        type: ar
+      - 
+        content: aramea
+        type: arc
+      - 
+        content: araukaani
+        type: arn
+      - 
+        content: arapaho
+        type: arp
+      - 
+        content: muu tehiskeel
+        type: art
+      - 
+        content: aravaki
+        type: arw
+      - 
+        content: assami
+        type: as
+      - 
+        content: asa
+        type: asa
+      - 
+        content: astuuria
+        type: ast
+      - 
+        content: atapaski keeled
+        type: ath
+      - 
+        content: austraali keel
+        type: aus
+      - 
+        content: avaari
+        type: av
+      - 
+        content: avadhi
+        type: awa
+      - 
+        content: aimara
+        type: ay
+      - 
+        content: aserbaidžaani
+        type: az
+      - 
+        alt: short
+        content: aseri
+        type: az
+      - 
+        content: baškiiri
+        type: ba
+      - 
+        content: banda
+        type: bad
+      - 
+        content: bamileke keel
+        type: bai
+      - 
+        content: belutši
+        type: bal
+      - 
+        content: bali
+        type: ban
+      - 
+        content: basa
+        type: bas
+      - 
+        content: balti keel
+        type: bat
+      - 
+        content: bamuni
+        type: bax
+      - 
+        content: ghomala
+        type: bbj
+      - 
+        content: valgevene
+        type: be
+      - 
+        content: bedža
+        type: bej
+      - 
+        content: bemba
+        type: bem
+      - 
+        content: berberi
+        type: ber
+      - 
+        content: bena
+        type: bez
+      - 
+        content: bafuti
+        type: bfd
+      - 
+        content: bulgaaria
+        type: bg
+      - 
+        content: bihari
+        type: bh
+      - 
+        content: bhodžpuri
+        type: bho
+      - 
+        content: bislama
+        type: bi
+      - 
+        content: bikoli
+        type: bik
+      - 
+        content: edo
+        type: bin
+      - 
+        content: itaŋikomi
+        type: bkm
+      - 
+        content: siksika
+        type: bla
+      - 
+        content: bambara
+        type: bm
+      - 
+        content: bengali
+        type: bn
+      - 
+        content: bantu
+        type: bnt
+      - 
+        content: tiibeti
+        type: bo
+      - 
+        content: bretooni
+        type: br
+      - 
+        content: bradži
+        type: bra
+      - 
+        content: bodo
+        type: brx
+      - 
+        content: bosnia
+        type: bs
+      - 
+        content: akoose
+        type: bss
+      - 
+        content: bataki
+        type: btk
+      - 
+        content: burjaadi
+        type: bua
+      - 
+        content: bugi
+        type: bug
+      - 
+        content: bulu
+        type: bum
+      - 
+        content: bilini
+        type: byn
+      - 
+        content: medumba
+        type: byv
+      - 
+        content: katalaani
+        type: ca
+      - 
+        content: kado
+        type: cad
+      - 
+        content: Kesk-Ameerika indiaani keel
+        type: cai
+      - 
+        content: kariibi
+        type: car
+      - 
+        content: kaukaasia keel
+        type: cau
+      - 
+        content: cayuga
+        type: cay
+      - 
+        content: atsami
+        type: cch
+      - 
+        content: tšetšeeni
+        type: ce
+      - 
+        content: sebu
+        type: ceb
+      - 
+        content: keldi keel
+        type: cel
+      - 
+        content: chiga
+        type: cgg
+      - 
+        content: tšamorro
+        type: ch
+      - 
+        content: tšibtša
+        type: chb
+      - 
+        content: tšagatai
+        type: chg
+      - 
+        content: tšuugi
+        type: chk
+      - 
+        content: mari
+        type: chm
+      - 
+        content: tšinuki žargoon
+        type: chn
+      - 
+        content: tšokto
+        type: cho
+      - 
+        content: tšipevai
+        type: chp
+      - 
+        content: tšerokii
+        type: chr
+      - 
+        content: šaieeni
+        type: chy
+      - 
+        content: sorani kurdi
+        type: ckb
+      - 
+        content: tšami keeled
+        type: cmc
+      - 
+        content: korsika
+        type: co
+      - 
+        content: kopti
+        type: cop
+      - 
+        content: inglispõhjalised kreool- ja pidžinkeeled
+        type: cpe
+      - 
+        content: prantsuspõhjalised kreool- ja pidžinkeeled
+        type: cpf
+      - 
+        content: portugalipõhjalised kreooli-/pidžinkeeled
+        type: cpp
+      - 
+        content: krii
+        type: cr
+      - 
+        content: krimmitatari
+        type: crh
+      - 
+        content: kreool- või pidžinkeel
+        type: crp
+      - 
+        content: tšehhi
+        type: cs
+      - 
+        content: kašuubi
+        type: csb
+      - 
+        content: kirikuslaavi
+        type: cu
+      - 
+        content: muu kuši keel
+        type: cus
+      - 
+        content: tšuvaši
+        type: cv
+      - 
+        content: kõmri
+        type: cy
+      - 
+        content: taani
+        type: da
+      - 
+        content: siuu
+        type: dak
+      - 
+        content: dargi
+        type: dar
+      - 
+        content: taita
+        type: dav
+      - 
+        content: dajaki
+        type: day
+      - 
+        content: saksa
+        type: de
+      - 
+        content: saksa (kõrgsaksa)
+        type: de_CH
+      - 
+        content: delavari
+        type: del
+      - 
+        content: sleivi
+        type: den
+      - 
+        content: dogribi
+        type: dgr
+      - 
+        content: dinka
+        type: din
+      - 
+        content: zarma
+        type: dje
+      - 
+        content: dogri
+        type: doi
+      - 
+        content: draviidi keel
+        type: dra
+      - 
+        content: alamsorbi
+        type: dsb
+      - 
+        content: duala
+        type: dua
+      - 
+        content: keskhollandi
+        type: dum
+      - 
+        content: maldiivi
+        type: dv
+      - 
+        content: jola-fonyi
+        type: dyo
+      - 
+        content: djula
+        type: dyu
+      - 
+        content: bhutani
+        type: dz
+      - 
+        content: dazaga
+        type: dzg
+      - 
+        content: embu
+        type: ebu
+      - 
+        content: eve
+        type: ee
+      - 
+        content: efiki
+        type: efi
+      - 
+        content: muinasegiptuse
+        type: egy
+      - 
+        content: ekadžuki
+        type: eka
+      - 
+        content: kreeka
+        type: el
+      - 
+        content: eelami
+        type: elx
+      - 
+        content: inglise
+        type: en
+      - 
+        content: inglise (Briti)
+        type: en_GB
+      - 
+        content: inglise (USA)
+        type: en_US
+      - 
+        content: keskinglise
+        type: enm
+      - 
+        content: esperanto
+        type: eo
+      - 
+        content: hispaania
+        type: es
+      - 
+        content: hispaania (Ibeeria)
+        type: es_ES
+      - 
+        content: eesti
+        type: et
+      - 
+        content: baski
+        type: eu
+      - 
+        content: evondo
+        type: ewo
+      - 
+        content: pärsia
+        type: fa
+      - 
+        content: fangi
+        type: fan
+      - 
+        content: fanti
+        type: fat
+      - 
+        content: fulbe
+        type: ff
+      - 
+        content: soome
+        type: fi
+      - 
+        content: filipino
+        type: fil
+      - 
+        content: soomeugri keel
+        type: fiu
+      - 
+        content: fidži
+        type: fj
+      - 
+        content: fääri
+        type: fo
+      - 
+        content: foni
+        type: fon
+      - 
+        content: prantsuse
+        type: fr
+      - 
+        content: keskprantsuse
+        type: frm
+      - 
+        content: vanaprantsuse
+        type: fro
+      - 
+        content: põhjafriisi
+        type: frr
+      - 
+        content: idafriisi
+        type: frs
+      - 
+        content: friuuli
+        type: fur
+      - 
+        content: läänefriisi
+        type: fy
+      - 
+        content: iiri
+        type: ga
+      - 
+        content: gaa
+        type: gaa
+      - 
+        content: gajo
+        type: gay
+      - 
+        content: gbaja
+        type: gba
+      - 
+        content: gaeli
+        type: gd
+      - 
+        content: germaani keel
+        type: gem
+      - 
+        content: etioopia
+        type: gez
+      - 
+        content: kiribati
+        type: gil
+      - 
+        content: galeegi
+        type: gl
+      - 
+        content: keskülemsaksa
+        type: gmh
+      - 
+        content: guaranii
+        type: gn
+      - 
+        content: vanaülemsaksa
+        type: goh
+      - 
+        content: gondi
+        type: gon
+      - 
+        content: gorontalo
+        type: gor
+      - 
+        content: gooti
+        type: got
+      - 
+        content: grebo
+        type: grb
+      - 
+        content: vanakreeka
+        type: grc
+      - 
+        content: alemanni
+        type: gsw
+      - 
+        content: gudžarati
+        type: gu
+      - 
+        content: gusii
+        type: guz
+      - 
+        content: mänksi
+        type: gv
+      - 
+        content: gvitšini
+        type: gwi
+      - 
+        content: hausa
+        type: ha
+      - 
+        content: haida
+        type: hai
+      - 
+        content: havai
+        type: haw
+      - 
+        content: heebrea
+        type: he
+      - 
+        content: hindi
+        type: hi
+      - 
+        content: hiligainoni
+        type: hil
+      - 
+        content: himtšali
+        type: him
+      - 
+        content: heti
+        type: hit
+      - 
+        content: hmongi
+        type: hmn
+      - 
+        content: motu
+        type: ho
+      - 
+        content: horvaadi
+        type: hr
+      - 
+        content: ülemsorbi
+        type: hsb
+      - 
+        content: haiti
+        type: ht
+      - 
+        content: ungari
+        type: hu
+      - 
+        content: hupa
+        type: hup
+      - 
+        content: armeenia
+        type: hy
+      - 
+        content: herero
+        type: hz
+      - 
+        content: interlingua
+        type: ia
+      - 
+        content: ibani
+        type: iba
+      - 
+        content: ibibio
+        type: ibb
+      - 
+        content: indoneesia
+        type: id
+      - 
+        content: interlingue
+        type: ie
+      - 
+        content: ibo
+        type: ig
+      - 
+        content: sichuani jii
+        type: ii
+      - 
+        content: idžo
+        type: ijo
+      - 
+        content: injupiaki
+        type: ik
+      - 
+        content: iloko
+        type: ilo
+      - 
+        content: india keel
+        type: inc
+      - 
+        content: indoeuroopa keel
+        type: ine
+      - 
+        content: inguši
+        type: inh
+      - 
+        content: ido
+        type: io
+      - 
+        content: iraani keeled
+        type: ira
+      - 
+        content: irokeesi keel
+        type: iro
+      - 
+        content: islandi
+        type: is
+      - 
+        content: itaalia
+        type: it
+      - 
+        content: inuktituti
+        type: iu
+      - 
+        content: jaapani
+        type: ja
+      - 
+        content: lojbani
+        type: jbo
+      - 
+        content: machame
+        type: jmc
+      - 
+        content: juudipärsia
+        type: jpr
+      - 
+        content: juudiaraabia
+        type: jrb
+      - 
+        content: jaava
+        type: jv
+      - 
+        content: gruusia
+        type: ka
+      - 
+        content: karakalpaki
+        type: kaa
+      - 
+        content: kabiili
+        type: kab
+      - 
+        content: katšini
+        type: kac
+      - 
+        content: jju
+        type: kaj
+      - 
+        content: kamba
+        type: kam
+      - 
+        content: kareni keel
+        type: kar
+      - 
+        content: kaavi
+        type: kaw
+      - 
+        content: kabardi-tšerkessi
+        type: kbd
+      - 
+        content: kanembu
+        type: kbl
+      - 
+        content: tyapi
+        type: kcg
+      - 
+        content: makonde
+        type: kde
+      - 
+        content: kabuverdianu
+        type: kea
+      - 
+        content: koro
+        type: kfo
+      - 
+        content: kongo
+        type: kg
+      - 
+        content: khasi
+        type: kha
+      - 
+        content: khoisani keel
+        type: khi
+      - 
+        content: saki
+        type: kho
+      - 
+        content: koyra chiini
+        type: khq
+      - 
+        content: kikuju
+        type: ki
+      - 
+        content: ambo
+        type: kj
+      - 
+        content: kasahhi
+        type: kk
+      - 
+        content: kako
+        type: kkj
+      - 
+        content: grööni
+        type: kl
+      - 
+        content: kaljenjin
+        type: kln
+      - 
+        content: khmeeri
+        type: km
+      - 
+        content: mbundu
+        type: kmb
+      - 
+        content: kannada
+        type: kn
+      - 
+        content: korea
+        type: ko
+      - 
+        content: konkani
+        type: kok
+      - 
+        content: kosrae
+        type: kos
+      - 
+        content: kpelle
+        type: kpe
+      - 
+        content: kanuri
+        type: kr
+      - 
+        content: karatšai-balkaari
+        type: krc
+      - 
+        content: karjala
+        type: krl
+      - 
+        content: kruu
+        type: kro
+      - 
+        content: oraoni
+        type: kru
+      - 
+        content: kašmiiri
+        type: ks
+      - 
+        content: shambala
+        type: ksb
+      - 
+        content: bafia
+        type: ksf
+      - 
+        content: cologniani
+        type: ksh
+      - 
+        content: kurdi
+        type: ku
+      - 
+        content: kumõki
+        type: kum
+      - 
+        content: kutenai
+        type: kut
+      - 
+        content: komi
+        type: kv
+      - 
+        content: korni
+        type: kw
+      - 
+        content: kirgiisi
+        type: ky
+      - 
+        content: ladina
+        type: la
+      - 
+        content: ladiino
+        type: lad
+      - 
+        content: langi
+        type: lag
+      - 
+        content: lahnda
+        type: lah
+      - 
+        content: lamba
+        type: lam
+      - 
+        content: letseburgi
+        type: lb
+      - 
+        content: lesgi
+        type: lez
+      - 
+        content: ganda
+        type: lg
+      - 
+        content: limburgi
+        type: li
+      - 
+        content: lingala
+        type: ln
+      - 
+        content: lao
+        type: lo
+      - 
+        content: mongo
+        type: lol
+      - 
+        content: lozi
+        type: loz
+      - 
+        content: leedu
+        type: lt
+      - 
+        content: luba
+        type: lu
+      - 
+        content: luba-lulua
+        type: lua
+      - 
+        content: luisenjo
+        type: lui
+      - 
+        content: lunda
+        type: lun
+      - 
+        content: luo
+        type: luo
+      - 
+        content: lušei
+        type: lus
+      - 
+        content: luyia
+        type: luy
+      - 
+        content: läti
+        type: lv
+      - 
+        content: madura
+        type: mad
+      - 
+        content: mafa
+        type: maf
+      - 
+        content: magali
+        type: mag
+      - 
+        content: maithili
+        type: mai
+      - 
+        content: makassari
+        type: mak
+      - 
+        content: malinke
+        type: man
+      - 
+        content: austroneesia keel
+        type: map
+      - 
+        content: masai
+        type: mas
+      - 
+        content: maba
+        type: mde
+      - 
+        content: mokša
+        type: mdf
+      - 
+        content: mandari
+        type: mdr
+      - 
+        content: mende
+        type: men
+      - 
+        content: meru
+        type: mer
+      - 
+        content: Mauritaania kreooli
+        type: mfe
+      - 
+        content: malagassi
+        type: mg
+      - 
+        content: keskiiri
+        type: mga
+      - 
+        content: makhuwa-meetto
+        type: mgh
+      - 
+        content: maršalli
+        type: mh
+      - 
+        content: maoori
+        type: mi
+      - 
+        content: mikmaki
+        type: mic
+      - 
+        content: minangkabau
+        type: min
+      - 
+        content: üksikkeeled
+        type: mis
+      - 
+        content: makedoonia
+        type: mk
+      - 
+        content: moni-khmeeri keel
+        type: mkh
+      - 
+        content: malajalami
+        type: ml
+      - 
+        content: mongoli
+        type: mn
+      - 
+        content: mandžu
+        type: mnc
+      - 
+        content: manipuri
+        type: mni
+      - 
+        content: manobo keel
+        type: mno
+      - 
+        content: moldova
+        type: mo
+      - 
+        content: mohoogi
+        type: moh
+      - 
+        content: more
+        type: mos
+      - 
+        content: marathi
+        type: mr
+      - 
+        content: malai
+        type: ms
+      - 
+        content: malta
+        type: mt
+      - 
+        content: mundangi
+        type: mua
+      - 
+        content: mitu keelt
+        type: mul
+      - 
+        content: munda keel
+        type: mun
+      - 
+        content: maskogi
+        type: mus
+      - 
+        content: miranda
+        type: mwl
+      - 
+        content: marvari
+        type: mwr
+      - 
+        content: birma
+        type: my
+      - 
+        content: myene
+        type: mye
+      - 
+        content: maia keeled
+        type: myn
+      - 
+        content: ersa
+        type: myv
+      - 
+        content: nauru
+        type: na
+      - 
+        content: nahua
+        type: nah
+      - 
+        content: Põhja-Ameerika indiaani keel
+        type: nai
+      - 
+        content: napoli
+        type: nap
+      - 
+        content: nama
+        type: naq
+      - 
+        content: norra bokmål
+        type: nb
+      - 
+        content: põhjandebele
+        type: nd
+      - 
+        content: alamsaksa
+        type: nds
+      - 
+        content: nepali
+        type: ne
+      - 
+        content: nevari
+        type: new
+      - 
+        content: ndonga
+        type: ng
+      - 
+        content: niasi
+        type: nia
+      - 
+        content: Nigeri-Kordofani keel
+        type: nic
+      - 
+        content: niue
+        type: niu
+      - 
+        content: hollandi
+        type: nl
+      - 
+        content: flaami
+        type: nl_BE
+      - 
+        content: kwasio
+        type: nmg
+      - 
+        content: norra nynorsk
+        type: nn
+      - 
+        content: ngiembooni
+        type: nnh
+      - 
+        content: norra
+        type: 'no'
+      - 
+        content: nogai
+        type: nog
+      - 
+        content: vanapõhjala
+        type: non
+      - 
+        content: nkoo
+        type: nqo
+      - 
+        content: lõunandebele
+        type: nr
+      - 
+        content: pedi
+        type: nso
+      - 
+        content: nuubia keel
+        type: nub
+      - 
+        content: nueri
+        type: nus
+      - 
+        content: navaho
+        type: nv
+      - 
+        content: vananevari
+        type: nwc
+      - 
+        content: njandža
+        type: ny
+      - 
+        content: njamvesi
+        type: nym
+      - 
+        content: nkole
+        type: nyn
+      - 
+        content: njoro
+        type: nyo
+      - 
+        content: nzima
+        type: nzi
+      - 
+        content: provansi
+        type: oc
+      - 
+        content: odžibvei
+        type: oj
+      - 
+        content: oromo keel
+        type: om
+      - 
+        content: oria
+        type: or
+      - 
+        content: osseedi
+        type: os
+      - 
+        content: oseidži
+        type: osa
+      - 
+        content: osmanitürgi
+        type: ota
+      - 
+        content: otomi keel
+        type: oto
+      - 
+        content: pandžabi
+        type: pa
+      - 
+        content: paapua keel
+        type: paa
+      - 
+        content: pangasinani
+        type: pag
+      - 
+        content: pahlavi
+        type: pal
+      - 
+        content: pampanga
+        type: pam
+      - 
+        content: papiamento
+        type: pap
+      - 
+        content: belau
+        type: pau
+      - 
+        content: vanapärsia
+        type: peo
+      - 
+        content: filipiini keel
+        type: phi
+      - 
+        content: foiniikia
+        type: phn
+      - 
+        content: paali
+        type: pi
+      - 
+        content: poola
+        type: pl
+      - 
+        content: poonpei
+        type: pon
+      - 
+        content: praakriti keel
+        type: pra
+      - 
+        content: vanaprovansi
+        type: pro
+      - 
+        content: puštu
+        type: ps
+      - 
+        alt: variant
+        content: puštu
+        type: ps
+      - 
+        content: portugali
+        type: pt
+      - 
+        content: portugali (Ibeeria)
+        type: pt_PT
+      - 
+        content: ketšua
+        type: qu
+      - 
+        content: radžastani
+        type: raj
+      - 
+        content: rapanui
+        type: rap
+      - 
+        content: rarotonga
+        type: rar
+      - 
+        content: retoromaani
+        type: rm
+      - 
+        content: rundi
+        type: rn
+      - 
+        content: rumeenia
+        type: ro
+      - 
+        content: romaani keel
+        type: roa
+      - 
+        content: rombo
+        type: rof
+      - 
+        content: mustlaskeel
+        type: rom
+      - 
+        content: root
+        type: root
+      - 
+        content: vene
+        type: ru
+      - 
+        content: aromuuni
+        type: rup
+      - 
+        content: ruanda
+        type: rw
+      - 
+        content: rwa
+        type: rwk
+      - 
+        content: sanskriti
+        type: sa
+      - 
+        content: sandave
+        type: sad
+      - 
+        content: jakuudi
+        type: sah
+      - 
+        content: Lõuna-Ameerika indiaani keel
+        type: sai
+      - 
+        content: sališi keel
+        type: sal
+      - 
+        content: samaaria aramea
+        type: sam
+      - 
+        content: samburu
+        type: saq
+      - 
+        content: sasaki
+        type: sas
+      - 
+        content: santali
+        type: sat
+      - 
+        content: ngembay
+        type: sba
+      - 
+        content: sangu
+        type: sbp
+      - 
+        content: sardiinia
+        type: sc
+      - 
+        content: sitsiilia
+        type: scn
+      - 
+        content: šoti
+        type: sco
+      - 
+        content: sindhi
+        type: sd
+      - 
+        content: põhjasaami
+        type: se
+      - 
+        content: seneca
+        type: see
+      - 
+        content: sena
+        type: seh
+      - 
+        content: sölkupi
+        type: sel
+      - 
+        content: semi keel
+        type: sem
+      - 
+        content: koyraboro senni
+        type: ses
+      - 
+        content: sango
+        type: sg
+      - 
+        content: vanaiiri
+        type: sga
+      - 
+        content: viipekeel
+        type: sgn
+      - 
+        content: serbia-horvaadi
+        type: sh
+      - 
+        content: tachelhiti
+        type: shi
+      - 
+        content: šani
+        type: shn
+      - 
+        content: Tšaadi araabia
+        type: shu
+      - 
+        content: singali
+        type: si
+      - 
+        content: sidamo
+        type: sid
+      - 
+        content: siuu keel
+        type: sio
+      - 
+        content: hiina-tiibeti keel
+        type: sit
+      - 
+        content: slovaki
+        type: sk
+      - 
+        content: sloveeni
+        type: sl
+      - 
+        content: slaavi keel
+        type: sla
+      - 
+        content: samoa
+        type: sm
+      - 
+        content: lõunasaami
+        type: sma
+      - 
+        content: muu saami
+        type: smi
+      - 
+        content: lule saami
+        type: smj
+      - 
+        content: inari saami
+        type: smn
+      - 
+        content: koltasaami
+        type: sms
+      - 
+        content: šona
+        type: sn
+      - 
+        content: soninke
+        type: snk
+      - 
+        content: somaali
+        type: so
+      - 
+        content: sogdi
+        type: sog
+      - 
+        content: songai
+        type: son
+      - 
+        content: albaania
+        type: sq
+      - 
+        content: serbia
+        type: sr
+      - 
+        content: sranani
+        type: srn
+      - 
+        content: sereri
+        type: srr
+      - 
+        content: svaasi
+        type: ss
+      - 
+        content: Niiluse-Sahara keel
+        type: ssa
+      - 
+        content: saho
+        type: ssy
+      - 
+        content: lõunasotho
+        type: st
+      - 
+        content: sunda
+        type: su
+      - 
+        content: sukuma
+        type: suk
+      - 
+        content: susu
+        type: sus
+      - 
+        content: sumeri
+        type: sux
+      - 
+        content: rootsi
+        type: sv
+      - 
+        content: suahiili
+        type: sw
+      - 
+        content: komoori
+        type: swb
+      - 
+        content: Kongo suahiili
+        type: swc
+      - 
+        content: klassikaline süüria
+        type: syc
+      - 
+        content: süüria
+        type: syr
+      - 
+        content: tamili
+        type: ta
+      - 
+        content: tai keel
+        type: tai
+      - 
+        content: telugu
+        type: te
+      - 
+        content: temne
+        type: tem
+      - 
+        content: teso
+        type: teo
+      - 
+        content: tereno
+        type: ter
+      - 
+        content: tetumi
+        type: tet
+      - 
+        content: tadžiki
+        type: tg
+      - 
+        content: tai
+        type: th
+      - 
+        content: tigrinja
+        type: ti
+      - 
+        content: tigree
+        type: tig
+      - 
+        content: tivi
+        type: tiv
+      - 
+        content: türkmeeni
+        type: tk
+      - 
+        content: tokelau
+        type: tkl
+      - 
+        content: tagalogi
+        type: tl
+      - 
+        content: klingoni
+        type: tlh
+      - 
+        content: tlingiti
+        type: tli
+      - 
+        content: tamašeki
+        type: tmh
+      - 
+        content: tsvana
+        type: tn
+      - 
+        content: tonga
+        type: to
+      - 
+        content: tšitonga
+        type: tog
+      - 
+        content: uusmelaneesia
+        type: tpi
+      - 
+        content: türgi
+        type: tr
+      - 
+        content: taroko
+        type: trv
+      - 
+        content: tsonga
+        type: ts
+      - 
+        content: tšimši
+        type: tsi
+      - 
+        content: tatari
+        type: tt
+      - 
+        content: tumbuka
+        type: tum
+      - 
+        content: tupii keeled
+        type: tup
+      - 
+        content: altai keel
+        type: tut
+      - 
+        content: tuvalu
+        type: tvl
+      - 
+        content: tvii
+        type: tw
+      - 
+        content: taswaqi
+        type: twq
+      - 
+        content: tahiti
+        type: ty
+      - 
+        content: tõva
+        type: tyv
+      - 
+        content: Kesk-Maroko tamazighti
+        type: tzm
+      - 
+        content: udmurdi
+        type: udm
+      - 
+        content: uiguuri
+        type: ug
+      - 
+        alt: variant
+        content: uiguuri keel
+        type: ug
+      - 
+        content: ugariti
+        type: uga
+      - 
+        content: ukraina
+        type: uk
+      - 
+        content: umbundu
+        type: umb
+      - 
+        content: määramata
+        type: und
+      - 
+        content: urdu
+        type: ur
+      - 
+        content: usbeki
+        type: uz
+      - 
+        content: vai
+        type: vai
+      - 
+        content: venda
+        type: ve
+      - 
+        content: vietnami
+        type: vi
+      - 
+        content: volapüki
+        type: vo
+      - 
+        content: vadja
+        type: vot
+      - 
+        content: vunjo
+        type: vun
+      - 
+        content: vallooni
+        type: wa
+      - 
+        content: walseri
+        type: wae
+      - 
+        content: vakaši keel
+        type: wak
+      - 
+        content: volamo
+        type: wal
+      - 
+        content: varai
+        type: war
+      - 
+        content: vašo
+        type: was
+      - 
+        content: sorbi keel
+        type: wen
+      - 
+        content: volofi
+        type: wo
+      - 
+        content: kalmõki
+        type: xal
+      - 
+        content: koosa
+        type: xh
+      - 
+        content: soga
+        type: xog
+      - 
+        content: jao
+        type: yao
+      - 
+        content: japi
+        type: yap
+      - 
+        content: yangbeni
+        type: yav
+      - 
+        content: yemba
+        type: ybb
+      - 
+        content: jidiši
+        type: yi
+      - 
+        content: joruba
+        type: yo
+      - 
+        content: jupiki keel
+        type: ypk
+      - 
+        content: kantoni
+        type: yue
+      - 
+        content: tšuangi
+        type: za
+      - 
+        content: sapoteegi
+        type: zap
+      - 
+        content: blissümbolid
+        type: zbl
+      - 
+        content: zenaga
+        type: zen
+      - 
+        content: hiina
+        type: zh
+      - 
+        content: hiina keel - lihtsustatud
+        type: zh_Hans
+      - 
+        content: hiina keel - traditsiooniline
+        type: zh_Hant
+      - 
+        content: zande
+        type: znd
+      - 
+        content: suulu
+        type: zu
+      - 
+        content: sunji
+        type: zun
+      - 
+        content: mittekeeleline
+        type: zxx
+      - 
+        content: zaza
+        type: zza
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}: {1}"
+    localePattern: "{0} ({1})"
+    localeSeparator: ","
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: meetermõõdustik
+        type: metric
+      - 
+        content: inglise mõõdustik
+        type: UK
+      - 
+        content: inglise mõõdustik
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: araabia
+        type: Arab
+      - 
+        alt: variant
+        content: Pärsia-araabia
+        type: Arab
+      - 
+        content: armeenia
+        type: Armn
+      - 
+        content: avesta
+        draft: unconfirmed
+        type: Avst
+      - 
+        content: bali
+        type: Bali
+      - 
+        content: bataki
+        type: Batk
+      - 
+        content: bengali
+        type: Beng
+      - 
+        content: Blissi sümbolid
+        type: Blis
+      - 
+        content: bopomofo
+        type: Bopo
+      - 
+        content: brahmi
+        type: Brah
+      - 
+        content: punktkiri
+        type: Brai
+      - 
+        content: bugi
+        type: Bugi
+      - 
+        content: buhidi
+        type: Buhd
+      - 
+        content: Kanada põlisrahvaste ühtlustatud silpkiri
+        type: Cans
+      - 
+        content: tšami
+        type: Cham
+      - 
+        content: tšerokii
+        type: Cher
+      - 
+        content: cirth
+        type: Cirt
+      - 
+        content: kopti
+        type: Copt
+      - 
+        content: muinasküprose
+        type: Cprt
+      - 
+        content: kirillitsa
+        type: Cyrl
+      - 
+        content: kirikuslaavi kirillitsa
+        type: Cyrs
+      - 
+        content: devanaagari
+        type: Deva
+      - 
+        content: deseret
+        type: Dsrt
+      - 
+        content: egiptuse demootiline
+        type: Egyd
+      - 
+        content: egiptuse hieraatiline
+        type: Egyh
+      - 
+        content: egiptuse hieroglüüfkiri
+        type: Egyp
+      - 
+        content: etioopia
+        type: Ethi
+      - 
+        content: gruusia hutsuri
+        type: Geok
+      - 
+        content: gruusia
+        type: Geor
+      - 
+        content: glagoolitsa
+        type: Glag
+      - 
+        content: gooti
+        type: Goth
+      - 
+        content: kreeka
+        type: Grek
+      - 
+        content: gudžarati
+        type: Gujr
+      - 
+        content: gurmukhi
+        type: Guru
+      - 
+        content: hanguli
+        type: Hang
+      - 
+        content: hiina han
+        type: Hani
+      - 
+        content: hanunoo
+        type: Hano
+      - 
+        content: hiina lihtsustatud
+        type: Hans
+      - 
+        alt: stand-alone
+        content: lihtsustatud han
+        type: Hans
+      - 
+        content: hiina traditsiooniline
+        type: Hant
+      - 
+        alt: stand-alone
+        content: traditsiooniline han
+        type: Hant
+      - 
+        content: heebrea
+        type: Hebr
+      - 
+        content: hiragana
+        type: Hira
+      - 
+        content: katakana või hiragana
+        type: Hrkt
+      - 
+        content: vanaungari
+        type: Hung
+      - 
+        content: induse
+        type: Inds
+      - 
+        content: vanaitali
+        type: Ital
+      - 
+        content: jaava
+        type: Java
+      - 
+        content: jaapani
+        type: Jpan
+      - 
+        content: kaja li
+        type: Kali
+      - 
+        content: katakana
+        type: Kana
+      - 
+        content: kharoshthi
+        type: Khar
+      - 
+        content: khmeeri
+        type: Khmr
+      - 
+        content: kannada
+        type: Knda
+      - 
+        content: koreani
+        type: Kore
+      - 
+        content: lao
+        type: Laoo
+      - 
+        content: ladina fraktuurkiri
+        type: Latf
+      - 
+        content: ladina keldi kiri
+        type: Latg
+      - 
+        content: ladina
+        type: Latn
+      - 
+        content: leptša
+        type: Lepc
+      - 
+        content: limbu
+        type: Limb
+      - 
+        content: lineaar-A
+        type: Lina
+      - 
+        content: lineaar-B
+        type: Linb
+      - 
+        content: lüüdi
+        draft: unconfirmed
+        type: Lydi
+      - 
+        content: mandea
+        type: Mand
+      - 
+        content: maaja hieroglüüfkiri
+        type: Maya
+      - 
+        content: meroe
+        type: Mero
+      - 
+        content: malajalami
+        type: Mlym
+      - 
+        content: mongoli
+        type: Mong
+      - 
+        content: birma
+        type: Mymr
+      - 
+        content: nkoo
+        type: Nkoo
+      - 
+        content: ogam
+        type: Ogam
+      - 
+        content: orhoni
+        type: Orkh
+      - 
+        content: oria
+        type: Orya
+      - 
+        content: osmanja
+        type: Osma
+      - 
+        content: vanapermi
+        type: Perm
+      - 
+        content: phags-pa
+        type: Phag
+      - 
+        content: foiniikia
+        type: Phnx
+      - 
+        content: Pollardi miao
+        type: Plrd
+      - 
+        content: rongorongo
+        type: Roro
+      - 
+        content: ruunikiri
+        type: Runr
+      - 
+        content: sarati
+        type: Sara
+      - 
+        content: Shaw tähestik
+        type: Shaw
+      - 
+        content: singali
+        type: Sinh
+      - 
+        content: silotinagri
+        type: Sylo
+      - 
+        content: assüüria
+        type: Syrc
+      - 
+        content: assüüria estrangelo
+        type: Syre
+      - 
+        content: lääneassüüria
+        type: Syrj
+      - 
+        content: idaassüüria
+        type: Syrn
+      - 
+        content: tagbanwa
+        type: Tagb
+      - 
+        content: tai le
+        type: Tale
+      - 
+        content: lihtsustatud tai lue
+        type: Talu
+      - 
+        content: tamili
+        type: Taml
+      - 
+        content: telugu
+        type: Telu
+      - 
+        content: tengwar
+        type: Teng
+      - 
+        content: tifinagi
+        type: Tfng
+      - 
+        content: tagalogi
+        type: Tglg
+      - 
+        content: thaana
+        type: Thaa
+      - 
+        content: tai
+        type: Thai
+      - 
+        content: tiibeti
+        type: Tibt
+      - 
+        content: ugariti
+        type: Ugar
+      - 
+        content: vai
+        type: Vaii
+      - 
+        content: häälduskiri
+        type: Visp
+      - 
+        content: vanapärsia
+        type: Xpeo
+      - 
+        content: sumeri kiilkiri
+        type: Xsux
+      - 
+        content: jii
+        type: Yiii
+      - 
+        content: päritud
+        type: Zinh
+      - 
+        content: sümbolid
+        type: Zsym
+      - 
+        content: kirjakeeleta
+        type: Zxxx
+      - 
+        content: üldine
+        type: Zyyy
+      - 
+        content: määramata
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: maailm
+        type: '001'
+      - 
+        content: Aafrika
+        type: '002'
+      - 
+        content: Põhja-Ameerika
+        type: '003'
+      - 
+        content: Lõuna-Ameerika
+        type: '005'
+      - 
+        content: Okeaania
+        type: '009'
+      - 
+        content: Lääne-Aafrika
+        type: '011'
+      - 
+        content: Kesk-Ameerika
+        type: '013'
+      - 
+        content: Ida-Aafrika
+        type: '014'
+      - 
+        content: Põhja-Aafrika
+        type: '015'
+      - 
+        content: Kesk-Aafrika
+        type: '017'
+      - 
+        content: Lõuna-Aafrika
+        type: '018'
+      - 
+        content: Ameerika maailmajagu
+        type: '019'
+      - 
+        content: Ameerika põhjaosa
+        type: '021'
+      - 
+        content: Kariibi meri
+        type: '029'
+      - 
+        content: Ida-Aasia
+        type: '030'
+      - 
+        content: Lõuna-Aasia
+        type: '034'
+      - 
+        content: Kagu-Aasia
+        type: '035'
+      - 
+        content: Lõuna-Euroopa
+        type: '039'
+      - 
+        content: Australaasia
+        type: '053'
+      - 
+        content: Melaneesia
+        type: '054'
+      - 
+        content: Mikroneesia
+        type: '057'
+      - 
+        content: Polüneesia
+        type: '061'
+      - 
+        content: Aasia
+        type: 142
+      - 
+        content: Kesk-Aasia
+        type: 143
+      - 
+        content: Lääne-Aasia
+        type: 145
+      - 
+        content: Euroopa
+        type: 150
+      - 
+        content: Ida-Euroopa
+        type: 151
+      - 
+        content: Põhja-Euroopa
+        type: 154
+      - 
+        content: Lääne-Euroopa
+        type: 155
+      - 
+        content: Ladina-Ameerika
+        type: 419
+      - 
+        content: Ascensioni saar
+        type: AC
+      - 
+        content: Andorra
+        type: AD
+      - 
+        content: Araabia Ühendemiraadid
+        type: AE
+      - 
+        content: Afganistan
+        type: AF
+      - 
+        content: Antigua ja Barbuda
+        type: AG
+      - 
+        content: Anguilla
+        type: AI
+      - 
+        content: Albaania
+        type: AL
+      - 
+        content: Armeenia
+        type: AM
+      - 
+        content: Hollandi Antillid
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Antarktis
+        type: AQ
+      - 
+        content: Argentina
+        type: AR
+      - 
+        content: Ameerika Samoa
+        type: AS
+      - 
+        content: Austria
+        type: AT
+      - 
+        content: Austraalia
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Ahvenamaa
+        type: AX
+      - 
+        content: Aserbaidžaan
+        type: AZ
+      - 
+        content: Bosnia ja Hertsegoviina
+        type: BA
+      - 
+        content: Barbados
+        type: BB
+      - 
+        content: Bangladesh
+        type: BD
+      - 
+        content: Belgia
+        type: BE
+      - 
+        content: Burkina Faso
+        type: BF
+      - 
+        content: Bulgaaria
+        type: BG
+      - 
+        content: Bahrein
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benin
+        type: BJ
+      - 
+        content: Saint Barthélemy
+        type: BL
+      - 
+        content: Bermuda
+        type: BM
+      - 
+        content: Brunei
+        type: BN
+      - 
+        content: Boliivia
+        type: BO
+      - 
+        content: Hollandi Kariibi mere saared
+        type: BQ
+      - 
+        content: Brasiilia
+        type: BR
+      - 
+        content: Bahama
+        type: BS
+      - 
+        content: Bhutan
+        type: BT
+      - 
+        content: Bouvet’ saar
+        type: BV
+      - 
+        content: Botswana
+        type: BW
+      - 
+        content: Valgevene
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Kookossaared
+        type: CC
+      - 
+        content: Kongo DV
+        type: CD
+      - 
+        alt: variant
+        content: Kongo-Kinshasa
+        type: CD
+      - 
+        content: Kesk-Aafrika Vabariik
+        type: CF
+      - 
+        content: Kongo-Brazzaville
+        type: CG
+      - 
+        alt: variant
+        content: Kongo-Brazzaville
+        type: CG
+      - 
+        content: Šveits
+        type: CH
+      - 
+        content: Côte d'Ivoire
+        type: CI
+      - 
+        alt: variant
+        content: Elevandiluurannik
+        type: CI
+      - 
+        content: Cooki saared
+        type: CK
+      - 
+        content: Tšiili
+        type: CL
+      - 
+        content: Kamerun
+        type: CM
+      - 
+        content: Hiina
+        type: CN
+      - 
+        content: Colombia
+        type: CO
+      - 
+        content: Clippertoni saar
+        type: CP
+      - 
+        content: Costa Rica
+        type: CR
+      - 
+        content: Kuuba
+        type: CU
+      - 
+        content: Roheneemesaared
+        type: CV
+      - 
+        content: Curaçao
+        type: CW
+      - 
+        content: Jõulusaar
+        type: CX
+      - 
+        content: Küpros
+        type: CY
+      - 
+        content: Tšehhi
+        type: CZ
+      - 
+        content: Saksamaa
+        type: DE
+      - 
+        content: Diego Garcia
+        type: DG
+      - 
+        content: Djibouti
+        type: DJ
+      - 
+        content: Taani
+        type: DK
+      - 
+        content: Dominica
+        type: DM
+      - 
+        content: Dominikaani Vabariik
+        type: DO
+      - 
+        content: Alžeeria
+        type: DZ
+      - 
+        content: Ceuta ja Melilla
+        type: EA
+      - 
+        content: Ecuador
+        type: EC
+      - 
+        content: Eesti
+        type: EE
+      - 
+        content: Egiptus
+        type: EG
+      - 
+        content: Lääne-Sahara
+        type: EH
+      - 
+        content: Eritrea
+        type: ER
+      - 
+        content: Hispaania
+        type: ES
+      - 
+        content: Etioopia
+        type: ET
+      - 
+        content: Euroopa Liit
+        type: EU
+      - 
+        content: Soome
+        type: FI
+      - 
+        content: Fidži
+        type: FJ
+      - 
+        content: Falklandi saared
+        type: FK
+      - 
+        alt: variant
+        content: Falklandi saared
+        type: FK
+      - 
+        content: Mikroneesia Liiduriigid
+        type: FM
+      - 
+        content: Fääri saared
+        type: FO
+      - 
+        content: Prantsusmaa
+        type: FR
+      - 
+        content: Gabon
+        type: GA
+      - 
+        content: Suurbritannia
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Gruusia
+        type: GE
+      - 
+        content: Prantsuse Guajaana
+        type: GF
+      - 
+        content: Guernsey
+        type: GG
+      - 
+        content: Ghana
+        type: GH
+      - 
+        content: Gibraltar
+        type: GI
+      - 
+        content: Gröönimaa
+        type: GL
+      - 
+        content: Gambia
+        type: GM
+      - 
+        content: Guinea
+        type: GN
+      - 
+        content: Guadeloupe
+        type: GP
+      - 
+        content: Ekvatoriaal-Guinea
+        type: GQ
+      - 
+        content: Kreeka
+        type: GR
+      - 
+        content: Lõuna-Georgia ja Lõuna-Sandwichi saared
+        type: GS
+      - 
+        content: Guatemala
+        type: GT
+      - 
+        content: Guam
+        type: GU
+      - 
+        content: Guinea-Bissau
+        type: GW
+      - 
+        content: Guyana
+        type: GY
+      - 
+        content: Hongkong - Hiina erihalduspiirkond
+        type: HK
+      - 
+        alt: short
+        content: Hongkong
+        type: HK
+      - 
+        content: Heard ja McDonald saared
+        type: HM
+      - 
+        content: Honduras
+        type: HN
+      - 
+        content: Horvaatia
+        type: HR
+      - 
+        content: Haiti
+        type: HT
+      - 
+        content: Ungari
+        type: HU
+      - 
+        content: Kanaari saared
+        type: IC
+      - 
+        content: Indoneesia
+        type: ID
+      - 
+        content: Iirimaa
+        type: IE
+      - 
+        content: Iisrael
+        type: IL
+      - 
+        content: Mani saar
+        type: IM
+      - 
+        content: India
+        type: IN
+      - 
+        content: Briti India ookeani ala
+        type: IO
+      - 
+        content: Iraak
+        type: IQ
+      - 
+        content: Iraan
+        type: IR
+      - 
+        content: Island
+        type: IS
+      - 
+        content: Itaalia
+        type: IT
+      - 
+        content: Jersey
+        type: JE
+      - 
+        content: Jamaica
+        type: JM
+      - 
+        content: Jordaania
+        type: JO
+      - 
+        content: Jaapan
+        type: JP
+      - 
+        content: Kenya
+        type: KE
+      - 
+        content: Kõrgõzstan
+        type: KG
+      - 
+        content: Kambodža
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Komoorid
+        type: KM
+      - 
+        content: Saint Kitts ja Nevis
+        type: KN
+      - 
+        content: Põhja-Korea
+        type: KP
+      - 
+        content: Lõuna-Korea
+        type: KR
+      - 
+        content: Kuveit
+        type: KW
+      - 
+        content: Kaimanisaared
+        type: KY
+      - 
+        content: Kasahstan
+        type: KZ
+      - 
+        content: Laos
+        type: LA
+      - 
+        content: Liibanon
+        type: LB
+      - 
+        content: Saint Lucia
+        type: LC
+      - 
+        content: Liechtenstein
+        type: LI
+      - 
+        content: Sri Lanka
+        type: LK
+      - 
+        content: Libeeria
+        type: LR
+      - 
+        content: Lesotho
+        type: LS
+      - 
+        content: Leedu
+        type: LT
+      - 
+        content: Luksemburg
+        type: LU
+      - 
+        content: Läti
+        type: LV
+      - 
+        content: Liibüa
+        type: LY
+      - 
+        content: Maroko
+        type: MA
+      - 
+        content: Monaco
+        type: MC
+      - 
+        content: Moldova
+        type: MD
+      - 
+        content: Montenegro
+        type: ME
+      - 
+        content: Saint Martin
+        type: MF
+      - 
+        content: Madagaskar
+        type: MG
+      - 
+        content: Marshalli saared
+        type: MH
+      - 
+        content: Makedoonia
+        type: MK
+      - 
+        alt: variant
+        content: Makedoonia
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myanmar
+        type: MM
+      - 
+        content: Mongoolia
+        type: MN
+      - 
+        content: Macau - Hiina erihalduspiirkond
+        type: MO
+      - 
+        alt: short
+        content: Macau
+        type: MO
+      - 
+        content: Põhja-Mariaanid
+        type: MP
+      - 
+        content: Martinique
+        type: MQ
+      - 
+        content: Mauritaania
+        type: MR
+      - 
+        content: Montserrat
+        type: MS
+      - 
+        content: Malta
+        type: MT
+      - 
+        content: Mauritius
+        type: MU
+      - 
+        content: Maldiivid
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Mehhiko
+        type: MX
+      - 
+        content: Malaisia
+        type: MY
+      - 
+        content: Mosambiik
+        type: MZ
+      - 
+        content: Namiibia
+        type: NA
+      - 
+        content: Uus-Kaledoonia
+        type: NC
+      - 
+        content: Niger
+        type: NE
+      - 
+        content: Norfolk
+        type: NF
+      - 
+        content: Nigeeria
+        type: NG
+      - 
+        content: Nicaragua
+        type: NI
+      - 
+        content: Holland
+        type: NL
+      - 
+        content: Norra
+        type: 'NO'
+      - 
+        content: Nepal
+        type: NP
+      - 
+        content: Nauru
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: Uus-Meremaa
+        type: NZ
+      - 
+        content: Omaan
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peruu
+        type: PE
+      - 
+        content: Prantsuse Polüneesia
+        type: PF
+      - 
+        content: Paapua Uus-Guinea
+        type: PG
+      - 
+        content: Filipiinid
+        type: PH
+      - 
+        content: Pakistan
+        type: PK
+      - 
+        content: Poola
+        type: PL
+      - 
+        content: Saint Pierre ja Miquelon
+        type: PM
+      - 
+        content: Pitcairn
+        type: PN
+      - 
+        content: Puerto Rico
+        type: PR
+      - 
+        content: Palestiina ala
+        type: PS
+      - 
+        alt: short
+        content: Palestiina
+        type: PS
+      - 
+        content: Portugal
+        type: PT
+      - 
+        content: Belau
+        type: PW
+      - 
+        content: Paraguay
+        type: PY
+      - 
+        content: Katar
+        type: QA
+      - 
+        content: Okeaania hajasaared
+        type: QO
+      - 
+        content: Réunion
+        type: RE
+      - 
+        content: Rumeenia
+        type: RO
+      - 
+        content: Serbia
+        type: RS
+      - 
+        content: Venemaa
+        type: RU
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Saudi Araabia
+        type: SA
+      - 
+        content: Saalomoni Saared
+        type: SB
+      - 
+        content: Seišellid
+        type: SC
+      - 
+        content: Sudaan
+        type: SD
+      - 
+        content: Rootsi
+        type: SE
+      - 
+        content: Singapur
+        type: SG
+      - 
+        content: Saint Helena
+        type: SH
+      - 
+        content: Sloveenia
+        type: SI
+      - 
+        content: Svalbard ja Jan Mayen
+        type: SJ
+      - 
+        content: Slovakkia
+        type: SK
+      - 
+        content: Sierra Leone
+        type: SL
+      - 
+        content: San Marino
+        type: SM
+      - 
+        content: Senegal
+        type: SN
+      - 
+        content: Somaalia
+        type: SO
+      - 
+        content: Suriname
+        type: SR
+      - 
+        content: Lõuna-Sudaan
+        type: SS
+      - 
+        content: São Tomé ja Príncipe
+        type: ST
+      - 
+        content: El Salvador
+        type: SV
+      - 
+        content: Sint Maarten
+        type: SX
+      - 
+        content: Süüria
+        type: SY
+      - 
+        content: Svaasimaa
+        type: SZ
+      - 
+        content: Tristan da Cunha
+        type: TA
+      - 
+        content: Turks ja Caicos
+        type: TC
+      - 
+        content: Tšaad
+        type: TD
+      - 
+        content: Prantsuse Lõunaalad
+        type: TF
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Tai
+        type: TH
+      - 
+        content: Tadžikistan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Ida-Timor
+        type: TL
+      - 
+        alt: variant
+        content: Ida-Timor
+        type: TL
+      - 
+        content: Türkmenistan
+        type: TM
+      - 
+        content: Tuneesia
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Türgi
+        type: TR
+      - 
+        content: Trinidad ja Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwan
+        type: TW
+      - 
+        content: Tansaania
+        type: TZ
+      - 
+        content: Ukraina
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: Ühendriikide hajasaared
+        type: UM
+      - 
+        content: Ameerika Ühendriigid
+        type: US
+      - 
+        content: Uruguay
+        type: UY
+      - 
+        content: Usbekistan
+        type: UZ
+      - 
+        content: Vatikan
+        type: VA
+      - 
+        content: Saint Vincent ja Grenadiinid
+        type: VC
+      - 
+        content: Venezuela
+        type: VE
+      - 
+        content: Briti Neitsisaared
+        type: VG
+      - 
+        content: USA Neitsisaared
+        type: VI
+      - 
+        content: Vietnam
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Wallis ja Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Jeemen
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Lõuna-Aafrika Vabariik
+        type: ZA
+      - 
+        content: Sambia
+        type: ZM
+      - 
+        content: Zimbabwe
+        type: ZW
+  transformNames: 
+    transformName: 
+      - 
+        content: BGN
+        type: BGN
+      - 
+        content: Numbriline
+        type: Numeric
+      - 
+        content: Toon
+        type: Tone
+      - 
+        content: UNGEGN
+        type: UNGEGN
+      - 
+        content: Aktsendid
+        type: x-Accents
+      - 
+        content: Täislai
+        type: x-Fullwidth
+      - 
+        content: Poolaius
+        type: x-Halfwidth
+      - 
+        content: Jamo
+        type: x-Jamo
+      - 
+        content: Pinyin
+        type: x-Pinyin
+      - 
+        content: Kirjastamine
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: Hiina Vabariigi kalender
+        type: roc
+      colAlternate: 
+        content: Sordi sümboleid eirates
+        type: shifted
+      colBackwards: 
+        content: Vastupidine sortimine rõhumärkide alusel
+        type: 'yes'
+      colCaseFirst: 
+        content: Järjestus alates suurtähtedest
+        type: upper
+      colCaseLevel: 
+        content: Tõstutundlikkuse alusel sortimine
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: Kana-kirjasüsteemi sortimine eraldi
+        type: 'yes'
+      colNormalization: 
+        content: Normeeritud Unicode'i alusel sortimine
+        type: 'yes'
+      colNumeric: 
+        content: Numbrite alusel sortimine
+        type: 'yes'
+      colStrength: 
+        content: Rõhumärkide/algustähe/laiuse alusel sortimine
+        type: tertiary
+      collation: 
+        content: Radikaal-kriipsude sortimisjärjestus
+        type: unihan
+      numbers: 
+        content: Vai numbrisüsteem
+        type: vaii
+  variants: 
+    variant: 
+      - 
+        content: saksa traditsiooniline kirjaviis
+        type: 1901
+      - 
+        content: standardiseeritud Resia ortograafia
+        type: 1994
+      - 
+        content: saksa reformitud kirjaviis
+        type: 1996
+      - 
+        content: hiline kesk-prantsuse kuni 1606
+        type: 1606NICT
+      - 
+        content: varajane moodne prantsuse
+        type: 1694ACAD
+      - 
+        content: akadeemiline
+        type: 1959ACAD
+      - 
+        content: ida-armeenia
+        type: AREVELA
+      - 
+        content: lääne-armeenia
+        type: AREVMDA
+      - 
+        content: ühtlustatud türgi-ladina tähestik
+        type: BAKU1926
+      - 
+        content: San Giorgio/Bila murre
+        type: BISKE
+      - 
+        content: boontlingi
+        type: BOONT
+      - 
+        content: IPA foneetika
+        type: FONIPA
+      - 
+        content: UPA foneetika
+        type: FONUPA
+      - 
+        content: üldlevinud ortograafia
+        type: KKCOR
+      - 
+        content: Resia Lipovaz'i murre
+        type: LIPAW
+      - 
+        content: monotoonne
+        type: MONOTON
+      - 
+        content: Natisone murre
+        type: NEDIS
+      - 
+        content: Gniva/Njiva murre
+        type: NJIVA
+      - 
+        content: Oseacco/Osojane murre
+        type: OSOJS
+      - 
+        content: pinyin
+        type: PINYIN
+      - 
+        content: polütooniline
+        type: POLYTON
+      - 
+        content: arvuti
+        type: POSIX
+      - 
+        content: uus kirjaviis
+        type: REVISED
+      - 
+        content: Resia murre
+        type: ROZAJ
+      - 
+        content: saho murre
+        type: SAAHO
+      - 
+        content: šoti tavainglise
+        type: SCOTLAND
+      - 
+        content: scouse
+        type: SCOUSE
+      - 
+        content: Stolvizza/Solbica murre
+        type: SOLBA
+      - 
+        content: Taraskievica ortograafia
+        type: TARASK
+      - 
+        content: ühtlustatud ortograafia
+        type: UCCOR
+      - 
+        content: ühtlustatud redigeeritud ortograafia
+        type: UCRCOR
+      - 
+        content: valentsia
+        type: VALENCIA
+      - 
+        content: Wade-Giles
+        type: WADEGILE
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Andorra peseeta
+        type: ADP
+      - 
+        displayName: 
+          - Araabia Ühendemiraatide dirhem
+          - 
+            content: Araabia Ühendemiraatide dirhem
+            count: one
+          - 
+            content: Araabia Ühendemiraatide dirhemit
+            count: other
+        type: AED
+      - 
+        displayName: Afganistani afgaani, 1927-2002
+        type: AFA
+      - 
+        displayName: 
+          - Afganistani afgaani
+          - 
+            content: Afganistani afgaani
+            count: one
+          - 
+            content: Afganistani afgaanit
+            count: other
+        type: AFN
+      - 
+        displayName: 
+          - Albaania lekk
+          - 
+            content: Albaania lekk
+            count: one
+          - 
+            content: Albaania lekki
+            count: other
+        type: ALL
+      - 
+        displayName: 
+          - Armeenia dramm
+          - 
+            content: Armeenia dramm
+            count: one
+          - 
+            content: Armeenia drammi
+            count: other
+        type: AMD
+      - 
+        displayName: 
+          - Hollandi Antillide kulden
+          - 
+            content: Hollandi Antillide kulden
+            count: one
+          - 
+            content: Hollandi Antillide kuldnat
+            count: other
+        type: ANG
+      - 
+        displayName: 
+          - Angola kvanza
+          - 
+            content: Angola kvanza
+            count: one
+          - 
+            content: Angola kvanzat
+            count: other
+        type: AOA
+      - 
+        displayName: Angola kvanza, 1977-1990
+        type: AOK
+      - 
+        displayName: Angola kvanza, 1990-2000
+        type: AON
+      - 
+        displayName: Angola reformitud kvanza, 1995-1999
+        type: AOR
+      - 
+        displayName: Argentina austral
+        type: ARA
+      - 
+        displayName: Argentina peeso, 1983-1985
+        type: ARP
+      - 
+        displayName: 
+          - Argentina peeso
+          - 
+            content: Argentina peeso
+            count: one
+          - 
+            content: Argentina peesot
+            count: other
+        type: ARS
+      - 
+        displayName: Austria šilling
+        type: ATS
+      - 
+        displayName: 
+          - Austraalia dollar
+          - 
+            content: Austraalia dollar
+            count: one
+          - 
+            content: Austraalia dollarit
+            count: other
+        symbol: AU$
+        type: AUD
+      - 
+        displayName: 
+          - Aruba guilder
+          - 
+            content: Aruba guilder
+            count: one
+          - 
+            content: Aruba guilderit
+            count: other
+        type: AWG
+      - 
+        displayName: Aserbaidžaani manat, 1993-2006
+        type: AZM
+      - 
+        displayName: 
+          - Aserbaidžaani manat
+          - 
+            content: Aserbaidžaani manat
+            count: one
+          - 
+            content: Aserbaidžaani manatit
+            count: other
+        type: AZN
+      - 
+        displayName: Bosnia-Hertsegoviina dinaar
+        type: BAD
+      - 
+        displayName: 
+          - Bosnia-Hertsegoviina mark
+          - 
+            content: Bosnia-Hertsegoviina mark
+            count: one
+          - 
+            content: Bosnia-Hertsegoviina marka
+            count: other
+        type: BAM
+      - 
+        displayName: 
+          - Barbadose dollar
+          - 
+            content: Barbadose dollar
+            count: one
+          - 
+            content: Barbadose dollarit
+            count: other
+        type: BBD
+      - 
+        displayName: 
+          - Bangladeshi taka
+          - 
+            content: Bangladeshi taka
+            count: one
+          - 
+            content: Bangladeshi takat
+            count: other
+        type: BDT
+      - 
+        displayName: Belgia konverteeritav frank
+        type: BEC
+      - 
+        displayName: Belgia frank
+        type: BEF
+      - 
+        displayName: Belgia arveldusfrank
+        type: BEL
+      - 
+        displayName: Bulgaaria püsiv leev
+        type: BGL
+      - 
+        displayName: 
+          - Bulgaaria leev
+          - 
+            content: Bulgaaria leev
+            count: one
+          - 
+            content: Bulgaaria leevi
+            count: other
+        type: BGN
+      - 
+        displayName: 
+          - Bahreini dinaar
+          - 
+            content: Bahreini dinaar
+            count: one
+          - 
+            content: Bahreini dinaari
+            count: other
+        type: BHD
+      - 
+        displayName: 
+          - Burundi frank
+          - 
+            content: Burundi frank
+            count: one
+          - 
+            content: Burundi franki
+            count: other
+        type: BIF
+      - 
+        displayName: 
+          - Bermuda dollar
+          - 
+            content: Bermuda dollar
+            count: one
+          - 
+            content: Bermuda dollarit
+            count: other
+        type: BMD
+      - 
+        displayName: 
+          - Brunei dollar
+          - 
+            content: Brunei dollar
+            count: one
+          - 
+            content: Brunei dollarit
+            count: other
+        type: BND
+      - 
+        displayName: 
+          - Bolivia boliviaano
+          - 
+            content: Bolivia boliviaano
+            count: one
+          - 
+            content: Bolivia boliviaanot
+            count: other
+        type: BOB
+      - 
+        displayName: Boliivia peeso
+        type: BOP
+      - 
+        displayName: Brasiilia krusado
+        type: BRC
+      - 
+        displayName: 
+          - Brasiilia reaal
+          - 
+            content: Brasiilia reaal
+            count: one
+          - 
+            content: Brasiilia reaali
+            count: other
+        symbol: R$
+        type: BRL
+      - 
+        displayName: 
+          - Bahama dollar
+          - 
+            content: Bahama dollar
+            count: one
+          - 
+            content: Bahama dollarit
+            count: other
+        type: BSD
+      - 
+        displayName: 
+          - Bhutani ngultrum
+          - 
+            content: Bhutani ngultrum
+            count: one
+          - 
+            content: Bhutani ngultrumit
+            count: other
+        type: BTN
+      - 
+        displayName: Birma kjatt
+        type: BUK
+      - 
+        displayName: 
+          - Botswana pula
+          - 
+            content: Botswana pula
+            count: one
+          - 
+            content: Botswana pulat
+            count: other
+        type: BWP
+      - 
+        displayName: Valgevene uus rubla, 1994-1999
+        type: BYB
+      - 
+        displayName: 
+          - Valgevene rubla
+          - 
+            content: Valgevene rubla
+            count: one
+          - 
+            content: Valgevene rubla
+            count: other
+        type: BYR
+      - 
+        displayName: 
+          - Belize dollar
+          - 
+            content: Belize dollar
+            count: one
+          - 
+            content: Belize dollarit
+            count: other
+        type: BZD
+      - 
+        displayName: 
+          - Kanada dollar
+          - 
+            content: Kanada dollar
+            count: one
+          - 
+            content: Kanada dollarit
+            count: other
+        symbol: CA$
+        type: CAD
+      - 
+        displayName: 
+          - Kongo frank
+          - 
+            content: Kongo frank
+            count: one
+          - 
+            content: Kongo franki
+            count: other
+        type: CDF
+      - 
+        displayName: 
+          - Šveitsi frank
+          - 
+            content: Šveitsi frank
+            count: one
+          - 
+            content: Šveitsi franki
+            count: other
+        type: CHF
+      - 
+        displayName: 
+          - Tšiili peeso
+          - 
+            content: Tšiili peeso
+            count: one
+          - 
+            content: Tšiili peesot
+            count: other
+        type: CLP
+      - 
+        displayName: 
+          - Hiina jüaan
+          - 
+            content: Hiina jüaan
+            count: one
+          - 
+            content: Hiina jüaani
+            count: other
+        symbol: CN¥
+        type: CNY
+      - 
+        displayName: 
+          - Kolumbia peeso
+          - 
+            content: Kolumbia peeso
+            count: one
+          - 
+            content: Kolumbia peesot
+            count: other
+        type: COP
+      - 
+        displayName: 
+          - Costa Rica colón
+          - 
+            content: Costa Rica colón
+            count: one
+          - 
+            content: Costa Rica colóni
+            count: other
+        type: CRC
+      - 
+        displayName: Serbia vana dinaar
+        type: CSD
+      - 
+        displayName: 
+          - Kuuba konverteeritav peeso
+          - 
+            content: Kuuba konverteeritav peeso
+            count: one
+          - 
+            content: Kuuba konverteeritavat peesot
+            count: other
+        type: CUC
+      - 
+        displayName: 
+          - Kuuba peeso
+          - 
+            content: Kuuba peeso
+            count: one
+          - 
+            content: Kuuba peesot
+            count: other
+        type: CUP
+      - 
+        displayName: 
+          - Roheneemesaarte eskuudo
+          - 
+            content: Roheneemesaarte eskuudo
+            count: one
+          - 
+            content: Roheneemesaarte eskuudot
+            count: other
+        type: CVE
+      - 
+        displayName: Küprose nael
+        type: CYP
+      - 
+        displayName: 
+          - Tšehhi kroon
+          - 
+            content: Tšehhi kroon
+            count: one
+          - 
+            content: Tšehhi krooni
+            count: other
+        type: CZK
+      - 
+        displayName: Saksa mark
+        type: DEM
+      - 
+        displayName: 
+          - Djibouti frank
+          - 
+            content: Djibouti frank
+            count: one
+          - 
+            content: Djibouti franki
+            count: other
+        type: DJF
+      - 
+        displayName: 
+          - Taani kroon
+          - 
+            content: Taani kroon
+            count: one
+          - 
+            content: Taani krooni
+            count: other
+        type: DKK
+      - 
+        displayName: 
+          - Dominikaani peeso
+          - 
+            content: Dominikaani peeso
+            count: one
+          - 
+            content: Dominikaani peesot
+            count: other
+        type: DOP
+      - 
+        displayName: 
+          - Alžeeria dinaar
+          - 
+            content: Alžeeria dinaar
+            count: one
+          - 
+            content: Alžeeria dinaari
+            count: other
+        type: DZD
+      - 
+        displayName: Ecuadori sukre
+        type: ECS
+      - 
+        decimal: .
+        displayName: 
+          - Eesti kroon
+          - 
+            content: Eesti kroon
+            count: one
+          - 
+            content: Eesti krooni
+            count: other
+        group: {}
+
+        symbol: kr
+        type: EEK
+      - 
+        displayName: 
+          - Egiptuse nael
+          - 
+            content: Egiptuse nael
+            count: one
+          - 
+            content: Egiptuse naela
+            count: other
+        type: EGP
+      - 
+        displayName: 
+          - Eritrea nakfa
+          - 
+            content: Eritrea nakfa
+            count: one
+          - 
+            content: Eritrea nakfat
+            count: other
+        type: ERN
+      - 
+        displayName: Hispaania peseeta
+        type: ESP
+      - 
+        displayName: 
+          - Etioopia birr
+          - 
+            content: Etioopia birr
+            count: one
+          - 
+            content: Etioopia birri
+            count: other
+        type: ETB
+      - 
+        displayName: 
+          - euro
+          - 
+            content: euro
+            count: one
+          - 
+            content: eurot
+            count: other
+        symbol: €
+        type: EUR
+      - 
+        displayName: Soome mark
+        type: FIM
+      - 
+        displayName: 
+          - Fidži dollar
+          - 
+            content: Fidži dollar
+            count: one
+          - 
+            content: Fidži dollarit
+            count: other
+        type: FJD
+      - 
+        displayName: 
+          - Falklandi saarte nael
+          - 
+            content: Falklandi saarte nael
+            count: one
+          - 
+            content: Falklandi saarte naela
+            count: other
+        type: FKP
+      - 
+        displayName: Prantsuse frank
+        type: FRF
+      - 
+        displayName: 
+          - Suurbritannia naelsterling
+          - 
+            content: Suurbritannia naelsterling
+            count: one
+          - 
+            content: Suurbritannia naelsterlingit
+            count: other
+        symbol: £
+        type: GBP
+      - 
+        displayName: 
+          - Gruusia lari
+          - 
+            content: Gruusia lari
+            count: one
+          - 
+            content: Gruusia lari
+            count: other
+        type: GEL
+      - 
+        displayName: Ghana sedi
+        type: GHC
+      - 
+        displayName: 
+          - Ghana cedi
+          - 
+            content: Ghana cedi
+            count: one
+          - 
+            content: Ghana cedit
+            count: other
+        type: GHS
+      - 
+        displayName: 
+          - Gibraltari nael
+          - 
+            content: Gibraltari nael
+            count: one
+          - 
+            content: Gibraltari naela
+            count: other
+        type: GIP
+      - 
+        displayName: 
+          - Gambia dalasi
+          - 
+            content: Gambia dalasi
+            count: one
+          - 
+            content: Gambia dalasit
+            count: other
+        type: GMD
+      - 
+        displayName: 
+          - Guinea frank
+          - 
+            content: Guinea frank
+            count: one
+          - 
+            content: Guinea franki
+            count: other
+        type: GNF
+      - 
+        displayName: Guinea syli
+        type: GNS
+      - 
+        displayName: Kreeka drahm
+        type: GRD
+      - 
+        displayName: 
+          - Guatemala ketsal
+          - 
+            content: Guatemala ketsal
+            count: one
+          - 
+            content: Guatemala ketsalit
+            count: other
+        type: GTQ
+      - 
+        displayName: Guinea-Bissau peeso
+        type: GWP
+      - 
+        displayName: 
+          - Guyana dollar
+          - 
+            content: Guyana dollar
+            count: one
+          - 
+            content: Guyana dollarit
+            count: other
+        type: GYD
+      - 
+        displayName: 
+          - Hongkongi dollar
+          - 
+            content: Hongkongi dollar
+            count: one
+          - 
+            content: Hongkongi dollarit
+            count: other
+        symbol: HK$
+        type: HKD
+      - 
+        displayName: 
+          - Hondurase lempiira
+          - 
+            content: Hondurase lempiira
+            count: one
+          - 
+            content: Hondurase lempiirat
+            count: other
+        type: HNL
+      - 
+        displayName: 
+          - Horvaatia kuna
+          - 
+            content: Horvaatia kuna
+            count: one
+          - 
+            content: Horvaatia kunat
+            count: other
+        type: HRK
+      - 
+        displayName: 
+          - Haiti gurd
+          - 
+            content: Haiti gurd
+            count: one
+          - 
+            content: Haiti gurdi
+            count: other
+        type: HTG
+      - 
+        displayName: 
+          - Ungari forint
+          - 
+            content: Ungari forint
+            count: one
+          - 
+            content: Ungari forintit
+            count: other
+        type: HUF
+      - 
+        displayName: 
+          - Indoneesia ruupia
+          - 
+            content: Indoneesia ruupia
+            count: one
+          - 
+            content: Indoneesia ruupiat
+            count: other
+        type: IDR
+      - 
+        displayName: Iiri nael
+        type: IEP
+      - 
+        displayName: Iisraeli nael
+        type: ILP
+      - 
+        displayName: 
+          - Iisraeli uus seekel
+          - 
+            content: Iisraeli uus seekel
+            count: one
+          - 
+            content: Iisraeli uut seeklit
+            count: other
+        symbol: ₪
+        type: ILS
+      - 
+        displayName: 
+          - India ruupia
+          - 
+            content: India ruupia
+            count: one
+          - 
+            content: India ruupiat
+            count: other
+        symbol: ₹
+        type: INR
+      - 
+        displayName: 
+          - Iraagi dinaar
+          - 
+            content: Iraagi dinaar
+            count: one
+          - 
+            content: Iraagi dinaari
+            count: other
+        type: IQD
+      - 
+        displayName: 
+          - Iraani riaal
+          - 
+            content: Iraani riaal
+            count: one
+          - 
+            content: Iraani riaali
+            count: other
+        type: IRR
+      - 
+        displayName: 
+          - Islandi kroon
+          - 
+            content: Islandi kroon
+            count: one
+          - 
+            content: Islandi krooni
+            count: other
+        type: ISK
+      - 
+        displayName: Itaalia liir
+        type: ITL
+      - 
+        displayName: 
+          - Jamaica dollar
+          - 
+            content: Jamaica dollar
+            count: one
+          - 
+            content: Jamaica dollarit
+            count: other
+        type: JMD
+      - 
+        displayName: 
+          - Jordaania dinaar
+          - 
+            content: Jordaania dinaar
+            count: one
+          - 
+            content: Jordaania dinaari
+            count: other
+        type: JOD
+      - 
+        displayName: 
+          - Jaapani jeen
+          - 
+            content: Jaapani jeen
+            count: one
+          - 
+            content: Jaapani jeeni
+            count: other
+        symbol: ¥
+        type: JPY
+      - 
+        displayName: 
+          - Kenya šilling
+          - 
+            content: Kenya šilling
+            count: one
+          - 
+            content: Kenya šillingit
+            count: other
+        type: KES
+      - 
+        displayName: 
+          - Kõrgõzstani somm
+          - 
+            content: Kõrgõzstani somm
+            count: one
+          - 
+            content: Kõrgõzstani sommi
+            count: other
+        type: KGS
+      - 
+        displayName: 
+          - Kambodža riaal
+          - 
+            content: Kambodža riaal
+            count: one
+          - 
+            content: Kambodža riaali
+            count: other
+        type: KHR
+      - 
+        displayName: 
+          - Komooride frank
+          - 
+            content: Komooride frank
+            count: one
+          - 
+            content: Komooride franki
+            count: other
+        type: KMF
+      - 
+        displayName: 
+          - Põhja-Korea vonn
+          - 
+            content: Põhja-Korea vonn
+            count: one
+          - 
+            content: Põhja-Korea vonni
+            count: other
+        type: KPW
+      - 
+        displayName: 
+          - Lõuna-Korea vonn
+          - 
+            content: Lõuna-Korea vonn
+            count: one
+          - 
+            content: Lõuna-Korea vonni
+            count: other
+        symbol: ₩
+        type: KRW
+      - 
+        displayName: 
+          - Kuveidi dinaar
+          - 
+            content: Kuveidi dinaar
+            count: one
+          - 
+            content: Kuveidi dinaari
+            count: other
+        type: KWD
+      - 
+        displayName: 
+          - Caymani saarte dollar
+          - 
+            content: Caymani saarte dollar
+            count: one
+          - 
+            content: Caymani saarte dollarit
+            count: other
+        type: KYD
+      - 
+        displayName: 
+          - Kasahstani tenge
+          - 
+            content: Kasahstani tenge
+            count: one
+          - 
+            content: Kasahstani tenget
+            count: other
+        type: KZT
+      - 
+        displayName: 
+          - Laose kiip
+          - 
+            content: Laose kiip
+            count: one
+          - 
+            content: Laose kiipi
+            count: other
+        type: LAK
+      - 
+        displayName: 
+          - Liibanoni nael
+          - 
+            content: Liibanoni nael
+            count: one
+          - 
+            content: Liibanoni naela
+            count: other
+        type: LBP
+      - 
+        displayName: 
+          - Sri Lanka ruupia
+          - 
+            content: Sri Lanka ruupia
+            count: one
+          - 
+            content: Sri Lanka ruupiat
+            count: other
+        type: LKR
+      - 
+        displayName: 
+          - Libeeria dollar
+          - 
+            content: Libeeria dollar
+            count: one
+          - 
+            content: Libeeria dollarit
+            count: other
+        type: LRD
+      - 
+        displayName: Lesotho loti
+        type: LSL
+      - 
+        displayName: 
+          - Leedu litt
+          - 
+            content: Leedu litt
+            count: one
+          - 
+            content: Leedu litti
+            count: other
+        type: LTL
+      - 
+        displayName: Luksemburgi frank
+        type: LUF
+      - 
+        displayName: 
+          - Läti latt
+          - 
+            content: Läti latt
+            count: one
+          - 
+            content: Läti latti
+            count: other
+        type: LVL
+      - 
+        displayName: 
+          - Liibüa dinaar
+          - 
+            content: Liibüa dinaar
+            count: one
+          - 
+            content: Liibüa dinaari
+            count: other
+        type: LYD
+      - 
+        displayName: 
+          - Maroko dirhem
+          - 
+            content: Maroko dirhem
+            count: one
+          - 
+            content: Maroko dirhemit
+            count: other
+        type: MAD
+      - 
+        displayName: 
+          - Moldova leu
+          - 
+            content: Moldova leu
+            count: one
+          - 
+            content: Moldova leud
+            count: other
+        type: MDL
+      - 
+        displayName: 
+          - Madagaskari ariary
+          - 
+            content: Madagaskari ariary
+            count: one
+          - 
+            content: Madagaskari ariaryt
+            count: other
+        type: MGA
+      - 
+        displayName: 
+          - Makedoonia denaar
+          - 
+            content: Makedoonia denaar
+            count: one
+          - 
+            content: Makedoonia denaari
+            count: other
+        type: MKD
+      - 
+        displayName: 
+          - Myanmari kjatt
+          - 
+            content: Myanmari kjatt
+            count: one
+          - 
+            content: Myanmari kjatti
+            count: other
+        type: MMK
+      - 
+        displayName: 
+          - Mongoolia tugrik
+          - 
+            content: Mongoolia tugrik
+            count: one
+          - 
+            content: Mongoolia tugrikut
+            count: other
+        type: MNT
+      - 
+        displayName: 
+          - Macao pataka
+          - 
+            content: Macao pataka
+            count: one
+          - 
+            content: Macao patakat
+            count: other
+        type: MOP
+      - 
+        displayName: 
+          - Mauritaania ugia
+          - 
+            content: Mauritaania ugia
+            count: one
+          - 
+            content: Mauritaania ugiat
+            count: other
+        type: MRO
+      - 
+        displayName: Malta liir
+        type: MTL
+      - 
+        displayName: 
+          - Mauritiuse ruupia
+          - 
+            content: Mauritiuse ruupia
+            count: one
+          - 
+            content: Mauritiuse ruupiat
+            count: other
+        type: MUR
+      - 
+        displayName: 
+          - Maldiivide ruupia
+          - 
+            content: Maldiivide ruupia
+            count: one
+          - 
+            content: Maldiivide ruupiat
+            count: other
+        type: MVR
+      - 
+        displayName: 
+          - Malawi kvatša
+          - 
+            content: Malawi kvatša
+            count: one
+          - 
+            content: Malawi kvatšat
+            count: other
+        type: MWK
+      - 
+        displayName: 
+          - Mehhiko peeso
+          - 
+            content: Mehhiko peeso
+            count: one
+          - 
+            content: Mehhiko peesot
+            count: other
+        symbol: MX$
+        type: MXN
+      - 
+        displayName: Mehhiko peeso, 1861-1990
+        type: MXP
+      - 
+        displayName: 
+          - Malaisia ringgit
+          - 
+            content: Malaisia ringgit
+            count: one
+          - 
+            content: Malaisia ringgitit
+            count: other
+        type: MYR
+      - 
+        displayName: 
+          - Mosambiigi metikal
+          - 
+            content: Mosambiigi metikal
+            count: one
+          - 
+            content: Mosambiigi metikali
+            count: other
+        type: MZN
+      - 
+        displayName: 
+          - Namiibia dollar
+          - 
+            content: Namiibia dollar
+            count: one
+          - 
+            content: Namiibia dollarit
+            count: other
+        type: NAD
+      - 
+        displayName: 
+          - Nigeeria naira
+          - 
+            content: Nigeeria naira
+            count: one
+          - 
+            content: Nigeeria nairat
+            count: other
+        type: NGN
+      - 
+        displayName: Nicaragua kordoba
+        type: NIC
+      - 
+        displayName: 
+          - Nicaragua kuldkordoba
+          - 
+            content: Nicaragua kuldkordoba
+            count: one
+          - 
+            content: Nicaragua kuldkordobat
+            count: other
+        type: NIO
+      - 
+        displayName: Hollandi kulden
+        type: NLG
+      - 
+        displayName: 
+          - Norra kroon
+          - 
+            content: Norra kroon
+            count: one
+          - 
+            content: Norra krooni
+            count: other
+        type: NOK
+      - 
+        displayName: 
+          - Nepali ruupia
+          - 
+            content: Nepali ruupia
+            count: one
+          - 
+            content: Nepali ruupiat
+            count: other
+        type: NPR
+      - 
+        displayName: 
+          - Uus-Meremaa dollar
+          - 
+            content: Uus-Meremaa dollar
+            count: one
+          - 
+            content: Uus-Meremaa dollarit
+            count: other
+        symbol: NZ$
+        type: NZD
+      - 
+        displayName: 
+          - Omaani riaal
+          - 
+            content: Omaani riaal
+            count: one
+          - 
+            content: Omaani riaali
+            count: other
+        type: OMR
+      - 
+        displayName: 
+          - Panama balboa
+          - 
+            content: Panama balboa
+            count: one
+          - 
+            content: Panama balboad
+            count: other
+        type: PAB
+      - 
+        displayName: Peruu inti
+        type: PEI
+      - 
+        displayName: 
+          - Peruu uus soll
+          - 
+            content: Peruu uus soll
+            count: one
+          - 
+            content: Peruu uut solli
+            count: other
+        type: PEN
+      - 
+        displayName: Peruu soll
+        type: PES
+      - 
+        displayName: 
+          - Paapua Uus-Guinea kina
+          - 
+            content: Paapua Uus-Guinea kina
+            count: one
+          - 
+            content: Paapua Uus-Guinea kinat
+            count: other
+        type: PGK
+      - 
+        displayName: 
+          - Filipiinide peeso
+          - 
+            content: Filipiinide peeso
+            count: one
+          - 
+            content: Filipiinide peesot
+            count: other
+        type: PHP
+      - 
+        displayName: 
+          - Pakistani ruupia
+          - 
+            content: Pakistani ruupia
+            count: one
+          - 
+            content: Pakistani ruupiat
+            count: other
+        type: PKR
+      - 
+        displayName: 
+          - Poola zlott
+          - 
+            content: Poola zlott
+            count: one
+          - 
+            content: Poola zlotti
+            count: other
+        type: PLN
+      - 
+        displayName: Poola zlott, 1950-1995
+        type: PLZ
+      - 
+        displayName: Portugali eskuudo
+        type: PTE
+      - 
+        displayName: 
+          - Paraguai guaranii
+          - 
+            content: Paraguai guaranii
+            count: one
+          - 
+            content: Paraguai guaraniid
+            count: other
+        type: PYG
+      - 
+        displayName: 
+          - Quatari riaal
+          - 
+            content: Quatari riaal
+            count: one
+          - 
+            content: Quatari riaali
+            count: other
+        type: QAR
+      - 
+        displayName: Rumeenia lei, -2005
+        type: ROL
+      - 
+        displayName: 
+          - Rumeenia lei
+          - 
+            content: Rumeenia lei
+            count: one
+          - 
+            content: Rumeenia leid
+            count: other
+        type: RON
+      - 
+        displayName: 
+          - Serbia dinaar
+          - 
+            content: Serbia dinaar
+            count: one
+          - 
+            content: Serbia dinaari
+            count: other
+        type: RSD
+      - 
+        displayName: 
+          - Venemaa rubla
+          - 
+            content: Venemaa rubla
+            count: one
+          - 
+            content: Venemaa rubla
+            count: other
+        type: RUB
+      - 
+        displayName: Venemaa rubla, 1991-1998
+        type: RUR
+      - 
+        displayName: 
+          - Rwanda frank
+          - 
+            content: Rwanda frank
+            count: one
+          - 
+            content: Rwanda franki
+            count: other
+        type: RWF
+      - 
+        displayName: 
+          - Saudi-Araabia riaal
+          - 
+            content: Saudi-Araabia riaal
+            count: one
+          - 
+            content: Saudi-Araabia riaali
+            count: other
+        type: SAR
+      - 
+        displayName: 
+          - Saalomoni saarte dollar
+          - 
+            content: Saalomoni saarte dollar
+            count: one
+          - 
+            content: Saalomoni saarte dollarit
+            count: other
+        type: SBD
+      - 
+        displayName: 
+          - Seišelli saarte ruupia
+          - 
+            content: Seišelli saarte ruupia
+            count: one
+          - 
+            content: Seišelli saarte ruupiat
+            count: other
+        type: SCR
+      - 
+        displayName: 
+          - Sudaani nael
+          - 
+            content: Sudaani nael
+            count: one
+          - 
+            content: Sudaani naela
+            count: other
+        type: SDG
+      - 
+        displayName: Sudaani nael, 1957-1998
+        type: SDP
+      - 
+        displayName: 
+          - Rootsi kroon
+          - 
+            content: Rootsi kroon
+            count: one
+          - 
+            content: Rootsi krooni
+            count: other
+        type: SEK
+      - 
+        displayName: 
+          - Singapuri dollar
+          - 
+            content: Singapuri dollar
+            count: one
+          - 
+            content: Singapuri dollarit
+            count: other
+        type: SGD
+      - 
+        displayName: 
+          - Saint Helena nael
+          - 
+            content: Saint Helena nael
+            count: one
+          - 
+            content: Saint Helena naela
+            count: other
+        type: SHP
+      - 
+        displayName: Sloveenia tolar
+        type: SIT
+      - 
+        displayName: 
+          - Slovakkia kroon
+          - 
+            content: Slovakkia kroon
+            count: one
+          - 
+            content: Slovakkia krooni
+            count: other
+        type: SKK
+      - 
+        displayName: 
+          - Sierra Leone leoone
+          - 
+            content: Sierra Leone leoone
+            count: one
+          - 
+            content: Sierra Leone leoonet
+            count: other
+        type: SLL
+      - 
+        displayName: 
+          - Somaalia šilling
+          - 
+            content: Somaalia šilling
+            count: one
+          - 
+            content: Somaalia šillingit
+            count: other
+        type: SOS
+      - 
+        displayName: 
+          - Surinami dollar
+          - 
+            content: Surinami dollar
+            count: one
+          - 
+            content: Surinami dollarit
+            count: other
+        type: SRD
+      - 
+        displayName: Surinami kulden
+        type: SRG
+      - 
+        displayName: 
+          - Lõuna-Sudaani nael
+          - 
+            content: Lõuna-Sudaani nael
+            count: one
+          - 
+            content: Lõuna-Sudaani naela
+            count: other
+        type: SSP
+      - 
+        displayName: 
+          - São Tomé ja Príncipe dobra
+          - 
+            content: São Tomé ja Príncipe dobra
+            count: one
+          - 
+            content: São Tomé ja Príncipe dobrat
+            count: other
+        type: STD
+      - 
+        displayName: NSVL rubla
+        type: SUR
+      - 
+        displayName: Salvadori koloon
+        type: SVC
+      - 
+        displayName: 
+          - Süüria nael
+          - 
+            content: Süüria nael
+            count: one
+          - 
+            content: Süüria naela
+            count: other
+        type: SYP
+      - 
+        displayName: 
+          - Svaasimaa lilangeni
+          - 
+            content: Svaasimaa lilangeni
+            count: one
+          - 
+            content: Svaasimaa lilangenit
+            count: other
+        type: SZL
+      - 
+        displayName: 
+          - Tai baat
+          - 
+            content: Tai baat
+            count: one
+          - 
+            content: Tai baati
+            count: other
+        symbol: ฿
+        type: THB
+      - 
+        displayName: 
+          - Tadžikistani somoni
+          - 
+            content: Tadžikistani somoni
+            count: one
+          - 
+            content: Tadžikistani somonit
+            count: other
+        type: TJS
+      - 
+        displayName: Türkmenistani manat, 1993-2009
+        type: TMM
+      - 
+        displayName: 
+          - Türkmenistani manat
+          - 
+            content: Türkmenistani manat
+            count: one
+          - 
+            content: Türkmenistani manatit
+            count: other
+        type: TMT
+      - 
+        displayName: 
+          - Tuneesia dinaar
+          - 
+            content: Tuneesia dinaar
+            count: one
+          - 
+            content: Tuneesia dinaari
+            count: other
+        type: TND
+      - 
+        displayName: 
+          - Tonga pa'anga
+          - 
+            content: Tonga pa'anga
+            count: one
+          - 
+            content: Tonga pa'angat
+            count: other
+        type: TOP
+      - 
+        displayName: Timori eskuudo
+        type: TPE
+      - 
+        displayName: Türgi liir
+        type: TRL
+      - 
+        displayName: 
+          - Türgi uus liir
+          - 
+            content: Türgi uus liir
+            count: one
+          - 
+            content: Türgi uut liiri
+            count: other
+        type: TRY
+      - 
+        displayName: 
+          - Trinidadi ja Tobago dollar
+          - 
+            content: Trinidadi ja Tobago dollar
+            count: one
+          - 
+            content: Trinidadi ja Tobago dollarit
+            count: other
+        type: TTD
+      - 
+        displayName: 
+          - Taiwani dollar
+          - 
+            content: Taiwani dollar
+            count: one
+          - 
+            content: Taiwani dollarit
+            count: other
+        symbol: NT$
+        type: TWD
+      - 
+        displayName: 
+          - Tansaania šilling
+          - 
+            content: Tansaania šilling
+            count: one
+          - 
+            content: Tansaania šillingit
+            count: other
+        type: TZS
+      - 
+        displayName: 
+          - Ukraina grivna
+          - 
+            content: Ukraina grivna
+            count: one
+          - 
+            content: Ukraina grivnat
+            count: other
+        type: UAH
+      - 
+        displayName: Ukraina karbovanets
+        type: UAK
+      - 
+        displayName: 
+          - Uganda šilling
+          - 
+            content: Uganda šilling
+            count: one
+          - 
+            content: Uganda šillingit
+            count: other
+        type: UGX
+      - 
+        displayName: 
+          - USA dollar
+          - 
+            content: USA dollar
+            count: one
+          - 
+            content: USA dollarit
+            count: other
+        symbol: $
+        type: USD
+      - 
+        displayName: USA järgmise päeva dollar
+        type: USN
+      - 
+        displayName: USA sama päeva dollar
+        type: USS
+      - 
+        displayName: 
+          - Uruguai peeso
+          - 
+            content: Uruguai peeso
+            count: one
+          - 
+            content: Uruguai peesot
+            count: other
+        type: UYU
+      - 
+        displayName: 
+          - Usbekistani somm
+          - 
+            content: Usbekistani somm
+            count: one
+          - 
+            content: Usbekistani sommi
+            count: other
+        type: UZS
+      - 
+        displayName: 
+          - Venezuela bolívar (1871-2008)
+          - 
+            content: Venezuela bolívar (1871-2008)
+            count: one
+          - 
+            content: Venezuela boliivarit (1871-2008)
+            count: other
+        type: VEB
+      - 
+        displayName: 
+          - Venezuela bolívar
+          - 
+            content: Venezuela bolívar
+            count: one
+          - 
+            content: Venezuela boliivarit
+            count: other
+        type: VEF
+      - 
+        displayName: 
+          - Vietnami dong
+          - 
+            content: Vietnami dong
+            count: one
+          - 
+            content: Vietnami dongi
+            count: other
+        symbol: ₫
+        type: VND
+      - 
+        displayName: 
+          - Vanuatu vatu
+          - 
+            content: Vanuatu vatu
+            count: one
+          - 
+            content: Vanuatu vatut
+            count: other
+        type: VUV
+      - 
+        displayName: 
+          - Lääne-Samoa tala
+          - 
+            content: Lääne-Samoa tala
+            count: one
+          - 
+            content: Lääne-Samoa tala
+            count: other
+        type: WST
+      - 
+        displayName: 
+          - CFA frank BEAC
+          - 
+            content: CFA frank BEAC
+            count: one
+          - 
+            content: CFA franki BEAC
+            count: other
+        symbol: FCFA
+        type: XAF
+      - 
+        displayName: 
+          - hõbe
+          - 
+            content: hõbe
+            count: one
+          - 
+            content: hõbedat
+            count: other
+        type: XAG
+      - 
+        displayName: 
+          - kuld
+          - 
+            content: kuld
+            count: one
+          - 
+            content: kulda
+            count: other
+        type: XAU
+      - 
+        displayName: EURCO
+        type: XBA
+      - 
+        displayName: Euroopa rahaühik
+        type: XBB
+      - 
+        displayName: Euroopa rahaline arvestusühik (XBC)
+        type: XBC
+      - 
+        displayName: Euroopa rahaline arvestusühik (XBD)
+        type: XBD
+      - 
+        displayName: 
+          - Ida-Kariibi dollar
+          - 
+            content: Ida-Kariibi dollar
+            count: one
+          - 
+            content: Ida-Kariibi dollarit
+            count: other
+        symbol: EC$
+        type: XCD
+      - 
+        displayName: Rahvusvahelise Valuutafondi arvestusühik
+        type: XDR
+      - 
+        displayName: eküü
+        type: XEU
+      - 
+        displayName: Prantsuse kuldfrank
+        type: XFO
+      - 
+        displayName: Prantsuse UIC-frank
+        type: XFU
+      - 
+        displayName: 
+          - Aafrika ühisfrank BCEAO
+          - 
+            content: Aafrika ühisfrank BCEAO
+            count: one
+          - 
+            content: Aafrika ühisfranki BCEAO
+            count: other
+        symbol: CFA
+        type: XOF
+      - 
+        displayName: 
+          - pallaadium
+          - 
+            content: pallaadium
+            count: one
+          - 
+            content: pallaadiumit
+            count: other
+        type: XPD
+      - 
+        displayName: 
+          - Prantsuse Vaikse-Ookeani frank
+          - 
+            content: Prantsuse Vaikse-Ookeani frank
+            count: one
+          - 
+            content: Prantsuse Vaikse-Ookeani franki
+            count: other
+        symbol: CFPF
+        type: XPF
+      - 
+        displayName: 
+          - plaatina
+          - 
+            content: plaatina
+            count: one
+          - 
+            content: plaatina
+            count: other
+        type: XPT
+      - 
+        displayName: vääringute testkood
+        type: XTS
+      - 
+        displayName: 
+          - määramata rahaühik
+          - 
+            content: määramata rahaühik
+            count: one
+          - 
+            content: määramata rahaühikut
+            count: other
+        type: XXX
+      - 
+        displayName: Jeemeni dinaar
+        type: YDD
+      - 
+        displayName: 
+          - Jeemeni riaal
+          - 
+            content: Jeemeni riaal
+            count: one
+          - 
+            content: Jeemeni riaali
+            count: other
+        type: YER
+      - 
+        displayName: Jugoslaavia uus dinaar
+        type: YUM
+      - 
+        displayName: Jugoslaavia konverteeritav dinaar
+        type: YUN
+      - 
+        displayName: 
+          - Lõuna-Aafrika rand
+          - 
+            content: Lõuna-Aafrika rand
+            count: one
+          - 
+            content: LAVi randi
+            count: other
+        type: ZAR
+      - 
+        displayName: 
+          - Sambia kvatša (1968-2012)
+          - 
+            content: Sambia kvatša (1968-2012)
+            count: one
+          - 
+            content: Sambia kvatšat (1968-2012)
+            count: other
+        type: ZMK
+      - 
+        displayName: 
+          - Sambia kvatša
+          - 
+            content: Sambia kvatša
+            count: one
+          - 
+            content: Sambia kvatšat
+            count: other
+        type: ZMW
+      - 
+        displayName: Sairi zaire
+        type: ZRZ
+      - 
+        displayName: Zimbabwe dollar
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤;(#,##0.00 ¤)"
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 tuhat
+              count: one
+              type: 1000
+            - 
+              content: 0 tuhat
+              count: other
+              type: 1000
+            - 
+              content: 00 tuhat
+              count: one
+              type: 10000
+            - 
+              content: 00 tuhat
+              count: other
+              type: 10000
+            - 
+              content: 000 tuhat
+              count: one
+              type: 100000
+            - 
+              content: 000 tuhat
+              count: other
+              type: 100000
+            - 
+              content: 0 miljon
+              count: one
+              type: 1000000
+            - 
+              content: 0 miljonit
+              count: other
+              type: 1000000
+            - 
+              content: 00 miljon
+              count: one
+              type: 10000000
+            - 
+              content: 00 miljonit
+              count: other
+              type: 10000000
+            - 
+              content: 000 miljon
+              count: one
+              type: 100000000
+            - 
+              content: 000 miljonit
+              count: other
+              type: 100000000
+            - 
+              content: 0 miljard
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 miljardit
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 miljard
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 miljardit
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 miljard
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 miljardit
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 triljon
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 triljonit
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 triljon
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 triljonit
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 triljon
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 triljonit
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 tuh
+              count: one
+              type: 1000
+            - 
+              content: 0 tuh
+              count: other
+              type: 1000
+            - 
+              content: 00 tuh
+              count: one
+              type: 10000
+            - 
+              content: 00 tuh
+              count: other
+              type: 10000
+            - 
+              content: 000 tuh
+              count: one
+              type: 100000
+            - 
+              content: 000 tuh
+              count: other
+              type: 100000
+            - 
+              content: 0 mln
+              count: one
+              type: 1000000
+            - 
+              content: 0 mln
+              count: other
+              type: 1000000
+            - 
+              content: 00 mln
+              count: one
+              type: 10000000
+            - 
+              content: 00 mln
+              count: other
+              type: 10000000
+            - 
+              content: 000 mln
+              count: one
+              type: 100000000
+            - 
+              content: 000 mln
+              count: other
+              type: 100000000
+            - 
+              content: 0 mld
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 mld
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 mld
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 mld
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 mld
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 mld
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 trl
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 trl
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 trl
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 trl
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 trl
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 trl
+              count: other
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: {}
+
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: ei:e
+    yesstr: jah:j
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} ööpäev"
+          count: one
+        - 
+          alt: short
+          content: "{0} päeva"
+          count: one
+        - 
+          content: "{0} ööpäeva"
+          count: other
+        - 
+          alt: short
+          content: "{0} päeva"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} päeva pärast"
+          count: one
+        - 
+          content: "{0} päeva pärast"
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} päeva eest"
+          count: one
+        - 
+          content: "{0} päeva eest"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} tundi"
+          count: one
+        - 
+          alt: short
+          content: "{0} tundi"
+          count: one
+        - 
+          content: "{0} tundi"
+          count: other
+        - 
+          alt: short
+          content: "{0} tundi"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} tunni pärast"
+          count: one
+        - 
+          content: "{0} tunni pärast"
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} tunni eest"
+          count: one
+        - 
+          content: "{0} tunni eest"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minut"
+          count: one
+        - 
+          alt: short
+          content: "{0} min"
+          count: one
+        - 
+          content: "{0} minutit"
+          count: other
+        - 
+          alt: short
+          content: "{0} min"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: "{0} minuti pärast"
+          count: one
+        - 
+          content: "{0} minuti pärast"
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: "{0} minuti eest"
+          count: one
+        - 
+          content: "{0} minuti eest"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} kuu"
+          count: one
+        - 
+          alt: short
+          content: "{0} kuud"
+          count: one
+        - 
+          content: "{0} kuud"
+          count: other
+        - 
+          alt: short
+          content: "{0} kuud"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: "{0} kuu pärast"
+          count: one
+        - 
+          content: "{0} kuu pärast"
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: "{0} kuu eest"
+          count: one
+        - 
+          content: "{0} kuu eest"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} sekund"
+          count: one
+        - 
+          alt: short
+          content: "{0} s"
+          count: one
+        - 
+          content: "{0} sekundit"
+          count: other
+        - 
+          alt: short
+          content: "{0} s"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: "{0} sekundi pärast"
+          count: one
+        - 
+          content: "{0} sekundi pärast"
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: "{0} sekundi eest"
+          count: one
+        - 
+          content: "{0} sekundi eest"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} nädal"
+          count: one
+        - 
+          alt: short
+          content: "{0} nädal"
+          count: one
+        - 
+          content: "{0} nädalat"
+          count: other
+        - 
+          alt: short
+          content: "{0} nädalat"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: "{0} nädala pärast"
+          count: one
+        - 
+          content: "{0} nädala pärast"
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: "{0} nädala eest"
+          count: one
+        - 
+          content: "{0} nädala eest"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} aasta"
+          count: one
+        - 
+          alt: short
+          content: "{0} a"
+          count: one
+        - 
+          content: "{0} aastat"
+          count: other
+        - 
+          alt: short
+          content: "{0} a"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: "{0} aasta pärast"
+          count: one
+        - 
+          content: "{0} aasta pärast"
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: "{0} aasta eest"
+          count: one
+        - 
+          content: "{0} aasta eest"
+          count: other

@@ -1,0 +1,187 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: G y-MM-dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG yy-MM-dd
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: yy-MM-dd
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        days: 
+          dayContext: 
+            dayWidth: 
+              - 
+                day: 
+                  content: сри
+                  type: wed
+                type: abbreviated
+              - 
+                day: 
+                  content: сриједа
+                  type: wed
+                type: wide
+            type: format
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: јуни
+                  type: 6
+                - 
+                  content: јули
+                  type: 7
+              type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH 'часова', mm 'минута', ss 'секунди' zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 16:18:23 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: sr
+  script: 
+    type: Cyrl
+  territory: 
+    type: BA
+  version: 
+    number: "$Revision: 8251 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      content: српски
+      draft: unconfirmed
+      type: sr
+numbers: 
+  currencies: 
+    currency: 
+      displayName: Конвертибилна Марка
+      type: BAM

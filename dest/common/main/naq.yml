@@ -1,0 +1,1472 @@
+characters: 
+  exemplarCharacters: 
+    - "[a â b c d e f g h i î k m n o ô p q r s t u û w x y z ǀ ǁ ǂ ǃ]"
+    - 
+      content: "[j l v]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I K M N O P Q R S T U W X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: ǁgoagas
+                  type: am
+                - 
+                  content: ǃuias
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Son
+                      type: sun
+                    - 
+                      content: Ma
+                      type: mon
+                    - 
+                      content: De
+                      type: tue
+                    - 
+                      content: Wu
+                      type: wed
+                    - 
+                      content: Do
+                      type: thu
+                    - 
+                      content: Fr
+                      type: fri
+                    - 
+                      content: Sat
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Sontaxtsees
+                      type: sun
+                    - 
+                      content: Mantaxtsees
+                      type: mon
+                    - 
+                      content: Denstaxtsees
+                      type: tue
+                    - 
+                      content: Wunstaxtsees
+                      type: wed
+                    - 
+                      content: Dondertaxtsees
+                      type: thu
+                    - 
+                      content: Fraitaxtsees
+                      type: fri
+                    - 
+                      content: Satertaxtsees
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: S
+                    type: sun
+                  - 
+                    content: M
+                    type: mon
+                  - 
+                    content: E
+                    type: tue
+                  - 
+                    content: W
+                    type: wed
+                  - 
+                    content: D
+                    type: thu
+                  - 
+                    content: F
+                    type: fri
+                  - 
+                    content: A
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: BC
+                type: 0
+              - 
+                content: AD
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Xristub aiǃâ
+                type: 0
+              - 
+                content: Xristub khaoǃgâ
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mar
+                      type: 3
+                    - 
+                      content: Apr
+                      type: 4
+                    - 
+                      content: May
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Jul
+                      type: 7
+                    - 
+                      content: Aug
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: Oct
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Dec
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ǃKhanni
+                      type: 1
+                    - 
+                      content: ǃKhanǀgôab
+                      type: 2
+                    - 
+                      content: ǀKhuuǁkhâb
+                      type: 3
+                    - 
+                      content: ǃHôaǂkhaib
+                      type: 4
+                    - 
+                      content: ǃKhaitsâb
+                      type: 5
+                    - 
+                      content: Gamaǀaeb
+                      type: 6
+                    - 
+                      content: ǂKhoesaob
+                      type: 7
+                    - 
+                      content: Aoǁkhuumûǁkhâb
+                      type: 8
+                    - 
+                      content: Taraǀkhuumûǁkhâb
+                      type: 9
+                    - 
+                      content: ǂNûǁnâiseb
+                      type: 10
+                    - 
+                      content: ǀHooǂgaeb
+                      type: 11
+                    - 
+                      content: Hôasoreǁkhâb
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: J
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: A
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: J
+                    type: 6
+                  - 
+                    content: J
+                    type: 7
+                  - 
+                    content: A
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: O
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: KW1
+                    type: 1
+                  - 
+                    content: KW2
+                    type: 2
+                  - 
+                    content: KW3
+                    type: 3
+                  - 
+                    content: KW4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: 1ro kwartals
+                    type: 1
+                  - 
+                    content: 2ǁî kwartals
+                    type: 2
+                  - 
+                    content: 3ǁî kwartals
+                    type: 3
+                  - 
+                    content: 4ǁî kwartals
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: ǁAeǃgâs
+        type: era
+      - 
+        displayName: Kurib
+        type: year
+      - 
+        displayName: ǁKhâb
+        type: month
+      - 
+        displayName: Wekheb
+        type: week
+      - 
+        displayName: Tsees
+        relative: 
+          content: Neetsee
+          type: 0
+        type: day
+      - 
+        displayName: Wekheb tsees
+        type: weekday
+      - 
+        displayName: ǁgoas/ǃuis
+        type: dayperiod
+      - 
+        displayName: Iiri
+        type: hour
+      - 
+        displayName: Haib
+        type: minute
+      - 
+        displayName: ǀGâub
+        type: second
+      - 
+        displayName: ǁAeb ǀharib
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: naq
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Akangowab
+        type: ak
+      - 
+        content: Amharicgowab
+        type: am
+      - 
+        content: Arabiǁî gowab
+        type: ar
+      - 
+        content: Belarusanǁî gowab
+        type: be
+      - 
+        content: Bulgariaǁî gowab
+        type: bg
+      - 
+        content: Bengaliǁî gowab
+        type: bn
+      - 
+        content: Czechǁî gowab
+        type: cs
+      - 
+        content: Duits
+        type: de
+      - 
+        content: Xriks
+        type: el
+      - 
+        content: Engels
+        type: en
+      - 
+        content: Spaans
+        type: es
+      - 
+        content: Persiaǁî gowab
+        type: fa
+      - 
+        content: Frans
+        type: fr
+      - 
+        content: Hausagowab
+        type: ha
+      - 
+        content: Hindigowab
+        type: hi
+      - 
+        content: Hungariaǁî gowab
+        type: hu
+      - 
+        content: Indonesiaǁî gowab
+        type: id
+      - 
+        content: Igbogowab
+        type: ig
+      - 
+        content: Italians
+        type: it
+      - 
+        content: Japanees
+        type: ja
+      - 
+        content: Javanese
+        type: jv
+      - 
+        content: Khmerǁî gowab, Central
+        type: km
+      - 
+        content: Koreaǁî gowab
+        type: ko
+      - 
+        content: Malayǁî gowab
+        type: ms
+      - 
+        content: Burmesǁî gowab
+        type: my
+      - 
+        content: Khoekhoegowab
+        type: naq
+      - 
+        content: Nepalǁî gowab
+        type: ne
+      - 
+        content: Hollands
+        type: nl
+      - 
+        content: Punjabigowab
+        type: pa
+      - 
+        content: Poleǁî gowab
+        type: pl
+      - 
+        content: Portugees
+        type: pt
+      - 
+        content: Romaniaǁî gowab
+        type: ro
+      - 
+        content: Russiaǁî gowab
+        type: ru
+      - 
+        content: Rwandaǁî gowab
+        type: rw
+      - 
+        content: Somaliǁî gowab
+        type: so
+      - 
+        content: Swedeǁî gowab
+        type: sv
+      - 
+        content: Tamilǁî gowab
+        type: ta
+      - 
+        content: Thaiǁî gowab
+        type: th
+      - 
+        content: Turkeǁî gowab
+        type: tr
+      - 
+        content: Ukrainiaǁî gowab
+        type: uk
+      - 
+        content: Urduǁî gowab
+        type: ur
+      - 
+        content: Vietnamǁî gowab
+        type: vi
+      - 
+        content: Yorubab
+        type: yo
+      - 
+        content: Chineesǁî gowab, Mandarinni
+        type: zh
+      - 
+        content: Zulub
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Andorrab
+        type: AD
+      - 
+        content: United Arab Emirates
+        type: AE
+      - 
+        content: Afghanistanni
+        type: AF
+      - 
+        content: Antiguab tsî Barbudab
+        type: AG
+      - 
+        content: Anguillab
+        type: AI
+      - 
+        content: Albaniab
+        type: AL
+      - 
+        content: Armeniab
+        type: AM
+      - 
+        content: Netherlands Antilles
+        type: AN
+      - 
+        content: Angolab
+        type: AO
+      - 
+        content: Argentinab
+        type: AR
+      - 
+        content: Americab Samoab
+        type: AS
+      - 
+        content: Austriab
+        type: AT
+      - 
+        content: Australieb
+        type: AU
+      - 
+        content: Arubab
+        type: AW
+      - 
+        content: Azerbaijanni
+        type: AZ
+      - 
+        content: Bosniab tsî Herzegovinab
+        type: BA
+      - 
+        content: Barbados
+        type: BB
+      - 
+        content: Banglades
+        type: BD
+      - 
+        content: Belgiummi
+        type: BE
+      - 
+        content: Burkina Fasob
+        type: BF
+      - 
+        content: Bulgariab
+        type: BG
+      - 
+        content: Bahrain
+        type: BH
+      - 
+        content: Burundib
+        type: BI
+      - 
+        content: Benins
+        type: BJ
+      - 
+        content: Bermudas
+        type: BM
+      - 
+        content: Brunei
+        type: BN
+      - 
+        content: Boliviab
+        type: BO
+      - 
+        content: Braziliab
+        type: BR
+      - 
+        content: Bahamas
+        type: BS
+      - 
+        content: Bhutans
+        type: BT
+      - 
+        content: Botswanab
+        type: BW
+      - 
+        content: Belarus
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Kanadab
+        type: CA
+      - 
+        content: Democratic Republic of the Congo
+        type: CD
+      - 
+        content: Central African Republiki
+        type: CF
+      - 
+        content: Congob
+        type: CG
+      - 
+        content: Switzerlandi
+        type: CH
+      - 
+        content: Ivoorkusi
+        type: CI
+      - 
+        content: Cook Islands
+        type: CK
+      - 
+        content: Chilib
+        type: CL
+      - 
+        content: Cameroonni
+        type: CM
+      - 
+        content: Chinab
+        type: CN
+      - 
+        content: Colombiab
+        type: CO
+      - 
+        content: Costa Rica
+        type: CR
+      - 
+        content: Cubab
+        type: CU
+      - 
+        content: Cape Verde Islands
+        type: CV
+      - 
+        content: Cyprus
+        type: CY
+      - 
+        content: Czech Republiki
+        type: CZ
+      - 
+        content: Duitslandi
+        type: DE
+      - 
+        content: Djibouti
+        type: DJ
+      - 
+        content: Denmarki
+        type: DK
+      - 
+        content: Dominicab
+        type: DM
+      - 
+        content: Dominican Republic
+        type: DO
+      - 
+        content: Algeriab
+        type: DZ
+      - 
+        content: Ecuadori
+        type: EC
+      - 
+        content: Estoniab
+        type: EE
+      - 
+        content: Egipteb
+        type: EG
+      - 
+        content: Eritreab
+        type: ER
+      - 
+        content: Spanieb
+        type: ES
+      - 
+        content: Ethiopiab
+        type: ET
+      - 
+        content: Finlandi
+        type: FI
+      - 
+        content: Fijib
+        type: FJ
+      - 
+        content: Falkland Islands
+        type: FK
+      - 
+        content: Micronesia
+        type: FM
+      - 
+        content: Frankreiki
+        type: FR
+      - 
+        content: Gaboni
+        type: GA
+      - 
+        content: United Kingdom
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Georgiab
+        type: GE
+      - 
+        content: French Guiana
+        type: GF
+      - 
+        content: Ghanab
+        type: GH
+      - 
+        content: Gibraltar
+        type: GI
+      - 
+        content: Greenland
+        type: GL
+      - 
+        content: Gambiab
+        type: GM
+      - 
+        content: Guineab
+        type: GN
+      - 
+        content: Guadeloupe
+        type: GP
+      - 
+        content: Equatorial Guineab
+        type: GQ
+      - 
+        content: Xrikelandi
+        type: GR
+      - 
+        content: Guatemala
+        type: GT
+      - 
+        content: Guam
+        type: GU
+      - 
+        content: Guinea-Bissau
+        type: GW
+      - 
+        content: Guyana
+        type: GY
+      - 
+        content: Honduras
+        type: HN
+      - 
+        content: Croatiab
+        type: HR
+      - 
+        content: Haiti
+        type: HT
+      - 
+        content: Hongareieb
+        type: HU
+      - 
+        content: Indonesiab
+        type: ID
+      - 
+        content: Irlandi
+        type: IE
+      - 
+        content: Israeli
+        type: IL
+      - 
+        content: Indiab
+        type: IN
+      - 
+        content: British Indian Ocean Territory
+        type: IO
+      - 
+        content: Iraqi
+        type: IQ
+      - 
+        content: Iranni
+        type: IR
+      - 
+        content: Iceland
+        type: IS
+      - 
+        content: Italiab
+        type: IT
+      - 
+        content: Jamaicab
+        type: JM
+      - 
+        content: Jordanni
+        type: JO
+      - 
+        content: Japanni
+        type: JP
+      - 
+        content: Kenyab
+        type: KE
+      - 
+        content: Kyrgyzstanni
+        type: KG
+      - 
+        content: Cambodiab
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Comoros
+        type: KM
+      - 
+        content: Saint Kitts and Nevis
+        type: KN
+      - 
+        content: Koreab, Noord
+        type: KP
+      - 
+        content: Koreab, Suid
+        type: KR
+      - 
+        content: Kuwaiti
+        type: KW
+      - 
+        content: Cayman Islands
+        type: KY
+      - 
+        content: Kazakhstanni
+        type: KZ
+      - 
+        content: Laos
+        type: LA
+      - 
+        content: Lebanonni
+        type: LB
+      - 
+        content: Saint Lucia
+        type: LC
+      - 
+        content: Liechtensteinni
+        type: LI
+      - 
+        content: Sri Lankab
+        type: LK
+      - 
+        content: Liberiab
+        type: LR
+      - 
+        content: Lesothob
+        type: LS
+      - 
+        content: Lithuaniab
+        type: LT
+      - 
+        content: Luxembourgi
+        type: LU
+      - 
+        content: Latvia
+        type: LV
+      - 
+        content: Libyab
+        type: LY
+      - 
+        content: Morocco
+        type: MA
+      - 
+        content: Monaco
+        type: MC
+      - 
+        content: Moldova
+        type: MD
+      - 
+        content: Madagascari
+        type: MG
+      - 
+        content: Marshall Islands
+        type: MH
+      - 
+        content: Macedoniab
+        type: MK
+      - 
+        content: Malib
+        type: ML
+      - 
+        content: Myanmar
+        type: MM
+      - 
+        content: Mongolia
+        type: MN
+      - 
+        content: Northern Mariana Islands
+        type: MP
+      - 
+        content: Martinique
+        type: MQ
+      - 
+        content: Mauritania
+        type: MR
+      - 
+        content: Montserrat
+        type: MS
+      - 
+        content: Malta
+        type: MT
+      - 
+        content: Mauritius
+        type: MU
+      - 
+        content: Maldives
+        type: MV
+      - 
+        content: Malawib
+        type: MW
+      - 
+        content: Mexicob
+        type: MX
+      - 
+        content: Malaysiab
+        type: MY
+      - 
+        content: Mozambiki
+        type: MZ
+      - 
+        content: Namibiab
+        type: NA
+      - 
+        content: New Caledonia
+        type: NC
+      - 
+        content: Nigeri
+        type: NE
+      - 
+        content: Norfolk Island
+        type: NF
+      - 
+        content: Nigerieb
+        type: NG
+      - 
+        content: Nicaraguab
+        type: NI
+      - 
+        content: Netherlands
+        type: NL
+      - 
+        content: Noorweeb
+        type: 'NO'
+      - 
+        content: Nepali
+        type: NP
+      - 
+        content: Nauru
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: New Zealandi
+        type: NZ
+      - 
+        content: Oman
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Perub
+        type: PE
+      - 
+        content: French Polynesia
+        type: PF
+      - 
+        content: Papua New Guineab
+        type: PG
+      - 
+        content: Philippinni
+        type: PH
+      - 
+        content: Pakistanni
+        type: PK
+      - 
+        content: Polandi
+        type: PL
+      - 
+        content: Saint Pierre and Miquelon
+        type: PM
+      - 
+        content: Pitcairn
+        type: PN
+      - 
+        content: Puerto Rico
+        type: PR
+      - 
+        content: Palestinian West Bank and Gaza
+        type: PS
+      - 
+        content: Portugali
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paraguaib
+        type: PY
+      - 
+        content: Qatar
+        type: QA
+      - 
+        content: Réunion
+        type: RE
+      - 
+        content: Romania
+        type: RO
+      - 
+        content: Rasiab
+        type: RU
+      - 
+        content: Rwandab
+        type: RW
+      - 
+        content: Saudi Arabiab
+        type: SA
+      - 
+        content: Solomon Islands
+        type: SB
+      - 
+        content: Seychelles
+        type: SC
+      - 
+        content: Sudanni
+        type: SD
+      - 
+        content: Swedeb
+        type: SE
+      - 
+        content: Singapore
+        type: SG
+      - 
+        content: Saint Helena
+        type: SH
+      - 
+        content: Slovenia
+        type: SI
+      - 
+        content: Slovakia
+        type: SK
+      - 
+        content: Sierra Leone
+        type: SL
+      - 
+        content: San Marino
+        type: SM
+      - 
+        content: Senegali
+        type: SN
+      - 
+        content: Somaliab
+        type: SO
+      - 
+        content: Suriname
+        type: SR
+      - 
+        content: São Tomé and Príncipe
+        type: ST
+      - 
+        content: El Salvadori
+        type: SV
+      - 
+        content: Syriab
+        type: SY
+      - 
+        content: Swazilandi
+        type: SZ
+      - 
+        content: Turks and Caicos Islands
+        type: TC
+      - 
+        content: Chadi
+        type: TD
+      - 
+        content: Togob
+        type: TG
+      - 
+        content: Thailandi
+        type: TH
+      - 
+        content: Tajikistan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: East Timor
+        type: TL
+      - 
+        content: Turkmenistan
+        type: TM
+      - 
+        content: Tunisiab
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Turkeieb
+        type: TR
+      - 
+        content: Trinidad and Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwan
+        type: TW
+      - 
+        content: Tanzaniab
+        type: TZ
+      - 
+        content: Ukraine
+        type: UA
+      - 
+        content: Ugandab
+        type: UG
+      - 
+        content: Amerikab
+        type: US
+      - 
+        content: Uruguaib
+        type: UY
+      - 
+        content: Uzbekistan
+        type: UZ
+      - 
+        content: Vatican State
+        type: VA
+      - 
+        content: Saint Vincent and the Grenadines
+        type: VC
+      - 
+        content: Venezuelab
+        type: VE
+      - 
+        content: British Virgin Islands
+        type: VG
+      - 
+        content: U.S. Virgin Islands
+        type: VI
+      - 
+        content: Vietnammi
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Wallis and Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Yemen
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Suid Afrikab
+        type: ZA
+      - 
+        content: Zambiab
+        type: ZM
+      - 
+        content: Zimbabweb
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: United Arab Emirates Dirham
+        type: AED
+      - 
+        displayName: Angolan Kwanzab
+        type: AOA
+      - 
+        displayName: Australian Dollari
+        type: AUD
+      - 
+        displayName: Bahrain Dinar
+        type: BHD
+      - 
+        displayName: Burundi Franc
+        type: BIF
+      - 
+        displayName: Botswanan Pulab
+        type: BWP
+      - 
+        displayName: Canadian Dollari
+        type: CAD
+      - 
+        displayName: Congolese Franc
+        type: CDF
+      - 
+        displayName: Swiss Franci
+        type: CHF
+      - 
+        displayName: Chinese Yuan Renminbi
+        type: CNY
+      - 
+        displayName: Escudo Caboverdiano
+        type: CVE
+      - 
+        displayName: Djibouti Franc
+        type: DJF
+      - 
+        displayName: Algerian Dinar
+        type: DZD
+      - 
+        displayName: Egytian Ponds
+        type: EGP
+      - 
+        displayName: Eritreian Nakfa
+        type: ERN
+      - 
+        displayName: Ethiopian Birr
+        type: ETB
+      - 
+        displayName: Eurob
+        type: EUR
+      - 
+        displayName: British Ponds
+        type: GBP
+      - 
+        displayName: Ghana Cedi
+        type: GHC
+      - 
+        displayName: Gambia Dalasi
+        type: GMD
+      - 
+        displayName: Guinea Franc
+        type: GNS
+      - 
+        displayName: Indian Rupee
+        type: INR
+      - 
+        displayName: Japanese Yenni
+        type: JPY
+      - 
+        displayName: Kenyan Shilling
+        type: KES
+      - 
+        displayName: Comorian Franc
+        type: KMF
+      - 
+        displayName: Liberian Dollar
+        type: LRD
+      - 
+        displayName: Lesotho Loti
+        type: LSL
+      - 
+        displayName: Libyan Dinar
+        type: LYD
+      - 
+        displayName: Moroccan Dirham
+        type: MAD
+      - 
+        displayName: Malagasy Franc
+        type: MGA
+      - 
+        displayName: Mauritania Ouguiya
+        type: MRO
+      - 
+        displayName: Mauritius Rupeeb
+        type: MUR
+      - 
+        displayName: Malawian Kwachab
+        type: MWK
+      - 
+        displayName: Mozambique Metical
+        type: MZM
+      - 
+        displayName: Namibia Dollari
+        symbol: $
+        type: NAD
+      - 
+        displayName: Nigerian Naira
+        type: NGN
+      - 
+        displayName: Rwanda Franci
+        type: RWF
+      - 
+        displayName: Saudi Riyal
+        type: SAR
+      - 
+        displayName: Seychelles Rupee
+        type: SCR
+      - 
+        displayName: Sudanese Dinar
+        type: SDG
+      - 
+        displayName: Sudanese Ponds
+        type: SDP
+      - 
+        displayName: St Helena Ponds
+        type: SHP
+      - 
+        displayName: Leone
+        type: SLL
+      - 
+        displayName: Somali Shillings
+        type: SOS
+      - 
+        displayName: Sao Tome and Principe Dobra
+        type: STD
+      - 
+        displayName: Lilangeni
+        type: SZL
+      - 
+        displayName: Tunisian Dinar
+        type: TND
+      - 
+        displayName: Tanzanian Shillings
+        type: TZS
+      - 
+        displayName: Ugandan Shillings
+        type: UGX
+      - 
+        displayName: US Dollari
+        type: USD
+      - 
+        displayName: CFA Franc BEAC
+        type: XAF
+      - 
+        displayName: CFA Franc BCEAO
+        type: XOF
+      - 
+        displayName: South African Randi
+        type: ZAR
+      - 
+        displayName: Zambian Kwachab (1968-2012)
+        type: ZMK
+      - 
+        displayName: Zambian Kwachab
+        type: ZMW
+      - 
+        displayName: Zimbabwe Dollari
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: Hî-î:H
+    yesstr: Îi:Î

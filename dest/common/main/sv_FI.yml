@@ -1,0 +1,67 @@
+characters: 
+  exemplarCharacters: 
+    - 
+      content: "[a à b c d e é f g h i j k l m n o p q r s t u v x y z å ä ö]"
+      draft: unconfirmed
+    - 
+      content: "[ã ç ë í ñ ó š ÿ ü ž]"
+      type: auxiliary
+dates: 
+  fields: 
+    field: 
+      displayName: dagsperiod
+      type: dayperiod
+  timeZoneNames: 
+    hourFormat: 
+      content: +HH:mm;−HH:mm
+      draft: unconfirmed
+    zone: 
+      - 
+        exemplarCity: 
+          content: (okänd tidszon)
+          draft: contributed
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: Tegucigalpa
+          draft: contributed
+        type: America/Tegucigalpa
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: sv
+  territory: 
+    type: FI
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  scripts: 
+    script: 
+      content: meroitiska
+      draft: contributed
+      type: Mero
+  territories: 
+    territory: 
+      - 
+        content: Bonaire, S:t Eustatius och Saba
+        draft: contributed
+        type: BQ
+      - 
+        content: S:t Martin (franska delen)
+        draft: contributed
+        type: MF
+      - 
+        content: Nordsudan
+        draft: contributed
+        type: SD
+  types: 
+    type: 
+      collation: 
+        content: traditionell sorteringsordning
+        draft: unconfirmed
+        type: traditional
+  variants: 
+    variant: 
+      content: 1996 års stavning
+      type: 1996

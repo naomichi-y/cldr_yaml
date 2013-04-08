@@ -1,0 +1,1470 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e f g h i j k l m n o p q r s t u v w x y z]"
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: Munkyo
+                  type: am
+                - 
+                  content: Eigulo
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sabi
+                      type: sun
+                    - 
+                      content: Bala
+                      type: mon
+                    - 
+                      content: Kubi
+                      type: tue
+                    - 
+                      content: Kusa
+                      type: wed
+                    - 
+                      content: Kuna
+                      type: thu
+                    - 
+                      content: Kuta
+                      type: fri
+                    - 
+                      content: Muka
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Sabiiti
+                      type: sun
+                    - 
+                      content: Balaza
+                      type: mon
+                    - 
+                      content: Owokubili
+                      type: tue
+                    - 
+                      content: Owokusatu
+                      type: wed
+                    - 
+                      content: Olokuna
+                      type: thu
+                    - 
+                      content: Olokutaanu
+                      type: fri
+                    - 
+                      content: Olomukaaga
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: S
+                    type: sun
+                  - 
+                    content: B
+                    type: mon
+                  - 
+                    content: B
+                    type: tue
+                  - 
+                    content: S
+                    type: wed
+                  - 
+                    content: K
+                    type: thu
+                  - 
+                    content: K
+                    type: fri
+                  - 
+                    content: M
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: AZ
+                type: 0
+              - 
+                content: AF
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Kulisto nga azilawo
+                type: 0
+              - 
+                content: Kulisto nga affile
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mar
+                      type: 3
+                    - 
+                      content: Apu
+                      type: 4
+                    - 
+                      content: Maa
+                      type: 5
+                    - 
+                      content: Juu
+                      type: 6
+                    - 
+                      content: Jul
+                      type: 7
+                    - 
+                      content: Agu
+                      type: 8
+                    - 
+                      content: Seb
+                      type: 9
+                    - 
+                      content: Oki
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Des
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Janwaliyo
+                      type: 1
+                    - 
+                      content: Febwaliyo
+                      type: 2
+                    - 
+                      content: Marisi
+                      type: 3
+                    - 
+                      content: Apuli
+                      type: 4
+                    - 
+                      content: Maayi
+                      type: 5
+                    - 
+                      content: Juuni
+                      type: 6
+                    - 
+                      content: Julaayi
+                      type: 7
+                    - 
+                      content: Agusito
+                      type: 8
+                    - 
+                      content: Sebuttemba
+                      type: 9
+                    - 
+                      content: Okitobba
+                      type: 10
+                    - 
+                      content: Novemba
+                      type: 11
+                    - 
+                      content: Desemba
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: J
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: A
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: J
+                    type: 6
+                  - 
+                    content: J
+                    type: 7
+                  - 
+                    content: A
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: O
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: Q1
+                    type: 1
+                  - 
+                    content: Q2
+                    type: 2
+                  - 
+                    content: Q3
+                    type: 3
+                  - 
+                    content: Q4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: Ebisera ebyomwaka ebisoka
+                    type: 1
+                  - 
+                    content: Ebisera ebyomwaka ebyokubiri
+                    type: 2
+                  - 
+                    content: Ebisera ebyomwaka ebyokusatu
+                    type: 3
+                  - 
+                    content: Ebisera ebyomwaka ebyokuna
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Emulembe
+        type: era
+      - 
+        displayName: Omwaka
+        type: year
+      - 
+        displayName: Omwezi
+        type: month
+      - 
+        displayName: Esabiiti
+        type: week
+      - 
+        displayName: Olunaku
+        relative: 
+          - 
+            content: Edho
+            type: -1
+          - 
+            content: Olwaleelo (leelo)
+            type: 0
+          - 
+            content: Enkyo
+            type: 1
+        type: day
+      - 
+        displayName: Olunaka lwa sabiiti
+        type: weekday
+      - 
+        displayName: munkyo/Eigulo
+        type: dayperiod
+      - 
+        displayName: Essawa
+        type: hour
+      - 
+        displayName: Edakiika
+        type: minute
+      - 
+        displayName: Obutikitiki
+        type: second
+      - 
+        displayName: Essawa edha
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: xog
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Oluakaani
+        type: ak
+      - 
+        content: Oluamhariki
+        type: am
+      - 
+        content: Oluwarabu
+        type: ar
+      - 
+        content: Olubelarusi
+        type: be
+      - 
+        content: Olubulugariya
+        type: bg
+      - 
+        content: Olubengali
+        type: bn
+      - 
+        content: Oluceeke
+        type: cs
+      - 
+        content: Oludaaki
+        type: de
+      - 
+        content: Oluyonaani
+        type: el
+      - 
+        content: Olungereza
+        type: en
+      - 
+        content: Olusipanya
+        type: es
+      - 
+        content: Oluperusi
+        type: fa
+      - 
+        content: Olufalansa
+        type: fr
+      - 
+        content: Oluhawuza
+        type: ha
+      - 
+        content: Oluhindu
+        type: hi
+      - 
+        content: Oluhangare
+        type: hu
+      - 
+        content: Oluyindonezya
+        type: id
+      - 
+        content: Oluyibo
+        type: ig
+      - 
+        content: Oluyitale
+        type: it
+      - 
+        content: Olujapani
+        type: ja
+      - 
+        content: Olunnajjava
+        type: jv
+      - 
+        content: Olukme
+        type: km
+      - 
+        content: Olukoreya
+        type: ko
+      - 
+        content: Olumalayi
+        type: ms
+      - 
+        content: Olubbama
+        type: my
+      - 
+        content: Olunepali
+        type: ne
+      - 
+        content: Oluholandi
+        type: nl
+      - 
+        content: Olupunjabi
+        type: pa
+      - 
+        content: Olupolandi
+        type: pl
+      - 
+        content: Olupotugiizi
+        type: pt
+      - 
+        content: Olulomaniya
+        type: ro
+      - 
+        content: Olulasa
+        type: ru
+      - 
+        content: Olunarwanda
+        type: rw
+      - 
+        content: Olusomaliya
+        type: so
+      - 
+        content: Oluswideni
+        type: sv
+      - 
+        content: Olutamiiru
+        type: ta
+      - 
+        content: Oluttaayi
+        type: th
+      - 
+        content: Olutake
+        type: tr
+      - 
+        content: Oluyukurayine
+        type: uk
+      - 
+        content: Olu-urudu
+        type: ur
+      - 
+        content: Oluvyetinaamu
+        type: vi
+      - 
+        content: Olusoga
+        type: xog
+      - 
+        content: Oluyoruba
+        type: yo
+      - 
+        content: Olucayina
+        type: zh
+      - 
+        content: Oluzzulu
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Andora
+        type: AD
+      - 
+        content: Emireeti
+        type: AE
+      - 
+        content: Afaganisitani
+        type: AF
+      - 
+        content: Antigwa ni Barabuda
+        type: AG
+      - 
+        content: Angwila
+        type: AI
+      - 
+        content: Alibaniya
+        type: AL
+      - 
+        content: Arameniya
+        type: AM
+      - 
+        content: Ebizinga bya Antile by'abaHolandi
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Arigentina
+        type: AR
+      - 
+        content: Samowa omumerika
+        type: AS
+      - 
+        content: Awusituriya
+        type: AT
+      - 
+        content: Awusitureliya
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Azerebayijaani
+        type: AZ
+      - 
+        content: Boziniya Hezegovina
+        type: BA
+      - 
+        content: Barabadosi
+        type: BB
+      - 
+        content: Bangaladesi
+        type: BD
+      - 
+        content: Bubirigi
+        type: BE
+      - 
+        content: Burukina Faso
+        type: BF
+      - 
+        content: Bulugariya
+        type: BG
+      - 
+        content: Baareeni
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benini
+        type: BJ
+      - 
+        content: Beremuda
+        type: BM
+      - 
+        content: Burunayi
+        type: BN
+      - 
+        content: Boliviya
+        type: BO
+      - 
+        content: Buraziiri
+        type: BR
+      - 
+        content: Bahamasi
+        type: BS
+      - 
+        content: Butaani
+        type: BT
+      - 
+        content: Botiswana
+        type: BW
+      - 
+        content: Belarusi
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Kongo - Zayire
+        type: CD
+      - 
+        content: Lipabulika ya Senturafiriki
+        type: CF
+      - 
+        content: Kongo
+        type: CG
+      - 
+        content: Switizirandi
+        type: CH
+      - 
+        content: Kote Divwa
+        type: CI
+      - 
+        content: Ebizinga bya Kkuki
+        type: CK
+      - 
+        content: Cile
+        type: CL
+      - 
+        content: Kameruuni
+        type: CM
+      - 
+        content: Cayina
+        type: CN
+      - 
+        content: Kolombya
+        type: CO
+      - 
+        content: Kosita Rika
+        type: CR
+      - 
+        content: Cuba
+        type: CU
+      - 
+        content: Ebizinga bya Kepu Veredi
+        type: CV
+      - 
+        content: Sipuriya
+        type: CY
+      - 
+        content: Lipabulika ya Ceeka
+        type: CZ
+      - 
+        content: Budaaki
+        type: DE
+      - 
+        content: Jjibuti
+        type: DJ
+      - 
+        content: Denimaaka
+        type: DK
+      - 
+        content: Dominika
+        type: DM
+      - 
+        content: Lipabulika ya Dominika
+        type: DO
+      - 
+        content: Aligerya
+        type: DZ
+      - 
+        content: Ekwado
+        type: EC
+      - 
+        content: Esitoniya
+        type: EE
+      - 
+        content: Misiri
+        type: EG
+      - 
+        content: Eritureya
+        type: ER
+      - 
+        content: Sipeyini
+        type: ES
+      - 
+        content: Esyopya
+        type: ET
+      - 
+        content: Finilandi
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Ebiizinga bya Falikalandi
+        type: FK
+      - 
+        content: Mikuronezya
+        type: FM
+      - 
+        content: Bufalansa
+        type: FR
+      - 
+        content: Gaboni
+        type: GA
+      - 
+        content: Bungereza
+        type: GB
+      - 
+        content: Gurenada
+        type: GD
+      - 
+        content: Gyogya
+        type: GE
+      - 
+        content: Guyana enfalansa
+        type: GF
+      - 
+        content: Gana
+        type: GH
+      - 
+        content: Giburalita
+        type: GI
+      - 
+        content: Gurenelandi
+        type: GL
+      - 
+        content: Gambya
+        type: GM
+      - 
+        content: Gini
+        type: GN
+      - 
+        content: Gwadalupe
+        type: GP
+      - 
+        content: Gayana yaku ekweta
+        type: GQ
+      - 
+        content: Buyonaani
+        type: GR
+      - 
+        content: Gwatemala
+        type: GT
+      - 
+        content: Gwamu
+        type: GU
+      - 
+        content: Gini-Bisawu
+        type: GW
+      - 
+        content: Gayana
+        type: GY
+      - 
+        content: Hundurasi
+        type: HN
+      - 
+        content: Kurowesya
+        type: HR
+      - 
+        content: Hayiti
+        type: HT
+      - 
+        content: Hangare
+        type: HU
+      - 
+        content: Yindonezya
+        type: ID
+      - 
+        content: Ayalandi
+        type: IE
+      - 
+        content: Yisirayeri
+        type: IL
+      - 
+        content: Buyindi
+        type: IN
+      - 
+        content: Ebizinga bya Cago
+        type: IO
+      - 
+        content: Yiraaka
+        type: IQ
+      - 
+        content: Yiraani
+        type: IR
+      - 
+        content: Ayisirandi
+        type: IS
+      - 
+        content: Yitale
+        type: IT
+      - 
+        content: Jamayika
+        type: JM
+      - 
+        content: Yorodani
+        type: JO
+      - 
+        content: Japani
+        type: JP
+      - 
+        content: Kenya
+        type: KE
+      - 
+        content: Kirigizisitaani
+        type: KG
+      - 
+        content: Kambodya
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Ebizinga bya Komoro
+        type: KM
+      - 
+        content: Senti Kitisi ne Nevisi
+        type: KN
+      - 
+        content: Koreya eya mumambuka
+        type: KP
+      - 
+        content: Koreya eya mumaserengeta
+        type: KR
+      - 
+        content: Kuweti
+        type: KW
+      - 
+        content: Ebizinga bya Kayimaani
+        type: KY
+      - 
+        content: Kazakisitaani
+        type: KZ
+      - 
+        content: Lawosi
+        type: LA
+      - 
+        content: Lebanoni
+        type: LB
+      - 
+        content: Senti Luciya
+        type: LC
+      - 
+        content: Licitensitayini
+        type: LI
+      - 
+        content: Sirilanka
+        type: LK
+      - 
+        content: Liberya
+        type: LR
+      - 
+        content: Lesoso
+        type: LS
+      - 
+        content: Lisuwenya
+        type: LT
+      - 
+        content: Lukisembaaga
+        type: LU
+      - 
+        content: Lativya
+        type: LV
+      - 
+        content: Libya
+        type: LY
+      - 
+        content: Moroko
+        type: MA
+      - 
+        content: Monako
+        type: MC
+      - 
+        content: Molodova
+        type: MD
+      - 
+        content: Madagasika
+        type: MG
+      - 
+        content: Bizinga bya Mariso
+        type: MH
+      - 
+        content: Masedoniya
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myanima
+        type: MM
+      - 
+        content: Mongoliya
+        type: MN
+      - 
+        content: Bizinga bya Mariyana ebyamumambuka
+        type: MP
+      - 
+        content: Maritiniiki
+        type: MQ
+      - 
+        content: Mawulitenya
+        type: MR
+      - 
+        content: Monteseraati
+        type: MS
+      - 
+        content: Malita
+        type: MT
+      - 
+        content: Mawulisyasi
+        type: MU
+      - 
+        content: Ebizinga bya Malidive
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Mekisiko
+        type: MX
+      - 
+        content: Malezya
+        type: MY
+      - 
+        content: Mozambiiki
+        type: MZ
+      - 
+        content: Namibiya
+        type: NA
+      - 
+        content: Kaledonya mupya
+        type: NC
+      - 
+        content: Nije
+        type: NE
+      - 
+        content: Kizinga ky'eNorofoko
+        type: NF
+      - 
+        content: Nayijerya
+        type: NG
+      - 
+        content: Nikaraguwa
+        type: NI
+      - 
+        content: Holandi
+        type: NL
+      - 
+        content: Nowe
+        type: 'NO'
+      - 
+        content: Nepalo
+        type: NP
+      - 
+        content: Nawuru
+        type: NR
+      - 
+        content: Niyuwe
+        type: NU
+      - 
+        content: Niyuziirandi
+        type: NZ
+      - 
+        content: Omaani
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Polinesiya enfalansa
+        type: PF
+      - 
+        content: Papwa Nyugini
+        type: PG
+      - 
+        content: Ebizinga bya Firipino
+        type: PH
+      - 
+        content: Pakisitaani
+        type: PK
+      - 
+        content: Polandi
+        type: PL
+      - 
+        content: Senti Piyere ni Mikeloni
+        type: PM
+      - 
+        content: Pitikeeni
+        type: PN
+      - 
+        content: Potoriko
+        type: PR
+      - 
+        content: Palesitayini ni Gaza
+        type: PS
+      - 
+        content: Potugaali
+        type: PT
+      - 
+        content: Palawu
+        type: PW
+      - 
+        content: Paragwayi
+        type: PY
+      - 
+        content: Kataa
+        type: QA
+      - 
+        content: Leyunyoni
+        type: RE
+      - 
+        content: Lomaniya
+        type: RO
+      - 
+        content: Lasa
+        type: RU
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Sawudarebya
+        type: SA
+      - 
+        content: Ebizanga bya Solomooni
+        type: SB
+      - 
+        content: Sesere
+        type: SC
+      - 
+        content: Sudaani
+        type: SD
+      - 
+        content: Swideni
+        type: SE
+      - 
+        content: Singapowa
+        type: SG
+      - 
+        content: Senti Herena
+        type: SH
+      - 
+        content: Sirovenya
+        type: SI
+      - 
+        content: Sirovakya
+        type: SK
+      - 
+        content: Siyeralewone
+        type: SL
+      - 
+        content: Sanimarino
+        type: SM
+      - 
+        content: Senegaalo
+        type: SN
+      - 
+        content: Somaliya
+        type: SO
+      - 
+        content: Surinaamu
+        type: SR
+      - 
+        content: Sanitome ni Purincipe
+        type: ST
+      - 
+        content: El salivado
+        type: SV
+      - 
+        content: Siriya
+        type: SY
+      - 
+        content: Swazirandi
+        type: SZ
+      - 
+        content: Ebizinga bya Taaka ni Kayikosi
+        type: TC
+      - 
+        content: Caadi
+        type: TD
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Tayirandi
+        type: TH
+      - 
+        content: Tajikisitaani
+        type: TJ
+      - 
+        content: Tokelawu
+        type: TK
+      - 
+        content: Timowa
+        type: TL
+      - 
+        content: Takimenesitaani
+        type: TM
+      - 
+        content: Tunisya
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Ttake
+        type: TR
+      - 
+        content: Turindaadi ni Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Tayiwani
+        type: TW
+      - 
+        content: Yukurayine
+        type: UA
+      - 
+        content: Yuganda
+        type: UG
+      - 
+        content: Amerika
+        type: US
+      - 
+        content: Wurugwayi
+        type: UY
+      - 
+        content: Wuzibekisitaani
+        type: UZ
+      - 
+        content: Vatikaani
+        type: VA
+      - 
+        content: Senti Vinsenti ni Gurendadiini
+        type: VC
+      - 
+        content: Venzwera
+        type: VE
+      - 
+        content: Ebizinga bya Virigini ebitwalibwa Bungereza
+        type: VG
+      - 
+        content: Ebizinga bya Virigini eby'Amerika
+        type: VI
+      - 
+        content: Vyetinaamu
+        type: VN
+      - 
+        content: Vanawuwatu
+        type: VU
+      - 
+        content: Walisi ni Futuna
+        type: WF
+      - 
+        content: Samowa
+        type: WS
+      - 
+        content: Yemeni
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Sawusafirika
+        type: ZA
+      - 
+        content: Zambya
+        type: ZM
+      - 
+        content: Zimbabwe
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Diraamu eya Emireeti
+        type: AED
+      - 
+        displayName: Kwanza y'Angola
+        type: AOA
+      - 
+        displayName: Doola y'Awusiturelya
+        type: AUD
+      - 
+        displayName: Dinaali ya Baareeni
+        type: BHD
+      - 
+        displayName: Faranga ya burundi
+        type: BIF
+      - 
+        displayName: Pula ya Botiswana
+        type: BWP
+      - 
+        displayName: Doola ya Kanada
+        type: CAD
+      - 
+        displayName: Faranga ya Kongo
+        type: CDF
+      - 
+        displayName: Faranga ey'eSwitizirandi
+        type: CHF
+      - 
+        displayName: Yuwani Reniminibi ya Cayina
+        type: CNY
+      - 
+        displayName: Esikudo ya Keepu Veredi
+        type: CVE
+      - 
+        displayName: Faranga ya Jjibuti
+        type: DJF
+      - 
+        displayName: Dinaali y'Aligerya
+        type: DZD
+      - 
+        displayName: Pawunda ya Misiri
+        type: EGP
+      - 
+        displayName: Nakifa ya Eritureya
+        type: ERN
+      - 
+        displayName: Biiru ya Esyopya
+        type: ETB
+      - 
+        displayName: Yuro
+        type: EUR
+      - 
+        displayName: Pawunda ya Bungereza
+        type: GBP
+      - 
+        displayName: Sedi ya Gana
+        type: GHC
+      - 
+        displayName: Dalasi ya Gambya
+        type: GMD
+      - 
+        displayName: Faranga ya Gini
+        type: GNS
+      - 
+        displayName: Rupiya ya Buyindi
+        type: INR
+      - 
+        displayName: Yeni ya Japani
+        type: JPY
+      - 
+        displayName: Silingi ya Kenya
+        type: KES
+      - 
+        displayName: Faranga ya Komoro
+        type: KMF
+      - 
+        displayName: Doola ya Liberya
+        type: LRD
+      - 
+        displayName: Loti ya Lesoso
+        type: LSL
+      - 
+        displayName: Dinaali ya Libya
+        type: LYD
+      - 
+        displayName: Diraamu ey'eMoroko
+        type: MAD
+      - 
+        displayName: Faranga ey'eMalagase
+        type: MGA
+      - 
+        displayName: Wugwiya ey'eMawritenya
+        type: MRO
+      - 
+        displayName: Rupiya ey'eMawurisyasi
+        type: MUR
+      - 
+        displayName: Kwaca ey'eMalawi
+        type: MWK
+      - 
+        displayName: Metikaali ey'eMozambiiki
+        type: MZM
+      - 
+        displayName: Nayira ey'eNayijerya
+        type: NGN
+      - 
+        displayName: Faranga ey'eRwanda
+        type: RWF
+      - 
+        displayName: Riyaali ey'eBuwarabu
+        type: SAR
+      - 
+        displayName: Rupiya ey'eSesere
+        type: SCR
+      - 
+        displayName: Dinaali ey'eSudaani
+        type: SDG
+      - 
+        displayName: Pawunda ey'eSudaani
+        type: SDP
+      - 
+        displayName: Pawunda ey'eSenti Herena
+        type: SHP
+      - 
+        displayName: Lewone
+        type: SLL
+      - 
+        displayName: Silingi ey'eSomaliya
+        type: SOS
+      - 
+        displayName: Dobura ey'eSantome ne Purincipe
+        type: STD
+      - 
+        displayName: Lilangeni
+        type: SZL
+      - 
+        displayName: Dinaali ey'eTunizya
+        type: TND
+      - 
+        displayName: Silingi ey'eTanzaniya
+        type: TZS
+      - 
+        displayName: Silingi eya Yuganda
+        symbol: USh
+        type: UGX
+      - 
+        displayName: Doola ey'Amerika
+        type: USD
+      - 
+        displayName: Faranga yamu Afirika ya wakati
+        type: XAF
+      - 
+        displayName: Faranga yamu Afirika ya bugwanjuba
+        type: XOF
+      - 
+        displayName: Randi ey'eSawusafirika
+        type: ZAR
+      - 
+        displayName: Kwaca ey'eZambya (1968-2012)
+        type: ZMK
+      - 
+        displayName: Kwaca ey'eZambya
+        type: ZMW
+      - 
+        displayName: Doola ey'eZimbabwe
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤"
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: Be:B
+    yesstr: Ye:Y

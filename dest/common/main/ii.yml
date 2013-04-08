@@ -1,0 +1,432 @@
+characters: 
+  exemplarCharacters: 
+    - "[ꀀ-ꒌ]"
+    - 
+      content: "[ꀀ ꀋ ꀗ ꀣ ꀯ ꀺ ꁆ ꁒ ꁞ ꁩ ꁵ ꂁ ꂍ ꂘ ꂤ ꂰ ꂼ ꃇ ꃓ ꃟ ꃫ ꃶ ꄂ ꄎ ꄚ ꄥ ꄱ ꄽ ꅉ ꅔ ꅠ ꅬ ꅸ ꆃ ꆏ ꆛ ꆧ ꆳ ꆾ ꇊ ꇖ ꇢ ꇭ ꇹ ꈅ ꈑ ꈜ ꈨ ꈴ ꉀ ꉋ ꉗ ꉣ ꉯ ꉺ ꊆ ꊒ ꊞ ꊩ ꊵ ꋁ ꋍ ꋘ ꋤ ꋰ ꋼ ꌇ ꌓ ꌟ ꌫ ꌷ ꍂ ꍎ ꍚ ꍦ ꍱ ꍽ ꎉ ꎕ ꎠ ꎬ ꎸ ꏄ ꏏ ꏛ ꏧ ꏳ ꏾ ꐊ ꐖ ꐢ ꐭ ꐹ ꑅ ꑑ ꑜ ꑨ ꑴ ꒀ ꒋ]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      dayPeriods: 
+        dayPeriodContext: 
+          dayPeriodWidth: 
+            dayPeriod: 
+              - 
+                content: ꎸꄑ
+                type: am
+              - 
+                content: ꁯꋒ
+                type: pm
+            type: wide
+          type: format
+      days: 
+        dayContext: 
+          - 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: ꑭꆏ
+                    type: sun
+                  - 
+                    content: ꆏꋍ
+                    type: mon
+                  - 
+                    content: ꆏꑍ
+                    type: tue
+                  - 
+                    content: ꆏꌕ
+                    type: wed
+                  - 
+                    content: ꆏꇖ
+                    type: thu
+                  - 
+                    content: ꆏꉬ
+                    type: fri
+                  - 
+                    content: ꆏꃘ
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: ꑭꆏꑍ
+                    type: sun
+                  - 
+                    content: ꆏꊂꋍ
+                    type: mon
+                  - 
+                    content: ꆏꊂꑍ
+                    type: tue
+                  - 
+                    content: ꆏꊂꌕ
+                    type: wed
+                  - 
+                    content: ꆏꊂꇖ
+                    type: thu
+                  - 
+                    content: ꆏꊂꉬ
+                    type: fri
+                  - 
+                    content: ꆏꊂꃘ
+                    type: sat
+                type: wide
+            type: format
+          - 
+            dayWidth: 
+              day: 
+                - 
+                  content: ꆏ
+                  type: sun
+                - 
+                  content: ꋍ
+                  type: mon
+                - 
+                  content: ꑍ
+                  type: tue
+                - 
+                  content: ꌕ
+                  type: wed
+                - 
+                  content: ꇖ
+                  type: thu
+                - 
+                  content: ꉬ
+                  type: fri
+                - 
+                  content: ꃘ
+                  type: sat
+              type: narrow
+            type: stand-alone
+      eras: 
+        eraAbbr: 
+          era: 
+            - 
+              content: ꃅꋊꂿ
+              type: 0
+            - 
+              content: ꃅꋊꊂ
+              type: 1
+      months: 
+        monthContext: 
+          monthWidth: 
+            - 
+              month: 
+                - 
+                  content: 1
+                  draft: provisional
+                  type: 1
+                - 
+                  content: 2
+                  draft: provisional
+                  type: 2
+                - 
+                  content: 3
+                  draft: provisional
+                  type: 3
+                - 
+                  content: 4
+                  draft: provisional
+                  type: 4
+                - 
+                  content: 5
+                  draft: provisional
+                  type: 5
+                - 
+                  content: 6
+                  draft: provisional
+                  type: 6
+                - 
+                  content: 7
+                  draft: provisional
+                  type: 7
+                - 
+                  content: 8
+                  draft: provisional
+                  type: 8
+                - 
+                  content: 9
+                  draft: provisional
+                  type: 9
+                - 
+                  content: 10
+                  draft: provisional
+                  type: 10
+                - 
+                  content: 11
+                  draft: provisional
+                  type: 11
+                - 
+                  content: 12
+                  draft: provisional
+                  type: 12
+              type: abbreviated
+            - 
+              month: 
+                - 
+                  content: ꋍꆪ
+                  type: 1
+                - 
+                  content: ꑍꆪ
+                  type: 2
+                - 
+                  content: ꌕꆪ
+                  type: 3
+                - 
+                  content: ꇖꆪ
+                  type: 4
+                - 
+                  content: ꉬꆪ
+                  type: 5
+                - 
+                  content: ꃘꆪ
+                  type: 6
+                - 
+                  content: ꏃꆪ
+                  type: 7
+                - 
+                  content: ꉆꆪ
+                  type: 8
+                - 
+                  content: ꈬꆪ
+                  type: 9
+                - 
+                  content: ꊰꆪ
+                  type: 10
+                - 
+                  content: ꊰꊪꆪ
+                  type: 11
+                - 
+                  content: ꊰꑋꆪ
+                  type: 12
+              type: wide
+          type: format
+      quarters: 
+        quarterContext: 
+          quarterWidth: 
+            quarter: 
+              - 
+                content: ꃅꑌ
+                type: 1
+              - 
+                content: ꃅꎸ
+                type: 2
+              - 
+                content: ꃅꍵ
+                type: 3
+              - 
+                content: ꃅꋆ
+                type: 4
+            type: wide
+          type: format
+      type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: ꃅꋊ
+        type: era
+      - 
+        displayName: ꈎ
+        type: year
+      - 
+        displayName: ꆪ
+        type: month
+      - 
+        displayName: ꑭꆏ
+        type: week
+      - 
+        displayName: ꑍ
+        relative: 
+          - 
+            content: ꎴꂿꋍꑍ
+            type: -2
+          - 
+            content: ꀋꅔꉈ
+            type: -1
+          - 
+            content: ꀃꑍ
+            type: 0
+          - 
+            content: ꃆꏂꑍ
+            type: 1
+          - 
+            content: ꌕꀿꑍ
+            type: 2
+        type: day
+      - 
+        displayName: ꆏꑍ
+        type: weekday
+      - 
+        displayName: ꎸꄑ/ꁯꋒ
+        type: dayperiod
+      - 
+        displayName: ꄮꈉ
+        type: hour
+      - 
+        displayName: ꃏ
+        type: minute
+      - 
+        displayName: ꇙ
+        type: second
+      - 
+        displayName: ꃅꄷꄮꈉ
+        type: zone
+  timeZoneNames: 
+    zone: 
+      exemplarCity: ꅉꀋꐚꌠ
+      type: Etc/Unknown
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ii
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "ꅇꉙ: {0}"
+        type: language
+      - 
+        content: "ꇇꁱ: {0}"
+        type: script
+      - 
+        content: "ꃅꄷ: {0}"
+        type: territory
+  languages: 
+    language: 
+      - 
+        content: ꄓꇩꉙ
+        type: de
+      - 
+        content: ꑱꇩꉙ
+        type: en
+      - 
+        content: ꑭꀠꑸꉙ
+        type: es
+      - 
+        content: ꃔꇩꉙ
+        type: fr
+      - 
+        content: ꆈꌠꉙ
+        type: ii
+      - 
+        content: ꑴꄊꆺꉙ
+        type: it
+      - 
+        content: ꏝꀪꉙ
+        type: ja
+      - 
+        content: ꁍꄨꑸꉙ
+        type: pt
+      - 
+        content: ꀠꑟꁍꄨꑸꉙ
+        type: pt_BR
+      - 
+        content: ꊉꇩꉙ
+        type: ru
+      - 
+        content: ꅉꀋꌠꅇꂷ
+        type: und
+      - 
+        content: ꍏꇩꉙ
+        type: zh
+      - 
+        content: ꈝꐯꍏꇩꉙ
+        type: zh_Hans
+      - 
+        content: ꀎꋏꍏꇩꉙ
+        type: zh_Hant
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: ꂰꌬꌠ
+        type: metric
+      - 
+        content: ꂰꇩ
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: ꀊꇁꀨꁱꂷ
+        type: Arab
+      - 
+        content: ꀊꆨꌦꇁꃚꁱꂷ
+        type: Cyrl
+      - 
+        content: ꈝꐯꉌꈲꁱꂷ
+        type: Hans
+      - 
+        content: ꀎꋏꉌꈲꁱꂷ
+        type: Hant
+      - 
+        content: ꇁꄀꁱꂷ
+        type: Latn
+      - 
+        content: ꆈꌠꁱꂷ
+        type: Yiii
+      - 
+        content: ꁱꀋꉆꌠ
+        type: Zxxx
+      - 
+        content: ꅉꀋꐚꌠꁱꂷ
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: ꀠꑭ
+        type: BR
+      - 
+        content: ꍏꇩ
+        type: CN
+      - 
+        content: ꄓꇩ
+        type: DE
+      - 
+        content: ꃔꇩ
+        type: FR
+      - 
+        content: ꑱꇩ
+        type: GB
+      - 
+        content: ꑴꄗ
+        type: IN
+      - 
+        content: ꑴꄊꆺ
+        type: IT
+      - 
+        content: ꏝꀪ
+        type: JP
+      - 
+        content: ꊉꇆꌦ
+        type: RU
+      - 
+        content: ꂰꇩ
+        type: US
+      - 
+        content: ꃅꄷꅉꀋꐚꌠ
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: ꑳꌦꇂꑍꉖ
+        type: islamic
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        symbol: ¥
+        type: CNY
+      - 
+        displayName: ꅉꀋꐚꌠꌋꆀꎆꃀꀋꈁꀐꌠ
+        type: XXX
+  symbols: 
+    decimal: .
+    group: ","
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: ꀋꉬ
+    yesstr: ꉬ

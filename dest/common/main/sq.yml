@@ -1,0 +1,1787 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c ç d {dh} e ë f g {gj} h i j k l {ll} m n {nj} o p q r {rr} s {sh} t {th} u v x {xh} y z {zh}]"
+    - 
+      content: "[w]"
+      type: auxiliary
+    - 
+      content: "[A B C Ç D {DH} E Ë F G {GJ} H I J K L {LL} M N {NJ} O P Q R {RR} S {SH} T {TH} U V W X {XH} Y Z {ZH}]"
+      draft: contributed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y-MM-dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG yy-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              H: 
+                content: H
+              Hm: 
+                content: H.mm
+              Hms: 
+                content: H.mm.ss
+              M: 
+                content: L
+                draft: contributed
+              MEd: 
+                content: E, d.M
+                draft: contributed
+              MMM: 
+                content: LLL
+                draft: contributed
+              MMMEd: 
+                content: E d MMM
+                draft: contributed
+              MMMMEd: 
+                content: E d MMMM
+                draft: contributed
+              MMMMd: 
+                content: d MMMM
+                draft: contributed
+              MMMMdd: 
+                content: dd MMMM
+                draft: unconfirmed
+              MMMd: 
+                content: d MMM
+                draft: contributed
+              MMdd: 
+                content: MM-dd
+                draft: unconfirmed
+              Md: 
+                content: M-d
+                draft: contributed
+              d: 
+                content: d
+                draft: contributed
+              h: 
+                content: h.a
+              hm: 
+                content: h.mm.a
+              hms: 
+                content: h.mm.ss.a
+              ms: 
+                content: mm.ss
+                draft: contributed
+              "y": 
+                content: 'y'
+                draft: contributed
+              yM: 
+                content: M.y
+                draft: contributed
+              yMEd: 
+                content: E, d.M.y
+                draft: contributed
+              yMMM: 
+                content: MMM y
+                draft: contributed
+              yMMMEd: 
+                content: E, d MMM y
+                draft: contributed
+              yMMMM: 
+                content: MMMM y
+                draft: contributed
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd - E, dd MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: dd-dd MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h.a - h.a
+                    draft: unconfirmed
+                  h: 
+                    content: h.-h.a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h.mm.a - h.mm.a
+                    draft: unconfirmed
+                  h: 
+                    content: h.mm.-h.mm.a
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm.-h.mm.a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h.mm.a - h.mm.a v
+                    draft: unconfirmed
+                  h: 
+                    content: h.mm.-h.mm.a v
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm.-h.mm.a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h.a - h.a v
+                    draft: unconfirmed
+                  h: 
+                    content: h.-h.a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                  "y": 
+                    content: MMM y - MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM y
+                  d: 
+                    content: E, dd - E, dd MMM y
+                  "y": 
+                    content: E, dd MMM y - E, dd MMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM y
+                  d: 
+                    content: dd-dd MMM y
+                  "y": 
+                    content: dd MMM y - dd MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: yy-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              H: 
+                content: H
+              Hm: 
+                content: H.mm
+              Hms: 
+                content: H.mm.ss
+              M: 
+                content: L
+                draft: contributed
+              MEd: 
+                content: E, d.M
+                draft: contributed
+              MMM: 
+                content: LLL
+                draft: contributed
+              MMMEd: 
+                content: E d MMM
+                draft: contributed
+              MMMMEd: 
+                content: E d MMMM
+                draft: contributed
+              MMMMd: 
+                content: d MMMM
+                draft: contributed
+              MMMMdd: 
+                content: dd MMMM
+                draft: unconfirmed
+              MMMd: 
+                content: d MMM
+                draft: contributed
+              MMdd: 
+                content: MM-dd
+                draft: unconfirmed
+              Md: 
+                content: M-d
+                draft: contributed
+              d: 
+                content: d
+                draft: contributed
+              h: 
+                content: h.a
+              hm: 
+                content: h.mm.a
+              hms: 
+                content: h.mm.ss.a
+              ms: 
+                content: mm.ss
+                draft: contributed
+              "y": 
+                content: 'y'
+                draft: contributed
+              yM: 
+                content: M.y
+                draft: contributed
+              yMEd: 
+                content: E, d.M.y
+                draft: contributed
+              yMMM: 
+                content: MMM y
+                draft: contributed
+              yMMMEd: 
+                content: E, d MMM y
+                draft: contributed
+              yMMMM: 
+                content: MMMM y
+                draft: contributed
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, MM-dd - E, MM-dd
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd - E, dd MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: dd-dd MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h.a - h.a
+                    draft: unconfirmed
+                  h: 
+                    content: h.-h.a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h.mm.a - h.mm.a
+                    draft: unconfirmed
+                  h: 
+                    content: h.mm.-h.mm.a
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm.-h.mm.a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h.mm.a - h.mm.a v
+                    draft: unconfirmed
+                  h: 
+                    content: h.mm.-h.mm.a v
+                    draft: unconfirmed
+                  m: 
+                    content: h.mm.-h.mm.a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h.a - h.a v
+                    draft: unconfirmed
+                  h: 
+                    content: h.-h.a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E, y-MM-dd - E, y-MM-dd
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                  "y": 
+                    content: MMM y - MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd MMM - E, dd MMM y
+                  d: 
+                    content: E, dd - E, dd MMM y
+                  "y": 
+                    content: E, dd MMM y - E, dd MMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM y
+                  d: 
+                    content: dd-dd MMM y
+                  "y": 
+                    content: dd MMM y - dd MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: PD
+                  type: am
+                - 
+                  content: MD
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Die
+                      type: sun
+                    - 
+                      content: Hën
+                      type: mon
+                    - 
+                      content: Mar
+                      type: tue
+                    - 
+                      content: Mër
+                      type: wed
+                    - 
+                      content: Enj
+                      type: thu
+                    - 
+                      content: Pre
+                      type: fri
+                    - 
+                      content: Sht
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: e diel
+                      type: sun
+                    - 
+                      content: e hënë
+                      type: mon
+                    - 
+                      content: e martë
+                      type: tue
+                    - 
+                      content: e mërkurë
+                      type: wed
+                    - 
+                      content: e enjte
+                      type: thu
+                    - 
+                      content: e premte
+                      type: fri
+                    - 
+                      content: e shtunë
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: D
+                    type: sun
+                  - 
+                    content: H
+                    type: mon
+                  - 
+                    content: M
+                    type: tue
+                  - 
+                    content: M
+                    type: wed
+                  - 
+                    content: E
+                    type: thu
+                  - 
+                    content: P
+                    type: fri
+                  - 
+                    content: S
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: p.e.r.
+                type: 0
+              - 
+                content: n.e.r.
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Shk
+                      type: 2
+                    - 
+                      content: Mar
+                      type: 3
+                    - 
+                      content: Pri
+                      type: 4
+                    - 
+                      content: Maj
+                      type: 5
+                    - 
+                      content: Qer
+                      type: 6
+                    - 
+                      content: Kor
+                      type: 7
+                    - 
+                      content: Gsh
+                      type: 8
+                    - 
+                      content: Sht
+                      type: 9
+                    - 
+                      content: Tet
+                      type: 10
+                    - 
+                      content: Nën
+                      type: 11
+                    - 
+                      content: Dhj
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: janar
+                      type: 1
+                    - 
+                      content: shkurt
+                      type: 2
+                    - 
+                      content: mars
+                      type: 3
+                    - 
+                      content: prill
+                      type: 4
+                    - 
+                      content: maj
+                      type: 5
+                    - 
+                      content: qershor
+                      type: 6
+                    - 
+                      content: korrik
+                      type: 7
+                    - 
+                      content: gusht
+                      type: 8
+                    - 
+                      content: shtator
+                      type: 9
+                    - 
+                      content: tetor
+                      type: 10
+                    - 
+                      content: nëntor
+                      type: 11
+                    - 
+                      content: dhjetor
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: J
+                    type: 1
+                  - 
+                    content: S
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: P
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: Q
+                    type: 6
+                  - 
+                    content: K
+                    type: 7
+                  - 
+                    content: G
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: T
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h.mm.ss.a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h.mm.ss.a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h.mm.ss.a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h.mm.a
+              type: short
+        type: gregorian
+  timeZoneNames: 
+    metazone: 
+      - 
+        long: 
+          daylight: 
+            content: Ora verore qendrore evropiane
+            draft: contributed
+          generic: 
+            content: Ora qendrore evropiane
+            draft: contributed
+          standard: 
+            content: Ora standarde qendrore evropiane
+            draft: contributed
+        type: Europe_Central
+      - 
+        long: 
+          daylight: 
+            content: Ora verore lindore evropiane
+            draft: contributed
+          generic: 
+            content: Ora lindore evropiane
+            draft: contributed
+          standard: 
+            content: Ora standarde lindore evropiane
+            draft: contributed
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: 
+            content: Ora verore e Moskës
+            draft: contributed
+          generic: 
+            content: Ora e Moskës
+            draft: contributed
+          standard: 
+            content: Ora standarde e Moskës
+            draft: contributed
+        type: Moscow
+    zone: 
+      exemplarCity: I panjohur
+      type: Etc/Unknown
+delimiters: 
+  alternateQuotationEnd: ‘
+  alternateQuotationStart: ‚
+  quotationEnd: “
+  quotationStart: „
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: sq
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Afrikanisht
+        draft: unconfirmed
+        type: af
+      - 
+        content: Amharike
+        draft: unconfirmed
+        type: am
+      - 
+        content: Arabisht
+        type: ar
+      - 
+        content: Asamezisht
+        draft: unconfirmed
+        type: as
+      - 
+        content: Azerbajxhanisht
+        draft: unconfirmed
+        type: az
+      - 
+        content: Bjellorusisht
+        draft: unconfirmed
+        type: be
+      - 
+        content: Bullgarisht
+        draft: unconfirmed
+        type: bg
+      - 
+        content: Bihari
+        draft: unconfirmed
+        type: bh
+      - 
+        content: Bengalisht
+        draft: unconfirmed
+        type: bn
+      - 
+        content: Breton
+        draft: unconfirmed
+        type: br
+      - 
+        content: Boshnjakisht
+        draft: unconfirmed
+        type: bs
+      - 
+        content: Katalonisht
+        draft: unconfirmed
+        type: ca
+      - 
+        content: Çekisht
+        draft: unconfirmed
+        type: cs
+      - 
+        content: Uellsisht
+        draft: unconfirmed
+        type: cy
+      - 
+        content: Danisht
+        draft: unconfirmed
+        type: da
+      - 
+        content: Gjermanisht
+        type: de
+      - 
+        content: Greqisht
+        draft: unconfirmed
+        type: el
+      - 
+        content: Anglisht
+        type: en
+      - 
+        content: Esperanto
+        draft: unconfirmed
+        type: eo
+      - 
+        content: Spanjisht
+        type: es
+      - 
+        content: Estonisht
+        draft: unconfirmed
+        type: et
+      - 
+        content: Baskisht
+        draft: unconfirmed
+        type: eu
+      - 
+        content: Persisht
+        draft: unconfirmed
+        type: fa
+      - 
+        content: Finlandisht
+        draft: unconfirmed
+        type: fi
+      - 
+        content: Tagalogisht
+        draft: unconfirmed
+        type: fil
+      - 
+        content: Faroisht
+        draft: unconfirmed
+        type: fo
+      - 
+        content: Frengjisht
+        type: fr
+      - 
+        content: Frizianisht
+        draft: unconfirmed
+        type: fy
+      - 
+        content: Irlandisht
+        draft: unconfirmed
+        type: ga
+      - 
+        content: Galisht
+        draft: unconfirmed
+        type: gd
+      - 
+        content: Galicianisht
+        draft: unconfirmed
+        type: gl
+      - 
+        content: Guarani
+        draft: unconfirmed
+        type: gn
+      - 
+        content: Guxharati
+        draft: unconfirmed
+        type: gu
+      - 
+        content: Hebraisht
+        draft: unconfirmed
+        type: he
+      - 
+        content: Hindi
+        type: hi
+      - 
+        content: Kroatisht
+        draft: unconfirmed
+        type: hr
+      - 
+        content: Hungarisht
+        draft: unconfirmed
+        type: hu
+      - 
+        content: Armen
+        draft: unconfirmed
+        type: hy
+      - 
+        content: Interlingua
+        draft: unconfirmed
+        type: ia
+      - 
+        content: Indonezisht
+        draft: unconfirmed
+        type: id
+      - 
+        content: Gjuha nderkombtare
+        draft: unconfirmed
+        type: ie
+      - 
+        content: Islandisht
+        draft: unconfirmed
+        type: is
+      - 
+        content: Italisht
+        type: it
+      - 
+        content: Japanisht
+        type: ja
+      - 
+        content: Javanisht
+        draft: unconfirmed
+        type: jv
+      - 
+        content: Gjeorgjisht
+        draft: unconfirmed
+        type: ka
+      - 
+        content: Kamboxhiane
+        draft: unconfirmed
+        type: km
+      - 
+        content: Kanada
+        draft: unconfirmed
+        type: kn
+      - 
+        content: Koreançe
+        draft: unconfirmed
+        type: ko
+      - 
+        content: Kurd
+        draft: unconfirmed
+        type: ku
+      - 
+        content: Kyrgyz
+        draft: unconfirmed
+        type: ky
+      - 
+        content: Latinisht
+        draft: unconfirmed
+        type: la
+      - 
+        content: Lingala
+        draft: unconfirmed
+        type: ln
+      - 
+        content: Laosisht
+        draft: unconfirmed
+        type: lo
+      - 
+        content: Lituanisht
+        draft: unconfirmed
+        type: lt
+      - 
+        content: Letonisht
+        draft: unconfirmed
+        type: lv
+      - 
+        content: Maqedonisht
+        draft: unconfirmed
+        type: mk
+      - 
+        content: Malajalam
+        draft: unconfirmed
+        type: ml
+      - 
+        content: Mongolisht
+        draft: unconfirmed
+        type: mn
+      - 
+        content: Marati
+        draft: unconfirmed
+        type: mr
+      - 
+        content: Malajzisht
+        draft: unconfirmed
+        type: ms
+      - 
+        content: Maltisht
+        draft: unconfirmed
+        type: mt
+      - 
+        content: Nepalisht
+        draft: unconfirmed
+        type: ne
+      - 
+        content: Holandisht
+        type: nl
+      - 
+        content: Norvegjisht (Nynorsk)
+        draft: unconfirmed
+        type: nn
+      - 
+        content: Norvegjisht
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: Oksitanisht
+        draft: unconfirmed
+        type: oc
+      - 
+        content: Orija
+        draft: unconfirmed
+        type: or
+      - 
+        content: Punxhabi
+        draft: unconfirmed
+        type: pa
+      - 
+        content: Polonisht
+        draft: unconfirmed
+        type: pl
+      - 
+        content: Pashto
+        draft: unconfirmed
+        type: ps
+      - 
+        content: Portugeze
+        type: pt
+      - 
+        content: Portugalisht (Brazil)
+        draft: unconfirmed
+        type: pt_BR
+      - 
+        content: Portugalisht (Portugali)
+        draft: unconfirmed
+        type: pt_PT
+      - 
+        content: Rumanisht
+        draft: unconfirmed
+        type: ro
+      - 
+        content: Rusisht
+        type: ru
+      - 
+        content: Sanskritisht
+        draft: unconfirmed
+        type: sa
+      - 
+        content: Si'ndi
+        draft: unconfirmed
+        type: sd
+      - 
+        content: Serbo-Kroatisht
+        draft: contributed
+        type: sh
+      - 
+        content: Sinhalezisht
+        draft: unconfirmed
+        type: si
+      - 
+        content: Sllovakisht
+        draft: unconfirmed
+        type: sk
+      - 
+        content: Sllovenisht
+        draft: unconfirmed
+        type: sl
+      - 
+        content: Somalisht
+        draft: unconfirmed
+        type: so
+      - 
+        content: shqip
+        type: sq
+      - 
+        content: Serbisht
+        draft: unconfirmed
+        type: sr
+      - 
+        content: Sesotho
+        draft: unconfirmed
+        type: st
+      - 
+        content: Sundanisht
+        draft: unconfirmed
+        type: su
+      - 
+        content: Suedisht
+        draft: unconfirmed
+        type: sv
+      - 
+        content: Suahilisht
+        draft: unconfirmed
+        type: sw
+      - 
+        content: Tamil
+        draft: unconfirmed
+        type: ta
+      - 
+        content: Telugu
+        draft: unconfirmed
+        type: te
+      - 
+        content: Tajlandisht
+        draft: unconfirmed
+        type: th
+      - 
+        content: Tigrinja
+        draft: unconfirmed
+        type: ti
+      - 
+        content: Turk
+        draft: unconfirmed
+        type: tk
+      - 
+        content: Klingon
+        draft: unconfirmed
+        type: tlh
+      - 
+        content: Turqisht
+        draft: unconfirmed
+        type: tr
+      - 
+        content: Twi
+        draft: unconfirmed
+        type: tw
+      - 
+        content: Ujgur
+        draft: unconfirmed
+        type: ug
+      - 
+        content: Ukrainisht
+        draft: unconfirmed
+        type: uk
+      - 
+        content: Urdu
+        draft: unconfirmed
+        type: ur
+      - 
+        content: Uzbekistanisht
+        draft: unconfirmed
+        type: uz
+      - 
+        content: Vietnamisht
+        draft: unconfirmed
+        type: vi
+      - 
+        content: Xhosa
+        draft: unconfirmed
+        type: xh
+      - 
+        content: Jiden
+        draft: unconfirmed
+        type: yi
+      - 
+        content: Kineze
+        type: zh
+      - 
+        content: Zulu
+        draft: unconfirmed
+        type: zu
+  scripts: 
+    script: 
+      - 
+        content: Latine
+        type: Latn
+      - 
+        content: I pashkruar
+        draft: contributed
+        type: Zxxx
+      - 
+        content: Skript i panjohur
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Andorrë
+        type: AD
+      - 
+        content: Emiratet Arabe te Bashkuara
+        type: AE
+      - 
+        content: Afganistan
+        type: AF
+      - 
+        content: Antigua e Barbuda
+        type: AG
+      - 
+        content: Shqipëria
+        type: AL
+      - 
+        content: Armeni
+        type: AM
+      - 
+        content: Angolë
+        type: AO
+      - 
+        content: Argjentinë
+        type: AR
+      - 
+        content: Austri
+        type: AT
+      - 
+        content: Australi
+        type: AU
+      - 
+        content: Ishujt Aland
+        draft: contributed
+        type: AX
+      - 
+        content: Azerbajxhan
+        type: AZ
+      - 
+        content: Bosnja dhe Hercegovina
+        type: BA
+      - 
+        content: Belgjikë
+        type: BE
+      - 
+        content: Bullgari
+        type: BG
+      - 
+        content: Bahrein
+        type: BH
+      - 
+        content: Brunej
+        type: BN
+      - 
+        content: Bolivi
+        type: BO
+      - 
+        content: Brazili
+        type: BR
+      - 
+        content: Butan
+        type: BT
+      - 
+        content: Botsvana
+        type: BW
+      - 
+        content: Bjellorusi
+        type: BY
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Republika Qendrore e Afrikës
+        type: CF
+      - 
+        content: Kongo
+        type: CG
+      - 
+        content: Zvicër
+        type: CH
+      - 
+        content: Bregu i Fildishtë
+        type: CI
+      - 
+        content: Kili
+        type: CL
+      - 
+        content: Kamerun
+        type: CM
+      - 
+        content: Kinë
+        type: CN
+      - 
+        content: Kolumbi
+        type: CO
+      - 
+        content: Kosta Rika
+        type: CR
+      - 
+        content: Kubë
+        type: CU
+      - 
+        content: Kap Verde
+        type: CV
+      - 
+        content: Qipro
+        type: CY
+      - 
+        content: Republika e Çekisë
+        type: CZ
+      - 
+        content: Gjermani
+        type: DE
+      - 
+        content: Xhibuti
+        type: DJ
+      - 
+        content: Danimarkë
+        type: DK
+      - 
+        content: Dominikë
+        type: DM
+      - 
+        content: Republika Dominikanë
+        type: DO
+      - 
+        content: Algjeri
+        type: DZ
+      - 
+        content: Ekuator
+        type: EC
+      - 
+        content: Estoni
+        type: EE
+      - 
+        content: Egjipt
+        type: EG
+      - 
+        content: Saharaja Perëndimore
+        type: EH
+      - 
+        content: Eritre
+        type: ER
+      - 
+        content: Spanjë
+        type: ES
+      - 
+        content: Etiopi
+        type: ET
+      - 
+        content: Finlandë
+        type: FI
+      - 
+        content: Fixhi
+        type: FJ
+      - 
+        content: Mikronezi
+        type: FM
+      - 
+        content: Francë
+        type: FR
+      - 
+        content: Gjabon
+        type: GA
+      - 
+        content: Mbretëria e Bashkuar
+        type: GB
+      - 
+        content: Gjeorgji
+        type: GE
+      - 
+        content: Ganë
+        type: GH
+      - 
+        content: Gambi
+        type: GM
+      - 
+        content: Guine
+        type: GN
+      - 
+        content: Guineja Ekuatoriale
+        type: GQ
+      - 
+        content: Greqi
+        type: GR
+      - 
+        content: Guatemalë
+        type: GT
+      - 
+        content: Guine Bisau
+        type: GW
+      - 
+        content: Guajana
+        type: GY
+      - 
+        content: Kroaci
+        type: HR
+      - 
+        content: Hungari
+        type: HU
+      - 
+        content: Indonezi
+        type: ID
+      - 
+        content: Irlandë
+        type: IE
+      - 
+        content: Izrael
+        type: IL
+      - 
+        content: Indi
+        type: IN
+      - 
+        content: Irak
+        type: IQ
+      - 
+        content: Islandë
+        type: IS
+      - 
+        content: Itali
+        type: IT
+      - 
+        content: Xhamajkë
+        type: JM
+      - 
+        content: Jordani
+        type: JO
+      - 
+        content: Japoni
+        type: JP
+      - 
+        content: Kenia
+        type: KE
+      - 
+        content: Kirgistan
+        type: KG
+      - 
+        content: Kamboxhi
+        type: KH
+      - 
+        content: Qiribati
+        type: KI
+      - 
+        content: Komore
+        type: KM
+      - 
+        content: Saint Kitts e Nevis
+        type: KN
+      - 
+        content: Koreja e Veriut
+        type: KP
+      - 
+        content: Koreja e Jugut
+        type: KR
+      - 
+        content: Kuvajt
+        type: KW
+      - 
+        content: Kazakistan
+        type: KZ
+      - 
+        content: Liban
+        type: LB
+      - 
+        content: Lihtënshtajn
+        type: LI
+      - 
+        content: Liberi
+        type: LR
+      - 
+        content: Lesoto
+        type: LS
+      - 
+        content: Lituani
+        type: LT
+      - 
+        content: Luksemburg
+        type: LU
+      - 
+        content: Letoni
+        type: LV
+      - 
+        content: Libi
+        type: LY
+      - 
+        content: Maroko
+        type: MA
+      - 
+        content: Monako
+        type: MC
+      - 
+        content: Moldavi
+        type: MD
+      - 
+        content: Madagaskar
+        type: MG
+      - 
+        content: Ishujt Marshall
+        type: MH
+      - 
+        content: Maqedoni
+        type: MK
+      - 
+        content: Mongoli
+        type: MN
+      - 
+        content: Mauritani
+        type: MR
+      - 
+        content: Maltë
+        type: MT
+      - 
+        content: Maldivit
+        type: MV
+      - 
+        content: Malavi
+        type: MW
+      - 
+        content: Meksikë
+        type: MX
+      - 
+        content: Malajzi
+        type: MY
+      - 
+        content: Mozambik
+        type: MZ
+      - 
+        content: Namibi
+        type: NA
+      - 
+        content: Nigeri
+        type: NG
+      - 
+        content: Nikaragua
+        type: NI
+      - 
+        content: Vendet e Ulëta
+        type: NL
+      - 
+        content: Norvegji
+        type: 'NO'
+      - 
+        content: Zelanda e Re
+        type: NZ
+      - 
+        content: Papua Guineja e Re
+        type: PG
+      - 
+        content: Filipine
+        type: PH
+      - 
+        content: Poloni
+        type: PL
+      - 
+        content: Portugali
+        type: PT
+      - 
+        content: Paraguaj
+        type: PY
+      - 
+        content: Katar
+        type: QA
+      - 
+        content: Rumani
+        type: RO
+      - 
+        content: Rusi
+        type: RU
+      - 
+        content: Ruanda
+        type: RW
+      - 
+        content: Arabia Saudite
+        type: SA
+      - 
+        content: Ishujt Solomon
+        type: SB
+      - 
+        content: Sishel
+        type: SC
+      - 
+        content: Suedi
+        type: SE
+      - 
+        content: Singapor
+        type: SG
+      - 
+        content: Slloveni
+        type: SI
+      - 
+        content: Sllovaki
+        type: SK
+      - 
+        content: Siera Leone
+        type: SL
+      - 
+        content: Somali
+        type: SO
+      - 
+        content: Sao Tome e Prinsipe
+        type: ST
+      - 
+        content: Siri
+        type: SY
+      - 
+        content: Svazilandë
+        type: SZ
+      - 
+        content: Çad
+        type: TD
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Tajlandë
+        type: TH
+      - 
+        content: Taxhikistan
+        type: TJ
+      - 
+        content: Tunisi
+        type: TN
+      - 
+        content: Tonga
+        draft: contributed
+        type: TO
+      - 
+        content: Turqi
+        type: TR
+      - 
+        content: Trinidad e Tobago
+        type: TT
+      - 
+        content: Tajvan
+        type: TW
+      - 
+        content: Tanzani
+        type: TZ
+      - 
+        content: Ukrainë
+        type: UA
+      - 
+        content: Shtetet e Bashkuara të Amerikës
+        type: US
+      - 
+        content: Uruguaj
+        type: UY
+      - 
+        content: Vatikan
+        type: VA
+      - 
+        content: Saint Vincent e Grenadinet
+        type: VC
+      - 
+        content: Venezuelë
+        type: VE
+      - 
+        content: Jemen
+        type: YE
+      - 
+        content: Afrika e Jugut
+        type: ZA
+      - 
+        content: Zambi
+        type: ZM
+      - 
+        content: Zimbabve
+        type: ZW
+      - 
+        content: Rajon i panjohur
+        type: ZZ
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        symbol: Lek
+        type: ALL
+      - 
+        displayName: Real Brazilian
+        type: BRL
+      - 
+        displayName: Renminbi(Yuan) Kinez
+        type: CNY
+      - 
+        displayName: Euro
+        type: EUR
+      - 
+        displayName: Paund Sterlina Britanike
+        type: GBP
+      - 
+        displayName: Rupee indiane
+        type: INR
+      - 
+        displayName: Jeni Japonez
+        type: JPY
+      - 
+        displayName: Rubla ruse
+        type: RUB
+      - 
+        displayName: Dollar amerikan
+        type: USD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: jo:j
+    yesstr: po:p
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} ditë"
+          count: one
+        - 
+          content: "{0} ditë"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} orë"
+          count: one
+        - 
+          content: "{0} orë"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minutë"
+          count: one
+        - 
+          content: "{0} minuta"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} muaj"
+          count: one
+        - 
+          content: "{0} muaj"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} sekondë"
+          count: one
+        - 
+          content: "{0} sekonda"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} javë"
+          count: one
+        - 
+          content: "{0} javë"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} vit"
+          count: one
+        - 
+          content: "{0} vjet"
+          count: other

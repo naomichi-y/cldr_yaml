@@ -1,0 +1,364 @@
+characters: 
+  exemplarCharacters: 
+    - 
+      content: "[\\u135F ፡ ፣-፧ ። ፠ ፨ ፲-፼ ፩-፱ ሀ-ሆ ለ-ሟ ረ-ቆ ቈ ቊ-ቍ ቐ-ቖ ቘ ቚ-ቝ በ-ኆ ኈ ኊ-ኍ ነ-ኮ ኰ ኲ-ኵ ኸ-ኾ ዀ ዂ-ዅ ወ-ዎ ዐ-ዖ ዘ-ዮ ደ-ዷ ጀ-ጎ ጐ ጒ-ጕ ጠ-ጯ ጸ-ጿ ፈ-ፗ]"
+      draft: unconfirmed
+    - 
+      content: "[᎐-᎙ ሇ ⶀ ᎀ-ᎃ ⶁ ሠ-ሧ ⶂ-ⶄ ቇ ᎄ-ᎇ ⶅ-ⶇ ኇ ⶈ-ⶊ ኯ ዏ ⶋ ዯ ⶌ ዸ-ዿ ⶍ ⶎ ጏ ጘ-ጟ ⶓ-ⶖ ⶏ-ⶑ ፀ-ፇ ᎈ-ᎏ ⶒ ፘ-ፚ ⶠ-ⶦ ⶨ-ⶮ ⶰ-ⶶ ⶸ-ⶾ ⷀ-ⷆ ⷈ-ⷎ ⷐ-ⷖ ⷘ-ⷞ]"
+      draft: unconfirmed
+      type: auxiliary
+    - 
+      content: "[ሀ ለ ሐ መ ረ ሰ ሸ ቀ ቈ ቐ ቘ በ ቨ ተ ቸ ኀ ኈ ነ ኘ አ ከ ኰ ኸ ዀ ወ ዐ ዘ ዠ የ ደ ጀ ገ ጐ ጠ ጨ ጸ ፈ ፐ]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            dateFormat: 
+              pattern: EEEE፡ dd MMMM መዓልቲ y G
+            type: full
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ MM-dd - E፡ MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ MM-dd - E፡ MM-dd
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ MMM d - E፡ MMM d
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ MMM d - E፡ MMM d
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d - MMM d
+                    draft: unconfirmed
+                  d: 
+                    content: MMM d-d
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ y-MM-dd - E፡ y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ y-MM-dd - E፡ y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E፡ y-MM-dd - E፡ y-MM-dd
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM-MMM
+                    draft: unconfirmed
+                  "y": 
+                    content: y MMM - y MMM
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ dd MMM መዓልቲ y G - E፡ dd MMM መዓልቲ y G
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ dd MMM መዓልቲ y G - E፡ dd MMM መዓልቲ y G
+                    draft: unconfirmed
+                  "y": 
+                    content: E፡ dd MMM መዓልቲ y G - E፡ dd MMM መዓልቲ y G
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM d - MMM d
+                    draft: unconfirmed
+                  d: 
+                    content: y MMM d-d
+                    draft: unconfirmed
+                  "y": 
+                    content: y MMM d - y MMM d
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            dateFormat: 
+              pattern: EEEE፡ dd MMMM መዓልቲ y G
+            type: full
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ MM-dd - E፡ MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ MM-dd - E፡ MM-dd
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ MMM d - E፡ MMM d
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ MMM d - E፡ MMM d
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d - MMM d
+                    draft: unconfirmed
+                  d: 
+                    content: MMM d-d
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: MM-dd - MM-dd
+                    draft: unconfirmed
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ y-MM-dd - E፡ y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ y-MM-dd - E፡ y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: E፡ y-MM-dd - E፡ y-MM-dd
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM-MMM
+                    draft: unconfirmed
+                  "y": 
+                    content: y MMM - y MMM
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፡ dd MMM መዓልቲ y G - E፡ dd MMM መዓልቲ y G
+                    draft: unconfirmed
+                  d: 
+                    content: E፡ dd MMM መዓልቲ y G - E፡ dd MMM መዓልቲ y G
+                    draft: unconfirmed
+                  "y": 
+                    content: E፡ dd MMM መዓልቲ y G - E፡ dd MMM መዓልቲ y G
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM d - MMM d
+                    draft: unconfirmed
+                  d: 
+                    content: y MMM d-d
+                    draft: unconfirmed
+                  "y": 
+                    content: y MMM d - y MMM d
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        days: 
+          dayContext: 
+            dayWidth: 
+              day: 
+                - 
+                  content: ሰንበት
+                  type: sun
+                - 
+                  content: ሰኑይ
+                  type: mon
+                - 
+                  content: ሰሉስ
+                  type: tue
+                - 
+                  content: ረቡዕ
+                  type: wed
+                - 
+                  content: ሓሙስ
+                  type: thu
+                - 
+                  content: ዓርቢ
+                  type: fri
+                - 
+                  content: ቀዳም
+                  type: sat
+              type: wide
+            type: format
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: ጥሪ
+                    type: 1
+                  - 
+                    content: ለካቲ
+                    type: 2
+                  - 
+                    content: መጋቢ
+                    type: 3
+                  - 
+                    content: ሚያዝ
+                    type: 4
+                  - 
+                    content: ግንቦ
+                    type: 5
+                  - 
+                    content: ሰነ
+                    type: 6
+                  - 
+                    content: ሓምለ
+                    type: 7
+                  - 
+                    content: ነሓሰ
+                    type: 8
+                  - 
+                    content: መስከ
+                    type: 9
+                  - 
+                    content: ጥቅም
+                    type: 10
+                  - 
+                    content: ሕዳር
+                    type: 11
+                  - 
+                    content: ታሕሳ
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: ጥሪ
+                    type: 1
+                  - 
+                    content: ለካቲት
+                    type: 2
+                  - 
+                    content: መጋቢት
+                    type: 3
+                  - 
+                    content: ሚያዝያ
+                    type: 4
+                  - 
+                    content: ግንቦት
+                    type: 5
+                  - 
+                    content: ሰነ
+                    type: 6
+                  - 
+                    content: ሓምለ
+                    type: 7
+                  - 
+                    content: ነሓሰ
+                    type: 8
+                  - 
+                    content: መስከረም
+                    type: 9
+                  - 
+                    content: ጥቅምቲ
+                    type: 10
+                  - 
+                    content: ሕዳር
+                    type: 11
+                  - 
+                    content: ታሕሳስ
+                    type: 12
+                type: wide
+            type: format
+        type: gregorian
+delimiters: 
+  alternateQuotationEnd: ”
+  alternateQuotationStart: “
+  quotationEnd: ’
+  quotationStart: ‘
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ti
+  territory: 
+    type: ER
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  currencies: 
+    currency: 
+      symbol: Nfk
+      type: ERN
