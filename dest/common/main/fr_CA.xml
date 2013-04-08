@@ -1,0 +1,855 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: G y-MM-dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG yy-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MEd: 
+                content: E M-d
+              MMd: 
+                content: MM-d
+              MMdd: 
+                content: MM-dd
+              Md: 
+                content: M-d
+              yyyyM: 
+                content: G y-MM
+              yyyyMEd: 
+                content: E G y-MM-dd
+              yyyyMM: 
+                content: G y-MM
+              yyyyMd: 
+                content: G y-MM-dd
+          intervalFormats: 
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E MM-dd – E MM-dd
+                  d: 
+                    content: E MM-dd – E MM-dd
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd – MM-dd
+                  d: 
+                    content: MM-dd – MM-dd
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h–h a
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  content: h–h a v
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: G y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: G y-MM – y-MM
+                  "y": 
+                    content: G y-MM – y-MM
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: "'du' E y-MM-dd 'au' E y-MM-dd G"
+                  d: 
+                    content: "'du' E y-MM-dd 'au' E y-MM-dd G"
+                  "y": 
+                    content: "'du' E y-MM-dd 'au' E y-MM-dd G"
+              yMMM: 
+                greatestDifference: 
+                  content: "'de' MMM y 'à' MMM y G"
+                  id: 'y'
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: "'du' E d MMM 'au' E d MMM y G"
+                  d: 
+                    content: "'du' E d 'au' E d MMM y G"
+                  "y": 
+                    content: "'du' E d MMM y 'au' E d MMM y G"
+              yMMMM: 
+                greatestDifference: 
+                  content: MMMM – MMMM y G
+                  id: M
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: "'du' d MMM 'au' d MMM y G"
+                  "y": 
+                    content: "'du' d MMM y 'au' d MMM y G"
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: G y-MM-dd – y-MM-dd
+                  d: 
+                    content: G y-MM-dd – y-MM-dd
+                  "y": 
+                    content: G y-MM-dd – y-MM-dd
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: yy-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MEd: 
+                content: E M-d
+              MMd: 
+                content: MM-d
+              MMdd: 
+                content: MM-dd
+              Md: 
+                content: M-d
+              yM: 
+                content: y-MM
+              yMEd: 
+                content: E y-MM-dd
+              yMM: 
+                content: y-MM
+              yMd: 
+                content: y-MM-dd
+          intervalFormats: 
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E MM-dd – E MM-dd
+                  d: 
+                    content: E MM-dd – E MM-dd
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM-dd – MM-dd
+                  d: 
+                    content: MM-dd – MM-dd
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h–h a
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  content: h–h a v
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – y-MM
+                  "y": 
+                    content: y-MM – y-MM
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: "'du' E y-MM-dd 'au' E y-MM-dd"
+                  d: 
+                    content: "'du' E y-MM-dd 'au' E y-MM-dd"
+                  "y": 
+                    content: "'du' E y-MM-dd 'au' E y-MM-dd"
+              yMMM: 
+                greatestDifference: 
+                  content: "'de' MMM y 'à' MMM y"
+                  id: 'y'
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: "'du' E d MMM 'au' E d MMM y"
+                  d: 
+                    content: "'du' E d 'au' E d MMM y"
+                  "y": 
+                    content: "'du' E d MMM y 'au' E d MMM y"
+              yMMMM: 
+                greatestDifference: 
+                  content: MMMM – MMMM y
+                  id: M
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: "'du' d MMM 'au' d MMM y"
+                  "y": 
+                    content: "'du' d MMM y 'au' d MMM y"
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – y-MM-dd
+                  d: 
+                    content: y-MM-dd – y-MM-dd
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+        timeFormats: 
+          timeFormatLength: 
+            timeFormat: 
+              pattern: HH 'h' mm 'min' ss 's' zzzz
+            type: full
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        relative: 
+          - 
+            content: L'année dernière
+            draft: contributed
+            type: -1
+          - 
+            content: Cette année
+            draft: contributed
+            type: 0
+          - 
+            content: L'année prochaine
+            draft: contributed
+            type: 1
+        type: year
+      - 
+        relative: 
+          - 
+            content: Le mois dernier
+            draft: contributed
+            type: -1
+          - 
+            content: Ce mois-ci
+            draft: contributed
+            type: 0
+          - 
+            content: Le mois prochain
+            draft: contributed
+            type: 1
+        type: month
+      - 
+        relative: 
+          - 
+            content: La semaine dernière
+            draft: contributed
+            type: -1
+          - 
+            content: Cette semaine
+            draft: contributed
+            type: 0
+          - 
+            content: La semaine prochaine
+            draft: contributed
+            type: 1
+        type: week
+  timeZoneNames: 
+    fallbackRegionFormat: 
+      content: Heure de {1} ({0})
+      draft: contributed
+    metazone: 
+      - 
+        short: 
+          daylight: HAC
+          generic: HC
+          standard: HNC
+        type: America_Central
+      - 
+        short: 
+          daylight: HAE
+          generic: HE
+          standard: HNE
+        type: America_Eastern
+      - 
+        short: 
+          daylight: HAR
+          generic: HR
+          standard: HNR
+        type: America_Mountain
+      - 
+        short: 
+          daylight: HAP
+          generic: HP
+          standard: HNP
+        type: America_Pacific
+      - 
+        long: 
+          standard: 
+            content: heure de l’Est indonésien
+            draft: contributed
+        type: Indonesia_Eastern
+      - 
+        short: 
+          daylight: HAT
+          generic: HT
+          standard: HNT
+        type: Newfoundland
+    regionFormat: 
+      content: Heure de {0}
+      draft: contributed
+    zone: 
+      - 
+        exemplarCity: 
+          content: Barbade (La)
+          draft: contributed
+        type: America/Barbados
+      - 
+        exemplarCity: 
+          content: Dacca
+          draft: contributed
+        type: Asia/Dhaka
+      - 
+        exemplarCity: 
+          content: Îles Cocos
+          draft: contributed
+        type: Indian/Cocos
+      - 
+        exemplarCity: 
+          content: Île Christmas
+          draft: contributed
+        type: Indian/Christmas
+      - 
+        exemplarCity: 
+          content: Îles Féroé
+          draft: contributed
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: 
+          content: Nuuk
+          draft: contributed
+        type: America/Godthab
+      - 
+        exemplarCity: 
+          content: Archipel des Chagos
+          draft: contributed
+        type: Indian/Chagos
+      - 
+        exemplarCity: 
+          content: Baghdad
+          draft: contributed
+        type: Asia/Baghdad
+      - 
+        exemplarCity: 
+          content: Union des Comores
+          draft: contributed
+        type: Indian/Comoro
+      - 
+        exemplarCity: 
+          content: Saint-Christophe-et-Niévès
+          draft: contributed
+        type: America/St_Kitts
+      - 
+        exemplarCity: 
+          content: Îles Caïmans
+          draft: contributed
+        type: America/Cayman
+      - 
+        exemplarCity: 
+          content: Île Pitcairn
+          draft: contributed
+        type: Pacific/Pitcairn
+      - 
+        exemplarCity: 
+          content: Ndjamena
+          draft: contributed
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: 
+          content: Îles Kerguelen
+          draft: contributed
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: 
+          content: Port-d'Espagne
+          draft: contributed
+        type: America/Port_of_Spain
+      - 
+        exemplarCity: 
+          content: New Salem, Dakota du Nord
+          draft: contributed
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: 
+          content: Vatican
+          draft: contributed
+        type: Europe/Vatican
+      - 
+        exemplarCity: 
+          content: Saint Thomas
+          draft: contributed
+        type: America/St_Thomas
+      - 
+        exemplarCity: 
+          content: Uvéa
+          draft: contributed
+        type: Pacific/Wallis
+delimiters: 
+  alternateQuotationEnd: ›
+  alternateQuotationStart: ‹
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: fr
+  territory: 
+    type: CA
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  keys: 
+    key: 
+      - 
+        content: Calendrier
+        draft: contributed
+        type: calendar
+      - 
+        content: Devise
+        draft: contributed
+        type: currency
+      - 
+        content: Chiffres
+        draft: contributed
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: espagnol ibérique
+        draft: contributed
+        type: es_ES
+      - 
+        alt: variant
+        content: ps
+        draft: contributed
+        type: ps
+      - 
+        content: portugais ibérique
+        draft: contributed
+        type: pt_PT
+      - 
+        content: singhalais
+        draft: contributed
+        type: si
+      - 
+        content: tongan
+        draft: contributed
+        type: to
+      - 
+        content: ouïgour
+        draft: contributed
+        type: ug
+      - 
+        alt: variant
+        content: ouïghour
+        draft: contributed
+        type: ug
+      - 
+        content: indéterminé
+        draft: contributed
+        type: und
+  measurementSystemNames: 
+    measurementSystemName: 
+      content: R-U
+      draft: contributed
+      type: UK
+  scripts: 
+    script: 
+      - 
+        alt: variant
+        content: Perso-arabe
+        draft: contributed
+        type: Arab
+      - 
+        content: idéogrammes han simplifiés
+        draft: contributed
+        type: Hans
+      - 
+        content: idéogrammes han traditionnels
+        draft: contributed
+        type: Hant
+  territories: 
+    territory: 
+      - 
+        content: Île de l'Ascension
+        draft: contributed
+        type: AC
+      - 
+        content: Géorgie du Sud et les îles Sandwich du Sud
+        draft: contributed
+        type: GS
+      - 
+        alt: variant
+        content: Macédoine
+        draft: contributed
+        type: MK
+      - 
+        content: Sao Tomé-et-Principe
+        draft: contributed
+        type: ST
+      - 
+        alt: short
+        content: É.-U.
+        type: US
+  transformNames: 
+    transformName: 
+      - 
+        content: Chiffres
+        draft: contributed
+        type: Numeric
+      - 
+        content: Pleine largeur
+        draft: contributed
+        type: x-Fullwidth
+      - 
+        content: Demie largeur
+        draft: contributed
+        type: x-Halfwidth
+      - 
+        content: Édition
+        draft: contributed
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: Calendrier perse
+        draft: contributed
+        type: persian
+      collation: 
+        content: Ordre de tri radical et trait
+        draft: contributed
+        type: unihan
+      numbers: 
+        content: Chiffres tibétains
+        draft: contributed
+        type: tibt
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        symbol: 
+          content: AFN
+          draft: contributed
+        type: AFN
+      - 
+        symbol: 
+          content: BAM
+          draft: contributed
+        type: BAM
+      - 
+        symbol: 
+          content: BDT
+          draft: contributed
+        type: BDT
+      - 
+        symbol: $
+        type: CAD
+      - 
+        symbol: 
+          content: CN¥
+          draft: contributed
+        type: CNY
+      - 
+        symbol: 
+          content: DJF
+          draft: contributed
+        type: DJF
+      - 
+        displayName: 
+          - 
+            content: dollar guyanien
+            count: one
+            draft: contributed
+          - 
+            content: dollars guyaniens
+            count: other
+            draft: contributed
+        type: GYD
+      - 
+        symbol: 
+          content: IDR
+          draft: contributed
+        type: IDR
+      - 
+        symbol: 
+          content: MMK
+          draft: contributed
+        type: MMK
+      - 
+        symbol: 
+          content: MNT
+          draft: contributed
+        type: MNT
+      - 
+        symbol: 
+          content: MVR
+          draft: contributed
+        type: MVR
+      - 
+        symbol: 
+          content: MYR
+          draft: contributed
+        type: MYR
+      - 
+        symbol: 
+          content: PGK
+          draft: contributed
+        type: PGK
+      - 
+        symbol: 
+          content: TOP
+          draft: contributed
+        type: TOP
+      - 
+        symbol: 
+          content: VUV
+          draft: contributed
+        type: VUV
+      - 
+        symbol: 
+          content: WST
+          draft: contributed
+        type: WST
+      - 
+        symbol: 
+          content: F CFA
+          draft: contributed
+        type: XOF
+units: 
+  unit: 
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: Dans {0} jour
+          count: one
+          draft: contributed
+        - 
+          content: Dans {0} jours
+          count: other
+          draft: contributed
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: Il y a {0} jour
+          count: one
+          draft: contributed
+        - 
+          content: Il y a {0} jours
+          count: other
+          draft: contributed
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: Dans {0} heure
+          count: one
+          draft: contributed
+        - 
+          content: Dans {0} heures
+          count: other
+          draft: contributed
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: Il y a {0} heure
+          count: one
+          draft: contributed
+        - 
+          content: Il y a {0} heures
+          count: other
+          draft: contributed
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: Dans {0} minute
+          count: one
+          draft: contributed
+        - 
+          content: Dans {0} minutes
+          count: other
+          draft: contributed
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: Il y a {0} minute
+          count: one
+          draft: contributed
+        - 
+          content: Il y a {0} minutes
+          count: other
+          draft: contributed
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: Dans {0} mois
+          count: one
+          draft: contributed
+        - 
+          content: Dans {0} mois
+          count: other
+          draft: contributed
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: Il y a {0} mois
+          count: one
+          draft: contributed
+        - 
+          content: Il y a {0} mois
+          count: other
+          draft: contributed
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: Dans {0} seconde
+          count: one
+          draft: contributed
+        - 
+          content: Dans {0} secondes
+          count: other
+          draft: contributed
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: Il y a {0} seconde
+          count: one
+          draft: contributed
+        - 
+          content: Il y a {0} secondes
+          count: other
+          draft: contributed
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: Dans {0} semaine
+          count: one
+          draft: contributed
+        - 
+          content: Dans {0} semaines
+          count: other
+          draft: contributed
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: Il y a {0} semaine
+          count: one
+          draft: contributed
+        - 
+          content: Il y a {0} semaines
+          count: other
+          draft: contributed
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: Dans {0} an
+          count: one
+          draft: contributed
+        - 
+          content: Dans {0} ans
+          count: other
+          draft: contributed
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: Il y a {0} an
+          count: one
+          draft: contributed
+        - 
+          content: Il y a {0} ans
+          count: other
+          draft: contributed

@@ -1,0 +1,14 @@
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ar
+  territory: 
+    type: MR
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  symbols: 
+    decimal: ","
+    group: .
+    numberSystem: latn

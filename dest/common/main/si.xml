@@ -1,0 +1,3957 @@
+characters: 
+  exemplarCharacters: 
+    - "[අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ එ ඒ ඓ ඔ ඕ ඖ ං ඃ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඥ ඤ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ ා ැ ෑ \\u0DD2 \\u0DD3 \\u0DD4 \\u0DD6 ෘ ෲ ෟ ෙ ේ ෛ ො ෝ ෞ \\u0DCA]"
+    - 
+      content: "[\\u200B\\u200C\\u200D ඎ ඏ ඐ ඦ ෳ]"
+      type: auxiliary
+    - 
+      content: "[අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ එ ඒ ඓ ඔ ඕ ඖ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඥ ඤ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: G y MMMM d, EEEE
+              type: full
+            - 
+              dateFormat: 
+                pattern: G y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG y/MM/dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: M-d, E
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: MMM d E
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M-d
+              d: 
+                content: d
+              h: 
+                content: a h
+              hm: 
+                content: a h.mm
+              hms: 
+                content: a h.mm.ss
+              ms: 
+                content: mm.ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: y-M-d, E
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: y MMM d, E
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HHmm-HHmm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M-d – E, M-d
+                  d: 
+                    content: E, M-d – E, M-d
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-dd, E – MMM-dd, E
+                  d: 
+                    content: MMM-d, E – MMM-d, E
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d - MMM d
+                  d: 
+                    content: MMM d-d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M-d - M-d
+                  d: 
+                    content: M-d - M-d
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: a h - a h
+                  h: 
+                    content: a h-h
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: a h:mm - a h:mm
+                  h: 
+                    content: a h.mm - h.mm
+                  m: 
+                    content: a h.mm - h.mm
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: a h.mm - a hhh.mm v
+                  h: 
+                    content: a h.mm - h.mm v
+                  m: 
+                    content: a h:mm - h.mm v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: a h - a h v
+                  h: 
+                    content: a h - h vv
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M-y - M-y
+                  "y": 
+                    content: M-y - M-y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M-d-y - E, M-d-y
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  "y": 
+                    content: M-d-y, E - M-d-y, E
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM–MMM
+                  "y": 
+                    content: y MMM - y MMM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM d, E - y MMM d, E
+                  d: 
+                    content: y MMM d, E - y MMM d, E
+                  "y": 
+                    content: y MMM d, E - y MMM d, E
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMMM - MMMM
+                  "y": 
+                    content: y MMMM - y MMMM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM d - MMM d
+                  d: 
+                    content: y MMM d - d
+                  "y": 
+                    content: y MMM d - y MMM d
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: M-d-y - M-d-y
+                  d: 
+                    content: M-d-y - M-d-y
+                  "y": 
+                    content: M-d-y - M-d-y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: y MMMM d, EEEE
+              type: full
+            - 
+              dateFormat: 
+                pattern: y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y/MM/dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: M-d, E
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: MMM d E
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M-d
+              d: 
+                content: d
+              h: 
+                content: a h
+              hm: 
+                content: a h.mm
+              hms: 
+                content: a h.mm.ss
+              ms: 
+                content: mm.ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: y-M-d, E
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: y MMM d, E
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HHmm-HHmm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M-d – E, M-d
+                  d: 
+                    content: E, M-d – E, M-d
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-dd, E – MMM-dd, E
+                  d: 
+                    content: MMM-d, E – MMM-d, E
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d - MMM d
+                  d: 
+                    content: MMM d-d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M-d - M-d
+                  d: 
+                    content: M-d - M-d
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: a h - a h
+                  h: 
+                    content: a h-h
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: a h:mm - a h:mm
+                  h: 
+                    content: a h.mm - h.mm
+                  m: 
+                    content: a h.mm - h.mm
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: a h.mm - a hhh.mm v
+                  h: 
+                    content: a h.mm - h.mm v
+                  m: 
+                    content: a h:mm - h.mm v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: a h - a h v
+                  h: 
+                    content: a h - h vv
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M-y - M-y
+                  "y": 
+                    content: M-y - M-y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M-d-y - E, M-d-y
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  "y": 
+                    content: M-d-y, E - M-d-y, E
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM–MMM
+                  "y": 
+                    content: y MMM - y MMM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM d, E - y MMM d, E
+                  d: 
+                    content: y MMM d, E - y MMM d, E
+                  "y": 
+                    content: y MMM d, E - y MMM d, E
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMMM - MMMM
+                  "y": 
+                    content: y MMMM - y MMMM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM d - MMM d
+                  d: 
+                    content: y MMM d - d
+                  "y": 
+                    content: y MMM d - y MMM d
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: M-d-y - M-d-y
+                  d: 
+                    content: M-d-y - M-d-y
+                  "y": 
+                    content: M-d-y - M-d-y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: පෙ.ව.
+                  type: am
+                - 
+                  content: ප.ව.
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ඉරි
+                      type: sun
+                    - 
+                      content: සඳු
+                      type: mon
+                    - 
+                      content: අඟ
+                      type: tue
+                    - 
+                      content: බදා
+                      type: wed
+                    - 
+                      content: බ්‍රහ
+                      type: thu
+                    - 
+                      content: සිකු
+                      type: fri
+                    - 
+                      content: සෙන
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ඉ
+                      type: sun
+                    - 
+                      content: ස
+                      type: mon
+                    - 
+                      content: අ
+                      type: tue
+                    - 
+                      content: බ
+                      type: wed
+                    - 
+                      content: බ්‍ර
+                      type: thu
+                    - 
+                      content: සි
+                      type: fri
+                    - 
+                      content: සෙ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ඉ
+                      type: sun
+                    - 
+                      content: ස
+                      type: mon
+                    - 
+                      content: අ
+                      type: tue
+                    - 
+                      content: බ
+                      type: wed
+                    - 
+                      content: බ්‍ර
+                      type: thu
+                    - 
+                      content: සි
+                      type: fri
+                    - 
+                      content: සෙ
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: ඉරිදා
+                      type: sun
+                    - 
+                      content: සඳුදා
+                      type: mon
+                    - 
+                      content: අඟහරුවාදා
+                      type: tue
+                    - 
+                      content: බදාදා
+                      type: wed
+                    - 
+                      content: බ්‍රහස්පතින්දා
+                      type: thu
+                    - 
+                      content: සිකුරාදා
+                      type: fri
+                    - 
+                      content: සෙනසුරාදා
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ඉරි
+                      type: sun
+                    - 
+                      content: සඳු
+                      type: mon
+                    - 
+                      content: අඟ
+                      type: tue
+                    - 
+                      content: බදා
+                      type: wed
+                    - 
+                      content: බ්‍රහ
+                      type: thu
+                    - 
+                      content: සිකු
+                      type: fri
+                    - 
+                      content: සෙන
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ඉ
+                      type: sun
+                    - 
+                      content: ස
+                      type: mon
+                    - 
+                      content: අ
+                      type: tue
+                    - 
+                      content: බ
+                      type: wed
+                    - 
+                      content: බ්‍ර
+                      type: thu
+                    - 
+                      content: සි
+                      type: fri
+                    - 
+                      content: සෙ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ඉරි
+                      type: sun
+                    - 
+                      content: සඳු
+                      type: mon
+                    - 
+                      content: අඟ
+                      type: tue
+                    - 
+                      content: බදා
+                      type: wed
+                    - 
+                      content: බ්‍රහ
+                      type: thu
+                    - 
+                      content: සිකු
+                      type: fri
+                    - 
+                      content: සෙන
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: ඉරිදා
+                      type: sun
+                    - 
+                      content: සඳුදා
+                      type: mon
+                    - 
+                      content: අඟහරුවාදා
+                      type: tue
+                    - 
+                      content: බදාදා
+                      type: wed
+                    - 
+                      content: බ්‍රහස්පතින්දා
+                      type: thu
+                    - 
+                      content: සිකුරාදා
+                      type: fri
+                    - 
+                      content: සෙනසුරාදා
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ක්‍රි.පූ.
+                type: 0
+              - 
+                content: ක්‍රි.ව.
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: ක්‍රිස්තු පූර්‍ව
+                type: 0
+              - 
+                content: ක්‍රිස්තු වර්‍ෂ
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ජන
+                      type: 1
+                    - 
+                      content: පෙබ
+                      type: 2
+                    - 
+                      content: මාර්තු
+                      type: 3
+                    - 
+                      content: අප්‍රේල්
+                      type: 4
+                    - 
+                      content: මැයි
+                      type: 5
+                    - 
+                      content: ජූනි
+                      type: 6
+                    - 
+                      content: ජූලි
+                      type: 7
+                    - 
+                      content: අගෝ
+                      type: 8
+                    - 
+                      content: සැප්
+                      type: 9
+                    - 
+                      content: ඔක්
+                      type: 10
+                    - 
+                      content: නොවැ
+                      type: 11
+                    - 
+                      content: දෙසැ
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ජ
+                      type: 1
+                    - 
+                      content: පෙ
+                      type: 2
+                    - 
+                      content: මා
+                      type: 3
+                    - 
+                      content: අ
+                      type: 4
+                    - 
+                      content: මැ
+                      type: 5
+                    - 
+                      content: ජූ
+                      type: 6
+                    - 
+                      content: ජූ
+                      type: 7
+                    - 
+                      content: අ
+                      type: 8
+                    - 
+                      content: සැ
+                      type: 9
+                    - 
+                      content: ඔ
+                      type: 10
+                    - 
+                      content: නෙ
+                      type: 11
+                    - 
+                      content: දෙ
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: ජනවාරි
+                      type: 1
+                    - 
+                      content: පෙබරවාරි
+                      type: 2
+                    - 
+                      content: මාර්තු
+                      type: 3
+                    - 
+                      content: අප්‍රේල්
+                      type: 4
+                    - 
+                      content: මැයි
+                      type: 5
+                    - 
+                      content: ජූනි
+                      type: 6
+                    - 
+                      content: ජූලි
+                      type: 7
+                    - 
+                      content: අගෝස්තු
+                      type: 8
+                    - 
+                      content: සැප්තැම්බර්
+                      type: 9
+                    - 
+                      content: ඔක්තෝබර්
+                      type: 10
+                    - 
+                      content: නොවැම්බර්
+                      type: 11
+                    - 
+                      content: දෙසැම්බර්
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ජන
+                      type: 1
+                    - 
+                      content: පෙබ
+                      type: 2
+                    - 
+                      content: මාර්
+                      type: 3
+                    - 
+                      content: අප්‍රේල්
+                      type: 4
+                    - 
+                      content: මැයි
+                      type: 5
+                    - 
+                      content: ජූනි
+                      type: 6
+                    - 
+                      content: ජූලි
+                      type: 7
+                    - 
+                      content: අගෝ
+                      type: 8
+                    - 
+                      content: සැප්
+                      type: 9
+                    - 
+                      content: ඔක්
+                      type: 10
+                    - 
+                      content: නොවැ
+                      type: 11
+                    - 
+                      content: දෙසැ
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ජ
+                      type: 1
+                    - 
+                      content: පෙ
+                      type: 2
+                    - 
+                      content: මා
+                      type: 3
+                    - 
+                      content: අ
+                      type: 4
+                    - 
+                      content: මැ
+                      type: 5
+                    - 
+                      content: ජූ
+                      type: 6
+                    - 
+                      content: ජූ
+                      type: 7
+                    - 
+                      content: අ
+                      type: 8
+                    - 
+                      content: සැ
+                      type: 9
+                    - 
+                      content: ඔ
+                      type: 10
+                    - 
+                      content: නෙ
+                      type: 11
+                    - 
+                      content: දෙ
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: ජනවාරි
+                      type: 1
+                    - 
+                      content: පෙබරවාරි
+                      type: 2
+                    - 
+                      content: මාර්තු
+                      type: 3
+                    - 
+                      content: අප්‍රේල්
+                      type: 4
+                    - 
+                      content: මැයි
+                      type: 5
+                    - 
+                      content: ජූනි
+                      type: 6
+                    - 
+                      content: ජූලි
+                      type: 7
+                    - 
+                      content: අගෝස්තු
+                      type: 8
+                    - 
+                      content: සැප්තැම්බර්
+                      type: 9
+                    - 
+                      content: ඔක්තෝබර්
+                      type: 10
+                    - 
+                      content: නොවැම්බර්
+                      type: 11
+                    - 
+                      content: දෙසැම්බර්
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: කාර්:1
+                      type: 1
+                    - 
+                      content: කාර්:2
+                      type: 2
+                    - 
+                      content: කාර්:3
+                      type: 3
+                    - 
+                      content: කාර්:4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1 වන කාර්තුව
+                      type: 1
+                    - 
+                      content: 2 වන කාර්තුව
+                      type: 2
+                    - 
+                      content: 3 වන කාර්තුව
+                      type: 3
+                    - 
+                      content: 4 වන කාර්තුව
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: කාර්:1
+                      type: 1
+                    - 
+                      content: කාර්:2
+                      type: 2
+                    - 
+                      content: කාර්:3
+                      type: 3
+                    - 
+                      content: කාර්:4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1 වන කාර්තුව
+                      type: 1
+                    - 
+                      content: 2 වන කාර්තුව
+                      type: 2
+                    - 
+                      content: 3 වන කාර්තුව
+                      type: 3
+                    - 
+                      content: 4 වන කාර්තුව
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: a HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: a h:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: a h.mm.ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: a h.mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: යුගය
+        type: era
+      - 
+        displayName: වර්ෂ
+        type: year
+      - 
+        displayName: මාසය
+        type: month
+      - 
+        displayName: සතිය
+        type: week
+      - 
+        displayName: දිනය
+        relative: 
+          - 
+            content: පෙරේදා
+            type: -2
+          - 
+            content: ඊයෙ
+            type: -1
+          - 
+            content: අද
+            type: 0
+          - 
+            content: හෙට
+            type: 1
+          - 
+            content: අනිද්දා
+            type: 2
+        type: day
+      - 
+        displayName: සතියේ දිනය
+        type: weekday
+      - 
+        displayName: දිවා කාලය
+        type: dayperiod
+      - 
+        displayName: පැය
+        type: hour
+      - 
+        displayName: මිනිස්තුව
+        type: minute
+      - 
+        displayName: තප්පරය
+        type: second
+      - 
+        displayName: වේලා කලාපය
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: ග්‍රිමවේ
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: ඇෆ්ගනිස්ථාන වේලාව
+        type: Afghanistan
+      - 
+        long: 
+          standard: නැගෙනහිර අප්‍රිකානු වේලාව
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: දකුණු අප්‍රිකානු වේලාව
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: බටහිර අප්‍රිකානු ගිම්හාන වේලාව
+          generic: බටහිර අප්‍රිකානු වේලාව
+          standard: බටහිර අප්‍රිකානු සම්මත වේලාව
+        type: Africa_Western
+      - 
+        long: 
+          daylight: ඇලස්කා දිවා කාලය
+          generic: ඇලස්කා වේලාව
+          standard: ඇලස්කා සම්මත වේලාව
+        type: Alaska
+      - 
+        long: 
+          daylight: ඇමර්සන් ග්‍රීෂ්ම කාලය
+          generic: ඇමර්සන් වේලාව
+          standard: ඇමර්සන් සම්මත වේලාව
+        type: Amazon
+      - 
+        long: 
+          daylight: උතුරු ඇමරිකානු මධ්‍යම දිවා කාලය
+          generic: උතුරු ඇමරිකානු මධ්‍යම වේලාව
+          standard: උතුරු ඇමරිකානු මධ්‍යම සම්මත වේලාව
+        type: America_Central
+      - 
+        long: 
+          daylight: උතුරු ඇමරිකානු නැගෙනහිර දිවා කාලය
+          generic: උතුරු ඇමරිකානු නැගෙනහිර වේලාව
+          standard: උතුරු ඇමරිකානු නැගෙනහිර සම්මත වේලාව
+        type: America_Eastern
+      - 
+        long: 
+          daylight: උතුරු ඇමරිකානු කඳුකර දිවා කාලය
+          generic: උතුරු ඇමරිකානු කඳුකර වේලාව
+          standard: උතුරු ඇමරිකානු කඳුකර සම්මත වේලාව
+        type: America_Mountain
+      - 
+        long: 
+          daylight: උතුරු ඇමරිකානු පැසිෆික් දිවා කාලය
+          generic: උතුරු ඇමරිකානු පැසිෆික් වේලාව
+          standard: උතුරු ඇමරිකානු පැසිෆික් සම්මත වේලාව
+        type: America_Pacific
+      - 
+        long: 
+          daylight: අරාබි දහවල් වේලාව
+          generic: අරාබි වේලාව
+          standard: අරාබි සම්මත වේලාව
+        type: Arabian
+      - 
+        long: 
+          daylight: ආර්ජන්ටිනා ග්‍රීෂ්ම කාලය
+          generic: ආර්ජන්ටිනා වේලාව
+          standard: ආර්ජන්ටිනා සම්මත වේලාව
+        type: Argentina
+      - 
+        long: 
+          daylight: බටහිර ආර්ජන්ටිනා ග්‍රීෂ්ම කාලය
+          generic: බටහිර ආර්ජන්ටිනා වේලාව
+          standard: බටහිර ආර්ජන්ටිනා සම්මත වේලාව
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: අත්ලාන්තික් දිවා කාලය
+          generic: අත්ලාන්තික් වේලාව
+          standard: අත්ලාන්තික් සම්මත වේලාව
+        type: Atlantic
+      - 
+        long: 
+          daylight: මධ්‍යම ඔස්ටේලියානු දහවල් වේලාව
+          generic: මධ්‍යම ඕස්ට්‍රේලියානු වේලාව
+          standard: ඕස්ට්‍රේලියානු සම්මත වේලාව
+        type: Australia_Central
+      - 
+        long: 
+          daylight: මධ්‍යම බටහිර ඔස්ටේලියානු දහවල් වේලාව
+          generic: මධ්‍යම බටහිර ඔස්ටේලියානු වේලාව
+          standard: මධ්‍යම බටහිර ඔස්ටේලියානු සම්මත වේලාව
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: නැඟෙනහිර ඕස්ටේලියානු දහවල් වේලාව
+          generic: නැගෙනහිර ඕස්ට්‍රේලියානු වේලාව
+          standard: නැගෙනහිර ඕස්ට්‍රේලියානු සම්මත වේලාව
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: බටහිර ඔස්ටේලියානු දහවල් වේලාව
+          generic: බටහිර ඕස්ට්‍රේලියානු වේලාව
+          standard: බටහිර ඕස්ට්‍රේලියානු සම්මත වේලාව
+        type: Australia_Western
+      - 
+        long: 
+          daylight: බංගලාදේශ ග්‍රීෂ්ම කාලය
+          generic: බංගලාදේශ වේලාව
+          standard: බංගලාදේශ සම්මත වේලාව
+        type: Bangladesh
+      - 
+        long: 
+          standard: භුතාන වේලාව
+        type: Bhutan
+      - 
+        long: 
+          standard: බොලිවියා වේලාව
+        type: Bolivia
+      - 
+        long: 
+          daylight: බ්‍රසීල ග්‍රීෂ්ම කාලය
+          generic: බ්‍රසීල වේලාව
+          standard: බ්‍රසීල සම්මත වේලාව
+        type: Brasilia
+      - 
+        long: 
+          daylight: කේප්වේඩ් ග්‍රීෂ්ම කාලය
+          generic: කේප්වේඩ් වේලාව
+          standard: කේප්වේඩ් සම්මත වේලාව
+        type: Cape_Verde
+      - 
+        long: 
+          daylight: චිලී ග්‍රීෂ්ම කාලය
+          generic: චිලී වේලාව
+          standard: චිලී සම්මත වේලාව
+        type: Chile
+      - 
+        long: 
+          daylight: චීන දහවල් වේලාව
+          generic: චීන වේලාව
+          standard: චීන සම්මත වේලාව
+        type: China
+      - 
+        long: 
+          daylight: කොලොම්බියා ග්‍රීෂ්ම කාලය
+          generic: කොලොම්බියා වේලාව
+          standard: කොලොම්බියා සම්මත වේලාව
+        type: Colombia
+      - 
+        long: 
+          daylight: කියුබානු දිවා කාලය
+          generic: කියුබානු වේලාව
+          standard: කියුබානු සම්මත වේලාව
+        type: Cuba
+      - 
+        long: 
+          daylight: ඊස්ටර් දූපත් ග්‍රීෂ්ම කාලය
+          generic: ඊස්ටර් දූපත් වේලාව
+          standard: ඊස්ටර් දූපත් සම්මත වේලාව
+        type: Easter
+      - 
+        long: 
+          standard: ඉක්වදෝර් වේලාව
+        type: Ecuador
+      - 
+        long: 
+          daylight: මධ්‍යම යුරෝපීය ග්‍රීෂ්ම ඍතු වේලාව
+          generic: මධ්‍යම යුරෝපීය වේලාව
+          standard: මධ්‍යම යුරෝපීය සම්මත වේලාව
+        type: Europe_Central
+      - 
+        long: 
+          daylight: නැගෙනහිර යුරෝපීය ග්‍රීෂ්ම ඍතු වේලාව
+          generic: නැගෙනහිර යුරෝපීය වේලාව
+          standard: නැගෙනහිර යුරෝපීය සම්මත වේලාව
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: බටහිර යුරෝපීය ග්‍රීෂ්ම ඍතු වේලාව
+          generic: බටහිර යුරෝපීය වේලාව
+          standard: බටහිර යුරෝපීය සම්මත වේලාව
+        type: Europe_Western
+      - 
+        long: 
+          daylight: ෆෝක්ලන්ඩ් දූපත් ග්‍රීෂ්ම කාලය
+          generic: ෆෝක්ලන්ඩ් දූපත් වේලාව
+          standard: ෆෝක්ලන්ඩ් දූපත් සම්මත වේලාව
+        type: Falkland
+      - 
+        long: 
+          standard: ප්‍රංශ ගයනා වේලාව
+        type: French_Guiana
+      - 
+        long: 
+          standard: ගලපගොස් වේලාව
+        type: Galapagos
+      - 
+        long: 
+          standard: ග්‍රීන්විච් මධ්‍යම වේලාව
+        type: GMT
+      - 
+        long: 
+          daylight: නැගෙනහිර ග්‍රීන්ලන්ත ග්‍රීෂ්ම කාලය
+          generic: නැගෙනහිර ග්‍රීන්ලන්ත වේලාව
+          standard: නැගෙනහිර ග්‍රීන්ලන්ත සම්මත වේලාව
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: බටහිර ග්‍රීන්ලන්ත ග්‍රීෂ්ම කාලය
+          generic: බටහිර ග්‍රීන්ලන්ත වේලාව
+          standard: බටහිර ග්‍රීන්ලන්ත සම්මත වේලාව
+        type: Greenland_Western
+      - 
+        long: 
+          standard: ගයනා වේලාව
+        type: Guyana
+      - 
+        long: 
+          standard: ඉන්දියානු වේලාව
+        type: India
+      - 
+        long: 
+          standard: ඉන්දුචීන වේලාව
+        type: Indochina
+      - 
+        long: 
+          standard: මධ්‍යම ඉන්දුනීසියානු වේලාව
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: නැගෙනහිර ඉන්දුනීසියානු වේලාව
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: බටහිර ඉන්දුනීසියානු වේලාව
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: ඉරාන දිවා කාලය
+          generic: ඉරාන වේලාව
+          standard: ඉරාන සම්මත වේලාව
+        type: Iran
+      - 
+        long: 
+          daylight: ඊශ්‍රායල දහවල් වේලාව
+          generic: ඊශ්‍රායල වේලාව
+          standard: ඊශ්‍රායල සම්මත වේලාව
+        type: Israel
+      - 
+        long: 
+          daylight: ජපාන දහවල් වේලාව
+          generic: ජපාන වේලාව
+          standard: ජපාන සම්මත වේලාව
+        type: Japan
+      - 
+        long: 
+          daylight: කොරියානු දහවල් වේලාව
+          generic: කොරියානු වේලාව
+          standard: කොරියානු සම්මත වේලාව
+        type: Korea
+      - 
+        long: 
+          standard: ශ්‍රී ලංකා වේලාව
+        type: Lanka
+      - 
+        long: 
+          standard: මාලදිවයින් වේලාව
+        type: Maldives
+      - 
+        long: 
+          daylight: මොස්කව් ග්‍රීෂ්ම ඍතු වේලාව
+          generic: මොස්කව් වේලාව
+          standard: මොස්කව් සම්මත
+        type: Moscow
+      - 
+        long: 
+          standard: නේපාල වේලාව
+        type: Nepal
+      - 
+        long: 
+          daylight: නිව්ෆවුන්ලන්ත දිවා කාලය
+          generic: නිව්ෆවුන්ලන්ත වේලාව
+          standard: නිව්ෆවුන්ලන්ත සම්මත වේලාව
+        type: Newfoundland
+      - 
+        long: 
+          daylight: ෆර්නැන්ඩෝ ඩි නොරොන්හා ග්‍රීෂ්ම කාලය
+          generic: ෆර්නැන්ඩෝ ඩි නොරොන්හා වේලාව
+          standard: ෆර්නැන්ඩෝ ඩි නොරොන්හා සම්මත වේලාව
+        type: Noronha
+      - 
+        long: 
+          daylight: පාකිස්ථාන ග්‍රීෂ්ම කාලය
+          generic: පාකිස්ථාන වේලාව
+          standard: පාකිස්ථාන සම්මත වේලාව
+        type: Pakistan
+      - 
+        long: 
+          daylight: පැරගුවේ ග්‍රීෂ්ම කාලය
+          generic: පැරගුවේ වේලාව
+          standard: පැරගුවේ සම්මත වේලාව
+        type: Paraguay
+      - 
+        long: 
+          daylight: පේරු ග්‍රීෂ්ම කාලය
+          generic: පේරු වේලාව
+          standard: පේරු සම්මත වේලාව
+        type: Peru
+      - 
+        long: 
+          daylight: ශාන්ත පියරේ සහ මැකෝලන් දිවා කාලය
+          generic: ශාන්ත පියරේ සහ මැකෝලන් වේලාව
+          standard: ශාන්ත පියරේ සහ මැකෝලන් සම්මත වේලාව
+        type: Pierre_Miquelon
+      - 
+        long: 
+          daylight: උරුගුවේ ග්‍රීෂ්ම කාලය
+          generic: උරුගුවේ වේලාව
+          standard: උරුගුවේ සම්මත වේලාව
+        type: Uruguay
+      - 
+        long: 
+          standard: වෙනිසියුලා වේලාව
+        type: Venezuela
+    regionFormat: "{0} ජපාන වේලාව"
+    zone: 
+      - 
+        exemplarCity: හඳුනා නොගත් නගරය
+        type: Etc/Unknown
+      - 
+        exemplarCity: ඩුබායි
+        type: Asia/Dubai
+      - 
+        exemplarCity: කාබුල්
+        type: Asia/Kabul
+      - 
+        exemplarCity: ඇන්ටිගුවා
+        type: America/Antigua
+      - 
+        exemplarCity: ලුවන්ඩා
+        type: Africa/Luanda
+      - 
+        exemplarCity: ඩේවිස්
+        type: Antarctica/Davis
+      - 
+        exemplarCity: ශාන්ත ජුවාන්
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: ශාන්ත ලුවිස්
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: බුවනෝස් අයර්ස්
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: වියනා
+        type: Europe/Vienna
+      - 
+        exemplarCity: පර්ත්
+        type: Australia/Perth
+      - 
+        exemplarCity: ඩාවින්
+        type: Australia/Darwin
+      - 
+        exemplarCity: ඇඩිලේඩ්
+        type: Australia/Adelaide
+      - 
+        exemplarCity: මෙල්බෝර්න්
+        type: Australia/Melbourne
+      - 
+        exemplarCity: හෝබාර්ට්
+        type: Australia/Hobart
+      - 
+        exemplarCity: සිඩ්නි
+        type: Australia/Sydney
+      - 
+        exemplarCity: බ්‍රිස්බේන්
+        type: Australia/Brisbane
+      - 
+        exemplarCity: අරූබා
+        type: America/Aruba
+      - 
+        exemplarCity: බාබඩෝස්
+        type: America/Barbados
+      - 
+        exemplarCity: ධකා
+        type: Asia/Dhaka
+      - 
+        exemplarCity: බ්‍රසල්ස්
+        type: Europe/Brussels
+      - 
+        exemplarCity: බහරේන්
+        type: Asia/Bahrain
+      - 
+        exemplarCity: බුජම්බුරා
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: ශාන්ත බෙත්ලහෙම
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: බර්මියුඩාව
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: බෲනායි
+        type: Asia/Brunei
+      - 
+        exemplarCity: ලා පස්
+        type: America/La_Paz
+      - 
+        exemplarCity: සාවෝ පෝලො
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: තිම්පු
+        type: Asia/Thimphu
+      - 
+        exemplarCity: බේලිස්
+        type: America/Belize
+      - 
+        exemplarCity: ඩෝසන්
+        type: America/Dawson
+      - 
+        exemplarCity: වයිට්හවුස්
+        type: America/Whitehorse
+      - 
+        exemplarCity: ඉනුවික්
+        type: America/Inuvik
+      - 
+        exemplarCity: ඩෝසන් ක්‍රීක්
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: යෙලෝනයිෆ
+        type: America/Yellowknife
+      - 
+        exemplarCity: එඩ්මන්ටන්
+        type: America/Edmonton
+      - 
+        exemplarCity: කේම්බ්‍රිජ් බොක්ක
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: රෙජිනා
+        type: America/Regina
+      - 
+        exemplarCity: රෙසොලුට්
+        type: America/Resolute
+      - 
+        exemplarCity: රෙයිනි ගඟ
+        type: America/Rainy_River
+      - 
+        exemplarCity: රැන්කින් පිවිසුම
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: ඇටිකොකන්
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: තන්ඩර් බොක්ක
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: නිපිගන්
+        type: America/Nipigon
+      - 
+        exemplarCity: ටොරන්ටෝ
+        type: America/Toronto
+      - 
+        exemplarCity: මොන්ට්‍රියල්
+        type: America/Montreal
+      - 
+        exemplarCity: ඉකාලුයිට්
+        type: America/Iqaluit
+      - 
+        exemplarCity: පැන්නීටන්
+        type: America/Pangnirtung
+      - 
+        exemplarCity: මොන්ක්ටන්
+        type: America/Moncton
+      - 
+        exemplarCity: හොලිෆැක්ස්
+        type: America/Halifax
+      - 
+        exemplarCity: ගූස් බොක්ක
+        type: America/Goose_Bay
+      - 
+        exemplarCity: ග්ලේස් බොක්ක
+        type: America/Glace_Bay
+      - 
+        exemplarCity: බ්ලැන්ක්-සැබ්ලන්
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: ශාන්ත ජෝන්ගේ
+        type: America/St_Johns
+      - 
+        exemplarCity: කොකොස්
+        type: Indian/Cocos
+      - 
+        exemplarCity: කින්ශාසා
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: සූරිච්
+        type: Europe/Zurich
+      - 
+        exemplarCity: අබිජාන්
+        type: Africa/Abidjan
+      - 
+        exemplarCity: සන්තියාගෝ
+        type: America/Santiago
+      - 
+        exemplarCity: ශැන්හයි
+        type: Asia/Shanghai
+      - 
+        exemplarCity: බොගොටා
+        type: America/Bogota
+      - 
+        exemplarCity: කොස්ටරිකා
+        type: America/Costa_Rica
+      - 
+        exemplarCity: හවානා
+        type: America/Havana
+      - 
+        exemplarCity: කේප් වර්ඩ්
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: බර්ලින්
+        type: Europe/Berlin
+      - 
+        exemplarCity: ජිබුටි
+        type: Africa/Djibouti
+      - 
+        exemplarCity: කොපර්හේගන්
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: ඩොමිනිකා
+        type: America/Dominica
+      - 
+        exemplarCity: ගලපගෝස්
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: කයිරෝ
+        type: Africa/Cairo
+      - 
+        exemplarCity: කෙනරි
+        type: Atlantic/Canary
+      - 
+        exemplarCity: මැඩ්රිඩ්
+        type: Europe/Madrid
+      - 
+        exemplarCity: අඩිස් අබා
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: හෙල්සින්කි
+        type: Europe/Helsinki
+      - 
+        exemplarCity: ෆීජි
+        type: Pacific/Fiji
+      - 
+        exemplarCity: ස්ටැන්ලි
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: පැරිස්ස්
+        type: Europe/Paris
+      - 
+        exemplarCity: ලන්ඩන්
+        type: Europe/London
+      - 
+        exemplarCity: ග්‍රැනඩා
+        type: America/Grenada
+      - 
+        exemplarCity: බිලිසි
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: ග්වාඩ්ලෝප්
+        type: America/Guadeloupe
+      - 
+        exemplarCity: දකුණු ජෝර්ජියාව
+        type: Atlantic/South_Georgia
+      - 
+        exemplarCity: ගෝතමාලාව
+        type: America/Guatemala
+      - 
+        exemplarCity: ගුවාම්
+        type: Pacific/Guam
+      - 
+        exemplarCity: ගයනාව
+        type: America/Guyana
+      - 
+        exemplarCity: හොංකොං
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: ජකර්තා
+        type: Asia/Jakarta
+      - 
+        exemplarCity: ජයපුර
+        type: Asia/Jayapura
+      - 
+        exemplarCity: ඩබ්ලින්
+        type: Europe/Dublin
+      - 
+        exemplarCity: ජෙරුසලම්
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: කල්කටා
+        type: Asia/Calcutta
+      - 
+        exemplarCity: බැග්ඩෑඩ්
+        type: Asia/Baghdad
+      - 
+        exemplarCity: ටෙහෙරාන්
+        type: Asia/Tehran
+      - 
+        exemplarCity: රෝමය
+        type: Europe/Rome
+      - 
+        exemplarCity: ජර්සි
+        type: Europe/Jersey
+      - 
+        exemplarCity: ජැමෙයිකා
+        type: America/Jamaica
+      - 
+        exemplarCity: අම්මාන්
+        type: Asia/Amman
+      - 
+        exemplarCity: ටෝකියෝ
+        type: Asia/Tokyo
+      - 
+        exemplarCity: නයිරෝබි
+        type: Africa/Nairobi
+      - 
+        exemplarCity: ශාන්ත කිට්ස්
+        type: America/St_Kitts
+      - 
+        exemplarCity: සෝල්
+        type: Asia/Seoul
+      - 
+        exemplarCity: කුවේට්
+        type: Asia/Kuwait
+      - 
+        exemplarCity: කේමන්
+        type: America/Cayman
+      - 
+        exemplarCity: බීරුට්
+        type: Asia/Beirut
+      - 
+        exemplarCity: ශාන්ත ලුසියා
+        type: America/St_Lucia
+      - 
+        exemplarCity: කොළඹ
+        type: Asia/Colombo
+      - 
+        exemplarCity: ලක්ස්සැම්බර්ග්
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: ට්‍රිෙපාලි
+        type: Africa/Tripoli
+      - 
+        exemplarCity: මොනැකෝ
+        type: Europe/Monaco
+      - 
+        exemplarCity: රැංගුන්
+        type: Asia/Rangoon
+      - 
+        exemplarCity: මැකාවු
+        type: Asia/Macau
+      - 
+        exemplarCity: මාටිනික්
+        type: America/Martinique
+      - 
+        exemplarCity: මාල දිවයින
+        type: Indian/Maldives
+      - 
+        exemplarCity: මෙක්සිකෝ නගරය
+        type: America/Mexico_City
+      - 
+        exemplarCity: නෝෆෝක්
+        type: Pacific/Norfolk
+      - 
+        exemplarCity: ලාගෝස්
+        type: Africa/Lagos
+      - 
+        exemplarCity: ඇම්ස්ට්‍රඩෑම්
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: ඔස්ලෝ
+        type: Europe/Oslo
+      - 
+        exemplarCity: කත්මන්දු
+        type: Asia/Katmandu
+      - 
+        exemplarCity: චැතෑම්
+        type: Pacific/Chatham
+      - 
+        exemplarCity: ඕක්ලන්තය
+        type: Pacific/Auckland
+      - 
+        exemplarCity: මස්කට්
+        type: Asia/Muscat
+      - 
+        exemplarCity: පැනමා
+        type: America/Panama
+      - 
+        exemplarCity: මැනිලා
+        type: Asia/Manila
+      - 
+        exemplarCity: කරච්චිචි
+        type: Asia/Karachi
+      - 
+        exemplarCity: පුවටොරිකෝව
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: ගාසා
+        type: Asia/Gaza
+      - 
+        exemplarCity: ලිස්බන්
+        type: Europe/Lisbon
+      - 
+        exemplarCity: ක්ටාර්
+        type: Asia/Qatar
+      - 
+        exemplarCity: බෙල්ග්‍රේඩ්ඩ්
+        type: Europe/Belgrade
+      - 
+        exemplarCity: මොස්කව්
+        type: Europe/Moscow
+      - 
+        exemplarCity: රියාද්
+        type: Asia/Riyadh
+      - 
+        exemplarCity: ස්ටොක්හෝම්
+        type: Europe/Stockholm
+      - 
+        exemplarCity: සිංගප්පූරුව
+        type: Asia/Singapore
+      - 
+        exemplarCity: ශා. හෙලේනා
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: සැන් මැරිනෝ
+        type: Europe/San_Marino
+      - 
+        exemplarCity: ඩකර්
+        type: Africa/Dakar
+      - 
+        exemplarCity: මොගඩිෂු
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: එල්සැල්වදෝර්
+        type: America/El_Salvador
+      - 
+        exemplarCity: ඩැමස්කස්
+        type: Asia/Damascus
+      - 
+        exemplarCity: බැංකොක්
+        type: Asia/Bangkok
+      - 
+        exemplarCity: දිල්ලි
+        type: Asia/Dili
+      - 
+        exemplarCity: ටියුනිස්
+        type: Africa/Tunis
+      - 
+        exemplarCity: ඉස්තාන්බුල්
+        type: Europe/Istanbul
+      - 
+        exemplarCity: තායිපෙ
+        type: Asia/Taipei
+      - 
+        exemplarCity: කම්පාලා
+        type: Africa/Kampala
+      - 
+        exemplarCity: ජොන්ස්ටන්
+        type: Pacific/Johnston
+      - 
+        exemplarCity: හොනොලුලු
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: ලොස් ඇන්ජලීස්
+        type: America/Los_Angeles
+      - 
+        exemplarCity: පීනික්ස්
+        type: America/Phoenix
+      - 
+        exemplarCity: චිකාගෝ
+        type: America/Chicago
+      - 
+        exemplarCity: පීටර්ස්බර්ග්, ඉන්දියානා
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: ටෙල් නගරය, ඉන්දියානා
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: නොක්ස්, ඉන්දියානා
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: නිව්යෝක්
+        type: America/New_York
+      - 
+        exemplarCity: වෙටිකන්
+        type: Europe/Vatican
+      - 
+        exemplarCity: ශාන්ත වින්ට්සන්
+        type: America/St_Vincent
+      - 
+        exemplarCity: ශාන්ත තෝමස්
+        type: America/St_Thomas
+      - 
+        exemplarCity: හෝචි මිං නගරය
+        type: Asia/Saigon
+      - 
+        exemplarCity: ඒඩ්න්
+        type: Asia/Aden
+      - 
+        exemplarCity: මයෝටි
+        type: Indian/Mayotte
+      - 
+        exemplarCity: ජොහෑනස්බර්ග්
+        type: Africa/Johannesburg
+      - 
+        exemplarCity: ලුසාකා
+        type: Africa/Lusaka
+      - 
+        exemplarCity: හරාරේ
+        type: Africa/Harare
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: si
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0}, {1}"
+        type: 2
+      - 
+        content: "{0}, {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "{0} භාෂාව: සිංහල"
+        type: language
+      - 
+        content: "{0} අක්ෂර මාලාව: සිංහල"
+        type: script
+      - 
+        content: "කලාපය: {0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: දිනදසුන
+        type: calendar
+      - 
+        content: අකාරාදි පිළිවෙළ
+        type: collation
+      - 
+        content: මුදල්
+        type: currency
+      - 
+        content: ඉලක්කම්
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: ඇබ්කාසියානු
+        type: ab
+      - 
+        content: අප්‍රිකානු
+        type: af
+      - 
+        content: ඇම්හැරික්
+        type: am
+      - 
+        content: අරාබි
+        type: ar
+      - 
+        content: ඇසෑම්
+        type: as
+      - 
+        content: අසර්බයිජාත්
+        type: az
+      - 
+        content: බෙලරුසියානු
+        type: be
+      - 
+        content: බල්ගේරියානු
+        type: bg
+      - 
+        content: බෙංගාලි
+        type: bn
+      - 
+        content: ටිබෙට්
+        type: bo
+      - 
+        content: බොස්නියානු
+        type: bs
+      - 
+        content: කැටලන්
+        type: ca
+      - 
+        content: චෙත්
+        type: cs
+      - 
+        content: වෙල්ස්
+        type: cy
+      - 
+        content: ඩැනිශ්
+        type: da
+      - 
+        content: ජර්මන්
+        type: de
+      - 
+        content: ඔස්ට්‍රියානු ජර්මන්
+        type: de_AT
+      - 
+        content: ස්විස් උසස් ජර්මන්
+        type: de_CH
+      - 
+        content: දිවෙහි
+        type: dv
+      - 
+        content: ග්‍රීක
+        type: el
+      - 
+        content: ඉංග්‍රීසි
+        type: en
+      - 
+        content: ඕස්ට්‍රේලියානු ඉංග්‍රීසි
+        type: en_AU
+      - 
+        content: කැනේඩියානු ඉංග්‍රීසි
+        type: en_CA
+      - 
+        content: බ්‍රිතාන්‍ය ඉංග්‍රීසින්‍ය
+        type: en_GB
+      - 
+        content: ඇමෙරිකානු ඉංග්‍රීසි
+        type: en_US
+      - 
+        content: එස්පැරන්ටෝ
+        type: eo
+      - 
+        content: ස්පාඤ්ඤ
+        type: es
+      - 
+        content: ලතින් ඇමරිකානු ස්පාඤ්ඤ
+        type: es_419
+      - 
+        content: යුරෝපීය ස්පාඤ්ඤ
+        type: es_ES
+      - 
+        content: එස්තෝනියානු
+        type: et
+      - 
+        content: බොස්කෝ
+        type: eu
+      - 
+        content: පර්සියානු
+        type: fa
+      - 
+        content: ෆිනිශ්
+        type: fi
+      - 
+        content: පිලිපීන
+        type: fil
+      - 
+        content: ෆීජි
+        type: fj
+      - 
+        content: ෆේරෝස්
+        type: fo
+      - 
+        content: ප්‍රංශ
+        type: fr
+      - 
+        content: කැනේඩියානු ප්‍රංශ
+        type: fr_CA
+      - 
+        content: ස්විස් ප්‍රංශ
+        type: fr_CH
+      - 
+        content: බටහිර ෆ්‍රිසියානු
+        type: fy
+      - 
+        content: අයිරිෂ්
+        type: ga
+      - 
+        content: ගැලීසියානු
+        type: gl
+      - 
+        content: ගුවාරනි
+        type: gn
+      - 
+        content: ස්විස් ජර්මනි
+        type: gsw
+      - 
+        content: ගුජරාටි
+        type: gu
+      - 
+        content: හෝසා
+        type: ha
+      - 
+        content: හවායි
+        type: haw
+      - 
+        content: හීබෲ
+        type: he
+      - 
+        content: හින්දි
+        type: hi
+      - 
+        content: ක්‍රෝයේශියානු
+        type: hr
+      - 
+        content: හයිටි
+        type: ht
+      - 
+        content: හන්ගේරියානු
+        type: hu
+      - 
+        content: ආර්මේනියානු
+        type: hy
+      - 
+        content: ඉන්දුනීසියානු
+        type: id
+      - 
+        content: ඉග්බෝ
+        type: ig
+      - 
+        content: අයිස්ලන්ත
+        type: is
+      - 
+        content: ඉතාලි
+        type: it
+      - 
+        content: ජපන්
+        type: ja
+      - 
+        content: ජවාන්ස්
+        type: jv
+      - 
+        content: ජෝර්ජියානු
+        type: ka
+      - 
+        content: කශාහ්
+        type: kk
+      - 
+        content: කමර්
+        type: km
+      - 
+        content: කණ්ණඩ
+        type: kn
+      - 
+        content: කොරියානු
+        type: ko
+      - 
+        content: කාෂ්මීර්
+        type: ks
+      - 
+        content: කුර්දිශ්
+        type: ku
+      - 
+        content: කිර්ගිස්
+        type: ky
+      - 
+        content: ලතින්
+        type: la
+      - 
+        content: ලක්සැම්බර්ග්
+        type: lb
+      - 
+        content: ලාවෝ
+        type: lo
+      - 
+        content: ලිතුවේනියානු
+        type: lt
+      - 
+        content: ලැට්වියානු
+        type: lv
+      - 
+        content: මලගාසි
+        type: mg
+      - 
+        content: මාවොරි
+        type: mi
+      - 
+        content: මැසිඩෝනියානු
+        type: mk
+      - 
+        content: මලයාලම්
+        type: ml
+      - 
+        content: මරාටි
+        type: mr
+      - 
+        content: මැලේ
+        type: ms
+      - 
+        content: මොල්ටිස්
+        type: mt
+      - 
+        content: බර්මිස්
+        type: my
+      - 
+        content: නෝවේජියානු බොක්මාල්
+        type: nb
+      - 
+        content: නේපාල
+        type: ne
+      - 
+        content: ලන්දේසි
+        type: nl
+      - 
+        content: ෆ්ලෙමිශ්
+        type: nl_BE
+      - 
+        content: නොවේර්ජියානු නයිනෝර්ස්ක්
+        type: nn
+      - 
+        content: ඔරියා
+        type: or
+      - 
+        content: ජන්ජාබ්
+        type: pa
+      - 
+        content: පෝලන්ත
+        type: pl
+      - 
+        content: පෂ්ටො
+        type: ps
+      - 
+        content: පෘතුගීසි
+        type: pt
+      - 
+        content: බ්‍රසීල පෘතුගීසි
+        type: pt_BR
+      - 
+        content: යුරෝපීය පෘතුගීසි
+        type: pt_PT
+      - 
+        content: ක්වීකුවා
+        type: qu
+      - 
+        content: රොමෑන්ශ්
+        type: rm
+      - 
+        content: රෝමානු
+        type: ro
+      - 
+        content: රුසියානු
+        type: ru
+      - 
+        content: සංස්කෘත
+        type: sa
+      - 
+        content: සින්ධි
+        type: sd
+      - 
+        content: සිංහල
+        type: si
+      - 
+        content: ස්ලෝවැක්
+        type: sk
+      - 
+        content: ස්ලෝවේනියානු
+        type: sl
+      - 
+        content: සෝමාලි
+        type: so
+      - 
+        content: ඇල්බේනියානු
+        type: sq
+      - 
+        content: සර්බියානු
+        type: sr
+      - 
+        content: සන්ඩන්ස්
+        type: su
+      - 
+        content: ස්වෙඩිශ්
+        type: sv
+      - 
+        content: ටර්ක්මෙන්
+        type: sw
+      - 
+        content: දෙමළ
+        type: ta
+      - 
+        content: තෙලිඟු
+        type: te
+      - 
+        content: ටජික්
+        type: tg
+      - 
+        content: තායි
+        type: th
+      - 
+        content: ටිග්‍රින්යා
+        type: ti
+      - 
+        content: ටර්මෙන්
+        type: tk
+      - 
+        content: ටොංගා
+        type: to
+      - 
+        content: තුර්කි
+        type: tr
+      - 
+        content: ටාටර්
+        type: tt
+      - 
+        content: උයිගර්
+        type: ug
+      - 
+        content: යුක්රේනියානු
+        type: uk
+      - 
+        content: නොදත් භාෂා
+        type: und
+      - 
+        content: උර්දු
+        type: ur
+      - 
+        content: උස්බෙක්
+        type: uz
+      - 
+        content: වියට්නාම්
+        type: vi
+      - 
+        content: වොලොෆ්
+        type: wo
+      - 
+        content: ශෝසා
+        type: xh
+      - 
+        content: යොරූබා
+        type: yo
+      - 
+        content: චීන
+        type: zh
+      - 
+        content: සරල චීන
+        type: zh_Hans
+      - 
+        content: සාම්ප්‍රදායික චීන
+        type: zh_Hant
+      - 
+        content: සුලු
+        type: zu
+      - 
+        content: වාග් විද්‍යා අන්තර්ගතයක් නැත
+        type: zxx
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}: {1}"
+    localePattern: "{0} ({1})"
+    localeSeparator: ", "
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: මෙට්රික්
+        type: metric
+      - 
+        content: එංගලන්තය
+        type: UK
+      - 
+        content: ඇමරිකාව
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: අරාබි
+        type: Arab
+      - 
+        content: ආර්මේනියානු
+        type: Armn
+      - 
+        content: බෙංගාලි
+        type: Beng
+      - 
+        content: බොෆෝමොෆෝ
+        type: Bopo
+      - 
+        content: බ්‍රේල්
+        type: Brai
+      - 
+        content: සිරිලික්
+        type: Cyrl
+      - 
+        content: දේවනාගරී
+        type: Deva
+      - 
+        content: ඉතියෝපියානු
+        type: Ethi
+      - 
+        content: ජෝර්ජියානු
+        type: Geor
+      - 
+        content: ග්‍රීක
+        type: Grek
+      - 
+        content: ගුජරාටි
+        type: Gujr
+      - 
+        content: ගර්මුකිහ්
+        type: Guru
+      - 
+        content: හැන්ගුල්
+        type: Hang
+      - 
+        content: හන්
+        type: Hani
+      - 
+        content: සරළ
+        type: Hans
+      - 
+        content: සාම්ප්‍රදායික
+        type: Hant
+      - 
+        content: හීබෲ
+        type: Hebr
+      - 
+        content: හිරඟනා
+        type: Hira
+      - 
+        content: ජපන්
+        type: Jpan
+      - 
+        content: කටකන
+        type: Kana
+      - 
+        content: කමර්
+        type: Khmr
+      - 
+        content: කණ්ණඩ
+        type: Knda
+      - 
+        content: කොරියානු
+        type: Kore
+      - 
+        content: ලාවෝ
+        type: Laoo
+      - 
+        content: ලතින්
+        type: Latn
+      - 
+        content: මලයාලම්
+        type: Mlym
+      - 
+        content: මොන්ගෝලියානු
+        type: Mong
+      - 
+        content: මියන්මාර
+        type: Mymr
+      - 
+        content: ඔරියා
+        type: Orya
+      - 
+        content: සිංහල
+        type: Sinh
+      - 
+        content: දෙමල
+        type: Taml
+      - 
+        content: තෙළිඟු
+        type: Telu
+      - 
+        content: තාන
+        type: Thaa
+      - 
+        content: තායි
+        type: Thai
+      - 
+        content: ටි‍බෙට්
+        type: Tibt
+      - 
+        content: සංකේත
+        type: Zsym
+      - 
+        content: අලිඛිත
+        type: Zxxx
+      - 
+        content: පොදු.
+        type: Zyyy
+      - 
+        content: නොදත් අක්ෂර මාලාව
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: ලෝකය
+        type: '001'
+      - 
+        content: අප්‍රිකාව
+        type: '002'
+      - 
+        content: උතුරු ඇමෙරිකාව
+        type: '003'
+      - 
+        content: දකුණු ඇමෙරිකාව
+        type: '005'
+      - 
+        content: ඔෂනියාව
+        type: '009'
+      - 
+        content: බටහිරදිග අප්‍රිකාව
+        type: '011'
+      - 
+        content: මධ්‍යම ඇමෙරිකාව
+        type: '013'
+      - 
+        content: පෙරදිග අප්‍රිකාව
+        type: '014'
+      - 
+        content: උතුරුදිග අප්‍රිකාව
+        type: '015'
+      - 
+        content: මධ්‍යම අප්‍රිකාව
+        type: '017'
+      - 
+        content: දකුණුදිග අප්‍රිකාව
+        type: '018'
+      - 
+        content: ඇමරිකාව
+        type: '019'
+      - 
+        content: උතුරුදිග ඇමෙරිකාව
+        type: '021'
+      - 
+        content: කැරීබියන්
+        type: '029'
+      - 
+        content: නැගෙනහිර ආසියාව
+        type: '030'
+      - 
+        content: දකුණු ආසියාව
+        type: '034'
+      - 
+        content: අග්නිදිග ආසියාව
+        type: '035'
+      - 
+        content: දකුණුදිග යුරෝපය
+        type: '039'
+      - 
+        content: ඕස්ට්‍රේලියාව සහ නවසීලන්තය
+        type: '053'
+      - 
+        content: මෙලනීසියාව
+        type: '054'
+      - 
+        content: මයික්‍රෝනීසියානු කළාපය
+        type: '057'
+      - 
+        content: පොලිනීසියාව
+        type: '061'
+      - 
+        content: ආසියාව
+        type: 142
+      - 
+        content: මධ්‍යම ආසියාව
+        type: 143
+      - 
+        content: බටහිර ආසියාව
+        type: 145
+      - 
+        content: යුරෝපය
+        type: 150
+      - 
+        content: නැගෙනහිර යුරෝපය
+        type: 151
+      - 
+        content: උතුරු යුරෝපය
+        type: 154
+      - 
+        content: බටහිර යුරෝපය
+        type: 155
+      - 
+        content: ලතින් ඇමෙරිකාව
+        type: 419
+      - 
+        content: ඇසෙන්ෂන් දිවයින
+        type: AC
+      - 
+        content: ඇන්ඩෝරාව
+        type: AD
+      - 
+        content: එක්සත් අරාබි එමිර් රාජ්‍යය
+        type: AE
+      - 
+        content: ඇෆ්ගනිස්ථානය
+        type: AF
+      - 
+        content: ඇන්ටිගුවා සහ බාබියුඩා
+        type: AG
+      - 
+        content: ඇන්ගුයිලාව
+        type: AI
+      - 
+        content: ඇල්බේනියාව
+        type: AL
+      - 
+        content: ආර්මේනියාව
+        type: AM
+      - 
+        content: නෙදර්ලන්ත ඇන්ටිලීසිය
+        type: AN
+      - 
+        content: ඇන්ගෝලාව
+        type: AO
+      - 
+        content: ඇන්ටාක්ටිකාව
+        type: AQ
+      - 
+        content: ආර්ජෙන්ටිනාව
+        type: AR
+      - 
+        content: ඇමරිකානු සැමෝවාව
+        type: AS
+      - 
+        content: ඔස්ට්‍රියාව
+        type: AT
+      - 
+        content: ඕස්ට්‍රේලියාව
+        type: AU
+      - 
+        content: අරුබාව
+        type: AW
+      - 
+        content: ඕලන්ඩ් දූපත්
+        type: AX
+      - 
+        content: අසර්බයිජානය
+        type: AZ
+      - 
+        content: බොස්නියාව සහ හර්සගොවීනාව
+        type: BA
+      - 
+        content: බාර්බඩෝස්
+        type: BB
+      - 
+        content: බංගලිදේශය
+        type: BD
+      - 
+        content: බෙල්ජියම
+        type: BE
+      - 
+        content: බර්කිනා ෆාසෝ
+        type: BF
+      - 
+        content: බල්ගේරියාව
+        type: BG
+      - 
+        content: බහරේන්
+        type: BH
+      - 
+        content: බුරුන්ඩි
+        type: BI
+      - 
+        content: බෙනින්
+        type: BJ
+      - 
+        content: ශාන්ත බෙත්ලහෙම
+        type: BL
+      - 
+        content: බර්මියුඩා
+        type: BM
+      - 
+        content: බෲනායි
+        type: BN
+      - 
+        content: බොලීවියාව
+        type: BO
+      - 
+        content: කැරිබියානු නෙදර්ලන්තය
+        type: BQ
+      - 
+        content: බ්‍රසීලය
+        type: BR
+      - 
+        content: බහමාස්
+        type: BS
+      - 
+        content: භූතානය
+        type: BT
+      - 
+        content: බුවර්ට් දුපත්
+        type: BV
+      - 
+        content: බොස්ට්වානා
+        type: BW
+      - 
+        content: බෙලරුස්
+        type: BY
+      - 
+        content: බෙලීස්
+        type: BZ
+      - 
+        content: කැනඩාව
+        type: CA
+      - 
+        content: කොකෝස් දූපත්
+        type: CC
+      - 
+        content: කොංගො - නින්ශාසා
+        type: CD
+      - 
+        alt: variant
+        content: කොන්ගෝව
+        type: CD
+      - 
+        content: මධ්‍යම අප්‍රිකානු ජනරජය
+        type: CF
+      - 
+        content: කොංගො - බ්‍රසාවිල්
+        type: CG
+      - 
+        alt: variant
+        content: කොංගෝව
+        type: CG
+      - 
+        content: ස්විස්ටර්ලන්තය
+        type: CH
+      - 
+        content: කෝට් දි අයිවරි
+        type: CI
+      - 
+        alt: variant
+        content: අයිවරි කෝස්ට්
+        type: CI
+      - 
+        content: කුක් දූපත්
+        type: CK
+      - 
+        content: චිලී
+        type: CL
+      - 
+        content: කැමරූන්
+        type: CM
+      - 
+        content: චීනය
+        type: CN
+      - 
+        content: කොළොම්බියාව
+        type: CO
+      - 
+        content: ක්ලීපර්ටන් දූපත්
+        type: CP
+      - 
+        content: කොස්ටරිකාව
+        type: CR
+      - 
+        content: කියුබාව
+        type: CU
+      - 
+        content: වර්ඩි කේප්
+        type: CV
+      - 
+        content: කුරකාවෝ
+        type: CW
+      - 
+        content: ක්‍රිස්ට්මස් දූපත්
+        type: CX
+      - 
+        content: සයිප්‍රසය
+        type: CY
+      - 
+        content: චෙක් ජනරජය
+        type: CZ
+      - 
+        content: ජර්මනිය
+        type: DE
+      - 
+        content: දියාගෝ ගාර්සියා
+        type: DG
+      - 
+        content: ජිබෝල්ටි
+        type: DJ
+      - 
+        content: ඩෙන්මාර්කය
+        type: DK
+      - 
+        content: ඩොමිනිකාව
+        type: DM
+      - 
+        content: ඩොමිනිකා ජනරජය
+        type: DO
+      - 
+        content: ඇල්ජීරියාව
+        type: DZ
+      - 
+        content: සෙකිව්ටා සහ මෙරිල්ලා
+        type: EA
+      - 
+        content: ඉක්වදෝරය
+        type: EC
+      - 
+        content: එස්තෝනියාව
+        type: EE
+      - 
+        content: ඊජිප්තුව
+        type: EG
+      - 
+        content: බටහිර සහරාව
+        type: EH
+      - 
+        content: එරිත්‍රියාව
+        type: ER
+      - 
+        content: ස්පාඤ්ඤය
+        type: ES
+      - 
+        content: ඉතියෝපියාව
+        type: ET
+      - 
+        content: යුරෝපා සංගමය
+        type: EU
+      - 
+        content: ෆින්ලන්තය
+        type: FI
+      - 
+        content: ෆීජී
+        type: FJ
+      - 
+        content: ෆෝක්ලන්ත දූපත්
+        type: FK
+      - 
+        alt: variant
+        content: ෆෝක්ලන්ත දූපත් [අයිලස් මල්වියනාස්]
+        type: FK
+      - 
+        content: මයික්‍රොනීසියාව
+        type: FM
+      - 
+        content: ෆැරෝ දූපත්
+        type: FO
+      - 
+        content: ප්‍රංශය
+        type: FR
+      - 
+        content: ගැබොන්
+        type: GA
+      - 
+        content: එක්සත් රාජධානිය
+        type: GB
+      - 
+        content: ග්‍රැනඩාව
+        type: GD
+      - 
+        content: ජෝර්ජියාව
+        type: GE
+      - 
+        content: ප්‍රංශ ගයනාව
+        type: GF
+      - 
+        content: ගර්නිසි
+        type: GG
+      - 
+        content: ඝානාව
+        type: GH
+      - 
+        content: ජිබ්‍රෝල්ටාව
+        type: GI
+      - 
+        content: ග්‍රීන්ලන්තය
+        type: GL
+      - 
+        content: ගැම්බියාව
+        type: GM
+      - 
+        content: ගිණියාව
+        type: GN
+      - 
+        content: ග්වෝඩලෝප්
+        type: GP
+      - 
+        content: සමක ගිනියාව
+        type: GQ
+      - 
+        content: ග්‍රීසිය
+        type: GR
+      - 
+        content: දකුණු ජෝර්ජියාව සහ දකුණු සැන්ඩ්ිච් දූපත්
+        type: GS
+      - 
+        content: ගෝතමාලාව
+        type: GT
+      - 
+        content: ගුවාම්
+        type: GU
+      - 
+        content: ගිනි බිසව්
+        type: GW
+      - 
+        content: ගයනාව
+        type: GY
+      - 
+        content: හොංකොං චීන විශේෂ පරිපාලන කලාපය
+        type: HK
+      - 
+        alt: short
+        content: හොංකොං
+        type: HK
+      - 
+        content: හාඩ් සහ මැක්ඩොනල්ඩ් දූපත්
+        type: HM
+      - 
+        content: හොන්ඩුරාස්
+        type: HN
+      - 
+        content: ක්‍රොටියා
+        type: HR
+      - 
+        content: හයිටි
+        type: HT
+      - 
+        content: හන්ගේරියාව
+        type: HU
+      - 
+        content: කැනරි සූපත්
+        type: IC
+      - 
+        content: ඉන්දුනීසියාව
+        type: ID
+      - 
+        content: අයර්ලන්තය
+        type: IE
+      - 
+        content: ඊශ්‍රායලය
+        type: IL
+      - 
+        content: අයිස්ල් ඔෆ් මෑන්
+        type: IM
+      - 
+        content: ඉන්දියාව
+        type: IN
+      - 
+        content: බ්‍රිතාන්‍ය ඉන්දීය සාගර ප්‍රාන්තය
+        type: IO
+      - 
+        content: ඉරාකය
+        type: IQ
+      - 
+        content: ඉරානය
+        type: IR
+      - 
+        content: අයිස්ලන්තය
+        type: IS
+      - 
+        content: ඉතාලිය
+        type: IT
+      - 
+        content: ජර්සි
+        type: JE
+      - 
+        content: ජැමෙයිකාව
+        type: JM
+      - 
+        content: ජෝර්දානය
+        type: JO
+      - 
+        content: ජපානය
+        type: JP
+      - 
+        content: කෙන්යාව
+        type: KE
+      - 
+        content: කිර්ගිස්තානය
+        type: KG
+      - 
+        content: කාම්බෝජය
+        type: KH
+      - 
+        content: කිරිබති
+        type: KI
+      - 
+        content: කැමොරෝස්
+        type: KM
+      - 
+        content: ශාන්ත කිට්ස් සහ නේවිස්
+        type: KN
+      - 
+        content: උතුරු කොරියාව
+        type: KP
+      - 
+        content: දකුණු කොරියාව
+        type: KR
+      - 
+        content: කුවේටය
+        type: KW
+      - 
+        content: කේමන් දූපත්
+        type: KY
+      - 
+        content: කසකස්තානය
+        type: KZ
+      - 
+        content: ලාඕසය
+        type: LA
+      - 
+        content: ලෙබනනය
+        type: LB
+      - 
+        content: ශාන්ත ලුසියා
+        type: LC
+      - 
+        content: ලිච්ටන්ස්ටීන්
+        type: LI
+      - 
+        content: ශ්‍රී ලංකාව
+        type: LK
+      - 
+        content: ලයිබීරියාව
+        type: LR
+      - 
+        content: ලෙසතෝ
+        type: LS
+      - 
+        content: ලිතුවේනියාව
+        type: LT
+      - 
+        content: ලක්ශම්බර්ග්
+        type: LU
+      - 
+        content: ලැට්වියාව
+        type: LV
+      - 
+        content: ලිබියාව
+        type: LY
+      - 
+        content: මොරොක්කෝව
+        type: MA
+      - 
+        content: මොනාකෝව
+        type: MC
+      - 
+        content: මොල්ඩෝවාව
+        type: MD
+      - 
+        content: මොන්ඩිනීග්‍රෝ
+        type: ME
+      - 
+        content: ශාන්ත මාර්ටින්
+        type: MF
+      - 
+        content: මැඩගස්තරය
+        type: MG
+      - 
+        content: මාෂල් දූපත්
+        type: MH
+      - 
+        content: මැසිඩෝනියාව
+        type: MK
+      - 
+        alt: variant
+        content: මැසිඩෝනියාන [FYROM]
+        type: MK
+      - 
+        content: මාලි
+        type: ML
+      - 
+        content: මියන්මාරය
+        type: MM
+      - 
+        content: මොන්ගෝලියාව
+        type: MN
+      - 
+        content: මකාවු සාර් චීන
+        type: MO
+      - 
+        alt: short
+        content: මකාවු
+        type: MO
+      - 
+        content: උතුරු මරියානා දූපත්
+        type: MP
+      - 
+        content: මර්ටිනික්
+        type: MQ
+      - 
+        content: මාර්ටිනික්
+        type: MR
+      - 
+        content: මොන්සෙරාට්
+        type: MS
+      - 
+        content: මෝල්ටාව
+        type: MT
+      - 
+        content: මුරුසිය
+        type: MU
+      - 
+        content: මාල දිවයින
+        type: MV
+      - 
+        content: මලාවි
+        type: MW
+      - 
+        content: මෙක්සිකෝව
+        type: MX
+      - 
+        content: මැලේසියාව
+        type: MY
+      - 
+        content: මොසැම්බික්
+        type: MZ
+      - 
+        content: නැමීබියාව
+        type: NA
+      - 
+        content: නව කැලිඩෝනියාව
+        type: NC
+      - 
+        content: නයිජර්
+        type: NE
+      - 
+        content: නෝෆෝක් දූපත
+        type: NF
+      - 
+        content: නයිජීරියාව
+        type: NG
+      - 
+        content: නිකරගුවාව
+        type: NI
+      - 
+        content: නෙදර්ලන්තය
+        type: NL
+      - 
+        content: නෝර්වේ
+        type: 'NO'
+      - 
+        content: නේපාලය
+        type: NP
+      - 
+        content: නාවුරු
+        type: NR
+      - 
+        content: නියූ
+        type: NU
+      - 
+        content: නවසීලන්තය
+        type: NZ
+      - 
+        content: ඕමානය
+        type: OM
+      - 
+        content: පැනමා
+        type: PA
+      - 
+        content: පේරු
+        type: PE
+      - 
+        content: ප්‍රංශ පොලිනීසියාව
+        type: PF
+      - 
+        content: පැපුවා නිව් ගිනියාව
+        type: PG
+      - 
+        content: පිලිපීනය
+        type: PH
+      - 
+        content: පාකිස්තානය
+        type: PK
+      - 
+        content: පෝලන්තය
+        type: PL
+      - 
+        content: ශාන්ත පියරේ සහ මැකෝලන්
+        type: PM
+      - 
+        content: පිට්කෙය්න් දූපත්
+        type: PN
+      - 
+        content: පුවටෝ රිකෝ
+        type: PR
+      - 
+        content: පලස්තීනය
+        type: PS
+      - 
+        alt: short
+        content: පලස්තීනය
+        type: PS
+      - 
+        content: පෘතුගාලය
+        type: PT
+      - 
+        content: පලාවු
+        type: PW
+      - 
+        content: පැරගුවේ
+        type: PY
+      - 
+        content: කටාර්ය
+        type: QA
+      - 
+        content: ඈත ඕසනියාව
+        type: QO
+      - 
+        content: රීයුනියන්
+        type: RE
+      - 
+        content: රුමේනියාව
+        type: RO
+      - 
+        content: සර්බියාව
+        type: RS
+      - 
+        content: රුසියාව
+        type: RU
+      - 
+        content: රුවන්ඩාව
+        type: RW
+      - 
+        content: සෞදි අරාබිය
+        type: SA
+      - 
+        content: සොලමන් දූපත්
+        type: SB
+      - 
+        content: සීශෙල්ස්
+        type: SC
+      - 
+        content: සූඩානය
+        type: SD
+      - 
+        content: ස්වීඩනය
+        type: SE
+      - 
+        content: සිංගප්පූරුව
+        type: SG
+      - 
+        content: ශාන්ත හෙලේනා
+        type: SH
+      - 
+        content: ස්ලෝවේනියාව
+        type: SI
+      - 
+        content: ස්වෙල්බර්ඩ් සහ ජේන් මයෝන්
+        type: SJ
+      - 
+        content: ස්ලෝවැකියාව
+        type: SK
+      - 
+        content: සියරාලියෝන්
+        type: SL
+      - 
+        content: ශාන්ත මැරිනෝ
+        type: SM
+      - 
+        content: සෙනගාල්
+        type: SN
+      - 
+        content: සෝමාලියාව
+        type: SO
+      - 
+        content: සුරිනාමය
+        type: SR
+      - 
+        content: දකුණු සුඩානය
+        type: SS
+      - 
+        content: සාලො සහ ප්‍රින්සිප්
+        type: ST
+      - 
+        content: එල් සැල්වදෝරය
+        type: SV
+      - 
+        content: ශාන්ත මාර්ටෙන්
+        type: SX
+      - 
+        content: සිරියාව
+        type: SY
+      - 
+        content: ස්වාසිලන්තය
+        type: SZ
+      - 
+        content: ට්‍රින්ටන් ද කුන්හා
+        type: TA
+      - 
+        content: ටර්ක්ස් සහ කයිකොස් දූපත්
+        type: TC
+      - 
+        content: චැච්
+        type: TD
+      - 
+        content: දකුණු ප්‍රංශ දූපත් සමූහය
+        type: TF
+      - 
+        content: ටොගෝ
+        type: TG
+      - 
+        content: තායිලන්තය
+        type: TH
+      - 
+        content: ටජිකිස්තානය
+        type: TJ
+      - 
+        content: ටොකලාවු
+        type: TK
+      - 
+        content: ටිමෝර් - ලෙස්ට්
+        type: TL
+      - 
+        alt: variant
+        content: නැඟෙනහිර ටිමෝරය
+        type: TL
+      - 
+        content: තුර්ක්මෙනිස්ථානය
+        type: TM
+      - 
+        content: ටියුනීසියාව
+        type: TN
+      - 
+        content: ටොංගා
+        type: TO
+      - 
+        content: තුර්කිය
+        type: TR
+      - 
+        content: ට්‍රිනිඩෑඩ් සහ ටොබැගෝ
+        type: TT
+      - 
+        content: ටුවාලූ
+        type: TV
+      - 
+        content: තායිවානය
+        type: TW
+      - 
+        content: ටැන්සානියාව
+        type: TZ
+      - 
+        content: යුක්රේනය
+        type: UA
+      - 
+        content: උගන්ඩාව
+        type: UG
+      - 
+        content: එක්සත් ජනපද ඈත දූපත්
+        type: UM
+      - 
+        content: එක්සත් ජනපදය
+        type: US
+      - 
+        content: උරුගුවේ
+        type: UY
+      - 
+        content: උස්බෙකිස්ථානය
+        type: UZ
+      - 
+        content: වෙටිකන් සිටි
+        type: VA
+      - 
+        content: ශාන්ත වින්සන්ට් සහ ග්‍රෙනඩිනස්
+        type: VC
+      - 
+        content: වෙනිසියුපාව
+        type: VE
+      - 
+        content: බ්‍රිතාන්‍ය වර්ජින් දූපත්
+        type: VG
+      - 
+        content: ඇමරිකානු වර්ජින් දූපත්
+        type: VI
+      - 
+        content: වියට්නාමය
+        type: VN
+      - 
+        content: වනුවාටු
+        type: VU
+      - 
+        content: වැලිස් සහ ෆුටුනා
+        type: WF
+      - 
+        content: සැමෝවා
+        type: WS
+      - 
+        content: යේමනය
+        type: YE
+      - 
+        content: මයෝටි
+        type: YT
+      - 
+        content: දකුණු අප්‍රිකාව
+        type: ZA
+      - 
+        content: සැම්බියාව
+        type: ZM
+      - 
+        content: සිම්බාබ්වේ
+        type: ZW
+      - 
+        content: හඳුනා නොගත් කළාපය
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: හීබෲ දිනදසුන
+        type: hebrew
+      collation: 
+        content: සාමාන්‍ය සෙවීම
+        type: search
+      numbers: 
+        content: ටිබෙට ඉලක්කම්
+        type: tibt
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: එක්සත් අරාබි එමිරේට්ස් ඩිරාම්
+        type: AED
+      - 
+        displayName: ඇෆ්ගනිථාන ඇෆ්ගනි
+        type: AFN
+      - 
+        displayName: ඇල්බේනියානු ලෙක්
+        type: ALL
+      - 
+        displayName: ආර්මේනියානු ඩ්‍රෑම්
+        type: AMD
+      - 
+        displayName: ඇන්ගෝලානු ක්වන්සා
+        type: AOA
+      - 
+        displayName: ආර්ජන්ටිනා පැසෝ
+        type: ARS
+      - 
+        displayName: ඔස්ට්‍රේලියානු ඩොලර්
+        type: AUD
+      - 
+        displayName: අරූබානු ෆ්ලෝරින්
+        type: AWG
+      - 
+        displayName: අසර්බයිජානු මනාට්
+        type: AZN
+      - 
+        displayName: බාබේඩියානු ඩොලර්
+        type: BBD
+      - 
+        displayName: බංග්ලාදේශ් ටකා
+        type: BDT
+      - 
+        displayName: බල්ගේරියානු ලිව්
+        type: BGN
+      - 
+        displayName: බහරේන් ඩිනාර්
+        type: BHD
+      - 
+        displayName: බුරුන්දි ෆ්‍රෑන්ක්
+        type: BIF
+      - 
+        displayName: බර්මියුඩානු ඩොලර්
+        symbol: බ.ඩො.
+        type: BMD
+      - 
+        displayName: බෘනායි ඩොලර්
+        type: BND
+      - 
+        displayName: බොලිවියානු බොලිවියානෝ
+        type: BOB
+      - 
+        displayName: බ්‍රසීල රියල්
+        type: BRL
+      - 
+        displayName: බහමානු ඩොලර්
+        type: BSD
+      - 
+        displayName: භූතාන නගුල්ට්‍රම්
+        type: BTN
+      - 
+        displayName: බොට්ස්වානා පුලා
+        type: BWP
+      - 
+        displayName: බෙලරූස් රූබල්
+        type: BYR
+      - 
+        displayName: බෙලීස් ඩොලර්
+        type: BZD
+      - 
+        displayName: කැනේඩියානු ඩොලර්
+        symbol: කැ.ඩො.
+        type: CAD
+      - 
+        displayName: කොංගෝ ෆ්‍රෑන්ක්
+        type: CDF
+      - 
+        displayName: ස්විස් ෆ්‍රෑන්ක්
+        type: CHF
+      - 
+        displayName: චිලි පැසෝ
+        type: CLP
+      - 
+        displayName: චීන යුආන්
+        type: CNY
+      - 
+        displayName: කොලොම්බියානු පැසෝ
+        type: COP
+      - 
+        displayName: මාරුකළ හැකි කූබානු පැසෝ
+        type: CUC
+      - 
+        displayName: කූබානු පැසෝ
+        type: CUP
+      - 
+        displayName: චෙක් රිපබ්ලික් කොරූනා
+        type: CZK
+      - 
+        displayName: ජිබූති ෆ්‍රෑන්ක්
+        type: DJF
+      - 
+        displayName: ඩැනිෂ් ක්‍රෝන්
+        type: DKK
+      - 
+        displayName: ඩොමිනිකානු පැසෝ
+        type: DOP
+      - 
+        displayName: ඇල්ගේරියානු ඩිනාර්
+        type: DZD
+      - 
+        displayName: ඊජිප්තු පවුම්
+        type: EGP
+      - 
+        displayName: එරිත්‍රියානු නැක්ෆා
+        type: ERN
+      - 
+        displayName: යුරෝ
+        type: EUR
+      - 
+        displayName: ෆිජියන් ඩොලර්
+        type: FJD
+      - 
+        displayName: ෆෝක්ලන්ඩ් දූපත් පවුම්
+        type: FKP
+      - 
+        displayName: බ්‍රිතාන්‍ය ස්ටර්ලින් පවුම්
+        type: GBP
+      - 
+        displayName: ජෝජියානු ලැරී
+        type: GEL
+      - 
+        displayName: ජිබ්‍රෝල්ටා පවුම්
+        type: GIP
+      - 
+        displayName: ගැම්බියානු දලාසි
+        type: GMD
+      - 
+        displayName: ගෝතමාලානු ක්වෙට්සල්
+        type: GTQ
+      - 
+        displayName: ගයනා ඩොලර්
+        type: GYD
+      - 
+        displayName: හොංකොං ඩොලර්
+        type: HKD
+      - 
+        displayName: හොන්ඩුරානු ලෙම්පිරා
+        type: HNL
+      - 
+        displayName: ක්‍රොඒෂියානු කූනා
+        type: HRK
+      - 
+        displayName: හංගේරියානු ෆරින්ට්
+        type: HUF
+      - 
+        displayName: ඉන්දුනීසියානු රුපියා
+        type: IDR
+      - 
+        displayName: ඊශ්‍රායල නව ශෙකල්
+        type: ILS
+      - 
+        displayName: ඉන්දියානු රුපියල්
+        type: INR
+      - 
+        displayName: ඉරාක ඩිනාර්
+        type: IQD
+      - 
+        displayName: ඉරාන රියාල්
+        type: IRR
+      - 
+        displayName: ජැමෙයිකානු ඩොලර්
+        type: JMD
+      - 
+        displayName: ජෝර්දාන් ඩිනාර්
+        type: JOD
+      - 
+        displayName: ජපන් යෙන්
+        type: JPY
+      - 
+        displayName: කෙන්යානු ශිලිං
+        type: KES
+      - 
+        displayName: කිරිගිස්ථාන සම්
+        type: KGS
+      - 
+        displayName: කාම්බෝජ රියේල්
+        type: KHR
+      - 
+        displayName: උතුරු කොරියානු වොන්
+        type: KPW
+      - 
+        displayName: දකුණු කොරියානු වොන්
+        type: KRW
+      - 
+        displayName: කුවේට් ඩිනාර්
+        type: KWD
+      - 
+        displayName: කේමන් දූපත් ඩොලර්
+        type: KYD
+      - 
+        displayName: කසකස්ථාන ටෙන්ග
+        type: KZT
+      - 
+        displayName: ලාඕස් කිප්
+        type: LAK
+      - 
+        displayName: ලෙබනන පවුම්
+        type: LBP
+      - 
+        displayName: ලංකා රුපියල්
+        symbol: රු.
+        type: LKR
+      - 
+        displayName: ලයිබේරියානු ඩොලර්
+        type: LRD
+      - 
+        displayName: ලිතුවේනියානු
+        type: LTL
+      - 
+        displayName: ලිබියානු ඩිනාර්
+        type: LYD
+      - 
+        displayName: මොරොක්කෝ ඩර්හැම්
+        type: MAD
+      - 
+        displayName: මෝල්ඩෝවානු ලෙව්
+        type: MDL
+      - 
+        displayName: මැසඩෝනියානු ඩිනාර්
+        type: MKD
+      - 
+        displayName: බුරුම ක්යාට්
+        type: MMK
+      - 
+        displayName: මොන්ගෝලියානු ටග්‍රික්
+        type: MNT
+      - 
+        displayName: මාලදිවයින් රුෆියා
+        type: MVR
+      - 
+        displayName: මලාවි ක්වාචා
+        type: MWK
+      - 
+        displayName: මෙක්සිකානු ඩොලර්
+        type: MXN
+      - 
+        displayName: මැලේසියානු රින්ගිට්
+        type: MYR
+      - 
+        displayName: මොසැම්බිකන් මෙටිකල්
+        type: MZN
+      - 
+        displayName: නැමීබියානු ඩොලර්
+        type: NAD
+      - 
+        displayName: නයිජීරියානු නයිරා
+        type: NGN
+      - 
+        displayName: නිකරගුවානු කොඩෝබා
+        type: NIO
+      - 
+        displayName: නොර්වීජියන් ක්‍රෝන්
+        type: NOK
+      - 
+        displayName: නේපාල රුපියල්
+        type: NPR
+      - 
+        displayName: නවසීලන්ත ඩොලර්
+        type: NZD
+      - 
+        displayName: ඕමාන් රියාල්
+        type: OMR
+      - 
+        displayName: පැනමා බැල්බෝ
+        type: PAB
+      - 
+        displayName: පැපුවා නිව් ගිනියානු කිනා
+        type: PGK
+      - 
+        displayName: පිලිපීන පෙසෝ
+        type: PHP
+      - 
+        displayName: පාකිස්ථාන රුපියල්
+        type: PKR
+      - 
+        displayName: පොලිෂ් ස්ලොටි
+        type: PLN
+      - 
+        displayName: කටාර් රියාල්
+        type: QAR
+      - 
+        displayName: රොමේනියානු ලෙව්
+        type: RON
+      - 
+        displayName: සර්බියානු ඩිනාර්
+        type: RSD
+      - 
+        displayName: රුසියන් රූබල්
+        type: RUB
+      - 
+        displayName: රුවන්ඩා ෆ්‍රෑන්ක්
+        type: RWF
+      - 
+        displayName: සවුදි රියාල්
+        type: SAR
+      - 
+        displayName: සොලමන් දූපත් ඩොලර්
+        type: SBD
+      - 
+        displayName: සුඩාන පවුම්
+        type: SDG
+      - 
+        displayName: ස්වෙඩිෂ් ක්‍රෝනා
+        type: SEK
+      - 
+        displayName: සිංගප්පූරු ඩොලර්
+        type: SGD
+      - 
+        displayName: ශාන්ත හෙලේනා පවුම්
+        type: SHP
+      - 
+        displayName: සෝමාලියානු ශිලිං
+        type: SOS
+      - 
+        displayName: දකුණු සුඩාන පවුම්
+        type: SSP
+      - 
+        displayName: සිරියානු පවුම්
+        type: SYP
+      - 
+        displayName: තායි බාත්
+        type: THB
+      - 
+        displayName: තජිකිස්ථාන සමොනි
+        type: TJS
+      - 
+        displayName: තක්මෙනිස්ථාන මනාට්
+        type: TMT
+      - 
+        displayName: ටියුනීසියානු ඩිනාර්
+        type: TND
+      - 
+        displayName: තුර්කි ලිරා
+        type: TRY
+      - 
+        displayName: ට්‍රිනිඩෑඩ් සහ ටොබෑගෝ ඩොලර්
+        type: TTD
+      - 
+        displayName: නව තායිවාන ඩොලර්
+        type: TWD
+      - 
+        displayName: ටැන්සානියානු ශිලිං
+        type: TZS
+      - 
+        displayName: යුක්රේන හ්‍රිව්නියා
+        type: UAH
+      - 
+        displayName: උගන්ඩා ශිලිං
+        type: UGX
+      - 
+        displayName: ඇමරිකානු ඩොලර්
+        type: USD
+      - 
+        displayName: උරුගුවේ පැසෝ
+        type: UYU
+      - 
+        displayName: උස්බෙකිස්ථාන සම්
+        type: UZS
+      - 
+        displayName: වෙනිසියුලානු බොලිවර්
+        type: VEF
+      - 
+        displayName: වියට්නාම ඩොන්
+        type: VND
+      - 
+        displayName: වනුවාටු වාටු
+        type: VUV
+      - 
+        displayName: සැමෝවා ටාලා
+        type: WST
+      - 
+        displayName: නැගෙනහිර කැරිබියානු ඩොලර්
+        type: XCD
+      - 
+        displayName: ප්‍රංශ පොලිනීසියානු ෆ්‍රෑන්ක්
+        type: XPF
+      - 
+        displayName: නොදත් මුදල්
+        type: XXX
+      - 
+        displayName: යේමන රියාල්
+        type: YER
+      - 
+        displayName: දකුණු අප්‍රිකානු රැන්ඩ්
+        type: ZAR
+      - 
+        displayName: සැම්බියානු ක්වාචා (1968-2012)
+        type: ZMK
+      - 
+        displayName: සැම්බියානු ක්වාචා
+        type: ZMW
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##,##0.###"
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##,##0%"
+posix: 
+  messages: 
+    nostr: නැත:නැ
+    yesstr: ඔව්:ඔ
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        content: දින {0}ක්
+        count: other
+    - 
+      type: day-future
+      unitPattern: 
+        content: දින {0}න්
+        count: other
+    - 
+      type: day-past
+      unitPattern: 
+        content: දින {0} ට පෙර
+        count: other
+    - 
+      type: hour
+      unitPattern: 
+        content: පැය {0}ක්
+        count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        content: පැය {0}ක් තුළ
+        count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        content: පැය {0}ට පෙර
+        count: other
+    - 
+      type: minute
+      unitPattern: 
+        content: විනාඩි {0}ක්
+        count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        content: විනාඩි {0}ක් තුළ
+        count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        content: විනාඩි {0}ට පෙර
+        count: other
+    - 
+      type: month
+      unitPattern: 
+        content: මාස {0}ක්
+        count: other
+    - 
+      type: month-future
+      unitPattern: 
+        content: මාස {0}ක් තුළ
+        count: other
+    - 
+      type: month-past
+      unitPattern: 
+        content: මාස {0}කට පෙර
+        count: other
+    - 
+      type: second
+      unitPattern: 
+        content: විනාඩි {0}ක්
+        count: other
+    - 
+      type: second-future
+      unitPattern: 
+        content: විනාඩි {0}ක් තුළ
+        count: other
+    - 
+      type: second-past
+      unitPattern: 
+        content: විනාඩි {0}කට පෙර
+        count: other
+    - 
+      type: week
+      unitPattern: 
+        content: සති {0}ක්
+        count: other
+    - 
+      type: week-future
+      unitPattern: 
+        content: සති {0}ක් තුළ
+        count: other
+    - 
+      type: week-past
+      unitPattern: 
+        content: සති {0}කට පෙර
+        count: other
+    - 
+      type: year
+      unitPattern: 
+        content: වසර {0}ක්
+        count: other
+    - 
+      type: year-future
+      unitPattern: 
+        content: වසර {0}ක් තුළ
+        count: other
+    - 
+      type: year-past
+      unitPattern: 
+        content: වසර {0}ට පෙර
+        count: other

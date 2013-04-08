@@ -1,0 +1,146 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd. MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd. MMMM y G
+              type: long
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatItem: 
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd. MMM - E, dd. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd. - E, dd. MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd. MMM - dd. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: dd.-dd. MMM
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd. MMM - E, dd. MMM y G
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd. - E, dd. MMM y G
+                    draft: unconfirmed
+                  "y": 
+                    content: E, dd. MMM y - E, dd. MMM y G
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd. MMM - dd. MMM y G
+                    draft: unconfirmed
+                  d: 
+                    content: dd.-dd. MMM y G
+                    draft: unconfirmed
+                  "y": 
+                    content: dd. MMM y - dd. MMM y G
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd. MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd. MMMM y
+              type: long
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatItem: 
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd. MMM - E, dd. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd. - E, dd. MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd. MMM - dd. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: dd.-dd. MMM
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd. MMM - E, dd. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E, dd. - E, dd. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, dd. MMM y - E, dd. MMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd. MMM - dd. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: dd.-dd. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: dd. MMM y - dd. MMM y
+                    draft: unconfirmed
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    content: Jän
+                    type: 1
+                  type: abbreviated
+                - 
+                  month: 
+                    content: Jänner
+                    type: 1
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  content: Jän
+                  type: 1
+                type: abbreviated
+              type: stand-alone
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: de
+  territory: 
+    type: AT
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##0.00
+    numberSystem: latn

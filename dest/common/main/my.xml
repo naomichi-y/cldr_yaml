@@ -1,0 +1,2805 @@
+characters: 
+  exemplarCharacters: 
+    - "[က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဣ ဤ ဥ ဦ ဧ ဩ ဪ ာ ါ \\u102D \\u102E \\u102F \\u1030 ေ \\u1032 \\u1036 ဿ ျ ြ \\u103D \\u103E \\u1039 \\u103A \\u1037 း]"
+    - 
+      content: "[ၐ ၑ ဨ ဢ ၒ ၓ ၔ ၕ ၖ ၗ \\u1058 \\u1059]"
+      type: auxiliary
+    - 
+      content: "[က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ]"
+      draft: contributed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, G y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: G y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG yy/MM/dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y/M
+              yMEd: 
+                content: E, y/M/d
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: E, y MMM d
+              yMMMM: 
+                content: y MMMM
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                  m: 
+                    content: HH:mm-HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                  m: 
+                    content: HH:mm-HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: EEEE၊ M/d – EEEE၊ M/d
+                  d: 
+                    content: EEEE၊ M/d – EEEE၊ M/d
+              MMM: 
+                greatestDifference: 
+                  content: MMM – MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d၊ EEEE – MMM d၊ EEEE
+                  d: 
+                    content: MMM d၊ EEEE – MMM d၊ EEEE
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d – MMM d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M/d – M/d
+                  d: 
+                    content: M/d – M/d
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a
+                  h: 
+                    content: h-h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a
+                  h: 
+                    content: h:mm-h:mm a
+                  m: 
+                    content: h:mm-h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a v
+                  h: 
+                    content: h:mm-h:mm a v
+                  m: 
+                    content: h:mm-h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a v
+                  h: 
+                    content: h-h a v
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y/M – y/M
+                  "y": 
+                    content: y/M – y/M
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: EEEE၊ y/M/d – EEEE၊ y/M/d
+                  d: 
+                    content: EEEE၊ y/M/d – EEEE၊ y/M/d
+                  "y": 
+                    content: EEEE၊ y/M/d – EEEE၊ y/M/d
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM – y MMM
+                  "y": 
+                    content: y MMM – y MMM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: y၊ MMM d၊ EEEE – MMM d၊ EEEE
+                  d: 
+                    content: y၊ MMM d၊ EEEE – MMM d၊ EEEE
+                  "y": 
+                    content: y၊ MMM d၊ EEEE – y၊ MMM d၊ EEEE
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y၊ MMM d – MMM d
+                  "y": 
+                    content: y MMM d – y MMM d
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y/M/d – y/M/d
+                  d: 
+                    content: y/M/d – y/M/d
+                  "y": 
+                    content: y/M/d – y/M/d
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: yy/MM/dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E, d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y/M
+              yMEd: 
+                content: E, y/M/d
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: E, y MMM d
+              yMMMM: 
+                content: y MMMM
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                  m: 
+                    content: HH:mm-HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                  m: 
+                    content: HH:mm-HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: EEEE၊ M/d – EEEE၊ M/d
+                  d: 
+                    content: EEEE၊ M/d – EEEE၊ M/d
+              MMM: 
+                greatestDifference: 
+                  content: MMM – MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d၊ EEEE – MMM d၊ EEEE
+                  d: 
+                    content: MMM d၊ EEEE – MMM d၊ EEEE
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d – MMM d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M/d – M/d
+                  d: 
+                    content: M/d – M/d
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a
+                  h: 
+                    content: h-h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a
+                  h: 
+                    content: h:mm-h:mm a
+                  m: 
+                    content: h:mm-h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a v
+                  h: 
+                    content: h:mm-h:mm a v
+                  m: 
+                    content: h:mm-h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a v
+                  h: 
+                    content: h-h a v
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y/M – y/M
+                  "y": 
+                    content: y/M – y/M
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: EEEE၊ y/M/d – EEEE၊ y/M/d
+                  d: 
+                    content: EEEE၊ y/M/d – EEEE၊ y/M/d
+                  "y": 
+                    content: EEEE၊ y/M/d – EEEE၊ y/M/d
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y MMM – y MMM
+                  "y": 
+                    content: y MMM – y MMM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: y၊ MMM d၊ EEEE – MMM d၊ EEEE
+                  d: 
+                    content: y၊ MMM d၊ EEEE – MMM d၊ EEEE
+                  "y": 
+                    content: y၊ MMM d၊ EEEE – y၊ MMM d၊ EEEE
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y၊ MMM d – MMM d
+                  "y": 
+                    content: y MMM d – y MMM d
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y/M/d – y/M/d
+                  d: 
+                    content: y/M/d – y/M/d
+                  "y": 
+                    content: y/M/d – y/M/d
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: နံနက်
+                  type: am
+                - 
+                  content: ညနေ
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: နွေ
+                      type: sun
+                    - 
+                      content: လာ
+                      type: mon
+                    - 
+                      content: ဂါ
+                      type: tue
+                    - 
+                      content: ဟူး
+                      type: wed
+                    - 
+                      content: တေး
+                      type: thu
+                    - 
+                      content: ကြာ
+                      type: fri
+                    - 
+                      content: နေ
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: တနင်္ဂနွေ
+                      type: sun
+                    - 
+                      content: တနင်္လာ
+                      type: mon
+                    - 
+                      content: အင်္ဂါ
+                      type: tue
+                    - 
+                      content: ဗုဒ္ဓဟူး
+                      type: wed
+                    - 
+                      content: ကြာသပတေး
+                      type: thu
+                    - 
+                      content: သောကြာ
+                      type: fri
+                    - 
+                      content: စနေ
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: တ
+                    type: sun
+                  - 
+                    content: တ
+                    type: mon
+                  - 
+                    content: အ
+                    type: tue
+                  - 
+                    content: ဗ
+                    type: wed
+                  - 
+                    content: က
+                    type: thu
+                  - 
+                    content: သ
+                    type: fri
+                  - 
+                    content: စ
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ဘီစီ
+                type: 0
+              - 
+                content: အေဒီ
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: ခရစ်တော် မပေါ်မီကာလ
+                type: 0
+              - 
+                content: ခရစ်တော် ပေါ်ထွန်းပြီးကာလ
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ဇန်
+                      type: 1
+                    - 
+                      content: ဖေ
+                      type: 2
+                    - 
+                      content: မတ်
+                      type: 3
+                    - 
+                      content: ဧ
+                      type: 4
+                    - 
+                      content: မေ
+                      type: 5
+                    - 
+                      content: ဇွန်
+                      type: 6
+                    - 
+                      content: ဇူ
+                      type: 7
+                    - 
+                      content: ဩ
+                      type: 8
+                    - 
+                      content: စက်
+                      type: 9
+                    - 
+                      content: အောက်
+                      type: 10
+                    - 
+                      content: နို
+                      type: 11
+                    - 
+                      content: ဒီ
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ဇန်နဝါရီ
+                      type: 1
+                    - 
+                      content: ဖေဖော်ဝါရီ
+                      type: 2
+                    - 
+                      content: မတ်
+                      type: 3
+                    - 
+                      content: ဧပြီ
+                      type: 4
+                    - 
+                      content: မေ
+                      type: 5
+                    - 
+                      content: ဇွန်
+                      type: 6
+                    - 
+                      content: ဇူလိုင်
+                      type: 7
+                    - 
+                      content: ဩဂုတ်
+                      type: 8
+                    - 
+                      content: စက်တင်ဘာ
+                      type: 9
+                    - 
+                      content: အောက်တိုဘာ
+                      type: 10
+                    - 
+                      content: နိုဝင်ဘာ
+                      type: 11
+                    - 
+                      content: ဒီဇင်ဘာ
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: ဇ
+                    type: 1
+                  - 
+                    content: ဖ
+                    type: 2
+                  - 
+                    content: မ
+                    type: 3
+                  - 
+                    content: ဧ
+                    type: 4
+                  - 
+                    content: မ
+                    type: 5
+                  - 
+                    content: ဇ
+                    type: 6
+                  - 
+                    content: ဇ
+                    type: 7
+                  - 
+                    content: ဩ
+                    type: 8
+                  - 
+                    content: စ
+                    type: 9
+                  - 
+                    content: အ
+                    type: 10
+                  - 
+                    content: န
+                    type: 11
+                  - 
+                    content: ဒ
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: ပ-စိတ်
+                      type: 1
+                    - 
+                      content: ဒု-စိတ်
+                      type: 2
+                    - 
+                      content: တ-စိတ်
+                      type: 3
+                    - 
+                      content: စ-စိတ်
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: ပထမ သုံးလပတ်
+                      type: 1
+                    - 
+                      content: ဒုတိယ သုံးလပတ်
+                      type: 2
+                    - 
+                      content: တတိယ သုံးလပတ်
+                      type: 3
+                    - 
+                      content: စတုတ္ထ သုံးလပတ်
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: ပ
+                    type: 1
+                  - 
+                    content: ဒု
+                    type: 2
+                  - 
+                    content: တ
+                    type: 3
+                  - 
+                    content: စ
+                    type: 4
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: ခေတ်
+        type: era
+      - 
+        displayName: နှစ်
+        type: year
+      - 
+        displayName: လ
+        type: month
+      - 
+        displayName: ပတ်
+        type: week
+      - 
+        displayName: ရက်
+        relative: 
+          - 
+            content: တနေ့က
+            type: -2
+          - 
+            content: မနေ့က
+            type: -1
+          - 
+            content: ယနေ့
+            type: 0
+          - 
+            content: မနက်ဖြန်
+            type: 1
+          - 
+            content: သဘက်ခါ
+            type: 2
+        type: day
+      - 
+        displayName: နေ့
+        type: weekday
+      - 
+        displayName: 
+          content: နံနက်/ညနေ
+          draft: unconfirmed
+        type: dayperiod
+      - 
+        displayName: နာရီ
+        type: hour
+      - 
+        displayName: မိနစ်
+        type: minute
+      - 
+        displayName: စက္ကန့်
+        type: second
+      - 
+        displayName: 
+          content: ဇုန်
+          draft: unconfirmed
+        type: zone
+  timeZoneNames: 
+    fallbackRegionFormat: 
+      content: "{1} အချိန် ({0})"
+      draft: contributed
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: အာဖဂန်နစ္စတန် အချိန်
+        type: Afghanistan
+      - 
+        long: 
+          standard: အလယ်ပိုင်း အာဖရိက အချိန်
+        type: Africa_Central
+      - 
+        long: 
+          standard: အရှေ့ပိုင်း အာဖရိက အချိန်
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: တောင်အာဖရိက အချိန်
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: အနောက်ပိုင်း အာဖရိက နွေရာသီ အချိန်
+          generic: အနောက်ပိုင်း အာဖရိက အချိန်
+          standard: အနောက်ပိုင်း အာဖရိက စံတော်ချိန်
+        type: Africa_Western
+      - 
+        long: 
+          daylight: အလယ်ပိုင်း အမေရိက နွေရာသီ အချိန်
+          generic: အလယ်ပိုင်း အမေရိက အချိန်
+          standard: အလယ်ပိုင်း အမေရိက စံတော်ချိန်
+        type: America_Central
+      - 
+        long: 
+          daylight: အရှေ့ပိုင်း အမေရိက နေ့ပိုင်း အချိန်
+          generic: အရှေ့ပိုင်း အမေရိက အချိန်
+          standard: အရှေ့ပိုင်း အမေရိက စံတော်ချိန်
+        type: America_Eastern
+      - 
+        long: 
+          daylight: အမေရိက တောင် နေ့ပိုင်း အချိန်
+          generic: အမေရိက တောင် အချိန်
+          standard: အမေရိက တောင် စံတော်ချိန်
+        type: America_Mountain
+      - 
+        long: 
+          daylight: ပစိဖိတ် နေ့ပိုင်း အချိန်
+          generic: ပစိဖိတ် အချိန်
+          standard: ပစိဖိတ် စံတော်ချိန်
+        type: America_Pacific
+      - 
+        long: 
+          daylight: အာရေဗျ နေ့ပိုင်း အချိန်
+          generic: အာရေဗျ အချိန်
+          standard: အာရေဗျ စံတော်ချိန်
+        type: Arabian
+      - 
+        long: 
+          daylight: အာဂျင်တီးနား နွေရာသီ အချိန်
+          generic: အာဂျင်တီးနား အချိန်
+          standard: အာဂျင်တီးနား စံတော်ချိန်
+        type: Argentina
+      - 
+        long: 
+          daylight: အနောက် အာဂျင်တီးနား နွေရာသီ အချိန်
+          generic: အနောက် အာဂျင်တီးနား အချိန်
+          standard: အနောက် အာဂျင်တီးနား စံတော်ချိန်
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: အာမေနီးယား နွေရာသီ အချိန်
+          generic: အာမေနီးယား အချိန်
+          standard: အာမေနီးယား စံတော်ချိန်
+        type: Armenia
+      - 
+        long: 
+          daylight: အတ္ထလန်တစ် နေ့ပိုင်း အချိန်
+          generic: အတ္ထလန်တစ် အချိန်
+          standard: အတ္ထလန်တစ် စံတော်ချိန်
+        type: Atlantic
+      - 
+        long: 
+          daylight: အလယ်ပိုင်း ဩစတြေးလျှား နေ့ပိုင်း အချိန်
+          generic: အလယ်ဩစတြေးလျှား အချိန်
+          standard: အလယ်ပိုင်း ဩစတြေးလျှား စံတော်ချိန်
+        type: Australia_Central
+      - 
+        long: 
+          daylight: အလယ်အနောက်ပိုင်း ဩစတြေးလျှား နေ့ပိုင်း အချိန်
+          generic: အလယ်အနောက်ပိုင်း ဩစတြေးလျှား အချိန်
+          standard: အလယ်အနောက်ပိုင်း ဩစတြေးလျှား စံတော်ချိန်
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: အရှေ့ပိုင်း ဩစတြေးလျှား နေ့ပိုင်း အချိန်
+          generic: အရှေ့ဩစတြေးလျှား အချိန်
+          standard: အရှေ့ပိုင်း ဩစတြေးလျှား စံတော်ချိန်
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: အနောက်ပိုင်း ဩစတြေးလျှား နေ့ပိုင်း အချိန်
+          generic: အနောက် ဩစတြေးလျှား အချိန်
+          standard: အနောက်ပိုင်း ဩစတြေးလျှား စံတော်ချိန်
+        type: Australia_Western
+      - 
+        long: 
+          daylight: အဇာဘိုင်ဂျန် နွေရာသီ အချိန်
+          generic: အဇာဘိုင်ဂျန် အချိန်
+          standard: အဇာဘိုင်ဂျန် စံတော်ချိန်
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: ဘင်္ဂလားဒေ့ရှ် နွေရာသီ အချိန်
+          generic: ဘင်္ဂလားဒေ့ရှ် အချိန်
+          standard: ဘင်္ဂလားဒေ့ရှ် စံတော်ချိန်
+        type: Bangladesh
+      - 
+        long: 
+          standard: ဘူတန် အချိန်
+        type: Bhutan
+      - 
+        long: 
+          standard: ဘိုလီးဘီးယား အချိန်
+        type: Bolivia
+      - 
+        long: 
+          daylight: ဘရာဇီး နွေရာသီ အချိန်
+          generic: ဘရာဇီး အချိန်
+          standard: ဘရာဇီး စံတော်ချိန်
+        type: Brasilia
+      - 
+        long: 
+          standard: ဘရူနိုင်း စံတော်ချိန်
+        type: Brunei
+      - 
+        long: 
+          daylight: ချီလီ နွေရာသီ အချိန်
+          generic: ချီလီ အချိန်
+          standard: ချီလီ စံတော်ချိန်
+        type: Chile
+      - 
+        long: 
+          daylight: တရုတ် နေ့ပိုင်း အချိန်
+          generic: တရုတ် အချိန်
+          standard: တရုတ် စံတော်ချိန်
+        type: China
+      - 
+        long: 
+          daylight: ကိုလံဘီယာ နွေရာသီ အချိန်
+          generic: ကိုလံဘီယာ အချိန်
+          standard: ကိုလံဘီယာ စံတော်ချိန်
+        type: Colombia
+      - 
+        long: 
+          daylight: ကျူးဘား နွေရာသီ အချိန်
+          generic: ကျူးဘား အချိန်
+          standard: ကျူးဘား စံတော်ချိန်
+        type: Cuba
+      - 
+        long: 
+          standard: အရှေ့တီမော အချိန်
+        type: East_Timor
+      - 
+        long: 
+          standard: အီကွေဒေါ အချိန်
+        type: Ecuador
+      - 
+        long: 
+          daylight: ဥရောပ အလယ်ပိုင်း နွေရာသီ အချိန်
+          generic: ပြင်သစ် အချိန်
+          standard: ဥရောပ အလယ်ပိုင်း စံတော်ချိန်
+        type: Europe_Central
+      - 
+        long: 
+          daylight: အရှေ့ဥရောပ နွေရာသီ အချိန်
+          generic: ရိုမေးနီးယား အချိန်
+          standard: အရှေ့ဥရောပ စံတော်ချိန်
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: အနောက်ပိုင်း ဥရောပ နွေရာသီ အချိန်
+          generic: အနောက်ပိုင်း ဥရောပ အချိန်
+          standard: အနောက်ပိုင်း ဥရောပ စံတော်ချိန်
+        type: Europe_Western
+      - 
+        long: 
+          daylight: ဖောင်ကလန်ကျွန်းစု နွေရာသီ အချိန်
+          generic: ဖောင်ကလန်ကျွန်းစု အချိန်
+          standard: ဖောင်ကလန်ကျွန်းစု စံတော်ချိန်
+        type: Falkland
+      - 
+        long: 
+          standard: ပြင်သစ် ဂီယာနာ အချိန်
+        type: French_Guiana
+      - 
+        long: 
+          daylight: ဂျော်ဂျီယာ နွေရာသီ အချိန်
+          generic: ဂျော်ဂျီယာ အချိန်
+          standard: ဂျော်ဂျီယာ စံတော်ချိန်
+        type: Georgia
+      - 
+        long: 
+          standard: ဂရင်းနစ် စံတော်ချိန်
+        type: GMT
+      - 
+        long: 
+          daylight: အရှေ့ဂရင်းလန်း နွေရာသီ အချိန်
+          generic: အရှေ့ဂရင်းလန်း အချိန်
+          standard: အရှေ့ဂရင်းလန်း စံတော်ချိန်
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: အနောက် ဂရင်းလန်း နွေရာသီ အချိန်
+          generic: အနောက် ဂရင်းလန်း အချိန်
+          standard: အနောက် ဂရင်းလန်း စံတော်ချိန်
+        type: Greenland_Western
+      - 
+        long: 
+          standard: ပင်လယ်ဂွေ့ အချိန်
+        type: Gulf
+      - 
+        long: 
+          daylight: ဟောင်ကောင် နွေရာသီ အချိန်
+          generic: ဟောင်ကောင် အချိန်
+          standard: ဟောင်ကောင် စံတော်ချိန်
+        type: Hong_Kong
+      - 
+        long: 
+          standard: အိန္ဒြိယ စံတော်ချိန်
+        type: India
+      - 
+        long: 
+          standard: အိန္ဒြိယ သမုဒ္ဒရာ အချိန်
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: အင်ဒိုချိုင်းနား အချိန်
+        type: Indochina
+      - 
+        long: 
+          standard: အလယ်ပိုင်း အင်ဒိုနီးရှား အချိန်
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: အရှေ့ပိုင်း အင်ဒိုနီးရှား အချိန်
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: အနောက်ပိုင်း အင်ဒိုနီးရှား အချိန်
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: အီရန် နေ့ပိုင်း အချိန်
+          generic: အီရန် အချိန်
+          standard: အီရန် စံတော်ချိန်
+        type: Iran
+      - 
+        long: 
+          daylight: အစ္စရေး နေ့ပိုင်း အချိန်
+          generic: အစ္စရေး အချိန်
+          standard: အစ္စရေး စံတော်ချိန်
+        type: Israel
+      - 
+        long: 
+          daylight: ဂျပန် နေ့ပိုင်း အချိန်
+          generic: ဂျပန် အချိန်
+          standard: ဂျပန် စံတော်ချိန်
+        type: Japan
+      - 
+        long: 
+          standard: အရှေ့ကာဇက်စတန် အချိန်
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          daylight: ကိုးရီးယား နေ့ပိုင်း အချိန်
+          generic: ကိုးရီးယား အချိန်
+          standard: ကိုးရီးယား စံတော်ချိန်
+        type: Korea
+      - 
+        long: 
+          standard: သီရိလင်္ကာ အချိန်
+        type: Lanka
+      - 
+        long: 
+          daylight: မကာအို နွေရာသီ အချိန်
+          generic: မကာအို အချိန်
+          standard: မကာအို စံတော်ချိန်
+        type: Macau
+      - 
+        long: 
+          standard: မလေးရှား အချိန်
+        type: Malaysia
+      - 
+        long: 
+          daylight: မော်စကို နွေရာသီ အချိန်
+          generic: မော်စကို အချိန်
+          standard: မော်စကို စံတော်ချိန်
+        type: Moscow
+      - 
+        long: 
+          standard: မြန်မာ အချိန်
+        type: Myanmar
+      - 
+        long: 
+          standard: နီပေါ အချိန်
+        type: Nepal
+      - 
+        long: 
+          daylight: နယူးဇီလန် နေ့ပိုင်း အချိန်
+          generic: နယူးဇီလန် အချိန်
+          standard: နယူးဇီလန် စံတော်ချိန်
+        type: New_Zealand
+      - 
+        long: 
+          daylight: နယူးဖောင်လန် နေ့ပိုင်း အချိန်
+          generic: နယူးဖောင်လန် အချိန်
+          standard: နယူးဖောင်လန် စံတော်ချိန်
+        type: Newfoundland
+      - 
+        long: 
+          daylight: ပါကစ္စတန် နွေရာသီ အချိန်
+          generic: ပါကစ္စတန် အချိန်
+          standard: ပါကစ္စတန် စံတော်ချိန်
+        type: Pakistan
+      - 
+        long: 
+          standard: ပါပူရာနယူးဂီနီ အချိန်
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: ပါရာဂွေး နွေရာသီ အချိန်
+          generic: ပါရာဂွေး အချိန်
+          standard: ပါရာဂွေး စံတော်ချိန်
+        type: Paraguay
+      - 
+        long: 
+          daylight: ပီရူး နွေရာသီ အချိန်
+          generic: ပီရူး အချိန်
+          standard: ပီရူး စံတော်ချိန်
+        type: Peru
+      - 
+        long: 
+          daylight: ဖိလစ်ပိုင် နွေရာသီ အချိန်
+          generic: ဖိလစ်ပိုင် အချိန်
+          standard: ဖိလစ်ပိုင် စံတော်ချိန်
+        type: Philippines
+      - 
+        long: 
+          standard: စင်္ကာပူ စံတော်ချိန်
+        type: Singapore
+      - 
+        long: 
+          standard: တောင်ဂျော်ဂျီယာ အချိန်
+        type: South_Georgia
+      - 
+        long: 
+          daylight: ဥရုဂွေး နွေရာသီ အချိန်
+          generic: ဥရုဂွေး အချိန်
+          standard: ဥရုဂွေး စံတော်ချိန်
+        type: Uruguay
+      - 
+        long: 
+          daylight: ဥဘက်ကစ္စတန် နွေရာသီ အချိန်
+          generic: ဥဘက်ကစ္စတန် အချိန်
+          standard: ဥဘက်ကစ္စတန် စံတော်ချိန်
+        type: Uzbekistan
+      - 
+        long: 
+          standard: ဗင်နီဇွဲလား အချိန်
+        type: Venezuela
+    regionFormat: "{0} အချိန်"
+    zone: 
+      - 
+        exemplarCity: မသိသော
+        type: Etc/Unknown
+      - 
+        exemplarCity: ရီယို ဗြန်ကို
+        type: America/Rio_Branco
+      - 
+        exemplarCity: ကိမ်ပို ဂရန်ဒ
+        type: America/Campo_Grande
+      - 
+        exemplarCity: ဆာပိုလို
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: ဟိုနိုလူလူ
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: အန်ကာရေ့ဂျ်
+        type: America/Anchorage
+      - 
+        exemplarCity: လော့စ်အိန်ဂျယ်လိစ်
+        type: America/Los_Angeles
+      - 
+        exemplarCity: ဖီးနစ်
+        type: America/Phoenix
+      - 
+        exemplarCity: ဒင်ဗာ
+        type: America/Denver
+      - 
+        exemplarCity: ချီကာကို
+        type: America/Chicago
+      - 
+        exemplarCity: အင်ဒီယားနားပိုလစ်
+        type: America/Indianapolis
+      - 
+        exemplarCity: နယူးယောက်
+        type: America/New_York
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: my
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: ဘာသာစကား - {0}
+        type: language
+      - 
+        content: စာ - {0}
+        type: script
+      - 
+        content: နယ်ပယ်ဒေသ - {0}
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: ပြက္ခဒိန်
+        type: calendar
+      - 
+        content: စနစ်တကျစီသော
+        type: collation
+      - 
+        content: ငွေကြေး
+        type: currency
+  languages: 
+    language: 
+      - 
+        content: အင်္ဂလိပ်စာဟောင်း
+        type: ang
+      - 
+        content: အာရေဗီ
+        type: ar
+      - 
+        content: အယောင်ဆောင် ဘာသာစကား
+        type: art
+      - 
+        content: ဘာလီ
+        type: ban
+      - 
+        content: ဘာဆာ
+        type: bas
+      - 
+        content: ဘော်လတစ် ဘာသာစကား
+        type: bat
+      - 
+        content: ဘီလာရု
+        type: be
+      - 
+        content: ဘူဂေးရီးယား
+        type: bg
+      - 
+        content: ဘင်္ဂါလီ
+        type: bn
+      - 
+        content: တိဘက်
+        type: bo
+      - 
+        content: ဘော့စ်နီးယား
+        type: bs
+      - 
+        content: အလယ်ပိုင်း အမေရိကန် အိန္ဒြိယ ဘာသာစကား
+        draft: unconfirmed
+        type: cai
+      - 
+        content: ကောက်ကေးရှပ် ဘာသာစကား
+        type: cau
+      - 
+        content: ချေချင်း
+        type: ce
+      - 
+        content: ချာရိုကီ
+        type: chr
+      - 
+        content: ပေါ်တူဂီ အခြေခံ အနောက်အိန္ဒြိယ ကျွန်းစုသား သို့မဟုတ် ဗန်းစကား
+        type: cpp
+      - 
+        content: ခရီး
+        type: cr
+      - 
+        content: အနောက်အိန္ဒြိယ ကျွန်းစုသား သို့မဟုတ် ဗန်းစကား
+        draft: unconfirmed
+        type: crp
+      - 
+        content: ချက်
+        type: cs
+      - 
+        content: ဝေလ
+        type: cy
+      - 
+        content: ဒိန်းမတ်
+        type: da
+      - 
+        content: ဒါကိုတာ
+        type: dak
+      - 
+        content: ဂျာမန်
+        type: de
+      - 
+        content: ဩစတြီးယ ဂျာမန်
+        type: de_AT
+      - 
+        content: ဆွစ် အမြင့် ဂျာမန်
+        type: de_CH
+      - 
+        content: ဒီလာဝဲ
+        type: del
+      - 
+        content: အလယ်ပိုင်း ဒတ်ချ်
+        type: dum
+      - 
+        content: ဒွန်ကာ
+        type: dz
+      - 
+        content: ရှေးဟောင်း အီဂျစ်
+        type: egy
+      - 
+        content: ဂရိ
+        type: el
+      - 
+        content: အင်္ဂလိပ်
+        type: en
+      - 
+        content: ဩစတြေးလျှ အင်္ဂလိပ်
+        type: en_AU
+      - 
+        content: ကနေဒါ အင်္ဂလိပ်
+        type: en_CA
+      - 
+        content: ဗြိတိသျှ အင်္ဂလိပ်
+        type: en_GB
+      - 
+        content: အမေရိကန် အင်္ဂလိပ်
+        type: en_US
+      - 
+        content: အလယ်ပိုင်း အင်္ဂလိပ်
+        type: enm
+      - 
+        content: စပိန်
+        type: es
+      - 
+        content: လက်တင်အမေရိက စပိန်
+        type: es_419
+      - 
+        content: အက်စ်တိုးနီးရန်း
+        type: et
+      - 
+        content: ပါရှန်
+        type: fa
+      - 
+        content: ဖင်နစ်ရှ်
+        type: fi
+      - 
+        content: ဖိလစ်ပီနို
+        type: fil
+      - 
+        content: ဖီဂျီ
+        type: fj
+      - 
+        content: ပြင်သစ်
+        type: fr
+      - 
+        content: ကနေဒါ ပြင်သစ်
+        type: fr_CA
+      - 
+        content: ဆွစ် ပြင်သစ်
+        type: fr_CH
+      - 
+        content: အလယ်ပိုင်းပြင်သစ်
+        type: frm
+      - 
+        content: ပြင်သစ်ဟောင်း
+        type: fro
+      - 
+        content: မြောက်ပိုင်း ဖရီစီရန်
+        type: frr
+      - 
+        content: အရှေ့ပိုင်း ဖရီစီရန်
+        type: frs
+      - 
+        content: အနောက်ပိုင်း ဖရီစီရန်
+        type: fy
+      - 
+        content: အိုင်းရစ်
+        type: ga
+      - 
+        content: ဂျာမန် အခြေခံဘာသာစကား
+        type: gem
+      - 
+        content: အလယ်ပိုင်းအမြင့်ဂျာမန်
+        type: gmh
+      - 
+        content: ရှေးဟောင်း ဂရိ
+        type: grc
+      - 
+        content: ဆွစ် ဂျာမန်
+        type: gsw
+      - 
+        content: ဂူဂျာရသီ
+        type: gu
+      - 
+        content: ဟာဝေယံ
+        type: haw
+      - 
+        content: ဟီးဘရူး
+        type: he
+      - 
+        content: ဟိန္ဒီ
+        type: hi
+      - 
+        content: ခရိုအေရှန်
+        type: hr
+      - 
+        content: ဟန်ဂေရီ
+        type: hu
+      - 
+        content: အင်ဒိုနီးရှား
+        type: id
+      - 
+        content: စီချွမ် ရီ
+        type: ii
+      - 
+        content: အင်ဒို ဥရောပ ဘာသာစကား
+        type: ine
+      - 
+        content: အီရန် အခြေခံ ဘာသာစကား
+        type: ira
+      - 
+        content: အီတလီ
+        type: it
+      - 
+        content: ဂျပန်
+        type: ja
+      - 
+        content: ဂျူဒီယို-ပါရှန်
+        type: jpr
+      - 
+        content: ဂျူဒီယို-အာရေဗျ
+        type: jrb
+      - 
+        content: ဂျာဗားနီးစ်
+        type: jv
+      - 
+        content: ဂျော်ဂျီယန်
+        type: ka
+      - 
+        content: ကချင်
+        type: kac
+      - 
+        content: ကရင်
+        type: kar
+      - 
+        content: ကွန်ဂို
+        type: kg
+      - 
+        content: ခါစီ
+        type: kha
+      - 
+        content: ခမာ
+        type: km
+      - 
+        content: ကန်နာဒါ
+        type: kn
+      - 
+        content: ကိုးရီးယား
+        type: ko
+      - 
+        content: ကဒ်
+        type: ku
+      - 
+        content: လက်တင်
+        type: la
+      - 
+        content: လာအို
+        type: lo
+      - 
+        content: အလယ်ပိုင်း အိုင်းရစ်
+        type: mga
+      - 
+        content: အမျိုးမျိုးသော ဘာသာစကား
+        type: mis
+      - 
+        content: မွန်-ခမာ ဘာသာစကား
+        type: mkh
+      - 
+        content: မလေးရာလမ်
+        type: ml
+      - 
+        content: မွန်ဂိုလီးယန်း
+        type: mn
+      - 
+        content: မန်ချူး
+        type: mnc
+      - 
+        content: မနိပူရီ
+        draft: unconfirmed
+        type: mni
+      - 
+        content: မနိုဘို ဘာသာစကား
+        type: mno
+      - 
+        content: မာရသီ
+        type: mr
+      - 
+        content: မလေး
+        type: ms
+      - 
+        content: အကြိမ်များစွာ ဘာသာစကားများ
+        type: mul
+      - 
+        content: ဗမာ
+        type: my
+      - 
+        content: အနိမ့် ဂျာမန်
+        type: nds
+      - 
+        content: နီပေါလ်
+        type: ne
+      - 
+        content: ဒတ်ချ်
+        type: nl
+      - 
+        content: နော်ဝေး
+        type: 'no'
+      - 
+        content: ပန်ဂျာပီ
+        type: pa
+      - 
+        content: ပါပူရန် ဘာသာစကား
+        type: paa
+      - 
+        content: ပါရှန် အဟောင်း
+        type: peo
+      - 
+        content: ဖိလစ်ပိုင် ဘာသာစကား
+        type: phi
+      - 
+        content: ပါဠိ
+        type: pi
+      - 
+        content: ပိုလန်
+        type: pl
+      - 
+        content: ပေါ်တူဂီ
+        type: pt
+      - 
+        content: ဘရာဇီး ပေါ်တူဂီ
+        type: pt_BR
+      - 
+        content: ရိုမေနီယား
+        type: ro
+      - 
+        content: မူလရင်းမြစ်
+        type: root
+      - 
+        content: ရုရှ
+        type: ru
+      - 
+        content: သင်္သကရိုက်
+        type: sa
+      - 
+        content: တောင် အမေရိကန် အိန္ဒြိယ ဘာသာစကား
+        type: sai
+      - 
+        content: စကော့
+        type: sco
+      - 
+        content: စင်ဒီ
+        type: sd
+      - 
+        content: အိုင်းရစ် ဟောင်း
+        type: sga
+      - 
+        content: အချက်ပြ ဘာသာစကား
+        type: sgn
+      - 
+        content: ရှမ်း
+        type: shn
+      - 
+        content: ဆင်ဟာလ
+        type: si
+      - 
+        content: တရုတ်-တိဘက် ဘာသာစကား
+        type: sit
+      - 
+        content: စလိုဗက်
+        type: sk
+      - 
+        content: စလိုဗေးနီးယမ်း
+        type: sl
+      - 
+        content: စလိုဗစ် ဘာသာစကား
+        type: sla
+      - 
+        content: တောင်ပိုင်း ဆာမိ
+        type: sma
+      - 
+        content: ဆာမိ ဘာသာစကား
+        type: smi
+      - 
+        content: ဆိုမာလီ
+        type: so
+      - 
+        content: အယ်လ်ဘေးနီးယန်း
+        type: sq
+      - 
+        content: ဆားဗီးယန်း
+        type: sr
+      - 
+        content: ဆူဒန်
+        type: su
+      - 
+        content: ဆွီဒင်
+        type: sv
+      - 
+        content: တမီးလ်
+        type: ta
+      - 
+        content: တိုင် ဘာသာစကား
+        type: tai
+      - 
+        content: ထိုင်း
+        type: th
+      - 
+        content: တူပီ ဘာသာစကား
+        type: tup
+      - 
+        content: ယူကရိန်း
+        type: uk
+      - 
+        content: မသိ သို့မဟုတ် မရှိ သော ဘာသာစကား
+        type: und
+      - 
+        content: ဗီယက်နမ်
+        type: vi
+      - 
+        content: တရုတ်
+        type: zh
+      - 
+        content: ရိုးရှင်းသော တရုတ်
+        type: zh_Hans
+      - 
+        content: ရှေးရိုးစဉ်လာ တရုတ်
+        type: zh_Hant
+      - 
+        content: ဇူလူ
+        type: zu
+      - 
+        content: ဘာသာစကား နှင့် ပတ်သက် သောအရာမရှိ
+        type: zxx
+  localeDisplayPattern: 
+    localeSeparator: ၊
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: မက်ထရစ်စနစ်
+        type: metric
+      - 
+        content: အမေရိကန်စနစ်
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: အာရေဗျ
+        type: Arab
+      - 
+        content: အာမေးနီးယား
+        type: Armn
+      - 
+        content: ဘင်္ဂါလီ
+        type: Beng
+      - 
+        content: ဗြဟ္မမီ
+        type: Brah
+      - 
+        content: စစ်ရိလစ်
+        type: Cyrl
+      - 
+        content: ဒီဗနာဂရီ
+        type: Deva
+      - 
+        content: အီသီယိုးပီးယား
+        type: Ethi
+      - 
+        content: ဂျော်ဂျီယန်
+        type: Geor
+      - 
+        content: ဂရိ
+        type: Grek
+      - 
+        content: ဂုဂျာရသီ
+        type: Gujr
+      - 
+        content: ဟန်ဂူးလ်
+        type: Hang
+      - 
+        content: ဟန်
+        type: Hani
+      - 
+        content: ရိုးရှင်းသော တရုတ်
+        type: Hans
+      - 
+        content: ရှေးရိုးစဉ်လာ တရုတ်
+        type: Hant
+      - 
+        content: ဟီဗရူး
+        type: Hebr
+      - 
+        content: ဟိရဂဏ
+        type: Hira
+      - 
+        content: ခတခဏ သို့မဟုတ် ဟိရဂဏ
+        type: Hrkt
+      - 
+        content: ဂျာဗားနီးစ်
+        type: Java
+      - 
+        content: ဂျပန်
+        type: Jpan
+      - 
+        content: ကယားလီ
+        type: Kali
+      - 
+        content: ခတခဏ
+        type: Kana
+      - 
+        content: ခမာ
+        type: Khmr
+      - 
+        content: ကိုးရီးယား
+        type: Kore
+      - 
+        content: လာအို
+        type: Laoo
+      - 
+        content: လက်တင်
+        type: Latn
+      - 
+        content: မွန်ဂိုလီးယား
+        type: Mong
+      - 
+        content: မြန်မာ
+        type: Mymr
+      - 
+        content: ဆင်ဟာလ
+        type: Sinh
+      - 
+        content: ဆူဒန်
+        type: Sund
+      - 
+        content: တိုင်လီ
+        type: Tale
+      - 
+        content: တမီးလ်
+        type: Taml
+      - 
+        content: တဂလော့ဂ်
+        type: Tglg
+      - 
+        content: ထိုင်း
+        type: Thai
+      - 
+        content: တိဘက်
+        type: Tibt
+      - 
+        content: မြင်နိုင်သော စကား
+        type: Visp
+      - 
+        content: ပါရှန် အဟောင်း
+        type: Xpeo
+      - 
+        content: ရီ
+        type: Yiii
+      - 
+        content: မရေးထားသော
+        type: Zxxx
+      - 
+        content: မသိ သို့မဟုတ် မရှိသော စကားလုံး
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: ကမ္ဘာ
+        type: '001'
+      - 
+        content: အာဖရိက
+        type: '002'
+      - 
+        content: မြောက် အမေရိက
+        type: '003'
+      - 
+        content: တောင် အမေရိက
+        type: '005'
+      - 
+        content: သမုဒ္ဒရာဒေသ
+        type: '009'
+      - 
+        content: အနောက် အာဖရိက
+        type: '011'
+      - 
+        content: အလယ်ပိုင်း အမေရိက
+        type: '013'
+      - 
+        content: အရှေ့ပိုင်း အာဖရိက
+        type: '014'
+      - 
+        content: မြောက်ပိုင်း အာဖရိက
+        type: '015'
+      - 
+        content: အလယ်ပိုင်း အာဖရိက
+        type: '017'
+      - 
+        content: တောင်ပိုင်း အာဖရိက
+        type: '018'
+      - 
+        content: အမေရိကများ
+        type: '019'
+      - 
+        content: မြောက်ပိုင်း အမေရိက
+        type: '021'
+      - 
+        content: ကာရီဘီယံ
+        type: '029'
+      - 
+        content: အရှေ့ပိုင်း အာရှ
+        type: '030'
+      - 
+        content: တောင်ပိုင်း အာရှ
+        type: '034'
+      - 
+        content: အ‌ရှေ့တောင်ပိုင်း အာရှ
+        type: '035'
+      - 
+        content: တောင်ပိုင်း ဥရောပ
+        type: '039'
+      - 
+        content: ဩစတြေးလျှ နှင့် နယူးဇီလန်
+        type: '053'
+      - 
+        content: အာရှ
+        type: 142
+      - 
+        content: အလယ် အာရှ
+        type: 143
+      - 
+        content: အနောက် အာရှ
+        type: 145
+      - 
+        content: ဥရောပ
+        type: 150
+      - 
+        content: အရှေ့ပိုင်း ဥရောပ
+        type: 151
+      - 
+        content: မြောက်ပိုင်း ဥရောပ
+        type: 154
+      - 
+        content: အနောက်ပိုင်း ဥရောပ
+        type: 155
+      - 
+        content: လက်တင် အမေရိက နှင့် ကာရီဘီယန်
+        type: 419
+      - 
+        content: ယူအေအီး
+        type: AE
+      - 
+        content: အာဖဂန်နစ္စတန်
+        type: AF
+      - 
+        content: အန်ကွီလာ
+        type: AI
+      - 
+        content: အာမေနီးယား
+        type: AM
+      - 
+        content: အင်ဂိုလာ
+        type: AO
+      - 
+        content: အန္တာတိက
+        type: AQ
+      - 
+        content: အာဂျင်တီးနား
+        type: AR
+      - 
+        content: အမေရိကန် စမိုအ
+        type: AS
+      - 
+        content: ဩစတြီးယား
+        type: AT
+      - 
+        content: ဩစတြေးလျှား
+        type: AU
+      - 
+        content: အဇာဘိုင်ဂျန်
+        type: AZ
+      - 
+        content: ဘော့စနီးယား နှင့် ဟာဇီဂိုဘီးနား
+        type: BA
+      - 
+        content: ဘင်္ဂလားဒေ့ရှ်
+        type: BD
+      - 
+        content: ဘယ်လ်ဂျီယမ်
+        type: BE
+      - 
+        content: ဘူဂေးရီးယား
+        type: BG
+      - 
+        content: ဘာရိန်း
+        type: BH
+      - 
+        content: ဘာမူဒါ
+        type: BM
+      - 
+        content: ဘရူနိုင်း
+        type: BN
+      - 
+        content: ဘိုလီးဘီးယား
+        type: BO
+      - 
+        content: ဘရာဇီး
+        type: BR
+      - 
+        content: ဘဟားမား
+        type: BS
+      - 
+        content: ဘူတန်
+        type: BT
+      - 
+        content: ဘော့စ်ဝါနာ
+        type: BW
+      - 
+        content: ဘီလာရုစ်
+        type: BY
+      - 
+        content: ဘေလီဇ်
+        type: BZ
+      - 
+        content: ကနေဒါ
+        type: CA
+      - 
+        content: ကိုကိုး ကျွန်းစု
+        type: CC
+      - 
+        content: အလယ်ပိုင်း အာဖရိက ပြည်ထောင်စု
+        type: CF
+      - 
+        content: ဆွစ်ဇလန်
+        type: CH
+      - 
+        content: အိုင်ဗရီကိုစ့်
+        type: CI
+      - 
+        content: ကွတ် ကျွန်းစု
+        type: CK
+      - 
+        content: ချီလီ
+        type: CL
+      - 
+        content: ကင်မရွန်း
+        type: CM
+      - 
+        content: တရုတ်
+        type: CN
+      - 
+        content: ကိုလံဘီယာ
+        type: CO
+      - 
+        content: ကော့စ်တာရီကာ
+        type: CR
+      - 
+        content: ကျူးဘား
+        type: CU
+      - 
+        content: ခရစ်စမတ် ကျွန်း
+        type: CX
+      - 
+        content: ဆိုက်ပရက်စ်
+        type: CY
+      - 
+        content: ချက် ပြည်ထောင်စု
+        type: CZ
+      - 
+        content: ဂျာမဏီ
+        type: DE
+      - 
+        content: ဒိန်းမတ်
+        type: DK
+      - 
+        content: ဒိုမီနီကာ
+        type: DM
+      - 
+        content: ဒိုမီနီကန်
+        type: DO
+      - 
+        content: အယ်လ်ဂျီးရီးယား
+        type: DZ
+      - 
+        content: အီကွေဒေါ
+        type: EC
+      - 
+        content: အက်စတိုးနီးယား
+        type: EE
+      - 
+        content: အီဂျစ်
+        type: EG
+      - 
+        content: အနောက်ပိုင်း ဆာဟာရ
+        type: EH
+      - 
+        content: စပိန်
+        type: ES
+      - 
+        content: အီသီယိုးပီးယား
+        type: ET
+      - 
+        content: ဥရောပသမဂ္ဂ
+        type: EU
+      - 
+        content: ဖင်လန်
+        type: FI
+      - 
+        content: ဖီဂျီ
+        type: FJ
+      - 
+        content: ဖောက်ကလန် ကျွန်းစု
+        type: FK
+      - 
+        content: ဖာရိုး ကျွန်းစုများ
+        type: FO
+      - 
+        content: ပြင်သစ်
+        type: FR
+      - 
+        content: ယူနိုက်တက်ကင်းဒမ်း
+        type: GB
+      - 
+        content: ဂျော်ဂျီယာ
+        type: GE
+      - 
+        content: ပြင်သစ် ဂီယာနာ
+        type: GF
+      - 
+        content: ဂါနာ
+        type: GH
+      - 
+        content: ဂျီဘရော်လ်တာ
+        type: GI
+      - 
+        content: ဂရင်းလန်း
+        type: GL
+      - 
+        content: ဂန်ဘီရာ
+        type: GM
+      - 
+        content: ဂီရာနာ
+        type: GN
+      - 
+        content: အီကွေတာ ဂီရာနာ
+        type: GQ
+      - 
+        content: ဂရိ
+        type: GR
+      - 
+        content: တောင် ဂျော်ဂျီယာ နှင့် တောင် ဆင်းဒဝစ်ဂျ် ကျွန်းစုများ
+        draft: unconfirmed
+        type: GS
+      - 
+        content: ဂွာတီမာလာ
+        type: GT
+      - 
+        content: ဂူအမ်
+        type: GU
+      - 
+        content: တရုတ်၏ အထူးအုပ်ချုပ်ခွင့်ရ ဟောင်ကောင်
+        type: HK
+      - 
+        alt: short
+        content: ဟောင်ကောင်
+        type: HK
+      - 
+        content: ဟွန်ဒူးရပ်စ်
+        type: HN
+      - 
+        content: ခရိုအေးရှား
+        type: HR
+      - 
+        content: ဟေတီ
+        type: HT
+      - 
+        content: ဟန်ဂေရီ
+        type: HU
+      - 
+        content: အင်ဒိုနီးရှား
+        type: ID
+      - 
+        content: အိုင်ယာလန်
+        type: IE
+      - 
+        content: အစ္စရေး
+        type: IL
+      - 
+        content: အိန္ဒိယ
+        type: IN
+      - 
+        content: ဗြိတိသျှ အိန္ဒြိယ သမုဒ္ဒရာ ပိုင်နက်
+        type: IO
+      - 
+        content: အီရတ်
+        type: IQ
+      - 
+        content: အီရန်
+        type: IR
+      - 
+        content: အိုက်စလန်
+        type: IS
+      - 
+        content: အီတလီ
+        type: IT
+      - 
+        content: ဂျာစီ
+        type: JE
+      - 
+        content: ဂျမေနီကာ
+        type: JM
+      - 
+        content: ဂျော်ဒန်
+        type: JO
+      - 
+        content: ဂျပန်
+        type: JP
+      - 
+        content: ကင်ညာ
+        type: KE
+      - 
+        content: ခယ်ကစ်စတန်
+        draft: unconfirmed
+        type: KG
+      - 
+        content: ကမ္ဘောဒီးယား
+        type: KH
+      - 
+        content: မြောက်ကိုရီးယား
+        type: KP
+      - 
+        content: တောင်ကိုရီးယား
+        type: KR
+      - 
+        content: ကူဝိတ်
+        type: KW
+      - 
+        content: ကေမန် ကျွန်းစု
+        type: KY
+      - 
+        content: ကာဇက်စတန်
+        type: KZ
+      - 
+        content: လာအို
+        type: LA
+      - 
+        content: လက်ဘနွန်
+        type: LB
+      - 
+        content: သီရိလင်္ကာ
+        type: LK
+      - 
+        content: လိုင်ဘေးရီးယား
+        type: LR
+      - 
+        content: လစ်သူယေးနီးယား
+        type: LT
+      - 
+        content: လူဇင်ဘတ်
+        type: LU
+      - 
+        content: လတ်ဗီးယား
+        type: LV
+      - 
+        content: မော်ရိုကို
+        type: MA
+      - 
+        content: မိုနကို
+        type: MC
+      - 
+        content: မွန်တီနိဂရိုး
+        type: ME
+      - 
+        content: စိန့်မာတင်
+        type: MF
+      - 
+        content: မဒဂတ်စကာ
+        type: MG
+      - 
+        content: မာရှယ် ကျွန်းစု
+        type: MH
+      - 
+        content: မာစီဒိုးနီးယား
+        type: MK
+      - 
+        content: မာလီ
+        type: ML
+      - 
+        content: မြန်မာ
+        type: MM
+      - 
+        content: မွန်ဂိုးလီးယား
+        type: MN
+      - 
+        content: တရုတ်၏ အထူးအုပ်ချုပ်ခွင့်ရ မကာအို
+        type: MO
+      - 
+        alt: short
+        content: မကာအို
+        type: MO
+      - 
+        content: မော်လဒိုက်
+        type: MV
+      - 
+        content: မာလာဝီ
+        type: MW
+      - 
+        content: မက္ကဆီကို
+        type: MX
+      - 
+        content: မလေးရှား
+        type: MY
+      - 
+        content: မိုဇန်ဘစ်
+        type: MZ
+      - 
+        content: နမ်မီးဘီးယား
+        type: NA
+      - 
+        content: နယူး ကယ်လီဒိုနီးယား
+        type: NC
+      - 
+        content: နိုင်ဂျာ
+        type: NE
+      - 
+        content: နိုင်ဂျီးရီးယား
+        type: NG
+      - 
+        content: နီကာရာဂွာ
+        type: NI
+      - 
+        content: နယ်သာလန်
+        type: NL
+      - 
+        content: နော်ဝေ
+        type: 'NO'
+      - 
+        content: နီပေါ
+        type: NP
+      - 
+        content: နယူးဇီလန်
+        type: NZ
+      - 
+        content: အိုမန်
+        type: OM
+      - 
+        content: ပနားမား
+        type: PA
+      - 
+        content: ပီရူး
+        type: PE
+      - 
+        content: ပြင်သစ် ပေါ်လီနေးရှား
+        type: PF
+      - 
+        content: ပါပူရာနယူးဂီနီ
+        type: PG
+      - 
+        content: ဖိလစ်ပိုင်
+        type: PH
+      - 
+        content: ပါကစ္စတန်
+        type: PK
+      - 
+        content: ပိုလန်
+        type: PL
+      - 
+        content: ပေါ်တူရီကို
+        type: PR
+      - 
+        content: ပါလက်စတိုင်း ပိုင်နက်
+        type: PS
+      - 
+        content: ပေါ်တူဂီ
+        type: PT
+      - 
+        content: ပါရာဂွေး
+        type: PY
+      - 
+        content: ကာတာ
+        type: QA
+      - 
+        content: ရိုမေးနီးယား
+        type: RO
+      - 
+        content: ဆားဘီးယား
+        type: RS
+      - 
+        content: ရုရှ
+        type: RU
+      - 
+        content: ရဝန်ဒါ
+        type: RW
+      - 
+        content: ဆော်ဒီအာရေးဗီးယား
+        type: SA
+      - 
+        content: ဆော်လမွန်ကျွန်းစု
+        type: SB
+      - 
+        content: ဆူဒန်
+        type: SD
+      - 
+        content: ဆွီဒင်
+        type: SE
+      - 
+        content: စင်္ကာပူ
+        type: SG
+      - 
+        content: စလိုဗေးနီးယား
+        type: SI
+      - 
+        content: စလိုဗေးကီးယား
+        type: SK
+      - 
+        content: ဆီနီဂေါ
+        type: SN
+      - 
+        content: ဆိုမာလီယာ
+        type: SO
+      - 
+        content: အယ်လ်ဆာဗေးဒိုး
+        type: SV
+      - 
+        content: ဆီးရီးယား
+        type: SY
+      - 
+        content: ချဒ်
+        type: TD
+      - 
+        content: ပြင်သစ် တောင်ပိုင်း ပိုင်နက်များ
+        type: TF
+      - 
+        content: ထိုင်း
+        type: TH
+      - 
+        content: တာဂျီကစ္စတန်
+        type: TJ
+      - 
+        content: အရှေ့တီမော
+        type: TL
+      - 
+        content: တူနီးရှား
+        type: TN
+      - 
+        content: တွန်ဂါ
+        type: TO
+      - 
+        content: တူရကီ
+        type: TR
+      - 
+        content: ထိုင်ဝမ်
+        type: TW
+      - 
+        content: တန်ဇန်နီးယား
+        type: TZ
+      - 
+        content: ယူကရိန်း
+        type: UA
+      - 
+        content: ယူဂန္ဒာ
+        type: UG
+      - 
+        content: ယူနိုက်တက်စတိတ် အပြင်ထွက် နေသည့် သေးငယ်သောကျွန်းများ
+        type: UM
+      - 
+        content: ယူနိုက်တက်စတိတ်
+        type: US
+      - 
+        content: ဥရုဂွေး
+        type: UY
+      - 
+        content: ဥဘက်ကစ္စတန်
+        type: UZ
+      - 
+        content: ဗာတီကန်
+        type: VA
+      - 
+        content: ဗင်နီဇွဲလား
+        type: VE
+      - 
+        content: ဗြိတိသျှ ဗာဂျင်း ကျွန်းစု
+        type: VG
+      - 
+        content: ယူအက်စ် ဗာဂျင်း ကျွန်းစု
+        type: VI
+      - 
+        content: ဗီယက်နမ်
+        type: VN
+      - 
+        content: ယီမင်
+        type: YE
+      - 
+        content: တောင်အာဖရိက
+        type: ZA
+      - 
+        content: ဇမ်ဘီယာ
+        type: ZM
+      - 
+        content: ဇင်ဘာဘွေ
+        type: ZW
+      - 
+        content: မသိ သို့မဟုတ် မရှိ သော နေရာ
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: ဂျပန် ပြက္ခဒိန်
+        type: japanese
+      collation: 
+        content: ဖုန်းစာအုပ် အစီအစဉ်
+        type: phonebook
+  variants: 
+    variant: 
+      - 
+        content: ရှေးရိုးစဉ်လာ ဂျာမန် ရေးထုံး
+        type: 1901
+      - 
+        content: ၁၉၉၆ ဂျာမန် ရေးထုံး
+        type: 1996
+      - 
+        content: အလယ်ပိုင်းနောက်ကျသောပြင်သစ်မှ ၁၆၀၆
+        type: 1606NICT
+      - 
+        content: ၁၆၉၄ACAD
+        type: 1694ACAD
+      - 
+        content: အရှေ့ပိုင်းအာမေးနီးယန်း
+        type: AREVELA
+      - 
+        content: ပေါင်းစပ်ထားသော တူရကီ လက်တင်စကားလုံး
+        type: BAKU1926
+      - 
+        content: IPA အသံထွက်
+        type: FONIPA
+      - 
+        content: UPA အသံထွက်
+        type: FONUPA
+      - 
+        content: ကွန်ပျူတာ
+        type: POSIX
+      - 
+        content: ပြန်လည်စီစစ်ထားသော ရေးထုံး
+        type: REVISED
+      - 
+        content: စကော့ စံ အင်္ဂလိပ်
+        type: SCOTLAND
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: နယ်သာလန် အန်တီလန် ဂင်းဒါး
+        type: ANG
+      - 
+        displayName: အာဂျင်တီးနား ပီဆို (၁၉၈၃-၁၉၈၅)
+        type: ARP
+      - 
+        displayName: အာဂျင်တီးနား ပီဆို
+        type: ARS
+      - 
+        displayName: ဩစတြေးလျှား ဒေါ်လာ
+        type: AUD
+      - 
+        displayName: အရူဘန် ဂင်းဒါး
+        type: AWG
+      - 
+        displayName: 
+          content: ဘင်္ဂလားဒေ့ရှ် တာကာ
+          draft: unconfirmed
+        type: BDT
+      - 
+        displayName: ဘယ်လ်ဂျီယမ် ဖရန့်
+        type: BEF
+      - 
+        displayName: 
+          content: ဘူရွန်ဒီ ဖရန့်
+          draft: unconfirmed
+        type: BIF
+      - 
+        displayName: ဘာမူဒါ ဒေါ်လာ
+        type: BMD
+      - 
+        displayName: ဘရူနိုင်း ဒေါ်လာ
+        type: BND
+      - 
+        displayName: ဘိုလီးဘီးယား ပီဆို
+        type: BOP
+      - 
+        displayName: ဘရာဇီး ရီးယဲ
+        type: BRL
+      - 
+        displayName: 
+          content: ဘဟားမား ဒေါ်လာ
+          draft: unconfirmed
+        type: BSD
+      - 
+        displayName: ဗမာ ကျပ်
+        type: BUK
+      - 
+        displayName: ဘော့စ်ဝါနာ ပုလ
+        type: BWP
+      - 
+        displayName: ဘီလာရုစ် ရူဘယ်အသစ် (၁၉၉၄-၁၉၉၉)
+        type: BYB
+      - 
+        displayName: ဘီလာရုစ် ရူဘယ်
+        type: BYR
+      - 
+        displayName: 
+          content: ဘေလီဇ် ဒေါ်လာ
+          draft: unconfirmed
+        type: BZD
+      - 
+        displayName: ကနေဒါ ဒေါ်လာ
+        type: CAD
+      - 
+        displayName: ဆွစ် ဖရန့်
+        type: CHF
+      - 
+        displayName: ချီလီ ပီဆို
+        type: CLP
+      - 
+        displayName: တရုတ် ယွမ်
+        type: CNY
+      - 
+        displayName: ကိုလံဘီယာ ပီဆို
+        type: COP
+      - 
+        displayName: ကျူးဘား ပီဆို
+        type: CUP
+      - 
+        displayName: ဆိုက်ပရက်စ် ပေါင်
+        type: CYP
+      - 
+        displayName: ဂျာမဏီ မတ်
+        type: DEM
+      - 
+        displayName: 
+          content: ဒိန်းမတ် ခရိုဏာ
+          draft: unconfirmed
+        type: DKK
+      - 
+        displayName: ဒိုမီနီကန် ပီဆို
+        type: DOP
+      - 
+        displayName: အီဂျစ် ပေါင်
+        type: EGP
+      - 
+        displayName: စပိန် ပယ်စေးတာ
+        type: ESP
+      - 
+        displayName: ယူရို
+        type: EUR
+      - 
+        displayName: ဖီဂျီ ဒေါ်လာ
+        type: FJD
+      - 
+        displayName: ဖောက်ကလန် ကျွန်းစု ပေါင်
+        type: FKP
+      - 
+        displayName: ပြင်သစ် ဖရန့်
+        type: FRF
+      - 
+        displayName: ဗြိတိသျှ ပေါင်
+        type: GBP
+      - 
+        displayName: ဂျီဘရော်လ်တာ ပေါင်
+        type: GIP
+      - 
+        displayName: ဂီရာနာ ဖရန့်
+        type: GNF
+      - 
+        displayName: ဟောင်ကောင် ဒေါ်လာ
+        type: HKD
+      - 
+        displayName: အင်ဒိုနီးရှား ရူပီးယား
+        type: IDR
+      - 
+        displayName: အစ္စရေး ပေါင်
+        type: ILP
+      - 
+        displayName: အိန္ဒြိယ ရူပီး
+        type: INR
+      - 
+        displayName: ဂျမေနီကာ ဒေါ်လာ
+        type: JMD
+      - 
+        displayName: ဂျပန်ယန်း
+        type: JPY
+      - 
+        displayName: 
+          content: ကမ္ဘောဒီးယား ရီးယဲ
+          draft: unconfirmed
+        type: KHR
+      - 
+        displayName: မြောက်ကိုးရီးယား ဝမ်
+        type: KPW
+      - 
+        displayName: တောင်ကိုးရီးယား ဝမ်
+        type: KRW
+      - 
+        displayName: 
+          content: ကေမန် ကျွန်းစု ဒေါ်လာ
+          draft: unconfirmed
+        type: KYD
+      - 
+        displayName: လက်ဘနွန် ပေါင်
+        type: LBP
+      - 
+        displayName: သီရိလင်္ကာ ရူပီး
+        type: LKR
+      - 
+        displayName: လိုင်ဘေးရီးယား ဒေါ်လာ
+        type: LRD
+      - 
+        displayName: မြန်မာ ကျပ်
+        symbol: K
+        type: MMK
+      - 
+        displayName: မက္ကဆီကို ပီဆို
+        type: MXN
+      - 
+        displayName: မလေးရှား ရင်းဂစ်
+        type: MYR
+      - 
+        displayName: နမ်မီးဘီးယား ဒေါ်လာ
+        type: NAD
+      - 
+        displayName: နော်ဝေ ခရိုဏာ
+        type: NOK
+      - 
+        displayName: နီပေါ ရူပီး
+        type: NPR
+      - 
+        displayName: နယူးဇီလန် ဒေါ်လာ
+        type: NZD
+      - 
+        displayName: ဖိလစ်ပိုင် ပီဆို
+        type: PHP
+      - 
+        displayName: ပါကစ္စတန် ရူပီး
+        type: PKR
+      - 
+        displayName: ပိုလန် ဇ‌လော့တီ
+        type: PLN
+      - 
+        displayName: ရုရှ ရူဘယ်
+        type: RUB
+      - 
+        displayName: ရုရှ ရူဘယ် (၁၉၉၁-၁၉၉၈)
+        type: RUR
+      - 
+        displayName: ရဝန်ဒါ ဖရန့်
+        type: RWF
+      - 
+        displayName: ဆော်လမွန်ကျွန်းစု ဒေါ်လာ
+        type: SBD
+      - 
+        displayName: ဆူဒန် ပေါင်
+        type: SDG
+      - 
+        displayName: ဆူဒန် ပေါင်အဟောင်း
+        type: SDP
+      - 
+        displayName: ဆွီဒင် ခရိုဏာ
+        type: SEK
+      - 
+        displayName: စင်္ကာပူ ဒေါ်လာ
+        type: SGD
+      - 
+        displayName: ဆူရိနမ် ဒေါ်လာ
+        type: SRD
+      - 
+        displayName: ဆိုဗီယက် ရူဗယ်
+        type: SUR
+      - 
+        displayName: ထိုင်းဘတ်
+        type: THB
+      - 
+        displayName: ရှေးဟောင်းတူရကီ လိုင်ရာ
+        type: TRL
+      - 
+        displayName: တူရကီ လိုင်ရာ
+        type: TRY
+      - 
+        displayName: ထိုင်ဝမ် ဒေါ်လာအသစ်
+        type: TWD
+      - 
+        displayName: အမေရိကန် ဒေါ်လာ
+        type: USD
+      - 
+        displayName: အမေရိကန် ဒေါ်လာ (နောက်နေ့)
+        type: USN
+      - 
+        displayName: အမေရိကန် ဒေါ်လာ (တနေ့တည်း)
+        type: USS
+      - 
+        displayName: ဗီယက်နမ် ဒေါင်
+        type: VND
+      - 
+        displayName: ငွေ
+        type: XAG
+      - 
+        displayName: ရွှေ
+        type: XAU
+      - 
+        displayName: ဥရောပငွေကြေးစံနစ်
+        type: XBB
+      - 
+        displayName: အထူးထုတ်ယူခွင့်
+        type: XDR
+      - 
+        displayName: 
+          content: CFA ဖရန့် BCEAO
+          draft: unconfirmed
+        type: XOF
+      - 
+        displayName: ပလက်တီနမ်
+        type: XPT
+      - 
+        displayName: စမ်းသပ် ငွေကြေး ကုဒ်
+        type: XTS
+      - 
+        displayName: မသိ သို့မဟုတ် မရှိသော ငွေကြေး
+        type: XXX
+      - 
+        displayName: ဇင်ဘာဘွေ ဒေါ်လာ
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##0.###"
+    numberSystem: latn
+  defaultNumberingSystem: mymr
+  otherNumberingSystems: 
+    native: mymr
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    - 
+      decimal: .
+      group: ","
+      list: ;
+      numberSystem: latn
+    - 
+      list: ၊
+      numberSystem: mymr
+posix: 
+  messages: 
+    nostr: မဟုတ်ဘူး
+    yesstr: ဟုတ်တယ်
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        content: "{0} ရက်"
+        count: other
+    - 
+      type: hour
+      unitPattern: 
+        content: "{0} နာရီ"
+        count: other
+    - 
+      type: minute
+      unitPattern: 
+        content: "{0} မိနစ်"
+        count: other
+    - 
+      type: month
+      unitPattern: 
+        content: "{0} လ"
+        count: other
+    - 
+      type: second
+      unitPattern: 
+        content: "{0} စက္ကန့်"
+        count: other
+    - 
+      type: week
+      unitPattern: 
+        content: "{0} ပတ်"
+        count: other
+    - 
+      type: year
+      unitPattern: 
+        content: "{0} နှစ်"
+        count: other

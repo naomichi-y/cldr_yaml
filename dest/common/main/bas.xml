@@ -1,0 +1,1488 @@
+characters: 
+  exemplarCharacters: 
+    - "[a á à â ǎ ā {a\\u1DC6}{a\\u1DC7} b ɓ c d e é è ê ě ē {e\\u1DC6}{e\\u1DC7} ɛ {ɛ\\u0301} {ɛ\\u0300} {ɛ\\u0302} {ɛ\\u030C} {ɛ\\u0304} {ɛ\\u1DC6}{ɛ\\u1DC7} f g h i í ì î ǐ ī {i\\u1DC6}{i\\u1DC7} j k l m n ń ǹ ŋ o ó ò ô ǒ ō {o\\u1DC6}{o\\u1DC7} ɔ {ɔ\\u0301} {ɔ\\u0300} {ɔ\\u0302} {ɔ\\u030C} {ɔ\\u0304} {ɔ\\u1DC6}{ɔ\\u1DC7} p r s t u ú ù û ǔ ū {u\\u1DC6}{u\\u1DC7} v w y z]"
+    - 
+      content: "[q x]"
+      type: auxiliary
+    - 
+      content: "[A B Ɓ C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E d MMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E d MMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: I bikɛ̂glà
+                  type: am
+                - 
+                  content: I ɓugajɔp
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: nɔy
+                      type: sun
+                    - 
+                      content: nja
+                      type: mon
+                    - 
+                      content: uum
+                      type: tue
+                    - 
+                      content: ŋge
+                      type: wed
+                    - 
+                      content: mbɔ
+                      type: thu
+                    - 
+                      content: kɔɔ
+                      type: fri
+                    - 
+                      content: jon
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ŋgwà nɔ̂y
+                      type: sun
+                    - 
+                      content: ŋgwà njaŋgumba
+                      type: mon
+                    - 
+                      content: ŋgwà ûm
+                      type: tue
+                    - 
+                      content: ŋgwà ŋgê
+                      type: wed
+                    - 
+                      content: ŋgwà mbɔk
+                      type: thu
+                    - 
+                      content: ŋgwà kɔɔ
+                      type: fri
+                    - 
+                      content: ŋgwà jôn
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: 'n'
+                    type: sun
+                  - 
+                    content: 'n'
+                    type: mon
+                  - 
+                    content: u
+                    type: tue
+                  - 
+                    content: ŋ
+                    type: wed
+                  - 
+                    content: m
+                    type: thu
+                  - 
+                    content: k
+                    type: fri
+                  - 
+                    content: j
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: b.Y.K
+                type: 0
+              - 
+                content: m.Y.K
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: bisū bi Yesù Krǐstò
+                type: 0
+              - 
+                content: i mbūs Yesù Krǐstò
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: kɔn
+                      type: 1
+                    - 
+                      content: mac
+                      type: 2
+                    - 
+                      content: mat
+                      type: 3
+                    - 
+                      content: mto
+                      type: 4
+                    - 
+                      content: mpu
+                      type: 5
+                    - 
+                      content: hil
+                      type: 6
+                    - 
+                      content: nje
+                      type: 7
+                    - 
+                      content: hik
+                      type: 8
+                    - 
+                      content: dip
+                      type: 9
+                    - 
+                      content: bio
+                      type: 10
+                    - 
+                      content: may
+                      type: 11
+                    - 
+                      content: liɓ
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Kɔndɔŋ
+                      type: 1
+                    - 
+                      content: Màcɛ̂l
+                      type: 2
+                    - 
+                      content: Màtùmb
+                      type: 3
+                    - 
+                      content: Màtop
+                      type: 4
+                    - 
+                      content: M̀puyɛ
+                      type: 5
+                    - 
+                      content: Hìlòndɛ̀
+                      type: 6
+                    - 
+                      content: Njèbà
+                      type: 7
+                    - 
+                      content: Hìkaŋ
+                      type: 8
+                    - 
+                      content: Dìpɔ̀s
+                      type: 9
+                    - 
+                      content: Bìòôm
+                      type: 10
+                    - 
+                      content: Màyɛsèp
+                      type: 11
+                    - 
+                      content: Lìbuy li ńyèe
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: k
+                    type: 1
+                  - 
+                    content: m
+                    type: 2
+                  - 
+                    content: m
+                    type: 3
+                  - 
+                    content: m
+                    type: 4
+                  - 
+                    content: m
+                    type: 5
+                  - 
+                    content: h
+                    type: 6
+                  - 
+                    content: 'n'
+                    type: 7
+                  - 
+                    content: h
+                    type: 8
+                  - 
+                    content: d
+                    type: 9
+                  - 
+                    content: b
+                    type: 10
+                  - 
+                    content: m
+                    type: 11
+                  - 
+                    content: l
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: K1s3
+                    type: 1
+                  - 
+                    content: K2s3
+                    type: 2
+                  - 
+                    content: K3s3
+                    type: 3
+                  - 
+                    content: K4s3
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: Kèk bisu i soŋ iaâ
+                    type: 1
+                  - 
+                    content: Kèk i ńyonos biɓaà i soŋ iaâ
+                    type: 2
+                  - 
+                    content: Kèk i ńyonos biaâ i soŋ iaâ
+                    type: 3
+                  - 
+                    content: Kèk i ńyonos binâ i soŋ iaâ
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: kèk
+        type: era
+      - 
+        displayName: ŋwìi
+        type: year
+      - 
+        displayName: soŋ
+        type: month
+      - 
+        displayName: sɔndɛ̂
+        type: week
+      - 
+        displayName: kɛl
+        relative: 
+          - 
+            content: yààni
+            type: -1
+          - 
+            content: lɛ̀n
+            type: 0
+          - 
+            content: yàni
+            type: 1
+        type: day
+      - 
+        displayName: hìlɔ hi sɔndɛ̂
+        type: weekday
+      - 
+        displayName: njǎmùha
+        type: dayperiod
+      - 
+        displayName: ŋgɛŋ
+        type: hour
+      - 
+        displayName: ŋget
+        type: minute
+      - 
+        displayName: hìŋgeŋget
+        type: second
+      - 
+        displayName: komboo i ŋgɛŋ
+        type: zone
+delimiters: 
+  alternateQuotationEnd: “
+  alternateQuotationStart: „
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: bas
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Hɔp u akan
+        type: ak
+      - 
+        content: Hɔp u amhārìk
+        type: am
+      - 
+        content: Hɔp u arâb
+        type: ar
+      - 
+        content: Ɓàsàa
+        type: bas
+      - 
+        content: Hɔp u bièlòrûs
+        type: be
+      - 
+        content: Hɔp u bûlgâr
+        type: bg
+      - 
+        content: Hɔp u bɛŋgàli
+        type: bn
+      - 
+        content: Hɔp u cɛ̂k
+        type: cs
+      - 
+        content: Hɔp u jamân
+        type: de
+      - 
+        content: Hɔp u gri ᷇kyà
+        type: el
+      - 
+        content: Hɔp u ŋgisì
+        type: en
+      - 
+        content: Hɔp u panyā
+        type: es
+      - 
+        content: Hɔp u pɛrsìà
+        type: fa
+      - 
+        content: Hɔp u pulàsi
+        type: fr
+      - 
+        content: Hɔp u ɓausa
+        type: ha
+      - 
+        content: Hɔp u hindì
+        type: hi
+      - 
+        content: Hɔp u hɔŋgrìi
+        type: hu
+      - 
+        content: Hɔp u indònesìà
+        type: id
+      - 
+        content: Hɔp u iɓò
+        type: ig
+      - 
+        content: Hɔp u italìà
+        type: it
+      - 
+        content: Hɔp u yapàn
+        type: ja
+      - 
+        content: Hɔp u yavà
+        type: jv
+      - 
+        content: Hɔp u kmɛ̂r
+        type: km
+      - 
+        content: Hɔp u kɔrēà
+        type: ko
+      - 
+        content: Hɔp u makɛ᷆
+        type: ms
+      - 
+        content: Hɔp u birmàn
+        type: my
+      - 
+        content: Hɔp u nepa᷆l
+        type: ne
+      - 
+        content: Hɔp u nlɛ̀ndi
+        type: nl
+      - 
+        content: Hɔp u pɛnjàbi
+        type: pa
+      - 
+        content: Hɔp u pɔlɔ̄nà
+        type: pl
+      - 
+        content: Hɔp u pɔtɔ̄kì
+        type: pt
+      - 
+        content: Hɔp u rùmanìà
+        type: ro
+      - 
+        content: Hɔp u ruslànd
+        type: ru
+      - 
+        content: Hɔp u ruāndà
+        type: rw
+      - 
+        content: Hɔp u somàlî
+        type: so
+      - 
+        content: Hɔp u suɛ᷆d
+        type: sv
+      - 
+        content: Hɔp u tamu᷆l
+        type: ta
+      - 
+        content: Hɔp u tây
+        type: th
+      - 
+        content: Hɔp u tûrk
+        type: tr
+      - 
+        content: Hɔp u ukrǎnìà
+        type: uk
+      - 
+        content: Hɔp u urdù
+        type: ur
+      - 
+        content: Hɔp u vyɛ̄dnàm
+        type: vi
+      - 
+        content: Hɔp u yorūbà
+        type: yo
+      - 
+        content: Hɔp u kinà
+        type: zh
+      - 
+        content: Hɔp u zulù
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Àŋdɔ̂r
+        type: AD
+      - 
+        content: Àdnà i Bilɔ̀ŋ bi Arābìà
+        type: AE
+      - 
+        content: Àfgànìstâŋ
+        type: AF
+      - 
+        content: Àŋtigà ɓɔ Bàrbudà
+        type: AG
+      - 
+        content: Àŋgiyà
+        type: AI
+      - 
+        content: Àlbanìà
+        type: AL
+      - 
+        content: Àrmenìà
+        type: AM
+      - 
+        content: Àŋtîy ǹlɛ̀ndi
+        type: AN
+      - 
+        content: Àŋgolà
+        type: AO
+      - 
+        content: Àrgàŋtinà
+        type: AR
+      - 
+        content: Òstrǐk
+        type: AT
+      - 
+        content: Òstralìà
+        type: AU
+      - 
+        content: Àrubà
+        type: AW
+      - 
+        content: Àzɛ̀rbajàŋ
+        type: AZ
+      - 
+        content: Bòhnià Ɛrzègòvinà
+        type: BA
+      - 
+        content: Bàrbadò
+        type: BB
+      - 
+        content: Bàŋglàdɛ̂s
+        type: BD
+      - 
+        content: Bɛlgyùm
+        type: BE
+      - 
+        content: Bùrkìnà Fasò
+        type: BF
+      - 
+        content: Bùlgarìà
+        type: BG
+      - 
+        content: Bàraìn
+        type: BH
+      - 
+        content: Bùrundì
+        type: BI
+      - 
+        content: Bènɛ̂ŋ
+        type: BJ
+      - 
+        content: Bɛ̀rmudà
+        type: BM
+      - 
+        content: Brunei
+        type: BN
+      - 
+        content: Bòlivìà
+        type: BO
+      - 
+        content: Bràsîl
+        type: BR
+      - 
+        content: Bàhamàs
+        type: BS
+      - 
+        content: Bùtân
+        type: BT
+      - 
+        content: Bòdsùanà
+        type: BW
+      - 
+        content: Bèlarùs
+        type: BY
+      - 
+        content: Bèlîs
+        type: BZ
+      - 
+        content: Kànadà
+        type: CA
+      - 
+        content: Kòŋgo ìkɛŋi
+        type: CD
+      - 
+        content: Ŋ̀ɛm Afrīkà
+        type: CF
+      - 
+        content: Kòŋgo
+        type: CG
+      - 
+        content: Sùwîs
+        type: CH
+      - 
+        content: Màŋ mi Njɔ̂k
+        type: CI
+      - 
+        content: Bìòn bi Kook
+        type: CK
+      - 
+        content: Kìlî
+        type: CL
+      - 
+        content: Kàmɛ̀rûn
+        type: CM
+      - 
+        content: Kinà
+        type: CN
+      - 
+        content: Kɔ̀lɔmbìà
+        type: CO
+      - 
+        content: Kòstà Rikà
+        type: CR
+      - 
+        content: Kubà
+        type: CU
+      - 
+        content: Kabwɛ᷆r
+        type: CV
+      - 
+        content: Kiprò
+        type: CY
+      - 
+        content: Jamân
+        type: DE
+      - 
+        content: Jìbutì
+        type: DJ
+      - 
+        content: Dànmârk
+        type: DK
+      - 
+        content: Dòmnîk
+        type: DM
+      - 
+        content: Dòmnikà
+        type: DO
+      - 
+        content: Àlgerìà
+        type: DZ
+      - 
+        content: Èkwàtorìà
+        type: EC
+      - 
+        content: Èstonìà
+        type: EE
+      - 
+        content: Ègîptò
+        type: EG
+      - 
+        content: Èrìtrěà
+        type: ER
+      - 
+        content: Pànya
+        type: ES
+      - 
+        content: Ètìopìà
+        type: ET
+      - 
+        content: Fìnlând
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Bìòn bi Falkland
+        type: FK
+      - 
+        content: Mìkrònesìà
+        type: FM
+      - 
+        content: Pùlàsi / Fɛ̀lɛ̀nsi /
+        type: FR
+      - 
+        content: Gàbɔ̂ŋ
+        type: GA
+      - 
+        content: Àdnà i Lɔ̂ŋ
+        type: GB
+      - 
+        content: Grènadà
+        type: GD
+      - 
+        content: Gèɔrgìà
+        type: GE
+      - 
+        content: Gùyanà Pùlàsi
+        type: GF
+      - 
+        content: Ganà
+        type: GH
+      - 
+        content: Gìlbràtâr
+        type: GI
+      - 
+        content: Grǐnlànd
+        type: GL
+      - 
+        content: Gàmbià
+        type: GM
+      - 
+        content: Gìnê
+        type: GN
+      - 
+        content: Gwàdèlûp
+        type: GP
+      - 
+        content: Gìne Èkwàtorìà
+        type: GQ
+      - 
+        content: Grǐkyà
+        type: GR
+      - 
+        content: Gwàtèmalà
+        type: GT
+      - 
+        content: Gùâm
+        type: GU
+      - 
+        content: Gìne Bìsàô
+        type: GW
+      - 
+        content: Gùyanà
+        type: GY
+      - 
+        content: Ɔ̀ŋduràs
+        type: HN
+      - 
+        content: Kròasìà
+        type: HR
+      - 
+        content: Àitì
+        type: HT
+      - 
+        content: Ɔ̀ŋgriì
+        type: HU
+      - 
+        content: Indònèsià
+        type: ID
+      - 
+        content: Ìrlând
+        type: IE
+      - 
+        content: Isràɛ̂l
+        type: IL
+      - 
+        content: Indìà
+        type: IN
+      - 
+        content: Bìtèk bi Ŋgisì i Tūyɛ Īndìà
+        type: IO
+      - 
+        content: Ìrâk
+        type: IQ
+      - 
+        content: Ìrâŋ
+        type: IR
+      - 
+        content: Ìslandìà
+        type: IS
+      - 
+        content: Ìtalìà
+        type: IT
+      - 
+        content: Jàmàikà
+        type: JM
+      - 
+        content: Yɔ̀rdanià
+        type: JO
+      - 
+        content: Kenìà
+        type: KE
+      - 
+        content: Kìrgìzìstàŋ
+        type: KG
+      - 
+        content: Kàmbodìà
+        type: KH
+      - 
+        content: Kìrìbatì
+        type: KI
+      - 
+        content: Kɔ̀mɔ̂r
+        type: KM
+      - 
+        content: Nûmpubi Kîts nì Nevìs
+        type: KN
+      - 
+        content: Kɔ̀re ì Ŋ̀ɔmbɔk
+        type: KP
+      - 
+        content: Kɔ̀re ì Ŋ̀wɛ̀lmbɔk
+        type: KR
+      - 
+        content: Kòwêt
+        type: KW
+      - 
+        content: Bìòn bi Kaymàn
+        type: KY
+      - 
+        content: Kàzàkstâŋ
+        type: KZ
+      - 
+        content: Làôs
+        type: LA
+      - 
+        content: Lèbanòn
+        type: LB
+      - 
+        content: Nûmpubi Lusì
+        type: LC
+      - 
+        content: Ligstɛntàn
+        type: LI
+      - 
+        content: Srìlaŋkà
+        type: LK
+      - 
+        content: Lìberìà
+        type: LR
+      - 
+        content: Lesòtò
+        type: LS
+      - 
+        content: Lìtùanìà
+        type: LT
+      - 
+        content: Lùgsàmbûr
+        type: LU
+      - 
+        content: Làdvià
+        type: LV
+      - 
+        content: Libìà
+        type: LY
+      - 
+        content: Màrokò
+        type: MA
+      - 
+        content: Mònakò
+        type: MC
+      - 
+        content: Moldavìà
+        type: MD
+      - 
+        content: Màdàgàskâr
+        type: MG
+      - 
+        content: Bìòn bi Marcàl
+        type: MH
+      - 
+        content: Màsèdonìà
+        type: MK
+      - 
+        content: Màli
+        type: ML
+      - 
+        content: Myànmâr
+        type: MM
+      - 
+        content: Mòŋgolìà
+        type: MN
+      - 
+        content: Bìòn bi Marìanà ŋ̀ɔmbɔk
+        type: MP
+      - 
+        content: Màrtìnîk
+        type: MQ
+      - 
+        content: Mòrìtanìà
+        type: MR
+      - 
+        content: Mɔ̀ŋseràt
+        type: MS
+      - 
+        content: Maltà
+        type: MT
+      - 
+        content: Mòrîs
+        type: MU
+      - 
+        content: Màldîf
+        type: MV
+      - 
+        content: Màlàwi
+        type: MW
+      - 
+        content: Mɛ̀gsîk
+        type: MX
+      - 
+        content: Màlɛ̀sìà
+        type: MY
+      - 
+        content: Mòsàmbîk
+        type: MZ
+      - 
+        content: Nàmibìà
+        type: NA
+      - 
+        content: Kàlèdonìà Yɔ̀ndɔ
+        type: NC
+      - 
+        content: Nìjɛ̂r
+        type: NE
+      - 
+        content: Òn i Nɔrfɔ̂k
+        type: NF
+      - 
+        content: Nìgerìà
+        type: NG
+      - 
+        content: Nìkàragwà
+        type: NI
+      - 
+        content: Ǹlɛndi
+        type: NL
+      - 
+        content: Nɔ̀rvegìà
+        type: 'NO'
+      - 
+        content: Nèpâl
+        type: NP
+      - 
+        content: Nerù
+        type: NR
+      - 
+        content: Nìuɛ̀
+        type: NU
+      - 
+        content: Sìlând Yɔ̀ndɔ
+        type: NZ
+      - 
+        content: Òmân
+        type: OM
+      - 
+        content: Pànàma
+        type: PA
+      - 
+        content: Pèrû
+        type: PE
+      - 
+        content: Pòlìnesìà Pùlàsi
+        type: PF
+      - 
+        content: Gìne ì Pàpu
+        type: PG
+      - 
+        content: Fìlìpîn
+        type: PH
+      - 
+        content: Pàkìstân
+        type: PK
+      - 
+        content: Pòlànd
+        type: PL
+      - 
+        content: Nûmpubi Petrò nì Mikèlôn
+        type: PM
+      - 
+        content: Pìdkaìrn
+        type: PN
+      - 
+        content: Pɔ̀rtò Rikò
+        type: PR
+      - 
+        content: Pàlɛ̀htinà Hyɔ̀ŋg nì Gazà
+        type: PS
+      - 
+        content: Pɔ̀tɔkì
+        type: PT
+      - 
+        content: Pàlaù
+        type: PW
+      - 
+        content: Pàràgwê
+        type: PY
+      - 
+        content: Kàtâr
+        type: QA
+      - 
+        content: Rèunyɔ̂ŋ
+        type: RE
+      - 
+        content: Rùmanìà
+        type: RO
+      - 
+        content: Ruslànd
+        type: RU
+      - 
+        content: Rùandà
+        type: RW
+      - 
+        content: Sàudi Àrabìà
+        type: SA
+      - 
+        content: Bìòn bi Salōmò
+        type: SB
+      - 
+        content: Sèsɛ̂l
+        type: SC
+      - 
+        content: Sùdâŋ
+        type: SD
+      - 
+        content: Swedɛ̀n
+        type: SE
+      - 
+        content: Sìŋgàpûr
+        type: SG
+      - 
+        content: Nûmpubi Ɛlēnà
+        type: SH
+      - 
+        content: Slòvanìà
+        type: SI
+      - 
+        content: Slòvakìà
+        type: SK
+      - 
+        content: Sièra Lèɔ̂n
+        type: SL
+      - 
+        content: Nûmpubi Māatìn
+        type: SM
+      - 
+        content: Sènègâl
+        type: SN
+      - 
+        content: Sòmalìà
+        type: SO
+      - 
+        content: Sùrinâm
+        type: SR
+      - 
+        content: Sào Tòme ɓɔ Prɛ̀ŋcipè
+        type: ST
+      - 
+        content: Sàlvàdɔ̂r
+        type: SV
+      - 
+        content: Sirìà
+        type: SY
+      - 
+        content: Swàzìlând
+        type: SZ
+      - 
+        content: Bìòn bi Tûrks nì Kalkòs
+        type: TC
+      - 
+        content: Câd
+        type: TD
+      - 
+        content: Tògo
+        type: TG
+      - 
+        content: Taylànd
+        type: TH
+      - 
+        content: Tàjìkìstaŋ
+        type: TJ
+      - 
+        content: Tòkèlaò
+        type: TK
+      - 
+        content: Tìmɔ̂r lìkòl
+        type: TL
+      - 
+        content: Tùrgmènìstân
+        type: TM
+      - 
+        content: Tùnisìà
+        type: TN
+      - 
+        content: Tɔŋgà
+        type: TO
+      - 
+        content: Tùrkây
+        type: TR
+      - 
+        content: Trìnidàd ɓɔ Tòbagò
+        type: TT
+      - 
+        content: Tùvàlù
+        type: TV
+      - 
+        content: Tàywân
+        type: TW
+      - 
+        content: Tànzànià
+        type: TZ
+      - 
+        content: Ùkrɛ̌n
+        type: UA
+      - 
+        content: Ùgandà
+        type: UG
+      - 
+        content: Àdnà i Bilɔ̀ŋ bi Amerkà
+        type: US
+      - 
+        content: Ùrùgwêy
+        type: UY
+      - 
+        content: Ùzbèkìstân
+        type: UZ
+      - 
+        content: Vàtìkâŋ
+        type: VA
+      - 
+        content: Nûmpubi Vɛ̂ŋsâŋ nì grènàdîn
+        type: VC
+      - 
+        content: Vènèzùelà
+        type: VE
+      - 
+        content: Bìòn bi kɔnji bi Ŋgisì
+        type: VG
+      - 
+        content: Bìòn bi kɔnji bi U.S.
+        type: VI
+      - 
+        content: Vìɛ̀dnâm
+        type: VN
+      - 
+        content: Vànùatù
+        type: VU
+      - 
+        content: Wàlîs nì Fùtunà
+        type: WF
+      - 
+        content: Sàmoà
+        type: WS
+      - 
+        content: Yèmɛ̂n
+        type: YE
+      - 
+        content: Màyɔ̂t
+        type: YT
+      - 
+        content: Àfrǐkà Sɔ̀
+        type: ZA
+      - 
+        content: Zàmbià
+        type: ZM
+      - 
+        content: Zìmbàbwê
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Dirhàm èmìrâ
+        type: AED
+      - 
+        displayName: Kwànza àŋgolà
+        type: AOA
+      - 
+        displayName: Dɔ̀lâr òstralìà
+        type: AUD
+      - 
+        displayName: Dinâr Bàraìn
+        type: BHD
+      - 
+        displayName: Frǎŋ bùrundì
+        type: BIF
+      - 
+        displayName: Pùla Bòtswanà
+        type: BWP
+      - 
+        displayName: Dɔ̀lâr kànadà
+        type: CAD
+      - 
+        displayName: Frǎŋ kòŋgo
+        type: CDF
+      - 
+        displayName: Frǎŋ sùwîs
+        type: CHF
+      - 
+        displayName: Yùan kinà
+        type: CNY
+      - 
+        displayName: Èskudò kabwe᷆r
+        type: CVE
+      - 
+        displayName: Frǎŋ jìbutì
+        type: DJF
+      - 
+        displayName: Dìnâr àlgerìà
+        type: DZD
+      - 
+        displayName: Paùnd ègîptò
+        type: EGP
+      - 
+        displayName: Nafkà èrìtrěà
+        type: ERN
+      - 
+        displayName: Bîr ètìopìà
+        type: ETB
+      - 
+        displayName: Èrô
+        type: EUR
+      - 
+        displayName: Stɛrlìŋ ŋgìsì
+        type: GBP
+      - 
+        displayName: Sèdi gānà
+        type: GHC
+      - 
+        displayName: Dalasì gambìà
+        type: GMD
+      - 
+        displayName: Frǎŋ gìnê
+        type: GNS
+      - 
+        displayName: Rùpi īndìà
+        type: INR
+      - 
+        displayName: Yɛ̂n yàpân
+        type: JPY
+      - 
+        displayName: Silîŋ kenìà
+        type: KES
+      - 
+        displayName: Frǎŋ kòmorà
+        type: KMF
+      - 
+        displayName: Dɔ̀lâr lìberìà
+        type: LRD
+      - 
+        displayName: Lotì lèsòtò
+        type: LSL
+      - 
+        displayName: Dìnâr libìà
+        type: LYD
+      - 
+        displayName: Dìrham màrôk
+        type: MAD
+      - 
+        displayName: Frǎŋ màlàgasì
+        type: MGA
+      - 
+        displayName: Ùgwiya mòrìtanìa
+        type: MRO
+      - 
+        displayName: Rupìɛ̀ mòrîs
+        type: MUR
+      - 
+        displayName: Kwaca màlawì
+        type: MWK
+      - 
+        displayName: Mètìkal mòsàmbîk
+        type: MZM
+      - 
+        displayName: Dɔ̀lâr nàmibìà
+        type: NAD
+      - 
+        displayName: Nayrà nìgerìà
+        type: NGN
+      - 
+        displayName: Frǎŋ Rùandà
+        type: RWF
+      - 
+        displayName: Rìal sàudì
+        type: SAR
+      - 
+        displayName: Rùpiɛ̀ sèsɛ̂l
+        type: SCR
+      - 
+        displayName: Dìnâr sùdân
+        type: SDG
+      - 
+        displayName: Paùnd sùdân
+        type: SDP
+      - 
+        displayName: Paùnd hèlenà
+        type: SHP
+      - 
+        displayName: Lèonɛ̀
+        type: SLL
+      - 
+        displayName: Silîŋ sòmàli
+        type: SOS
+      - 
+        displayName: Dobrà sàotòme
+        type: STD
+      - 
+        displayName: Lìlàŋgeni swàzì
+        type: SZL
+      - 
+        displayName: Dìnâr tùnîs
+        type: TND
+      - 
+        displayName: Silîŋ tànzànià
+        type: TZS
+      - 
+        displayName: Silîŋ ùgàndà
+        type: UGX
+      - 
+        displayName: Dɔla àmerkà
+        type: USD
+      - 
+        displayName: Frǎŋ CFA (BEAC)
+        type: XAF
+      - 
+        displayName: Frǎŋ CFA (BCEAO)
+        type: XOF
+      - 
+        displayName: Rân àfrǐkàsɔ̀
+        type: ZAR
+      - 
+        displayName: Kwàca sàmbià (1968-2012)
+        type: ZMK
+      - 
+        displayName: Kwàca sàmbià
+        type: ZMW
+      - 
+        displayName: Dɔ̀lâr sìmbàbwê
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤"
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##0.###"
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0 %"
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: tɔ̀:T
+    yesstr: ŋ̀ŋ̂:Ŋ

@@ -1,0 +1,268 @@
+characters: 
+  exemplarCharacters: 
+    - "[\\u064F ء آ ؤ ئ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ه ھ ہ و ی ے]"
+    - 
+      content: "[أ ٻ ة ٺ ټ ٽ]"
+      type: auxiliary
+    - 
+      content: "[ء آ ؤ ئ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ه ھ ہ و ی ے]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              HHmmss: 
+                content: HH:mm:ss
+              Md: 
+                content: d/M
+              mmss: 
+                content: mm:ss
+              yMMM: 
+                content: MMM y
+              yQQQ: 
+                content: QQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, dd MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              HHmmss: 
+                content: HH:mm:ss
+              Md: 
+                content: d/M
+              mmss: 
+                content: mm:ss
+              yMMM: 
+                content: MMM y
+              yQQQ: 
+                content: QQQ y
+        days: 
+          dayContext: 
+            dayWidth: 
+              day: 
+                - 
+                  content: اتوار
+                  type: sun
+                - 
+                  content: پیر
+                  type: mon
+                - 
+                  content: منگل
+                  type: tue
+                - 
+                  content: بُدھ
+                  type: wed
+                - 
+                  content: جمعرات
+                  type: thu
+                - 
+                  content: جمعہ
+                  type: fri
+                - 
+                  content: ہفتہ
+                  type: sat
+              type: wide
+            type: format
+        eras: 
+          eraNames: 
+            era: 
+              - 
+                content: ايساپورو
+                type: 0
+              - 
+                content: سں
+                type: 1
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: جنوری
+                  type: 1
+                - 
+                  content: فروری
+                  type: 2
+                - 
+                  content: مارچ
+                  type: 3
+                - 
+                  content: اپریل
+                  type: 4
+                - 
+                  content: مئ
+                  type: 5
+                - 
+                  content: جون
+                  type: 6
+                - 
+                  content: جولائی
+                  type: 7
+                - 
+                  content: اگست
+                  type: 8
+                - 
+                  content: ستمبر
+                  type: 9
+                - 
+                  content: اکتوبر
+                  type: 10
+                - 
+                  content: نومبر
+                  type: 11
+                - 
+                  content: دسمبر
+                  type: 12
+              type: wide
+            type: format
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              quarter: 
+                - 
+                  content: چوتھاي پہلاں
+                  type: 1
+                - 
+                  content: چوتھاي دوجا
+                  type: 2
+                - 
+                  content: چوتھاي تيجا
+                  type: 3
+                - 
+                  content: چوتھاي چوتھا
+                  type: 4
+              type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: ورھا
+        type: year
+      - 
+        displayName: مہينا
+        type: month
+      - 
+        displayName: ہفتہ
+        type: week
+      - 
+        displayName: دئن
+        type: day
+      - 
+        displayName: ہفتے دا دن
+        type: weekday
+      - 
+        displayName: گھنٹا
+        type: hour
+      - 
+        displayName: منٹ
+        type: minute
+      - 
+        displayName: ٹپہ
+        type: zone
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: pa
+  script: 
+    type: Arab
+  version: 
+    number: "$Revision: 8245 $"
+layout: 
+  orientation: 
+    characterOrder: right-to-left
+localeDisplayNames: 
+  languages: 
+    language: 
+      content: پنجاب
+      type: pa
+  scripts: 
+    script: 
+      - 
+        content: العربية
+        type: Arab
+      - 
+        content: گُرمُکھی
+        type: Guru
+  territories: 
+    territory: 
+      content: پکستان
+      type: PK
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: يورو
+        type: EUR
+      - 
+        displayName: روپئیہ [INR]
+        type: INR
+      - 
+        displayName: روپئیہ
+        symbol: ر
+        type: PKR
+  defaultNumberingSystem: arabext
+  otherNumberingSystems: 
+    native: arabext
+posix: 
+  messages: 
+    nostr: نہيں
+    yesstr: ہاں

@@ -1,0 +1,1266 @@
+characters: 
+  exemplarCharacters: "[꘠-꘩ ꔀ-ꔌ ꘓ ꔍ-ꔞ ꘔ ꔟ-ꔳ ꘕ ꔴ-ꕇ ꘖ ꕈ-ꕒ ꘗ ꕓ-ꕘ ꘐ ꘘ ꕙ ꕚ ꘙ ꕛ-ꕠ ꘚ ꕡ-ꕪ ꘑ ꕫ-ꕮ ꘪ ꕯ-ꖅ ꘛ ꖆ ꖇ ꘒ ꖈ-ꖴ ꘜ ꖵ-ꗋ ꘝ ꗌ-ꗑ ꘫ ꘞ ꗒ-ꗘ ꘟ ꗙ-ꘌ]"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        days: 
+          dayContext: 
+            dayWidth: 
+              day: 
+                - 
+                  content: ꕞꕌꔵ
+                  type: sun
+                - 
+                  content: ꗳꗡꘉ
+                  type: mon
+                - 
+                  content: ꕚꕞꕚ
+                  type: tue
+                - 
+                  content: ꕉꕞꕒ
+                  type: wed
+                - 
+                  content: ꕉꔤꕆꕢ
+                  type: thu
+                - 
+                  content: ꕉꔤꕀꕮ
+                  type: fri
+                - 
+                  content: ꔻꔬꔳ
+                  type: sat
+              type: wide
+            type: format
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: ꖨꕪꖃ ꔞꕮ
+                  type: 1
+                - 
+                  content: ꕒꕡꖝꖕ
+                  type: 2
+                - 
+                  content: ꕾꖺ
+                  type: 3
+                - 
+                  content: ꖢꖕ
+                  type: 4
+                - 
+                  content: ꖑꕱ
+                  type: 5
+                - 
+                  content: 6
+                  type: 6
+                - 
+                  content: 7
+                  type: 7
+                - 
+                  content: ꗛꔕ
+                  type: 8
+                - 
+                  content: ꕢꕌ
+                  type: 9
+                - 
+                  content: ꕭꖃ
+                  type: 10
+                - 
+                  content: ꔞꘋꕔꕿ ꕸꖃꗏ
+                  type: 11
+                - 
+                  content: ꖨꕪꕱ ꗏꕮ
+                  type: 12
+              type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: ꕢꘋ
+        type: year
+      - 
+        displayName: ꕪꖃ
+        type: month
+      - 
+        displayName: ꔨꔤꕃ
+        type: week
+      - 
+        displayName: ꔎꔒ
+        relative: 
+          - 
+            content: ꖴꖸ
+            type: -1
+          - 
+            content: ꗦꗷ
+            type: 0
+          - 
+            content: ꔻꕯ
+            type: 1
+        type: day
+      - 
+        displayName: ꔨꕃꕮ ꔎꔒ
+        type: weekday
+      - 
+        displayName: ꕌꕎ
+        type: hour
+      - 
+        displayName: ꕆꕇ
+        type: minute
+      - 
+        displayName: ꕧꕃꕧꕪ
+        type: second
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: vai
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: ꕉꕪꘋ
+        type: ak
+      - 
+        content: ꕉꕆꕌꔸ
+        type: am
+      - 
+        content: ꕞꕌꖝ
+        type: ar
+      - 
+        content: ꔆꕞꖩꔻ
+        type: be
+      - 
+        content: ꗂꔠꗸꘋ
+        type: bg
+      - 
+        content: ꗩꕭꔷ
+        type: bn
+      - 
+        content: ꗿꗡ
+        type: cs
+      - 
+        content: ꕧꕮꔧ
+        type: de
+      - 
+        content: ꗥꗷꘋ
+        type: el
+      - 
+        content: ꕶꕱ
+        type: en
+      - 
+        content: ꕐꘊꔧ
+        type: es
+      - 
+        content: ꗨꗡꔻꘂꘋ
+        type: fa
+      - 
+        content: ꗱꘋꔻ
+        type: fr
+      - 
+        content: ꕌꖙꕢ
+        type: ha
+      - 
+        content: ꔦꔺ
+        type: hi
+      - 
+        content: ꖽꔟꗸꘋ
+        type: hu
+      - 
+        content: ꔤꖆꕇꔻꘂꘋ
+        type: id
+      - 
+        content: ꔤꕼ
+        type: ig
+      - 
+        content: ꔤꕚꔷꘂꘋ
+        type: it
+      - 
+        content: ꕧꕐꕇꔧ
+        type: ja
+      - 
+        content: ꕧꕙꕇꔧ
+        type: jv
+      - 
+        content: ꕃꘈꗢ
+        type: km
+      - 
+        content: ꖏꔸꘂꘋ
+        type: ko
+      - 
+        content: ꕮꔒꔀ
+        type: ms
+      - 
+        content: ꗩꕆꔻ
+        type: my
+      - 
+        content: ꕇꕐꔷ
+        type: ne
+      - 
+        content: ꗍꔿ
+        type: nl
+      - 
+        content: ꖛꕨꔬ
+        type: pa
+      - 
+        content: ꗁꔒꔻ
+        type: pl
+      - 
+        content: ꕶꕿꕃꔤ
+        type: pt
+      - 
+        content: ꖄꕆꕇꘂꘋ
+        type: ro
+      - 
+        content: ꗐꖺꔻꘂꘋ
+        type: ru
+      - 
+        content: ꕟꖙꕡ
+        type: rw
+      - 
+        content: ꖇꕮꔷ
+        type: so
+      - 
+        content: ꖬꔨꗵꘋ
+        type: sv
+      - 
+        content: ꕚꕆꔷ
+        type: ta
+      - 
+        content: ꕚꔤ
+        type: th
+      - 
+        content: ꗋꕃ
+        type: tr
+      - 
+        content: ꖳꖴꔓꕇꘂꘋ
+        type: uk
+      - 
+        content: ꖺꖦ
+        type: ur
+      - 
+        content: ꕙꔤ
+        type: vai
+      - 
+        content: ꔲꕩꕯꕆꔧ
+        type: vi
+      - 
+        content: ꖎꖄꕑ
+        type: yo
+      - 
+        content: ꕦꕇꔧ
+        type: zh
+      - 
+        content: ꖮꖨ
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: ꕉꖆꕟ
+        type: AD
+      - 
+        content: ꖳꕯꔤꗳ ꕉꕟꔬ ꗡꕆꔓꔻ
+        type: AE
+      - 
+        content: ꕉꔱꕭꔕꔻꕚꘋ
+        type: AF
+      - 
+        content: ꕉꘋꔳꖶꕎ ꗪ ꕑꖜꕜ
+        type: AG
+      - 
+        content: ꕉꕄꕞ
+        type: AI
+      - 
+        content: ꕉꔷꕑꕇꕩ
+        type: AL
+      - 
+        content: ꕉꕆꕯ
+        type: AM
+      - 
+        content: ꘉꕜ ꖨꕮꕊ ꕉꘋꔳꔷ
+        type: AN
+      - 
+        content: ꕉꖐꕞ
+        type: AO
+      - 
+        content: ꕉꘀꘋꔳꕯ
+        type: AR
+      - 
+        content: ꕶꕱ ꕢꕹꕎ
+        type: AS
+      - 
+        content: ꖺꔻꖤꕎ
+        type: AT
+      - 
+        content: ꖺꖬꖤꔃꔷꕩ
+        type: AU
+      - 
+        content: ꕉꖩꕑ
+        type: AW
+      - 
+        content: ꕉꕤꕑꔤꕧꘋ
+        type: AZ
+      - 
+        content: ꕷꔻꕇꕰ ꗪ ꗥꕤꖑꔲꕯ
+        type: BA
+      - 
+        content: ꕑꔆꖁꔻ
+        type: BB
+      - 
+        content: ꕑꕅꕞꗵꔼ
+        type: BD
+      - 
+        content: ꗩꕀꗚꘋ
+        type: BE
+      - 
+        content: ꕷꕃꕯ ꕘꖇ
+        type: BF
+      - 
+        content: ꗂꔠꔸꕩ
+        type: BG
+      - 
+        content: ꕑꗸꘋ
+        type: BH
+      - 
+        content: ꖜꖩꔺ
+        type: BI
+      - 
+        content: ꗩꕇꘋ
+        type: BJ
+      - 
+        content: ꗩꖷꕜ
+        type: BM
+      - 
+        content: ꖜꖩꘉꔧ
+        type: BN
+      - 
+        content: ꕷꔷꔲꕩ
+        type: BO
+      - 
+        content: ꖜꕟꔘꔀ
+        type: BR
+      - 
+        content: ꕑꕌꕮꔻ
+        type: BS
+      - 
+        content: ꖜꕚꘋ
+        type: BT
+      - 
+        content: ꕷꖬꕎꕯ
+        type: BW
+      - 
+        content: ꗩꕞꖩꔻ
+        type: BY
+      - 
+        content: ꔆꔷꔘ
+        type: BZ
+      - 
+        content: ꕪꕯꕜ
+        type: CA
+      - 
+        content: ꖏꖐ ꗵꗞꖴꕟꔎ ꕸꖃꔀ
+        type: CD
+      - 
+        content: ꕉꔱꔸꕪ ꗳ ꗳ ꕸꖃꔀ
+        type: CF
+      - 
+        content: ꖏꖐ
+        type: CG
+      - 
+        content: ꖬꔃꕤ ꖨꕮꕊ
+        type: CH
+      - 
+        content: ꖏꔳ ꕾꕎ
+        type: CI
+      - 
+        content: ꖏꕃ ꔳꘋꗣ
+        type: CK
+      - 
+        content: ꔚꔷ
+        type: CL
+      - 
+        content: ꕪꔈꖩꘋ
+        type: CM
+      - 
+        content: ꕦꔤꕯ
+        type: CN
+      - 
+        content: ꗛꗏꔭꕩ
+        type: CO
+      - 
+        content: ꖏꔻꕚ ꔸꕪ
+        type: CR
+      - 
+        content: ꕃꖳꕑ
+        type: CU
+      - 
+        content: ꔞꔪ ꗲꔵ ꔳꘋꗣ
+        type: CV
+      - 
+        content: ꕢꗡꖛꗐꔻ
+        type: CY
+      - 
+        content: ꗿꕃ ꕸꖃꔀ
+        type: CZ
+      - 
+        content: ꕧꕮꔧ
+        type: DE
+      - 
+        content: ꕀꖜꔳ
+        type: DJ
+      - 
+        content: ꕜꕇꕮꕃ
+        type: DK
+      - 
+        content: ꖁꕆꕇꕪ
+        type: DM
+      - 
+        content: ꖁꕆꕇꕪꘋ ꕸꕱꔀ
+        type: DO
+      - 
+        content: ꕉꔷꔠꔸꕩ
+        type: DZ
+      - 
+        content: ꗡꖴꔃꗍ
+        type: EC
+      - 
+        content: ꗡꔻꕿꕇꕰ
+        type: EE
+      - 
+        content: ꕆꔖꕞ
+        type: EG
+      - 
+        content: ꔀꔸꔳꕟ
+        type: ER
+      - 
+        content: ꕐꘊꔧ
+        type: ES
+      - 
+        content: ꔤꔳꖎꔪꕩ
+        type: ET
+      - 
+        content: ꔱꘋ ꖨꕮꕊ
+        type: FI
+      - 
+        content: ꔱꔤꕀ
+        type: FJ
+      - 
+        content: ꕘꔷꕃ ꖨꕮ ꔳꘋꗣ
+        type: FK
+      - 
+        content: ꕆꖏꕇꔻꕩ
+        type: FM
+      - 
+        content: ꖢꕟꘋꔻ
+        type: FR
+      - 
+        content: ꕭꕷꘋ
+        type: GA
+      - 
+        content: ꖕꕯꔤꗳ
+        type: GB
+      - 
+        content: ꖶꕟꕯꕜ
+        type: GD
+      - 
+        content: ꗘꖺꕀꕩ
+        type: GE
+      - 
+        content: ꗱꘋꔻ ꖶꕎꕯ
+        type: GF
+      - 
+        content: ꕭꕌꕯ
+        type: GH
+      - 
+        content: ꕀꖜꕟꕚ
+        type: GI
+      - 
+        content: ꕧꕓ ꖴꕎ ꖨꕮꕊ
+        type: GL
+      - 
+        content: ꕭꔭꕩ
+        type: GM
+      - 
+        content: ꕅꔤꕇ
+        type: GN
+      - 
+        content: ꖶꕎꔐꖨꔅ
+        type: GP
+      - 
+        content: ꖦꕰꕊ ꗳ ꕅꔤꕇ
+        type: GQ
+      - 
+        content: ꗥꗷꘋ
+        type: GR
+      - 
+        content: ꖶꕎꔎꕮꕞ
+        type: GT
+      - 
+        content: ꖶꕎꕆ
+        type: GU
+      - 
+        content: ꕅꔤꕇ ꔫꕢꕴ
+        type: GW
+      - 
+        content: ꖶꕩꕯ
+        type: GY
+      - 
+        content: ꖽꖫꕟ
+        type: HN
+      - 
+        content: ꖏꔓꔻꕩ
+        type: HR
+      - 
+        content: ꕌꔤꔳ
+        type: HT
+      - 
+        content: ꖽꘋꕭꔓ
+        type: HU
+      - 
+        content: ꔤꖆꕇꔻꕩ
+        type: ID
+      - 
+        content: ꕉꔓ ꖨꕮꕊ
+        type: IE
+      - 
+        content: ꕑꕇꔻꕞꔤꕞ
+        type: IL
+      - 
+        content: ꔤꔺꕩ
+        type: IN
+      - 
+        content: ꔛꔟꔻ ꔤꔺꕩ ꗛꔤꘂ ꕗꕴꔀ ꕮ
+        type: IO
+      - 
+        content: ꔤꕟꕃ
+        type: IQ
+      - 
+        content: ꔤꕟꘋ
+        type: IR
+      - 
+        content: ꕉꔤꔻ ꖨꕮꕊ
+        type: IS
+      - 
+        content: ꔤꕚꔷ
+        type: IT
+      - 
+        content: ꕧꕮꔧꕪ
+        type: JM
+      - 
+        content: ꗘꖺꗵꘋ
+        type: JO
+      - 
+        content: ꔛꗨꗢ
+        type: JP
+      - 
+        content: ꔞꕰ
+        type: KE
+      - 
+        content: ꕃꕅꔻꕚꘋ
+        type: KG
+      - 
+        content: ꕪꕹꔵꕩ
+        type: KH
+      - 
+        content: ꕃꔸꕑꔳ
+        type: KI
+      - 
+        content: ꖏꕹꖄꔻ
+        type: KM
+      - 
+        content: ꔻꘋ ꕃꔳꔻ ꗪ ꔕꔲꔻ
+        type: KN
+      - 
+        content: ꖏꔸꕩ ꗛꔤ ꕪꘋꗒ
+        type: KP
+      - 
+        content: ꖏꔸꕩ ꗛꔤ ꔒꘋꗣ ꗏ
+        type: KR
+      - 
+        content: ꖴꔃꔳ
+        type: KW
+      - 
+        content: ꔞꔀꕮꘋ ꔳꘋꗣ
+        type: KY
+      - 
+        content: ꕪꕤꔻꕚꘋ
+        type: KZ
+      - 
+        content: ꕞꕴꔻ
+        type: LA
+      - 
+        content: ꔒꕑꗟꘋ
+        type: LB
+      - 
+        content: ꔻꘋ ꖨꔻꕩ
+        type: LC
+      - 
+        content: ꔷꗿꘋꔻꗳꘋ
+        type: LI
+      - 
+        content: ꖬꔸ ꕞꘋꕪ
+        type: LK
+      - 
+        content: ꕞꔤꔫꕩ
+        type: LR
+      - 
+        content: ꔷꖇꕿ
+        type: LS
+      - 
+        content: ꔷꖤꔃꕇꕰ
+        type: LT
+      - 
+        content: ꗏꔻꘋꗂꖺ
+        type: LU
+      - 
+        content: ꕞꔳꔲꕩ
+        type: LV
+      - 
+        content: ꔒꔫꕩ
+        type: LY
+      - 
+        content: ꗞꕟꖏ
+        type: MA
+      - 
+        content: ꗞꕯꖏ
+        type: MC
+      - 
+        content: ꖒꔷꖁꕙ
+        type: MD
+      - 
+        content: ꕮꕜꕭꔻꕪ
+        type: MG
+      - 
+        content: ꕮꕊꕣ ꔳꘋꗣ
+        type: MH
+      - 
+        content: ꕮꔖꖁꕇꕰ
+        type: MK
+      - 
+        content: ꕮꔷ
+        type: ML
+      - 
+        content: ꕆꕩꘋꕮ
+        type: MM
+      - 
+        content: ꗞꖐꔷꕩ
+        type: MN
+      - 
+        content: ꗛꔤ ꕪꘋꗒ ꕮꔸꕩꕯ ꔳꘋꗣ
+        type: MP
+      - 
+        content: ꕮꔳꕇꕃ
+        type: MQ
+      - 
+        content: ꗞꔓꔎꕇꕰ
+        type: MR
+      - 
+        content: ꗞꘋꔖꕟꔳ
+        type: MS
+      - 
+        content: ꕮꕊꕚ
+        type: MT
+      - 
+        content: ꗞꔓꗔ
+        type: MU
+      - 
+        content: ꕮꔷꕜꔍ
+        type: MV
+      - 
+        content: ꕮꕞꕌꔨ
+        type: MW
+      - 
+        content: ꘈꔻꖏ
+        type: MX
+      - 
+        content: ꕮꔒꔻꕩ
+        type: MY
+      - 
+        content: ꕹꕤꔭꕃ
+        type: MZ
+      - 
+        content: ꕯꕆꔫꕩ
+        type: NA
+      - 
+        content: ꕪꔷꖁꕇꕰ ꕯꕮꕊ
+        type: NC
+      - 
+        content: ꕯꔤꕧ
+        type: NE
+      - 
+        content: ꗟꖺꗉ ꔳꘋꗣ
+        type: NF
+      - 
+        content: ꕯꔤꕀꔸꕩ
+        type: NG
+      - 
+        content: ꕇꕪꕟꖶꕎ
+        type: NI
+      - 
+        content: ꘉꕜ ꖨꕮꕊ
+        type: NL
+      - 
+        content: ꗟꖺꔃ
+        type: 'NO'
+      - 
+        content: ꕇꕐꔷ
+        type: NP
+      - 
+        content: ꖆꖩ
+        type: NR
+      - 
+        content: ꖸꔃꔤ
+        type: NU
+      - 
+        content: ꔽꔤ ꖨꕮ ꕯꕮꕊ
+        type: NZ
+      - 
+        content: ꕱꕮꘋ
+        type: OM
+      - 
+        content: ꕐꕯꕮ
+        type: PA
+      - 
+        content: ꗨꗡꖩ
+        type: PE
+      - 
+        content: ꗱꘋꔻ ꕶꔷꕇꔻꕩ
+        type: PF
+      - 
+        content: ꕐꖛꕎ ꕅꔤꕇ ꕯꕮꕊ
+        type: PG
+      - 
+        content: ꔱꔒꔪꘋ
+        type: PH
+      - 
+        content: ꕐꕃꔻꕚꘋ
+        type: PK
+      - 
+        content: ꕶꗷꘋ
+        type: PL
+      - 
+        content: ꔻꘋ ꔪꘂ ꗪ ꕆꔞꗏꘋ
+        type: PM
+      - 
+        content: ꔪꔳꕪꕆ
+        type: PN
+      - 
+        content: ꔪꖳꕿ ꔸꖏ
+        type: PR
+      - 
+        content: ꕐꔒꔻꔳꕯ ꔎꔒ ꕀꔤ ꗛꔤ ꕞ ꗱ ꗪ ꕭꕌꕤ
+        type: PS
+      - 
+        content: ꕶꕿꕃꔤ ꕸꖃꔀ
+        type: PT
+      - 
+        content: ꕐꖃ
+        type: PW
+      - 
+        content: ꕐꕟꗝꔀ
+        type: PY
+      - 
+        content: ꕪꕚꕌ
+        type: QA
+      - 
+        content: ꔓꗠꖻ
+        type: RE
+      - 
+        content: ꖄꕆꕇꕰ
+        type: RO
+      - 
+        content: ꗐꖺꔻꕩ
+        type: RU
+      - 
+        content: ꕟꖙꕡ
+        type: RW
+      - 
+        content: ꕞꕌꖝ ꕸꖃꔀ
+        type: SA
+      - 
+        content: ꖬꕞꔤꕮꕊꕯ ꔳꘋꗣ
+        type: SB
+      - 
+        content: ꔖꗼꔷ
+        type: SC
+      - 
+        content: ꖬꗵꘋ
+        type: SD
+      - 
+        content: ꖬꔨꗵꘋ
+        type: SE
+      - 
+        content: ꔻꕬꕶꕱ
+        type: SG
+      - 
+        content: ꔻꘋ ꗥꔷꕯ
+        type: SH
+      - 
+        content: ꔻꖃꔍꕇꕰ
+        type: SI
+      - 
+        content: ꔻꖃꕙꕃꕩ
+        type: SK
+      - 
+        content: ꔋꕩ ꕒꕌꖺ ꕸꖃꔀ
+        type: SL
+      - 
+        content: ꕮꔸꖆ ꕢꘋ
+        type: SM
+      - 
+        content: ꔻꕇꕭꕌ
+        type: SN
+      - 
+        content: ꖇꕮꔷꕩ
+        type: SO
+      - 
+        content: ꖬꔸꕯꔈ
+        type: SR
+      - 
+        content: ꕢꕴ ꕿꔈ ꗪ ꕉ ꕮꔧ ꕗꕴꔀ
+        type: ST
+      - 
+        content: ꗡꗷ ꕢꔍꗍꖺ
+        type: SV
+      - 
+        content: ꔻꕩꘋ
+        type: SY
+      - 
+        content: ꖬꕎꔽ ꖨꕮꕊ
+        type: SZ
+      - 
+        content: ꗋꖺꕃꔻ ꗪ ꕪꔤꖏꔻ ꔳꘋꗣ
+        type: TC
+      - 
+        content: ꕦꔵ
+        type: TD
+      - 
+        content: ꕿꖑ
+        type: TG
+      - 
+        content: ꕚꔤ ꖨꕮꕊ
+        type: TH
+      - 
+        content: ꕚꕀꕃꔻꕚꘋ
+        type: TJ
+      - 
+        content: ꕿꔞꖃ
+        type: TK
+      - 
+        content: ꔎꔒ ꗃ ꔳꗞꖻ
+        type: TL
+      - 
+        content: ꗋꖺꕃꕮꕇꔻꕚꘋ
+        type: TM
+      - 
+        content: ꖤꕇꔻꕩ
+        type: TN
+      - 
+        content: ꗋꕬ
+        type: TO
+      - 
+        content: ꗋꖺꕃ
+        type: TR
+      - 
+        content: ꖤꔸꔕꕜ ꗪ ꕿꔆꖑ
+        type: TT
+      - 
+        content: ꕚꖣꖨ
+        type: TV
+      - 
+        content: ꕚꔤꕎꘋ
+        type: TW
+      - 
+        content: ꕚꘋꕤꕇꕰ
+        type: TZ
+      - 
+        content: ꖳꖴꔓꘋ
+        type: UA
+      - 
+        content: ꖳꕭꕡ
+        type: UG
+      - 
+        content: ꕶꕱ
+        type: US
+      - 
+        content: ꖳꔓꗝꔀ
+        type: UY
+      - 
+        content: ꖳꗩꕃꔻꕚꘋ
+        type: UZ
+      - 
+        content: ꔻꘋ ꔲꘋꔻꘋ ꗪ ꖶꔓꕯꔵꘋ ꖸ
+        type: VC
+      - 
+        content: ꕙꔳꕪꘋ ꕸꖃꔀ
+        type: VE
+      - 
+        content: ꔛꔟꔻ ꗩꗡ ꗏ ꖷꖬ ꔳꘋꗣ
+        type: VG
+      - 
+        content: ꕶꕱ ꗩꗡ ꗏ ꖷꖬ ꔳꘋꗣ
+        type: VI
+      - 
+        content: ꗲꕇꖮꔃꕞ
+        type: VN
+      - 
+        content: ꕙꖸꕎꖤ
+        type: VU
+      - 
+        content: ꕎꔷꔻ ꗪ ꖢꖤꕯ
+        type: WF
+      - 
+        content: ꕢꕹꖙꕉ
+        type: WS
+      - 
+        content: ꔝꘈꘋ
+        type: YE
+      - 
+        content: ꕮꗚꔎ
+        type: YT
+      - 
+        content: ꕉꔱꔸꕪ ꗛꔤ ꔒꘋꗣ ꗏ ꕸꖃꔀ
+        type: ZA
+      - 
+        content: ꕤꔭꕩ
+        type: ZM
+      - 
+        content: ꔽꕓꖜꔃ
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: ꖳꕯꔤꗳ ꕉꕟꔬ ꗡꕆꔓꔻ ꔵꕌꕆ
+        type: AED
+      - 
+        displayName: ꕉꖐꕞ ꖴꕎꘋꕤ
+        type: AOA
+      - 
+        displayName: ꖺꔻꖤꔃꔷꕩ ꕜꕞꕌ
+        type: AUD
+      - 
+        displayName: ꕑꗸꘋ
+        type: BHD
+      - 
+        displayName: ꖜꖩꔺ ꖢꕟꘋꕃ
+        type: BIF
+      - 
+        displayName: ꕷꖬꕎꕯ ꖛꕞ
+        type: BWP
+      - 
+        displayName: ꕪꕯꕜ ꕜꕞꕌ
+        type: CAD
+      - 
+        displayName: ꖏꖐꕱ ꖢꕟꘋꕃ
+        type: CDF
+      - 
+        displayName: ꖬꔃꕤ ꖨꕮꕊ ꖢꕟꘋꕃ
+        type: CHF
+      - 
+        displayName: ꕦꕇꔧ ꖳꕎꘋ ꔓꕆꘋꔬ
+        type: CNY
+      - 
+        displayName: ꗡꔻꖴꖁ ꕪꕷꗲꗡꔵꕩꖆ
+        type: CVE
+      - 
+        displayName: ꕀꖜꔳ ꖢꕟꘋꕃ
+        type: DJF
+      - 
+        displayName: ꕉꔷꕀꔸꕩ ꔵꕯ
+        type: DZD
+      - 
+        displayName: ꕆꔻꕞ ꗁꖻꘋ
+        type: EGP
+      - 
+        displayName: ꔀꔸꔳꕟ ꗁꖻꘋ
+        type: ERN
+      - 
+        displayName: ꔤꕿꖎꔪꕩ ꔫꔤ
+        type: ETB
+      - 
+        displayName: ꖳꖄ
+        type: EUR
+      - 
+        displayName: ꔛꔟꔻ ꗁꖻꘋ ꔻꗳꔷꘋ
+        type: GBP
+      - 
+        displayName: ꕭꕌꕯ ꔻꔵ
+        type: GHC
+      - 
+        displayName: ꕭꔭꕩ ꕜꕞꔻ
+        type: GMD
+      - 
+        displayName: ꕅꔤꕇ ꖢꕟꘋꕃ
+        type: GNS
+      - 
+        displayName: ꔤꔺꕩ ꖩꔪ
+        type: INR
+      - 
+        displayName: ꕧꕐꕇꔧ ꘂꘋ
+        type: JPY
+      - 
+        displayName: ꔞꕰ ꔻꔝꘋ
+        type: KES
+      - 
+        displayName: ꖏꖒꖄ ꖢꕟꘋꕃ
+        type: KMF
+      - 
+        displayName: ꕞꔤꔫꕩ ꕜꕞꕌ
+        symbol: $
+        type: LRD
+      - 
+        displayName: ꔷꖇꕿ ꖃꔳ
+        type: LSL
+      - 
+        displayName: ꔷꔫꕩ ꔵꕯ
+        type: LYD
+      - 
+        displayName: ꗞꕟꖏ ꔵꕌꕆ
+        type: MAD
+      - 
+        displayName: ꕮꕞꕭꕌꔻ ꕉꔸꕩꔸ
+        type: MGA
+      - 
+        displayName: ꗞꔸꕚꕇꕰ ꖳꕅꕩ
+        type: MRO
+      - 
+        displayName: ꗞꔓꗔ ꖩꔪ
+        type: MUR
+      - 
+        displayName: ꕮꕞꕌꔨ ꖴꕎꕦ
+        type: MWK
+      - 
+        displayName: ꗞꕤꔭꕃ ꕆꔳꕪ
+        type: MZM
+      - 
+        displayName: ꕯꕆꔫꕩ ꕜꕞꕌ
+        type: NAD
+      - 
+        displayName: ꕯꔤꕀꔸꕩ ꕯꔤꕟ
+        type: NGN
+      - 
+        displayName: ꕟꖙꕡ ꖢꕟꘋꕃ
+        type: RWF
+      - 
+        displayName: ꕢꖙꔵ ꔸꕩꔷ
+        type: SAR
+      - 
+        displayName: ꔖꗼꔷ ꖩꔪ
+        type: SCR
+      - 
+        displayName: ꖬꗵꘋ ꗁꖻꘋ
+        type: SDG
+      - 
+        displayName: ꔻꘋ ꗥꔷꕯ ꗁꖻꘋ
+        type: SHP
+      - 
+        displayName: ꔷꗚꘋ
+        type: SLL
+      - 
+        displayName: ꖇꕮꔷ ꔻꔝꘋ
+        type: SOS
+      - 
+        displayName: ꕢꕴ ꕿꔈ ꗪ ꕉ ꕗꕴ ꖁꖜꕟ
+        type: STD
+      - 
+        displayName: ꔷꕞꔟꕇ
+        type: SZL
+      - 
+        displayName: ꖤꕇꔻꕩ ꔵꕯ
+        type: TND
+      - 
+        displayName: ꕚꘋꕤꕇꕰ ꔻꔝꘋ
+        type: TZS
+      - 
+        displayName: ꖳꕭꕡ ꔻꔝꘋ
+        type: UGX
+      - 
+        displayName: ꕶꕱ ꕜꕞ
+        type: USD
+      - 
+        displayName: ꕉꔱꔸꕪ ꗛꔤ ꔒꘋꗣ ꗏ ꕟꘋꔵ
+        type: ZAR
+      - 
+        displayName: ꕤꔭꕩ ꖴꕎꕦ (1968-2012)
+        type: ZMK
+      - 
+        displayName: ꕤꔭꕩ ꖴꕎꕦ
+        type: ZMW
+      - 
+        displayName: ꔽꕓꖜꔃ ꕜꕞ
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##0.###"
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: vaii
+  symbols: 
+    decimal: .
+    group: ","
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: ꔉꔒ
+    yesstr: yes:y

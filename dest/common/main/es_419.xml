@@ -1,0 +1,437 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              content: E d/M/y G
+              draft: contributed
+              id: yMEd
+        type: generic
+      - 
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              content: E d/M/y
+              draft: contributed
+              id: yMEd
+        days: 
+          dayContext: 
+            dayWidth: 
+              day: 
+                - 
+                  content: D
+                  type: sun
+                - 
+                  content: L
+                  type: mon
+                - 
+                  content: M
+                  type: tue
+                - 
+                  content: M
+                  type: wed
+                - 
+                  content: J
+                  type: thu
+                - 
+                  content: V
+                  type: fri
+                - 
+                  content: S
+                  type: sat
+              type: narrow
+            type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              quarter: 
+                - 
+                  content: 1
+                  draft: contributed
+                  type: 1
+                - 
+                  content: 2
+                  draft: contributed
+                  type: 2
+                - 
+                  content: 3
+                  draft: contributed
+                  type: 3
+                - 
+                  content: 4
+                  draft: contributed
+                  type: 4
+              type: narrow
+            type: format
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        relative: 
+          - 
+            content: Año pasado
+            draft: contributed
+            type: -1
+          - 
+            content: Este año
+            draft: contributed
+            type: 0
+          - 
+            content: Año próximo
+            draft: contributed
+            type: 1
+        type: year
+      - 
+        relative: 
+          - 
+            content: El mes pasado
+            draft: contributed
+            type: -1
+          - 
+            content: Este mes
+            draft: contributed
+            type: 0
+          - 
+            content: Mes próximo
+            draft: contributed
+            type: 1
+        type: month
+      - 
+        relative: 
+          - 
+            content: Semana pasada
+            draft: contributed
+            type: -1
+          - 
+            content: Esta semana
+            draft: contributed
+            type: 0
+          - 
+            content: Próxima semana
+            draft: contributed
+            type: 1
+        type: week
+  timeZoneNames: 
+    metazone: 
+      - 
+        short: 
+          daylight: CDT
+          generic: CT
+          standard: CST
+        type: America_Central
+      - 
+        short: 
+          daylight: EDT
+          generic: ET
+          standard: EST
+        type: America_Eastern
+      - 
+        short: 
+          daylight: MDT
+          generic: MT
+          standard: MST
+        type: America_Mountain
+      - 
+        short: 
+          daylight: PDT
+          generic: PT
+          standard: PST
+        type: America_Pacific
+    zone: 
+      - 
+        exemplarCity: 
+          content: Atikokan
+          draft: contributed
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: 
+          content: Winamac, Indiana
+          draft: contributed
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: 
+          content: Monticello, Kentucky
+          draft: contributed
+        type: America/Kentucky/Monticello
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: es
+  territory: 
+    type: 419
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  keys: 
+    key: 
+      content: Números
+      draft: contributed
+      type: numbers
+  languages: 
+    language: 
+      - 
+        alt: variant
+        content: Pastú
+        draft: contributed
+        type: ps
+      - 
+        alt: variant
+        content: Uyghur
+        draft: contributed
+        type: ug
+  measurementSystemNames: 
+    measurementSystemName: 
+      content: Reino Unido
+      draft: contributed
+      type: UK
+  scripts: 
+    script: 
+      - 
+        alt: stand-alone
+        content: Han simplificado
+        draft: contributed
+        type: Hans
+      - 
+        alt: stand-alone
+        content: Han tradicional
+        draft: contributed
+        type: Hant
+  transformNames: 
+    transformName: 
+      content: Numéricas
+      draft: contributed
+      type: Numeric
+  types: 
+    type: 
+      calendar: 
+        content: Calendario persa
+        draft: contributed
+        type: persian
+      collation: 
+        content: Orden de clasificación de trazos radicales
+        draft: contributed
+        type: unihan
+      numbers: 
+        content: Dígitos tibetanos
+        draft: contributed
+        type: tibt
+numbers: 
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: 
+          content: ¤#,##0.00
+          draft: contributed
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: 
+          - 
+            content: 0
+            count: one
+            draft: contributed
+            type: 1000
+          - 
+            content: 0
+            count: other
+            draft: contributed
+            type: 1000
+          - 
+            content: 00k
+            count: one
+            draft: contributed
+            type: 10000
+          - 
+            content: 00k
+            count: other
+            draft: contributed
+            type: 10000
+          - 
+            content: 000k
+            count: one
+            draft: contributed
+            type: 100000
+          - 
+            content: 000k
+            count: other
+            draft: contributed
+            type: 100000
+          - 
+            content: 0 M
+            count: one
+            draft: contributed
+            type: 1000000
+          - 
+            content: 0 M
+            count: other
+            draft: contributed
+            type: 1000000
+          - 
+            content: 00 M
+            count: one
+            draft: contributed
+            type: 10000000
+          - 
+            content: 00 M
+            count: other
+            draft: contributed
+            type: 10000000
+          - 
+            content: 000 M
+            count: one
+            draft: contributed
+            type: 100000000
+          - 
+            content: 000 M
+            count: other
+            draft: contributed
+            type: 100000000
+          - 
+            content: 0k M
+            count: one
+            draft: contributed
+            type: '1000000000'
+          - 
+            content: 0k M
+            count: other
+            draft: contributed
+            type: '1000000000'
+          - 
+            content: 00k M
+            count: one
+            draft: contributed
+            type: '10000000000'
+          - 
+            content: 00k M
+            count: other
+            draft: contributed
+            type: '10000000000'
+          - 
+            content: 000k M
+            count: one
+            draft: contributed
+            type: '100000000000'
+          - 
+            content: 000k M
+            count: other
+            draft: contributed
+            type: '100000000000'
+          - 
+            content: 0 B
+            count: one
+            draft: contributed
+            type: '1000000000000'
+          - 
+            content: 0 B
+            count: other
+            draft: contributed
+            type: '1000000000000'
+          - 
+            content: 00 B
+            count: one
+            draft: contributed
+            type: '10000000000000'
+          - 
+            content: 00 B
+            count: other
+            draft: contributed
+            type: '10000000000000'
+          - 
+            content: 000 B
+            count: one
+            draft: contributed
+            type: '100000000000000'
+          - 
+            content: 000 B
+            count: other
+            draft: contributed
+            type: '100000000000000'
+      type: short
+    numberSystem: latn
+  symbols: 
+    decimal: .
+    group: ","
+    numberSystem: latn
+units: 
+  unit: 
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: En {0} día
+          count: one
+          draft: contributed
+        - 
+          content: En {0} días
+          count: other
+          draft: contributed
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: En {0} hora
+          count: one
+          draft: contributed
+        - 
+          content: En {0} horas
+          count: other
+          draft: contributed
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: En {0} minuto
+          count: one
+          draft: contributed
+        - 
+          content: En {0} minutos
+          count: other
+          draft: contributed
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: En {0} mes
+          count: one
+          draft: contributed
+        - 
+          content: En {0} meses
+          count: other
+          draft: contributed
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: En {0} segundo
+          count: one
+          draft: contributed
+        - 
+          content: En {0} segundos
+          count: other
+          draft: contributed
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: En {0} semana
+          count: one
+          draft: contributed
+        - 
+          content: En {0} semanas
+          count: other
+          draft: contributed
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: En {0} año
+          count: one
+          draft: contributed
+        - 
+          content: En {0} años
+          count: other
+          draft: contributed

@@ -1,0 +1,1542 @@
+characters: 
+  exemplarCharacters: 
+    - "[\\u135F ሀ-ሆ ለ-ሟ ረ-ቆ ቈ ቊ-ቍ ቐ-ቖ ቘ ቚ-ቝ በ-ኆ ኈ ኊ-ኍ ነ-ኮ ኰ ኲ-ኵ ኸ-ኾ ዀ ዂ-ዅ ወ-ዎ ዐ-ዖ ዘ-ዮ ደ-ዷ ጀ-ጎ ጐ ጒ-ጕ ጘ-ጟ ⶓ-ⶖ ጠ-ጯ ጸ-ጿ ፈ-ፗ]"
+    - 
+      content: "[᎐-᎙ ሇ ⶀ ᎀ-ᎃ ⶁ ሠ-ሧ ⶂ-ⶄ ቇ ᎄ-ᎇ ⶅ-ⶇ ኇ ⶈ-ⶊ ኯ ዏ ⶋ ዯ ⶌ ዸ-ዿ ⶍ ⶎ ጏ ⶏ-ⶑ ፇ ᎈ-ᎏ ⶒ ፘ-ፚ ⶠ-ⶦ ⶨ-ⶮ ⶰ-ⶶ ⶸ-ⶾ ⷀ-ⷆ ⷈ-ⷎ ⷐ-ⷖ ⷘ-ⷞ]"
+      draft: unconfirmed
+      type: auxiliary
+    - 
+      content: "[ሀ ለ ሐ መ ረ ሰ ሸ ቀ ቈ ቐ ቘ በ ቨ ተ ቸ ኀ ኈ ነ ኘ አ ከ ኰ ኸ ዀ ወ ዐ ዘ ዠ የ ደ ጀ ገ ጐ ጘ ⶓ ⶔ ⶕ ⶖ ጠ ጨ ጸ ፈ ፐ]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE፡ dd MMMM ግርጋ y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd-MMM-y G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy GGGGG
+                  draft: unconfirmed
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE፡ dd MMMM ግርጋ y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd-MMM-y
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy
+                  draft: unconfirmed
+              type: short
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: ፋዱስ ጃብ
+                  draft: unconfirmed
+                  type: am
+                - 
+                  content: ፋዱስ ደምቢ
+                  draft: unconfirmed
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ሰ/ቅ
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: ሰኑ
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: ሰሊጝ
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: ለጓ
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: ኣምድ
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: ኣርብ
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: ሰ/ሽ
+                      draft: unconfirmed
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ሰንበር ቅዳዅ
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: ሰኑ
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: ሰሊጝ
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: ለጓ ወሪ ለብዋ
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: ኣምድ
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: ኣርብ
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: ሰንበር ሽጓዅ
+                      draft: unconfirmed
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: ሰ
+                    draft: unconfirmed
+                    type: sun
+                  - 
+                    content: ሰ
+                    draft: unconfirmed
+                    type: mon
+                  - 
+                    content: ሰ
+                    draft: unconfirmed
+                    type: tue
+                  - 
+                    content: ለ
+                    draft: unconfirmed
+                    type: wed
+                  - 
+                    content: ኣ
+                    draft: unconfirmed
+                    type: thu
+                  - 
+                    content: ኣ
+                    draft: unconfirmed
+                    type: fri
+                  - 
+                    content: ሰ
+                    draft: unconfirmed
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ይጅ
+                draft: unconfirmed
+                type: 0
+              - 
+                content: ኣድ
+                draft: unconfirmed
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ልደት
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: ካብኽ
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: ክብላ
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: ፋጅኺ
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: ክቢቅ
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: ም/ት
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: ኰር
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: ማርያ
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: ያኸኒ
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: መተሉ
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: ም/ም
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: ተሕሳ
+                      draft: unconfirmed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ልደትሪ
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: ካብኽብቲ
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: ክብላ
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: ፋጅኺሪ
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: ክቢቅሪ
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: ምኪኤል ትጟኒሪ
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: ኰርኩ
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: ማርያም ትሪ
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: ያኸኒ መሳቅለሪ
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: መተሉ
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: ምኪኤል መሽወሪ
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: ተሕሳስሪ
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: ል
+                    draft: unconfirmed
+                    type: 1
+                  - 
+                    content: ካ
+                    draft: unconfirmed
+                    type: 2
+                  - 
+                    content: ክ
+                    draft: unconfirmed
+                    type: 3
+                  - 
+                    content: ፋ
+                    draft: unconfirmed
+                    type: 4
+                  - 
+                    content: ክ
+                    draft: unconfirmed
+                    type: 5
+                  - 
+                    content: ም
+                    draft: unconfirmed
+                    type: 6
+                  - 
+                    content: ኰ
+                    draft: unconfirmed
+                    type: 7
+                  - 
+                    content: ማ
+                    draft: unconfirmed
+                    type: 8
+                  - 
+                    content: ያ
+                    draft: unconfirmed
+                    type: 9
+                  - 
+                    content: መ
+                    draft: unconfirmed
+                    type: 10
+                  - 
+                    content: ም
+                    draft: unconfirmed
+                    type: 11
+                  - 
+                    content: ተ
+                    draft: unconfirmed
+                    type: 12
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm a
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: byn
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: አፋርኛ
+        draft: unconfirmed
+        type: aa
+      - 
+        content: አብሐዚኛ
+        draft: unconfirmed
+        type: ab
+      - 
+        content: አፍሪቃንስኛ
+        draft: unconfirmed
+        type: af
+      - 
+        content: አማርኛ
+        draft: unconfirmed
+        type: am
+      - 
+        content: ዐርቢኛ
+        draft: unconfirmed
+        type: ar
+      - 
+        content: አሳሜዛዊ
+        draft: unconfirmed
+        type: as
+      - 
+        content: አያማርኛ
+        draft: unconfirmed
+        type: ay
+      - 
+        content: አዜርባይጃንኛ
+        draft: unconfirmed
+        type: az
+      - 
+        content: ባስኪርኛ
+        draft: unconfirmed
+        type: ba
+      - 
+        content: ቤላራሻኛ
+        draft: unconfirmed
+        type: be
+      - 
+        content: ቡልጋሪኛ
+        draft: unconfirmed
+        type: bg
+      - 
+        content: ቢሃሪ
+        draft: unconfirmed
+        type: bh
+      - 
+        content: ቢስላምኛ
+        draft: unconfirmed
+        type: bi
+      - 
+        content: በንጋሊኛ
+        draft: unconfirmed
+        type: bn
+      - 
+        content: ትበትንኛ
+        draft: unconfirmed
+        type: bo
+      - 
+        content: ብሬቶንኛ
+        draft: unconfirmed
+        type: br
+      - 
+        content: ብሊን
+        draft: unconfirmed
+        type: byn
+      - 
+        content: ካታላንኛ
+        draft: unconfirmed
+        type: ca
+      - 
+        content: ኮርሲካኛ
+        draft: unconfirmed
+        type: co
+      - 
+        content: ቼክኛ
+        draft: unconfirmed
+        type: cs
+      - 
+        content: ወልሽ
+        draft: unconfirmed
+        type: cy
+      - 
+        content: ዴኒሽ
+        draft: unconfirmed
+        type: da
+      - 
+        content: ጀርመን
+        draft: unconfirmed
+        type: de
+      - 
+        content: ድዞንግኻኛ
+        draft: unconfirmed
+        type: dz
+      - 
+        content: ግሪክኛ
+        draft: unconfirmed
+        type: el
+      - 
+        content: እንግሊዝኛ
+        draft: unconfirmed
+        type: en
+      - 
+        content: ኤስፐራንቶ
+        draft: unconfirmed
+        type: eo
+      - 
+        content: ስፓኒሽ
+        draft: unconfirmed
+        type: es
+      - 
+        content: ኤስቶኒአን
+        draft: unconfirmed
+        type: et
+      - 
+        content: ባስክኛ
+        draft: unconfirmed
+        type: eu
+      - 
+        content: ፐርሲያኛ
+        draft: unconfirmed
+        type: fa
+      - 
+        content: ፊኒሽ
+        draft: unconfirmed
+        type: fi
+      - 
+        content: ፊጂኛ
+        draft: unconfirmed
+        type: fj
+      - 
+        content: ፋሮኛ
+        draft: unconfirmed
+        type: fo
+      - 
+        content: ፈረንሳይኛ
+        draft: unconfirmed
+        type: fr
+      - 
+        content: ፍሪስኛ
+        draft: unconfirmed
+        type: fy
+      - 
+        content: አይሪሽ
+        draft: unconfirmed
+        type: ga
+      - 
+        content: እስኮትስ ጌልክኛ
+        draft: unconfirmed
+        type: gd
+      - 
+        content: ግዕዝኛ
+        draft: unconfirmed
+        type: gez
+      - 
+        content: ጋለጋኛ
+        draft: unconfirmed
+        type: gl
+      - 
+        content: ጓራኒኛ
+        draft: unconfirmed
+        type: gn
+      - 
+        content: ጉጃርቲኛ
+        draft: unconfirmed
+        type: gu
+      - 
+        content: ሃውሳኛ
+        draft: unconfirmed
+        type: ha
+      - 
+        content: ዕብራስጥ
+        draft: unconfirmed
+        type: he
+      - 
+        content: ሐንድኛ
+        draft: unconfirmed
+        type: hi
+      - 
+        content: ክሮሽያንኛ
+        draft: unconfirmed
+        type: hr
+      - 
+        content: ሀንጋሪኛ
+        draft: unconfirmed
+        type: hu
+      - 
+        content: አርመናዊ
+        draft: unconfirmed
+        type: hy
+      - 
+        content: ኢንቴርሊንጓ
+        draft: unconfirmed
+        type: ia
+      - 
+        content: እንዶኒሲኛ
+        draft: unconfirmed
+        type: id
+      - 
+        content: እንተርሊንግወ
+        draft: unconfirmed
+        type: ie
+      - 
+        content: እኑፒያቅኛ
+        draft: unconfirmed
+        type: ik
+      - 
+        content: አይስላንድኛ
+        draft: unconfirmed
+        type: is
+      - 
+        content: ጣሊያንኛ
+        draft: unconfirmed
+        type: it
+      - 
+        content: እኑክቲቱትኛ
+        draft: unconfirmed
+        type: iu
+      - 
+        content: ጃፓንኛ
+        draft: unconfirmed
+        type: ja
+      - 
+        content: ጃቫንኛ
+        draft: unconfirmed
+        type: jv
+      - 
+        content: ጊዮርጊያን
+        draft: unconfirmed
+        type: ka
+      - 
+        content: ካዛክኛ
+        draft: unconfirmed
+        type: kk
+      - 
+        content: ካላሊሱትኛ
+        draft: unconfirmed
+        type: kl
+      - 
+        content: ክመርኛ
+        draft: unconfirmed
+        type: km
+      - 
+        content: ካናዳኛ
+        draft: unconfirmed
+        type: kn
+      - 
+        content: ኮሪያኛ
+        draft: unconfirmed
+        type: ko
+      - 
+        content: ካሽሚርኛ
+        draft: unconfirmed
+        type: ks
+      - 
+        content: ኩርድሽኛ
+        draft: unconfirmed
+        type: ku
+      - 
+        content: ኪርጊዝኛ
+        draft: unconfirmed
+        type: ky
+      - 
+        content: ላቲንኛ
+        draft: unconfirmed
+        type: la
+      - 
+        content: ሊንጋላኛ
+        draft: unconfirmed
+        type: ln
+      - 
+        content: ላውስኛ
+        draft: unconfirmed
+        type: lo
+      - 
+        content: ሊቱአኒያን
+        draft: unconfirmed
+        type: lt
+      - 
+        content: ላትቪያን
+        draft: unconfirmed
+        type: lv
+      - 
+        content: ማላጋስኛ
+        draft: unconfirmed
+        type: mg
+      - 
+        content: ማዮሪኛ
+        draft: unconfirmed
+        type: mi
+      - 
+        content: ማከዶኒኛ
+        draft: unconfirmed
+        type: mk
+      - 
+        content: ማላያላምኛ
+        draft: unconfirmed
+        type: ml
+      - 
+        content: ሞንጎላዊኛ
+        draft: unconfirmed
+        type: mn
+      - 
+        content: ሞልዳቫዊና
+        draft: unconfirmed
+        type: mo
+      - 
+        content: ማራዚኛ
+        draft: unconfirmed
+        type: mr
+      - 
+        content: ማላይኛ
+        draft: unconfirmed
+        type: ms
+      - 
+        content: ማልቲስኛ
+        draft: unconfirmed
+        type: mt
+      - 
+        content: ቡርማኛ
+        draft: unconfirmed
+        type: my
+      - 
+        content: ናኡሩ
+        draft: unconfirmed
+        type: na
+      - 
+        content: ኔፓሊኛ
+        draft: unconfirmed
+        type: ne
+      - 
+        content: ደች
+        draft: unconfirmed
+        type: nl
+      - 
+        content: ኖርዌጂያን
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: ኦኪታንኛ
+        draft: unconfirmed
+        type: oc
+      - 
+        content: ኦሮምኛ
+        draft: unconfirmed
+        type: om
+      - 
+        content: ኦሪያኛ
+        draft: unconfirmed
+        type: or
+      - 
+        content: ፓንጃቢኛ
+        draft: unconfirmed
+        type: pa
+      - 
+        content: ፖሊሽ
+        draft: unconfirmed
+        type: pl
+      - 
+        content: ፑሽቶኛ
+        draft: unconfirmed
+        type: ps
+      - 
+        content: ፖርቱጋሊኛ
+        draft: unconfirmed
+        type: pt
+      - 
+        content: ኵቿኛ
+        draft: unconfirmed
+        type: qu
+      - 
+        content: ሮማንስ
+        draft: unconfirmed
+        type: rm
+      - 
+        content: ሩንዲኛ
+        draft: unconfirmed
+        type: rn
+      - 
+        content: ሮማኒያን
+        draft: unconfirmed
+        type: ro
+      - 
+        content: ራሽኛ
+        draft: unconfirmed
+        type: ru
+      - 
+        content: ኪንያርዋንድኛ
+        draft: unconfirmed
+        type: rw
+      - 
+        content: ሳንስክሪትኛ
+        draft: unconfirmed
+        type: sa
+      - 
+        content: ሲንድሂኛ
+        draft: unconfirmed
+        type: sd
+      - 
+        content: ሳንጎኛ
+        draft: unconfirmed
+        type: sg
+      - 
+        content: ስንሃልኛ
+        draft: unconfirmed
+        type: si
+      - 
+        content: ሲዳምኛ
+        draft: unconfirmed
+        type: sid
+      - 
+        content: ስሎቫክኛ
+        draft: unconfirmed
+        type: sk
+      - 
+        content: ስሎቪኛ
+        draft: unconfirmed
+        type: sl
+      - 
+        content: ሳሞአኛ
+        draft: unconfirmed
+        type: sm
+      - 
+        content: ሾናኛ
+        draft: unconfirmed
+        type: sn
+      - 
+        content: ሱማልኛ
+        draft: unconfirmed
+        type: so
+      - 
+        content: ልቤኒኛ
+        draft: unconfirmed
+        type: sq
+      - 
+        content: ሰርቢኛ
+        draft: unconfirmed
+        type: sr
+      - 
+        content: ስዋቲኛ
+        draft: unconfirmed
+        type: ss
+      - 
+        content: ሶዞኛ
+        draft: unconfirmed
+        type: st
+      - 
+        content: ሱዳንኛ
+        draft: unconfirmed
+        type: su
+      - 
+        content: ስዊድንኛ
+        draft: unconfirmed
+        type: sv
+      - 
+        content: ስዋሂሊኛ
+        draft: unconfirmed
+        type: sw
+      - 
+        content: ታሚልኛ
+        draft: unconfirmed
+        type: ta
+      - 
+        content: ተሉጉኛ
+        draft: unconfirmed
+        type: te
+      - 
+        content: ታጂኪኛ
+        draft: unconfirmed
+        type: tg
+      - 
+        content: ታይኛ
+        draft: unconfirmed
+        type: th
+      - 
+        content: ትግርኛ
+        draft: unconfirmed
+        type: ti
+      - 
+        content: ትግረ
+        draft: unconfirmed
+        type: tig
+      - 
+        content: ቱርክመንኛ
+        draft: unconfirmed
+        type: tk
+      - 
+        content: ታጋሎገኛ
+        draft: unconfirmed
+        type: tl
+      - 
+        content: ጽዋናዊኛ
+        draft: unconfirmed
+        type: tn
+      - 
+        content: ቶንጋ
+        draft: unconfirmed
+        type: to
+      - 
+        content: ቱርክኛ
+        draft: unconfirmed
+        type: tr
+      - 
+        content: ጾንጋኛ
+        draft: unconfirmed
+        type: ts
+      - 
+        content: ታታርኛ
+        draft: unconfirmed
+        type: tt
+      - 
+        content: ትዊኛ
+        draft: unconfirmed
+        type: tw
+      - 
+        content: ኡዊግሁርኛ
+        draft: unconfirmed
+        type: ug
+      - 
+        content: ዩክረኒኛ
+        draft: unconfirmed
+        type: uk
+      - 
+        content: ኡርዱኛ
+        draft: unconfirmed
+        type: ur
+      - 
+        content: ኡዝበክኛ
+        draft: unconfirmed
+        type: uz
+      - 
+        content: ቪትናምኛ
+        draft: unconfirmed
+        type: vi
+      - 
+        content: ቮላፑክኛ
+        draft: unconfirmed
+        type: vo
+      - 
+        content: ዎሎፍኛ
+        draft: unconfirmed
+        type: wo
+      - 
+        content: ዞሳኛ
+        draft: unconfirmed
+        type: xh
+      - 
+        content: ይዲሻዊኛ
+        draft: unconfirmed
+        type: yi
+      - 
+        content: ዮሩባዊኛ
+        draft: unconfirmed
+        type: yo
+      - 
+        content: ዡዋንግኛ
+        draft: unconfirmed
+        type: za
+      - 
+        content: ቻይንኛ
+        draft: unconfirmed
+        type: zh
+      - 
+        content: ዙሉኛ
+        draft: unconfirmed
+        type: zu
+  scripts: 
+    script: 
+      content: ላቲን
+      draft: unconfirmed
+      type: Latn
+  territories: 
+    territory: 
+      - 
+        content: አንዶራ
+        draft: unconfirmed
+        type: AD
+      - 
+        content: የተባበሩት አረብ ኤምሬትስ
+        draft: unconfirmed
+        type: AE
+      - 
+        content: አልባኒያ
+        draft: unconfirmed
+        type: AL
+      - 
+        content: አርሜኒያ
+        draft: unconfirmed
+        type: AM
+      - 
+        content: ኔዘርላንድስ አንቲልስ
+        draft: unconfirmed
+        type: AN
+      - 
+        content: አርጀንቲና
+        draft: unconfirmed
+        type: AR
+      - 
+        content: ኦስትሪያ
+        draft: unconfirmed
+        type: AT
+      - 
+        content: አውስትሬሊያ
+        draft: unconfirmed
+        type: AU
+      - 
+        content: አዘርባጃን
+        draft: unconfirmed
+        type: AZ
+      - 
+        content: ቦስኒያ እና ሄርዞጎቪኒያ
+        draft: unconfirmed
+        type: BA
+      - 
+        content: ባርቤዶስ
+        draft: unconfirmed
+        type: BB
+      - 
+        content: ቤልጄም
+        draft: unconfirmed
+        type: BE
+      - 
+        content: ቡልጌሪያ
+        draft: unconfirmed
+        type: BG
+      - 
+        content: ባህሬን
+        draft: unconfirmed
+        type: BH
+      - 
+        content: ቤርሙዳ
+        draft: unconfirmed
+        type: BM
+      - 
+        content: ቦሊቪያ
+        draft: unconfirmed
+        type: BO
+      - 
+        content: ብራዚል
+        draft: unconfirmed
+        type: BR
+      - 
+        content: ቡህታን
+        draft: unconfirmed
+        type: BT
+      - 
+        content: ቤላሩስ
+        draft: unconfirmed
+        type: BY
+      - 
+        content: ቤሊዘ
+        draft: unconfirmed
+        type: BZ
+      - 
+        content: ኮንጎ
+        draft: unconfirmed
+        type: CD
+      - 
+        content: የመካከለኛው አፍሪካ ሪፐብሊክ
+        draft: unconfirmed
+        type: CF
+      - 
+        content: ስዊዘርላንድ
+        draft: unconfirmed
+        type: CH
+      - 
+        content: ቺሊ
+        draft: unconfirmed
+        type: CL
+      - 
+        content: ካሜሩን
+        draft: unconfirmed
+        type: CM
+      - 
+        content: ቻይና
+        draft: unconfirmed
+        type: CN
+      - 
+        content: ኮሎምቢያ
+        draft: unconfirmed
+        type: CO
+      - 
+        content: ኬፕ ቬርዴ
+        draft: unconfirmed
+        type: CV
+      - 
+        content: ሳይፕረስ
+        draft: unconfirmed
+        type: CY
+      - 
+        content: ቼክ ሪፑብሊክ
+        draft: unconfirmed
+        type: CZ
+      - 
+        content: ጀርመን
+        draft: unconfirmed
+        type: DE
+      - 
+        content: ዴንማርክ
+        draft: unconfirmed
+        type: DK
+      - 
+        content: ዶሚኒካ
+        draft: unconfirmed
+        type: DM
+      - 
+        content: ዶሚኒክ ሪፑብሊክ
+        draft: unconfirmed
+        type: DO
+      - 
+        content: አልጄሪያ
+        draft: unconfirmed
+        type: DZ
+      - 
+        content: ኢኳዶር
+        draft: unconfirmed
+        type: EC
+      - 
+        content: ኤስቶኒያ
+        draft: unconfirmed
+        type: EE
+      - 
+        content: ግብጽ
+        draft: unconfirmed
+        type: EG
+      - 
+        content: ምዕራባዊ ሳህራ
+        draft: unconfirmed
+        type: EH
+      - 
+        content: ኤርትራ
+        draft: unconfirmed
+        type: ER
+      - 
+        content: ስፔን
+        draft: unconfirmed
+        type: ES
+      - 
+        content: ኢትዮጵያ
+        draft: unconfirmed
+        type: ET
+      - 
+        content: ፊንላንድ
+        draft: unconfirmed
+        type: FI
+      - 
+        content: ፊጂ
+        draft: unconfirmed
+        type: FJ
+      - 
+        content: ሚክሮኔዢያ
+        draft: unconfirmed
+        type: FM
+      - 
+        content: ፈረንሳይ
+        draft: unconfirmed
+        type: FR
+      - 
+        content: እንግሊዝ
+        draft: unconfirmed
+        type: GB
+      - 
+        content: ጆርጂያ
+        draft: unconfirmed
+        type: GE
+      - 
+        content: የፈረንሳይ ጉዊአና
+        draft: unconfirmed
+        type: GF
+      - 
+        content: ጋምቢያ
+        draft: unconfirmed
+        type: GM
+      - 
+        content: ጊኒ
+        draft: unconfirmed
+        type: GN
+      - 
+        content: ኢኳቶሪያል ጊኒ
+        draft: unconfirmed
+        type: GQ
+      - 
+        content: ግሪክ
+        draft: unconfirmed
+        type: GR
+      - 
+        content: ቢሳዎ
+        draft: unconfirmed
+        type: GW
+      - 
+        content: ጉያና
+        draft: unconfirmed
+        type: GY
+      - 
+        content: ሆንግ ኮንግ
+        draft: unconfirmed
+        type: HK
+      - 
+        content: ክሮኤሽያ
+        draft: unconfirmed
+        type: HR
+      - 
+        content: ሀይቲ
+        draft: unconfirmed
+        type: HT
+      - 
+        content: ሀንጋሪ
+        draft: unconfirmed
+        type: HU
+      - 
+        content: ኢንዶኔዢያ
+        draft: unconfirmed
+        type: ID
+      - 
+        content: አየርላንድ
+        draft: unconfirmed
+        type: IE
+      - 
+        content: እስራኤል
+        draft: unconfirmed
+        type: IL
+      - 
+        content: ህንድ
+        draft: unconfirmed
+        type: IN
+      - 
+        content: ኢራቅ
+        draft: unconfirmed
+        type: IQ
+      - 
+        content: አይስላንድ
+        draft: unconfirmed
+        type: IS
+      - 
+        content: ጣሊያን
+        draft: unconfirmed
+        type: IT
+      - 
+        content: ጃማይካ
+        draft: unconfirmed
+        type: JM
+      - 
+        content: ጆርዳን
+        draft: unconfirmed
+        type: JO
+      - 
+        content: ጃፓን
+        draft: unconfirmed
+        type: JP
+      - 
+        content: ካምቦዲያ
+        draft: unconfirmed
+        type: KH
+      - 
+        content: ኮሞሮስ
+        draft: unconfirmed
+        type: KM
+      - 
+        content: ደቡብ ኮሪያ
+        draft: unconfirmed
+        type: KP
+      - 
+        content: ሰሜን ኮሪያ
+        draft: unconfirmed
+        type: KR
+      - 
+        content: ክዌት
+        draft: unconfirmed
+        type: KW
+      - 
+        content: ሊባኖስ
+        draft: unconfirmed
+        type: LB
+      - 
+        content: ሊቱዌኒያ
+        draft: unconfirmed
+        type: LT
+      - 
+        content: ላትቪያ
+        draft: unconfirmed
+        type: LV
+      - 
+        content: ሊቢያ
+        draft: unconfirmed
+        type: LY
+      - 
+        content: ሞሮኮ
+        draft: unconfirmed
+        type: MA
+      - 
+        content: ሞልዶቫ
+        draft: unconfirmed
+        type: MD
+      - 
+        content: ማከዶኒያ
+        draft: unconfirmed
+        type: MK
+      - 
+        content: ሞንጎሊያ
+        draft: unconfirmed
+        type: MN
+      - 
+        content: ማካዎ
+        draft: unconfirmed
+        type: MO
+      - 
+        content: ሞሪቴኒያ
+        draft: unconfirmed
+        type: MR
+      - 
+        content: ማልታ
+        draft: unconfirmed
+        type: MT
+      - 
+        content: ማሩሸስ
+        draft: unconfirmed
+        type: MU
+      - 
+        content: ሜክሲኮ
+        draft: unconfirmed
+        type: MX
+      - 
+        content: ማሌዢያ
+        draft: unconfirmed
+        type: MY
+      - 
+        content: ናሚቢያ
+        draft: unconfirmed
+        type: NA
+      - 
+        content: ኒው ካሌዶኒያ
+        draft: unconfirmed
+        type: NC
+      - 
+        content: ናይጄሪያ
+        draft: unconfirmed
+        type: NG
+      - 
+        content: ኔዘርላንድ
+        draft: unconfirmed
+        type: NL
+      - 
+        content: ኖርዌ
+        draft: unconfirmed
+        type: 'NO'
+      - 
+        content: ኔፓል
+        draft: unconfirmed
+        type: NP
+      - 
+        content: ኒው ዚላንድ
+        draft: unconfirmed
+        type: NZ
+      - 
+        content: ፔሩ
+        draft: unconfirmed
+        type: PE
+      - 
+        content: የፈረንሳይ ፖሊኔዢያ
+        draft: unconfirmed
+        type: PF
+      - 
+        content: ፓፑዋ ኒው ጊኒ
+        draft: unconfirmed
+        type: PG
+      - 
+        content: ፖላንድ
+        draft: unconfirmed
+        type: PL
+      - 
+        content: ፖርታ ሪኮ
+        draft: unconfirmed
+        type: PR
+      - 
+        content: ሮሜኒያ
+        draft: unconfirmed
+        type: RO
+      - 
+        content: ራሺያ
+        draft: unconfirmed
+        type: RU
+      - 
+        content: ሳውድአረቢያ
+        draft: unconfirmed
+        type: SA
+      - 
+        content: ሱዳን
+        draft: unconfirmed
+        type: SD
+      - 
+        content: ስዊድን
+        draft: unconfirmed
+        type: SE
+      - 
+        content: ሲንጋፖር
+        draft: unconfirmed
+        type: SG
+      - 
+        content: ስሎቬኒያ
+        draft: unconfirmed
+        type: SI
+      - 
+        content: ስሎቫኪያ
+        draft: unconfirmed
+        type: SK
+      - 
+        content: ሴኔጋል
+        draft: unconfirmed
+        type: SN
+      - 
+        content: ሱማሌ
+        draft: unconfirmed
+        type: SO
+      - 
+        content: ሲሪያ
+        draft: unconfirmed
+        type: SY
+      - 
+        content: ቻድ
+        draft: unconfirmed
+        type: TD
+      - 
+        content: የፈረንሳይ ደቡባዊ ግዛቶች
+        draft: unconfirmed
+        type: TF
+      - 
+        content: ታይላንድ
+        draft: unconfirmed
+        type: TH
+      - 
+        content: ታጃኪስታን
+        draft: unconfirmed
+        type: TJ
+      - 
+        content: ምስራቅ ቲሞር
+        draft: unconfirmed
+        type: TL
+      - 
+        content: ቱኒዚያ
+        draft: unconfirmed
+        type: TN
+      - 
+        content: ቱርክ
+        draft: unconfirmed
+        type: TR
+      - 
+        content: ትሪኒዳድ እና ቶባጎ
+        draft: unconfirmed
+        type: TT
+      - 
+        content: ታንዛኒያ
+        draft: unconfirmed
+        type: TZ
+      - 
+        content: ዩጋንዳ
+        draft: unconfirmed
+        type: UG
+      - 
+        content: አሜሪካ
+        draft: unconfirmed
+        type: US
+      - 
+        content: ዩዝበኪስታን
+        draft: unconfirmed
+        type: UZ
+      - 
+        content: ቬንዙዌላ
+        draft: unconfirmed
+        type: VE
+      - 
+        content: የእንግሊዝ ድንግል ደሴቶች
+        draft: unconfirmed
+        type: VG
+      - 
+        content: የአሜሪካ ቨርጂን ደሴቶች
+        draft: unconfirmed
+        type: VI
+      - 
+        content: የመን
+        draft: unconfirmed
+        type: YE
+      - 
+        content: ደቡብ አፍሪካ
+        draft: unconfirmed
+        type: ZA
+      - 
+        content: ዛምቢያ
+        draft: unconfirmed
+        type: ZM
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          content: የብራዚል ሪል
+          draft: unconfirmed
+        type: BRL
+      - 
+        displayName: 
+          content: የቻይና ዩአን ረንሚንቢ
+          draft: unconfirmed
+        type: CNY
+      - 
+        symbol: Nfk
+        type: ERN
+      - 
+        displayName: 
+          content: የኢትዮጵያ ብር
+          draft: unconfirmed
+        type: ETB
+      - 
+        displayName: 
+          content: አውሮ
+          draft: unconfirmed
+        type: EUR
+      - 
+        displayName: 
+          content: የእንግሊዝ ፓውንድ ስተርሊንግ
+          draft: unconfirmed
+        type: GBP
+      - 
+        displayName: 
+          content: የሕንድ ሩፒ
+          draft: unconfirmed
+        type: INR
+      - 
+        displayName: 
+          content: የጃፓን የን
+          draft: unconfirmed
+        type: JPY
+      - 
+        displayName: 
+          content: የራሻ ሩብል
+          draft: unconfirmed
+        type: RUB
+      - 
+        displayName: 
+          content: የአሜሪካን ዶላር
+          draft: unconfirmed
+        type: USD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: 
+          content: ¤#,##0.00
+          draft: unconfirmed
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: latn
+    traditional: ethi

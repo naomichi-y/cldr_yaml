@@ -1,0 +1,682 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      draft: contributed
+      type: final
+    - 
+      content: …{0}
+      draft: contributed
+      type: initial
+    - 
+      content: "{0}…{1}"
+      draft: contributed
+      type: medial
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MEd: 
+                content: M-d（E）
+                draft: contributed
+              Md: 
+                content: M-d
+                draft: contributed
+        type: buddhist
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: Gy年M月d日EEEE
+              type: full
+            - 
+              dateFormat: 
+                pattern: Gy年M月d日
+              type: long
+            - 
+              dateFormat: 
+                pattern: Gy年M月d日
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yGGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+                draft: contributed
+              MEd: 
+                content: E, d/M
+                draft: contributed
+              Md: 
+                content: d/M
+                draft: contributed
+              yyyyM: 
+                content: M/yGGGGG
+                draft: contributed
+              yyyyMEd: 
+                content: E, d/M/yGGGGG
+                draft: contributed
+              yyyyMd: 
+                content: d/M/yGGGGG
+                draft: contributed
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: contributed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: contributed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1}{0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1}{0}"
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: y年M月d日EEEE
+              type: full
+            - 
+              dateFormat: 
+                pattern: y年M月d日
+              type: long
+            - 
+              dateFormat: 
+                pattern: y年M月d日
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+                draft: contributed
+              MEd: 
+                content: E, d/M
+                draft: contributed
+              Md: 
+                content: d/M
+                draft: contributed
+              yM: 
+                content: M/y
+                draft: provisional
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: contributed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: contributed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1}{0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1}{0}"
+              type: short
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: ah:mm:ss [zzzz]
+                  draft: contributed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: ah:mm:ss [z]
+                  draft: contributed
+              type: long
+            - 
+              timeFormat: 
+                pattern: ahh:mm:ss
+              type: medium
+        type: gregorian
+      - 
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MEd: 
+                content: d-M（E）
+                draft: contributed
+              Md: 
+                content: d-M
+                draft: contributed
+        type: roc
+  fields: 
+    field: 
+      - 
+        relative: 
+          - 
+            content: 上年
+            draft: contributed
+            type: -1
+          - 
+            content: 本年
+            draft: contributed
+            type: 0
+          - 
+            content: 下年
+            draft: contributed
+            type: 1
+        type: year
+      - 
+        relative: 
+          - 
+            content: 上月
+            draft: contributed
+            type: -1
+          - 
+            content: 下月
+            draft: contributed
+            type: 1
+        type: month
+  timeZoneNames: 
+    zone: 
+      - 
+        exemplarCity: 
+          content: 耶烈萬
+          draft: contributed
+        type: Asia/Yerevan
+      - 
+        exemplarCity: 
+          content: 馬里漢姆
+          draft: contributed
+        type: Europe/Mariehamn
+      - 
+        exemplarCity: 
+          content: 薩拉熱窩
+          draft: contributed
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: 
+          content: 索非亞
+          draft: contributed
+        type: Europe/Sofia
+      - 
+        exemplarCity: 
+          content: 聖巴夫林米
+          draft: contributed
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: 
+          content: 布拉柴維爾
+          draft: contributed
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: 
+          content: 阿比贊
+          draft: contributed
+        type: Africa/Abidjan
+      - 
+        exemplarCity: 
+          content: 拉羅湯加
+          draft: contributed
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: 
+          content: 尼科西亞
+          draft: contributed
+        type: Asia/Nicosia
+      - 
+        exemplarCity: 
+          content: 阿斯馬拉
+          draft: contributed
+        type: Africa/Asmera
+      - 
+        exemplarCity: 
+          content: 亞的斯亞貝巴
+          draft: contributed
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: 
+          content: 史坦雷
+          draft: contributed
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: 
+          content: 利布維
+          draft: contributed
+        type: Africa/Libreville
+      - 
+        exemplarCity: 
+          content: 馬拉波
+          draft: contributed
+        type: Africa/Malabo
+      - 
+        exemplarCity: 
+          content: 澤西
+          draft: contributed
+        type: Europe/Jersey
+      - 
+        exemplarCity: 
+          content: 比斯凱克
+          draft: contributed
+        type: Asia/Bishkek
+      - 
+        exemplarCity: 
+          content: 科摩羅
+          draft: contributed
+        type: Indian/Comoro
+      - 
+        exemplarCity: 
+          content: 馬塞魯
+          draft: contributed
+        type: Africa/Maseru
+      - 
+        exemplarCity: 
+          content: 基希訥烏
+          draft: contributed
+        type: Europe/Chisinau
+      - 
+        exemplarCity: 
+          content: 波德戈里察
+          draft: contributed
+        type: Europe/Podgorica
+      - 
+        exemplarCity: 
+          content: 斯科普里
+          draft: contributed
+        type: Europe/Skopje
+      - 
+        exemplarCity: 
+          content: 馬普托
+          draft: contributed
+        type: Africa/Maputo
+      - 
+        exemplarCity: 
+          content: 溫特和克
+          draft: contributed
+        type: Africa/Windhoek
+      - 
+        exemplarCity: 
+          content: 尼亞美
+          draft: contributed
+        type: Africa/Niamey
+      - 
+        exemplarCity: 
+          content: 莫爾斯比港
+          draft: contributed
+        type: Pacific/Port_Moresby
+      - 
+        exemplarCity: 
+          content: 卡拉奇
+          draft: contributed
+        type: Asia/Karachi
+      - 
+        exemplarCity: 
+          content: 貝爾格萊德
+          draft: contributed
+        type: Europe/Belgrade
+      - 
+        exemplarCity: 
+          content: 瓜達爾卡納爾
+          draft: contributed
+        type: Pacific/Guadalcanal
+      - 
+        exemplarCity: 
+          content: 馬希
+          draft: contributed
+        type: Indian/Mahe
+      - 
+        exemplarCity: 
+          content: 喀土木
+          draft: contributed
+        type: Africa/Khartoum
+      - 
+        exemplarCity: 
+          content: 盧布爾雅那
+          draft: contributed
+        type: Europe/Ljubljana
+      - 
+        exemplarCity: 
+          content: 伯拉第斯拉瓦
+          draft: contributed
+        type: Europe/Bratislava
+      - 
+        exemplarCity: 
+          content: 恩賈梅納
+          draft: contributed
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: 
+          content: 凱爾蓋朗
+          draft: contributed
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: 
+          content: 杜尚別
+          draft: contributed
+        type: Asia/Dushanbe
+      - 
+        exemplarCity: 
+          content: 湯加塔布
+          draft: contributed
+        type: Pacific/Tongatapu
+      - 
+        exemplarCity: 
+          content: 達累斯薩拉姆
+          draft: contributed
+        type: Africa/Dar_es_Salaam
+      - 
+        exemplarCity: 
+          content: 比尤拉，北達科他州
+          draft: contributed
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: 
+          content: 聖文森特
+          draft: contributed
+        type: America/St_Vincent
+      - 
+        exemplarCity: 
+          content: 阿皮亞
+          draft: contributed
+        type: Pacific/Apia
+      - 
+        exemplarCity: 
+          content: 盧薩卡
+          draft: contributed
+        type: Africa/Lusaka
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 14:24:27 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: zh
+  script: 
+    type: Hant
+  territory: 
+    type: HK
+  version: 
+    number: "$Revision: 8247 $"
+localeDisplayNames: 
+  keys: 
+    key: 
+      content: 專用區
+      draft: contributed
+      type: x
+  languages: 
+    language: 
+      - 
+        alt: short
+        content: 阿澤里
+        draft: contributed
+        type: az
+      - 
+        content: 瑞士德語
+        draft: contributed
+        type: de_CH
+      - 
+        content: 德文 (瑞士)
+        draft: contributed
+        type: gsw
+      - 
+        content: 意大利文
+        draft: contributed
+        type: it
+      - 
+        content: 蒙古語
+        draft: contributed
+        type: lol
+      - 
+        content: 巴西葡萄牙語
+        draft: contributed
+        type: pt_BR
+      - 
+        alt: variant
+        content: 維吾爾語
+        draft: contributed
+        type: ug
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: 十進制
+        draft: contributed
+        type: metric
+      - 
+        content: 英國
+        draft: contributed
+        type: UK
+      - 
+        content: 美國
+        draft: contributed
+        type: US
+  scripts: 
+    script: 
+      - 
+        alt: variant
+        content: 波斯阿拉伯語
+        draft: contributed
+        type: Arab
+      - 
+        content: 西里爾語字母
+        draft: contributed
+        type: Cyrl
+      - 
+        content: 梵文
+        draft: contributed
+        type: Deva
+      - 
+        content: 韓文字母
+        type: Hang
+      - 
+        alt: stand-alone
+        content: 繁體漢字
+        draft: contributed
+        type: Hant
+  territories: 
+    territory: 
+      - 
+        content: 中美洲
+        draft: contributed
+        type: '013'
+      - 
+        content: 美洲地區
+        draft: contributed
+        type: '019'
+      - 
+        content: 加勒比
+        draft: contributed
+        type: '029'
+      - 
+        content: 瑟塔與梅利拉
+        draft: contributed
+        type: EA
+  transformNames: 
+    transformName: 
+      - 
+        content: 數值
+        draft: contributed
+        type: Numeric
+      - 
+        content: 重音
+        draft: contributed
+        type: x-Accents
+      - 
+        content: 韓文
+        draft: contributed
+        type: x-Jamo
+  types: 
+    type: 
+      calendar: 
+        content: 埃塞俄比亞阿美德阿萊姆曆
+        draft: contributed
+        type: ethiopic-amete-alem
+      collation: 
+        content: 筆劃排序
+        draft: contributed
+        type: unihan
+      numbers: 
+        content: 藏文位數
+        draft: contributed
+        type: tibt
+  variants: 
+    variant: 
+      - 
+        content: 傳統德國拼字法
+        draft: contributed
+        type: 1901
+      - 
+        content: 1996 德國拼字法
+        draft: contributed
+        type: 1996
+      - 
+        content: San Giorgio/Bila 方言
+        draft: contributed
+        type: BISKE
+      - 
+        content: 已修訂拼字法
+        draft: contributed
+        type: REVISED
+      - 
+        content: 蘇格蘭標準英語
+        draft: contributed
+        type: SCOTLAND
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          content: 澳元
+          draft: contributed
+        type: AUD
+      - 
+        displayName: 
+          content: 波斯尼亞-黑塞哥維那第納爾
+          draft: contributed
+        type: BAD
+      - 
+        displayName: 
+          content: 波斯尼亞-黑塞哥維那可轉換馬克
+          draft: contributed
+        type: BAM
+      - 
+        displayName: 
+          content: 加元
+          draft: contributed
+        type: CAD
+      - 
+        displayName: 
+          content: 港元
+          draft: contributed
+        symbol: $
+        type: HKD
+      - 
+        displayName: 
+          content: 意大利里拉
+          draft: contributed
+        type: ITL
+      - 
+        displayName: 
+          content: 紐西蘭元
+          draft: contributed
+        type: NZD
+      - 
+        displayName: 
+          content: 塞爾維亞第納爾
+          draft: contributed
+        type: RSD
+      - 
+        displayName: 
+          content: 新加坡元
+          draft: contributed
+        type: SGD
+      - 
+        displayName: 
+          content: 新台幣
+          draft: contributed
+        type: TWD
+      - 
+        displayName: 
+          content: 美元
+          draft: contributed
+        symbol: US$
+        type: USD
+      - 
+        displayName: 
+          content: 中非法郎
+          draft: contributed
+        type: XAF
+      - 
+        displayName: 
+          content: 多哥非洲共同體法郎
+          draft: contributed
+        type: XOF
+      - 
+        displayName: 
+          content: 太平洋法郎
+          draft: contributed
+        type: XPF
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: 
+      content: 否
+      draft: contributed
+    yesstr: 
+      content: 是
+      draft: contributed
+units: 
+  unit: 
+    - 
+      type: day-future
+      unitPattern: 
+        content: "{0} 日後"
+        count: other
+        draft: contributed
+    - 
+      type: day-past
+      unitPattern: 
+        content: "{0} 日前"
+        count: other
+        draft: contributed
+    - 
+      type: hour
+      unitPattern: 
+        content: "{0}時"
+        count: other
+    - 
+      type: month-past
+      unitPattern: 
+        content: "{0} 月前"
+        count: other
+        draft: contributed
+    - 
+      type: week
+      unitPattern: 
+        content: "{0}星期"
+        count: other

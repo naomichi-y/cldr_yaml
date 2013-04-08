@@ -1,0 +1,1481 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c č d ḍ e ɛ f g ǧ ɣ h ḥ i j k l m n p q r ṛ s ṣ t ṭ u w x y z ẓ]"
+    - 
+      content: "[o v]"
+      type: auxiliary
+    - 
+      content: "[A B C Č D Ḍ E Ɛ F G Ǧ Ɣ H Ḥ I J K L M N P Q R Ṛ S Ṣ T Ṭ U W X Y Z Ẓ]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              M: 
+                content: M
+              MMM: 
+                content: MMM
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMMdd: 
+                content: dd MMM
+              MMd: 
+                content: d/MM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d/M
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMM: 
+                content: MM/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              M: 
+                content: M
+              MMM: 
+                content: MMM
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMMdd: 
+                content: dd MMM
+              MMd: 
+                content: d/MM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d/M
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMM: 
+                content: MM/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: n tufat
+                  type: am
+                - 
+                  content: n tmeddit
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Yan
+                      type: sun
+                    - 
+                      content: San
+                      type: mon
+                    - 
+                      content: Kraḍ
+                      type: tue
+                    - 
+                      content: Kuẓ
+                      type: wed
+                    - 
+                      content: Sam
+                      type: thu
+                    - 
+                      content: Sḍis
+                      type: fri
+                    - 
+                      content: Say
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Yanass
+                      type: sun
+                    - 
+                      content: Sanass
+                      type: mon
+                    - 
+                      content: Kraḍass
+                      type: tue
+                    - 
+                      content: Kuẓass
+                      type: wed
+                    - 
+                      content: Samass
+                      type: thu
+                    - 
+                      content: Sḍisass
+                      type: fri
+                    - 
+                      content: Sayass
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: 'Y'
+                    type: sun
+                  - 
+                    content: S
+                    type: mon
+                  - 
+                    content: K
+                    type: tue
+                  - 
+                    content: K
+                    type: wed
+                  - 
+                    content: S
+                    type: thu
+                  - 
+                    content: S
+                    type: fri
+                  - 
+                    content: S
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: snd. T.Ɛ
+                type: 0
+              - 
+                content: sld. T.Ɛ
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: send talalit n Ɛisa
+                type: 0
+              - 
+                content: seld talalit n Ɛisa
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Yen
+                      type: 1
+                    - 
+                      content: Fur
+                      type: 2
+                    - 
+                      content: Meɣ
+                      type: 3
+                    - 
+                      content: Yeb
+                      type: 4
+                    - 
+                      content: May
+                      type: 5
+                    - 
+                      content: Yun
+                      type: 6
+                    - 
+                      content: Yul
+                      type: 7
+                    - 
+                      content: Ɣuc
+                      type: 8
+                    - 
+                      content: Cte
+                      type: 9
+                    - 
+                      content: Tub
+                      type: 10
+                    - 
+                      content: Nun
+                      type: 11
+                    - 
+                      content: Duǧ
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Yennayer
+                      type: 1
+                    - 
+                      content: Fuṛar
+                      type: 2
+                    - 
+                      content: Meɣres
+                      type: 3
+                    - 
+                      content: Yebrir
+                      type: 4
+                    - 
+                      content: Mayyu
+                      type: 5
+                    - 
+                      content: Yunyu
+                      type: 6
+                    - 
+                      content: Yulyu
+                      type: 7
+                    - 
+                      content: Ɣuct
+                      type: 8
+                    - 
+                      content: Ctembeṛ
+                      type: 9
+                    - 
+                      content: Tubeṛ
+                      type: 10
+                    - 
+                      content: Nunembeṛ
+                      type: 11
+                    - 
+                      content: Duǧembeṛ
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: 'Y'
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: 'Y'
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: 'Y'
+                    type: 6
+                  - 
+                    content: 'Y'
+                    type: 7
+                  - 
+                    content: Ɣ
+                    type: 8
+                  - 
+                    content: C
+                    type: 9
+                  - 
+                    content: T
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: Kḍg1
+                    type: 1
+                  - 
+                    content: Kḍg2
+                    type: 2
+                  - 
+                    content: Kḍg3
+                    type: 3
+                  - 
+                    content: Kḍg4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: akraḍaggur amenzu
+                    type: 1
+                  - 
+                    content: akraḍaggur wis-sin
+                    type: 2
+                  - 
+                    content: akraḍaggur wis-kraḍ
+                    type: 3
+                  - 
+                    content: akraḍaggur wis-kuẓ
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Tallit
+        type: era
+      - 
+        displayName: Aseggas
+        type: year
+      - 
+        displayName: Aggur
+        type: month
+      - 
+        displayName: Ddurt
+        type: week
+      - 
+        displayName: Ass
+        relative: 
+          - 
+            content: Iḍelli
+            type: -1
+          - 
+            content: Ass-a
+            type: 0
+          - 
+            content: Azekka
+            type: 1
+        type: day
+      - 
+        displayName: Ussan n ddurt
+        type: weekday
+      - 
+        displayName: n tufat / n tmeddit
+        type: dayperiod
+      - 
+        displayName: Tamert
+        type: hour
+      - 
+        displayName: Tamrect
+        type: minute
+      - 
+        displayName: Tasint
+        type: second
+      - 
+        displayName: Aseglem asergan
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ”
+  alternateQuotationStart: “
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: kab
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Takanit
+        type: ak
+      - 
+        content: Tamahrict
+        type: am
+      - 
+        content: Taɛrabt
+        type: ar
+      - 
+        content: Tabilarusit
+        type: be
+      - 
+        content: Tabulgarit
+        type: bg
+      - 
+        content: Tabengalit
+        type: bn
+      - 
+        content: Tačikit
+        type: cs
+      - 
+        content: Talmant
+        type: de
+      - 
+        content: Tagrikit
+        type: el
+      - 
+        content: Taglizit
+        type: en
+      - 
+        content: Taspenyulit
+        type: es
+      - 
+        content: Tafarisit
+        type: fa
+      - 
+        content: Tafransist
+        type: fr
+      - 
+        content: Tahwasit
+        type: ha
+      - 
+        content: Tahendit
+        type: hi
+      - 
+        content: Tahungarit
+        type: hu
+      - 
+        content: Tandunisit
+        type: id
+      - 
+        content: Tigbut
+        type: ig
+      - 
+        content: Taṭalyanit
+        type: it
+      - 
+        content: Tajapunit
+        type: ja
+      - 
+        content: Tajavanit
+        type: jv
+      - 
+        content: Taqbaylit
+        type: kab
+      - 
+        content: Takemrit
+        type: km
+      - 
+        content: Takurit
+        type: ko
+      - 
+        content: Tamalawit
+        type: ms
+      - 
+        content: Taburmisit
+        type: my
+      - 
+        content: Tanipalit
+        type: ne
+      - 
+        content: Tadučit
+        type: nl
+      - 
+        content: Tapunjabit
+        type: pa
+      - 
+        content: Tapulunit
+        type: pl
+      - 
+        content: Tapurtugalit
+        type: pt
+      - 
+        content: Tarumanit
+        type: ro
+      - 
+        content: Tarusit
+        type: ru
+      - 
+        content: Taruwandit
+        type: rw
+      - 
+        content: Taṣumalit
+        type: so
+      - 
+        content: Taswidit
+        type: sv
+      - 
+        content: Taṭamulit
+        type: ta
+      - 
+        content: Taṭaylundit
+        type: th
+      - 
+        content: Taṭurkit
+        type: tr
+      - 
+        content: Tukranit
+        type: uk
+      - 
+        content: Turdut
+        type: ur
+      - 
+        content: Tabyiṭnamit
+        type: vi
+      - 
+        content: Tayurubit
+        type: yo
+      - 
+        content: Tacinwat, Tamundarint
+        type: zh
+      - 
+        content: Tazulut
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Undura
+        type: AD
+      - 
+        content: Tigeldunin Yedduklen Taɛrabin
+        type: AE
+      - 
+        content: Afɣanistan
+        type: AF
+      - 
+        content: Untiga d Barbuda
+        type: AG
+      - 
+        content: Ungiya
+        type: AI
+      - 
+        content: Lalbani
+        type: AL
+      - 
+        content: Arminya
+        type: AM
+      - 
+        content: Antilles n Tmura-Yessakesren
+        type: AN
+      - 
+        content: Ungula
+        type: AO
+      - 
+        content: Arjuntin
+        type: AR
+      - 
+        content: Samwa Tamarikanit
+        type: AS
+      - 
+        content: Ustriya
+        type: AT
+      - 
+        content: Ustrali
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Azrabijan
+        type: AZ
+      - 
+        content: Busna d Hersek
+        type: BA
+      - 
+        content: Barbadus
+        type: BB
+      - 
+        content: Bangladac
+        type: BD
+      - 
+        content: Belǧik
+        type: BE
+      - 
+        content: Burkina Fasu
+        type: BF
+      - 
+        content: Bulgari
+        type: BG
+      - 
+        content: Baḥrin
+        type: BH
+      - 
+        content: Burandi
+        type: BI
+      - 
+        content: Binin
+        type: BJ
+      - 
+        content: Bermuda
+        type: BM
+      - 
+        content: Bruney
+        type: BN
+      - 
+        content: Bulivi
+        type: BO
+      - 
+        content: Brizil
+        type: BR
+      - 
+        content: Bahamas
+        type: BS
+      - 
+        content: Bhutan
+        type: BT
+      - 
+        content: Bustwana
+        type: BW
+      - 
+        content: Bilarus
+        type: BY
+      - 
+        content: Biliz
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Tigduda Tagdudant n Kungu
+        type: CD
+      - 
+        content: Tigduda n Tefriqt Talemmast
+        type: CF
+      - 
+        content: Kungu
+        type: CG
+      - 
+        content: Swis
+        type: CH
+      - 
+        content: Kuṭ Divwar
+        type: CI
+      - 
+        content: Tigzirin n Kuk
+        type: CK
+      - 
+        content: Cili
+        type: CL
+      - 
+        content: Kamirun
+        type: CM
+      - 
+        content: Lacin
+        type: CN
+      - 
+        content: Kulumbi
+        type: CO
+      - 
+        content: Kusta Rika
+        type: CR
+      - 
+        content: Kuba
+        type: CU
+      - 
+        content: Tigzirin n yixef azegzaw
+        type: CV
+      - 
+        content: Cipr
+        type: CY
+      - 
+        content: Čček
+        type: CZ
+      - 
+        content: Lalman
+        type: DE
+      - 
+        content: Ǧibuti
+        type: DJ
+      - 
+        content: Denmark
+        type: DK
+      - 
+        content: Duminik
+        type: DM
+      - 
+        content: Tigduda Taduminikit
+        type: DO
+      - 
+        content: Lezzayer
+        type: DZ
+      - 
+        content: Ikwaṭur
+        type: EC
+      - 
+        content: Istunya
+        type: EE
+      - 
+        content: Maṣr
+        type: EG
+      - 
+        content: Iritiria
+        type: ER
+      - 
+        content: Spanya
+        type: ES
+      - 
+        content: Utyupi
+        type: ET
+      - 
+        content: Finlund
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Tigzirin n Falkland
+        type: FK
+      - 
+        content: Mikrunizya
+        type: FM
+      - 
+        content: Fransa
+        type: FR
+      - 
+        content: Gabun
+        type: GA
+      - 
+        content: Tagelda Yedduklen
+        type: GB
+      - 
+        content: Grunad
+        type: GD
+      - 
+        content: Jiyurji
+        type: GE
+      - 
+        content: Ɣana tafransist
+        type: GF
+      - 
+        content: Ɣana
+        type: GH
+      - 
+        content: Jibraltar
+        type: GI
+      - 
+        content: Grunland
+        type: GL
+      - 
+        content: Gambya
+        type: GM
+      - 
+        content: Ɣinya
+        type: GN
+      - 
+        content: Gwadalupi
+        type: GP
+      - 
+        content: Ɣinya Tasebgast
+        type: GQ
+      - 
+        content: Lagris
+        type: GR
+      - 
+        content: Gwatimala
+        type: GT
+      - 
+        content: Gwam
+        type: GU
+      - 
+        content: Ɣinya-Bisaw
+        type: GW
+      - 
+        content: Guwana
+        type: GY
+      - 
+        content: Hunduras
+        type: HN
+      - 
+        content: Kerwasya
+        type: HR
+      - 
+        content: Hayti
+        type: HT
+      - 
+        content: Hungri
+        type: HU
+      - 
+        content: Indunizi
+        type: ID
+      - 
+        content: Lirlund
+        type: IE
+      - 
+        content: Izrayil
+        type: IL
+      - 
+        content: Lhend
+        type: IN
+      - 
+        content: Akal Aglizi deg Ugaraw Ahendi
+        type: IO
+      - 
+        content: Lɛiraq
+        type: IQ
+      - 
+        content: Iran
+        type: IR
+      - 
+        content: Island
+        type: IS
+      - 
+        content: Ṭelyan
+        type: IT
+      - 
+        content: Jamyika
+        type: JM
+      - 
+        content: Lajurdani
+        type: JO
+      - 
+        content: Jappu
+        type: JP
+      - 
+        content: Kinya
+        type: KE
+      - 
+        content: Kirigistan
+        type: KG
+      - 
+        content: Cambudya
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Kumur
+        type: KM
+      - 
+        content: San Kits d Nivis
+        type: KN
+      - 
+        content: Kurya, Ufella
+        type: KP
+      - 
+        content: Kurya, Wadda
+        type: KR
+      - 
+        content: Kuwayt
+        type: KW
+      - 
+        content: Tigzirin n Kamyan
+        type: KY
+      - 
+        content: Kazaxistan
+        type: KZ
+      - 
+        content: Laws
+        type: LA
+      - 
+        content: Lubnan
+        type: LB
+      - 
+        content: San Lučya
+        type: LC
+      - 
+        content: Layctenstan
+        type: LI
+      - 
+        content: Sri Lanka
+        type: LK
+      - 
+        content: Libirya
+        type: LR
+      - 
+        content: Lizuṭu
+        type: LS
+      - 
+        content: Liṭwanya
+        type: LT
+      - 
+        content: Luksamburg
+        type: LU
+      - 
+        content: Latvia
+        type: LV
+      - 
+        content: Libya
+        type: LY
+      - 
+        content: Lmerruk
+        type: MA
+      - 
+        content: Munaku
+        type: MC
+      - 
+        content: Muldabi
+        type: MD
+      - 
+        content: Madaɣecqer
+        type: MG
+      - 
+        content: Tigzirin n Marcal
+        type: MH
+      - 
+        content: Masidwan
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myanmar
+        type: MM
+      - 
+        content: Mungulya
+        type: MN
+      - 
+        content: Tigzirin n Maryan Ufella
+        type: MP
+      - 
+        content: Martinik
+        type: MQ
+      - 
+        content: Muriṭanya
+        type: MR
+      - 
+        content: Munsirat
+        type: MS
+      - 
+        content: Malṭ
+        type: MT
+      - 
+        content: Muris
+        type: MU
+      - 
+        content: Maldib
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Meksik
+        type: MX
+      - 
+        content: Malizya
+        type: MY
+      - 
+        content: Muzembiq
+        type: MZ
+      - 
+        content: Namibya
+        type: NA
+      - 
+        content: Kalidunya Tamaynut
+        type: NC
+      - 
+        content: Nijer
+        type: NE
+      - 
+        content: Tigzirin Tinawfukin
+        type: NF
+      - 
+        content: Nijirya
+        type: NG
+      - 
+        content: Nikaragwa
+        type: NI
+      - 
+        content: Timura-Yessakesren
+        type: NL
+      - 
+        content: Nurvij
+        type: 'NO'
+      - 
+        content: Nipal
+        type: NP
+      - 
+        content: Nuru
+        type: NR
+      - 
+        content: Niwi
+        type: NU
+      - 
+        content: Ziland Tamaynut
+        type: NZ
+      - 
+        content: Ɛuman
+        type: OM
+      - 
+        content: Panam
+        type: PA
+      - 
+        content: Piru
+        type: PE
+      - 
+        content: Pulunizi tafransist
+        type: PF
+      - 
+        content: Ɣinya Tamaynut Tapaput
+        type: PG
+      - 
+        content: Filipin
+        type: PH
+      - 
+        content: Pakistan
+        type: PK
+      - 
+        content: Pulund
+        type: PL
+      - 
+        content: San Pyar d Miklun
+        type: PM
+      - 
+        content: Pitkarin
+        type: PN
+      - 
+        content: Purtu Riku
+        type: PR
+      - 
+        content: Falisṭin d Ɣezza
+        type: PS
+      - 
+        content: Purtugal
+        type: PT
+      - 
+        content: Palu
+        type: PW
+      - 
+        content: Paragway
+        type: PY
+      - 
+        content: Qaṭar
+        type: QA
+      - 
+        content: Timlilit
+        type: RE
+      - 
+        content: Rumani
+        type: RO
+      - 
+        content: Rrus
+        type: RU
+      - 
+        content: Ruwanda
+        type: RW
+      - 
+        content: Suɛudiya Taɛrabt
+        type: SA
+      - 
+        content: Tigzirin n Sulumun
+        type: SB
+      - 
+        content: Seycel
+        type: SC
+      - 
+        content: Sudan
+        type: SD
+      - 
+        content: Swid
+        type: SE
+      - 
+        content: Singafur
+        type: SG
+      - 
+        content: Sant Ilina
+        type: SH
+      - 
+        content: Sluvinya
+        type: SI
+      - 
+        content: Sluvakya
+        type: SK
+      - 
+        content: Sira Lyun
+        type: SL
+      - 
+        content: San Marinu
+        type: SM
+      - 
+        content: Sinigal
+        type: SN
+      - 
+        content: Ṣumal
+        type: SO
+      - 
+        content: Surinam
+        type: SR
+      - 
+        content: Saw Tumi d Pransip
+        type: ST
+      - 
+        content: Salvadur
+        type: SV
+      - 
+        content: Surya
+        type: SY
+      - 
+        content: Swazilund
+        type: SZ
+      - 
+        content: Ṭurk d Tegzirin n Kaykus
+        type: TC
+      - 
+        content: Čad
+        type: TD
+      - 
+        content: Ṭugu
+        type: TG
+      - 
+        content: Ṭayland
+        type: TH
+      - 
+        content: Tajikistan
+        type: TJ
+      - 
+        content: Ṭuklu
+        type: TK
+      - 
+        content: Tumur Asamar
+        type: TL
+      - 
+        content: Ṭurkmanistan
+        type: TM
+      - 
+        content: Tunes
+        type: TN
+      - 
+        content: Ṭunga
+        type: TO
+      - 
+        content: Ṭurk
+        type: TR
+      - 
+        content: Ṭrindad d Ṭubagu
+        type: TT
+      - 
+        content: Ṭuvalu
+        type: TV
+      - 
+        content: Ṭaywan
+        type: TW
+      - 
+        content: Ṭanzanya
+        type: TZ
+      - 
+        content: Ukran
+        type: UA
+      - 
+        content: Uɣanda
+        type: UG
+      - 
+        content: WDM
+        type: US
+      - 
+        content: Urugway
+        type: UY
+      - 
+        content: Uzbaxistan
+        type: UZ
+      - 
+        content: Awanek n Vatikan
+        type: VA
+      - 
+        content: San Vansu d Grunadin
+        type: VC
+      - 
+        content: Venzwila
+        type: VE
+      - 
+        content: Tigzirin Tiverjiniyin Tigliziyin
+        type: VG
+      - 
+        content: W.D. Tigzirin n Virginya
+        type: VI
+      - 
+        content: Vyeṭnam
+        type: VN
+      - 
+        content: Vanwatu
+        type: VU
+      - 
+        content: Wallis d Futuna
+        type: WF
+      - 
+        content: Samwa
+        type: WS
+      - 
+        content: Lyamen
+        type: YE
+      - 
+        content: Mayuṭ
+        type: YT
+      - 
+        content: Tafriqt Wadda
+        type: ZA
+      - 
+        content: Zambya
+        type: ZM
+      - 
+        content: Zimbabwi
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Adirham n Tgeldunin Taɛrabin Yedduklen
+        type: AED
+      - 
+        displayName: Akwanza n Ungula
+        type: AOA
+      - 
+        displayName: Adular n Lusṭrali
+        type: AUD
+      - 
+        displayName: Adinar Abaḥrini
+        type: BHD
+      - 
+        displayName: Afrank Aburandi
+        type: BIF
+      - 
+        displayName: Apula Abusṭwanan
+        type: BWP
+      - 
+        displayName: Adular Akanadi
+        type: CAD
+      - 
+        displayName: Afrank Akunguli
+        type: CDF
+      - 
+        displayName: Afrank Aswis
+        type: CHF
+      - 
+        displayName: Ayuwan Renminbi Acinwa
+        type: CNY
+      - 
+        displayName: Akabuviradinu Askudi
+        type: CVE
+      - 
+        displayName: Afrank Ajibuti
+        type: DJF
+      - 
+        displayName: Adinar Azzayri
+        symbol: DA
+        type: DZD
+      - 
+        displayName: Apund Amaṣri
+        type: EGP
+      - 
+        displayName: Anakfa Iritiri
+        type: ERN
+      - 
+        displayName: Abir Utyupi
+        type: ETB
+      - 
+        displayName: Uru
+        type: EUR
+      - 
+        displayName: Apund Sterling Aglizi
+        type: GBP
+      - 
+        displayName: Asidi Aɣani
+        type: GHC
+      - 
+        displayName: Adalasi Agambi
+        type: GMD
+      - 
+        displayName: Afrank Aɣini
+        type: GNS
+      - 
+        displayName: Arupi Ahendi
+        type: INR
+      - 
+        displayName: Ayen Ajappuni
+        type: JPY
+      - 
+        displayName: Aciling Akini
+        type: KES
+      - 
+        displayName: Afrank Akamiruni
+        type: KMF
+      - 
+        displayName: Adular Alibiri
+        type: LRD
+      - 
+        displayName: Aluṭi Alizuṭi
+        type: LSL
+      - 
+        displayName: Adinar Alibi
+        type: LYD
+      - 
+        displayName: Adirham Amerruki
+        type: MAD
+      - 
+        displayName: Aryari Amalgac
+        type: MGA
+      - 
+        displayName: Agiya Amuriṭani
+        type: MRO
+      - 
+        displayName: Arupi Amurisi
+        type: MUR
+      - 
+        displayName: Akwaca Amalawi
+        type: MWK
+      - 
+        displayName: Amitikal Amuzembiqi
+        type: MZM
+      - 
+        displayName: Adular Anamibi
+        type: NAD
+      - 
+        displayName: Anayra Anijiri
+        type: NGN
+      - 
+        displayName: Afrank Aruwandi
+        type: RWF
+      - 
+        displayName: Aryal Asuɛudi
+        type: SAR
+      - 
+        displayName: Arupi Aseycili
+        type: SCR
+      - 
+        displayName: Apund Asudani
+        type: SDG
+      - 
+        displayName: Apund Asant Ilini
+        type: SHP
+      - 
+        displayName: Alyun
+        type: SLL
+      - 
+        displayName: Aciling Aṣumali
+        type: SOS
+      - 
+        displayName: Asw Ṭum d Udubra Amenzay
+        type: STD
+      - 
+        displayName: Alilangini
+        type: SZL
+      - 
+        displayName: Adinar Atunsi
+        type: TND
+      - 
+        displayName: Aciling Aṭanẓani
+        type: TZS
+      - 
+        displayName: Aciling Awgandi
+        type: UGX
+      - 
+        displayName: Adular WD
+        type: USD
+      - 
+        displayName: Afrank BCEA CFA
+        type: XAF
+      - 
+        displayName: Afrank BCEAO CFA
+        type: XOF
+      - 
+        displayName: Arand Afriqi n Wadda
+        type: ZAR
+      - 
+        displayName: Akwaca Azambi (1968-2012)
+        type: ZMK
+      - 
+        displayName: Akwaca Azambi
+        type: ZMW
+      - 
+        displayName: Adular Azimbabwi
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00¤"
+    numberSystem: latn
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: Uhu:U
+    yesstr: Ih:I

@@ -1,0 +1,1467 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u w y z]"
+    - 
+      content: "[q v x]"
+      type: auxiliary
+    - 
+      content: "[A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U W Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              M: 
+                content: M
+              MMM: 
+                content: MMM
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMMdd: 
+                content: dd MMM
+              MMd: 
+                content: d/MM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d/M
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMM: 
+                content: MM/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              M: 
+                content: M
+              MMM: 
+                content: MMM
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              MMMdd: 
+                content: dd MMM
+              MMd: 
+                content: d/MM
+              MMdd: 
+                content: dd/MM
+              Md: 
+                content: d/M
+              ms: 
+                content: m:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E d/M/y
+              yMM: 
+                content: MM/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: kar
+                      type: sun
+                    - 
+                      content: ntɛ
+                      type: mon
+                    - 
+                      content: tar
+                      type: tue
+                    - 
+                      content: ara
+                      type: wed
+                    - 
+                      content: ala
+                      type: thu
+                    - 
+                      content: jum
+                      type: fri
+                    - 
+                      content: sib
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: kari
+                      type: sun
+                    - 
+                      content: ntɛnɛ
+                      type: mon
+                    - 
+                      content: tarata
+                      type: tue
+                    - 
+                      content: araba
+                      type: wed
+                    - 
+                      content: alamisa
+                      type: thu
+                    - 
+                      content: juma
+                      type: fri
+                    - 
+                      content: sibiri
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: K
+                    type: sun
+                  - 
+                    content: 'N'
+                    type: mon
+                  - 
+                    content: T
+                    type: tue
+                  - 
+                    content: A
+                    type: wed
+                  - 
+                    content: A
+                    type: thu
+                  - 
+                    content: J
+                    type: fri
+                  - 
+                    content: S
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: J.-C. ɲɛ
+                type: 0
+              - 
+                content: ni J.-C.
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: jezu krisiti ɲɛ
+                type: 0
+              - 
+                content: jezu krisiti minkɛ
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: zan
+                      type: 1
+                    - 
+                      content: feb
+                      type: 2
+                    - 
+                      content: mar
+                      type: 3
+                    - 
+                      content: awi
+                      type: 4
+                    - 
+                      content: mɛ
+                      type: 5
+                    - 
+                      content: zuw
+                      type: 6
+                    - 
+                      content: zul
+                      type: 7
+                    - 
+                      content: uti
+                      type: 8
+                    - 
+                      content: sɛt
+                      type: 9
+                    - 
+                      content: ɔku
+                      type: 10
+                    - 
+                      content: now
+                      type: 11
+                    - 
+                      content: des
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: zanwuye
+                      type: 1
+                    - 
+                      content: feburuye
+                      type: 2
+                    - 
+                      content: marisi
+                      type: 3
+                    - 
+                      content: awirili
+                      type: 4
+                    - 
+                      content: mɛ
+                      type: 5
+                    - 
+                      content: zuwɛn
+                      type: 6
+                    - 
+                      content: zuluye
+                      type: 7
+                    - 
+                      content: uti
+                      type: 8
+                    - 
+                      content: sɛtanburu
+                      type: 9
+                    - 
+                      content: ɔkutɔburu
+                      type: 10
+                    - 
+                      content: nowanburu
+                      type: 11
+                    - 
+                      content: desanburu
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: Z
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: A
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: Z
+                    type: 6
+                  - 
+                    content: Z
+                    type: 7
+                  - 
+                    content: U
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: Ɔ
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: KS1
+                    type: 1
+                  - 
+                    content: KS2
+                    type: 2
+                  - 
+                    content: KS3
+                    type: 3
+                  - 
+                    content: KS4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: kalo saba fɔlɔ
+                    type: 1
+                  - 
+                    content: kalo saba filanan
+                    type: 2
+                  - 
+                    content: kalo saba sabanan
+                    type: 3
+                  - 
+                    content: kalo saba naaninan
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: tile
+        type: era
+      - 
+        displayName: san
+        type: year
+      - 
+        displayName: kalo
+        type: month
+      - 
+        displayName: dɔgɔkun
+        type: week
+      - 
+        displayName: don
+        relative: 
+          - 
+            content: kunu
+            type: -1
+          - 
+            content: bi
+            type: 0
+          - 
+            content: sini
+            type: 1
+        type: day
+      - 
+        displayName: sɔgɔma/tile/wula/su
+        type: dayperiod
+      - 
+        displayName: lɛrɛ
+        type: hour
+      - 
+        displayName: miniti
+        type: minute
+      - 
+        displayName: sekondi
+        type: second
+      - 
+        displayName: sigikun tilena
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ”
+  alternateQuotationStart: “
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: bm
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: akankan
+        type: ak
+      - 
+        content: amarikikan
+        type: am
+      - 
+        content: larabukan
+        type: ar
+      - 
+        content: biyelorisikan
+        type: be
+      - 
+        content: buligarikan
+        type: bg
+      - 
+        content: bamanakan
+        type: bm
+      - 
+        content: bɛngalikan
+        type: bn
+      - 
+        content: cɛkikan
+        type: cs
+      - 
+        content: alimaɲikan
+        type: de
+      - 
+        content: gɛrɛsikan
+        type: el
+      - 
+        content: angilɛkan
+        type: en
+      - 
+        content: esipaɲolkan
+        type: es
+      - 
+        content: perisanikan
+        type: fa
+      - 
+        content: tubabukan
+        type: fr
+      - 
+        content: awusakan
+        type: ha
+      - 
+        content: inidikan
+        type: hi
+      - 
+        content: oŋirikan
+        type: hu
+      - 
+        content: Ɛndonezikan
+        type: id
+      - 
+        content: igibokan
+        type: ig
+      - 
+        content: italikan
+        type: it
+      - 
+        content: zapɔnekan
+        type: ja
+      - 
+        content: javanekan
+        type: jv
+      - 
+        content: kambojikan
+        type: km
+      - 
+        content: korekan
+        type: ko
+      - 
+        content: malɛzikan
+        type: ms
+      - 
+        content: birimanikan
+        type: my
+      - 
+        content: nepalekan
+        type: ne
+      - 
+        content: olandekan
+        type: nl
+      - 
+        content: pɛnijabikan
+        type: pa
+      - 
+        content: polonekan
+        type: pl
+      - 
+        content: pɔritigalikan
+        type: pt
+      - 
+        content: rumanikan
+        type: ro
+      - 
+        content: irisikan
+        type: ru
+      - 
+        content: ruwandakan
+        type: rw
+      - 
+        content: somalikan
+        type: so
+      - 
+        content: suwɛdikan
+        type: sv
+      - 
+        content: tamulikan
+        type: ta
+      - 
+        content: tayikan
+        type: th
+      - 
+        content: turikikan
+        type: tr
+      - 
+        content: ukɛrɛnikan
+        type: uk
+      - 
+        content: urudukan
+        type: ur
+      - 
+        content: wiyɛtinamukan
+        type: vi
+      - 
+        content: yorubakan
+        type: yo
+      - 
+        content: siniwakan
+        type: zh
+      - 
+        content: zulukan
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Andɔr
+        type: AD
+      - 
+        content: Arabu mara kafoli
+        type: AE
+      - 
+        content: Afiganistaŋ
+        type: AF
+      - 
+        content: Antiga-ni-Barbuda
+        type: AG
+      - 
+        content: Angiya
+        type: AI
+      - 
+        content: Alibani
+        type: AL
+      - 
+        content: Arimeni
+        type: AM
+      - 
+        content: Peyiba ka Antiyi
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Arizantin
+        type: AR
+      - 
+        content: Samowa amerikani
+        type: AS
+      - 
+        content: Otirisi
+        type: AT
+      - 
+        content: Ositirali
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Azɛrbayjaŋ
+        type: AZ
+      - 
+        content: Bozni-Ɛrizigovini
+        type: BA
+      - 
+        content: Barbadi
+        type: BB
+      - 
+        content: Bɛngiladɛsi
+        type: BD
+      - 
+        content: Bɛliziki
+        type: BE
+      - 
+        content: Burukina Faso
+        type: BF
+      - 
+        content: Buligari
+        type: BG
+      - 
+        content: Bareyini
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benɛn
+        type: BJ
+      - 
+        content: Bermudi
+        type: BM
+      - 
+        content: Burinɛyi
+        type: BN
+      - 
+        content: Bolivi
+        type: BO
+      - 
+        content: Berezili
+        type: BR
+      - 
+        content: Bahamasi
+        type: BS
+      - 
+        content: Butaŋ
+        type: BT
+      - 
+        content: Bɔtisiwana
+        type: BW
+      - 
+        content: Belarusi
+        type: BY
+      - 
+        content: Belizi
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Kongo ka republiki demɔkratiki
+        type: CD
+      - 
+        content: Santarafiriki
+        type: CF
+      - 
+        content: Kongo
+        type: CG
+      - 
+        content: Suwisi
+        type: CH
+      - 
+        content: Kodiwari
+        type: CI
+      - 
+        content: Kuki Gun
+        type: CK
+      - 
+        content: Sili
+        type: CL
+      - 
+        content: Kameruni
+        type: CM
+      - 
+        content: Siniwajamana
+        type: CN
+      - 
+        content: Kolombi
+        type: CO
+      - 
+        content: Kɔsitarika
+        type: CR
+      - 
+        content: Kuba
+        type: CU
+      - 
+        content: Capivɛrdi
+        type: CV
+      - 
+        content: Cipri
+        type: CY
+      - 
+        content: Ceki republiki
+        type: CZ
+      - 
+        content: Alimaɲi
+        type: DE
+      - 
+        content: Jibuti
+        type: DJ
+      - 
+        content: Danemarki
+        type: DK
+      - 
+        content: Dɔminiki
+        type: DM
+      - 
+        content: Dɔmimiki republiki
+        type: DO
+      - 
+        content: Alizeri
+        type: DZ
+      - 
+        content: Ekwatɔr
+        type: EC
+      - 
+        content: Esetoni
+        type: EE
+      - 
+        content: Eziputi
+        type: EG
+      - 
+        content: Eritere
+        type: ER
+      - 
+        content: Esipaɲi
+        type: ES
+      - 
+        content: Etiopi
+        type: ET
+      - 
+        content: Finilandi
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Maluwini Gun
+        type: FK
+      - 
+        content: Mikironesi
+        type: FM
+      - 
+        content: Faransi
+        type: FR
+      - 
+        content: Gabɔŋ
+        type: GA
+      - 
+        content: Angilɛtɛri
+        type: GB
+      - 
+        content: Granadi
+        type: GD
+      - 
+        content: Zeyɔrzi
+        type: GE
+      - 
+        content: Faransi ka gwiyani
+        type: GF
+      - 
+        content: Gana
+        type: GH
+      - 
+        content: Zibralitari
+        type: GI
+      - 
+        content: Gɔrɔhenelandi
+        type: GL
+      - 
+        content: Ganbi
+        type: GM
+      - 
+        content: Gine
+        type: GN
+      - 
+        content: Gwadelup
+        type: GP
+      - 
+        content: Gine ekwatɔri
+        type: GQ
+      - 
+        content: Gɛrɛsi
+        type: GR
+      - 
+        content: Gwatemala
+        type: GT
+      - 
+        content: Gwam
+        type: GU
+      - 
+        content: Gine Bisawo
+        type: GW
+      - 
+        content: Gwiyana
+        type: GY
+      - 
+        content: Hɔndirasi
+        type: HN
+      - 
+        content: Kroasi
+        type: HR
+      - 
+        content: Ayiti
+        type: HT
+      - 
+        content: Hɔngri
+        type: HU
+      - 
+        content: Ɛndonezi
+        type: ID
+      - 
+        content: Irilandi
+        type: IE
+      - 
+        content: Isirayeli
+        type: IL
+      - 
+        content: Ɛndujamana
+        type: IN
+      - 
+        content: Angilɛ ka ɛndu dugukolo
+        type: IO
+      - 
+        content: Iraki
+        type: IQ
+      - 
+        content: Iraŋ
+        type: IR
+      - 
+        content: Isilandi
+        type: IS
+      - 
+        content: Itali
+        type: IT
+      - 
+        content: Zamayiki
+        type: JM
+      - 
+        content: Zɔrdani
+        type: JO
+      - 
+        content: Zapɔn
+        type: JP
+      - 
+        content: Keniya
+        type: KE
+      - 
+        content: Kirigizisitaŋ
+        type: KG
+      - 
+        content: Kamboji
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Komɔri
+        type: KM
+      - 
+        content: Kristɔfo-Senu-ni-Ɲevɛs
+        type: KN
+      - 
+        content: Kɛɲɛka Kore
+        type: KP
+      - 
+        content: Worodugu Kore
+        type: KR
+      - 
+        content: Kowɛti
+        type: KW
+      - 
+        content: Bama Gun
+        type: KY
+      - 
+        content: Kazakistaŋ
+        type: KZ
+      - 
+        content: Layosi
+        type: LA
+      - 
+        content: Libaŋ
+        type: LB
+      - 
+        content: Lusi-Senu
+        type: LC
+      - 
+        content: Lisɛnsitayini
+        type: LI
+      - 
+        content: Sirilanka
+        type: LK
+      - 
+        content: Liberiya
+        type: LR
+      - 
+        content: Lesoto
+        type: LS
+      - 
+        content: Lituyani
+        type: LT
+      - 
+        content: Likisanburu
+        type: LU
+      - 
+        content: Letoni
+        type: LV
+      - 
+        content: Libi
+        type: LY
+      - 
+        content: Marɔku
+        type: MA
+      - 
+        content: Monako
+        type: MC
+      - 
+        content: Molidavi
+        type: MD
+      - 
+        content: Madagasikari
+        type: MG
+      - 
+        content: Marisali Gun
+        type: MH
+      - 
+        content: Macedɔni
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myanimari
+        type: MM
+      - 
+        content: Moŋoli
+        type: MN
+      - 
+        content: Kɛɲɛka Mariyani Gun
+        type: MP
+      - 
+        content: Maritiniki
+        type: MQ
+      - 
+        content: Mɔritani
+        type: MR
+      - 
+        content: Moŋsera
+        type: MS
+      - 
+        content: Malti
+        type: MT
+      - 
+        content: Morisi
+        type: MU
+      - 
+        content: Maldivi
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Meksiki
+        type: MX
+      - 
+        content: Malɛzi
+        type: MY
+      - 
+        content: Mozanbiki
+        type: MZ
+      - 
+        content: Namibi
+        type: NA
+      - 
+        content: Kaledoni Koura
+        type: NC
+      - 
+        content: Nizɛri
+        type: NE
+      - 
+        content: Nɔrofoliki Gun
+        type: NF
+      - 
+        content: Nizeriya
+        type: NG
+      - 
+        content: Nikaragwa
+        type: NI
+      - 
+        content: Peyiba
+        type: NL
+      - 
+        content: Nɔriwɛzi
+        type: 'NO'
+      - 
+        content: Nepali
+        type: NP
+      - 
+        content: Nawuru
+        type: NR
+      - 
+        content: Nyuwe
+        type: NU
+      - 
+        content: Zelandi Koura
+        type: NZ
+      - 
+        content: Omaŋ
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Faransi ka polinezi
+        type: PF
+      - 
+        content: Papuwasi-Gine-Koura
+        type: PG
+      - 
+        content: Filipini
+        type: PH
+      - 
+        content: Pakisitaŋ
+        type: PK
+      - 
+        content: Poloɲi
+        type: PL
+      - 
+        content: Piyɛri-Senu-ni-Mikelɔŋ
+        type: PM
+      - 
+        content: Pitikarini
+        type: PN
+      - 
+        content: Pɔrotoriko
+        type: PR
+      - 
+        content: Palesitini
+        type: PS
+      - 
+        content: Pɔritigali
+        type: PT
+      - 
+        content: Palawu
+        type: PW
+      - 
+        content: Paraguwayi
+        type: PY
+      - 
+        content: Katari
+        type: QA
+      - 
+        content: Reyuɲɔŋ
+        type: RE
+      - 
+        content: Rumani
+        type: RO
+      - 
+        content: Irisi
+        type: RU
+      - 
+        content: Ruwanda
+        type: RW
+      - 
+        content: Arabiya Sawudiya
+        type: SA
+      - 
+        content: Salomo Gun
+        type: SB
+      - 
+        content: Sesɛli
+        type: SC
+      - 
+        content: Sudaŋ
+        type: SD
+      - 
+        content: Suwɛdi
+        type: SE
+      - 
+        content: Sɛngapuri
+        type: SG
+      - 
+        content: Ɛlɛni Senu
+        type: SH
+      - 
+        content: Sloveni
+        type: SI
+      - 
+        content: Slowaki
+        type: SK
+      - 
+        content: Siyera Lewɔni
+        type: SL
+      - 
+        content: Marini-Senu
+        type: SM
+      - 
+        content: Senegali
+        type: SN
+      - 
+        content: Somali
+        type: SO
+      - 
+        content: Surinami
+        type: SR
+      - 
+        content: Sawo Tome-ni-Prinicipe
+        type: ST
+      - 
+        content: Salivadɔr
+        type: SV
+      - 
+        content: Siri
+        type: SY
+      - 
+        content: Swazilandi
+        type: SZ
+      - 
+        content: Turiki Gun ni Kayiki
+        type: TC
+      - 
+        content: Cadi
+        type: TD
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Tayilandi
+        type: TH
+      - 
+        content: Tajikisitani
+        type: TJ
+      - 
+        content: Tokelo
+        type: TK
+      - 
+        content: Kɔrɔn Timɔr
+        type: TL
+      - 
+        content: Turikimenisitani
+        type: TM
+      - 
+        content: Tunizi
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Turiki
+        type: TR
+      - 
+        content: Trinite-ni-Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Tayiwani
+        type: TW
+      - 
+        content: Tanzani
+        type: TZ
+      - 
+        content: Ukɛrɛni
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: Ameriki
+        type: US
+      - 
+        content: Urugwayi
+        type: UY
+      - 
+        content: Uzebekisitani
+        type: UZ
+      - 
+        content: Vatikaŋ
+        type: VA
+      - 
+        content: Vinisɛn-Senu-ni-Grenadini
+        type: VC
+      - 
+        content: Venezuwela
+        type: VE
+      - 
+        content: Angilɛ ka Sungurunnin Gun
+        type: VG
+      - 
+        content: Ameriki ka Sungurunnin Gun
+        type: VI
+      - 
+        content: Wiyɛtinamu
+        type: VN
+      - 
+        content: Vanuwatu
+        type: VU
+      - 
+        content: Walisi-ni-Futuna
+        type: WF
+      - 
+        content: Samowa
+        type: WS
+      - 
+        content: Yemɛni
+        type: YE
+      - 
+        content: Mayoti
+        type: YT
+      - 
+        content: Worodugu Afriki
+        type: ZA
+      - 
+        content: Zanbi
+        type: ZM
+      - 
+        content: Zimbabuwe
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: arabu mara kafoli Diram
+        type: AED
+      - 
+        displayName: angola Kwanza
+        type: AOA
+      - 
+        displayName: ositirali Dolar
+        type: AUD
+      - 
+        displayName: bareyini Dinar
+        type: BHD
+      - 
+        displayName: burundi Fraŋ
+        type: BIF
+      - 
+        displayName: bɔtisiwana Pula
+        type: BWP
+      - 
+        displayName: kanada Dolar
+        type: CAD
+      - 
+        displayName: kongole Fraŋ
+        type: CDF
+      - 
+        displayName: suwisi Fraŋ
+        type: CHF
+      - 
+        displayName: siniwa Yuwan
+        type: CNY
+      - 
+        displayName: capivɛrdi Esekudo
+        type: CVE
+      - 
+        displayName: jibuti Fraŋ
+        type: DJF
+      - 
+        displayName: alizeri Dinar
+        type: DZD
+      - 
+        displayName: eziputi Livri
+        type: EGP
+      - 
+        displayName: eritere Nafika
+        type: ERN
+      - 
+        displayName: etiopi Bir
+        type: ETB
+      - 
+        displayName: ero
+        type: EUR
+      - 
+        displayName: angilɛ Livri Siterlingi
+        type: GBP
+      - 
+        displayName: gana Sedi
+        type: GHC
+      - 
+        displayName: gambi Dalasi
+        type: GMD
+      - 
+        displayName: gine Fraŋ
+        type: GNS
+      - 
+        displayName: Ɛndu Rupi
+        type: INR
+      - 
+        displayName: zapɔne Yɛn
+        type: JPY
+      - 
+        displayName: keniya Siling
+        type: KES
+      - 
+        displayName: komɔri Fraŋ
+        type: KMF
+      - 
+        displayName: liberiya Dolar
+        type: LRD
+      - 
+        displayName: lesoto Loti
+        type: LSL
+      - 
+        displayName: libi Dinar
+        type: LYD
+      - 
+        displayName: marɔku Diram
+        type: MAD
+      - 
+        displayName: madagasikari Fraŋ
+        type: MGA
+      - 
+        displayName: mɔritani Uguwiya
+        type: MRO
+      - 
+        displayName: morisi Rupi
+        type: MUR
+      - 
+        displayName: malawi Kwaca
+        type: MWK
+      - 
+        displayName: mozanbiki Metikali
+        type: MZM
+      - 
+        displayName: namibi Dolar
+        type: NAD
+      - 
+        displayName: nizeriya Nɛra
+        type: NGN
+      - 
+        displayName: ruwanda Fraŋ
+        type: RWF
+      - 
+        displayName: sawudiya Riyal
+        type: SAR
+      - 
+        displayName: sesɛli Rupi
+        type: SCR
+      - 
+        displayName: sudani Dinar
+        type: SDG
+      - 
+        displayName: sudani Livri
+        type: SDP
+      - 
+        displayName: Ɛlɛni-Senu Livri
+        type: SHP
+      - 
+        displayName: siyeralewɔni Lewɔni
+        type: SLL
+      - 
+        displayName: somali Siling
+        type: SOS
+      - 
+        displayName: sawotome Dobra
+        type: STD
+      - 
+        displayName: swazilandi Lilangeni
+        type: SZL
+      - 
+        displayName: tunizi Dinar
+        type: TND
+      - 
+        displayName: tanzani Siling
+        type: TZS
+      - 
+        displayName: uganda Siling
+        type: UGX
+      - 
+        displayName: ameriki Dolar
+        type: USD
+      - 
+        displayName: sefa Fraŋ (BEAC)
+        type: XAF
+      - 
+        displayName: sefa Fraŋ (BCEAO)
+        type: XOF
+      - 
+        displayName: sudafriki Randi
+        type: ZAR
+      - 
+        displayName: zambi Kwaca (1968-2012)
+        type: ZMK
+      - 
+        displayName: zambi Kwaca
+        type: ZMW
+      - 
+        displayName: zimbabuwe Dolar
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: ayi:a
+    yesstr: ɔwɔ:ɔ

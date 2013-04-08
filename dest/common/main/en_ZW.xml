@@ -1,0 +1,478 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE dd MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd MMM,y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MEd: 
+                content: E d/M
+              MMMEd: 
+                content: E dd MMM
+              MMMd: 
+                content: dd MMM
+              Md: 
+                content: d/M
+              yMEd: 
+                content: E, d/M/y
+              yMMMEd: 
+                content: E, dd MMM, y
+              yMMMd: 
+                content: dd MMM, y
+              yMd: 
+                content: d/M/y
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/M - E d/M
+                    draft: unconfirmed
+                  d: 
+                    content: E d/M - E d/M
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd MMM - E dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E dd - E dd MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: dd-dd MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M - d/M
+                    draft: unconfirmed
+                  d: 
+                    content: d/M - d/M
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a
+                    draft: unconfirmed
+                  h: 
+                    content: h-h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h-h a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y - M/y
+                    draft: unconfirmed
+                  "y": 
+                    content: M/y - M/y
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/M/y - E d/M/y
+                    draft: unconfirmed
+                  d: 
+                    content: E d/M/y - E d/M/y
+                    draft: unconfirmed
+                  "y": 
+                    content: E d/M/y - E d/M/y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y - MMM y
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd MMM - E dd MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E dd - E dd MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E dd MMM y - E dd MMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: dd-dd MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: dd MMM y - dd MMM y
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y - d/M/y
+                    draft: unconfirmed
+                  d: 
+                    content: d/M/y - d/M/y
+                    draft: unconfirmed
+                  "y": 
+                    content: d/M/y - d/M/y
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE dd MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd MMM,y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MEd: 
+                content: E d/M
+              MMMEd: 
+                content: E dd MMM
+              MMMd: 
+                content: dd MMM
+              Md: 
+                content: d/M
+              yMEd: 
+                content: E, d/M/y
+              yMMMEd: 
+                content: E, dd MMM, y
+              yMMMd: 
+                content: dd MMM, y
+              yMd: 
+                content: d/M/y
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/M - E d/M
+                    draft: unconfirmed
+                  d: 
+                    content: E d/M - E d/M
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd MMM - E dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E dd - E dd MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM
+                    draft: unconfirmed
+                  d: 
+                    content: dd-dd MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M - d/M
+                    draft: unconfirmed
+                  d: 
+                    content: d/M - d/M
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a
+                    draft: unconfirmed
+                  h: 
+                    content: h-h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm-h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h-h a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y - M/y
+                    draft: unconfirmed
+                  "y": 
+                    content: M/y - M/y
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/M/y - E d/M/y
+                    draft: unconfirmed
+                  d: 
+                    content: E d/M/y - E d/M/y
+                    draft: unconfirmed
+                  "y": 
+                    content: E d/M/y - E d/M/y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y - MMM y
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd MMM - E dd MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E dd - E dd MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E dd MMM y - E dd MMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd MMM - dd MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: dd-dd MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: dd MMM y - dd MMM y
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y - d/M/y
+                    draft: unconfirmed
+                  d: 
+                    content: d/M/y - d/M/y
+                    draft: unconfirmed
+                  "y": 
+                    content: d/M/y - d/M/y
+                    draft: unconfirmed
+        type: gregorian
+  timeZoneNames: 
+    metazone: 
+      - 
+        short: 
+          standard: CAT
+        type: Africa_Central
+      - 
+        short: 
+          standard: EAT
+        type: Africa_Eastern
+      - 
+        short: 
+          standard: SAST
+        type: Africa_Southern
+      - 
+        short: 
+          daylight: WAST
+          generic: WAT
+          standard: WAT
+        type: Africa_Western
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: Alaska
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: America_Central
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: America_Eastern
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: America_Mountain
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: America_Pacific
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: Atlantic
+      - 
+        short: 
+          daylight: ∅∅∅
+          generic: ∅∅∅
+          standard: ∅∅∅
+        type: Hawaii_Aleutian
+    zone: 
+      short: 
+        daylight: ∅∅∅
+        generic: ∅∅∅
+        standard: ∅∅∅
+      type: Pacific/Honolulu
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: en
+  territory: 
+    type: ZW
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  currencies: 
+    currency: 
+      symbol: US$
+      type: USD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn

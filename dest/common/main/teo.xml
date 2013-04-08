@@ -1,0 +1,1473 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e g h i j k l m n o p r s t u v w x y]"
+    - 
+      content: "[f q z]"
+      type: auxiliary
+    - 
+      content: "[A B C D E G H I J K L M N O P R S T U V W X Y]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: Taparachu
+                  type: am
+                - 
+                  content: Ebongi
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Jum
+                      type: sun
+                    - 
+                      content: Bar
+                      type: mon
+                    - 
+                      content: Aar
+                      type: tue
+                    - 
+                      content: Uni
+                      type: wed
+                    - 
+                      content: Ung
+                      type: thu
+                    - 
+                      content: Kan
+                      type: fri
+                    - 
+                      content: Sab
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Nakaejuma
+                      type: sun
+                    - 
+                      content: Nakaebarasa
+                      type: mon
+                    - 
+                      content: Nakaare
+                      type: tue
+                    - 
+                      content: Nakauni
+                      type: wed
+                    - 
+                      content: Nakaung'on
+                      type: thu
+                    - 
+                      content: Nakakany
+                      type: fri
+                    - 
+                      content: Nakasabiti
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: J
+                    type: sun
+                  - 
+                    content: B
+                    type: mon
+                  - 
+                    content: A
+                    type: tue
+                  - 
+                    content: U
+                    type: wed
+                  - 
+                    content: U
+                    type: thu
+                  - 
+                    content: K
+                    type: fri
+                  - 
+                    content: S
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: KK
+                type: 0
+              - 
+                content: BK
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Kabla ya Christo
+                type: 0
+              - 
+                content: Baada ya Christo
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Rar
+                      type: 1
+                    - 
+                      content: Muk
+                      type: 2
+                    - 
+                      content: Kwa
+                      type: 3
+                    - 
+                      content: Dun
+                      type: 4
+                    - 
+                      content: Mar
+                      type: 5
+                    - 
+                      content: Mod
+                      type: 6
+                    - 
+                      content: Jol
+                      type: 7
+                    - 
+                      content: Ped
+                      type: 8
+                    - 
+                      content: Sok
+                      type: 9
+                    - 
+                      content: Tib
+                      type: 10
+                    - 
+                      content: Lab
+                      type: 11
+                    - 
+                      content: Poo
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Orara
+                      type: 1
+                    - 
+                      content: Omuk
+                      type: 2
+                    - 
+                      content: Okwamg'
+                      type: 3
+                    - 
+                      content: Odung'el
+                      type: 4
+                    - 
+                      content: Omaruk
+                      type: 5
+                    - 
+                      content: Omodok'king'ol
+                      type: 6
+                    - 
+                      content: Ojola
+                      type: 7
+                    - 
+                      content: Opedel
+                      type: 8
+                    - 
+                      content: Osokosokoma
+                      type: 9
+                    - 
+                      content: Otibar
+                      type: 10
+                    - 
+                      content: Olabor
+                      type: 11
+                    - 
+                      content: Opoo
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: R
+                    type: 1
+                  - 
+                    content: M
+                    type: 2
+                  - 
+                    content: K
+                    type: 3
+                  - 
+                    content: D
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: M
+                    type: 6
+                  - 
+                    content: J
+                    type: 7
+                  - 
+                    content: P
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: T
+                    type: 10
+                  - 
+                    content: L
+                    type: 11
+                  - 
+                    content: P
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: K1
+                    type: 1
+                  - 
+                    content: K2
+                    type: 2
+                  - 
+                    content: K3
+                    type: 3
+                  - 
+                    content: K4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: Akwota abe
+                    type: 1
+                  - 
+                    content: Akwota Aane
+                    type: 2
+                  - 
+                    content: Akwota auni
+                    type: 3
+                  - 
+                    content: Akwota Aung'on
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Enzi
+        type: era
+      - 
+        displayName: Ekan
+        type: year
+      - 
+        displayName: Elap
+        type: month
+      - 
+        displayName: Ewiki
+        type: week
+      - 
+        displayName: Aparan
+        relative: 
+          - 
+            content: Jaan
+            type: -1
+          - 
+            content: Lolo
+            type: 0
+          - 
+            content: Moi
+            type: 1
+        type: day
+      - 
+        displayName: TA/EB
+        type: dayperiod
+      - 
+        displayName: Esaa
+        type: hour
+      - 
+        displayName: Idakika
+        type: minute
+      - 
+        displayName: Isekonde
+        type: second
+      - 
+        displayName: Majira ya saa
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: teo
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Kiakan
+        type: ak
+      - 
+        content: Kiamhari
+        type: am
+      - 
+        content: Kiarabu
+        type: ar
+      - 
+        content: Kibelarusi
+        type: be
+      - 
+        content: Kibulgaria
+        type: bg
+      - 
+        content: Kibangla
+        type: bn
+      - 
+        content: Kichecki
+        type: cs
+      - 
+        content: Kijerumani
+        type: de
+      - 
+        content: Kigiriki
+        type: el
+      - 
+        content: Kingereza
+        type: en
+      - 
+        content: Kihispania
+        type: es
+      - 
+        content: Kiajemi
+        type: fa
+      - 
+        content: Kifaransa
+        type: fr
+      - 
+        content: Kihausa
+        type: ha
+      - 
+        content: Kihindi
+        type: hi
+      - 
+        content: Kihungari
+        type: hu
+      - 
+        content: Kiindonesia
+        type: id
+      - 
+        content: Kiigbo
+        type: ig
+      - 
+        content: Kiitaliano
+        type: it
+      - 
+        content: Kijapani
+        type: ja
+      - 
+        content: Kijava
+        type: jv
+      - 
+        content: Kikambodia
+        type: km
+      - 
+        content: Kikorea
+        type: ko
+      - 
+        content: Kimalesia
+        type: ms
+      - 
+        content: Kiburma
+        type: my
+      - 
+        content: Kinepali
+        type: ne
+      - 
+        content: Kiholanzi
+        type: nl
+      - 
+        content: Kipunjabi
+        type: pa
+      - 
+        content: Kipolandi
+        type: pl
+      - 
+        content: Kireno
+        type: pt
+      - 
+        content: Kiromania
+        type: ro
+      - 
+        content: Kirusi
+        type: ru
+      - 
+        content: Kinyarwanda
+        type: rw
+      - 
+        content: Kisomali
+        type: so
+      - 
+        content: Kiswidi
+        type: sv
+      - 
+        content: Kitamil
+        type: ta
+      - 
+        content: Kiteso
+        type: teo
+      - 
+        content: Kitailandi
+        type: th
+      - 
+        content: Kituruki
+        type: tr
+      - 
+        content: Kiukrania
+        type: uk
+      - 
+        content: Kiurdu
+        type: ur
+      - 
+        content: Kivietinamu
+        type: vi
+      - 
+        content: Kiyoruba
+        type: yo
+      - 
+        content: Kichina
+        type: zh
+      - 
+        content: Kizulu
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Andora
+        type: AD
+      - 
+        content: Falme za Kiarabu
+        type: AE
+      - 
+        content: Afuganistani
+        type: AF
+      - 
+        content: Antigua na Barbuda
+        type: AG
+      - 
+        content: Anguilla
+        type: AI
+      - 
+        content: Albania
+        type: AL
+      - 
+        content: Armenia
+        type: AM
+      - 
+        content: Antili za Uholanzi
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Ajentina
+        type: AR
+      - 
+        content: Samoa ya Marekani
+        type: AS
+      - 
+        content: Austria
+        type: AT
+      - 
+        content: Australia
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Azabajani
+        type: AZ
+      - 
+        content: Bosnia na Hezegovina
+        type: BA
+      - 
+        content: Babadosi
+        type: BB
+      - 
+        content: Bangladeshi
+        type: BD
+      - 
+        content: Ubelgiji
+        type: BE
+      - 
+        content: Bukinafaso
+        type: BF
+      - 
+        content: Bulgaria
+        type: BG
+      - 
+        content: Bahareni
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benini
+        type: BJ
+      - 
+        content: Bermuda
+        type: BM
+      - 
+        content: Brunei
+        type: BN
+      - 
+        content: Bolivia
+        type: BO
+      - 
+        content: Brazili
+        type: BR
+      - 
+        content: Bahama
+        type: BS
+      - 
+        content: Butani
+        type: BT
+      - 
+        content: Botswana
+        type: BW
+      - 
+        content: Belarusi
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Jamhuri ya Kidemokrasia ya Kongo
+        type: CD
+      - 
+        content: Jamhuri ya Afrika ya Kati
+        type: CF
+      - 
+        content: Kongo
+        type: CG
+      - 
+        content: Uswisi
+        type: CH
+      - 
+        content: Kodivaa
+        type: CI
+      - 
+        content: Visiwa vya Cook
+        type: CK
+      - 
+        content: Chile
+        type: CL
+      - 
+        content: Kameruni
+        type: CM
+      - 
+        content: China
+        type: CN
+      - 
+        content: Kolombia
+        type: CO
+      - 
+        content: Kostarika
+        type: CR
+      - 
+        content: Kuba
+        type: CU
+      - 
+        content: Kepuvede
+        type: CV
+      - 
+        content: Kuprosi
+        type: CY
+      - 
+        content: Jamhuri ya Cheki
+        type: CZ
+      - 
+        content: Ujerumani
+        type: DE
+      - 
+        content: Jibuti
+        type: DJ
+      - 
+        content: Denmaki
+        type: DK
+      - 
+        content: Dominika
+        type: DM
+      - 
+        content: Jamhuri ya Dominika
+        type: DO
+      - 
+        content: Aljeria
+        type: DZ
+      - 
+        content: Ekwado
+        type: EC
+      - 
+        content: Estonia
+        type: EE
+      - 
+        content: Misri
+        type: EG
+      - 
+        content: Eritrea
+        type: ER
+      - 
+        content: Hispania
+        type: ES
+      - 
+        content: Uhabeshi
+        type: ET
+      - 
+        content: Ufini
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Visiwa vya Falkland
+        type: FK
+      - 
+        content: Mikronesia
+        type: FM
+      - 
+        content: Ufaransa
+        type: FR
+      - 
+        content: Gaboni
+        type: GA
+      - 
+        content: Uingereza
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Jojia
+        type: GE
+      - 
+        content: Gwiyana ya Ufaransa
+        type: GF
+      - 
+        content: Ghana
+        type: GH
+      - 
+        content: Jibralta
+        type: GI
+      - 
+        content: Grinlandi
+        type: GL
+      - 
+        content: Gambia
+        type: GM
+      - 
+        content: Gine
+        type: GN
+      - 
+        content: Gwadelupe
+        type: GP
+      - 
+        content: Ginekweta
+        type: GQ
+      - 
+        content: Ugiriki
+        type: GR
+      - 
+        content: Gwatemala
+        type: GT
+      - 
+        content: Gwam
+        type: GU
+      - 
+        content: Ginebisau
+        type: GW
+      - 
+        content: Guyana
+        type: GY
+      - 
+        content: Hondurasi
+        type: HN
+      - 
+        content: Korasia
+        type: HR
+      - 
+        content: Haiti
+        type: HT
+      - 
+        content: Hungaria
+        type: HU
+      - 
+        content: Indonesia
+        type: ID
+      - 
+        content: Ayalandi
+        type: IE
+      - 
+        content: Israeli
+        type: IL
+      - 
+        content: India
+        type: IN
+      - 
+        content: Eneo la Uingereza katika Bahari Hindi
+        type: IO
+      - 
+        content: Iraki
+        type: IQ
+      - 
+        content: Uajemi
+        type: IR
+      - 
+        content: Aislandi
+        type: IS
+      - 
+        content: Italia
+        type: IT
+      - 
+        content: Jamaika
+        type: JM
+      - 
+        content: Yordani
+        type: JO
+      - 
+        content: Japani
+        type: JP
+      - 
+        content: Kenia
+        type: KE
+      - 
+        content: Kirigizistani
+        type: KG
+      - 
+        content: Kambodia
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Komoro
+        type: KM
+      - 
+        content: Santakitzi na Nevis
+        type: KN
+      - 
+        content: Korea Kaskazini
+        type: KP
+      - 
+        content: Korea Kusini
+        type: KR
+      - 
+        content: Kuwaiti
+        type: KW
+      - 
+        content: Visiwa vya Kayman
+        type: KY
+      - 
+        content: Kazakistani
+        type: KZ
+      - 
+        content: Laosi
+        type: LA
+      - 
+        content: Lebanoni
+        type: LB
+      - 
+        content: Santalusia
+        type: LC
+      - 
+        content: Lishenteni
+        type: LI
+      - 
+        content: Sirilanka
+        type: LK
+      - 
+        content: Liberia
+        type: LR
+      - 
+        content: Lesoto
+        type: LS
+      - 
+        content: Litwania
+        type: LT
+      - 
+        content: Lasembagi
+        type: LU
+      - 
+        content: Lativia
+        type: LV
+      - 
+        content: Libya
+        type: LY
+      - 
+        content: Moroko
+        type: MA
+      - 
+        content: Monako
+        type: MC
+      - 
+        content: Moldova
+        type: MD
+      - 
+        content: Bukini
+        type: MG
+      - 
+        content: Visiwa vya Marshal
+        type: MH
+      - 
+        content: Masedonia
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myama
+        type: MM
+      - 
+        content: Mongolia
+        type: MN
+      - 
+        content: Visiwa vya Mariana vya Kaskazini
+        type: MP
+      - 
+        content: Martiniki
+        type: MQ
+      - 
+        content: Moritania
+        type: MR
+      - 
+        content: Montserrati
+        type: MS
+      - 
+        content: Malta
+        type: MT
+      - 
+        content: Morisi
+        type: MU
+      - 
+        content: Modivu
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Meksiko
+        type: MX
+      - 
+        content: Malesia
+        type: MY
+      - 
+        content: Msumbiji
+        type: MZ
+      - 
+        content: Namibia
+        type: NA
+      - 
+        content: Nyukaledonia
+        type: NC
+      - 
+        content: Nijeri
+        type: NE
+      - 
+        content: Kisiwa cha Norfok
+        type: NF
+      - 
+        content: Nijeria
+        type: NG
+      - 
+        content: Nikaragwa
+        type: NI
+      - 
+        content: Uholanzi
+        type: NL
+      - 
+        content: Norwe
+        type: 'NO'
+      - 
+        content: Nepali
+        type: NP
+      - 
+        content: Nauru
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: Nyuzilandi
+        type: NZ
+      - 
+        content: Omani
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Polinesia ya Ufaransa
+        type: PF
+      - 
+        content: Papua
+        type: PG
+      - 
+        content: Filipino
+        type: PH
+      - 
+        content: Pakistani
+        type: PK
+      - 
+        content: Polandi
+        type: PL
+      - 
+        content: Santapieri na Mikeloni
+        type: PM
+      - 
+        content: Pitkairni
+        type: PN
+      - 
+        content: Pwetoriko
+        type: PR
+      - 
+        content: Ukingo wa Magharibi na Ukanda wa Gaza wa Palestina
+        type: PS
+      - 
+        content: Ureno
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paragwai
+        type: PY
+      - 
+        content: Katari
+        type: QA
+      - 
+        content: Riyunioni
+        type: RE
+      - 
+        content: Romania
+        type: RO
+      - 
+        content: Urusi
+        type: RU
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Saudi
+        type: SA
+      - 
+        content: Visiwa vya Solomon
+        type: SB
+      - 
+        content: Shelisheli
+        type: SC
+      - 
+        content: Sudani
+        type: SD
+      - 
+        content: Uswidi
+        type: SE
+      - 
+        content: Singapoo
+        type: SG
+      - 
+        content: Santahelena
+        type: SH
+      - 
+        content: Slovenia
+        type: SI
+      - 
+        content: Slovakia
+        type: SK
+      - 
+        content: Siera Leoni
+        type: SL
+      - 
+        content: Samarino
+        type: SM
+      - 
+        content: Senegali
+        type: SN
+      - 
+        content: Somalia
+        type: SO
+      - 
+        content: Surinamu
+        type: SR
+      - 
+        content: Sao Tome na Principe
+        type: ST
+      - 
+        content: Elsavado
+        type: SV
+      - 
+        content: Siria
+        type: SY
+      - 
+        content: Uswazi
+        type: SZ
+      - 
+        content: Visiwa vya Turki na Kaiko
+        type: TC
+      - 
+        content: Chadi
+        type: TD
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Tailandi
+        type: TH
+      - 
+        content: Tajikistani
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Timori ya Mashariki
+        type: TL
+      - 
+        content: Turukimenistani
+        type: TM
+      - 
+        content: Tunisia
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Uturuki
+        type: TR
+      - 
+        content: Trinidad na Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwani
+        type: TW
+      - 
+        content: Tanzania
+        type: TZ
+      - 
+        content: Ukraini
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: Marekani
+        type: US
+      - 
+        content: Urugwai
+        type: UY
+      - 
+        content: Uzibekistani
+        type: UZ
+      - 
+        content: Vatikani
+        type: VA
+      - 
+        content: Santavisenti na Grenadini
+        type: VC
+      - 
+        content: Venezuela
+        type: VE
+      - 
+        content: Visiwa vya Virgin vya Uingereza
+        type: VG
+      - 
+        content: Visiwa vya Virgin vya Marekani
+        type: VI
+      - 
+        content: Vietinamu
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Walis na Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Yemeni
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Afrika Kusini
+        type: ZA
+      - 
+        content: Zambia
+        type: ZM
+      - 
+        content: Zimbabwe
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Ango'otol lok' Falme za Kiarabu
+        type: AED
+      - 
+        displayName: Ango'otol lok' Angola
+        type: AOA
+      - 
+        displayName: Ango'otol lok' Australia
+        type: AUD
+      - 
+        displayName: Ango'otol lok' Bahareni
+        type: BHD
+      - 
+        displayName: Ango'otol lok' Burundi
+        type: BIF
+      - 
+        displayName: Ango'otol lok' Botswana
+        type: BWP
+      - 
+        displayName: Edola lok'Kanada
+        type: CAD
+      - 
+        displayName: Ango'otol lok' Kongo
+        type: CDF
+      - 
+        displayName: Ango'otol lok' Uswisi
+        type: CHF
+      - 
+        displayName: Ango'otol lok' China
+        type: CNY
+      - 
+        displayName: Ango'otol lok' Kepuvede
+        type: CVE
+      - 
+        displayName: Ango'otol lok' Jibuti
+        type: DJF
+      - 
+        displayName: Ango'otol lok' Aljeria
+        type: DZD
+      - 
+        displayName: Epaunt lok' Misri
+        type: EGP
+      - 
+        displayName: Ango'otol lok' Eritrea
+        type: ERN
+      - 
+        displayName: Ango'otol lok' Uhabeshi
+        type: ETB
+      - 
+        displayName: Yuro
+        type: EUR
+      - 
+        displayName: Epaunt lok' Uingereza
+        type: GBP
+      - 
+        displayName: Sedi ya Ghana
+        type: GHC
+      - 
+        displayName: Dalasi ya Gambia
+        type: GMD
+      - 
+        displayName: Ango'otol lok' Gine
+        type: GNS
+      - 
+        displayName: Ango'otol lok' India
+        type: INR
+      - 
+        displayName: Ango'otol lok' Kijapani
+        type: JPY
+      - 
+        displayName: Ango'otol lok' Kenya
+        type: KES
+      - 
+        displayName: Ango'otol lok' Komoro
+        type: KMF
+      - 
+        displayName: edola lok' Liberia
+        type: LRD
+      - 
+        displayName: Ango'otol lok' Lesoto
+        type: LSL
+      - 
+        displayName: Ango'otol lok' Libya
+        type: LYD
+      - 
+        displayName: Ango'otol lok' Moroko
+        type: MAD
+      - 
+        displayName: Ango'otol lok' Bukini
+        type: MGA
+      - 
+        displayName: Ango'otol lok' Moritania
+        type: MRO
+      - 
+        displayName: Ango'otol lok' Morisi
+        type: MUR
+      - 
+        displayName: Ango'otol lok' Malawi
+        type: MWK
+      - 
+        displayName: Ango'otol lok' Msumbiji
+        type: MZM
+      - 
+        displayName: Ango'otol lok' Namibia
+        type: NAD
+      - 
+        displayName: Ango'otol lok' Nijeria
+        type: NGN
+      - 
+        displayName: Ango'otol lok' Rwanda
+        type: RWF
+      - 
+        displayName: Ango'otol lok' Saudia
+        type: SAR
+      - 
+        displayName: Ango'otol lok' Shelisheli
+        type: SCR
+      - 
+        displayName: Epaunt Lok' Sudan
+        type: SDG
+      - 
+        displayName: Ango'otol lok' Santahelena
+        type: SHP
+      - 
+        displayName: Leoni
+        type: SLL
+      - 
+        displayName: Ango'otol lok' Somalia
+        type: SOS
+      - 
+        displayName: Ango'otol lok' Sao Tome na Principe
+        type: STD
+      - 
+        displayName: Lilangeni
+        type: SZL
+      - 
+        displayName: Ango'otol lok' Tunisia
+        type: TND
+      - 
+        displayName: Ango'otol lok' Tanzania
+        type: TZS
+      - 
+        displayName: Ango'otol lok' Uganda
+        symbol: USh
+        type: UGX
+      - 
+        displayName: edola lok' Amareka
+        type: USD
+      - 
+        displayName: Ango'otol lok' CFA BEAC
+        type: XAF
+      - 
+        displayName: Ango'otol lok' CFA BCEAO
+        type: XOF
+      - 
+        displayName: Ango'otol lok' Afrika Kusini
+        type: ZAR
+      - 
+        displayName: Ango'otol lok' Zambia (1968-2012)
+        type: ZMK
+      - 
+        displayName: Ango'otol lok' Zambia
+        type: ZMW
+      - 
+        displayName: Edola lok'Zimbabwe
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: Kuju:K
+    yesstr: Eeh:E

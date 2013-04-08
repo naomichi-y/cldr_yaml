@@ -1,0 +1,673 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e f g h i j k l m n o p q r s t u v w x y z]"
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, MMMM d, y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd-MMM-y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMMMdd: 
+                content: dd MMMM
+              MMdd: 
+                content: dd/MM
+              yMM: 
+                content: MM/y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, MMMM d, y
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd-MMM-y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMMMdd: 
+                content: dd MMMM
+              MMdd: 
+                content: dd/MM
+              yMM: 
+                content: MM/y
+              yMMMM: 
+                content: MMMM y
+              yQQQ: 
+                content: QQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: WD
+                  type: am
+                - 
+                  content: WB
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Dil
+                      type: sun
+                    - 
+                      content: Wix
+                      type: mon
+                    - 
+                      content: Qib
+                      type: tue
+                    - 
+                      content: Rob
+                      type: wed
+                    - 
+                      content: Kam
+                      type: thu
+                    - 
+                      content: Jim
+                      type: fri
+                    - 
+                      content: San
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Dilbata
+                      type: sun
+                    - 
+                      content: Wiixata
+                      type: mon
+                    - 
+                      content: Qibxata
+                      type: tue
+                    - 
+                      content: Roobii
+                      type: wed
+                    - 
+                      content: Kamiisa
+                      type: thu
+                    - 
+                      content: Jimaata
+                      type: fri
+                    - 
+                      content: Sanbata
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: S
+                    type: sun
+                  - 
+                    content: M
+                    type: mon
+                  - 
+                    content: T
+                    type: tue
+                  - 
+                    content: W
+                    type: wed
+                  - 
+                    content: T
+                    type: thu
+                  - 
+                    content: F
+                    type: fri
+                  - 
+                    content: S
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: KD
+                type: 0
+              - 
+                content: KB
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Ama
+                      type: 1
+                    - 
+                      content: Gur
+                      type: 2
+                    - 
+                      content: Bit
+                      type: 3
+                    - 
+                      content: Elb
+                      type: 4
+                    - 
+                      content: Cam
+                      type: 5
+                    - 
+                      content: Wax
+                      type: 6
+                    - 
+                      content: Ado
+                      type: 7
+                    - 
+                      content: Hag
+                      type: 8
+                    - 
+                      content: Ful
+                      type: 9
+                    - 
+                      content: Onk
+                      type: 10
+                    - 
+                      content: Sad
+                      type: 11
+                    - 
+                      content: Mud
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Amajjii
+                      type: 1
+                    - 
+                      content: Guraandhala
+                      type: 2
+                    - 
+                      content: Bitooteessa
+                      type: 3
+                    - 
+                      content: Elba
+                      type: 4
+                    - 
+                      content: Caamsa
+                      type: 5
+                    - 
+                      content: Waxabajjii
+                      type: 6
+                    - 
+                      content: Adooleessa
+                      type: 7
+                    - 
+                      content: Hagayya
+                      type: 8
+                    - 
+                      content: Fuulbana
+                      type: 9
+                    - 
+                      content: Onkololeessa
+                      type: 10
+                    - 
+                      content: Sadaasa
+                      type: 11
+                    - 
+                      content: Muddee
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: J
+                    type: 1
+                  - 
+                    content: F
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: A
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: J
+                    type: 6
+                  - 
+                    content: J
+                    type: 7
+                  - 
+                    content: A
+                    type: 8
+                  - 
+                    content: S
+                    type: 9
+                  - 
+                    content: O
+                    type: 10
+                  - 
+                    content: 'N'
+                    type: 11
+                  - 
+                    content: D
+                    type: 12
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  timeZoneNames: 
+    gmtFormat: GMT{0}
+    hourFormat: +HH:mm;-HH:mm
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: om
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Afrikoota
+        type: af
+      - 
+        content: Afaan Sidaamaa
+        type: am
+      - 
+        content: Arabiffaa
+        type: ar
+      - 
+        content: Afaan Azerbaijani
+        type: az
+      - 
+        content: Afaan Belarusia
+        type: be
+      - 
+        content: Afaan Bulgariya
+        type: bg
+      - 
+        content: Afaan Bihari
+        type: bh
+      - 
+        content: Afaan Baangladeshi
+        type: bn
+      - 
+        content: Afaan Bosniyaa
+        type: bs
+      - 
+        content: Afaan Katalaa
+        type: ca
+      - 
+        content: Afaan Czech
+        type: cs
+      - 
+        content: Welishiffaa
+        type: cy
+      - 
+        content: Afaan Deenmaark
+        type: da
+      - 
+        content: Afaan Jarmanii
+        type: de
+      - 
+        content: Afaan Giriiki
+        type: el
+      - 
+        content: Ingliffa
+        type: en
+      - 
+        content: Afaan Esperantoo
+        type: eo
+      - 
+        content: Afaan Ispeen
+        type: es
+      - 
+        content: Afaan Istooniya
+        type: et
+      - 
+        content: Afaan Baskuu
+        type: eu
+      - 
+        content: Afaan Persia
+        type: fa
+      - 
+        content: Afaan Fiilaandi
+        type: fi
+      - 
+        content: Afaan Filippinii
+        type: fil
+      - 
+        content: Afaan Faroese
+        type: fo
+      - 
+        content: Afaan Faransaayii
+        type: fr
+      - 
+        content: Afaan Firisiyaani
+        type: fy
+      - 
+        content: Afaan Ayirishii
+        type: ga
+      - 
+        content: Scots Gaelic
+        type: gd
+      - 
+        content: Afaan Galishii
+        type: gl
+      - 
+        content: Afaan Guarani
+        type: gn
+      - 
+        content: Afaan Gujarati
+        type: gu
+      - 
+        content: Afaan Hebrew
+        type: he
+      - 
+        content: Afaan Hindii
+        type: hi
+      - 
+        content: Afaan Croatian
+        type: hr
+      - 
+        content: Afaan Hangaari
+        type: hu
+      - 
+        content: Interlingua
+        type: ia
+      - 
+        content: Afaan Indoneziya
+        type: id
+      - 
+        content: Ayiislandiffaa
+        type: is
+      - 
+        content: Afaan Xaaliyaani
+        type: it
+      - 
+        content: Afaan Japanii
+        type: ja
+      - 
+        content: Afaan Java
+        type: jv
+      - 
+        content: Afaan Georgian
+        type: ka
+      - 
+        content: Afaan Kannada
+        type: kn
+      - 
+        content: Afaan Korea
+        type: ko
+      - 
+        content: Afaan Laatini
+        type: la
+      - 
+        content: Afaan Liituniyaa
+        type: lt
+      - 
+        content: Afaan Lativiyaa
+        type: lv
+      - 
+        content: Afaan Macedooniyaa
+        type: mk
+      - 
+        content: Malayaalamiffaa
+        type: ml
+      - 
+        content: Afaan Maratii
+        type: mr
+      - 
+        content: Malaayiffaa
+        type: ms
+      - 
+        content: Afaan Maltesii
+        type: mt
+      - 
+        content: Afaan Nepalii
+        type: ne
+      - 
+        content: Afaan Dachii
+        type: nl
+      - 
+        content: Afaan Norwegian
+        type: nn
+      - 
+        content: Afaan Norweyii
+        type: 'no'
+      - 
+        content: Afaan Occit
+        type: oc
+      - 
+        content: Oromoo
+        type: om
+      - 
+        content: Afaan Punjabii
+        type: pa
+      - 
+        content: Afaan Polandii
+        type: pl
+      - 
+        content: Afaan Porchugaal
+        type: pt
+      - 
+        content: Afaan Portugali (Braazil)
+        type: pt_BR
+      - 
+        content: Afaan Protuguese
+        type: pt_PT
+      - 
+        content: Afaan Romaniyaa
+        type: ro
+      - 
+        content: Afaan Rushiyaa
+        type: ru
+      - 
+        content: Afaan Sinhalese
+        type: si
+      - 
+        content: Afaan Slovak
+        type: sk
+      - 
+        content: Afaan Islovaniyaa
+        type: sl
+      - 
+        content: Afaan Albaniyaa
+        type: sq
+      - 
+        content: Afaan Serbiya
+        type: sr
+      - 
+        content: Afaan Sudaanii
+        type: su
+      - 
+        content: Afaan Suwidiin
+        type: sv
+      - 
+        content: Suwahilii
+        type: sw
+      - 
+        content: Afaan Tamilii
+        type: ta
+      - 
+        content: Afaan Telugu
+        type: te
+      - 
+        content: Afaan Tayii
+        type: th
+      - 
+        content: Afaan Tigiree
+        type: ti
+      - 
+        content: Lammii Turkii
+        type: tk
+      - 
+        content: Afaan Kilingon
+        type: tlh
+      - 
+        content: Afaan Turkii
+        type: tr
+      - 
+        content: Afaan Ukreenii
+        type: uk
+      - 
+        content: Afaan Urdu
+        type: ur
+      - 
+        content: Afaan Uzbek
+        type: uz
+      - 
+        content: Afaan Veetinam
+        type: vi
+      - 
+        content: Afaan Xhosa
+        type: xh
+      - 
+        content: Chinese
+        type: zh
+      - 
+        content: Afaan Zuulu
+        type: zu
+  scripts: 
+    script: 
+      content: Latin
+      type: Latn
+  territories: 
+    territory: 
+      - 
+        content: Brazil
+        type: BR
+      - 
+        content: China
+        type: CN
+      - 
+        content: Germany
+        type: DE
+      - 
+        content: Itoophiyaa
+        type: ET
+      - 
+        content: France
+        type: FR
+      - 
+        content: United Kingdom
+        type: GB
+      - 
+        content: India
+        type: IN
+      - 
+        content: Italy
+        type: IT
+      - 
+        content: Japan
+        type: JP
+      - 
+        content: Keeniyaa
+        type: KE
+      - 
+        content: Russia
+        type: RU
+      - 
+        content: United States
+        type: US
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Brazilian Real
+        type: BRL
+      - 
+        displayName: Chinese Yuan Renminbi
+        type: CNY
+      - 
+        displayName: Itoophiyaa Birrii
+        symbol: Br
+        type: ETB
+      - 
+        displayName: Euro
+        type: EUR
+      - 
+        displayName: British Pound Sterling
+        type: GBP
+      - 
+        displayName: Indian Rupee
+        type: INR
+      - 
+        displayName: Japanese Yen
+        type: JPY
+      - 
+        displayName: Russian Ruble
+        type: RUB
+      - 
+        displayName: US Dollar
+        type: USD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: latn
+    traditional: ethi

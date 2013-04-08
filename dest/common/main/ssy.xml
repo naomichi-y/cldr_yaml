@@ -1,0 +1,419 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b t s e c k x i d q r f g o l m n u w h y]"
+    - 
+      content: "[j p v z]"
+      type: auxiliary
+    - 
+      content: "[A B T S E C K X I D Q R F G O L M N U W H Y]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, MMMM dd, y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd-MMM-y G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy GGGGG
+                  draft: unconfirmed
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, MMMM dd, y
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMMM y
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd-MMM-y
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/yy
+                  draft: unconfirmed
+              type: short
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: saaku
+                  draft: unconfirmed
+                  type: am
+                - 
+                  content: carra
+                  draft: unconfirmed
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Nab
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: San
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Sal
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Rab
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Cam
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Jum
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Qun
+                      draft: unconfirmed
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Naba Sambat
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Sani
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Salus
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Rabuq
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Camus
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Jumqata
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Qunxa Sambat
+                      draft: unconfirmed
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: 'N'
+                    draft: unconfirmed
+                    type: sun
+                  - 
+                    content: S
+                    draft: unconfirmed
+                    type: mon
+                  - 
+                    content: S
+                    draft: unconfirmed
+                    type: tue
+                  - 
+                    content: R
+                    draft: unconfirmed
+                    type: wed
+                  - 
+                    content: C
+                    draft: unconfirmed
+                    type: thu
+                  - 
+                    content: J
+                    draft: unconfirmed
+                    type: fri
+                  - 
+                    content: Q
+                    draft: unconfirmed
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: Yaasuusuk Duma
+                draft: unconfirmed
+                type: 0
+              - 
+                content: Yaasuusuk Wadir
+                draft: unconfirmed
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Qun
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Nah
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Cig
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Agd
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Cax
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Qas
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Qad
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Leq
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Way
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Dit
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Xim
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Kax
+                      draft: unconfirmed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Qunxa Garablu
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Kudo
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Ciggilta Kudo
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Agda Baxis
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Caxah Alsa
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Qasa Dirri
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Qado Dirri
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Liiqen
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Waysu
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Diteli
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Ximoli
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Kaxxa Garablu
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: Q
+                    draft: unconfirmed
+                    type: 1
+                  - 
+                    content: 'N'
+                    draft: unconfirmed
+                    type: 2
+                  - 
+                    content: C
+                    draft: unconfirmed
+                    type: 3
+                  - 
+                    content: A
+                    draft: unconfirmed
+                    type: 4
+                  - 
+                    content: C
+                    draft: unconfirmed
+                    type: 5
+                  - 
+                    content: Q
+                    draft: unconfirmed
+                    type: 6
+                  - 
+                    content: Q
+                    draft: unconfirmed
+                    type: 7
+                  - 
+                    content: L
+                    draft: unconfirmed
+                    type: 8
+                  - 
+                    content: W
+                    draft: unconfirmed
+                    type: 9
+                  - 
+                    content: D
+                    draft: unconfirmed
+                    type: 10
+                  - 
+                    content: X
+                    draft: unconfirmed
+                    type: 11
+                  - 
+                    content: K
+                    draft: unconfirmed
+                    type: 12
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm:ss a
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: h:mm a
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ssy
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      content: Qafar
+      draft: unconfirmed
+      type: aa
+  scripts: 
+    script: 
+      content: Latin
+      draft: unconfirmed
+      type: Latn
+  territories: 
+    territory: 
+      - 
+        content: Yabuuti
+        draft: unconfirmed
+        type: DJ
+      - 
+        content: Eretria
+        draft: unconfirmed
+        type: ER
+      - 
+        content: Otobbia
+        draft: unconfirmed
+        type: ET
+numbers: 
+  currencies: 
+    currency: 
+      symbol: Nfk
+      type: ERN
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: 
+          content: ¤#,##0.00
+          draft: unconfirmed
+    numberSystem: latn

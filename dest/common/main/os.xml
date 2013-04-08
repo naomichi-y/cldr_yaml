@@ -1,0 +1,2155 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      draft: unconfirmed
+      type: final
+    - 
+      content: …{0}
+      draft: unconfirmed
+      type: initial
+    - 
+      content: "{0}…{1}"
+      draft: unconfirmed
+      type: medial
+  exemplarCharacters: 
+    - "[а ӕ б в г {гъ} д {дж} {дз} е ё ж з и й к {къ} л м н о п {пъ} р с т {тъ} у ф х {хъ} ц {цъ} ч {чъ} ш щ ъ ы ь э ю я]"
+    - 
+      content: "[]"
+      type: auxiliary
+    - 
+      content: "[А Ӕ Б В Г {Гъ} Д {Дж} {Дз} Е Ё Ж З И Й К {Къ} Л М Н О П {Пъ} Р С Т {Тъ} У Ф Х {Хъ} Ц {Цъ} Ч {Чъ} Ш Щ Ы Э Ю Я]"
+      type: index
+    - 
+      content: "[\\- ‐ – — , ; \\: ! ? . … ' ‘ ‚ \" “ „ « » ( ) \\[ \\] \\{ \\} § @ * / \\& #]"
+      type: punctuation
+  moreInformation: 
+    content: "?"
+    draft: unconfirmed
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d MMMM, y 'аз' G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM, y 'аз' G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMM y 'аз' G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd.MM.yy GGGGG
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              H: 
+                content: HH
+                draft: unconfirmed
+              Hm: 
+                content: HH:mm
+                draft: unconfirmed
+              Hms: 
+                content: HH:mm:ss
+                draft: unconfirmed
+              M: 
+                content: L
+                draft: unconfirmed
+              MEd: 
+                content: E, dd.MM
+                draft: unconfirmed
+              MMM: 
+                content: LLL
+                draft: unconfirmed
+              MMMEd: 
+                content: ccc, d MMM
+                draft: unconfirmed
+              MMMd: 
+                content: d MMM
+                draft: unconfirmed
+              Md: 
+                content: dd.MM
+                draft: unconfirmed
+              d: 
+                content: d
+                draft: unconfirmed
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+                draft: unconfirmed
+              hms: 
+                content: h:mm:ss a
+                draft: unconfirmed
+              ms: 
+                content: mm:ss
+                draft: unconfirmed
+              "y": 
+                content: 'y'
+                draft: unconfirmed
+              yM: 
+                content: MM.y
+                draft: unconfirmed
+              yMEd: 
+                content: E, dd.MM.y
+                draft: unconfirmed
+              yMMM: 
+                content: LLL y
+                draft: unconfirmed
+              yMMMEd: 
+                content: E, d MMM y
+                draft: unconfirmed
+              yQQQ: 
+                content: y-'ӕм' 'азы' QQQ
+                draft: unconfirmed
+              yQQQQ: 
+                content: y-'ӕм' 'азы' QQQQ
+                draft: unconfirmed
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} – {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  draft: unconfirmed
+                  id: M
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+                  d: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a v
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d MMMM, y 'аз'
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM, y 'аз'
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd MMM y 'аз'
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd.MM.yy
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              H: 
+                content: HH
+                draft: unconfirmed
+              Hm: 
+                content: HH:mm
+                draft: unconfirmed
+              Hms: 
+                content: HH:mm:ss
+                draft: unconfirmed
+              M: 
+                content: L
+                draft: unconfirmed
+              MEd: 
+                content: E, dd.MM
+                draft: unconfirmed
+              MMM: 
+                content: LLL
+                draft: unconfirmed
+              MMMEd: 
+                content: ccc, d MMM
+                draft: unconfirmed
+              MMMd: 
+                content: d MMM
+                draft: unconfirmed
+              Md: 
+                content: dd.MM
+                draft: unconfirmed
+              d: 
+                content: d
+                draft: unconfirmed
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+                draft: unconfirmed
+              hms: 
+                content: h:mm:ss a
+                draft: unconfirmed
+              ms: 
+                content: mm:ss
+                draft: unconfirmed
+              "y": 
+                content: 'y'
+                draft: unconfirmed
+              yM: 
+                content: MM.y
+                draft: unconfirmed
+              yMEd: 
+                content: E, dd.MM.y
+                draft: unconfirmed
+              yMMM: 
+                content: LLL y
+                draft: unconfirmed
+              yMMMEd: 
+                content: E, d MMM y
+                draft: unconfirmed
+              yQQQ: 
+                content: y-'ӕм' 'азы' QQQ
+                draft: unconfirmed
+              yQQQQ: 
+                content: y-'ӕм' 'азы' QQQQ
+                draft: unconfirmed
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1}, {0}"
+                  draft: unconfirmed
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} – {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  draft: unconfirmed
+                  id: M
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+                  d: 
+                    content: dd.MM - dd.MM
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm–h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h–h a v
+                    draft: unconfirmed
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: ӕмбисбоны размӕ
+                  draft: unconfirmed
+                  type: am
+                - 
+                  content: ӕмбисбоны фӕстӕ
+                  draft: unconfirmed
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: хцб
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: крс
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: дцг
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: ӕрт
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: цпр
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: мрб
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: сбт
+                      draft: unconfirmed
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Х
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: К
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Д
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Ӕ
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Ц
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: М
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: С
+                      draft: unconfirmed
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: хуыцаубон
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: къуырисӕр
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: дыццӕг
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: ӕртыццӕг
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: цыппӕрӕм
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: майрӕмбон
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: сабат
+                      draft: unconfirmed
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Хцб
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Крс
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Дцг
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Ӕрт
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Цпр
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Мрб
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Сбт
+                      draft: unconfirmed
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Х
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: К
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Д
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Ӕ
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Ц
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: М
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: С
+                      draft: unconfirmed
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Хуыцаубон
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Къуырисӕр
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Дыццӕг
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Ӕртыццӕг
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Цыппӕрӕм
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Майрӕмбон
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Сабат
+                      draft: unconfirmed
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: н.д.а.
+                draft: unconfirmed
+                type: 0
+              - 
+                content: н.д.
+                draft: unconfirmed
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: янв.
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: фев.
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: мар.
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: апр.
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: мая
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: июны
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: июлы
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: авг.
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: сен.
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: окт.
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: ноя.
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: дек.
+                      draft: unconfirmed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Я
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Ф
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: М
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: А
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: М
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: И
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: И
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: А
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: С
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: О
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Н
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Д
+                      draft: unconfirmed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: январы
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: февралы
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: мартъийы
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: апрелы
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: майы
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: июны
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: июлы
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: августы
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: сентябры
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: октябры
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: ноябры
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: декабры
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Янв.
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Февр.
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Март
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Апр.
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Май
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Июнь
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Июль
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Авг.
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Сент.
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Окт.
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Нояб.
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Дек.
+                      draft: unconfirmed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Я
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Ф
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: М
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: А
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: М
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: И
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: И
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: А
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: С
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: О
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Н
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Д
+                      draft: unconfirmed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Январь
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Февраль
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Мартъи
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Апрель
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Май
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Июнь
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Июль
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Август
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Сентябрь
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Октябрь
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Ноябрь
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Декабрь
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: 1-аг кв.
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2-аг кв.
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3-аг кв.
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4-ӕм кв.
+                      draft: unconfirmed
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4
+                      draft: unconfirmed
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1-аг квартал
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2-аг квартал
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3-аг квартал
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4-ӕм квартал
+                      draft: unconfirmed
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: 1-аг кв.
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2-аг кв.
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3-аг кв.
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4-ӕм кв.
+                      draft: unconfirmed
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4
+                      draft: unconfirmed
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1-аг квартал
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2-аг квартал
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3-аг квартал
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4-ӕм квартал
+                      draft: unconfirmed
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: Дуг
+          draft: unconfirmed
+        type: era
+      - 
+        displayName: 
+          content: Аз
+          draft: unconfirmed
+        type: year
+      - 
+        displayName: 
+          content: Мӕй
+          draft: unconfirmed
+        type: month
+      - 
+        displayName: 
+          content: Къуыри
+          draft: unconfirmed
+        type: week
+      - 
+        displayName: 
+          content: Бон
+          draft: unconfirmed
+        relative: 
+          - 
+            content: Ӕндӕрӕбон
+            draft: unconfirmed
+            type: -2
+          - 
+            content: Знон
+            draft: unconfirmed
+            type: -1
+          - 
+            content: Абон
+            draft: unconfirmed
+            type: 0
+          - 
+            content: Сом
+            draft: unconfirmed
+            type: 1
+          - 
+            content: Иннӕбон
+            draft: unconfirmed
+            type: 2
+        type: day
+      - 
+        displayName: 
+          content: Къуырийы бон
+          draft: unconfirmed
+        type: weekday
+      - 
+        displayName: 
+          content: Боны период
+          draft: unconfirmed
+        type: dayperiod
+      - 
+        displayName: 
+          content: Сахат
+          draft: unconfirmed
+        type: hour
+      - 
+        displayName: 
+          content: Минут
+          draft: unconfirmed
+        type: minute
+      - 
+        displayName: 
+          content: Секунд
+          draft: unconfirmed
+        type: second
+      - 
+        displayName: 
+          content: Рӕстӕджы зонӕ
+          draft: unconfirmed
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: 
+      content: "{1} ({0})"
+      draft: unconfirmed
+    fallbackRegionFormat: 
+      content: "{1}-ы рӕстӕг ({0})"
+      draft: unconfirmed
+    gmtFormat: 
+      content: GMT{0}
+      draft: unconfirmed
+    gmtZeroFormat: 
+      content: GMT
+      draft: unconfirmed
+    hourFormat: 
+      content: +HH:mm;-HH:mm
+      draft: unconfirmed
+    metazone: 
+      - 
+        long: 
+          daylight: 
+            content: Астӕуккаг Европӕйаг сӕрдыгон рӕстӕг
+            draft: unconfirmed
+          generic: 
+            content: Астӕуккаг Европӕйаг рӕстӕг
+            draft: unconfirmed
+          standard: 
+            content: Астӕуккаг Европӕйаг стандартон рӕстӕг
+            draft: unconfirmed
+        type: Europe_Central
+      - 
+        long: 
+          daylight: 
+            content: Скӕсӕн Европӕйаг сӕрдыгон рӕстӕг
+            draft: unconfirmed
+          generic: 
+            content: Скӕсӕн Европӕйаг рӕстӕг
+            draft: unconfirmed
+          standard: 
+            content: Скӕсӕн Европӕйаг стандартон рӕстӕг
+            draft: unconfirmed
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: 
+            content: Ныгъуылӕн Европӕйаг сӕрдыгон рӕстӕг
+            draft: unconfirmed
+          generic: 
+            content: Ныгъуылӕн Европӕйаг рӕстӕг
+            draft: unconfirmed
+          standard: 
+            content: Ныгъуылӕн Европӕйаг стандартон рӕстӕг
+            draft: unconfirmed
+        type: Europe_Western
+      - 
+        long: 
+          daylight: 
+            content: Гуырдзыстоны сӕрдыгон рӕстӕг
+            draft: unconfirmed
+          generic: 
+            content: Гуырдзыстоны рӕстӕг
+            draft: unconfirmed
+          standard: 
+            content: Гуырдзыстоны стандартон рӕстӕг
+            draft: unconfirmed
+        type: Georgia
+      - 
+        long: 
+          standard: 
+            content: Гринвичы рӕстӕмбис рӕстӕг
+            draft: unconfirmed
+        type: GMT
+      - 
+        long: 
+          daylight: 
+            content: Мӕскуыйы сӕрдыгон рӕстӕг
+            draft: unconfirmed
+          generic: 
+            content: Мӕскуыйы рӕстӕг
+            draft: unconfirmed
+          standard: 
+            content: Мӕскуыйы стандартон рӕстӕг
+            draft: unconfirmed
+        type: Moscow
+    regionFormat: 
+      content: "{0} рӕстӕг"
+      draft: unconfirmed
+    zone: 
+      - 
+        exemplarCity: 
+          content: Нӕзонгӕ
+          draft: unconfirmed
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: Минск
+          draft: unconfirmed
+        type: Europe/Minsk
+      - 
+        exemplarCity: 
+          content: Тбилис
+          draft: unconfirmed
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: 
+          content: Мӕскуы
+          draft: unconfirmed
+        type: Europe/Moscow
+delimiters: 
+  alternateQuotationEnd: 
+    content: “
+    draft: unconfirmed
+  alternateQuotationStart: 
+    content: „
+    draft: unconfirmed
+  quotationEnd: 
+    content: »
+    draft: unconfirmed
+  quotationStart: 
+    content: «
+    draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: os
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} ӕмӕ {1}"
+        draft: unconfirmed
+        type: 2
+      - 
+        content: "{0} ӕмӕ {1}"
+        draft: unconfirmed
+        type: end
+      - 
+        content: "{0}, {1}"
+        draft: unconfirmed
+        type: middle
+      - 
+        content: "{0}, {1}"
+        draft: unconfirmed
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Ӕвзаг: {0}"
+        draft: unconfirmed
+        type: language
+      - 
+        content: "Скрипт: {0}"
+        draft: unconfirmed
+        type: script
+      - 
+        content: "Бӕстӕ: {0}"
+        draft: unconfirmed
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: Къӕлиндар
+        draft: unconfirmed
+        type: calendar
+      - 
+        content: Нымӕцтӕ
+        draft: unconfirmed
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: абхазаг
+        draft: unconfirmed
+        type: ab
+      - 
+        content: адыгейаг
+        draft: unconfirmed
+        type: ady
+      - 
+        content: авестӕ
+        draft: unconfirmed
+        type: ae
+      - 
+        content: африкаанс
+        draft: unconfirmed
+        type: af
+      - 
+        content: рагон англисаг
+        draft: unconfirmed
+        type: ang
+      - 
+        content: араббаг
+        draft: unconfirmed
+        type: ar
+      - 
+        content: аразгӕ ӕвзаг
+        draft: unconfirmed
+        type: art
+      - 
+        content: авайраг
+        draft: unconfirmed
+        type: av
+      - 
+        content: тӕтӕйраг
+        draft: unconfirmed
+        type: az
+      - 
+        content: башкираг
+        draft: unconfirmed
+        type: ba
+      - 
+        content: болгайраг
+        draft: unconfirmed
+        type: bg
+      - 
+        content: босниаг
+        draft: unconfirmed
+        type: bs
+      - 
+        content: бурятаг
+        draft: unconfirmed
+        type: bua
+      - 
+        content: каталайнаг
+        draft: unconfirmed
+        type: ca
+      - 
+        content: кавказаг ӕвзаг
+        draft: unconfirmed
+        type: cau
+      - 
+        content: цӕцӕйнаг
+        draft: unconfirmed
+        type: ce
+      - 
+        content: коптаг
+        draft: unconfirmed
+        type: cop
+      - 
+        content: чехаг
+        draft: unconfirmed
+        type: cs
+      - 
+        content: чувашаг
+        draft: unconfirmed
+        type: cv
+      - 
+        content: даниаг
+        draft: unconfirmed
+        type: da
+      - 
+        content: немыцаг
+        draft: unconfirmed
+        type: de
+      - 
+        content: австралиаг немыцаг
+        draft: unconfirmed
+        type: de_AT
+      - 
+        content: швйецариаг немыцаг
+        draft: unconfirmed
+        type: de_CH
+      - 
+        content: рагон египтаг
+        draft: unconfirmed
+        type: egy
+      - 
+        content: бердзейнаг
+        draft: unconfirmed
+        type: el
+      - 
+        content: англисаг
+        draft: unconfirmed
+        type: en
+      - 
+        content: австралиаг англисаг
+        draft: unconfirmed
+        type: en_AU
+      - 
+        content: канадӕйаг англисаг
+        draft: unconfirmed
+        type: en_CA
+      - 
+        content: бритайнаг англисаг
+        draft: unconfirmed
+        type: en_GB
+      - 
+        content: америкаг англисаг
+        draft: unconfirmed
+        type: en_US
+      - 
+        content: есперанто
+        draft: unconfirmed
+        type: eo
+      - 
+        content: испайнаг
+        draft: unconfirmed
+        type: es
+      - 
+        content: латинаг америкаг англисаг
+        draft: unconfirmed
+        type: es_419
+      - 
+        content: европӕйаг англисаг
+        draft: unconfirmed
+        type: es_ES
+      - 
+        content: естойнаг
+        draft: unconfirmed
+        type: et
+      - 
+        content: баскаг
+        draft: unconfirmed
+        type: eu
+      - 
+        content: персайнаг
+        draft: unconfirmed
+        type: fa
+      - 
+        content: финнаг
+        draft: unconfirmed
+        type: fi
+      - 
+        content: филиппинаг
+        draft: unconfirmed
+        type: fil
+      - 
+        content: фиджи
+        draft: unconfirmed
+        type: fj
+      - 
+        content: фарераг
+        draft: unconfirmed
+        type: fo
+      - 
+        content: францаг
+        draft: unconfirmed
+        type: fr
+      - 
+        content: канадӕйаг францаг
+        draft: unconfirmed
+        type: fr_CA
+      - 
+        content: швейцариаг францаг
+        draft: unconfirmed
+        type: fr_CH
+      - 
+        content: рагон францаг
+        draft: unconfirmed
+        type: fro
+      - 
+        content: ирландиаг
+        draft: unconfirmed
+        type: ga
+      - 
+        content: гермайнаг ӕвзаг
+        draft: unconfirmed
+        type: gem
+      - 
+        content: рагон бердзейнаг
+        draft: unconfirmed
+        type: grc
+      - 
+        content: уираг
+        draft: unconfirmed
+        type: he
+      - 
+        content: хорватаг
+        draft: unconfirmed
+        type: hr
+      - 
+        content: венгериаг
+        draft: unconfirmed
+        type: hu
+      - 
+        content: сомихаг
+        draft: unconfirmed
+        type: hy
+      - 
+        content: индоевропӕйаг ӕвзаг
+        draft: unconfirmed
+        type: ine
+      - 
+        content: мӕхъӕлон
+        draft: unconfirmed
+        type: inh
+      - 
+        content: ирайнаг ӕвзаг
+        draft: unconfirmed
+        type: ira
+      - 
+        content: италиаг
+        draft: unconfirmed
+        type: it
+      - 
+        content: япойнаг
+        draft: unconfirmed
+        type: ja
+      - 
+        content: гуырдзиаг
+        draft: unconfirmed
+        type: ka
+      - 
+        content: кӕсгон
+        draft: unconfirmed
+        type: kbd
+      - 
+        content: бӕлхъӕрон
+        draft: unconfirmed
+        type: krc
+      - 
+        content: курдаг
+        draft: unconfirmed
+        type: ku
+      - 
+        content: хъуымыхъхъаг
+        draft: unconfirmed
+        type: kum
+      - 
+        content: латинаг
+        draft: unconfirmed
+        type: la
+      - 
+        content: лекъаг
+        draft: unconfirmed
+        type: lez
+      - 
+        content: мӕчъидон
+        draft: unconfirmed
+        type: mk
+      - 
+        content: ирон
+        type: os
+      - 
+        content: португалиаг
+        draft: unconfirmed
+        type: pt
+      - 
+        content: бразилиаг португалиаг
+        draft: unconfirmed
+        type: pt_BR
+      - 
+        content: европӕйаг полтугалиаг
+        draft: unconfirmed
+        type: pt_PT
+      - 
+        content: цигайнаг
+        draft: unconfirmed
+        type: rom
+      - 
+        content: уырыссаг
+        draft: unconfirmed
+        type: ru
+      - 
+        content: нӕзонгӕ ӕвзаг
+        draft: unconfirmed
+        type: und
+      - 
+        content: китайаг
+        draft: unconfirmed
+        type: zh
+      - 
+        content: ӕнцонгонд китайаг
+        draft: unconfirmed
+        type: zh_Hans
+      - 
+        content: традицион китайаг
+        draft: unconfirmed
+        type: zh_Hant
+  localeDisplayPattern: 
+    localeKeyTypePattern: 
+      content: "{0}: {1}"
+      draft: unconfirmed
+    localePattern: 
+      content: "{0} ({1})"
+      draft: unconfirmed
+    localeSeparator: 
+      content: ", "
+      draft: unconfirmed
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Метрикон
+        draft: unconfirmed
+        type: metric
+      - 
+        content: СБ
+        draft: unconfirmed
+        type: UK
+      - 
+        content: АИШ
+        draft: unconfirmed
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: Араббаг
+        draft: unconfirmed
+        type: Arab
+      - 
+        content: Киррилицӕ
+        draft: unconfirmed
+        type: Cyrl
+      - 
+        content: Ӕнцонгонд китайаг
+        draft: unconfirmed
+        type: Hans
+      - 
+        content: Традицион китайаг
+        draft: unconfirmed
+        type: Hant
+      - 
+        content: Латинаг
+        draft: unconfirmed
+        type: Latn
+      - 
+        content: Нӕфысгӕ
+        draft: unconfirmed
+        type: Zxxx
+      - 
+        content: Нӕзонгӕ скрипт
+        draft: unconfirmed
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Дуне
+        draft: unconfirmed
+        type: '001'
+      - 
+        content: Африкӕ
+        draft: unconfirmed
+        type: '002'
+      - 
+        content: Океани
+        draft: unconfirmed
+        type: '009'
+      - 
+        content: Америкӕ
+        draft: unconfirmed
+        type: '019'
+      - 
+        content: Ази
+        draft: unconfirmed
+        type: 142
+      - 
+        content: Европӕ
+        draft: unconfirmed
+        type: 150
+      - 
+        content: Бразили
+        draft: unconfirmed
+        type: BR
+      - 
+        content: Китай
+        draft: unconfirmed
+        type: CN
+      - 
+        content: Герман
+        draft: unconfirmed
+        type: DE
+      - 
+        content: Франц
+        draft: unconfirmed
+        type: FR
+      - 
+        content: Стыр Британи
+        draft: unconfirmed
+        type: GB
+      - 
+        content: Гуырдзыстон
+        draft: unconfirmed
+        type: GE
+      - 
+        content: Инди
+        draft: unconfirmed
+        type: IN
+      - 
+        content: Итали
+        draft: unconfirmed
+        type: IT
+      - 
+        content: Япон
+        draft: unconfirmed
+        type: JP
+      - 
+        content: Уӕрӕсе
+        draft: unconfirmed
+        type: RU
+      - 
+        content: АИШ
+        draft: unconfirmed
+        type: US
+      - 
+        content: Нӕзонгӕ бӕстӕ
+        draft: unconfirmed
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: Персайнаг къӕлиндар
+        draft: unconfirmed
+        type: persian
+      numbers: 
+        content: Нырыккон цифрӕтӕ
+        draft: unconfirmed
+        type: latn
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - 
+            content: Бразилиаг реал
+            draft: unconfirmed
+          - 
+            content: бразилиаг реал
+            count: one
+            draft: unconfirmed
+          - 
+            content: бразилиаг реалы
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: R$
+          draft: unconfirmed
+        type: BRL
+      - 
+        displayName: 
+          - 
+            content: Евро
+            draft: unconfirmed
+          - 
+            content: евро
+            count: one
+            draft: unconfirmed
+          - 
+            content: евройы
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: €
+          draft: unconfirmed
+        type: EUR
+      - 
+        displayName: 
+          - 
+            content: Бритайнаг Стерлингы Фунт
+            draft: unconfirmed
+          - 
+            content: бритайнаг стерлингы фунт
+            count: one
+            draft: unconfirmed
+          - 
+            content: бритайнаг стерлингы фунты
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: £
+          draft: unconfirmed
+        type: GBP
+      - 
+        displayName: 
+          - 
+            content: Лар
+            draft: unconfirmed
+          - 
+            content: лар
+            count: one
+            draft: unconfirmed
+          - 
+            content: лары
+            count: other
+            draft: unconfirmed
+        type: GEL
+      - 
+        displayName: 
+          - 
+            content: Сом
+            draft: unconfirmed
+          - 
+            content: сом
+            count: one
+            draft: unconfirmed
+          - 
+            content: сомы
+            count: other
+            draft: unconfirmed
+        type: RUB
+      - 
+        displayName: 
+          - 
+            content: АИШ-ы Доллар
+            draft: unconfirmed
+          - 
+            content: АИШ-ы доллар
+            count: one
+            draft: unconfirmed
+          - 
+            content: АИШ-ы доллары
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: $
+          draft: unconfirmed
+        type: USD
+      - 
+        displayName: 
+          - 
+            content: Нӕзонгӕ валютӕ
+            draft: unconfirmed
+          - 
+            content: нӕзонгӕ валютӕ
+            count: one
+            draft: unconfirmed
+          - 
+            content: нӕзонгӕ валютӕйы
+            count: other
+            draft: unconfirmed
+        type: XXX
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: 
+          content: ¤ #,##0.00
+          draft: unconfirmed
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+        draft: unconfirmed
+      - 
+        content: "{0} {1}"
+        count: other
+        draft: unconfirmed
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: 
+          content: "#,##0.###"
+          draft: unconfirmed
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: 
+          content: "#,##0%"
+          draft: unconfirmed
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: 
+          content: "#E0"
+          draft: unconfirmed
+  symbols: 
+    decimal: 
+      content: ","
+      draft: unconfirmed
+    exponential: 
+      content: E
+      draft: unconfirmed
+    group: 
+      draft: unconfirmed
+    "infinity": 
+      content: ∞
+      draft: unconfirmed
+    list: 
+      content: ;
+      draft: unconfirmed
+    minusSign: 
+      content: "-"
+      draft: unconfirmed
+    "nan": 
+      content: НН
+      draft: unconfirmed
+    numberSystem: latn
+    perMille: 
+      content: ‰
+      draft: unconfirmed
+    percentSign: 
+      content: "%"
+      draft: unconfirmed
+    plusSign: 
+      content: +
+      draft: unconfirmed
+posix: 
+  messages: 
+    nostr: 
+      content: нӕйы:н
+      draft: unconfirmed
+    yesstr: 
+      content: уойы:у
+      draft: unconfirmed
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} бон"
+          count: one
+          draft: unconfirmed
+        - 
+          alt: short
+          content: "{0} бон"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} боны"
+          count: other
+          draft: unconfirmed
+        - 
+          alt: short
+          content: "{0} боны"
+          count: other
+          draft: unconfirmed
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} боны фӕстӕ"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} боны фӕстӕ"
+          count: other
+          draft: unconfirmed
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} бон раздӕр"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} боны размӕ"
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} сахат"
+          count: one
+          draft: unconfirmed
+        - 
+          alt: short
+          content: "{0} с."
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} сахаты"
+          count: other
+          draft: unconfirmed
+        - 
+          alt: short
+          content: "{0} с."
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} сахаты фӕстӕ"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} сахаты фӕстӕ"
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} сахаты размӕ"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} сахаты размӕ"
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} минут"
+          count: one
+          draft: unconfirmed
+        - 
+          alt: short
+          content: "{0} мин."
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} минуты"
+          count: other
+          draft: unconfirmed
+        - 
+          alt: short
+          content: "{0} мин."
+          count: other
+          draft: unconfirmed
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} мӕй"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} мӕйы"
+          count: other
+          draft: unconfirmed
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} секунд"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} секунды"
+          count: other
+          draft: unconfirmed
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} къуыри"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} къуырийы"
+          count: other
+          draft: unconfirmed
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} аз"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} азы"
+          count: other
+          draft: unconfirmed

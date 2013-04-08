@@ -1,0 +1,5765 @@
+characters: 
+  exemplarCharacters: 
+    - "[\\u093C \\u0901 \\u0902 ः ॐ अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ऽ ा ि ी \\u0941 \\u0942 \\u0943 \\u0944 \\u0945 \\u0947 \\u0948 ॉ ो ौ \\u094D]"
+    - 
+      content: "[\\u200C\\u200D]"
+      type: auxiliary
+    - 
+      content: "[अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      dayPeriods: 
+        dayPeriodContext: 
+          dayPeriodWidth: 
+            dayPeriod: 
+              - 
+                content: पूर्व मध्यान्ह
+                type: am
+              - 
+                content: उत्तर मध्यान्ह
+                type: pm
+            type: wide
+          type: format
+      days: 
+        dayContext: 
+          - 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: आइत
+                    type: sun
+                  - 
+                    content: सोम
+                    type: mon
+                  - 
+                    content: मङ्गल
+                    type: tue
+                  - 
+                    content: बुध
+                    type: wed
+                  - 
+                    content: बिही
+                    type: thu
+                  - 
+                    content: शुक्र
+                    type: fri
+                  - 
+                    content: शनि
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: १
+                    type: sun
+                  - 
+                    content: २
+                    type: mon
+                  - 
+                    content: ३
+                    type: tue
+                  - 
+                    content: ४
+                    type: wed
+                  - 
+                    content: ५
+                    type: thu
+                  - 
+                    content: ६
+                    type: fri
+                  - 
+                    content: ७
+                    type: sat
+                type: narrow
+              - 
+                day: 
+                  - 
+                    content: आइत
+                    type: sun
+                  - 
+                    content: सोम
+                    type: mon
+                  - 
+                    content: मङ्गल
+                    type: tue
+                  - 
+                    content: बुध
+                    type: wed
+                  - 
+                    content: बिही
+                    type: thu
+                  - 
+                    content: शुक्र
+                    type: fri
+                  - 
+                    content: शनि
+                    type: sat
+                type: short
+              - 
+                day: 
+                  - 
+                    content: आइतबार
+                    type: sun
+                  - 
+                    content: सोमबार
+                    type: mon
+                  - 
+                    content: मङ्गलबार
+                    type: tue
+                  - 
+                    content: बुधबार
+                    type: wed
+                  - 
+                    content: बिहीबार
+                    type: thu
+                  - 
+                    content: शुक्रबार
+                    type: fri
+                  - 
+                    content: शनिबार
+                    type: sat
+                type: wide
+            type: format
+          - 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: आइत
+                    type: sun
+                  - 
+                    content: सोम
+                    type: mon
+                  - 
+                    content: मङ्गल
+                    type: tue
+                  - 
+                    content: बुध
+                    type: wed
+                  - 
+                    content: बिही
+                    type: thu
+                  - 
+                    content: शुक्र
+                    type: fri
+                  - 
+                    content: शनि
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: १
+                    type: sun
+                  - 
+                    content: २
+                    type: mon
+                  - 
+                    content: ३
+                    type: tue
+                  - 
+                    content: ४
+                    type: wed
+                  - 
+                    content: ५
+                    type: thu
+                  - 
+                    content: ६
+                    type: fri
+                  - 
+                    content: ७
+                    type: sat
+                type: narrow
+              - 
+                day: 
+                  - 
+                    content: आइत
+                    type: sun
+                  - 
+                    content: सोम
+                    type: mon
+                  - 
+                    content: मङ्गल
+                    type: tue
+                  - 
+                    content: बुध
+                    type: wed
+                  - 
+                    content: बिही
+                    type: thu
+                  - 
+                    content: शुक्र
+                    type: fri
+                  - 
+                    content: शनि
+                    type: sat
+                type: short
+              - 
+                day: 
+                  - 
+                    content: आइतबार
+                    type: sun
+                  - 
+                    content: सोमबार
+                    type: mon
+                  - 
+                    content: मङ्गलबार
+                    type: tue
+                  - 
+                    content: बुधबार
+                    type: wed
+                  - 
+                    content: बिहीबार
+                    type: thu
+                  - 
+                    content: शुक्रबार
+                    type: fri
+                  - 
+                    content: शनिबार
+                    type: sat
+                type: wide
+            type: stand-alone
+      eras: 
+        eraAbbr: 
+          era: 
+            - 
+              content: ईसा पूर्व
+              type: 0
+            - 
+              content: सन्
+              type: 1
+      months: 
+        monthContext: 
+          - 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: जन
+                    type: 1
+                  - 
+                    content: फेब
+                    type: 2
+                  - 
+                    content: मार्च
+                    type: 3
+                  - 
+                    content: अप्रि
+                    type: 4
+                  - 
+                    content: मे
+                    type: 5
+                  - 
+                    content: जुन
+                    type: 6
+                  - 
+                    content: जुला
+                    type: 7
+                  - 
+                    content: अग
+                    type: 8
+                  - 
+                    content: सेप्ट
+                    type: 9
+                  - 
+                    content: अक्टो
+                    type: 10
+                  - 
+                    content: नोभे
+                    type: 11
+                  - 
+                    content: डिसे
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: १
+                    type: 1
+                  - 
+                    content: २
+                    type: 2
+                  - 
+                    content: ३
+                    type: 3
+                  - 
+                    content: ४
+                    type: 4
+                  - 
+                    content: ५
+                    type: 5
+                  - 
+                    content: ६
+                    type: 6
+                  - 
+                    content: ७
+                    type: 7
+                  - 
+                    content: ८
+                    type: 8
+                  - 
+                    content: ९
+                    type: 9
+                  - 
+                    content: १०
+                    type: 10
+                  - 
+                    content: ११
+                    type: 11
+                  - 
+                    content: १२
+                    type: 12
+                type: narrow
+              - 
+                month: 
+                  - 
+                    content: जनवरी
+                    type: 1
+                  - 
+                    content: फेब्रुअरी
+                    type: 2
+                  - 
+                    content: मार्च
+                    type: 3
+                  - 
+                    content: अप्रिल
+                    type: 4
+                  - 
+                    content: मे
+                    type: 5
+                  - 
+                    content: जुन
+                    type: 6
+                  - 
+                    content: जुलाई
+                    type: 7
+                  - 
+                    content: अगस्ट
+                    type: 8
+                  - 
+                    content: सेप्टेम्बर
+                    type: 9
+                  - 
+                    content: अक्टोबर
+                    type: 10
+                  - 
+                    content: नोभेम्बर
+                    type: 11
+                  - 
+                    content: डिसेम्बर
+                    type: 12
+                type: wide
+            type: format
+          - 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: जन
+                    type: 1
+                  - 
+                    content: फेब
+                    type: 2
+                  - 
+                    content: मार्च
+                    type: 3
+                  - 
+                    content: अप्रि
+                    type: 4
+                  - 
+                    content: मे
+                    type: 5
+                  - 
+                    content: जुन
+                    type: 6
+                  - 
+                    content: जुला
+                    type: 7
+                  - 
+                    content: अग
+                    type: 8
+                  - 
+                    content: सेप्ट
+                    type: 9
+                  - 
+                    content: अक्टो
+                    type: 10
+                  - 
+                    content: नोभे
+                    type: 11
+                  - 
+                    content: डिसे
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: १
+                    type: 1
+                  - 
+                    content: २
+                    type: 2
+                  - 
+                    content: ३
+                    type: 3
+                  - 
+                    content: ४
+                    type: 4
+                  - 
+                    content: ५
+                    type: 5
+                  - 
+                    content: ६
+                    type: 6
+                  - 
+                    content: ७
+                    type: 7
+                  - 
+                    content: ८
+                    type: 8
+                  - 
+                    content: ९
+                    type: 9
+                  - 
+                    content: १०
+                    type: 10
+                  - 
+                    content: ११
+                    type: 11
+                  - 
+                    content: १२
+                    type: 12
+                type: narrow
+              - 
+                month: 
+                  - 
+                    content: जनवरी
+                    type: 1
+                  - 
+                    content: फेब्रुअरी
+                    type: 2
+                  - 
+                    content: मार्च
+                    type: 3
+                  - 
+                    content: अप्रिल
+                    type: 4
+                  - 
+                    content: मे
+                    type: 5
+                  - 
+                    content: जुन
+                    type: 6
+                  - 
+                    content: जुलाई
+                    type: 7
+                  - 
+                    content: अगस्ट
+                    type: 8
+                  - 
+                    content: सेप्टेम्बर
+                    type: 9
+                  - 
+                    content: अक्टोबर
+                    type: 10
+                  - 
+                    content: नोभेम्बर
+                    type: 11
+                  - 
+                    content: डिसेम्बर
+                    type: 12
+                type: wide
+            type: stand-alone
+      quarters: 
+        quarterContext: 
+          - 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: पहिलो सत्र
+                    type: 1
+                  - 
+                    content: दोस्रो सत्र
+                    type: 2
+                  - 
+                    content: तेस्रो सत्र
+                    type: 3
+                  - 
+                    content: चौथो सत्र
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: १
+                    type: 1
+                  - 
+                    content: २
+                    type: 2
+                  - 
+                    content: ३
+                    type: 3
+                  - 
+                    content: ४
+                    type: 4
+                type: narrow
+              - 
+                quarter: 
+                  - 
+                    content: पहिलो सत्र
+                    type: 1
+                  - 
+                    content: दोस्रो सत्र
+                    type: 2
+                  - 
+                    content: तेस्रो सत्र
+                    type: 3
+                  - 
+                    content: चौथो सत्र
+                    type: 4
+                type: wide
+            type: format
+          - 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: पहिलो सत्र
+                    type: 1
+                  - 
+                    content: दोस्रो सत्र
+                    type: 2
+                  - 
+                    content: तेस्रो सत्र
+                    type: 3
+                  - 
+                    content: चौथो सत्र
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: १
+                    type: 1
+                  - 
+                    content: २
+                    type: 2
+                  - 
+                    content: ३
+                    type: 3
+                  - 
+                    content: ४
+                    type: 4
+                type: narrow
+              - 
+                quarter: 
+                  - 
+                    content: पहिलो सत्र
+                    type: 1
+                  - 
+                    content: दोस्रो सत्र
+                    type: 2
+                  - 
+                    content: तेस्रो सत्र
+                    type: 3
+                  - 
+                    content: चौथो सत्र
+                    type: 4
+                type: wide
+            type: stand-alone
+      type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: काल
+          draft: contributed
+        type: era
+      - 
+        displayName: 
+          content: बर्ष
+          draft: contributed
+        type: year
+      - 
+        displayName: 
+          content: महिना
+          draft: contributed
+        type: month
+      - 
+        displayName: 
+          content: हप्ता
+          draft: contributed
+        type: week
+      - 
+        displayName: 
+          content: बार
+          draft: contributed
+        relative: 
+          - 
+            content: अस्ति
+            type: -2
+          - 
+            content: हिजो
+            draft: contributed
+            type: -1
+          - 
+            content: आज
+            type: 0
+          - 
+            content: भोलि
+            type: 1
+        type: day
+      - 
+        displayName: 
+          content: हप्ताको बार
+          draft: contributed
+        type: weekday
+      - 
+        displayName: 
+          content: पूर्व मध्यान्ह/उत्तर मध्यान्ह
+          draft: contributed
+        type: dayperiod
+      - 
+        displayName: 
+          content: घण्टा
+          draft: contributed
+        type: hour
+      - 
+        displayName: 
+          content: मिनेट
+          draft: contributed
+        type: minute
+      - 
+        displayName: 
+          content: दोस्रो
+          draft: contributed
+        type: second
+      - 
+        displayName: 
+          content: क्षेत्र
+          draft: contributed
+        type: zone
+  timeZoneNames: 
+    metazone: 
+      long: 
+        standard: केन्द्रीय अफ्रिकी समय
+      type: Africa_Central
+    regionFormat: "{0} समय"
+    zone: 
+      - 
+        exemplarCity: अज्ञात सिटी
+        type: Etc/Unknown
+      - 
+        exemplarCity: आन्डोर्रा
+        type: Europe/Andorra
+      - 
+        exemplarCity: दुबई
+        type: Asia/Dubai
+      - 
+        exemplarCity: एण्टिगुवा
+        type: America/Antigua
+      - 
+        exemplarCity: एङ्ग्विल्ला
+        type: America/Anguilla
+      - 
+        exemplarCity: टिराने
+        type: Europe/Tirane
+      - 
+        exemplarCity: ल्वान्डा
+        type: Africa/Luanda
+      - 
+        exemplarCity: 
+          content: रोथेरा
+          draft: contributed
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: 
+          content: पाल्मेर
+          draft: contributed
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: 
+          content: दक्षिण पोल
+          draft: contributed
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: 
+          content: सिओआ
+          draft: contributed
+        type: Antarctica/Syowa
+      - 
+        exemplarCity: 
+          content: माजन
+          draft: contributed
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: 
+          content: डेभिस
+          draft: contributed
+        type: Antarctica/Davis
+      - 
+        exemplarCity: 
+          content: भास्टोक
+          draft: contributed
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: 
+          content: केजे
+          draft: contributed
+        type: Antarctica/Casey
+      - 
+        exemplarCity: 
+          content: दुमोन्ट डि उर्भेल्ले
+          draft: contributed
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: 
+          content: माकमुर्डो
+          draft: contributed
+        type: Antarctica/McMurdo
+      - 
+        exemplarCity: 
+          content: रियो ग्यालेगोस
+          draft: contributed
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: 
+          content: मेन्डोजा
+          draft: contributed
+        type: America/Mendoza
+      - 
+        exemplarCity: 
+          content: सान जुवान
+          draft: contributed
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: 
+          content: उशुआइआ
+          draft: contributed
+        type: America/Argentina/Ushuaia
+      - 
+        exemplarCity: 
+          content: ला रियोजा
+          draft: contributed
+        type: America/Argentina/La_Rioja
+      - 
+        exemplarCity: 
+          content: सान लुइस
+          draft: contributed
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: 
+          content: कातामार्का
+          draft: contributed
+        type: America/Catamarca
+      - 
+        exemplarCity: साल्टा
+        type: America/Argentina/Salta
+      - 
+        exemplarCity: 
+          content: जुजु
+          draft: contributed
+        type: America/Jujuy
+      - 
+        exemplarCity: 
+          content: टुकुमान
+          draft: contributed
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: 
+          content: कोरडोवा
+          draft: contributed
+        type: America/Cordoba
+      - 
+        exemplarCity: 
+          content: ब्यनेश आयर्स
+          draft: contributed
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: भियना
+        type: Europe/Vienna
+      - 
+        exemplarCity: 
+          content: पर्थ
+          draft: contributed
+        type: Australia/Perth
+      - 
+        exemplarCity: 
+          content: इयुक्ला
+          draft: contributed
+        type: Australia/Eucla
+      - 
+        exemplarCity: 
+          content: डार्विन
+          draft: contributed
+        type: Australia/Darwin
+      - 
+        exemplarCity: 
+          content: एडेलेड
+          draft: contributed
+        type: Australia/Adelaide
+      - 
+        exemplarCity: 
+          content: ब्रोकन हिल
+          draft: contributed
+        type: Australia/Broken_Hill
+      - 
+        exemplarCity: 
+          content: क्युरी
+          draft: contributed
+        type: Australia/Currie
+      - 
+        exemplarCity: 
+          content: मेल्बर्न
+          draft: contributed
+        type: Australia/Melbourne
+      - 
+        exemplarCity: 
+          content: होभार्ट
+          draft: contributed
+        type: Australia/Hobart
+      - 
+        exemplarCity: 
+          content: लिन्डेम्यान
+          draft: contributed
+        type: Australia/Lindeman
+      - 
+        exemplarCity: 
+          content: सिड्नी
+          draft: contributed
+        type: Australia/Sydney
+      - 
+        exemplarCity: 
+          content: ब्रिस्बेन
+          draft: contributed
+        type: Australia/Brisbane
+      - 
+        exemplarCity: 
+          content: लर्ड होवे
+          draft: contributed
+        type: Australia/Lord_Howe
+      - 
+        exemplarCity: एरूवा
+        type: America/Aruba
+      - 
+        exemplarCity: म्यारिह्याम्न
+        type: Europe/Mariehamn
+      - 
+        exemplarCity: साराजेभो
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: वार्वाडोस्
+        type: America/Barbados
+      - 
+        exemplarCity: ढाका
+        type: Asia/Dhaka
+      - 
+        exemplarCity: ब्रसेल्स
+        type: Europe/Brussels
+      - 
+        exemplarCity: औआगाडौगौ
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: सोफिया
+        type: Europe/Sofia
+      - 
+        exemplarCity: बुजुम्बुरा
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: पोर्टो-नोभो
+        type: Africa/Porto-Novo
+      - 
+        exemplarCity: सेन्ट बार्थेलेमी
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: बर्मुडा
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: ब्रुनाइ
+        type: Asia/Brunei
+      - 
+        exemplarCity: ला पाज
+        type: America/La_Paz
+      - 
+        exemplarCity: 
+          content: आइरनेपे
+          draft: contributed
+        type: America/Eirunepe
+      - 
+        exemplarCity: 
+          content: रियो ब्रान्को
+          draft: contributed
+        type: America/Rio_Branco
+      - 
+        exemplarCity: 
+          content: पोर्टो भेल्हो
+          draft: contributed
+        type: America/Porto_Velho
+      - 
+        exemplarCity: 
+          content: बोआ भिष्टा
+          draft: contributed
+        type: America/Boa_Vista
+      - 
+        exemplarCity: 
+          content: मानाउस
+          draft: contributed
+        type: America/Manaus
+      - 
+        exemplarCity: 
+          content: क्युइआबा
+          draft: contributed
+        type: America/Cuiaba
+      - 
+        exemplarCity: सान्टारेम
+        type: America/Santarem
+      - 
+        exemplarCity: 
+          content: क्याम्पो ग्रान्डे
+          draft: contributed
+        type: America/Campo_Grande
+      - 
+        exemplarCity: 
+          content: बेलेम
+          draft: contributed
+        type: America/Belem
+      - 
+        exemplarCity: 
+          content: आरागुवाना
+          draft: contributed
+        type: America/Araguaina
+      - 
+        exemplarCity: 
+          content: साओ पाउलो
+          draft: contributed
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: 
+          content: बाहिया
+          draft: contributed
+        type: America/Bahia
+      - 
+        exemplarCity: 
+          content: फोर्टालेजा
+          draft: contributed
+        type: America/Fortaleza
+      - 
+        exemplarCity: 
+          content: मासेइओ
+          draft: contributed
+        type: America/Maceio
+      - 
+        exemplarCity: 
+          content: रिसाइफ
+          draft: contributed
+        type: America/Recife
+      - 
+        exemplarCity: 
+          content: नोरोन्हा
+          draft: contributed
+        type: America/Noronha
+      - 
+        exemplarCity: नास्साउ
+        type: America/Nassau
+      - 
+        exemplarCity: थिम्पु
+        type: Asia/Thimphu
+      - 
+        exemplarCity: गावोरोन
+        type: Africa/Gaborone
+      - 
+        exemplarCity: मिन्स्क
+        type: Europe/Minsk
+      - 
+        exemplarCity: वेलिज
+        type: America/Belize
+      - 
+        exemplarCity: 
+          content: डेजन
+          draft: contributed
+        type: America/Dawson
+      - 
+        exemplarCity: 
+          content: ह्वाइटहर्स
+          draft: contributed
+        type: America/Whitehorse
+      - 
+        exemplarCity: 
+          content: इनुभिक
+          draft: contributed
+        type: America/Inuvik
+      - 
+        exemplarCity: 
+          content: भ्यानकोभर
+          draft: contributed
+        type: America/Vancouver
+      - 
+        exemplarCity: 
+          content: डेजन क्रिक
+          draft: contributed
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: 
+          content: येल्लोनाइफ
+          draft: contributed
+        type: America/Yellowknife
+      - 
+        exemplarCity: 
+          content: एड्मोन्टन
+          draft: contributed
+        type: America/Edmonton
+      - 
+        exemplarCity: 
+          content: स्विफ्ट करेण्ट
+          draft: contributed
+        type: America/Swift_Current
+      - 
+        exemplarCity: क्याम्ब्रिज बे
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: 
+          content: रेजिना
+          draft: contributed
+        type: America/Regina
+      - 
+        exemplarCity: 
+          content: विन्निपेग
+          draft: contributed
+        type: America/Winnipeg
+      - 
+        exemplarCity: 
+          content: रिजोलुट
+          draft: contributed
+        type: America/Resolute
+      - 
+        exemplarCity: 
+          content: रेनिरिभर
+          draft: contributed
+        type: America/Rainy_River
+      - 
+        exemplarCity: 
+          content: रान्किन इन्लेट
+          draft: contributed
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: 
+          content: कोराल बन्दरगाहा
+          draft: contributed
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: 
+          content: थण्डर बे
+          draft: contributed
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: 
+          content: निपिगन
+          draft: contributed
+        type: America/Nipigon
+      - 
+        exemplarCity: 
+          content: टोरोण्टो
+          draft: contributed
+        type: America/Toronto
+      - 
+        exemplarCity: 
+          content: मोन्ट्रिल
+          draft: contributed
+        type: America/Montreal
+      - 
+        exemplarCity: 
+          content: इक्वालुइट
+          draft: contributed
+        type: America/Iqaluit
+      - 
+        exemplarCity: 
+          content: पाङ्निरतुङ
+          draft: contributed
+        type: America/Pangnirtung
+      - 
+        exemplarCity: 
+          content: मोन्कटन
+          draft: contributed
+        type: America/Moncton
+      - 
+        exemplarCity: 
+          content: हालेफाक्स
+          draft: contributed
+        type: America/Halifax
+      - 
+        exemplarCity: 
+          content: गुज बे
+          draft: contributed
+        type: America/Goose_Bay
+      - 
+        exemplarCity: 
+          content: ग्लेस बे
+          draft: contributed
+        type: America/Glace_Bay
+      - 
+        exemplarCity: ब्लान्क-साब्लोन
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: 
+          content: सेन्ट जोन्स
+          draft: contributed
+        type: America/St_Johns
+      - 
+        exemplarCity: कोकोस
+        type: Indian/Cocos
+      - 
+        exemplarCity: 
+          content: किन्शासा
+          draft: contributed
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: 
+          content: लुबुम्बासी
+          draft: contributed
+        type: Africa/Lubumbashi
+      - 
+        exemplarCity: बाङ्गुवी
+        type: Africa/Bangui
+      - 
+        exemplarCity: ब्राजाभिल्ले
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: जुरिक
+        type: Europe/Zurich
+      - 
+        exemplarCity: अविड्जान
+        type: Africa/Abidjan
+      - 
+        exemplarCity: 
+          content: इस्टर
+          draft: contributed
+        type: Pacific/Easter
+      - 
+        exemplarCity: सान्टिआगो
+        type: America/Santiago
+      - 
+        exemplarCity: डोउआला
+        type: Africa/Douala
+      - 
+        exemplarCity: 
+          content: काश्गर
+          draft: contributed
+        type: Asia/Kashgar
+      - 
+        exemplarCity: 
+          content: उरूम्की
+          draft: contributed
+        type: Asia/Urumqi
+      - 
+        exemplarCity: 
+          content: चोङकिङ
+          draft: contributed
+        type: Asia/Chongqing
+      - 
+        exemplarCity: 
+          content: हार्विन
+          draft: contributed
+        type: Asia/Harbin
+      - 
+        exemplarCity: बोगोटा
+        type: America/Bogota
+      - 
+        exemplarCity: कोष्टरिका
+        type: America/Costa_Rica
+      - 
+        exemplarCity: हाभाना
+        type: America/Havana
+      - 
+        exemplarCity: केप भर्डे
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: कुराकाओ
+        type: America/Curacao
+      - 
+        exemplarCity: ख्रिस्टमस
+        type: Indian/Christmas
+      - 
+        exemplarCity: प्राग
+        type: Europe/Prague
+      - 
+        exemplarCity: बर्लिन
+        type: Europe/Berlin
+      - 
+        exemplarCity: जिबौंटी
+        type: Africa/Djibouti
+      - 
+        exemplarCity: कोपेनह्यागन
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: डोमिनिका
+        type: America/Dominica
+      - 
+        exemplarCity: सान्टो डोमिन्गो
+        type: America/Santo_Domingo
+      - 
+        exemplarCity: अल्जियर्स
+        type: Africa/Algiers
+      - 
+        exemplarCity: 
+          content: गलापागोस
+          draft: contributed
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: गुयाक्विल
+        type: America/Guayaquil
+      - 
+        exemplarCity: ताल्लिन
+        type: Europe/Tallinn
+      - 
+        exemplarCity: काइरो
+        type: Africa/Cairo
+      - 
+        exemplarCity: एल् आइयुन
+        type: Africa/El_Aaiun
+      - 
+        exemplarCity: आस्मारा
+        type: Africa/Asmera
+      - 
+        exemplarCity: 
+          content: क्यानारी
+          draft: contributed
+        type: Atlantic/Canary
+      - 
+        exemplarCity: 
+          content: सेउटा
+          draft: contributed
+        type: Africa/Ceuta
+      - 
+        exemplarCity: म्याड्रिड
+        type: Europe/Madrid
+      - 
+        exemplarCity: एड्डिस आबाबा
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: हेल्सिन्की
+        type: Europe/Helsinki
+      - 
+        exemplarCity: फिजी
+        type: Pacific/Fiji
+      - 
+        exemplarCity: स्टान्ले
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: 
+          content: ट्रुक
+          draft: contributed
+        type: Pacific/Truk
+      - 
+        exemplarCity: 
+          content: पोनापे
+          draft: contributed
+        type: Pacific/Ponape
+      - 
+        exemplarCity: 
+          content: कोस्राए
+          draft: contributed
+        type: Pacific/Kosrae
+      - 
+        exemplarCity: फारोइ
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: प्यारिस
+        type: Europe/Paris
+      - 
+        exemplarCity: लिब्रेभिल्ले
+        type: Africa/Libreville
+      - 
+        exemplarCity: लण्डन
+        type: Europe/London
+      - 
+        exemplarCity: ग्रेनाडा
+        type: America/Grenada
+      - 
+        exemplarCity: कायेन्ने
+        type: America/Cayenne
+      - 
+        exemplarCity: गुएर्नसे
+        type: Europe/Guernsey
+      - 
+        exemplarCity: अक्रा
+        type: Africa/Accra
+      - 
+        exemplarCity: जिब्राल्टार
+        type: Europe/Gibraltar
+      - 
+        exemplarCity: 
+          content: थुले
+          draft: contributed
+        type: America/Thule
+      - 
+        exemplarCity: गड्थाब
+        type: America/Godthab
+      - 
+        exemplarCity: 
+          content: स्कोर्सबाइसन्ड
+          draft: contributed
+        type: America/Scoresbysund
+      - 
+        exemplarCity: 
+          content: डान्मार्कशाभन
+          draft: contributed
+        type: America/Danmarkshavn
+      - 
+        exemplarCity: बन्जुल
+        type: Africa/Banjul
+      - 
+        exemplarCity: कोनाक्री
+        type: Africa/Conakry
+      - 
+        exemplarCity: ग्वाडेलुप
+        type: America/Guadeloupe
+      - 
+        exemplarCity: मालाबो
+        type: Africa/Malabo
+      - 
+        exemplarCity: एथेन्स
+        type: Europe/Athens
+      - 
+        exemplarCity: दक्षिण जर्जिया
+        type: Atlantic/South_Georgia
+      - 
+        exemplarCity: ग्वाटेमाला
+        type: America/Guatemala
+      - 
+        exemplarCity: गुवाम
+        type: Pacific/Guam
+      - 
+        exemplarCity: बिसाउ
+        type: Africa/Bissau
+      - 
+        exemplarCity: गुयाना
+        type: America/Guyana
+      - 
+        exemplarCity: टेगुसिगाल्पा
+        type: America/Tegucigalpa
+      - 
+        exemplarCity: जाग्रेब
+        type: Europe/Zagreb
+      - 
+        exemplarCity: पोर्ट-अउ-प्रिन्स
+        type: America/Port-au-Prince
+      - 
+        exemplarCity: बुडापेस्ट
+        type: Europe/Budapest
+      - 
+        exemplarCity: जाकार्ता
+        type: Asia/Jakarta
+      - 
+        exemplarCity: पोन्टिआनाक
+        type: Asia/Pontianak
+      - 
+        exemplarCity: माकास्सार
+        type: Asia/Makassar
+      - 
+        exemplarCity: जयापुरा
+        type: Asia/Jayapura
+      - 
+        exemplarCity: डब्लिन
+        type: Europe/Dublin
+      - 
+        exemplarCity: इजल अफ् म्यान
+        type: Europe/Isle_of_Man
+      - 
+        exemplarCity: कोलकाता
+        type: Asia/Calcutta
+      - 
+        exemplarCity: चागोस
+        type: Indian/Chagos
+      - 
+        exemplarCity: बगदाद
+        type: Asia/Baghdad
+      - 
+        exemplarCity: रेक्जाभिक
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: रोम
+        type: Europe/Rome
+      - 
+        exemplarCity: जर्सी
+        type: Europe/Jersey
+      - 
+        exemplarCity: जमाइका
+        type: America/Jamaica
+      - 
+        exemplarCity: नाइरोबी
+        type: Africa/Nairobi
+      - 
+        exemplarCity: 
+          content: एन्डरबरी
+          draft: contributed
+        type: Pacific/Enderbury
+      - 
+        exemplarCity: 
+          content: किरितिमाटी
+          draft: contributed
+        type: Pacific/Kiritimati
+      - 
+        exemplarCity: 
+          content: तरवा
+          draft: contributed
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: कोमोरो
+        type: Indian/Comoro
+      - 
+        exemplarCity: सेन्ट् किट्स
+        type: America/St_Kitts
+      - 
+        exemplarCity: केम्यान
+        type: America/Cayman
+      - 
+        exemplarCity: 
+          content: आक्टाउ
+          draft: contributed
+        type: Asia/Aqtau
+      - 
+        exemplarCity: 
+          content: ओरल
+          draft: contributed
+        type: Asia/Oral
+      - 
+        exemplarCity: 
+          content: आक्टोब
+          draft: contributed
+        type: Asia/Aqtobe
+      - 
+        exemplarCity: 
+          content: किजिलोर्डा
+          draft: contributed
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: 
+          content: आल्माटी
+          draft: contributed
+        type: Asia/Almaty
+      - 
+        exemplarCity: सेन्ट लुसिया
+        type: America/St_Lucia
+      - 
+        exemplarCity: भाडुज
+        type: Europe/Vaduz
+      - 
+        exemplarCity: कोलम्बो
+        type: Asia/Colombo
+      - 
+        exemplarCity: मोन्रोभिया
+        type: Africa/Monrovia
+      - 
+        exemplarCity: मासेरू
+        type: Africa/Maseru
+      - 
+        exemplarCity: भिल्निअस
+        type: Europe/Vilnius
+      - 
+        exemplarCity: लक्जेम्वर्ग
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: रिगा
+        type: Europe/Riga
+      - 
+        exemplarCity: त्रिपोली
+        type: Africa/Tripoli
+      - 
+        exemplarCity: कासाब्लान्का
+        type: Africa/Casablanca
+      - 
+        exemplarCity: मोनाको
+        type: Europe/Monaco
+      - 
+        exemplarCity: चिसिनाउ
+        type: Europe/Chisinau
+      - 
+        exemplarCity: म्यारिगट
+        type: America/Marigot
+      - 
+        exemplarCity: अन्टानारिभो
+        type: Indian/Antananarivo
+      - 
+        exemplarCity: 
+          content: क्वाजालेइन
+          draft: contributed
+        type: Pacific/Kwajalein
+      - 
+        exemplarCity: 
+          content: माजुरो
+          draft: contributed
+        type: Pacific/Majuro
+      - 
+        exemplarCity: बोमाको
+        type: Africa/Bamako
+      - 
+        exemplarCity: 
+          content: होभ्ड
+          draft: contributed
+        type: Asia/Hovd
+      - 
+        exemplarCity: 
+          content: उलानबटार
+          draft: contributed
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: 
+          content: चोइबाल्सान
+          draft: contributed
+        type: Asia/Choibalsan
+      - 
+        exemplarCity: मार्टिनिक
+        type: America/Martinique
+      - 
+        exemplarCity: नोउआकचोट
+        type: Africa/Nouakchott
+      - 
+        exemplarCity: मन्टसेर्राट
+        type: America/Montserrat
+      - 
+        exemplarCity: माल्टा
+        type: Europe/Malta
+      - 
+        exemplarCity: मउरिटिअस
+        type: Indian/Mauritius
+      - 
+        exemplarCity: माल्दिभ्स
+        type: Indian/Maldives
+      - 
+        exemplarCity: ब्लान्टायर
+        type: Africa/Blantyre
+      - 
+        exemplarCity: 
+          content: तिजुआना
+          draft: contributed
+        type: America/Tijuana
+      - 
+        exemplarCity: 
+          content: हेर्मोसिल्लो
+          draft: contributed
+        type: America/Hermosillo
+      - 
+        exemplarCity: 
+          content: माजाट्लान
+          draft: contributed
+        type: America/Mazatlan
+      - 
+        exemplarCity: 
+          content: चिहुआहुआ
+          draft: contributed
+        type: America/Chihuahua
+      - 
+        exemplarCity: 
+          content: मोन्टेर्रे
+          draft: contributed
+        type: America/Monterrey
+      - 
+        exemplarCity: 
+          content: मेक्सिको सिटी
+          draft: contributed
+        type: America/Mexico_City
+      - 
+        exemplarCity: 
+          content: मेरिडा
+          draft: contributed
+        type: America/Merida
+      - 
+        exemplarCity: 
+          content: कानकुन
+          draft: contributed
+        type: America/Cancun
+      - 
+        exemplarCity: कुचिङ
+        type: Asia/Kuching
+      - 
+        exemplarCity: मापुतो
+        type: Africa/Maputo
+      - 
+        exemplarCity: विन्डहोएक
+        type: Africa/Windhoek
+      - 
+        exemplarCity: नायमे
+        type: Africa/Niamey
+      - 
+        exemplarCity: लागोस
+        type: Africa/Lagos
+      - 
+        exemplarCity: मानागुवा
+        type: America/Managua
+      - 
+        exemplarCity: एम्स्ट्र्डम
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: ओस्लो
+        type: Europe/Oslo
+      - 
+        exemplarCity: काठमाण्डौं
+        type: Asia/Katmandu
+      - 
+        exemplarCity: 
+          content: चाथाम
+          draft: contributed
+        type: Pacific/Chatham
+      - 
+        exemplarCity: पानामा
+        type: America/Panama
+      - 
+        exemplarCity: लिमा
+        type: America/Lima
+      - 
+        exemplarCity: 
+          content: मार्केसास
+          draft: contributed
+        type: Pacific/Marquesas
+      - 
+        exemplarCity: 
+          content: ग्याम्बियर
+          draft: contributed
+        type: Pacific/Gambier
+      - 
+        exemplarCity: मनिला
+        type: Asia/Manila
+      - 
+        exemplarCity: कराची
+        type: Asia/Karachi
+      - 
+        exemplarCity: वारसअ
+        type: Europe/Warsaw
+      - 
+        exemplarCity: मिक्विलन
+        type: America/Miquelon
+      - 
+        exemplarCity: प्युर्टो रिको
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: 
+          content: आजोर्स
+          draft: contributed
+        type: Atlantic/Azores
+      - 
+        exemplarCity: 
+          content: माडेइरा
+          draft: contributed
+        type: Atlantic/Madeira
+      - 
+        exemplarCity: लिस्बोन
+        type: Europe/Lisbon
+      - 
+        exemplarCity: असन्सियन
+        type: America/Asuncion
+      - 
+        exemplarCity: रियुनियन
+        type: Indian/Reunion
+      - 
+        exemplarCity: वुचारेस्ट
+        type: Europe/Bucharest
+      - 
+        exemplarCity: बेलग्रेड
+        type: Europe/Belgrade
+      - 
+        exemplarCity: 
+          content: कालिनिनग्राद
+          draft: contributed
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: 
+          content: मस्को
+          draft: contributed
+        type: Europe/Moscow
+      - 
+        exemplarCity: 
+          content: भोल्गोग्राद
+          draft: contributed
+        type: Europe/Volgograd
+      - 
+        exemplarCity: 
+          content: सामारा
+          draft: contributed
+        type: Europe/Samara
+      - 
+        exemplarCity: 
+          content: एकटरिनबुर्ग
+          draft: contributed
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: 
+          content: ओम्स्क
+          draft: contributed
+        type: Asia/Omsk
+      - 
+        exemplarCity: 
+          content: नोबोसिबिर्स्क
+          draft: contributed
+        type: Asia/Novosibirsk
+      - 
+        exemplarCity: 
+          content: क्रास्नोयार्स्क
+          draft: contributed
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: 
+          content: इर्कुत्स्क
+          draft: contributed
+        type: Asia/Irkutsk
+      - 
+        exemplarCity: 
+          content: याकुत्स्क
+          draft: contributed
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: 
+          content: भ्लाडिभास्टोक
+          draft: contributed
+        type: Asia/Vladivostok
+      - 
+        exemplarCity: 
+          content: साखालिन
+          draft: contributed
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: 
+          content: मागाडान
+          draft: contributed
+        type: Asia/Magadan
+      - 
+        exemplarCity: 
+          content: कामचट्का
+          draft: contributed
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: 
+          content: आनाडियर
+          draft: contributed
+        type: Asia/Anadyr
+      - 
+        exemplarCity: किगाली
+        type: Africa/Kigali
+      - 
+        exemplarCity: माहे
+        type: Indian/Mahe
+      - 
+        exemplarCity: खार्टउम
+        type: Africa/Khartoum
+      - 
+        exemplarCity: स्टकहोल्म
+        type: Europe/Stockholm
+      - 
+        exemplarCity: सिंगापुर
+        type: Asia/Singapore
+      - 
+        exemplarCity: सेन्ट हेलेना
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: लङयिअरबाइएन
+        type: Arctic/Longyearbyen
+      - 
+        exemplarCity: ब्राटिस्लाभा
+        type: Europe/Bratislava
+      - 
+        exemplarCity: फ्रिटाउन
+        type: Africa/Freetown
+      - 
+        exemplarCity: डाकार
+        type: Africa/Dakar
+      - 
+        exemplarCity: मोगाडिशु
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: पारामारिवो
+        type: America/Paramaribo
+      - 
+        exemplarCity: साओ टोमे
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: एल् साल्भाडोर
+        type: America/El_Salvador
+      - 
+        exemplarCity: लोअर प्रिन्स्स क्वार्टर
+        type: America/Lower_Princes
+      - 
+        exemplarCity: एमबाबेन
+        type: Africa/Mbabane
+      - 
+        exemplarCity: ग्रान्ड टर्क
+        type: America/Grand_Turk
+      - 
+        exemplarCity: एन्‌जामेना
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: केर्गुएलेन
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: लोम
+        type: Africa/Lome
+      - 
+        exemplarCity: बैंकक
+        type: Asia/Bangkok
+      - 
+        exemplarCity: टुनिस
+        type: Africa/Tunis
+      - 
+        exemplarCity: पोर्ट अफ् स्पेन
+        type: America/Port_of_Spain
+      - 
+        exemplarCity: डार एस् सलाम
+        type: Africa/Dar_es_Salaam
+      - 
+        exemplarCity: 
+          content: उझगोरद
+          draft: contributed
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: 
+          content: किभ
+          draft: contributed
+        type: Europe/Kiev
+      - 
+        exemplarCity: 
+          content: सिम्फेरोपोल
+          draft: contributed
+        type: Europe/Simferopol
+      - 
+        exemplarCity: 
+          content: जापोरोझ्ये
+          draft: contributed
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: काम्पाला
+        type: Africa/Kampala
+      - 
+        exemplarCity: 
+          content: मिडवे
+          draft: contributed
+        type: Pacific/Midway
+      - 
+        exemplarCity: 
+          content: जोन्सटन
+          draft: contributed
+        type: Pacific/Johnston
+      - 
+        exemplarCity: 
+          content: वेक
+          draft: contributed
+        type: Pacific/Wake
+      - 
+        exemplarCity: 
+          content: आडाक
+          draft: contributed
+        type: America/Adak
+      - 
+        exemplarCity: 
+          content: नोमे
+          draft: contributed
+        type: America/Nome
+      - 
+        exemplarCity: 
+          content: होनोलुलु
+          draft: contributed
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: एङ्कोरेज
+        type: America/Anchorage
+      - 
+        exemplarCity: 
+          content: याकुतात
+          draft: contributed
+        type: America/Yakutat
+      - 
+        exemplarCity: 
+          content: जुनिउ
+          draft: contributed
+        type: America/Juneau
+      - 
+        exemplarCity: 
+          content: लस् एन्जेलस
+          draft: contributed
+        type: America/Los_Angeles
+      - 
+        exemplarCity: 
+          content: बोइज
+          draft: contributed
+        type: America/Boise
+      - 
+        exemplarCity: 
+          content: फोनिक्स
+          draft: contributed
+        type: America/Phoenix
+      - 
+        exemplarCity: 
+          content: शिपरक
+          draft: contributed
+        type: America/Shiprock
+      - 
+        exemplarCity: 
+          content: डेन्भर
+          draft: contributed
+        type: America/Denver
+      - 
+        exemplarCity: बेलुआ, उत्तर डोकोटा
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: 
+          content: नयाँ सालेम, उत्तर डाकोटा
+          draft: contributed
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: 
+          content: उत्तर डाकोटा, केन्द्र
+          draft: contributed
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: 
+          content: चिकागो
+          draft: contributed
+        type: America/Chicago
+      - 
+        exemplarCity: 
+          content: मेनोमिनी
+          draft: contributed
+        type: America/Menominee
+      - 
+        exemplarCity: 
+          content: भिन्सेन्स
+          draft: contributed
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: 
+          content: पिटर्सबर्ग, इन्डियाना
+          draft: contributed
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: 
+          content: टेल सिटी, इन्डियाना
+          draft: contributed
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: 
+          content: नोक्स, इण्डियाना
+          draft: contributed
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: 
+          content: विनामाक, इन्डियाना
+          draft: contributed
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: 
+          content: मारेन्गो, इन्डियाना
+          draft: contributed
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: 
+          content: इण्डियानापोलिस
+          draft: contributed
+        type: America/Indianapolis
+      - 
+        exemplarCity: 
+          content: लुइसभिल्ले
+          draft: contributed
+        type: America/Louisville
+      - 
+        exemplarCity: 
+          content: भेभे, इन्डियाना
+          draft: contributed
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: 
+          content: मोन्टिसेल्लो,केन्टकी
+          draft: contributed
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: 
+          content: डिट्रोइट
+          draft: contributed
+        type: America/Detroit
+      - 
+        exemplarCity: 
+          content: न्युयोर्क
+          draft: contributed
+        type: America/New_York
+      - 
+        exemplarCity: मोन्टेभिडियो
+        type: America/Montevideo
+      - 
+        exemplarCity: 
+          content: समारकण्ड
+          draft: contributed
+        type: Asia/Samarkand
+      - 
+        exemplarCity: सेन्ट भिन्सेन्ट
+        type: America/St_Vincent
+      - 
+        exemplarCity: काराकास
+        type: America/Caracas
+      - 
+        exemplarCity: टार्टोला
+        type: America/Tortola
+      - 
+        exemplarCity: सेन्ट थोमस
+        type: America/St_Thomas
+      - 
+        exemplarCity: हो ची मिन्ह
+        type: Asia/Saigon
+      - 
+        exemplarCity: मायोट्टे
+        type: Indian/Mayotte
+      - 
+        exemplarCity: जोहानेसवर्ग
+        type: Africa/Johannesburg
+      - 
+        exemplarCity: लुसाका
+        type: Africa/Lusaka
+      - 
+        exemplarCity: हरारे
+        type: Africa/Harare
+delimiters: 
+  alternateQuotationEnd: 
+    content: ’
+    draft: contributed
+  alternateQuotationStart: 
+    content: ‘
+    draft: contributed
+  quotationEnd: 
+    content: ”
+    draft: contributed
+  quotationStart: 
+    content: “
+    draft: contributed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ne
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  keys: 
+    key: 
+      - 
+        content: पात्रो
+        type: calendar
+      - 
+        content: कोलेशन
+        type: collation
+      - 
+        content: मुद्रा
+        type: currency
+      - 
+        content: अङ्कहरू
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: अब्खाजियाली
+        type: ab
+      - 
+        content: अफ्रिकान्स
+        type: af
+      - 
+        content: अम्हारिक
+        type: am
+      - 
+        content: अरबी
+        type: ar
+      - 
+        content: आसामी
+        type: as
+      - 
+        content: अजरबैजानी
+        type: az
+      - 
+        content: वेलारूसी
+        type: be
+      - 
+        content: बुल्गेरियाली
+        type: bg
+      - 
+        content: बिहारी
+        draft: unconfirmed
+        type: bh
+      - 
+        content: बंगाली
+        type: bn
+      - 
+        content: तिब्बती
+        type: bo
+      - 
+        content: बोस्नियाली
+        type: bs
+      - 
+        content: क्याटालन
+        type: ca
+      - 
+        content: चेख
+        type: cs
+      - 
+        content: वेल्श
+        type: cy
+      - 
+        content: ड्यानिश
+        type: da
+      - 
+        content: जर्मन
+        type: de
+      - 
+        content: अष्ट्रियन जर्मन
+        type: de_AT
+      - 
+        content: स्वीस हाई जर्मन
+        type: de_CH
+      - 
+        content: ग्रीक
+        type: el
+      - 
+        content: अँग्रेजी
+        type: en
+      - 
+        content: अष्ट्रेलियाली अँग्रेजी
+        type: en_AU
+      - 
+        content: क्यानाडाली अँग्रेजी
+        type: en_CA
+      - 
+        content: वेलायती अँग्रेजी
+        type: en_GB
+      - 
+        content: अमेरिकी अँग्रेजी
+        type: en_US
+      - 
+        content: एस्पेरान्तो
+        type: eo
+      - 
+        content: स्प्यानिश
+        type: es
+      - 
+        content: ल्याटिन अमेरिकी स्पेनिस
+        type: es_419
+      - 
+        content: युरोपी स्पेनिस
+        type: es_ES
+      - 
+        content: इस्टोनियाली
+        type: et
+      - 
+        content: बास्क
+        type: eu
+      - 
+        content: फारसी
+        type: fa
+      - 
+        content: फिनिश
+        type: fi
+      - 
+        content: फिलिपिनी
+        type: fil
+      - 
+        content: फिजियाली
+        type: fj
+      - 
+        content: फारोज
+        type: fo
+      - 
+        content: फ्रांसेली
+        type: fr
+      - 
+        content: क्यानाडाली फ्रान्सेली
+        type: fr_CA
+      - 
+        content: स्वीस फ्रान्सेली
+        type: fr_CH
+      - 
+        content: फ्रिजीयन
+        type: fy
+      - 
+        content: आइरिश
+        type: ga
+      - 
+        content: स्कट्स गाएलिक
+        draft: unconfirmed
+        type: gd
+      - 
+        content: गलिसियाली
+        type: gl
+      - 
+        content: गुजरानी
+        type: gn
+      - 
+        content: स्वीस जर्मन
+        type: gsw
+      - 
+        content: गुजराती
+        type: gu
+      - 
+        content: हाउसा
+        type: ha
+      - 
+        content: हवाइयन
+        type: haw
+      - 
+        content: हिब्रु
+        type: he
+      - 
+        content: हिन्दी
+        type: hi
+      - 
+        content: क्रोएशियाली
+        type: hr
+      - 
+        content: हैटियाली
+        type: ht
+      - 
+        content: हंग्रीयाली
+        type: hu
+      - 
+        content: आर्मेनियाली
+        type: hy
+      - 
+        content: इन्टर्लिङ्गुआ
+        draft: unconfirmed
+        type: ia
+      - 
+        content: इन्डोनेसियाली
+        type: id
+      - 
+        content: अन्तरभाषी
+        draft: unconfirmed
+        type: ie
+      - 
+        content: इग्बो
+        type: ig
+      - 
+        content: आइसल्यान्डिक
+        type: is
+      - 
+        content: इटालियन
+        type: it
+      - 
+        content: जापानी
+        type: ja
+      - 
+        content: जाभानिज
+        type: jv
+      - 
+        content: जर्जियाली
+        type: ka
+      - 
+        content: काजाख
+        type: kk
+      - 
+        content: खमेर
+        type: km
+      - 
+        content: कन्नाडा
+        type: kn
+      - 
+        content: कोरियाली
+        type: ko
+      - 
+        content: काश्मीरी
+        type: ks
+      - 
+        content: कुर्दिश
+        type: ku
+      - 
+        content: किर्घिज
+        type: ky
+      - 
+        content: ल्याटिन
+        type: la
+      - 
+        content: लक्जेम्बर्गिस
+        type: lb
+      - 
+        content: लिंगाला
+        draft: unconfirmed
+        type: ln
+      - 
+        content: लाओ
+        type: lo
+      - 
+        content: लिथुआनियाली
+        type: lt
+      - 
+        content: लात्भियाली
+        type: lv
+      - 
+        content: मलागासी
+        type: mg
+      - 
+        content: माओरी
+        type: mi
+      - 
+        content: म्याकेडोनियन
+        type: mk
+      - 
+        content: मलयालम
+        type: ml
+      - 
+        content: मंगोल
+        draft: unconfirmed
+        type: mn
+      - 
+        content: मराठी
+        type: mr
+      - 
+        content: मलाया
+        type: ms
+      - 
+        content: माल्टिज
+        type: mt
+      - 
+        content: वर्मेली
+        type: my
+      - 
+        content: नर्वेली बोकमाल
+        type: nb
+      - 
+        content: नेपाली
+        type: ne
+      - 
+        content: डच
+        type: nl
+      - 
+        content: फ्लेमिश
+        type: nl_BE
+      - 
+        content: नर्वेली नाइनोर्स्क
+        type: nn
+      - 
+        content: नर्वेजियाली
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: अक्सिटन
+        draft: unconfirmed
+        type: oc
+      - 
+        content: ओरिया
+        type: or
+      - 
+        content: पंजाबी
+        type: pa
+      - 
+        content: पोलिश
+        type: pl
+      - 
+        content: पाश्तो
+        type: ps
+      - 
+        content: पोर्तुगाली
+        type: pt
+      - 
+        content: पर्तुगाली (ब्राजिल्याली)
+        draft: contributed
+        type: pt_BR
+      - 
+        content: पोर्तुगाली (युरोपी)
+        type: pt_PT
+      - 
+        content: क्वेचुवा
+        type: qu
+      - 
+        content: रोमानिश
+        type: rm
+      - 
+        content: रोमानियाली
+        type: ro
+      - 
+        content: रूसी
+        type: ru
+      - 
+        content: संस्कृत
+        type: sa
+      - 
+        content: सिन्धी
+        type: sd
+      - 
+        content: सिन्हाल
+        type: si
+      - 
+        content: स्लोभाकियाली
+        type: sk
+      - 
+        content: स्लोभेनियाली
+        type: sl
+      - 
+        content: सोमाली
+        type: so
+      - 
+        content: अल्बेनियन
+        type: sq
+      - 
+        content: सर्बियाली
+        type: sr
+      - 
+        content: सुडानी
+        type: su
+      - 
+        content: स्विडिश
+        type: sv
+      - 
+        content: स्वाहिली
+        type: sw
+      - 
+        content: तामिल
+        type: ta
+      - 
+        content: तेलुगु
+        type: te
+      - 
+        content: ताजिक
+        type: tg
+      - 
+        content: थाई
+        type: th
+      - 
+        content: तिग्रीन्या
+        type: ti
+      - 
+        content: टर्कमेन
+        type: tk
+      - 
+        content: क्लिङ्गन
+        draft: unconfirmed
+        type: tlh
+      - 
+        content: टोङ्गन
+        type: to
+      - 
+        content: टर्किश
+        type: tr
+      - 
+        content: तातार
+        type: tt
+      - 
+        content: उइघुर
+        type: ug
+      - 
+        content: युक्रेनी
+        type: uk
+      - 
+        content: अज्ञात भाषा
+        type: und
+      - 
+        content: उर्दु
+        type: ur
+      - 
+        content: उज़्बेक
+        type: uz
+      - 
+        content: भियतनामी
+        type: vi
+      - 
+        content: वुलुफ
+        type: wo
+      - 
+        content: खोसा
+        type: xh
+      - 
+        content: यिद्दिस
+        draft: unconfirmed
+        type: yi
+      - 
+        content: योरूवा
+        type: yo
+      - 
+        content: चिनियाँ
+        type: zh
+      - 
+        content: सरलिकृत चिनियाँ
+        type: zh_Hans
+      - 
+        content: परम्परागत चिनियाँ
+        type: zh_Hant
+      - 
+        content: जुलु
+        type: zu
+      - 
+        content: भाषिक सामग्री छैन
+        type: zxx
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: मेट्रिक
+        type: metric
+      - 
+        content: युके
+        type: UK
+      - 
+        content: युएस्
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: अरब
+        draft: contributed
+        type: Arab
+      - 
+        content: आर्मी
+        draft: contributed
+        type: Armi
+      - 
+        content: आर्मेनियन
+        draft: contributed
+        type: Armn
+      - 
+        content: आभेस्टान
+        draft: contributed
+        type: Avst
+      - 
+        content: बाली
+        draft: contributed
+        type: Bali
+      - 
+        content: बाटक
+        draft: contributed
+        type: Batk
+      - 
+        content: बङ्गाली
+        draft: contributed
+        type: Beng
+      - 
+        content: ब्लिजसिम्बोल्स
+        draft: contributed
+        type: Blis
+      - 
+        content: बोपोमोफो
+        draft: contributed
+        type: Bopo
+      - 
+        content: ब्राह्मी
+        draft: contributed
+        type: Brah
+      - 
+        content: ब्रेल
+        draft: contributed
+        type: Brai
+      - 
+        content: बुगिनिज
+        draft: contributed
+        type: Bugi
+      - 
+        content: बुहिद
+        draft: contributed
+        type: Buhd
+      - 
+        content: काक्म्
+        draft: contributed
+        type: Cakm
+      - 
+        content: कारियन
+        draft: contributed
+        type: Cari
+      - 
+        content: चाम
+        draft: contributed
+        type: Cham
+      - 
+        content: चेरोकी
+        draft: contributed
+        type: Cher
+      - 
+        content: किर्थ
+        draft: contributed
+        type: Cirt
+      - 
+        content: कप्टिक
+        draft: contributed
+        type: Copt
+      - 
+        content: कप्रियट
+        draft: contributed
+        type: Cprt
+      - 
+        content: सिरिलिक
+        draft: contributed
+        type: Cyrl
+      - 
+        content: देवानगरी
+        draft: contributed
+        type: Deva
+      - 
+        content: डेसेरेट
+        draft: contributed
+        type: Dsrt
+      - 
+        content: इजिप्टियन डेमोटिक
+        draft: contributed
+        type: Egyd
+      - 
+        content: इजिप्टियन हाइरटिक
+        draft: contributed
+        type: Egyh
+      - 
+        content: इजिप्टियन हाइरोग्लिफ्स
+        draft: contributed
+        type: Egyp
+      - 
+        content: इथियोपिक
+        draft: contributed
+        type: Ethi
+      - 
+        content: ग्रुजियाली खुट्सुरी
+        draft: contributed
+        type: Geok
+      - 
+        content: ग्रुजियाली
+        draft: contributed
+        type: Geor
+      - 
+        content: ग्लागोलिटिक
+        draft: contributed
+        type: Glag
+      - 
+        content: गोथिक
+        draft: contributed
+        type: Goth
+      - 
+        content: ग्रीक
+        draft: contributed
+        type: Grek
+      - 
+        content: गुजराती
+        draft: contributed
+        type: Gujr
+      - 
+        content: गुरूमुखी
+        draft: contributed
+        type: Guru
+      - 
+        content: हान्गुल
+        draft: contributed
+        type: Hang
+      - 
+        content: हान
+        draft: contributed
+        type: Hani
+      - 
+        content: हानुनु
+        draft: contributed
+        type: Hano
+      - 
+        content: सरलिकृत
+        type: Hans
+      - 
+        content: परम्परागत
+        type: Hant
+      - 
+        content: हिब्रु
+        type: Hebr
+      - 
+        content: हिरागाना
+        draft: contributed
+        type: Hira
+      - 
+        content: पहावह हमोङ्ग
+        draft: contributed
+        type: Hmng
+      - 
+        content: काताकाना वा हिरागाना
+        draft: contributed
+        type: Hrkt
+      - 
+        content: पुरानो हङ्गेरियाली
+        draft: contributed
+        type: Hung
+      - 
+        content: इन्दुस
+        draft: contributed
+        type: Inds
+      - 
+        content: पुरानो इटालिक
+        draft: contributed
+        type: Ital
+      - 
+        content: जाभानी
+        draft: contributed
+        type: Java
+      - 
+        content: जापानी
+        draft: contributed
+        type: Jpan
+      - 
+        content: कायाहली
+        draft: contributed
+        type: Kali
+      - 
+        content: काताकाना
+        draft: contributed
+        type: Kana
+      - 
+        content: खारोस्थिति
+        draft: contributed
+        type: Khar
+      - 
+        content: खमेर
+        draft: contributed
+        type: Khmr
+      - 
+        content: कान्नाडा
+        draft: contributed
+        type: Knda
+      - 
+        content: कोरियन
+        draft: contributed
+        type: Kore
+      - 
+        content: क्थी
+        draft: contributed
+        type: Kthi
+      - 
+        content: लान्ना
+        draft: contributed
+        type: Lana
+      - 
+        content: लाओ
+        draft: contributed
+        type: Laoo
+      - 
+        content: फ्राक्टुर ल्याटिन
+        draft: contributed
+        type: Latf
+      - 
+        content: ग्यालिक ल्याटिन
+        draft: contributed
+        type: Latg
+      - 
+        content: ल्याटिन
+        draft: contributed
+        type: Latn
+      - 
+        content: लेप्चा
+        draft: contributed
+        type: Lepc
+      - 
+        content: लिम्बु
+        draft: contributed
+        type: Limb
+      - 
+        content: लाइसियन
+        draft: contributed
+        type: Lyci
+      - 
+        content: लाइडियन
+        draft: contributed
+        type: Lydi
+      - 
+        content: मान्डाएन
+        draft: contributed
+        type: Mand
+      - 
+        content: मानिकाएन
+        draft: contributed
+        type: Mani
+      - 
+        content: माया हाइरोग्लिफ्स
+        draft: contributed
+        type: Maya
+      - 
+        content: मेरियोटिक
+        draft: contributed
+        type: Mero
+      - 
+        content: मलायालम
+        draft: contributed
+        type: Mlym
+      - 
+        content: मङ्गोल
+        draft: contributed
+        type: Mong
+      - 
+        content: जून
+        draft: contributed
+        type: Moon
+      - 
+        content: माइटेइ मायेक
+        draft: contributed
+        type: Mtei
+      - 
+        content: म्यान्मार
+        draft: contributed
+        type: Mymr
+      - 
+        content: एन्को
+        draft: contributed
+        type: Nkoo
+      - 
+        content: ओघाम
+        draft: contributed
+        type: Ogam
+      - 
+        content: ओलचिकी
+        draft: contributed
+        type: Olck
+      - 
+        content: ओर्खोन
+        draft: contributed
+        type: Orkh
+      - 
+        content: ओरिया
+        draft: contributed
+        type: Orya
+      - 
+        content: ओस्मान्या
+        draft: contributed
+        type: Osma
+      - 
+        content: पुरानो पर्मिक
+        draft: contributed
+        type: Perm
+      - 
+        content: फाग्स-पा
+        draft: contributed
+        type: Phag
+      - 
+        content: फ्लि
+        draft: contributed
+        type: Phli
+      - 
+        content: फ्ल्प
+        draft: contributed
+        type: Phlp
+      - 
+        content: बुक पहल्भी
+        draft: contributed
+        type: Phlv
+      - 
+        content: फोनिसियन
+        draft: contributed
+        type: Phnx
+      - 
+        content: पोल्लार्ड फोनेटिक
+        draft: contributed
+        type: Plrd
+      - 
+        content: पिआरटी
+        draft: contributed
+        type: Prti
+      - 
+        content: रेजाङ
+        draft: contributed
+        type: Rjng
+      - 
+        content: रोङ्गोरोङ्गो
+        draft: contributed
+        type: Roro
+      - 
+        content: रूनिक
+        draft: contributed
+        type: Runr
+      - 
+        content: समारिटन
+        draft: contributed
+        type: Samr
+      - 
+        content: सारती
+        draft: contributed
+        type: Sara
+      - 
+        content: सौराष्ट्र
+        draft: contributed
+        type: Saur
+      - 
+        content: साइनराइटिङ
+        draft: contributed
+        type: Sgnw
+      - 
+        content: शाभियन
+        draft: contributed
+        type: Shaw
+      - 
+        content: सिन्हाला
+        draft: contributed
+        type: Sinh
+      - 
+        content: सुडानी
+        draft: contributed
+        type: Sund
+      - 
+        content: स्ल्योटी नाग्री
+        draft: contributed
+        type: Sylo
+      - 
+        content: सिरियाक
+        draft: contributed
+        type: Syrc
+      - 
+        content: इस्ट्रेनजेलो सिरियाक
+        draft: contributed
+        type: Syre
+      - 
+        content: पश्चिमी सिरियाक
+        draft: contributed
+        type: Syrj
+      - 
+        content: पूर्वी सिरियाक
+        draft: contributed
+        type: Syrn
+      - 
+        content: टाग्वान्वा
+        draft: contributed
+        type: Tagb
+      - 
+        content: टाइले
+        draft: contributed
+        type: Tale
+      - 
+        content: न्यू टाइ लुइ
+        draft: contributed
+        type: Talu
+      - 
+        content: तामिल
+        draft: contributed
+        type: Taml
+      - 
+        content: टाभ्ट
+        draft: contributed
+        type: Tavt
+      - 
+        content: टेलेगु
+        draft: contributed
+        type: Telu
+      - 
+        content: टेङ्वार
+        draft: contributed
+        type: Teng
+      - 
+        content: टिफिनाघ
+        draft: contributed
+        type: Tfng
+      - 
+        content: टागालोग
+        draft: contributed
+        type: Tglg
+      - 
+        content: थाना
+        draft: contributed
+        type: Thaa
+      - 
+        content: थाई
+        draft: contributed
+        type: Thai
+      - 
+        content: टिबेटन
+        draft: contributed
+        type: Tibt
+      - 
+        content: युगारिटिक
+        draft: contributed
+        type: Ugar
+      - 
+        content: भाइ
+        draft: contributed
+        type: Vaii
+      - 
+        content: दृश्यमय वाणी
+        draft: contributed
+        type: Visp
+      - 
+        content: पुरानो पर्सियन
+        draft: contributed
+        type: Xpeo
+      - 
+        content: यी
+        draft: contributed
+        type: Yiii
+      - 
+        content: इन्हेरिटेड
+        draft: contributed
+        type: Zinh
+      - 
+        content: जमथ
+        draft: contributed
+        type: Zmth
+      - 
+        content: जसम
+        draft: contributed
+        type: Zsym
+      - 
+        content: अलिखित
+        draft: contributed
+        type: Zxxx
+      - 
+        content: साझा
+        draft: contributed
+        type: Zyyy
+      - 
+        content: अपरिचित लिपी
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: विश्व
+        draft: contributed
+        type: '001'
+      - 
+        content: अफ्रिका
+        draft: contributed
+        type: '002'
+      - 
+        content: उत्तर अमेरिका
+        draft: contributed
+        type: '003'
+      - 
+        content: दक्षिण अमेरिका
+        draft: contributed
+        type: '005'
+      - 
+        content: ओसनिया
+        draft: contributed
+        type: '009'
+      - 
+        content: पश्चिमी अफ्रिका
+        draft: contributed
+        type: '011'
+      - 
+        content: केन्द्रीय अमेरिका
+        draft: contributed
+        type: '013'
+      - 
+        content: पूर्वी अफ्रिका
+        draft: contributed
+        type: '014'
+      - 
+        content: उत्तरी अफ्रिका
+        draft: contributed
+        type: '015'
+      - 
+        content: मध्य अफ्रिका
+        draft: contributed
+        type: '017'
+      - 
+        content: दक्षिणी अफ्रिका
+        draft: contributed
+        type: '018'
+      - 
+        content: अमेरिकास
+        draft: contributed
+        type: '019'
+      - 
+        content: उत्तरी अमेरिका
+        draft: contributed
+        type: '021'
+      - 
+        content: क्यारिबिएन
+        draft: contributed
+        type: '029'
+      - 
+        content: पूर्वी एशिया
+        draft: contributed
+        type: '030'
+      - 
+        content: दक्षिणी एशिया
+        draft: contributed
+        type: '034'
+      - 
+        content: दक्षिण पूर्वी एशिया
+        draft: contributed
+        type: '035'
+      - 
+        content: दक्षिणी युरोप
+        draft: contributed
+        type: '039'
+      - 
+        content: अष्ट्रेलिया र न्युजिल्याण्ड
+        type: '053'
+      - 
+        content: मेलानेसिया
+        draft: contributed
+        type: '054'
+      - 
+        content: माइक्रोनेसियाली क्षेत्र
+        draft: contributed
+        type: '057'
+      - 
+        content: पोलिनेशिया
+        draft: contributed
+        type: '061'
+      - 
+        content: एशिया
+        draft: contributed
+        type: 142
+      - 
+        content: केन्द्रीय एशिया
+        draft: contributed
+        type: 143
+      - 
+        content: पश्चिमी एशिया
+        draft: contributed
+        type: 145
+      - 
+        content: युरोप
+        draft: contributed
+        type: 150
+      - 
+        content: पूर्वी युरोप
+        draft: contributed
+        type: 151
+      - 
+        content: उत्तरी युरोप
+        draft: contributed
+        type: 154
+      - 
+        content: पश्चिमी युरोप
+        draft: contributed
+        type: 155
+      - 
+        content: ल्याटिन अमेरिका
+        type: 419
+      - 
+        content: एस्केन्सन टाइु
+        type: AC
+      - 
+        content: अन्डोर्रा
+        draft: contributed
+        type: AD
+      - 
+        content: संयुक्त अरब इमिराट्स
+        draft: contributed
+        type: AE
+      - 
+        content: अफ्गानिष्तान
+        draft: contributed
+        type: AF
+      - 
+        content: एन्टिगुआ र बारबुडा
+        draft: contributed
+        type: AG
+      - 
+        content: आङ्गुइला
+        draft: contributed
+        type: AI
+      - 
+        content: अल्बानिया
+        draft: contributed
+        type: AL
+      - 
+        content: आर्मेनिया
+        draft: contributed
+        type: AM
+      - 
+        content: नेदरल्याण्ड्स एण्टिलिस
+        draft: contributed
+        type: AN
+      - 
+        content: अङ्गोला
+        draft: contributed
+        type: AO
+      - 
+        content: अन्टारतिका
+        draft: contributed
+        type: AQ
+      - 
+        content: अर्जेण्टिना
+        draft: contributed
+        type: AR
+      - 
+        content: अमेरिकी समोआ
+        draft: contributed
+        type: AS
+      - 
+        content: अष्ट्रिया
+        draft: contributed
+        type: AT
+      - 
+        content: अष्ट्रेलिया
+        draft: contributed
+        type: AU
+      - 
+        content: आरूबा
+        draft: contributed
+        type: AW
+      - 
+        content: अलान्ड टापु
+        type: AX
+      - 
+        content: अजरबैजान
+        draft: contributed
+        type: AZ
+      - 
+        content: बोस्निया र हर्जगोभिनिया
+        draft: contributed
+        type: BA
+      - 
+        content: बार्बाडोस
+        draft: contributed
+        type: BB
+      - 
+        content: बङ्गलादेश
+        draft: contributed
+        type: BD
+      - 
+        content: बेल्जियम
+        draft: contributed
+        type: BE
+      - 
+        content: बर्किना फासो
+        type: BF
+      - 
+        content: बल्गेरिया
+        draft: contributed
+        type: BG
+      - 
+        content: बाह्रेन
+        draft: contributed
+        type: BH
+      - 
+        content: बुरूण्डी
+        draft: contributed
+        type: BI
+      - 
+        content: बेनिन
+        type: BJ
+      - 
+        content: सेन्ट बार्थालेमी
+        draft: contributed
+        type: BL
+      - 
+        content: बर्मुडा
+        draft: contributed
+        type: BM
+      - 
+        content: ब्रुनाइ
+        draft: contributed
+        type: BN
+      - 
+        content: बोलिभिया
+        draft: contributed
+        type: BO
+      - 
+        content: क्यारिवियन नेदरल्याण्ड्स
+        type: BQ
+      - 
+        content: ब्राजिल
+        draft: contributed
+        type: BR
+      - 
+        content: बहामास
+        draft: contributed
+        type: BS
+      - 
+        content: भुटान
+        draft: contributed
+        type: BT
+      - 
+        content: बुभेट टापु
+        draft: contributed
+        type: BV
+      - 
+        content: बोट्स्वाना
+        draft: contributed
+        type: BW
+      - 
+        content: बेलारूस
+        draft: contributed
+        type: BY
+      - 
+        content: बेलिज
+        draft: contributed
+        type: BZ
+      - 
+        content: क्यानाडा
+        draft: contributed
+        type: CA
+      - 
+        content: कोकोस [किलिंग] टापु
+        type: CC
+      - 
+        content: कोङ्गो-किन्शासा
+        draft: contributed
+        type: CD
+      - 
+        alt: variant
+        content: कङ्गो [डीआर्‌सी]
+        type: CD
+      - 
+        content: केन्द्रीय अफ्रिकी गणतन्त्र
+        draft: contributed
+        type: CF
+      - 
+        content: कोङ्गो - ब्राज्जाभिल्ले
+        draft: contributed
+        type: CG
+      - 
+        alt: variant
+        content: कङ्गो [गणतन्त्र]
+        type: CG
+      - 
+        content: स्विजरल्याण्ड
+        draft: contributed
+        type: CH
+      - 
+        content: आइभोरी कोष्ट
+        type: CI
+      - 
+        alt: variant
+        content: आइभोरी कोस्ट
+        type: CI
+      - 
+        content: कुक टापु
+        draft: contributed
+        type: CK
+      - 
+        content: चिली
+        draft: contributed
+        type: CL
+      - 
+        content: क्यामेरून
+        draft: contributed
+        type: CM
+      - 
+        content: चीन
+        draft: contributed
+        type: CN
+      - 
+        content: कोलोम्बिया
+        draft: contributed
+        type: CO
+      - 
+        content: क्लिप्पेर्टन टापु
+        type: CP
+      - 
+        content: कोष्टारिका
+        draft: contributed
+        type: CR
+      - 
+        content: क्युबा
+        draft: contributed
+        type: CU
+      - 
+        content: केप भर्डे
+        draft: contributed
+        type: CV
+      - 
+        content: कुराकाओ
+        type: CW
+      - 
+        content: क्रिष्टमस टापु
+        draft: contributed
+        type: CX
+      - 
+        content: साइप्रस
+        draft: contributed
+        type: CY
+      - 
+        content: चेख गणतन्त्र
+        draft: contributed
+        type: CZ
+      - 
+        content: जर्मनी
+        draft: contributed
+        type: DE
+      - 
+        content: डियगो गार्सिया
+        type: DG
+      - 
+        content: डिजिबुटी
+        draft: contributed
+        type: DJ
+      - 
+        content: डेन्मार्क
+        draft: contributed
+        type: DK
+      - 
+        content: डोमिनिका
+        draft: contributed
+        type: DM
+      - 
+        content: डोमिनिकन गणतन्त्र
+        draft: contributed
+        type: DO
+      - 
+        content: अल्जेरिया
+        draft: contributed
+        type: DZ
+      - 
+        content: सिउटा र मेलिला
+        type: EA
+      - 
+        content: इक्वडेर
+        draft: contributed
+        type: EC
+      - 
+        content: इस्टोनिया
+        draft: contributed
+        type: EE
+      - 
+        content: इजिप्ट
+        draft: contributed
+        type: EG
+      - 
+        content: पश्चिमी साहारा
+        draft: contributed
+        type: EH
+      - 
+        content: एरित्रिया
+        draft: contributed
+        type: ER
+      - 
+        content: स्पेन
+        draft: contributed
+        type: ES
+      - 
+        content: इथोपिया
+        draft: contributed
+        type: ET
+      - 
+        content: युरोपियन युनियन
+        draft: contributed
+        type: EU
+      - 
+        content: फिन्ल्याण्ड
+        draft: contributed
+        type: FI
+      - 
+        content: फिजी
+        draft: contributed
+        type: FJ
+      - 
+        content: फकल्याण्ड टापु
+        draft: contributed
+        type: FK
+      - 
+        alt: variant
+        content: फक्ल्याण्ड टापुहरू [इज्लास माल्भिनास]
+        type: FK
+      - 
+        content: माइक्रोनेसिया
+        draft: contributed
+        type: FM
+      - 
+        content: फारोर टापु
+        draft: contributed
+        type: FO
+      - 
+        content: फ्रान्स
+        draft: contributed
+        type: FR
+      - 
+        content: गावोन
+        draft: contributed
+        type: GA
+      - 
+        content: संयुक्त अधिराज्य
+        draft: contributed
+        type: GB
+      - 
+        content: ग्रेनाडा
+        draft: contributed
+        type: GD
+      - 
+        content: जोर्जिया
+        draft: contributed
+        type: GE
+      - 
+        content: फ्रान्सेली गायना
+        draft: contributed
+        type: GF
+      - 
+        content: गुएर्नसे
+        draft: contributed
+        type: GG
+      - 
+        content: घाना
+        draft: contributed
+        type: GH
+      - 
+        content: जिब्राल्टार
+        draft: contributed
+        type: GI
+      - 
+        content: ग्रिनल्याण्ड
+        draft: contributed
+        type: GL
+      - 
+        content: गाम्विया
+        draft: contributed
+        type: GM
+      - 
+        content: गिनी
+        draft: contributed
+        type: GN
+      - 
+        content: ग्वाडेलुप
+        draft: contributed
+        type: GP
+      - 
+        content: भू-मध्यीय गिनी
+        draft: contributed
+        type: GQ
+      - 
+        content: ग्रिश
+        draft: contributed
+        type: GR
+      - 
+        content: दक्षिण जर्जिया र दक्षिण स्यान्डवीच टापुहरू
+        type: GS
+      - 
+        content: ग्वाटेमाला
+        draft: contributed
+        type: GT
+      - 
+        content: गुवाम
+        draft: contributed
+        type: GU
+      - 
+        content: गिनी-बिसाउ
+        draft: contributed
+        type: GW
+      - 
+        content: गुयाना
+        draft: contributed
+        type: GY
+      - 
+        content: हङकङ चिनिँया समाजवादी स्वायत्त क्षेत्र
+        draft: contributed
+        type: HK
+      - 
+        alt: short
+        content: हङकङ
+        draft: contributed
+        type: HK
+      - 
+        content: हर्ड टापु र म्याकडोनाल्ड टापु
+        draft: contributed
+        type: HM
+      - 
+        content: हन्डुरास
+        draft: contributed
+        type: HN
+      - 
+        content: क्रोएशिया
+        draft: contributed
+        type: HR
+      - 
+        content: हैटी
+        draft: contributed
+        type: HT
+      - 
+        content: हङ्गेरी
+        draft: contributed
+        type: HU
+      - 
+        content: क्यानारी टापुहरू
+        type: IC
+      - 
+        content: इन्डोनेशिया
+        draft: contributed
+        type: ID
+      - 
+        content: आइरल्याण्ड
+        draft: contributed
+        type: IE
+      - 
+        content: इज्रायल
+        draft: contributed
+        type: IL
+      - 
+        content: आइज्ले अफ् म्यान
+        draft: contributed
+        type: IM
+      - 
+        content: भारत
+        draft: contributed
+        type: IN
+      - 
+        content: बेलायती हिन्द महासागर क्षेत्र
+        draft: contributed
+        type: IO
+      - 
+        content: इराक
+        draft: contributed
+        type: IQ
+      - 
+        content: इरान
+        draft: contributed
+        type: IR
+      - 
+        content: आइस्ल्याण्ड
+        draft: contributed
+        type: IS
+      - 
+        content: इटाली
+        draft: contributed
+        type: IT
+      - 
+        content: जर्सी
+        draft: contributed
+        type: JE
+      - 
+        content: जमाइका
+        draft: contributed
+        type: JM
+      - 
+        content: जोर्डन
+        draft: contributed
+        type: JO
+      - 
+        content: जापान
+        draft: contributed
+        type: JP
+      - 
+        content: केन्या
+        draft: contributed
+        type: KE
+      - 
+        content: किर्गिस्थान
+        draft: contributed
+        type: KG
+      - 
+        content: कम्बोडिया
+        draft: contributed
+        type: KH
+      - 
+        content: किरिबाटी
+        draft: contributed
+        type: KI
+      - 
+        content: कोमोरोस
+        draft: contributed
+        type: KM
+      - 
+        content: सेन्ट किट्स र नेभिस
+        draft: contributed
+        type: KN
+      - 
+        content: उत्तर कोरिया
+        draft: contributed
+        type: KP
+      - 
+        content: दक्षिण कोरिया
+        draft: contributed
+        type: KR
+      - 
+        content: कुवेत
+        draft: contributed
+        type: KW
+      - 
+        content: केयमान टापु
+        draft: contributed
+        type: KY
+      - 
+        content: काजाकस्थान
+        draft: contributed
+        type: KZ
+      - 
+        content: लाओस
+        draft: contributed
+        type: LA
+      - 
+        content: लेबनोन
+        draft: contributed
+        type: LB
+      - 
+        content: सेन्ट लुसिया
+        draft: contributed
+        type: LC
+      - 
+        content: लिएखटेन्स्टाइन
+        draft: contributed
+        type: LI
+      - 
+        content: श्रीलङ्का
+        draft: contributed
+        type: LK
+      - 
+        content: लाइबेरिया
+        draft: contributed
+        type: LR
+      - 
+        content: लेसोथो
+        draft: contributed
+        type: LS
+      - 
+        content: लिथुअनिया
+        draft: contributed
+        type: LT
+      - 
+        content: लक्जेमबर्ग
+        draft: contributed
+        type: LU
+      - 
+        content: लाट्भिया
+        draft: contributed
+        type: LV
+      - 
+        content: लिबिया
+        draft: contributed
+        type: LY
+      - 
+        content: मोरोक्को
+        draft: contributed
+        type: MA
+      - 
+        content: मोनाको
+        draft: contributed
+        type: MC
+      - 
+        content: माल्डोभा
+        draft: contributed
+        type: MD
+      - 
+        content: मोन्टेनेग्रो
+        draft: contributed
+        type: ME
+      - 
+        content: सेन्ट मार्टिन
+        draft: contributed
+        type: MF
+      - 
+        content: मडागास्कर
+        draft: contributed
+        type: MG
+      - 
+        content: मार्शल टापु
+        draft: contributed
+        type: MH
+      - 
+        content: म्याकेडोनिया
+        draft: contributed
+        type: MK
+      - 
+        alt: variant
+        content: म्याकेडोनिया [फाइरम]
+        type: MK
+      - 
+        content: माली
+        draft: contributed
+        type: ML
+      - 
+        content: म्यान्मार [बर्मा]
+        type: MM
+      - 
+        content: मङ्गोलिया
+        draft: contributed
+        type: MN
+      - 
+        content: मकावो चिनिँया स्वशासित क्षेत्र
+        draft: contributed
+        type: MO
+      - 
+        alt: short
+        content: मकावो
+        draft: contributed
+        type: MO
+      - 
+        content: उत्तरी मारिआना टापु
+        draft: contributed
+        type: MP
+      - 
+        content: मार्टिनिक
+        draft: contributed
+        type: MQ
+      - 
+        content: माउरिटानिया
+        draft: contributed
+        type: MR
+      - 
+        content: मोन्टसेर्राट
+        draft: contributed
+        type: MS
+      - 
+        content: माल्टा
+        draft: contributed
+        type: MT
+      - 
+        content: माउरिटस
+        draft: contributed
+        type: MU
+      - 
+        content: माल्दिभ्स
+        draft: contributed
+        type: MV
+      - 
+        content: मालावी
+        draft: contributed
+        type: MW
+      - 
+        content: मेक्सिको
+        draft: contributed
+        type: MX
+      - 
+        content: मलेसिया
+        draft: contributed
+        type: MY
+      - 
+        content: मोजाम्बिक
+        draft: contributed
+        type: MZ
+      - 
+        content: नामिबिया
+        draft: contributed
+        type: NA
+      - 
+        content: नयाँ कालेडोनिया
+        draft: contributed
+        type: NC
+      - 
+        content: नाइजर
+        draft: contributed
+        type: NE
+      - 
+        content: नोरफोल्क टापु
+        draft: contributed
+        type: NF
+      - 
+        content: नाइजेरिया
+        draft: contributed
+        type: NG
+      - 
+        content: निकारागुवा
+        draft: contributed
+        type: NI
+      - 
+        content: नेदरल्याण्ड्स
+        draft: contributed
+        type: NL
+      - 
+        content: नर्वे
+        draft: contributed
+        type: 'NO'
+      - 
+        content: नेपाल
+        draft: contributed
+        type: NP
+      - 
+        content: नाउरू
+        draft: contributed
+        type: NR
+      - 
+        content: नियुइ
+        draft: contributed
+        type: NU
+      - 
+        content: न्युजिल्याण्ड
+        draft: contributed
+        type: NZ
+      - 
+        content: ओमन
+        draft: contributed
+        type: OM
+      - 
+        content: पनामा
+        draft: contributed
+        type: PA
+      - 
+        content: पेरू
+        draft: contributed
+        type: PE
+      - 
+        content: फ्रान्सेली पोलिनेसिया
+        draft: contributed
+        type: PF
+      - 
+        content: पपुआ न्यू गाइनिया
+        draft: contributed
+        type: PG
+      - 
+        content: फिलिपिन्स
+        draft: contributed
+        type: PH
+      - 
+        content: पाकिस्तान
+        draft: contributed
+        type: PK
+      - 
+        content: पोल्याण्ड
+        draft: contributed
+        type: PL
+      - 
+        content: सेन्ट पिर्रे र मिक्केलोन
+        draft: contributed
+        type: PM
+      - 
+        content: पिटकाइर्न टापु
+        type: PN
+      - 
+        content: प्युर्टोरिको
+        draft: contributed
+        type: PR
+      - 
+        content: प्यालेस्टनी भू-भागहरु
+        type: PS
+      - 
+        alt: short
+        content: प्यालेसटाइन
+        type: PS
+      - 
+        content: पोर्तुगल
+        draft: contributed
+        type: PT
+      - 
+        content: पलाउ
+        draft: contributed
+        type: PW
+      - 
+        content: प्यारागुये
+        draft: contributed
+        type: PY
+      - 
+        content: कतार
+        type: QA
+      - 
+        content: बाह्य ओसनिया
+        draft: contributed
+        type: QO
+      - 
+        content: रियुनियन
+        type: RE
+      - 
+        content: रोमानिया
+        draft: contributed
+        type: RO
+      - 
+        content: सर्बिया
+        draft: contributed
+        type: RS
+      - 
+        content: रूस
+        draft: contributed
+        type: RU
+      - 
+        content: रवाण्डा
+        draft: contributed
+        type: RW
+      - 
+        content: साउदी अरब
+        draft: contributed
+        type: SA
+      - 
+        content: सोलोमोन टापु
+        draft: contributed
+        type: SB
+      - 
+        content: सेचेलेस
+        draft: contributed
+        type: SC
+      - 
+        content: सुडान
+        draft: contributed
+        type: SD
+      - 
+        content: स्विडेन
+        draft: contributed
+        type: SE
+      - 
+        content: सिङ्गापुर
+        draft: contributed
+        type: SG
+      - 
+        content: सेन्ट हेलेना
+        draft: contributed
+        type: SH
+      - 
+        content: स्लोभेनिया
+        draft: contributed
+        type: SI
+      - 
+        content: सभाल्बार्ड र जान मायेन
+        draft: contributed
+        type: SJ
+      - 
+        content: स्लोभाकिया
+        draft: contributed
+        type: SK
+      - 
+        content: सिएर्रा लिओन
+        draft: contributed
+        type: SL
+      - 
+        content: सान् मारिनो
+        draft: contributed
+        type: SM
+      - 
+        content: सेनेगाल
+        draft: contributed
+        type: SN
+      - 
+        content: सोमालिया
+        draft: contributed
+        type: SO
+      - 
+        content: सुरिनेम
+        draft: contributed
+        type: SR
+      - 
+        content: दक्षिणी सुडान
+        type: SS
+      - 
+        content: साओ टोमे र प्रिन्सिप
+        type: ST
+      - 
+        content: एल् साल्भाडोर
+        draft: contributed
+        type: SV
+      - 
+        content: सिन्ट मार्टेन
+        type: SX
+      - 
+        content: सिरिया
+        draft: contributed
+        type: SY
+      - 
+        content: स्वाजिल्याण्ड
+        draft: contributed
+        type: SZ
+      - 
+        content: ट्रिस्टान डा कुन्हा
+        type: TA
+      - 
+        content: तुर्क र काइकोस टापु
+        draft: contributed
+        type: TC
+      - 
+        content: चाड
+        draft: contributed
+        type: TD
+      - 
+        content: फ्रान्सेली दक्षिणी क्षेत्र
+        draft: contributed
+        type: TF
+      - 
+        content: टोगो
+        draft: contributed
+        type: TG
+      - 
+        content: थाइल्याण्ड
+        draft: contributed
+        type: TH
+      - 
+        content: ताजिकिस्तान
+        draft: contributed
+        type: TJ
+      - 
+        content: तोगो
+        draft: contributed
+        type: TK
+      - 
+        content: टिमोर-लेस्टे
+        type: TL
+      - 
+        alt: variant
+        content: पृर्वी टीमोर
+        type: TL
+      - 
+        content: तुर्कमेनिस्तान
+        draft: contributed
+        type: TM
+      - 
+        content: टुनिसिया
+        draft: contributed
+        type: TN
+      - 
+        content: टोंगा
+        draft: contributed
+        type: TO
+      - 
+        content: टर्की
+        draft: contributed
+        type: TR
+      - 
+        content: त्रिनिडाड र तोबागो
+        draft: contributed
+        type: TT
+      - 
+        content: तुभालु
+        draft: contributed
+        type: TV
+      - 
+        content: ताइवान
+        draft: contributed
+        type: TW
+      - 
+        content: तान्जानिया
+        draft: contributed
+        type: TZ
+      - 
+        content: युक्रेन
+        draft: contributed
+        type: UA
+      - 
+        content: युगाण्डा
+        draft: contributed
+        type: UG
+      - 
+        content: संयुक्त राज्य बाह्य टापु
+        type: UM
+      - 
+        content: संयुक्त राज्य
+        draft: contributed
+        type: US
+      - 
+        content: युरूगुए
+        draft: contributed
+        type: UY
+      - 
+        content: उज्बेकिस्तान
+        draft: contributed
+        type: UZ
+      - 
+        content: भेटिकन सिटी
+        type: VA
+      - 
+        content: सेन्ट भिन्सेन्ट र ग्रेनाडिन्स
+        draft: contributed
+        type: VC
+      - 
+        content: भेनेजुएला
+        draft: contributed
+        type: VE
+      - 
+        content: बेलायती भर्जिन टापु
+        draft: contributed
+        type: VG
+      - 
+        content: संयुक्त राज्य भर्जिन टापु
+        draft: contributed
+        type: VI
+      - 
+        content: भिएतनाम
+        type: VN
+      - 
+        content: भानुआतु
+        draft: contributed
+        type: VU
+      - 
+        content: वालिस र फुटुना
+        draft: contributed
+        type: WF
+      - 
+        content: सामोआ
+        draft: contributed
+        type: WS
+      - 
+        content: येमेन
+        draft: contributed
+        type: YE
+      - 
+        content: मायोट्ट
+        draft: contributed
+        type: YT
+      - 
+        content: दक्षिण अफ्रिका
+        draft: contributed
+        type: ZA
+      - 
+        content: जाम्बिया
+        draft: contributed
+        type: ZM
+      - 
+        content: जिम्बाबे
+        draft: contributed
+        type: ZW
+      - 
+        content: अपरिचित क्षेत्र
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: चिनिँया गणतन्त्र पात्रो
+        draft: contributed
+        type: roc
+      collation: 
+        content: परम्परागत क्रमबद्धता पद्दति
+        draft: contributed
+        type: traditional
+      numbers: 
+        content: तिब्बती अङ्कहरू
+        type: tibt
+  variants: 
+    variant: 
+      - 
+        content: पूर्वी आर्मेनियाली
+        draft: contributed
+        type: AREVELA
+      - 
+        content: कम्प्युटर
+        draft: contributed
+        type: POSIX
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - संयुक्त अरब एमिराट्स डिर्हाम
+          - 
+            content: संयुक्त अरब एमिराट्स डिर्हाम
+            count: one
+          - 
+            content: संयुक्त अरब एमिराट्स डिर्हाम
+            count: other
+        type: AED
+      - 
+        displayName: 
+          content: अफ्गानी(१९२७-२००२)
+          draft: contributed
+        type: AFA
+      - 
+        displayName: 
+          - अफ्गान अफ्गानी
+          - 
+            content: अफ्गान अफ्गानी
+            count: one
+          - 
+            content: अफ्गान अफ्गानीहरू
+            count: other
+        type: AFN
+      - 
+        displayName: अल्बानियन लेक
+        type: ALL
+      - 
+        displayName: 
+          - आर्मेनियाली ड्राम
+          - 
+            content: आर्मेनियाली ड्राम
+            count: one
+          - 
+            content: आर्मेनियाली ड्रामहरू
+            count: other
+        type: AMD
+      - 
+        displayName: 
+          - नेदरल्याण्ड्स एन्टिलियन गिल्डर
+          - 
+            content: नेदरल्याण्ड्स एन्टिलियन गिल्डर
+            count: one
+          - 
+            content: नेदरल्याण्ड्स एन्टिलियन गिल्डर
+            count: other
+        type: ANG
+      - 
+        displayName: 
+          - एङ्गोलान क्वान्जा
+          - 
+            content: एङ्गोलान क्वान्जा
+            count: one
+          - 
+            content: एङ्गोलान क्वान्जाहरू
+            count: other
+        type: AOA
+      - 
+        displayName: 
+          - अर्जेन्टिनी पेसो
+          - 
+            content: अर्जेन्टिनी पेसो
+            count: one
+          - 
+            content: अर्जेन्टिनी पेसोहरू
+            count: other
+        type: ARS
+      - 
+        displayName: अष्ट्रेलियन डलर
+        type: AUD
+      - 
+        displayName: 
+          - आरूबन फ्लोरिन
+          - 
+            content: आरूबन फ्लोरिन
+            count: one
+          - 
+            content: आरूबन फ्लोरिन
+            count: other
+        type: AWG
+      - 
+        displayName: 
+          - अजरबैजानी मानात
+          - 
+            content: अजरबैजानी मानात
+            count: one
+          - 
+            content: अजरबैजानी मानात
+            count: other
+        type: AZN
+      - 
+        displayName: 
+          - बोस्निया-हर्जगोभिनिया रूपान्तरयोग्य मार्क
+          - 
+            content: बोस्निया-हर्जगोभिनिया रूपान्तरयोग्य मार्क
+            count: one
+          - 
+            content: बोस्निया-हर्जगोभिनिया रूपान्तरयोग्य मार्कहरू
+            count: other
+        type: BAM
+      - 
+        displayName: 
+          - बार्बाड
+          - 
+            content: बार्बाडियन डलर
+            count: one
+          - 
+            content: बार्बाडियन डलरहरू
+            count: other
+        type: BBD
+      - 
+        displayName: 
+          - बङ्गलादेशी टाका
+          - 
+            content: बङ्गलादेशी टाका
+            count: one
+          - 
+            content: बङ्गलादेशी टाकाहरू
+            count: other
+        type: BDT
+      - 
+        displayName: 
+          - बुल्गारियाली लेभ
+          - 
+            content: बुल्गारियाली लेभ
+            count: one
+          - 
+            content: बुल्गारियाली लेभा
+            count: other
+        type: BGN
+      - 
+        displayName: 
+          - बाहारैनी डिनार
+          - 
+            content: बाहारैनी डिनार
+            count: one
+          - 
+            content: बाहारैनी डिनारहरू
+            count: other
+        type: BHD
+      - 
+        displayName: 
+          - बुरूण्डियाली फ्रान्क
+          - 
+            content: बुरूण्डियाली फ्रान्क
+            count: one
+          - 
+            content: बुरूण्डियाली फ्रान्कहरू
+            count: other
+        type: BIF
+      - 
+        displayName: 
+          - बर्मुडन डलर
+          - 
+            content: बर्मुडन डलर
+            count: one
+          - 
+            content: बीएम्‌डीी
+            count: other
+        type: BMD
+      - 
+        displayName: 
+          - ब्रुनाई डलर
+          - 
+            content: ब्रुनाई डलर
+            count: one
+          - 
+            content: ब्रुनाई डलरहरू
+            count: other
+        type: BND
+      - 
+        displayName: 
+          - बोलिभियन बोलिभियानो
+          - 
+            content: बोलिभियन बोलिभियानो
+            count: one
+          - 
+            content: बोलिभियन बोलिभियानोहरू
+            count: other
+        type: BOB
+      - 
+        displayName: ब्राजिलियन रियल
+        type: BRL
+      - 
+        displayName: 
+          - बहामियाली डलर
+          - 
+            content: बहामियाली डलर
+            count: one
+          - 
+            content: बहामियाली डलरहरू
+            count: other
+        type: BSD
+      - 
+        displayName: 
+          - भुटानी एन्‌गुल्ट्रुम
+          - 
+            content: भुटानी एन्‌गुल्ट्रुम
+            count: one
+          - 
+            content: भुटानी एन्‌गुल्ट्रुमहरू
+            count: other
+        type: BTN
+      - 
+        displayName: 
+          - बोट्सवानान पुला
+          - 
+            content: बोट्सवानान पुला
+            count: one
+          - 
+            content: बोट्सवानान पुलाहरू
+            count: other
+        type: BWP
+      - 
+        displayName: 
+          - बेलारूसी रूबल
+          - 
+            content: बेलारूसी रूबल
+            count: one
+          - 
+            content: बेलारूसी रूबलहरू
+            count: other
+        type: BYR
+      - 
+        displayName: 
+          - वेलिज डलर
+          - 
+            content: वेलिज डलर
+            count: one
+          - 
+            content: वेलिज डलर
+            count: other
+        type: BZD
+      - 
+        displayName: 
+          - क्यानाडियाली डलर
+          - 
+            content: क्यानाडियाली डलर
+            count: one
+          - 
+            content: क्याननाडियाली डलरहरू
+            count: other
+        type: CAD
+      - 
+        displayName: 
+          - कङ्गोली फ्रान्क
+          - 
+            content: कङ्गोली फ्रान्क
+            count: one
+          - 
+            content: कङ्गोली फ्रान्कहरू
+            count: other
+        type: CDF
+      - 
+        displayName: 
+          - चिलियन पेसो
+          - 
+            content: चिलियन पेसो
+            count: one
+          - 
+            content: चिलियन पेसोहरू
+            count: other
+        type: CLP
+      - 
+        displayName: चिनिँया युआन
+        type: CNY
+      - 
+        displayName: 
+          - कोलम्वियन पेसो
+          - 
+            content: कोलम्वियन पेसो
+            count: one
+          - 
+            content: कोलम्वियन पेसोहरू
+            count: other
+        type: COP
+      - 
+        displayName: 
+          - कोष्टारिकन कोलोन
+          - 
+            content: कोष्टारिकन कोलोन
+            count: one
+          - 
+            content: कोष्टारिकन कोलोनहरू
+            count: other
+        type: CRC
+      - 
+        displayName: 
+          - क्यूवाली रूपान्तरणयोग्य पेसो
+          - 
+            content: क्यूवाली रूपान्तरणयोग्य पेसो
+            count: one
+          - 
+            content: क्यूवाली रूपान्तरणयोग्य पेसो
+            count: other
+        type: CUC
+      - 
+        displayName: 
+          - क्यूवाली पेसो
+          - 
+            content: क्यूवाली पेसो
+            count: one
+          - 
+            content: क्यूवाली पेसोहरू
+            count: other
+        type: CUP
+      - 
+        displayName: 
+          - केप भर्डियन एस्कुडो
+          - 
+            content: केप भर्डियन एस्कुडो
+            count: one
+          - 
+            content: केप भर्डियन एस्कुडोहरू
+            count: other
+        type: CVE
+      - 
+        displayName: 
+          - चेख गणतञ्त्र कोरूना
+          - 
+            content: चेख गणतञ्त्र कोरूना
+            count: one
+          - 
+            content: चेख गणतञ्त्र कोरूनाहरू
+            count: other
+        type: CZK
+      - 
+        displayName: 
+          - जिबौंटियाली फ्रान्क
+          - 
+            content: जिबौटियाली फ्रान्क
+            count: one
+          - 
+            content: जिबौटियाली फ्रान्कहरू
+            count: other
+        type: DJF
+      - 
+        displayName: 
+          - ड्यानिश क्रोन
+          - 
+            content: ड्यानिश क्रोन
+            count: one
+          - 
+            content: ड्यानिश क्रोनर
+            count: other
+        type: DKK
+      - 
+        displayName: 
+          - डोमिनिकन पेसो
+          - 
+            content: डोमिनिकन पेसो
+            count: one
+          - 
+            content: डोमिनिकन पेसोहरू
+            count: other
+        type: DOP
+      - 
+        displayName: 
+          - अल्जेरियाली डिनार
+          - 
+            content: अल्जेरियाली डिनार
+            count: one
+          - 
+            content: अल्जेरियाली डिनारहरू
+            count: other
+        type: DZD
+      - 
+        displayName: 
+          - इजिप्सियन पाउन्ड
+          - 
+            content: इजिप्सियन पाउन्ड
+            count: one
+          - 
+            content: इजिप्सियन पाउन्डहरू
+            count: other
+        type: EGP
+      - 
+        displayName: 
+          - एरिट्रियन नाक्फा
+          - 
+            content: एरिट्रियन नाक्फा
+            count: one
+          - 
+            content: एरिट्रियन नाक्फाहरू
+            count: other
+        type: ERN
+      - 
+        displayName: 
+          - इथियोपियाली बिर
+          - 
+            content: इथियोपियाली बिर
+            count: one
+          - 
+            content: इथियोपियाली बिरहरू
+            count: other
+        type: ETB
+      - 
+        displayName: युरो
+        type: EUR
+      - 
+        displayName: 
+          - फिजीयाली डलर
+          - 
+            content: फिजीयाली डलर
+            count: one
+          - 
+            content: फिजीयाली डलरहरू
+            count: other
+        type: FJD
+      - 
+        displayName: 
+          - फक्‌ल्याण्ड टापुहरूका पाउन्ड
+          - 
+            content: फक्‌ल्याण्ड टापुहरूका पाउन्ड
+            count: one
+          - 
+            content: फक्‌ल्याण्ड टापुहरूका पाउन्डहरू
+            count: other
+        type: FKP
+      - 
+        displayName: 
+          content: बेलायती पाउण्ड स्टर्लिङ
+          draft: contributed
+        type: GBP
+      - 
+        displayName: 
+          - जर्जियन लारी
+          - 
+            content: जर्जियाली लारी
+            count: one
+          - 
+            content: जर्जियाली लारीहरू
+            count: other
+        type: GEL
+      - 
+        displayName: 
+          - घानाली सेडी
+          - 
+            content: घानाली सेडी
+            count: one
+          - 
+            content: घानाली सेडीहरू
+            count: other
+        type: GHS
+      - 
+        displayName: 
+          - जिब्राल्टर पाउण्ड
+          - 
+            content: जिब्राल्टर पाउण्ड
+            count: one
+          - 
+            content: जिब्राल्टर पाउण्डहरू
+            count: other
+        type: GIP
+      - 
+        displayName: 
+          - गाम्वियाली डालासी
+          - 
+            content: गाम्वियाली डालासी
+            count: one
+          - 
+            content: गाम्वियाली डालासीहरू
+            count: other
+        type: GMD
+      - 
+        displayName: 
+          - गिनियाली फ्रान्क
+          - 
+            content: गिनियाली फ्रान्क
+            count: one
+          - 
+            content: गिनियाली फ्रान्कहरू
+            count: other
+        type: GNF
+      - 
+        displayName: 
+          - ग्वाटेमाला क्वेट्जाल
+          - 
+            content: ग्वाटेमाला क्वेट्जाल
+            count: one
+          - 
+            content: ग्वाटेमाला क्वेट्जालहरू
+            count: other
+        type: GTQ
+      - 
+        displayName: 
+          - गाइनिज डलर
+          - 
+            content: गाइनिज डलर
+            count: one
+          - 
+            content: गाइनिज डलरहरू
+            count: other
+        type: GYD
+      - 
+        displayName: 
+          - हङकङ डलर
+          - 
+            content: हङकङ डलर
+            count: one
+          - 
+            content: हङकङ डलरहरू
+            count: other
+        type: HKD
+      - 
+        displayName: 
+          - होन्डुरान लेम्पिरा
+          - 
+            content: होन्डुरान लेम्पिरा
+            count: one
+          - 
+            content: होन्डुरान लेम्पिराहरू
+            count: other
+        type: HNL
+      - 
+        displayName: 
+          - क्रोएशियाली कुना
+          - 
+            content: क्रोएशियाली कुना
+            count: one
+          - 
+            content: क्रोएशियाली कुना
+            count: other
+        type: HRK
+      - 
+        displayName: 
+          - हैटियाली गुर्ड
+          - 
+            content: हैटियाली
+            count: one
+          - 
+            content: हैटियाली गुर्डहरु
+            count: other
+        type: HTG
+      - 
+        displayName: 
+          - हङ्गेरियन फोरिन्ट
+          - 
+            content: हङ्गेरियन फोरिन्ट
+            count: one
+          - 
+            content: हङ्घैृीञण पओृीण्ठअृु
+            count: other
+        type: HUF
+      - 
+        displayName: 
+          - इण्डोनेशियाली रूपियाँ
+          - 
+            content: इण्डोनेशियाली रूपियाँ
+            count: one
+          - 
+            content: इण्डोनेशियाली रूपियाँहरू
+            count: other
+        type: IDR
+      - 
+        displayName: 
+          - इजरायली नयाँ शेकेल
+          - 
+            content: इजरायली नयाँ शेकेल
+            count: one
+          - 
+            content: इजरायली नयाँ शेकेलहरु
+            count: other
+        type: ILS
+      - 
+        displayName: 
+          content: भारती रूपिँया
+          draft: contributed
+        type: INR
+      - 
+        displayName: 
+          - इराकी डिनार
+          - 
+            content: इराकी डिनार
+            count: one
+          - 
+            content: इराकी डिनारहरू
+            count: other
+        type: IQD
+      - 
+        displayName: 
+          - इरानियाली रियाल
+          - 
+            content: इरानियाली रियाल
+            count: one
+          - 
+            content: इरानियाली रियालहरू
+            count: other
+        type: IRR
+      - 
+        displayName: 
+          - आइसल्याण्डिक क्रोना
+          - 
+            content: आइसल्याण्डिक क्रोना
+            count: one
+          - 
+            content: आइसल्याण्डिक क्रोनर
+            count: other
+        type: ISK
+      - 
+        displayName: 
+          - जमाइकाली डलर
+          - 
+            content: जमाइकाली डलर
+            count: one
+          - 
+            content: जमाइकाली डलरहरू
+            count: other
+        type: JMD
+      - 
+        displayName: 
+          - जोर्डानियाली डलर
+          - 
+            content: जोर्डानियाली डलर
+            count: one
+          - 
+            content: जोर्डानियाली डलरहरू
+            count: other
+        type: JOD
+      - 
+        displayName: जापानी येन
+        type: JPY
+      - 
+        displayName: 
+          - केन्याली शिलिङ
+          - 
+            content: केन्याली शिलिङ
+            count: one
+          - 
+            content: केन्याली शिलिङहरू
+            count: other
+        type: KES
+      - 
+        displayName: 
+          - किर्गिस्तानी सोम
+          - 
+            content: किर्गिस्तानी सोम
+            count: one
+          - 
+            content: किर्गिस्तानी सोमहरू
+            count: other
+        type: KGS
+      - 
+        displayName: 
+          - कम्बोडिनेयाली रियल
+          - 
+            content: कम्बोडिनेयाली रियल
+            count: one
+          - 
+            content: कम्बोडिनेयाली रियलहरू
+            count: other
+        type: KHR
+      - 
+        displayName: 
+          - कोमोरियन फ्रान्क
+          - 
+            content: कोमोरियन फ्रान्क
+            count: one
+          - 
+            content: कोमोरियन फ्रान्कहरू
+            count: other
+        type: KMF
+      - 
+        displayName: 
+          - उत्तर कोरियाली वन
+          - 
+            content: उत्तर कोरियाली वन
+            count: one
+          - 
+            content: उत्तर कोरियाली वन
+            count: other
+        type: KPW
+      - 
+        displayName: 
+          - दक्षिण कोरियाली वन
+          - 
+            content: दक्षिण कोरियाली वन
+            count: one
+          - 
+            content: दक्षिण कोरियाली वन
+            count: other
+        type: KRW
+      - 
+        displayName: 
+          - कुवेती डिनार
+          - 
+            content: कुवेती डिनार
+            count: one
+          - 
+            content: कुवेती डिनारहरू
+            count: other
+        type: KWD
+      - 
+        displayName: 
+          - केम्यान टापुहरूका डलर
+          - 
+            content: केम्यान टापुहरूका डलर
+            count: one
+          - 
+            content: केम्यान टापुहरूका डलरहरू
+            count: other
+        type: KYD
+      - 
+        displayName: 
+          - काजाखस्तानी टेन्ज
+          - 
+            content: काजाखस्तानी टेन्ज
+            count: one
+          - 
+            content: काजाखस्तानी टेन्जहरू
+            count: other
+        type: KZT
+      - 
+        displayName: 
+          - लाओशियन किप
+          - 
+            content: लाओशियन किप
+            count: one
+          - 
+            content: लाओशियन किपहरू
+            count: other
+        type: LAK
+      - 
+        displayName: 
+          - लेबनाली पाउन्ड
+          - 
+            content: लेबनाली पाउन्ड
+            count: one
+          - 
+            content: लेबनाली पाउन्डहरू
+            count: other
+        type: LBP
+      - 
+        displayName: 
+          - श्रीलङ्काली रूपिया
+          - 
+            content: श्रीलङ्काली रूपिया
+            count: one
+          - 
+            content: श्रीलङ्काली रूपियाहरू
+            count: other
+        type: LKR
+      - 
+        displayName: 
+          - लिबेरियाली डलर
+          - 
+            content: लिबेरियाली डलर
+            count: one
+          - 
+            content: लिबेरियाली डलरहरू
+            count: other
+        type: LRD
+      - 
+        displayName: 
+          - लिथुनियाली लिटास
+          - 
+            content: लिथुनियाली लिटास
+            count: one
+          - 
+            content: लिथुनियाली लिटाई
+            count: other
+        type: LTL
+      - 
+        displayName: 
+          - लाट्भियाली लाट्स
+          - 
+            content: लाट्भियन लाट्स
+            count: one
+          - 
+            content: लाट्भियन लाटी
+            count: other
+        type: LVL
+      - 
+        displayName: 
+          - लिवियाली डिनार
+          - 
+            content: लिवियाली डिनार
+            count: one
+          - 
+            content: लिवियाली डिनार
+            count: other
+        type: LYD
+      - 
+        displayName: 
+          - मोरोक्काली डिर्‌हाम
+          - 
+            content: मोरोक्काली डिर्‌हाम
+            count: one
+          - 
+            content: मोरोक्काली डिर्‌हामहरू
+            count: other
+        type: MAD
+      - 
+        displayName: 
+          - माल्डोभन लेउ
+          - 
+            content: माल्डोभन लेउ
+            count: one
+          - 
+            content: माल्डोभन लेई
+            count: other
+        type: MDL
+      - 
+        displayName: 
+          - मालागासी एरिआरी
+          - 
+            content: मालागासी एरिआरी
+            count: one
+          - 
+            content: मालागासी एरिआरीहरू
+            count: other
+        type: MGA
+      - 
+        displayName: 
+          - म्यासेडोनियाली डेनार
+          - 
+            content: म्यासेडोनियाली डेनार
+            count: one
+          - 
+            content: म्यासेडोनियाली डेनारी
+            count: other
+        type: MKD
+      - 
+        displayName: 
+          - म्यान्मा क्याट
+          - 
+            content: म्यान्मा क्याट
+            count: one
+          - 
+            content: म्यान्मा क्याटहरू
+            count: other
+        type: MMK
+      - 
+        displayName: 
+          - मङ्गोलियाली टुग्रिक
+          - 
+            content: मङ्गोलियाली टुग्रिक
+            count: one
+          - 
+            content: मङ्गोलियाली टुग्रिकहरू
+            count: other
+        type: MNT
+      - 
+        displayName: 
+          - माकानिज पटाका
+          - 
+            content: माकानिज पटाका
+            count: one
+          - 
+            content: माकानिज पटाकाहरू
+            count: other
+        type: MOP
+      - 
+        displayName: 
+          - माउरिटानियानली औगुइया
+          - 
+            content: माउरिटानियाली औगुइया
+            count: one
+          - 
+            content: माउरिटानियाली औगुइयाहरू
+            count: other
+        type: MRO
+      - 
+        displayName: 
+          - माउरिटियन रूपी
+          - 
+            content: माउरिटियन रूपी
+            count: one
+          - 
+            content: माउरिटियन रूपीहरू
+            count: other
+        type: MUR
+      - 
+        displayName: 
+          - मालडिभियाली रूफियाँ
+          - 
+            content: मालडिभियाली रूफियाँ
+            count: one
+          - 
+            content: मालडिभियाली रूफियाँहरू
+            count: other
+        type: MVR
+      - 
+        displayName: 
+          - मलाविअन क्वाचा
+          - 
+            content: मलाविअन क्वाचा
+            count: one
+          - 
+            content: मलाविअन क्वाचाहरू
+            count: other
+        type: MWK
+      - 
+        displayName: 
+          - मेक्सिकन पेसो
+          - 
+            content: मेक्सिकन पेसो
+            count: one
+          - 
+            content: मेक्सिकन पेसोहरू
+            count: other
+        type: MXN
+      - 
+        displayName: 
+          - मलेशियाली रिङ्गेट
+          - 
+            content: मलेशियाली रिङ्गेट
+            count: one
+          - 
+            content: मलेशियाली रिङ्गेटहरू
+            count: other
+        type: MYR
+      - 
+        displayName: 
+          - मोजाम्विकन मेटिकल
+          - 
+            content: मोजाम्विकन मेटिकल
+            count: one
+          - 
+            content: मोजाम्विकन मेटिकलहरू
+            count: other
+        type: MZN
+      - 
+        displayName: 
+          - नामिबियन डलर
+          - 
+            content: नामिबियन डलर
+            count: one
+          - 
+            content: नामिबियन डलरहरु
+            count: other
+        type: NAD
+      - 
+        displayName: 
+          - नाइजेरियन नाइरा
+          - 
+            content: नाइजेरियन नाइरा
+            count: one
+          - 
+            content: नाइजेरियन नाइराहरू
+            count: other
+        type: NGN
+      - 
+        displayName: 
+          - निकारागुवान कोर्डोवा
+          - 
+            content: निकारागुवान कोर्डोवा
+            count: one
+          - 
+            content: निकारागुवान कोर्डोवाहरू
+            count: other
+        type: NIO
+      - 
+        displayName: नर्वेजियाली क्रोन
+        type: NOK
+      - 
+        displayName: 
+          - नेपाली रूपैयाँ
+          - 
+            content: नेपाली रूपैयाँ
+            count: one
+          - 
+            content: नेपाली रूपैयाँहरू
+            count: other
+        symbol: नेरू
+        type: NPR
+      - 
+        displayName: 
+          - न्यूजिल्याण्ड डलर
+          - 
+            content: न्यूजिल्याण्ड डलर
+            count: one
+          - 
+            content: न्यूजिल्याण्ड डलरहरू
+            count: other
+        type: NZD
+      - 
+        displayName: 
+          - ओमनी रियल
+          - 
+            content: ओमनी रियाल
+            count: one
+          - 
+            content: ओमनी रियलहरू
+            count: other
+        type: OMR
+      - 
+        displayName: 
+          - पानामानियाली बाल्बोआ
+          - 
+            content: पानामानियाली बाल्बोआ
+            count: one
+          - 
+            content: पानामानियाली बाल्बोआहरू
+            count: other
+        type: PAB
+      - 
+        displayName: 
+          - पेरूभियाली न्यूभो सोल
+          - 
+            content: पेरूभियाली न्यूभो सोल
+            count: one
+          - 
+            content: पेरूभियाली न्यूभो सोल
+            count: other
+        type: PEN
+      - 
+        displayName: 
+          - पपुआ न्यू गिनियाली किना
+          - 
+            content: पपुआ न्यू गिनियाली किना
+            count: one
+          - 
+            content: पपुआ न्यू गिनियाली किना
+            count: other
+        type: PGK
+      - 
+        displayName: फिलिपिनी पेसो
+        type: PHP
+      - 
+        displayName: 
+          - पाकिस्तानी रूपियाँ
+          - 
+            content: पाकिस्तानी रूपियाँ
+            count: one
+          - 
+            content: पाकिस्तानी रूपियाँहरू
+            count: other
+        type: PKR
+      - 
+        displayName: 
+          - पोलिश ज्लोटाई
+          - 
+            content: पोलिश ज्लोटाई
+            count: one
+          - 
+            content: पोलिश ज्लोटाईहरू
+            count: other
+        type: PLN
+      - 
+        displayName: 
+          - पारागुयाली गुरानी
+          - 
+            content: पारागुयाली गुरानी
+            count: one
+          - 
+            content: पारागुयाली गुरानीस
+            count: other
+        type: PYG
+      - 
+        displayName: 
+          - कतारी रियल
+          - 
+            content: कतारी रियाल
+            count: one
+          - 
+            content: कतारी रियालहरू
+            count: other
+        type: QAR
+      - 
+        displayName: 
+          - 
+            content: रोमानियाली लेऊ
+            count: one
+          - 
+            content: रोमानियाली लेई
+            count: other
+        type: RON
+      - 
+        displayName: 
+          - सर्बियाली डिनार
+          - 
+            content: सर्बियाली डिनार
+            count: one
+          - 
+            content: सर्बियाली डिनारहरू
+            count: other
+        type: RSD
+      - 
+        displayName: 
+          - रूसी रूबल
+          - 
+            content: रूसी रूबल
+            count: one
+          - 
+            content: रूसी रूबलहरू
+            count: other
+        type: RUB
+      - 
+        displayName: 
+          - र्‌वाण्डाली फ्रान्क
+          - 
+            content: र्‌वाण्डाली फ्रान्क
+            count: one
+          - 
+            content: र्‌वाण्डाली फ्रान्क
+            count: other
+        type: RWF
+      - 
+        displayName: 
+          - साउदी रियालहरू
+          - 
+            content: साउदी रियाल
+            count: one
+          - 
+            content: साउदी रियालहरू
+            count: other
+        type: SAR
+      - 
+        displayName: 
+          - सोलोमन टापुहरूका डलर
+          - 
+            content: सोलोमन टापुहरूका डलर
+            count: one
+          - 
+            content: सोलोमन टापुहरूका डलर
+            count: other
+        type: SBD
+      - 
+        displayName: 
+          - सेचेलोइस रूपी
+          - 
+            content: सेचेलोइस रूपी
+            count: one
+          - 
+            content: सेचेलोइस रूपीहरू
+            count: other
+        type: SCR
+      - 
+        displayName: 
+          - सुडानी पाउन्ड
+          - 
+            content: सुडानी पाउन्ड
+            count: one
+          - 
+            content: सुडानी पाउन्डहरू
+            count: other
+        type: SDG
+      - 
+        displayName: 
+          - स्विडिश क्रोना
+          - 
+            content: स्विडिश क्रोना
+            count: one
+          - 
+            content: स्विडिश क्रोना
+            count: other
+        type: SEK
+      - 
+        displayName: 
+          - सिङ्गापुर डलर
+          - 
+            content: सिङ्गापुर डलर
+            count: one
+          - 
+            content: सिङ्गापुर डलरहरू
+            count: other
+        type: SGD
+      - 
+        displayName: 
+          - सेन्ट हेलेना पाउन्ड
+          - 
+            content: सेन्ट हेलेना पाउन्ड
+            count: one
+          - 
+            content: सेन्ट हेलेना पाउन्डहरू
+            count: other
+        type: SHP
+      - 
+        displayName: 
+          - सियरा लियोनेन लियोन
+          - 
+            content: सियरा लियोनेन लियोन
+            count: one
+          - 
+            content: सियारा लियोनेन लियोनहरू
+            count: other
+        type: SLL
+      - 
+        displayName: 
+          - सोमाली शिलिङ
+          - 
+            content: सोमाली शिलिङ
+            count: one
+          - 
+            content: सोमाली शिलिङहरू
+            count: other
+        type: SOS
+      - 
+        displayName: 
+          - सुरिनामिज डलर
+          - 
+            content: सुरिनामिज डलर
+            count: one
+          - 
+            content: सुरिनामिज डलरहरू
+            count: other
+        type: SRD
+      - 
+        displayName: 
+          - दक्षिण सुडानी पाउन्ड
+          - 
+            content: दक्षिण सुडानी पाउन्ड
+            count: one
+          - 
+            content: दक्षिण सुडानी पाउन्डहरू
+            count: other
+        type: SSP
+      - 
+        displayName: 
+          - साओ टोम र प्रिन्सिप डोब्रा
+          - 
+            content: साओ टोम र प्रिन्सिप डोब्रा
+            count: one
+          - 
+            content: साओ टोम र प्रिन्सिप डोब्राहरू
+            count: other
+        type: STD
+      - 
+        displayName: 
+          - सिरियाली पाउन्ड
+          - 
+            content: सिरियाली पाउन्ड
+            count: one
+          - 
+            content: सिरियाली पाउन्डहरू
+            count: other
+        type: SYP
+      - 
+        displayName: 
+          - स्वाजी लिलान्गेनी
+          - 
+            content: स्वाजी लिलान्गेनी
+            count: one
+          - 
+            content: स्वाजी इमालेन्गेनी
+            count: other
+        type: SZL
+      - 
+        displayName: 
+          - थाई भाट
+          - 
+            content: थाई भाट
+            count: one
+          - 
+            content: थाई भाट
+            count: other
+        type: THB
+      - 
+        displayName: 
+          - ताजिक्स्तानी सोमोनी
+          - 
+            content: ताजिक्स्तानी सोमोनी
+            count: one
+          - 
+            content: ताजिक्स्तानी सोमोनीहरू
+            count: other
+        type: TJS
+      - 
+        displayName: 
+          - टुर्क्मेनिस्तानी मानात
+          - 
+            content: टुर्क्मेनिस्तानी मानात
+            count: one
+          - 
+            content: टुर्क्मेनिस्तानी मानात
+            count: other
+        type: TMT
+      - 
+        displayName: 
+          - टुनिसियाली डिनार
+          - 
+            content: टुनिसियाली डिनार
+            count: one
+          - 
+            content: टुनिसियाली डिनारहरू
+            count: other
+        type: TND
+      - 
+        displayName: 
+          - टङ्गन पाङ्गा
+          - 
+            content: टङ्गन पाङ्गा
+            count: one
+          - 
+            content: टङ्गन पाङ्गा
+            count: other
+        type: TOP
+      - 
+        displayName: 
+          - टर्किश लिरा
+          - 
+            content: टर्किश लिरा
+            count: one
+          - 
+            content: टर्किश लिराहरू
+            count: other
+        type: TRY
+      - 
+        displayName: 
+          - त्रिनिडाड र टोबागो डलर
+          - 
+            content: त्रिनिडाड र टोबागो डलर
+            count: one
+          - 
+            content: त्रिनिडाड र टोबागो डलर
+            count: other
+        type: TTD
+      - 
+        displayName: 
+          - नयाँ ताइवान डलर
+          - 
+            content: नयाँ ताइवान डलर
+            count: one
+          - 
+            content: नयाँ ताइवान डलरहरू
+            count: other
+        type: TWD
+      - 
+        displayName: 
+          - ताञ्जानियाली शिलिङ
+          - 
+            content: ताञ्जानियाली शिलिङ
+            count: one
+          - 
+            content: ताञ्जानियाली शिलिङहरू
+            count: other
+        type: TZS
+      - 
+        displayName: 
+          - युक्रेनी हिर्भिनिया
+          - 
+            content: युक्रेनी हिर्भिनिया
+            count: one
+          - 
+            content: युक्रेनी हिर्भिनिया
+            count: other
+        type: UAH
+      - 
+        displayName: 
+          - युगाण्डाली शिलिङ
+          - 
+            content: यगाण्डाली शिलिङ
+            count: one
+          - 
+            content: युगाण्डाली शिलिङहरू
+            count: other
+        type: UGX
+      - 
+        displayName: 
+          content: संयुक्त राज्य डलर
+          draft: contributed
+        type: USD
+      - 
+        displayName: 
+          - युरूगुयाली पेसो
+          - 
+            content: युरूगुयाली पेसो
+            count: one
+          - 
+            content: युरूगुयाली पेसोहरू
+            count: other
+        type: UYU
+      - 
+        displayName: 
+          - उज्बेकिस्तान सोम
+          - 
+            content: युज्बेकिस्तान सोम
+            count: one
+          - 
+            content: युज्बेकिस्तान सोम
+            count: other
+        type: UZS
+      - 
+        displayName: 
+          - भेनेजुएलन बोलिभर
+          - 
+            content: भेनेजुएलन बोलिभर
+            count: one
+          - 
+            content: भेनेजुएलन बोलिभरहरू
+            count: other
+        type: VEF
+      - 
+        displayName: 
+          - भियतनामी डङ्
+          - 
+            content: भियतनामी डङ्
+            count: one
+          - 
+            content: भियतनामी डङ्
+            count: other
+        type: VND
+      - 
+        displayName: 
+          - भानुआतू भातु
+          - 
+            content: भानुआतू भातु
+            count: one
+          - 
+            content: भानुआतू भातुहरू
+            count: other
+        type: VUV
+      - 
+        displayName: 
+          - सामोआन ताला
+          - 
+            content: सामोआन ताला
+            count: one
+          - 
+            content: सामोआन ताला
+            count: other
+        type: WST
+      - 
+        displayName: 
+          - सीएफ्‌ए फ्रान्क बीइएसी
+          - 
+            content: सीएफ्‌ए फ्रान्क बीइएसी
+            count: one
+          - 
+            content: सीएफ्‌ए फ्रान्कहरू बीइएसी
+            count: other
+        type: XAF
+      - 
+        displayName: 
+          - पूर्वी क्यारिबियन डलर
+          - 
+            content: पूर्वी क्यारिबियन डलर
+            count: one
+          - 
+            content: पूर्वी क्यारिबियन डलरहरू
+            count: other
+        type: XCD
+      - 
+        displayName: 
+          - सीएफ्‌ए फ्रान्क बीसीइएओ
+          - 
+            content: सीएफ्‌ए फ्रान्क बीसीइएओ
+            count: one
+          - 
+            content: सीऐफ्‌ए फ्रान्क्स बीसीइएओ
+            count: other
+        type: XOF
+      - 
+        displayName: 
+          - सीएफ्‌पी फ्रान्क
+          - 
+            content: सीएफ्‌पी फ्रान्क
+            count: one
+          - 
+            content: सीएफ्‌पी फ्रान्कहरू
+            count: other
+        type: XPF
+      - 
+        displayName: अपरिचित मुद्रा
+        type: XXX
+      - 
+        displayName: 
+          - येमेनी रियाल
+          - 
+            content: येमेनी रियाल
+            count: one
+          - 
+            content: येमेनी रियालहरू
+            count: other
+        type: YER
+      - 
+        displayName: 
+          - दक्षिण अफ्रिकी र्‍यान्ड
+          - 
+            content: दक्षिण अफ्रिकी र्‍यान्ड
+            count: one
+          - 
+            content: दक्षिण अफ्रिकी र्‍यान्ड
+            count: other
+        type: ZAR
+      - 
+        displayName: 
+          - जाम्बियाली क्वाचा (१९६८-२०१२)
+          - 
+            content: जाम्बियाली क्वाचा (१९६८-२०१२)
+            count: one
+          - 
+            content: जाम्बियाली क्वाचाहरू (१९६८-२०१२)
+            count: other
+        type: ZMK
+      - 
+        displayName: 
+          - जाम्बियाली क्वाचा
+          - 
+            content: जाम्बियाली क्वाचा
+            count: one
+          - 
+            content: जाम्बियाली क्वाचाहरू
+            count: other
+        type: ZMW
+  defaultNumberingSystem: deva
+  otherNumberingSystems: 
+    native: deva
+  symbols: 
+    decimal: 
+      content: .
+      draft: contributed
+    group: 
+      content: ","
+      draft: contributed
+    list: 
+      content: ;
+      draft: contributed
+    minusSign: 
+      content: "-"
+      draft: contributed
+    numberSystem: latn
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} दिन"
+          count: one
+        - 
+          content: "{0} दिन"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} घण्टा"
+          count: one
+        - 
+          content: "{0} घण्टा"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} मिनेट"
+          count: one
+        - 
+          content: "{0} मिनेट"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} महिना"
+          count: one
+        - 
+          content: "{0} महिना"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} सेकेण्ड"
+          count: one
+        - 
+          content: "{0} सेकेण्ड"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} हप्ता"
+          count: one
+        - 
+          content: "{0} हप्ता"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} बर्ष"
+          count: one
+        - 
+          content: "{0} बर्ष"
+          count: other

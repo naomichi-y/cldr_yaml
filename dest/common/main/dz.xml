@@ -1,0 +1,4315 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}་་་་"
+      type: final
+    - 
+      content: ་་་་{0}
+      type: initial
+    - 
+      content: "{0}་་་་་་ {1}"
+      type: medial
+  exemplarCharacters: 
+    - "[ཀ \\u0F90 ཁ \\u0F91 ག \\u0F92 ང \\u0F94 ཅ ཆ ཇ \\u0F97 ཉ \\u0F99 ཏ \\u0F9F ཐ \\u0FA0 ད \\u0FA1 ན \\u0FA3 པ \\u0FA4 ཕ \\u0FA5 བ \\u0FA6 མ \\u0FA8 ཙ \\u0FA9 ཚ \\u0FAA ཛ \\u0FAB ཝ \\u0FAD ཞ ཟ འ ཡ \\u0FB1 ར \\u0FB2 ལ \\u0FB3 ཤ \\u0FB5 ས \\u0FB6 ཧ \\u0FB7 ཨ \\u0F72 \\u0F74 \\u0F7A \\u0F7C]"
+    - 
+      content: "[\\u0F7E ཊ \\u0F9A ཋ \\u0F9B ཌ \\u0F9C ཎ \\u0F9E \\u0FBA \\u0FBB \\u0FBC ཥ \\u0F80 \\u0F7B \\u0F7D \\u0F84]"
+      type: auxiliary
+    - 
+      content: "[ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ]"
+      draft: contributed
+      type: index
+    - 
+      content: "[\\- ‐ – — , ; \\: ༔ ! ? . … ' ‘ ’ \" “ ” ( ) \\[ \\] ༼ ༽ § @ * / \\& # † ‡ ༄ ༅ ༆ ༈ ༉ ༊ ࿐ ࿑ ༌ ། ༎ ༏ ༐ ༑ ༒ ࿒ ࿓ ࿔ ༴ ༶ ྾ ྿]"
+      type: punctuation
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, G སྤྱི་ལོ་y MMMM ཚེས་dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: G སྤྱི་ལོ་y MMMM ཚེས་ dd
+              type: long
+            - 
+              dateFormat: 
+                pattern: G སྤྱི་ལོ་y ཟླ་MMM ཚེས་dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: ཆུ་ཚོད་HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M-d
+              MMM: 
+                content: སྤྱི་LLL
+              MMMEd: 
+                content: E, སྤྱི་LLL ཚེ་d
+              MMMd: 
+                content: སྤྱི་LLL ཚེ་d
+              Md: 
+                content: M-d
+              d: 
+                content: d
+              h: 
+                content: ཆུ་ཚོད་h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, y-M-d
+              yMMM: 
+                content: y སྤྱི་ཟླ་MMM
+              yMMMEd: 
+                content: གཟའ་E, ལོy ཟླ་MMM ཚེ་d
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: སྤྱི་ཟླ་M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་dd–ཟླ་MM ཚེས་dd
+                  d: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་dd–ཟླ་MM ཚེས་dd
+              MMM: 
+                greatestDifference: 
+                  content: སྤྱི་LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་d – E, ཟླ་MM ཚེས་d
+                  d: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་d – E, ཟླ་MM ཚེས་d
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: སྤྱི་ཟླ་MM ཚེས་d–ཟླ་MM ཚེས་d
+                  d: 
+                    content: སྤྱི་ཟླ་MM ཚེས་d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: སྤྱི་ཟླ་MM ཚེས་dd–ཟླ་MM ཚེས་dd
+                  d: 
+                    content: སྤྱི་ཟླ་M ཚེས་dd/dd
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                  "y": 
+                    content: y-MM – y-MM
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: སྤྱི་ཟླ་MMM/MMM, y
+                  "y": 
+                    content: y-MM – y-MM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-སྤྱི་ཟླ་MM – MM
+                  "y": 
+                    content: y-MM – y-MM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-d
+                  d: 
+                    content: y-MM-d – d
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-dd
+                  d: 
+                    content: y-MM-dd – dd
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, སྤྱི་ལོ་y MMMM ཚེས་dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: སྤྱི་ལོ་y MMMM ཚེས་ dd
+              type: long
+            - 
+              dateFormat: 
+                pattern: སྤྱི་ལོ་y ཟླ་MMM ཚེས་dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: ཆུ་ཚོད་HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M-d
+              MMM: 
+                content: སྤྱི་LLL
+              MMMEd: 
+                content: E, སྤྱི་LLL ཚེ་d
+              MMMd: 
+                content: སྤྱི་LLL ཚེ་d
+              Md: 
+                content: M-d
+              d: 
+                content: d
+              h: 
+                content: ཆུ་ཚོད་h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, y-M-d
+              yMMM: 
+                content: y སྤྱི་ཟླ་MMM
+              yMMMEd: 
+                content: གཟའ་E, ལོy ཟླ་MMM ཚེ་d
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: སྤྱི་ཟླ་M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་dd–ཟླ་MM ཚེས་dd
+                  d: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་dd–ཟླ་MM ཚེས་dd
+              MMM: 
+                greatestDifference: 
+                  content: སྤྱི་LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་d – E, ཟླ་MM ཚེས་d
+                  d: 
+                    content: E, སྤྱི་ཟླ་MM ཚེས་d – E, ཟླ་MM ཚེས་d
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: སྤྱི་ཟླ་MM ཚེས་d–ཟླ་MM ཚེས་d
+                  d: 
+                    content: སྤྱི་ཟླ་MM ཚེས་d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: སྤྱི་ཟླ་MM ཚེས་dd–ཟླ་MM ཚེས་dd
+                  d: 
+                    content: སྤྱི་ཟླ་M ཚེས་dd/dd
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM – MM
+                  "y": 
+                    content: y-MM – y-MM
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: སྤྱི་ཟླ་MMM/MMM, y
+                  "y": 
+                    content: y-MM – y-MM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  d: 
+                    content: E, y-MM-dd – E, y-MM-dd
+                  "y": 
+                    content: E, y-MM-dd – E, y-MM-dd
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y-སྤྱི་ཟླ་MM – MM
+                  "y": 
+                    content: y-MM – y-MM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-d
+                  d: 
+                    content: y-MM-d – d
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd – MM-dd
+                  d: 
+                    content: y-MM-dd – dd
+                  "y": 
+                    content: y-MM-dd – y-MM-dd
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: སྔ་ཆ་
+                    type: am
+                  - 
+                    content: ཕྱི་ཆ་
+                    type: pm
+                type: narrow
+              - 
+                dayPeriod: 
+                  - 
+                    content: སྔ་ཆ་
+                    type: am
+                  - 
+                    content: ཕྱི་ཆ་
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ཟླ་
+                      type: sun
+                    - 
+                      content: མིར་
+                      type: mon
+                    - 
+                      content: ལྷག་
+                      type: tue
+                    - 
+                      content: ཕུར་
+                      type: wed
+                    - 
+                      content: སངས་
+                      type: thu
+                    - 
+                      content: སྤེན་
+                      type: fri
+                    - 
+                      content: ཉི་
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ཟླ
+                      type: sun
+                    - 
+                      content: མིར
+                      type: mon
+                    - 
+                      content: ལྷག
+                      type: tue
+                    - 
+                      content: ཕུར
+                      type: wed
+                    - 
+                      content: སངྶ
+                      type: thu
+                    - 
+                      content: སྤེན
+                      type: fri
+                    - 
+                      content: ཉི
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ཟླ་
+                      type: sun
+                    - 
+                      content: མིར་
+                      type: mon
+                    - 
+                      content: ལྷག་
+                      type: tue
+                    - 
+                      content: ཕུར་
+                      type: wed
+                    - 
+                      content: སངས་
+                      type: thu
+                    - 
+                      content: སྤེན་
+                      type: fri
+                    - 
+                      content: ཉི་
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: གཟའ་ཟླ་བ་
+                      type: sun
+                    - 
+                      content: གཟའ་མིག་དམར་
+                      type: mon
+                    - 
+                      content: གཟའ་ལྷག་པ་
+                      type: tue
+                    - 
+                      content: གཟའ་ཕུར་བུ་
+                      type: wed
+                    - 
+                      content: གཟའ་པ་སངས་
+                      type: thu
+                    - 
+                      content: གཟའ་སྤེན་པ་
+                      type: fri
+                    - 
+                      content: གཟའ་ཉི་མ་
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ཟླ་
+                      type: sun
+                    - 
+                      content: མིར་
+                      type: mon
+                    - 
+                      content: ལྷག་
+                      type: tue
+                    - 
+                      content: ཕུར་
+                      type: wed
+                    - 
+                      content: སངས་
+                      type: thu
+                    - 
+                      content: སྤེན་
+                      type: fri
+                    - 
+                      content: ཉི་
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: ཟླ
+                      type: sun
+                    - 
+                      content: མིར
+                      type: mon
+                    - 
+                      content: ལྷག
+                      type: tue
+                    - 
+                      content: ཕུར
+                      type: wed
+                    - 
+                      content: སངྶ
+                      type: thu
+                    - 
+                      content: སྤེན
+                      type: fri
+                    - 
+                      content: ཉི
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ཟླ་
+                      type: sun
+                    - 
+                      content: མིར་
+                      type: mon
+                    - 
+                      content: ལྷག་
+                      type: tue
+                    - 
+                      content: ཕུར་
+                      type: wed
+                    - 
+                      content: སངས་
+                      type: thu
+                    - 
+                      content: སྤེན་
+                      type: fri
+                    - 
+                      content: ཉི་
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: གཟའ་ཟླ་བ་
+                      type: sun
+                    - 
+                      content: གཟའ་མིག་དམར་
+                      type: mon
+                    - 
+                      content: གཟའ་ལྷག་པ་
+                      type: tue
+                    - 
+                      content: གཟའ་ཕུར་བུ་
+                      type: wed
+                    - 
+                      content: གཟའ་པ་སངས་
+                      type: thu
+                    - 
+                      content: གཟའ་སྤེན་པ་
+                      type: fri
+                    - 
+                      content: གཟའ་ཉི་མ་
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: BCE
+                type: 0
+              - 
+                content: CE
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ༡
+                      type: 1
+                    - 
+                      content: ༢
+                      type: 2
+                    - 
+                      content: ༣
+                      type: 3
+                    - 
+                      content: ༤
+                      type: 4
+                    - 
+                      content: ༥
+                      type: 5
+                    - 
+                      content: ༦
+                      type: 6
+                    - 
+                      content: ༧
+                      type: 7
+                    - 
+                      content: ༨
+                      type: 8
+                    - 
+                      content: ༩
+                      type: 9
+                    - 
+                      content: ༡༠
+                      type: 10
+                    - 
+                      content: ༡༡
+                      type: 11
+                    - 
+                      content: 12
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ༡
+                      type: 1
+                    - 
+                      content: ༢
+                      type: 2
+                    - 
+                      content: ༣
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                    - 
+                      content: ༥
+                      type: 5
+                    - 
+                      content: ༦
+                      type: 6
+                    - 
+                      content: ༧
+                      type: 7
+                    - 
+                      content: ༨
+                      type: 8
+                    - 
+                      content: 9
+                      type: 9
+                    - 
+                      content: ༡༠
+                      type: 10
+                    - 
+                      content: ༡༡
+                      type: 11
+                    - 
+                      content: ༡༢
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: ཟླ་དངཔ་
+                      type: 1
+                    - 
+                      content: ཟླ་གཉིས་པ་
+                      type: 2
+                    - 
+                      content: ཟླ་གསུམ་པ་
+                      type: 3
+                    - 
+                      content: ཟླ་བཞི་པ་
+                      type: 4
+                    - 
+                      content: ཟླ་ལྔ་པ་
+                      type: 5
+                    - 
+                      content: ཟླ་དྲུག་པ
+                      type: 6
+                    - 
+                      content: ཟླ་བདུན་པ་
+                      type: 7
+                    - 
+                      content: ཟླ་བརྒྱད་པ་
+                      type: 8
+                    - 
+                      content: ཟླ་དགུ་པ་
+                      type: 9
+                    - 
+                      content: ཟླ་བཅུ་པ་
+                      type: 10
+                    - 
+                      content: ཟླ་བཅུ་གཅིག་པ་
+                      type: 11
+                    - 
+                      content: ཟླ་བཅུ་གཉིས་པ་
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ཟླ་༡
+                      type: 1
+                    - 
+                      content: ཟླ་༢
+                      type: 2
+                    - 
+                      content: ཟླ་༣
+                      type: 3
+                    - 
+                      content: ཟླ་༤
+                      type: 4
+                    - 
+                      content: ཟླ་༥
+                      type: 5
+                    - 
+                      content: ཟླ་༦
+                      type: 6
+                    - 
+                      content: ཟླ་༧
+                      type: 7
+                    - 
+                      content: ཟླ་༨
+                      type: 8
+                    - 
+                      content: ཟླ་༩
+                      type: 9
+                    - 
+                      content: ཟླ་༡༠
+                      type: 10
+                    - 
+                      content: ཟླ་༡༡
+                      type: 11
+                    - 
+                      content: ཟླ་༡༢
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ༡
+                      type: 1
+                    - 
+                      content: ༢
+                      type: 2
+                    - 
+                      content: ༣
+                      type: 3
+                    - 
+                      content: ༤
+                      type: 4
+                    - 
+                      content: ༥
+                      type: 5
+                    - 
+                      content: ༦
+                      type: 6
+                    - 
+                      content: ༧
+                      type: 7
+                    - 
+                      content: ༨
+                      type: 8
+                    - 
+                      content: ༩
+                      type: 9
+                    - 
+                      content: ༡༠
+                      type: 10
+                    - 
+                      content: ༡༡
+                      type: 11
+                    - 
+                      content: ༡༢
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: སྤྱི་ཟླ་དངཔ་
+                      type: 1
+                    - 
+                      content: སྤྱི་ཟླ་གཉིས་པ་
+                      type: 2
+                    - 
+                      content: སྤྱི་ཟླ་གསུམ་པ་
+                      type: 3
+                    - 
+                      content: སྤྱི་ཟླ་བཞི་པ
+                      type: 4
+                    - 
+                      content: སྤྱི་ཟླ་ལྔ་པ་
+                      type: 5
+                    - 
+                      content: སྤྱི་ཟླ་དྲུག་པ
+                      type: 6
+                    - 
+                      content: སྤྱི་ཟླ་བདུན་པ་
+                      type: 7
+                    - 
+                      content: སྤྱི་ཟླ་བརྒྱད་པ་
+                      type: 8
+                    - 
+                      content: སྤྱི་ཟླ་དགུ་པ་
+                      type: 9
+                    - 
+                      content: སྤྱི་ཟླ་བཅུ་པ་
+                      type: 10
+                    - 
+                      content: སྤྱི་ཟླ་བཅུ་གཅིག་པ་
+                      type: 11
+                    - 
+                      content: སྤྱི་ཟླ་བཅུ་གཉིས་པ་
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: བཞི་དཔྱ་༡
+                      type: 1
+                    - 
+                      content: བཞི་དཔྱ་༢
+                      type: 2
+                    - 
+                      content: བཞི་དཔྱ་༣
+                      type: 3
+                    - 
+                      content: བཞི་དཔྱ་༤
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: ༡
+                      type: 1
+                    - 
+                      content: ༢
+                      type: 2
+                    - 
+                      content: ༣
+                      type: 3
+                    - 
+                      content: ༤
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: བཞི་དཔྱ་དང་པ་
+                      type: 1
+                    - 
+                      content: བཞི་དཔྱ་གཉིས་པ་
+                      type: 2
+                    - 
+                      content: བཞི་དཔྱ་གསུམ་པ་
+                      type: 3
+                    - 
+                      content: བཞི་དཔྱ་བཞི་པ་
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: བཞི་དཔྱ་༡
+                      type: 1
+                    - 
+                      content: བཞི་དཔྱ་༢
+                      type: 2
+                    - 
+                      content: བཞི་དཔྱ་༣
+                      type: 3
+                    - 
+                      content: བཞི་དཔྱ་༤
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: ༡
+                      type: 1
+                    - 
+                      content: ༢
+                      type: 2
+                    - 
+                      content: ༣
+                      type: 3
+                    - 
+                      content: ༤
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: བཞི་དཔྱ་དང་པ་
+                      type: 1
+                    - 
+                      content: བཞི་དཔྱ་གཉིས་པ་
+                      type: 2
+                    - 
+                      content: བཞི་དཔྱ་གསུམ་པ་
+                      type: 3
+                    - 
+                      content: བཞི་དཔྱ་བཞི་པ་
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: ཆུ་ཚོད་ h སྐར་མ་ mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: ཆུ་ཚོད་ h སྐར་མ་ mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: ཆུ་ཚོད་h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: ཆུ་ཚོད་ h སྐར་མ་ mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: དུས་བསྐལ
+        type: era
+      - 
+        displayName: ལོ
+        type: year
+      - 
+        displayName: ཟླ་ཝ་
+        type: month
+      - 
+        displayName: བདུན་ཕྲག
+        type: week
+      - 
+        displayName: ཚེས་
+        relative: 
+          - 
+            content: ཁ་ཉིམ
+            type: -2
+          - 
+            content: ཁ་ཙ་
+            type: -1
+          - 
+            content: ད་རིས་
+            type: 0
+          - 
+            content: ནངས་པ་
+            type: 1
+          - 
+            content: གནངས་ཚེ
+            type: 2
+        type: day
+      - 
+        displayName: བདུན་ཕྲག་གི་ཉིམ
+        type: weekday
+      - 
+        displayName: སྔ་ཆ/ཕྱི་ཆ་
+        type: dayperiod
+      - 
+        displayName: ཆུ་ཚོད
+        type: hour
+      - 
+        displayName: སྐར་མ
+        type: minute
+      - 
+        displayName: སྐར་ཆཱ་
+        type: second
+      - 
+        displayName: དུས་ཀུལ
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1}། ({0}་)"
+    fallbackRegionFormat: "{1}་ཆུ་ཚོད། ({0}་)"
+    gmtFormat: ཇི་ཨེམ་ཏི་{0}
+    gmtZeroFormat: ཇི་ཨེམ་ཊི་
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: ཨཕ་ག་ནི་ས྄ཏཱནཆུ་ཚོད
+        type: Afghanistan
+      - 
+        long: 
+          standard: དབུས་ཕྱོགས་ཨཕ་རི་ཀཱ་ཆུ་ཚོད
+        type: Africa_Central
+      - 
+        long: 
+          standard: ཤར་ཕྱོགས་ཨཕ་རི་ཀཱ་ཆུ་ཚོད
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: ལྷོ་ཕྱོགས་ཨཕ་རི་ཀཱ་ཆུ་ཚོད
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: ནུབ་ཕྱོགས་ཨཕ་རི་ཀཱ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ནུབ་ཕྱོགས་ཨཕ་རི་ཀཱ་ཆུ་ཚོད
+          standard: ནུབ་ཕྱོགས་ཨཕ་རི་ཀཱ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Africa_Western
+      - 
+        long: 
+          daylight: ཨ་ལསི་ཀ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཨ་ལསི་ཀ་ཆུ་ཚོད
+          standard: ཨ་ལསི་ཀ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Alaska
+      - 
+        long: 
+          daylight: ཨེ་མ་ཛཱོན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨེ་མ་ཛཱོན་ཆུ་ཚོད
+          standard: ཨེ་མ་ཛཱོན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Amazon
+      - 
+        long: 
+          daylight: བྱང་ཨ་མི་རི་ཀ་དབུས་ཕྱོགས་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: བྱང་ཨ་མི་རི་ཀ་དབུས་ཕྱོགས་ཆུ་ཚོད
+          standard: བྱང་ཨ་མི་རི་ཀ་དབུས་ཕྱོགས་ཚད་ལྡན་ཆུ་ཚོད
+        type: America_Central
+      - 
+        long: 
+          daylight: བྱང་ཨ་མི་རི་ཀ་ཤར་ཕྱོགས་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: བྱང་ཨ་མི་རི་ཀ་ཤར་ཕྱོགས་ཆུ་ཚོད
+          standard: བྱང་ཨ་མི་རི་ཀ་ཤར་ཕྱོགས་ཚད་ལྡན་ཆུ་ཚོད
+        type: America_Eastern
+      - 
+        long: 
+          daylight: བྱང་ཨ་མི་རི་ཀ་མའུ་ཊེན་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: བྱང་ཨ་མི་རི་ཀ་མའུ་ཊེན་ཆུ་ཚོད
+          standard: བྱང་ཨ་མི་རི་ཀ་མའུ་ཊེན་ཚད་ལྡན་ཆུ་ཚོད
+        type: America_Mountain
+      - 
+        long: 
+          daylight: བྱང་ཨ་མི་རི་ཀ་པེ་སི་ཕིག་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: བྱང་ཨ་མི་རི་ཀ་པེ་སི་ཕིག་ཆུ་ཚོད
+          standard: བྱང་ཨ་མི་རི་ཀ་པེ་སི་ཕིག་ཚད་ལྡན་ཆུ་ཚོད
+        type: America_Pacific
+      - 
+        long: 
+          daylight: ཨ་རེ་བྷི་ཡན་སྲུང་ཆུ་ཚོད
+          generic: ཨ་རེ་བྷི་ཡན་ཆུ་ཚོད
+          standard: ཨ་རེ་བྷི་ཡན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Arabian
+      - 
+        long: 
+          daylight: ཨར་ཇེན་ཊི་ན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨར་ཇེན་ཊི་ན་ཆུ་ཚོད
+          standard: ཨར་ཇེན་ཊི་ན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Argentina
+      - 
+        long: 
+          daylight: ནུབ་ཕྱོགས་ཨར་ཇེན་ཊི་ན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ནུབ་ཕྱོགས་ཨར་ཇེན་ཊི་ན་ཆུ་ཚོད
+          standard: ནུབ་ཕྱོགས་ཨར་ཇེན་ཊི་ན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: ཨར་མི་ནི་ཡ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨར་མི་ནི་ཡ་ཆུ་ཚོད
+          standard: ཨར་མི་ནི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Armenia
+      - 
+        long: 
+          daylight: ཨེཊ་ལེན་ཊིཀ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཨེཊ་ལེན་ཊིཀ་ཆུ་ཚོད
+          standard: ཨེཊ་ལེན་ཊིཀ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Atlantic
+      - 
+        long: 
+          daylight: དབུས་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: དབུས་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཆུ་ཚོད
+          standard: དབུས་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Australia_Central
+      - 
+        long: 
+          daylight: དབུས་ནུབ་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: བུས་ནུབ་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཆུ་ཚོད
+          standard: དབུས་ནུབ་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: ཤར་ཕྱོགས་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཤར་ཕྱོགས་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཆུ་ཚོད
+          standard: ཤར་ཕྱོགས་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: ནུབ་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ནུབ་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཆུ་ཚོད
+          standard: ནུབ་ཕྱོགས་ཨཱོས་ཊྲེལ་ལི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Australia_Western
+      - 
+        long: 
+          daylight: ཨ་ཛར་བྷའི་ཇཱན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨ་ཛར་བྷའི་ཇཱན་ཆུ་ཚོད
+          standard: ཨ་ཛར་བྷའི་ཇཱན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: ཨེ་ཛོརས་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨེ་ཛོརས་ཆུ་ཚོད
+          standard: ཨེ་ཛོརས་ཚད་ལྡན་ཆུ་ཚོད
+        type: Azores
+      - 
+        long: 
+          daylight: བངྒ་ལ་དེཤ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: བངྒ་ལ་དེཤ་ཆུ་ཚོད
+          standard: བངྒ་ལ་དེཤ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Bangladesh
+      - 
+        long: 
+          standard: འབྲུག་ཡུལ་ཆུ་ཚོད
+        short: 
+          standard: 
+            content: BT
+            draft: unconfirmed
+        type: Bhutan
+      - 
+        long: 
+          standard: བྷོ་ལི་བི་ཡ་ཆུ་ཚོད
+        type: Bolivia
+      - 
+        long: 
+          daylight: བྲ་ཛི་ལི་ཡ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: བྲ་ཛི་ལི་ཡ་ཆུ་ཚོད
+          standard: བྲ་ཛི་ལི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Brasilia
+      - 
+        long: 
+          daylight: ཀེཔ་བཱཌ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཀེཔ་བཱཌ་ཆུ་ཚོད
+          standard: ཀེཔ་བཱཌ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Cape_Verde
+      - 
+        long: 
+          daylight: ཅི་ལི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཅི་ལི་ཆུ་ཚོད
+          standard: ཅི་ལི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Chile
+      - 
+        long: 
+          daylight: རྒྱ་ནག་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: རྒྱ་ནག་ཆུ་ཚོད
+          standard: རྒྱ་ནག་ཚད་ལྡན་ཆུ་ཚོད
+        type: China
+      - 
+        long: 
+          standard: ཁི་རིསྟ་མེས་མཚོ་གླིང་ཆུ་ཚོད
+        type: Christmas
+      - 
+        long: 
+          daylight: ཀོ་ལོམ་བྷི་ཡ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཀོ་ལོམ་བྷི་ཡ་ཆུ་ཚོད
+          standard: ཀོ་ལོམ་བྷི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Colombia
+      - 
+        long: 
+          daylight: ཀིའུ་བྷ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཀིའུ་བྷ་ཆུ་ཚོད
+          standard: ཀིའུ་བྷ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Cuba
+      - 
+        long: 
+          daylight: ཨིསི་ཊར་ཨཱའི་ལེནཌ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨིསི་ཊར་ཨཱའི་ལེནཌ་ཆུ་ཚོད
+          standard: ཨིསི་ཊར་ཨཱའི་ལེནཌ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Easter
+      - 
+        long: 
+          standard: ཨེ་ཀུ་ཌཽ་ཆུ་ཚོད
+        type: Ecuador
+      - 
+        long: 
+          daylight: དབུས་ཕྱོགས་ཡུ་རོ་པེན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: དབུས་ཕྱོགས་ཡུ་རོ་པེན་ཆུ་ཚོད
+          standard: དབུས་ཕྱོགས་ཡུ་རོ་པེན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Europe_Central
+      - 
+        long: 
+          daylight: ཤར་ཕྱོགས་ཡུ་རོ་པེན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཤར་ཕྱོགས་ཡུ་རོ་པེན་ཆུ་ཚོད
+          standard: ཤར་ཕྱོགས་ཡུ་རོ་པེན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: ནུབ་ཕྱོགས་ཡུ་རོ་པེན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ནུབ་ཕྱོགས་ཡུ་རོ་པེན་ཆུ་ཚོད
+          standard: ནུབ་ཕྱོགས་ཡུ་རོ་པེན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Europe_Western
+      - 
+        long: 
+          daylight: ཕལཀ་ལེནཌ་ཨཱའི་ལེནཌས་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཕལཀ་ལེནཌ་ཨཱའི་ལེནཌས་ཆུ་ཚོད
+          standard: ཕལཀ་ལེནཌ་ཨཱའི་ལེནཌས་ཚད་ལྡན་ཆུ་ཚོད
+        type: Falkland
+      - 
+        long: 
+          standard: ཕིརེནཅ་གི་ཡ་ན་ཆུ་ཚོད
+        type: French_Guiana
+      - 
+        long: 
+          standard: ག་ལ་པ་གོསི་ཆུ་ཚོད
+        type: Galapagos
+      - 
+        long: 
+          daylight: ཇཽ་ཇཱ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཇཽ་ཇཱ་ཆུ་ཚོད
+          standard: ཇཽ་ཇཱ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Georgia
+      - 
+        long: 
+          standard: གིརིན་ཝིཆ་ལུ་ཡོད་པའི་ཆུ་ཚོད
+        type: GMT
+      - 
+        long: 
+          daylight: ཤར་ཕྱོགས་གིརིན་ལེནཌ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཤར་ཕྱོགས་གིརིན་ལེནཌ་ཆུ་ཚོད
+          standard: ཤར་ཕྱོགས་གིརིན་ལེནཌ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: ནུབ་ཕྱོགས་གིརིན་ལེནཌ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ནུབ་ཕྱོགས་གིརིན་ལེནཌ་ཆུ་ཚོད
+          standard: ནུབ་ཕྱོགས་གིརིན་ལེནཌ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Greenland_Western
+      - 
+        long: 
+          standard: གཱལཕི་ཆུ་ཚོད
+        type: Gulf
+      - 
+        long: 
+          standard: གུ་ཡ་ན་ཆུ་ཚོད
+        type: Guyana
+      - 
+        long: 
+          daylight: ཧ་ཝའི་-ཨེ་ལིའུ་ཤེན་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཧ་ཝའི་-ཨེ་ལིའུ་ཤེན་ཆུ་ཚོད
+          standard: ཧ་ཝའི་-ཨེ་ལིའུ་ཤེན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          standard: རྒྱ་གར་ཆུ་ཚོད
+        type: India
+      - 
+        long: 
+          standard: རྒྱ་གར་གྱི་རྒྱ་མཚོ་ཆུ་ཚོད
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: ཨིན་ཌོ་ཅཱའི་ན་ཆུ་ཚོད
+        type: Indochina
+      - 
+        long: 
+          standard: དབུས་ཕྱོགས་ཨིན་ཌོ་ནེ་ཤི་ཡ་ཆུ་ཚོད
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: ཤར་ཕྱོགས་ཨིན་ཌོ་ནེ་ཤི་ཡ་ཆུ་ཚོད
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: ནུབ་ཕྱོགས་ཨིན་ཌོ་ནེ་ཤི་ཡ་ཆུ་ཚོད
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: ཨི་རཱན་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཨི་རཱན་ཆུ་ཚོད
+          standard: ཨི་རཱན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Iran
+      - 
+        long: 
+          daylight: ཨར་ཀུཙི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨར་ཀུཙི་ཆུ་ཚོད
+          standard: ཨར་ཀུཙི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Irkutsk
+      - 
+        long: 
+          daylight: ཨིས་རེལ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཨིས་རེལ་ཆུ་ཚོད
+          standard: ཨིས་རེལ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Israel
+      - 
+        long: 
+          daylight: ཇ་པཱན་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཇ་པཱན་ཆུ་ཚོད
+          standard: ཇ་པཱན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Japan
+      - 
+        long: 
+          daylight: ཀོ་རི་ཡ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ཀོ་རི་ཡ་ཆུ་ཚོད
+          standard: ཀོ་རི་ཡ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Korea
+      - 
+        long: 
+          daylight: ཀརསི་ནོ་ཡརསཀི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཀརསི་ནོ་ཡརསཀི་ཆུ་ཚོད
+          standard: ཀརསི་ནོ་ཡརསཀི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Krasnoyarsk
+      - 
+        long: 
+          daylight: མ་གྷ་དཱན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: མ་གྷ་དཱན་ཆུ་ཚོད
+          standard: མ་གྷ་དཱན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Magadan
+      - 
+        long: 
+          standard: མཱལ་དིབས་ཆུ་ཚོད
+        type: Maldives
+      - 
+        long: 
+          daylight: མོ་རི་ཤཱས་བྱཱར་དུས་ཆུ་ཚོད
+          generic: མོ་རི་ཤཱས་ཆུ་ཚོད
+          standard: མོ་རི་ཤཱས་ཚད་ལྡན་ཆུ་ཚོད
+        type: Mauritius
+      - 
+        long: 
+          daylight: མཽས་ཀོ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: མཽས་ཀོ་ཆུ་ཚོད
+          standard: མཽས་ཀོ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Moscow
+      - 
+        long: 
+          standard: ནེ་པཱལ་ཆུ་ཚོད
+        type: Nepal
+      - 
+        long: 
+          daylight: ནིའུ་ཛི་ལེནཌ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ནིའུ་ཛི་ལེནཌ་ཆུ་ཚོད
+          standard: ནིའུ་ཛི་ལེནཌ་ཚད་ལྡན་ཆུ་ཚོད
+        type: New_Zealand
+      - 
+        long: 
+          daylight: ནིའུ་ཕའུནཌ་ལེནཌ་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: ནིའུ་ཕའུནཌ་ལེནཌ་ཆུ་ཚོད
+          standard: ནིའུ་ཕའུནཌ་ལེནཌ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Newfoundland
+      - 
+        long: 
+          daylight: ཕར་ནེན་ཌོ་ ཌི་ ནོ་རཱོན་ཧ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཕར་ནེན་ཌོ་ ཌི་ ནོ་རཱོན་ཧ་ཆུ་ཚོད
+          standard: ཕར་ནེན་ཌོ་ ཌི་ ནོ་རཱོན་ཧ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Noronha
+      - 
+        long: 
+          daylight: ནོ་བོ་སི་བིརསཀི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ནོ་བོ་སི་བིརསཀི་ཆུ་ཚོད
+          standard: ནོ་བོ་སི་བིརསཀི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: ཨོམསཀི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཨོམསཀི་ཆུ་ཚོད
+          standard: ཨོམསཀི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Omsk
+      - 
+        long: 
+          daylight: པ་ཀི་ས྄ཏཱན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: པ་ཀི་ས྄ཏཱན་ཆུ་ཚོད
+          standard: པ་ཀི་ས྄ཏཱན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Pakistan
+      - 
+        long: 
+          daylight: པ་ར་གུ་ཝའི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: པ་ར་གུ་ཝའི་ཆུ་ཚོད
+          standard: པ་ར་གུ་ཝའི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Paraguay
+      - 
+        long: 
+          daylight: པ་རུ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: པ་རུ་ཆུ་ཚོད
+          standard: པ་རུ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Peru
+      - 
+        long: 
+          daylight: པའི་རི་དང་མི་ཀི་ལཱོན་ཉིན་སྲུང་ཆུ་ཚོད
+          generic: པའི་རི་དང་མི་ཀི་ལཱོན་ཆུ་ཚོད
+          standard: པའི་རི་དང་མི་ཀི་ལཱོན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: རི་ཡུ་ནི་ཡཱན་ཆུ་ཚོད
+        type: Reunion
+      - 
+        long: 
+          daylight: ས་ཁ་ལིན་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ས་ཁ་ལིན་ཆུ་ཚོད
+          standard: ས་ཁ་ལིན་ཚད་ལྡན་ཆུ་ཚོད
+        type: Sakhalin
+      - 
+        long: 
+          standard: སེ་ཤཱལས་ཆུ་ཚོད
+        type: Seychelles
+      - 
+        long: 
+          daylight: ཡུ་རུ་གུ་ཝཱའི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཡུ་རུ་གུ་ཝཱའི་ཆུ་ཚོད
+          standard: ཡུ་རུ་གུ་ཝཱའི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Uruguay
+      - 
+        long: 
+          standard: བེ་ནི་ཛུ་ཝེ་ལ་ཆུ་ཚོད
+        type: Venezuela
+      - 
+        long: 
+          daylight: བ་ལ་ཌི་བོསི་ཏོཀ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: བ་ལ་ཌི་བོསི་ཏོཀ་ཆུ་ཚོད
+          standard: བ་ལ་ཌི་བོསི་ཏོཀ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Vladivostok
+      - 
+        long: 
+          daylight: བཱོལ་གོ་གིརེཌ་བྱཱར་དུས་ཆུ་ཚོད
+          generic: བཱོལ་གོ་གིརེཌ་ཆུ་ཚོད
+          standard: བཱོལ་གོ་གིརེཌ་ཚད་ལྡན་ཆུ་ཚོད
+        type: Volgograd
+      - 
+        long: 
+          daylight: ཡ་ཀུཙིཀི་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཡ་ཀུཙིཀི་ཆུ་ཚོད
+          standard: ཡ་ཀུཙིཀི་ཚད་ལྡན་ཆུ་ཚོད
+        type: Yakutsk
+      - 
+        long: 
+          daylight: ཡེ་ཀ་ཏེ་རིན་བརག་བྱཱར་དུས་ཆུ་ཚོད
+          generic: ཡེ་ཀ་ཏེ་རིན་བརག་ཆུ་ཚོད
+          standard: ཡེ་ཀ་ཏེ་རིན་བརག་ཚད་ལྡན་ཆུ་ཚོད
+        type: Yekaterinburg
+    regionFormat: "{0}་ཆུ་ཚོད།"
+    zone: 
+      - 
+        exemplarCity: མ་ཤེས་པའི་ཁྲོམ་སྡེ
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: ཨཱན་དོ་ར
+          draft: unconfirmed
+        type: Europe/Andorra
+      - 
+        exemplarCity: 
+          content: ཀ་བྷུལ
+          draft: unconfirmed
+        type: Asia/Kabul
+      - 
+        exemplarCity: ཨན་ཊི་གུ་ཝ་
+        type: America/Antigua
+      - 
+        exemplarCity: 
+          content: ཊ་ར་ནི
+          draft: unconfirmed
+        type: Europe/Tirane
+      - 
+        exemplarCity: 
+          content: ལུ་ཝེན་ཌ
+          draft: unconfirmed
+        type: Africa/Luanda
+      - 
+        exemplarCity: 
+          content: རཱོ་ཐེ་ར
+          draft: unconfirmed
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: 
+          content: ཕཱལ་མར
+          draft: unconfirmed
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: 
+          content: སཱའུཐ་པོལ
+          draft: unconfirmed
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: མའུ་སཱོན
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: ཌེ་ཝིས།
+        type: Antarctica/Davis
+      - 
+        exemplarCity: 
+          content: ཝོསི་ཊོཀ
+          draft: unconfirmed
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: 
+          content: བྷུའི་ནོས་ ཨའི་རིས
+          draft: unconfirmed
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: 
+          content: པ་གོ་ པ་གོ
+          draft: unconfirmed
+        type: Pacific/Pago_Pago
+      - 
+        exemplarCity: 
+          content: ཝི་ཡེ་ན
+          draft: unconfirmed
+        type: Europe/Vienna
+      - 
+        exemplarCity: 
+          content: ས་ར་ཡེ་བོ
+          draft: unconfirmed
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: བྷར་བེ་ཌོས
+        type: America/Barbados
+      - 
+        exemplarCity: 
+          content: ཌཱ་ཀ
+          draft: unconfirmed
+        type: Asia/Dhaka
+      - 
+        exemplarCity: 
+          content: བྲ་སེལས
+          draft: unconfirmed
+        type: Europe/Brussels
+      - 
+        exemplarCity: 
+          content: ཝ་གཱ་ཌུ་གུ
+          draft: unconfirmed
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: 
+          content: སོ་ཕི་ཡ
+          draft: unconfirmed
+        type: Europe/Sofia
+      - 
+        exemplarCity: བྷ་རེན་
+        type: Asia/Bahrain
+      - 
+        exemplarCity: 
+          content: བྷུ་ཇུམ་བྷུ་ར
+          draft: unconfirmed
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: བར་མུ་ད
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: 
+          content: བྷྲུ་ནའི
+          draft: unconfirmed
+        type: Asia/Brunei
+      - 
+        exemplarCity: ལ་པཱཛ྄
+        type: America/La_Paz
+      - 
+        exemplarCity: 
+          content: ན་སའོ
+          draft: unconfirmed
+        type: America/Nassau
+      - 
+        exemplarCity: ཐིམ་ཕུག
+        type: Asia/Thimphu
+      - 
+        exemplarCity: 
+          content: གྷ་བྷོ་རོ་ནེ
+          draft: unconfirmed
+        type: Africa/Gaborone
+      - 
+        exemplarCity: 
+          content: མིནསཀ
+          draft: unconfirmed
+        type: Europe/Minsk
+      - 
+        exemplarCity: བྷེ་ལིཛ
+        type: America/Belize
+      - 
+        exemplarCity: དའུ་སཱོན
+        type: America/Dawson
+      - 
+        exemplarCity: ཨི་ནུ་ཝིཀ
+        type: America/Inuvik
+      - 
+        exemplarCity: དའུ་སཱོན་ ཀིརིཀ
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: ཨེཌ་མཱོན་ཊོན
+        type: America/Edmonton
+      - 
+        exemplarCity: སུ་ཨིཕཊ་ཀ་རེནཊ
+        type: America/Swift_Current
+      - 
+        exemplarCity: ཀེམ་བིརིདཆ་ བའེ
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: རི་ཇི་ན
+        type: America/Regina
+      - 
+        exemplarCity: རི་སོ་ལིའུཊ
+        type: America/Resolute
+      - 
+        exemplarCity: རཱེ་ནི་རི་ཝར
+        type: America/Rainy_River
+      - 
+        exemplarCity: རེན་ཀིན་ ཨིན་ལེཊ
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: ཨ་ཏི་ཀོ་ཀཱན
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: ཐན་ཌར་ བའེ
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: ནི་པི་གཱོན
+        type: America/Nipigon
+      - 
+        exemplarCity: ཊོ་རོན་ཊོ
+        type: America/Toronto
+      - 
+        exemplarCity: མཱོནཊ་རི་ཡལ
+        type: America/Montreal
+      - 
+        exemplarCity: པེང་ནིར་ཏུང
+        type: America/Pangnirtung
+      - 
+        exemplarCity: མཱོངཀ་ཊོན
+        type: America/Moncton
+      - 
+        exemplarCity: ཧ་ལི་ཕེགསི
+        type: America/Halifax
+      - 
+        exemplarCity: གཱུསི་ བའེ
+        type: America/Goose_Bay
+      - 
+        exemplarCity: ཨིསི་ཊེཊ་ ཇཱོནསི་
+        type: America/St_Johns
+      - 
+        exemplarCity: 
+          content: ཀོ་ཀོསི
+          draft: unconfirmed
+        type: Indian/Cocos
+      - 
+        exemplarCity: 
+          content: ཀིན་ཤ་ས
+          draft: unconfirmed
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: 
+          content: བྷང་གི
+          draft: unconfirmed
+        type: Africa/Bangui
+      - 
+        exemplarCity: 
+          content: བྷྲ་ཛ་བིལ
+          draft: unconfirmed
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: 
+          content: ཛུ་རིཆ
+          draft: unconfirmed
+        type: Europe/Zurich
+      - 
+        exemplarCity: 
+          content: རཱ་རོ་་ཏོང་ག
+          draft: unconfirmed
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: སཱན་ཊི་ཡ་གྷོ
+        type: America/Santiago
+      - 
+        exemplarCity: བྷོ་ག་ཊ
+        type: America/Bogota
+      - 
+        exemplarCity: ཀོས་ཊ་རི་ཀ
+        type: America/Costa_Rica
+      - 
+        exemplarCity: 
+          content: ཀེཔ་བཱཌ
+          draft: unconfirmed
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: 
+          content: ཀིརིསཊ་མསི
+          draft: unconfirmed
+        type: Indian/Christmas
+      - 
+        exemplarCity: 
+          content: པྲག
+          draft: unconfirmed
+        type: Europe/Prague
+      - 
+        exemplarCity: 
+          content: བྷར་ལིན
+          draft: unconfirmed
+        type: Europe/Berlin
+      - 
+        exemplarCity: 
+          content: ཇི་བྷུ་ཊི
+          draft: unconfirmed
+        type: Africa/Djibouti
+      - 
+        exemplarCity: ཀོ་པེན་ཧེ་གེན
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: ཌོ་མི་ནི་ཀ
+        type: America/Dominica
+      - 
+        exemplarCity: སཱན་ཊོ་ ཌོ་མིང་གྷོ
+        type: America/Santo_Domingo
+      - 
+        exemplarCity: 
+          content: ཨལ་ཇི་ཡས
+          draft: unconfirmed
+        type: Africa/Algiers
+      - 
+        exemplarCity: ཊཱ་ལཱིན
+        type: Europe/Tallinn
+      - 
+        exemplarCity: ཀཱའི་རོ
+        type: Africa/Cairo
+      - 
+        exemplarCity: 
+          content: ཨཱས་མ་ར
+          draft: unconfirmed
+        type: Africa/Asmera
+      - 
+        exemplarCity: 
+          content: མ་ཌེ་རེཌ
+          draft: unconfirmed
+        type: Europe/Madrid
+      - 
+        exemplarCity: 
+          content: ཨ་ཌིས་ ཨ་བྷ་བྷ
+          draft: unconfirmed
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: ཧེལ་སིང་ཀི
+        type: Europe/Helsinki
+      - 
+        exemplarCity: ཕཱའེ་རོ་
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: 
+          content: པེ་རིས
+          draft: unconfirmed
+        type: Europe/Paris
+      - 
+        exemplarCity: 
+          content: ལི་བྷྲ་བིལ
+          draft: unconfirmed
+        type: Africa/Libreville
+      - 
+        exemplarCity: 
+          content: ལཱན་ཌཱན
+          draft: unconfirmed
+        long: 
+          daylight: བྲཱི་ཊིཤ་བྱཱར་དུས་ཆུ་ཚོད
+        type: Europe/London
+      - 
+        exemplarCity: 
+          content: ཨེཀ་ཀྲ
+          draft: unconfirmed
+        type: Africa/Accra
+      - 
+        exemplarCity: 
+          content: བྷཱན་ཇུལ
+          draft: unconfirmed
+        type: Africa/Banjul
+      - 
+        exemplarCity: 
+          content: ཀོ་ནཀ་རི
+          draft: unconfirmed
+        type: Africa/Conakry
+      - 
+        exemplarCity: 
+          content: མ་ལ་བྷོ
+          draft: unconfirmed
+        type: Africa/Malabo
+      - 
+        exemplarCity: ཨེ་ཐེནས་
+        type: Europe/Athens
+      - 
+        exemplarCity: 
+          content: སཱའུཐ་ཇོ་ཇཱ
+          draft: unconfirmed
+        type: Atlantic/South_Georgia
+      - 
+        exemplarCity: གྷོ་ཊ་མ་ལ
+        type: America/Guatemala
+      - 
+        exemplarCity: 
+          content: བྷི་སཱའུ
+          draft: unconfirmed
+        type: Africa/Bissau
+      - 
+        exemplarCity: 
+          content: གྷ་ཡ་ན
+          draft: unconfirmed
+        type: America/Guyana
+      - 
+        exemplarCity: ཊེ་གུ་སི་གཱལ་པ
+        type: America/Tegucigalpa
+      - 
+        exemplarCity: 
+          content: བྷུ་ཌ་པེསཊ
+          draft: unconfirmed
+        type: Europe/Budapest
+      - 
+        exemplarCity: 
+          content: ཇཱ་ཀར་ཊ
+          draft: unconfirmed
+        type: Asia/Jakarta
+      - 
+        exemplarCity: 
+          content: པཱོན་ཊའེ་ནཀ
+          draft: unconfirmed
+        type: Asia/Pontianak
+      - 
+        exemplarCity: 
+          content: ཇ་ཡ་པུ་ར
+          draft: unconfirmed
+        type: Asia/Jayapura
+      - 
+        exemplarCity: 
+          content: ཌབ་ལིན
+          draft: unconfirmed
+        long: 
+          daylight: ཨཱ་ཡརིཤ་བྱཱར་དུས་ཆུ་ཚོད
+        type: Europe/Dublin
+      - 
+        exemplarCity: 
+          content: ཀཱོལ་ཀ་ཊ
+          draft: unconfirmed
+        type: Asia/Calcutta
+      - 
+        exemplarCity: 
+          content: ཊེ་རཱན
+          draft: unconfirmed
+        type: Asia/Tehran
+      - 
+        exemplarCity: 
+          content: རེ་ཁི་ཡ་བིཀ
+          draft: unconfirmed
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: 
+          content: ཇཱ་མའེ་ཀ
+          draft: unconfirmed
+        type: America/Jamaica
+      - 
+        exemplarCity: 
+          content: ནཱའི་རོ་བི
+          draft: unconfirmed
+        type: Africa/Nairobi
+      - 
+        exemplarCity: 
+          content: ཀོ་མོ་རོ
+          draft: unconfirmed
+        type: Indian/Comoro
+      - 
+        exemplarCity: 
+          content: བི་ཡཱན་ཊི་ཡཱན
+          draft: unconfirmed
+        type: Asia/Vientiane
+      - 
+        exemplarCity: 
+          content: བ་དུདས
+          draft: unconfirmed
+        type: Europe/Vaduz
+      - 
+        exemplarCity: 
+          content: ཀོ་ལོམ་བྷོ
+          draft: unconfirmed
+        type: Asia/Colombo
+      - 
+        exemplarCity: 
+          content: མཱན་རོ་བི་ཡ
+          draft: unconfirmed
+        type: Africa/Monrovia
+      - 
+        exemplarCity: 
+          content: མ་ས་རུ
+          draft: unconfirmed
+        type: Africa/Maseru
+      - 
+        exemplarCity: 
+          content: བིལ་ནི་ཡཱས
+          draft: unconfirmed
+        type: Europe/Vilnius
+      - 
+        exemplarCity: 
+          content: ལག་སམ་བྷཀ
+          draft: unconfirmed
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: 
+          content: རི་གྷ
+          draft: unconfirmed
+        type: Europe/Riga
+      - 
+        exemplarCity: ཏྲི་པོ་ལི
+        type: Africa/Tripoli
+      - 
+        exemplarCity: 
+          content: མོ་ན་ཀོ
+          draft: unconfirmed
+        type: Europe/Monaco
+      - 
+        exemplarCity: 
+          content: ཀི་ཤི་ནཱཝ
+          draft: unconfirmed
+        type: Europe/Chisinau
+      - 
+        exemplarCity: 
+          content: ཨཱན་ཏ་ན་ན་དི་བོ
+          draft: unconfirmed
+        type: Indian/Antananarivo
+      - 
+        exemplarCity: 
+          content: མེ་ཇུ་རོ
+          draft: unconfirmed
+        type: Pacific/Majuro
+      - 
+        exemplarCity: 
+          content: བྷ་མ་ཀོ
+          draft: unconfirmed
+        type: Africa/Bamako
+      - 
+        exemplarCity: 
+          content: རང་གྷུན
+          draft: unconfirmed
+        type: Asia/Rangoon
+      - 
+        exemplarCity: 
+          content: སཱའེ་ཕཱན
+          draft: unconfirmed
+        type: Pacific/Saipan
+      - 
+        exemplarCity: 
+          content: ནུ་ཨཀ་ཤའོཊ
+          draft: unconfirmed
+        type: Africa/Nouakchott
+      - 
+        exemplarCity: 
+          content: མོ་རི་ཤཱས
+          draft: unconfirmed
+        type: Indian/Mauritius
+      - 
+        exemplarCity: 
+          content: མཱལ་དིབས
+          draft: unconfirmed
+        type: Indian/Maldives
+      - 
+        exemplarCity: ཏིའུ་ཝ་ན
+        type: America/Tijuana
+      - 
+        exemplarCity: མེཀ་སི་ཀོ་ སི་ཊི
+        type: America/Mexico_City
+      - 
+        exemplarCity: 
+          content: ཀོ་ལ་ ལམ་པུར
+          draft: unconfirmed
+        type: Asia/Kuala_Lumpur
+      - 
+        exemplarCity: 
+          content: མ་པུ་ཏོ
+          draft: unconfirmed
+        type: Africa/Maputo
+      - 
+        exemplarCity: 
+          content: ཝིནཌ་ཧུཀ
+          draft: unconfirmed
+        type: Africa/Windhoek
+      - 
+        exemplarCity: 
+          content: ནི་ཡ་མེ
+          draft: unconfirmed
+        type: Africa/Niamey
+      - 
+        exemplarCity: 
+          content: ཨམས་ཊར་ཌམ
+          draft: unconfirmed
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: 
+          content: ཨོས་ལོ
+          draft: unconfirmed
+        type: Europe/Oslo
+      - 
+        exemplarCity: 
+          content: ཀཱཊ་མཱན་ཌུ
+          draft: unconfirmed
+        type: Asia/Katmandu
+      - 
+        exemplarCity: 
+          content: ནཱཝ་རུ
+          draft: unconfirmed
+        type: Pacific/Nauru
+      - 
+        exemplarCity: པ་ན་མ
+        type: America/Panama
+      - 
+        exemplarCity: 
+          content: ལི་མ
+          draft: unconfirmed
+        type: America/Lima
+      - 
+        exemplarCity: 
+          content: གེམ་བིཡར
+          draft: unconfirmed
+        type: Pacific/Gambier
+      - 
+        exemplarCity: 
+          content: ཀ་ར་ཅི
+          draft: unconfirmed
+        type: Asia/Karachi
+      - 
+        exemplarCity: 
+          content: ཝར་སོ
+          draft: unconfirmed
+        type: Europe/Warsaw
+      - 
+        exemplarCity: 
+          content: པ་ལཱཝ
+          draft: unconfirmed
+        type: Pacific/Palau
+      - 
+        exemplarCity: 
+          content: ཨ་སུན་སི་འོན
+          draft: unconfirmed
+        type: America/Asuncion
+      - 
+        exemplarCity: 
+          content: བྷུ་ཀ་རེསཊ
+          draft: unconfirmed
+        type: Europe/Bucharest
+      - 
+        exemplarCity: 
+          content: མཱོས་ཀོ
+          draft: unconfirmed
+        type: Europe/Moscow
+      - 
+        exemplarCity: 
+          content: ཀི་གྷ་ལི
+          draft: unconfirmed
+        type: Africa/Kigali
+      - 
+        exemplarCity: ཁཱར་ཊུམ
+        type: Africa/Khartoum
+      - 
+        exemplarCity: 
+          content: ཨིས་ཊོཀ་ཧོལམ
+          draft: unconfirmed
+        type: Europe/Stockholm
+      - 
+        exemplarCity: ཌཱ་ཀར
+        type: Africa/Dakar
+      - 
+        exemplarCity: 
+          content: མོ་གཱ་ཌི་ཤུ
+          draft: unconfirmed
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: 
+          content: པ་ར་མ་རི་བྷོ
+          draft: unconfirmed
+        type: America/Paramaribo
+      - 
+        exemplarCity: 
+          content: སཝ་ ཊོ་མེ
+          draft: unconfirmed
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: ཨེལ་ སཱལ་བ་ཌོ
+        type: America/El_Salvador
+      - 
+        exemplarCity: 
+          content: འུམ་བྷ་བྷ་ནི
+          draft: unconfirmed
+        type: Africa/Mbabane
+      - 
+        exemplarCity: 
+          content: ཀིར་གུ་ལིན
+          draft: unconfirmed
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: ལོ་མེ
+        type: Africa/Lome
+      - 
+        exemplarCity: 
+          content: ཕ་ཀའོ་ཕོ
+          draft: unconfirmed
+        type: Pacific/Fakaofo
+      - 
+        exemplarCity: ཊུ་ནིས྄
+        type: Africa/Tunis
+      - 
+        exemplarCity: 
+          content: ཏོང་ག་ཏ་པུ
+          draft: unconfirmed
+        type: Pacific/Tongatapu
+      - 
+        exemplarCity: 
+          content: ཕུ་ན་ཕུ་ཊི
+          draft: unconfirmed
+        type: Pacific/Funafuti
+      - 
+        exemplarCity: 
+          content: ཀེམ་པ་ལ
+          draft: unconfirmed
+        type: Africa/Kampala
+      - 
+        exemplarCity: 
+          content: མིཌ་ཝེ
+          draft: unconfirmed
+        type: Pacific/Midway
+      - 
+        exemplarCity: 
+          content: ཇཱོནསི་ཊོན
+          draft: unconfirmed
+        type: Pacific/Johnston
+      - 
+        exemplarCity: 
+          content: ཝེཀ
+          draft: unconfirmed
+        type: Pacific/Wake
+      - 
+        exemplarCity: ཡ་ཀུ་ཏཏ
+        type: America/Yakutat
+      - 
+        exemplarCity: ཅི་ཀཱ་གོ
+        type: America/Chicago
+      - 
+        exemplarCity: 
+          content: མོན་ཊེ་བྷི་ཌིའོ
+          draft: unconfirmed
+        type: America/Montevideo
+      - 
+        exemplarCity: 
+          content: ཀ་ར་ཀཱས
+          draft: unconfirmed
+        type: America/Caracas
+      - 
+        exemplarCity: ཨ་པི་ཡ
+        type: Pacific/Apia
+      - 
+        exemplarCity: 
+          content: ལུ་སཱ་ཀ
+          draft: unconfirmed
+        type: Africa/Lusaka
+      - 
+        exemplarCity: 
+          content: ཧ་རཱ་རེ
+          draft: unconfirmed
+        type: Africa/Harare
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: dz
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} དང་ {1}"
+        type: 2
+      - 
+        content: "{0} དང་ {1}"
+        type: end
+      - 
+        content: "{0} དང་ {1}"
+        type: middle
+      - 
+        content: "{0} དང་ {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "ཁ་སྐད་: {0}"
+        type: language
+      - 
+        content: "ཡིག་གཟུགས་: {0}"
+        type: script
+      - 
+        content: "{0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: ཟླ་ཐོ
+        type: calendar
+      - 
+        content: གནས་སདུད་རིམ་ སགྲིག
+        type: collation
+      - 
+        content: ཤོག་དངུལ
+        type: currency
+      - 
+        content: ཨང་ཡིག
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: ཨ་ཕར་ཁ
+        type: aa
+      - 
+        content: ཨཱབ་ཁ་ཟི་ཡ་ཁ
+        type: ab
+      - 
+        content: ཨཕ་རི་ཀཱནས་ཁ
+        type: af
+      - 
+        content: ཨམ་ཧ་རིཀ་ཁ
+        type: am
+      - 
+        content: ཨེ་ར་བིཀ་ཁ
+        type: ar
+      - 
+        content: བཟོ་བཟོཝ (གཞན)
+        draft: unconfirmed
+        type: art
+      - 
+        content: ཨ་ས་མིས་ཁ
+        type: as
+      - 
+        content: ཨ་ཛར་བྷའི་ཇཱན་ཁ
+        type: az
+      - 
+        content: བེལ་ཨ་རུས་ཁ
+        type: be
+      - 
+        content: བཱལ་གེ་རི་ཡཱན་ཁ
+        type: bg
+      - 
+        content: བི་ཧ་ལི
+        draft: unconfirmed
+        type: bh
+      - 
+        content: བངྒ་ལ་ཁ
+        type: bn
+      - 
+        content: བོད་ཁ
+        type: bo
+      - 
+        content: བྷོས་ནི་ཡཱན་ཁ
+        type: bs
+      - 
+        content: ཀེ་ཊ་ལཱན་ཁ
+        type: ca
+      - 
+        content: ཅེཀ་ཁ
+        type: cs
+      - 
+        content: ཝེལཤ་ཁ
+        type: cy
+      - 
+        content: ཌེ་ནིཤ་ཁ
+        type: da
+      - 
+        content: ད་ཀོ་ཏ་ཁ
+        type: dak
+      - 
+        content: ཇཱར་མཱན་ཁ
+        type: de
+      - 
+        content: ཨཱོས་ཊྲི་ཡཱན་ཇཱར་མཱན་ཁ
+        type: de_AT
+      - 
+        content: སུ་ཡིས་གི་མཐོ་སའི་ཇཱར་མཱན་ཁ
+        type: de_CH
+      - 
+        content: དི་བེ་ཧི་ཁ
+        type: dv
+      - 
+        content: རྫོང་ཁ
+        type: dz
+      - 
+        content: ཨི་ཇིཔ་ཤཱན (སྔ་དུས་ཀྱི)
+        draft: unconfirmed
+        type: egy
+      - 
+        content: གྲིཀ་ཁ
+        type: el
+      - 
+        content: ཨིང་ལིཤ་ཁ
+        type: en
+      - 
+        content: ཨཱོས་ཊྲེ་ལི་ཡཱན་ཨིང་ལིཤ་ཁ
+        type: en_AU
+      - 
+        content: ཀེ་ན་ཌི་ཡཱན་ཨིང་ལིཤ་ཁ
+        type: en_CA
+      - 
+        content: བྲི་ཊིཤ་ཨིང་ལིཤ་ཁ
+        type: en_GB
+      - 
+        content: ཡུ་ཨེས་ཨིང་ལིཤ་ཁ
+        type: en_US
+      - 
+        content: ཨེས་པ་རཱན་ཏོ་ཁ
+        type: eo
+      - 
+        content: ཨིས་པེ་ནིཤ་ཁ
+        type: es
+      - 
+        content: ལེ་ཊིན་ཨ་མེ་རི་ཀཱན་གི་ཨིས་པེ་ནིཤ་ཁ
+        type: es_419
+      - 
+        content: ཡུ་རོབ་ཀྱི་ཨིས་པེ་ནིཤ་ཁ
+        type: es_ES
+      - 
+        content: ཨེས་ཊོ་ནི་ཡཱན་ཁ
+        type: et
+      - 
+        content: བཱསཀ་ཁ
+        type: eu
+      - 
+        content: པར་ཤི་ཡཱན་ཁ
+        type: fa
+      - 
+        content: ཕི་ནིཤ་ཁ
+        type: fi
+      - 
+        content: ཕི་ལི་པི་ནོ་ཁ
+        type: fil
+      - 
+        content: ཕི་ཇི་ཡཱན་ཁ
+        type: fj
+      - 
+        content: ཕཱ་རོ་ཨིས་ཁ
+        type: fo
+      - 
+        content: ཕྲནཅ་ཁ
+        type: fr
+      - 
+        content: ཀེ་ན་ཌི་ཡཱན་ཕྲནཅ་ཁ
+        type: fr_CA
+      - 
+        content: སུ་ཡིས་ཕྲནཅ་ཁ
+        type: fr_CH
+      - 
+        content: ནུབ་ཕྼི་སི་ཡན་ཁ
+        type: fy
+      - 
+        content: ཨཱའི་རིཤ་ཁ
+        type: ga
+      - 
+        content: གལ་ཨིས་ཨི་ཡན་ཁ
+        type: gl
+      - 
+        content: གུ་ཝ་ར་ནི་ཁ
+        type: gn
+      - 
+        content: གིརིཀ, སྔ་དུས་ཀྱི (༡༤༥༣)
+        draft: unconfirmed
+        type: grc
+      - 
+        content: སུ་ཡིས་ཇཱར་མཱན་ཁ
+        type: gsw
+      - 
+        content: གུ་ཇ་ར་ཏི་ཁ
+        type: gu
+      - 
+        content: ཧཝ་ས་ཁ
+        type: ha
+      - 
+        content: ཧ་ཝ་ཡིའི་ཁ
+        type: haw
+      - 
+        content: ཧེ་བྲུ་ཁ
+        type: he
+      - 
+        content: ཧིན་དི་ཁ
+        type: hi
+      - 
+        content: ཧི་མ་ཅ་ལི་ཁ
+        type: him
+      - 
+        content: ཀྲོ་ཨེ་ཤི་ཡཱན་ཁ
+        type: hr
+      - 
+        content: ཧེ་ཏི་ཡཱན་ཁ
+        type: ht
+      - 
+        content: ཧཱང་གྷ་རི་ཡཱན་ཁ
+        type: hu
+      - 
+        content: ཨར་མི་ནི་ཡཱན་ཁ
+        type: hy
+      - 
+        content: ཨིན་ཌོ་ནེ་ཤི་ཡཱན་ཁ
+        type: id
+      - 
+        content: ཨིག་བོ་ཁ
+        type: ig
+      - 
+        content: ཨིན་ཌིཀ་ཁ་སྐད
+        type: inc
+      - 
+        content: ཨ་ཡིས་ལེན་ཌིཀ་ཁ
+        type: is
+      - 
+        content: ཨི་ཊ་ལི་ཡཱན་ཁ
+        type: it
+      - 
+        content: ཇཱ་པཱ་ནིས་ཁ
+        type: ja
+      - 
+        content: ཇཱ་བ་ནིས་ཁ
+        type: jv
+      - 
+        content: ཇཽ་ཇི་ཡཱན་ཁ
+        type: ka
+      - 
+        content: ཀ་ཆིན་ཁ
+        type: kac
+      - 
+        content: ཀོ་རོ་ཁ
+        type: kfo
+      - 
+        content: ཀ་ཛགས་ཁ
+        type: kk
+      - 
+        content: ཁེ་མེར་ཁ
+        type: km
+      - 
+        content: ཀ་ན་ཌ་ཁ
+        type: kn
+      - 
+        content: ཀོ་རི་ཡཱན་ཁ
+        type: ko
+      - 
+        content: ཀཱཤ་མི་རི་ཁ
+        type: ks
+      - 
+        content: ཀར་ཌིཤ་ཁ
+        type: ku
+      - 
+        content: ཀིར་གིས་ཁ
+        type: ky
+      - 
+        content: ལེ་ཊིན་ཁ
+        type: la
+      - 
+        content: ལག་ཛམ་བོརྒ་ཁ
+        type: lb
+      - 
+        content: ལཱ་ཝོས་ཁ
+        type: lo
+      - 
+        content: ལི་ཐུ་ཝེ་ནི་ཡཱན་ཁ
+        type: lt
+      - 
+        content: ལཊ་བི་ཡཱན་ཁ
+        type: lv
+      - 
+        content: མ་ལ་ག་སི་ཁ
+        type: mg
+      - 
+        content: མ་ཨོ་རི་ཁ
+        type: mi
+      - 
+        content: མ་སེ་ཌོ་ནི་ཡཱན་ཁ
+        type: mk
+      - 
+        content: མ་ལ་ཡ་ལམ་ཁ
+        type: ml
+      - 
+        content: སོག་པོའི་ཁ
+        draft: unconfirmed
+        type: mn
+      - 
+        content: མན་ཇུ་ཁ
+        type: mnc
+      - 
+        content: མ་ནི་པུ་རི
+        draft: unconfirmed
+        type: mni
+      - 
+        content: མ་ར་ཐི་ཁ
+        type: mr
+      - 
+        content: མ་ལེ་ཁ
+        type: ms
+      - 
+        content: མཱལ་ཊ་ཁ
+        type: mt
+      - 
+        content: བར་མིས་ཁ
+        type: my
+      - 
+        content: ནོར་ཝེ་ཇི་ཡཱན་བོཀ་མཱལ་ཁ
+        type: nb
+      - 
+        content: ནེ་པཱལི་ཁ
+        type: ne
+      - 
+        content: ནི་ཝ་རི
+        draft: unconfirmed
+        type: new
+      - 
+        content: ཌཆ་ཁ
+        type: nl
+      - 
+        content: ཕྷེལེ་མིཤ་ཁ
+        type: nl_BE
+      - 
+        content: ནོར་ཝེ་ཇི་ཡཱན་ནོརསཀ་ཁ
+        type: nn
+      - 
+        content: ནོར་ཝི་ཇི་ཡན་ཁ
+        type: 'no'
+      - 
+        content: ཨོ་རི་ཡ་ཁ
+        type: or
+      - 
+        content: པཱན་ཇ་བི་ཁ
+        type: pa
+      - 
+        content: པ་ལི
+        draft: unconfirmed
+        type: pi
+      - 
+        content: པོ་ལིཤ་ཁ
+        type: pl
+      - 
+        content: པཱཤ་ཏོ་ཁ
+        type: ps
+      - 
+        content: པོར་ཅུ་གིས་ཁ
+        type: pt
+      - 
+        content: བྲ་ཛི་ལི་ཡཱན་པོར་ཅུ་གིས་ཁ
+        type: pt_BR
+      - 
+        content: ཨི་བེ་རི་ཡཱན་པོར་ཅུ་གིས་ཁ
+        type: pt_PT
+      - 
+        content: ཀྭེ་ཆུ་ཨ་ཁ
+        type: qu
+      - 
+        content: རོ་མེ་ནིཤ་ཁ
+        type: rm
+      - 
+        content: རོ་མེ་ནི་ཡཱན་ཁ
+        type: ro
+      - 
+        content: ཨུ་རུ་སུའི་ཁ
+        type: ru
+      - 
+        content: སཾསྐྲྀཏ་ཁ
+        type: sa
+      - 
+        content: སིན་དཱི་ཁ
+        type: sd
+      - 
+        content: ཤཱན་ཁ
+        type: shn
+      - 
+        content: སིང་ཧ་ལ་ཁ
+        type: si
+      - 
+        content: སུ་ལོ་བཱཀ་ཁ
+        type: sk
+      - 
+        content: སུ་ལོ་བི་ནི་ཡཱན་ཁ
+        type: sl
+      - 
+        content: སོ་མ་ལི་ཁ
+        type: so
+      - 
+        content: ཨཱལ་བེ་ནི་ཡཱན་ཁ
+        type: sq
+      - 
+        content: སཱར་བྷི་ཡཱན་ཁ
+        type: sr
+      - 
+        content: སཱུན་ད་ནིས་ཁ
+        type: su
+      - 
+        content: སུའི་ཌིཤ་ཁ
+        type: sv
+      - 
+        content: སྭཱ་ཧི་ལི་ཁ
+        type: sw
+      - 
+        content: ཏ་མིལ་ཁ
+        type: ta
+      - 
+        content: ཏེ་ལུ་གུ་ཁ
+        type: te
+      - 
+        content: ཏ་ཇིཀ་ཁ
+        type: tg
+      - 
+        content: ཐཱའི་ཁ
+        type: th
+      - 
+        content: ཏིག་རི་ཉ་ཁ
+        type: ti
+      - 
+        content: ཊཱརཀ་མེན་ཁ
+        type: tk
+      - 
+        content: ཊོང་གྷན་ཁ
+        type: to
+      - 
+        content: ཊཱར་ཀིཤ་ཁ
+        type: tr
+      - 
+        content: ཊ་ཊར་ཁ
+        type: tt
+      - 
+        content: ཝི་གུར་ཁ
+        type: ug
+      - 
+        content: ཡུ་ཀེ་རེ་ནི་ཡཱན་ཁ
+        type: uk
+      - 
+        content: ཁ་ངོ་མ་ཤེསཔ
+        type: und
+      - 
+        content: ཨུར་དུ་ཁ
+        type: ur
+      - 
+        content: ཨུས་བེཀ་ཁ
+        type: uz
+      - 
+        content: བེཊ་ནཱ་མིས་ཁ
+        type: vi
+      - 
+        content: ཝོ་ལོཕ་ཁ
+        type: wo
+      - 
+        content: ཞོ་ས་ཁ
+        type: xh
+      - 
+        content: ཡོ་རུ་བ་ཁ
+        type: yo
+      - 
+        content: རྒྱ་མི་ཁ
+        type: zh
+      - 
+        content: རྒྱ་མི་ཁ་འཇམ་སངམ
+        type: zh_Hans
+      - 
+        content: སྔ་དུས་ཀྱི་རྒྱ་མི་ཁ
+        type: zh_Hant
+      - 
+        content: ཟུ་ལུ་ཁ
+        type: zu
+      - 
+        content: སྐད་རིག་ནང་དོན་མེདཔ
+        type: zxx
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}།: {1}"
+    localePattern: "{0}། ({1}།)"
+    localeSeparator: "་, "
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: མེ་ཊྲིཀ་བརྩི་ལུགས
+        type: metric
+      - 
+        content: བྲི་ཊིཤ་ བརྩི་ལུགས
+        type: UK
+      - 
+        content: ཨ་མི་རི་ཀཱན་ བརྩི་ལུགས
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: ཨེ་ར་བིཀ་ཡིག་གུ
+        type: Arab
+      - 
+        content: ཨར་མི་ནི་ཡཱན་ཡིག་གུ
+        type: Armn
+      - 
+        content: བངྒ་ལ་ཡིག་གུ
+        type: Beng
+      - 
+        content: བོ་པོ་མོ་ཕཱོ་ཡིག་གུ
+        type: Bopo
+      - 
+        content: འབུར་ཡིག
+        type: Brai
+      - 
+        content: སིརིལ་ལིཀ་ཡིག་གུ
+        type: Cyrl
+      - 
+        content: དེ་ཝ་ན་ག་རི་ཡིག་གུ
+        type: Deva
+      - 
+        content: ཨི་ཐི་ཡོ་པིཀ྄་ཡིག་གུ
+        type: Ethi
+      - 
+        content: ཇཽ་ཇི་ཡཱན་ཡིག་གུ
+        type: Geor
+      - 
+        content: གྲིཀ་ཡིག་གུ
+        type: Grek
+      - 
+        content: གུ་ཇ་ར་ཏི་ཡིག་གུ
+        type: Gujr
+      - 
+        content: གུ་རུ་མུ་ཁ་ཡིག་གུ
+        type: Guru
+      - 
+        content: ཧཱན་གུལ་ཡིག་གུ
+        type: Hang
+      - 
+        content: རྒྱ་ནག་ཡིག་གུ
+        type: Hani
+      - 
+        content: རྒྱ་ཡིག་ ལུགས་གསར་
+        type: Hans
+      - 
+        content: ལུགས་རྙིང་ རྒྱ་ཡིག
+        type: Hant
+      - 
+        content: ཧེ་བྲུ་ཡིག་གུ
+        type: Hebr
+      - 
+        content: ཇ་པཱན་གྱི་ཧི་ར་ག་ན་ཡིག་གུ
+        type: Hira
+      - 
+        content: ཇ་པཱན་ཡིག་གུ
+        type: Jpan
+      - 
+        content: ཇ་པཱན་གྱི་ཀ་ཏ་ཀ་ན་ཡིག་གུ
+        type: Kana
+      - 
+        content: ཁེ་མེར་ཡིག་གུ
+        type: Khmr
+      - 
+        content: ཀ་ན་ཌ་ཡིག་གུ
+        type: Knda
+      - 
+        content: ཀོ་རི་ཡཱན་ཡིག་གུ
+        type: Kore
+      - 
+        content: ལའོ་ཡིག་གུ
+        type: Laoo
+      - 
+        content: ལེ་ཊིན་ཡིག་གུ
+        type: Latn
+      - 
+        content: ལིམ་བུ
+        draft: unconfirmed
+        type: Limb
+      - 
+        content: མ་ལ་ཡ་ལམ་ཡིག་གུ
+        type: Mlym
+      - 
+        content: སོག་པོའི་ཡིག་གུ
+        type: Mong
+      - 
+        content: བར་མིས་ཡིག་གུ
+        type: Mymr
+      - 
+        content: ཨོ་རི་ཡ་ཡིག་གུ
+        type: Orya
+      - 
+        content: སིན་ཧ་ལ་རིག་གུ
+        type: Sinh
+      - 
+        content: ཏ་མིལ་ཡིག་གུ
+        type: Taml
+      - 
+        content: ཏེ་ལུ་གུ་ཡིག་གུ
+        type: Telu
+      - 
+        content: ཐཱ་ན་ཡིག་གུ
+        type: Thaa
+      - 
+        content: ཐཱའི་ཡིག་གུ
+        type: Thai
+      - 
+        content: ང་བཅས་ཀྱི་ཡིག་གུ
+        type: Tibt
+      - 
+        content: སྔར་རྒྱུན
+        draft: unconfirmed
+        type: Zinh
+      - 
+        content: མཚན་རྟགས
+        type: Zsym
+      - 
+        content: ཡིག་ཐོག་མ་བཀོདཔ
+        type: Zxxx
+      - 
+        content: སྤྱིཡིག
+        type: Zyyy
+      - 
+        content: ངོ་མ་ཤེས་པའི་ཡི་གུ
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: འཛམ་གླིང༌
+        type: '001'
+      - 
+        content: ཨཕ་རི་ཀ
+        type: '002'
+      - 
+        content: བྱང་ཨ་མི་རི་ཀ
+        type: '003'
+      - 
+        content: ལྷོ་ཨ་མི་རི་ཀ
+        type: '005'
+      - 
+        content: ཨོཤི་ཡཱན་ན
+        type: '009'
+      - 
+        content: ནུབ་ཕྱོགས་ཀྱི་ཨཕ་རི་ཀ
+        type: '011'
+      - 
+        content: བར་ཕྱོགས་ཨ་མི་རི་ཀ
+        type: '013'
+      - 
+        content: ཤར་ཕྱོགས་ཀྱི་ཨཕ་རི་ཀ
+        type: '014'
+      - 
+        content: བྱང་ཕྱོགས་ཀྱི་ཨཕ་རི་ཀ
+        type: '015'
+      - 
+        content: སྦུག་ཕྱོགས་ཀྱི་ཨཕ་རི་ཀ
+        type: '017'
+      - 
+        content: ལྷོའི་ཨཕ་རི་ཀ
+        type: '018'
+      - 
+        content: ཨ་མི་རི་ཀ་ཚུ
+        type: '019'
+      - 
+        content: བྱང་ཕྱོགས་ཀྱི་ཨ་མི་རི་ཀ
+        type: '021'
+      - 
+        content: ཀེ་རི་བི་ཡེན
+        type: '029'
+      - 
+        content: ཤར་ཕྱོགས་ཀྱི་ཨེ་ཤི་ཡ
+        type: '030'
+      - 
+        content: ལྷོའི་ཨེ་ཤི་ཡ
+        type: '034'
+      - 
+        content: ལྷོ་ཤར་ཕྱོགས་ཀྱི་ཨེ་ཤི་ཡ
+        type: '035'
+      - 
+        content: ལྷོའི་ཡུ་རོབ
+        type: '039'
+      - 
+        content: ཨཱོས་ཊྲེལ་ཨེ་ཤི་ཡ
+        type: '053'
+      - 
+        content: མེ་ལ་ནི་ཤི་ཡ
+        type: '054'
+      - 
+        content: ལུང་ཕྱོགས་མའི་ཀྲོ་ནི་ཤི་ཡ
+        type: '057'
+      - 
+        content: པོ་ལི་ནི་ཤི་ཡ
+        type: '061'
+      - 
+        content: ཨེ་ཤི་ཡ
+        type: 142
+      - 
+        content: སྦུག་ཕྱོགས་ཀྱི་ཨེ་ཤི་ཡ
+        type: 143
+      - 
+        content: ནུབ་ཕྱོགས་ཀྱི་ཨེ་ཤི་ཡ
+        type: 145
+      - 
+        content: ཡུ་རོབ
+        type: 150
+      - 
+        content: ཤར་ཕྱོགས་ཀྱི་ཡུ་རོབ
+        type: 151
+      - 
+        content: བྱང་ཕྱོགས་ཀྱི་ཡུ་རོབ
+        type: 154
+      - 
+        content: ནུབ་ཕྱོགས་ཀྱི་ཡུ་རོབ
+        type: 155
+      - 
+        content: ལེ་ཊིནཨ་མི་རི་ཀ
+        type: 419
+      - 
+        content: ཨེ་སེན་ཤུན་ཚོ་གླིང༌
+        type: AC
+      - 
+        content: ཨཱན་དོ་ར
+        type: AD
+      - 
+        content: ཡུ་ནཱའི་ཊེཌ་ ཨ་རབ་ ཨེ་མེ་རེཊས
+        type: AE
+      - 
+        content: ཨཕ་གྷ་ནི་སཏཱན
+        type: AF
+      - 
+        content: ཨན་ཊི་གུ་ཝ་ ཨེནཌ་ བྷར་བྷུ་ཌ
+        type: AG
+      - 
+        content: ཨང་གི་ལ
+        type: AI
+      - 
+        content: ཨཱལ་བེ་ནི་ཡ
+        type: AL
+      - 
+        content: ཨར་མི་ནི་ཡ
+        type: AM
+      - 
+        content: ཨང་གྷོ་ལ
+        type: AO
+      - 
+        content: འཛམ་གླིང་ལྷོ་མཐའི་ཁྱགས་གླིང
+        type: AQ
+      - 
+        content: ཨར་ཇེན་ཊི་ན
+        type: AR
+      - 
+        content: ས་མོ་ཨ་ཡུ་ཨེས་ཨེ་མངའ་ཁོངས
+        type: AS
+      - 
+        content: ཨཱོས་ཊྲི་ཡ
+        type: AT
+      - 
+        content: ཨཱོས་ཊྲེལ་ལི་ཡ
+        type: AU
+      - 
+        content: ཨ་རུ་བཱ
+        type: AW
+      - 
+        content: ཨ་ལནཌ་གླིང་ཚོམ
+        type: AX
+      - 
+        content: ཨ་ཛར་བྷའི་ཇཱན
+        type: AZ
+      - 
+        content: བྷོས་ནི་ཡ་ ཨེནཌ་ ཧར་ཛི་གྷོ་བི་ན
+        type: BA
+      - 
+        content: བྷར་བེ་ཌོས
+        type: BB
+      - 
+        content: བངྒ་ལ་དེཤ
+        type: BD
+      - 
+        content: བྷེལ་ཇམ
+        type: BE
+      - 
+        content: བྷར་ཀི་ན་ ཕེ་སོ
+        type: BF
+      - 
+        content: བུལ་ག་རི་ཡ
+        type: BG
+      - 
+        content: བྷ་རེན
+        type: BH
+      - 
+        content: བྷུ་རུན་ཌི
+        type: BI
+      - 
+        content: བྷེ་ནིན
+        type: BJ
+      - 
+        content: སེནཊ་ བར་ཐོ་ལོམ་མིའུ
+        type: BL
+      - 
+        content: བར་མུ་ཌ
+        type: BM
+      - 
+        content: བྷྲུ་ནའི
+        type: BN
+      - 
+        content: བྷེ་ལི་བི་ཡ
+        type: BO
+      - 
+        content: ཀེ་རི་བི་ཡེན་ནེ་དར་ལནཌས྄
+        type: BQ
+      - 
+        content: བྲ་ཛིལ
+        type: BR
+      - 
+        content: བྷ་ཧ་མས྄
+        type: BS
+      - 
+        content: འབྲུག
+        type: BT
+      - 
+        content: བོའུ་ཝེཊ་མཚོ་གླིང
+        type: BV
+      - 
+        content: བྷོཙ་ཝ་ན
+        type: BW
+      - 
+        content: བེལ་ཨ་རུ་སུ
+        type: BY
+      - 
+        content: བྷེ་ལིཛ
+        type: BZ
+      - 
+        content: ཀེ་ན་ཌ
+        type: CA
+      - 
+        content: ཀོ་ཀོས་གླིང་ཚོམ
+        type: CC
+      - 
+        content: ཀོང་གྷོ ཀིན་ཤ་ས
+        type: CD
+      - 
+        alt: variant
+        content: ཌེ་མོ་ཀེརེ་ཊིཀ་ རི་པབ་ལིཀ་ ཨོཕ་ ཀོང་གྷོ
+        type: CD
+      - 
+        content: སེན་ཊལ་ ཨཕ་རི་ཀཱན་ རི་པབ་ལིཀ
+        type: CF
+      - 
+        content: ཀོང་གྷོ བྷྲ་ཛ་བིལ
+        type: CG
+      - 
+        alt: variant
+        content: རི་པབ་ལིཀ་ ཨོཕ་ ཀོང་གྷོ
+        type: CG
+      - 
+        content: སུ་ཝིཊ་ཛར་ལེནཌ
+        type: CH
+      - 
+        content: ཀོ་ཊེ་ ཌི་ཨི་ཝོ་རེ
+        type: CI
+      - 
+        alt: variant
+        content: ཨི་ཝོ་རི་ཀོསཊ
+        type: CI
+      - 
+        content: ཀུག་གླིང་ཚོམ
+        type: CK
+      - 
+        content: ཅི་ལི
+        type: CL
+      - 
+        content: ཀེ་མ་རུན
+        type: CM
+      - 
+        content: རྒྱ་ནག
+        type: CN
+      - 
+        content: ཀོ་ལོམ་བྷི་ཡ
+        type: CO
+      - 
+        content: ཀི་ལི་པེར་ཊོན་མཚོ་གླིང་
+        type: CP
+      - 
+        content: ཀོས་ཊ་རི་ཀ
+        type: CR
+      - 
+        content: ཀིའུ་བྷ
+        type: CU
+      - 
+        content: ཀེཔ་བཱཌ
+        type: CV
+      - 
+        content: ཀྱཱུར་ར་ཀོ
+        type: CW
+      - 
+        content: ཁི་རིསྟ་མེས་མཚོ་གླིང
+        type: CX
+      - 
+        content: སཱའི་པྲས
+        type: CY
+      - 
+        content: ཅེཀ་ རི་པབ་ལིཀ
+        type: CZ
+      - 
+        content: ཇཱར་མ་ནི
+        type: DE
+      - 
+        content: ཌི་ཡེ་གོ་གར་སིའོ
+        type: DG
+      - 
+        content: ཇི་བྷུ་ཊི
+        type: DJ
+      - 
+        content: ཌེན་མཱཀ
+        type: DK
+      - 
+        content: ཌོ་མི་ནི་ཀ
+        type: DM
+      - 
+        content: ཌོ་མི་ནི་ཀཱན་ རི་པབ་ལིཀ
+        type: DO
+      - 
+        content: ཨཱལ་ཇི་རི་ཡ
+        type: DZ
+      - 
+        content: སེ་ཨུ་ཏ་ ཨེནཌ་ མེལ་ལི་ལ
+        type: EA
+      - 
+        content: ཨེ་ཁྭ་ཌོར
+        type: EC
+      - 
+        content: ཨེས་ཊོ་ནི་ཡ
+        type: EE
+      - 
+        content: ཨི་ཇིབཊ
+        type: EG
+      - 
+        content: ནུབ་ཕྱོགས་ ས་ཧཱ་ར
+        type: EH
+      - 
+        content: ཨེ་རི་ཊྲེ་ཡ
+        type: ER
+      - 
+        content: ཨིས་པེན
+        type: ES
+      - 
+        content: ཨི་ཐི་ཡོ་པི་ཡ
+        type: ET
+      - 
+        content: ཡུ་རོབ་གཅིག་བསྡོམས་ཚོགས་པ
+        type: EU
+      - 
+        content: ཕིན་ལེནཌ
+        type: FI
+      - 
+        content: ཕི་ཇི
+        type: FJ
+      - 
+        content: ཕལྐ་ལནྜ་གླིང་ཚོམ
+        type: FK
+      - 
+        alt: variant
+        content: ཕལྐ་ལནྜ་གླིང་ཚོམ [ཨིས་ལཱས་མལ་བི་ཎཱས]
+        type: FK
+      - 
+        content: མའི་ཀྲོ་ནི་ཤི་ཡ
+        type: FM
+      - 
+        content: ཕཱའེ་རོ་གླིང་ཚོམ
+        type: FO
+      - 
+        content: ཕྲཱནས
+        type: FR
+      - 
+        content: གྷ་བྷོན
+        type: GA
+      - 
+        content: ཡུ་ནཱའི་ཊེཌ་ ཀིང་ཌམ
+        type: GB
+      - 
+        content: གྲྀ་ན་ཌ
+        type: GD
+      - 
+        content: ཇཽར་ཇཱ
+        type: GE
+      - 
+        content: གུའི་ཡ་ན་ ཕྲནས྄་མངའ་ཁོངས
+        type: GF
+      - 
+        content: གུ་ཨེརྣ་སི
+        type: GG
+      - 
+        content: གྷ་ན
+        type: GH
+      - 
+        content: ཇིབ་རཱལ་ཊར
+        type: GI
+      - 
+        content: གིརཱིན་ལནཌ྄
+        type: GL
+      - 
+        content: གྷེམ་བི་ཡ
+        type: GM
+      - 
+        content: གྷི་ནི
+        type: GN
+      - 
+        content: གོ་ཌེ་ལུ་པེ
+        type: GP
+      - 
+        content: ཨེ་ཀུ་ཊོ་རེལ་ གི་ནི
+        type: GQ
+      - 
+        content: གིརིས྄
+        type: GR
+      - 
+        content: སཱའུཐ་ཇཽར་ཇཱ་ དང་ སཱའུཐ་སེནཌ྄་ཝིཅ་གླིང་ཚོམ
+        type: GS
+      - 
+        content: གྷོ་ཊ་མ་ལ
+        type: GT
+      - 
+        content: གུ་འམ་ མཚོ་གླིང
+        type: GU
+      - 
+        content: གྷི་ནི་ བྷི་སཱའུ
+        type: GW
+      - 
+        content: གྷ་ཡ་ན
+        type: GY
+      - 
+        content: ཧོང་ཀོང་ཅཱའི་ན
+        type: HK
+      - 
+        alt: short
+        content: ཧོང་ཀོང
+        type: HK
+      - 
+        content: ཧཱརཌ་མཚོ་གླིང་ དང་ མེཀ་ཌོ་ནལཌ྄་གླིང་ཚོམ
+        type: HM
+      - 
+        content: ཧཱན་ཌུ་རཱས྄
+        type: HN
+      - 
+        content: ཀྲོ་ཨེ་ཤ
+        type: HR
+      - 
+        content: ཧེ་ཊི
+        type: HT
+      - 
+        content: ཧཱང་གྷ་རི
+        type: HU
+      - 
+        content: ཀ་ནེ་རི་གླིང་ཚོམ
+        type: IC
+      - 
+        content: ཨིན་ཌོ་ནེ་ཤི་ཡ
+        type: ID
+      - 
+        content: ཨཱ་ཡ་ལེནཌ
+        type: IE
+      - 
+        content: ཨིས་ར་ཡེལ
+        type: IL
+      - 
+        content: ཨ་ཡུལ་ ཨོཕ་ མཱན
+        type: IM
+      - 
+        content: རྒྱ་གར
+        type: IN
+      - 
+        content: བྲི་ཊིཤ་རྒྱ་གར་གྱི་རྒྱ་མཚོ་ས་ཁོངས
+        type: IO
+      - 
+        content: ཨི་རཱཀ
+        type: IQ
+      - 
+        content: ཨི་རཱན
+        type: IR
+      - 
+        content: ཨཱའིས་ལེནཌ
+        type: IS
+      - 
+        content: ཨི་ཊ་ལི
+        type: IT
+      - 
+        content: ཇེར་སི
+        type: JE
+      - 
+        content: ཇཱ་མཻ་ཀ
+        type: JM
+      - 
+        content: ཇོར་ཌན
+        type: JO
+      - 
+        content: ཇ་པཱན
+        type: JP
+      - 
+        content: ཀེན་ཡ
+        type: KE
+      - 
+        content: ཀིར་གིས་སཏཱན
+        type: KG
+      - 
+        content: ཀམ་བྷོ་ཌི་ཡ
+        type: KH
+      - 
+        content: ཀི་རི་བ་ཏི་མཚོ་གླིང
+        type: KI
+      - 
+        content: ཀོ་མོ་རོས
+        type: KM
+      - 
+        content: སེནཊ་ ཀིཊས་ དང་ ནེ་བིས
+        type: KN
+      - 
+        content: བྱང་ ཀོ་རི་ཡ
+        type: KP
+      - 
+        content: ལྷོ་ ཀོ་རི་ཡ
+        type: KR
+      - 
+        content: ཀུ་ཝེཊ
+        type: KW
+      - 
+        content: ཁེ་མེན་གླིང་ཚོམ
+        type: KY
+      - 
+        content: ཀ་ཛགས་སཏཱན
+        type: KZ
+      - 
+        content: ལཱ་ཝོས
+        type: LA
+      - 
+        content: ལེ་བ་ནོན
+        type: LB
+      - 
+        content: སེནཊ་ ལུ་སི་ཡ
+        type: LC
+      - 
+        content: ལིཀ་ཏནས་ཏ་ཡིན
+        type: LI
+      - 
+        content: ཤྲཱི་ལང་ཀ
+        type: LK
+      - 
+        content: ལཱའི་བེ་རི་ཡ
+        type: LR
+      - 
+        content: ལཻ་སོ་ཐོ
+        type: LS
+      - 
+        content: ལི་ཐུ་ཝེ་ནི་ཡ
+        type: LT
+      - 
+        content: ལག་ཛམ་བོརྒ
+        type: LU
+      - 
+        content: ལཊ་བི་ཡ
+        type: LV
+      - 
+        content: ལི་བི་ཡ
+        type: LY
+      - 
+        content: མོ་རོ་ཀོ
+        type: MA
+      - 
+        content: མོ་ན་ཀོ
+        type: MC
+      - 
+        content: མོལ་དོ་བཱ
+        type: MD
+      - 
+        content: མོན་ཊི་ནེག་རོ
+        type: ME
+      - 
+        content: སེནཊ་ མཱར་ཊིན
+        type: MF
+      - 
+        content: མ་དཱ་གེས་ཀར
+        type: MG
+      - 
+        content: མར་ཤེལ་གླིང་ཚོམ
+        type: MH
+      - 
+        content: མ་སེ་ཌོ་ནི་ཡ
+        type: MK
+      - 
+        alt: variant
+        content: མ་སེ་ཌོ་ནི་ཡ་ [ཡུ་གོ་སླཱ་བི་ཡ]
+        type: MK
+      - 
+        content: མཱ་ལི
+        type: ML
+      - 
+        content: མི་ཡཱན་མར་ [བྷར་མ]
+        type: MM
+      - 
+        content: སོག་པོ་ཡུལ
+        type: MN
+      - 
+        content: མཀ་ཨའུ་ཅཱའི་ན
+        type: MO
+      - 
+        alt: short
+        content: མཀ་ཨའུ
+        type: MO
+      - 
+        content: བྱང་ཕྱོགས་ཀྱི་མ་ར་ཡ་ན་གླིང་ཚོམ
+        type: MP
+      - 
+        content: མཱར་ཊི་ནིཀ
+        type: MQ
+      - 
+        content: མོ་རི་ཊེ་ནི་ཡ
+        type: MR
+      - 
+        content: མོན་ས་རཊ
+        type: MS
+      - 
+        content: མཱལ་ཊ
+        type: MT
+      - 
+        content: མོ་རི་ཤཱས
+        type: MU
+      - 
+        content: མཱལ་དིབས
+        type: MV
+      - 
+        content: མ་ལ་ཝི
+        type: MW
+      - 
+        content: མེཀ་སི་ཀོ
+        type: MX
+      - 
+        content: མ་ལེ་ཤི་ཡ
+        type: MY
+      - 
+        content: མོ་ཛམ་བྷིཀ
+        type: MZ
+      - 
+        content: ན་མི་བི་ཡ
+        type: NA
+      - 
+        content: ནིའུ་ཀ་ལི་དོ་ནི་ཡ
+        type: NC
+      - 
+        content: ནཱའི་ཇཱ
+        type: NE
+      - 
+        content: ནོར་ཕོལཀ་མཚོ་གླིང༌
+        type: NF
+      - 
+        content: ནཱའི་ཇི་རི་ཡ
+        type: NG
+      - 
+        content: ནི་ཀྲ་ཝ་ག
+        type: NI
+      - 
+        content: ནེ་དར་ལནཌས྄
+        type: NL
+      - 
+        content: ནོར་ཝེ
+        type: 'NO'
+      - 
+        content: བལ་ཡུལ
+        type: NP
+      - 
+        content: ནའུ་རུ་
+        type: NR
+      - 
+        content: ནི་ཨུ་ཨཻ
+        type: NU
+      - 
+        content: ནིའུ་ཛི་ལེནཌ
+        type: NZ
+      - 
+        content: ཨོ་མཱན
+        type: OM
+      - 
+        content: པ་ན་མ
+        type: PA
+      - 
+        content: པེ་རུ
+        type: PE
+      - 
+        content: ཕྲཱནས྄་ཀྱི་པོ་ལི་ནི་ཤི་ཡ
+        type: PF
+      - 
+        content: པ་པུ་ ནིའུ་གི་ནི
+        type: PG
+      - 
+        content: ཕི་ལི་པིནས
+        type: PH
+      - 
+        content: པ་ཀི་སཏཱན
+        type: PK
+      - 
+        content: པོ་ལེནཌ
+        type: PL
+      - 
+        content: སིནཊ་པི་ཡེར་ ཨེནཌ་ མིཀོ་ལེན
+        type: PM
+      - 
+        content: པིཊ་ཀེ་ཡེརན་གླིང་ཚོམ
+        type: PN
+      - 
+        content: པུ་འེར་ཊོ་རི་ཁོ
+        type: PR
+      - 
+        content: པེ་ལིསི་ཊི་ནི་ཡན་ཊེ་རི་ཐོ་རི
+        type: PS
+      - 
+        content: པོར་ཅུ་གཱལ
+        type: PT
+      - 
+        content: པ་ལའུ
+        type: PW
+      - 
+        content: པ་ར་གུ་ཝའི
+        type: PY
+      - 
+        content: ཀ་ཊར
+        type: QA
+      - 
+        content: ཨོཤི་ཡཱན་ན་གྱི་མཐའ་མཚམས
+        type: QO
+      - 
+        content: རེ་ཡུ་ནི་ཡོན
+        type: RE
+      - 
+        content: རོ་མེ་ནི་ཡ
+        type: RO
+      - 
+        content: སཱར་བྷི་ཡ
+        type: RS
+      - 
+        content: ཨུ་རུ་སུ
+        type: RU
+      - 
+        content: རུ་ཝན་ཌ
+        type: RW
+      - 
+        content: སཱཝ་དི་ ཨ་རེ་བྷི་ཡ
+        type: SA
+      - 
+        content: སོ་ལོ་མོན་ གླིང་ཚོམ
+        type: SB
+      - 
+        content: སེ་ཤཱལས
+        type: SC
+      - 
+        content: སུ་ཌཱན
+        type: SD
+      - 
+        content: སུའི་ཌེན
+        type: SE
+      - 
+        content: སིང་ག་པོར
+        type: SG
+      - 
+        content: སེནཊ་ ཧེ་ལི་ན
+        type: SH
+      - 
+        content: སུ་ལོ་བི་ནི་ཡ
+        type: SI
+      - 
+        content: སྭཱལ་བྷརྡ་ ཨེནཌ་ ཇཱན་མ་ཡེན
+        type: SJ
+      - 
+        content: སུ་ལོ་བཱ་ཀི་ཡ
+        type: SK
+      - 
+        content: སི་ར་ ལི་འོན
+        type: SL
+      - 
+        content: སཱན་མ་རི་ནོ
+        type: SM
+      - 
+        content: སེ་ནི་གྷལ
+        type: SN
+      - 
+        content: སོ་མ་ལི་ཡ
+        type: SO
+      - 
+        content: སུ་རི་ནཱམ
+        type: SR
+      - 
+        content: སཱའུཐ་ སུ་ཌཱན
+        type: SS
+      - 
+        content: སཝ་ ཊོ་མེ་ ཨེནཌ་ པྲྀན་སི་པེ
+        type: ST
+      - 
+        content: ཨེལ་སལ་བ་ཌོར
+        type: SV
+      - 
+        content: སིནཊ་ མཱར་ཊེན
+        type: SX
+      - 
+        content: སི་རི་ཡ
+        type: SY
+      - 
+        content: སུ་ཝ་ཛི་ལེནཌ
+        type: SZ
+      - 
+        content: ཏྲིས་ཏན་ད་ཀུན་ཧ
+        type: TA
+      - 
+        content: ཏུརྐས྄་ ཨེནཌ་ ཀ་ཀོས་གླིང་ཚོམ
+        type: TC
+      - 
+        content: ཅཱཌ
+        type: TD
+      - 
+        content: ཕྲནཅ་གི་ལྷོ་ཕྱོགས་མངའ་ཁོངས
+        type: TF
+      - 
+        content: ཊོ་གྷོ
+        type: TG
+      - 
+        content: ཐཱའི་ལེནཌ
+        type: TH
+      - 
+        content: ཏ་ཇིག་གི་སཏཱན
+        type: TJ
+      - 
+        content: ཏོ་ཀེ་ལའུ་ མཚོ་གླིང
+        type: TK
+      - 
+        content: ཏི་་མོར་ལེ་ཨེསཊ
+        type: TL
+      - 
+        alt: variant
+        content: ཤར་ཕྱོགས་ཏི་་མོར
+        type: TL
+      - 
+        content: ཊཱརཀ་མེནའི་སཏཱན
+        type: TM
+      - 
+        content: ཊུ་ནི་ཤི་ཡ
+        type: TN
+      - 
+        content: ཊོང་གྷ
+        type: TO
+      - 
+        content: ཊཱར་ཀི
+        type: TR
+      - 
+        content: ཊི་ནི་ཌཱཌ་ ཨེནཌ་ ཊོ་བྷེ་གྷོ
+        type: TT
+      - 
+        content: ཏུ་ཝ་ལུ
+        type: TV
+      - 
+        content: ཊཱའི་ཝཱན
+        type: TW
+      - 
+        content: ཊཱན་ཛཱ་ནི་ཡ
+        type: TZ
+      - 
+        content: ཡུ་ཀརེན
+        type: UA
+      - 
+        content: ཡུ་གྷན་ཌ
+        type: UG
+      - 
+        content: ཡུ་ཨེས་གྱི་མཐའ་མཚམས་མཚོ་གླིང་
+        type: UM
+      - 
+        content: ཡུ་ཨེས་ཨེ
+        type: US
+      - 
+        content: ཡུ་རུ་གུ་ཝའི
+        type: UY
+      - 
+        content: ཨུས་བེག་གི་སཏཱན
+        type: UZ
+      - 
+        content: བ་ཊི་ཀཱན་ སི་ཊི
+        type: VA
+      - 
+        content: སེནཊ་ཝིན་སེནཌ྄ ཨེནཌ་ གི་རེ་ན་དིནས྄
+        type: VC
+      - 
+        content: བེ་ནི་ཛུ་ཝེ་ལ
+        type: VE
+      - 
+        content: ཝརཇིན་གླིང་ཚོམ་ བྲཱི་ཊིཤ་མངའ་ཁོངས
+        type: VG
+      - 
+        content: ཝརཇིན་གླིང་ཚོམ་ ཡུ་ཨེས་ཨེ་མངའ་ཁོངས
+        type: VI
+      - 
+        content: བེཊ་ནཱམ
+        type: VN
+      - 
+        content: ཝ་ནུ་ཨ་ཏུ
+        type: VU
+      - 
+        content: ཝལ་ལིས྄་ ཨེནཌ་ ཕུ་ཏུ་ན་
+        type: WF
+      - 
+        content: ས་མོ་ཨ
+        type: WS
+      - 
+        content: ཡེ་མེན
+        type: YE
+      - 
+        content: མེ་ཡོཊ
+        type: YT
+      - 
+        content: སཱའུཐ་ ཨཕ་རི་ཀ
+        type: ZA
+      - 
+        content: ཛམ་བྷི་ཡ
+        type: ZM
+      - 
+        content: ཛིམ་བྷབ་ཝེ
+        type: ZW
+      - 
+        content: ངོ་མ་ཤེས་པའི་ལུང་ཕྱོགས
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: གྲེག་གོ་རི་ཡཱན་ཟླ་ཐོ
+        type: gregorian
+      collation: 
+        content: ལུགས་སྲོལ
+        draft: unconfirmed
+        type: traditional
+      numbers: 
+        content: ང་བཅས་ཀྱི་ཨང་ཡིག
+        type: tibt
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: ཡུ་ནཱའི་ཊེཌ་ ཨ་རབ་ ཨེ་མེ་རེཊས་ཀྱི་དངུལ་ ཌིར་ཧཱམ
+        type: AED
+      - 
+        displayName: ཨཕ་གཱན་གྱི་དངུལ་ ཨཕ་ག་ནི
+        type: AFN
+      - 
+        displayName: ཨཱོས་ཊྲེ་ལི་ཡ་གི་དངུལ་ ཌོ་ལར
+        symbol: AU$
+        type: AUD
+      - 
+        displayName: བྷང་ལ་དེཤ་གི་དངུལ་ ཏ་ཀ
+        type: BDT
+      - 
+        displayName: བར་མུ་ཌ་གི་དངུལ་ ཌོ་ལར
+        type: BMD
+      - 
+        displayName: བྲ་ཛིལ་གྱི་དངུལ་ རེ་ཡལ
+        symbol: R$
+        type: BRL
+      - 
+        displayName: དངུལ་ཀྲམ
+        symbol: Nu.
+        type: BTN
+      - 
+        displayName: ཀེ་ན་ཌ་གི་དངུལ་ ཌོ་ལར
+        symbol: CA$
+        type: CAD
+      - 
+        displayName: སུ་ཡིས་ཀྱི་དངུལ་ ཕྲངཀ
+        type: CHF
+      - 
+        displayName: ཅི་ལི་གི་དངུལ་ པེ་སོ
+        type: CLP
+      - 
+        displayName: རྒྱ་ནག་གི་དངུལ་ ཡུ་ཝཱན
+        symbol: CN¥
+        type: CNY
+      - 
+        displayName: ཀོ་ལོམ་བྷི་ཡ་གི་དངུལ་ པེ་སོ
+        type: COP
+      - 
+        displayName: ཀིའུ་བྷ་གི་དངུལ་ པེ་སོ
+        type: CUP
+      - 
+        displayName: ཌེན་མཱཀ་གི་དངུལ་ ཀྲོན
+        type: DKK
+      - 
+        displayName: ཨཱལ་ཇི་རི་ཡ་གི་དངུལ་ ཌའི་ནར
+        type: DZD
+      - 
+        displayName: ཨི་ཇིབཊ་གི་དངུལ་ པ་འུནཌ
+        type: EGP
+      - 
+        displayName: ཡུ་རོ༌དངུལ་
+        symbol: €
+        type: EUR
+      - 
+        displayName: བྲི་ཊིཤ་ པ་འུནཌ་ ཨིས་ཊར་ལིང
+        symbol: £
+        type: GBP
+      - 
+        displayName: ཧོང་ཀོང་གི་དངུལ་ ཌོ་ལར
+        symbol: HK$
+        type: HKD
+      - 
+        displayName: ཨིན་ཌོ་ནེ་ཤི་ཡ་གི་དངུལ་ རུ་པི་ཡ
+        type: IDR
+      - 
+        displayName: ཨིས་རེལ་གྱི་དངུལ་གསརཔ་ ཤེ་ཀེལ
+        symbol: ILS
+        type: ILS
+      - 
+        displayName: རྒྱ་གར་གྱི་དངུལ་ རུ་པི
+        symbol: ₹
+        type: INR
+      - 
+        displayName: ཨི་རཱཀ་གི་དངུལ་ ཌི་ན
+        type: IQD
+      - 
+        displayName: ཨི་རཱན་གྱི་དངུལ་ རི་ཨཱལ
+        type: IRR
+      - 
+        displayName: ཨཱཡིས་ལེནཌ་གི་དངུལ་ ཀྲོ་ན
+        type: ISK
+      - 
+        displayName: ཇཱ་མཻ་ཀ་གི་དངུལ་ ཌོ་ལར
+        type: JMD
+      - 
+        displayName: ཇོར་ཌན་གྱི་དངུལ་ ཌི་ན
+        type: JOD
+      - 
+        displayName: ཇཱ་པཱན་གྱི་དངུལ་ ཡེན
+        symbol: JP¥
+        type: JPY
+      - 
+        displayName: ཀེན་ཡ་གི་དངུལ་ ཤི་ལིང
+        type: KES
+      - 
+        displayName: ཀེམ་བྷོ་ཌི་ཡ་གི་དངུལ་ རི་ཨཱལ
+        type: KHR
+      - 
+        displayName: ནོརཐ་ ཀོ་རི་ཡ་གི་དངུལ་ ཝོན
+        type: KPW
+      - 
+        displayName: སཱའུཐ་ ཀོ་རི་ཡ་གི་དངུལ་ ཝོན
+        symbol: KR₩
+        type: KRW
+      - 
+        displayName: ཀུ་ཝེཊ་གི་དངུལ་ ཌི་ན
+        type: KWD
+      - 
+        displayName: ཀ་ཛགས་ཏཱན་གྱི་དངུལ་ ཏེང་གེ
+        type: KZT
+      - 
+        displayName: ལཱ་ཝོས་ཀྱི་དངུལ་ ཀིཔ
+        type: LAK
+      - 
+        displayName: ལེ་བ་ནོན་གྱི་དངུལ་ པ་འུནཌ
+        type: LBP
+      - 
+        displayName: ཤྲི་ ལང་ཀ་གི་དངུལ་ རུ་པི
+        type: LKR
+      - 
+        displayName: ལཱའི་བེ་རི་ཡ་གི་དངུལ་ ཌོ་ལར
+        type: LRD
+      - 
+        displayName: ལི་བི་ཡ་གི་དངུལ་ ཌི་ན
+        type: LYD
+      - 
+        displayName: མོ་རོ་ཀོ་གི་དངུལ་ ཌིར་ཧཱམ
+        type: MAD
+      - 
+        displayName: མི་ཡཱན་མར་གྱི་དངུལ་ ཅཱཏ
+        type: MMK
+      - 
+        displayName: སོག་པོའི་དངུལ་ ཏུ་གྲིཀ
+        type: MNT
+      - 
+        displayName: མཱལ་དིབས་ཀྱི་དངུལ་ རུ་ཕི་ཡ
+        type: MVR
+      - 
+        displayName: མེཀ་སི་ཀོ་གི་དངུལ་ པེ་སོ
+        symbol: MX$
+        type: MXN
+      - 
+        displayName: མ་ལེ་ཤི་ཡ་གི་དངུལ་ རིང་གིཊ
+        type: MYR
+      - 
+        displayName: ནོར་ཝེ་གི་དངུལ་ ཀྲོ་ན
+        type: NOK
+      - 
+        displayName: བལ་པོའི་དངུལ་ རུ་པི
+        type: NPR
+      - 
+        displayName: ནིའུ་ཛི་ལེནཌ་གི་དངུལ་ ཌོ་ལར
+        symbol: NZ$
+        type: NZD
+      - 
+        displayName: ཨོ་མཱན་གྱི་དངུལ་ རི་ཨཱལ
+        type: OMR
+      - 
+        displayName: པ་ན་མ་གི་དངུལ་ བཱལ་བོ་ཝ
+        type: PAB
+      - 
+        displayName: པ་རུ་གི་དངུལ་ ནུ་བོ་ སཱོལ
+        type: PEN
+      - 
+        displayName: ཕི་ལི་པིནས་གྱི་དངུལ་ པེ་སོ
+        type: PHP
+      - 
+        displayName: པ་ཀིས་ཏཱན་གྱི་དངུལ་ རུ་པི
+        type: PKR
+      - 
+        displayName: པོ་ལེནཌ་ཀྱི་དངུལ ཛ྄ལོ་ཊི
+        type: PLN
+      - 
+        displayName: ཀ་ཊར་གྱི་དངུལ་ རི་ཨཱལ
+        type: QAR
+      - 
+        displayName: ཨུ་རུ་སུ་གི་དངུལ་ རུ་བཱལ
+        type: RUB
+      - 
+        displayName: སཱཝ་དིའི་དངུལ་ རི་ཡཱལ
+        type: SAR
+      - 
+        displayName: སེ་ཤཱལས་ཀྱི་དངུལ་ རུ་པི
+        type: SCR
+      - 
+        displayName: སུའི་ཌེན་གྱི་དངུལ་ ཀྲོ་ན
+        type: SEK
+      - 
+        displayName: སིང་ག་པོར་གྱི་དངུལ་ ཌོ་ལར
+        type: SGD
+      - 
+        displayName: སི་རི་ཡ་གི་དངུལ་ པ་འུནཌ
+        type: SYP
+      - 
+        displayName: ཐཱའི་ལེནཌ་གི་དངུལ་ བཱཏ
+        symbol: TH฿
+        type: THB
+      - 
+        displayName: ཏ་ཇི་ཀིས་ཏཱན་གྱི་དངུལ་ སོ་མོ་ནི
+        type: TJS
+      - 
+        displayName: ཊཱར་ཀི་གི་དངུལ་ ལི་ར
+        type: TRY
+      - 
+        displayName: ཊཱའི་ཝཱན་གི་དངུལ ཌོ་ལར
+        symbol: NT$
+        type: TWD
+      - 
+        displayName: ཊཱན་ཛཱ་ནི་ཡ་གི་དངུལ་ ཤི་ལིང
+        type: TZS
+      - 
+        displayName: ཡུ་གྷེན་ཌ་གི་དངུལ་ ཤི་ལིང
+        type: UGX
+      - 
+        displayName: ཡུ་ཨེས་ ཌོ་ལར
+        symbol: US$
+        type: USD
+      - 
+        displayName: ཡུ་རུ་གུ་ཝའི་གི་དངུལ་ པེ་སོ
+        type: UYU
+      - 
+        displayName: ཨུས་བེ་ཀིས་ཏཱན་གྱི་དངུལ་ སོམ
+        type: UZS
+      - 
+        displayName: བེ་ནི་ཛུ་ཝེ་ལ་གི་དངུལ་ བོ་ལི་བར
+        type: VEF
+      - 
+        displayName: བེཊ་ནཱམ་གྱི་དངུལ་ ཌོང
+        type: VND
+      - 
+        symbol: XAF
+        type: XAF
+      - 
+        displayName: མ་ཤེས་པའི་དངུལ
+        type: XXX
+      - 
+        displayName: སཱའུཐ་ ཨཕ་རི་ཀ་གི་དངུལ་ རཱནད
+        type: ZAR
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##,##0.00
+    numberSystem: latn
+    unitPattern: 
+      content: "{0} {1}"
+      count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: སྟོང་ཕྲག 0
+              count: other
+              type: 1000
+            - 
+              content: ཁྲི་ཕྲག 0
+              count: other
+              type: 10000
+            - 
+              content: འབུམ་ཕྲག 0
+              count: other
+              type: 100000
+            - 
+              content: ས་ཡ་ 0
+              count: other
+              type: 1000000
+            - 
+              content: བྱེ་བ་ 0
+              count: other
+              type: 10000000
+            - 
+              content: དུང་ཕྱུར་ 0
+              count: other
+              type: 100000000
+            - 
+              content: དུང་ཕྱུར་ 00
+              count: other
+              type: '1000000000'
+            - 
+              content: དུང་ཕྱུར་བརྒྱ་ 0
+              count: other
+              type: '10000000000'
+            - 
+              content: དུང་ཕྱུར་སྟོང 0
+              count: other
+              type: '100000000000'
+            - 
+              content: དུང་ཕྱུར་ཁྲི་ 0
+              count: other
+              type: '1000000000000'
+            - 
+              content: དུང་ཕྱུར་འབུམ་ 0
+              count: other
+              type: '10000000000000'
+            - 
+              content: དུང་ཕྱུར་ས་ཡ་ 0
+              count: other
+              type: '100000000000000'
+        type: long
+    numberSystem: latn
+  defaultNumberingSystem: tibt
+  otherNumberingSystems: 
+    native: tibt
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##,##0 %"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    - 
+      decimal: .
+      exponential: E
+      group: ","
+      "infinity": ∞
+      list: ;
+      minusSign: "-"
+      "nan": 'NaN'
+      numberSystem: latn
+      perMille: ‰
+      percentSign: "%"
+      plusSign: +
+    - 
+      decimal: .
+      exponential: E
+      group: ","
+      "infinity": གྲངས་མེད
+      list: དང་
+      minusSign: "-"
+      "nan": ཨང་མད
+      numberSystem: tibt
+      perMille: ‰
+      percentSign: "%"
+      plusSign: +
+posix: 
+  messages: 
+    nostr: མེན་:མ
+    yesstr: ཨིན་:ཨ
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        content: ཉིན་ཞག་ {0}
+        count: other
+    - 
+      type: day-future
+      unitPattern: 
+        content: ཉིནམ་ {0} ནང་
+        count: other
+    - 
+      type: day-past
+      unitPattern: 
+        content: ཉིནམ་ {0} ཧེ་མ་
+        count: other
+    - 
+      type: hour
+      unitPattern: 
+        content: ཆུ་ཚོད་ {0}
+        count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        content: ཆུ་ཚོད་ {0} ནང་
+        count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        content: ཆུ་ཚོད་ {0} ཧེ་མ་
+        count: other
+    - 
+      type: minute
+      unitPattern: 
+        content: སྐར་ཆ་ {0}
+        count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        content: སྐར་ཆ་ {0} ནང་
+        count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        content: སྐར་ཆ་ {0} ཧེ་མ་
+        count: other
+    - 
+      type: month
+      unitPattern: 
+        content: ཟླཝ་ {0}
+        count: other
+    - 
+      type: month-future
+      unitPattern: 
+        content: ཟླཝ་ {0} ནང་
+        count: other
+    - 
+      type: month-past
+      unitPattern: 
+        content: ཟླཝ་ {0} ཧེ་མ་
+        count: other
+    - 
+      type: second
+      unitPattern: 
+        content: སྐར་ཆ་ {0}
+        count: other
+    - 
+      type: second-future
+      unitPattern: 
+        content: སྐར་ཆ་ {0} ནང་
+        count: other
+    - 
+      type: second-past
+      unitPattern: 
+        content: བངུན་ཕྲག་ {0} ཧེ་མ་
+        count: other
+    - 
+      type: week
+      unitPattern: 
+        content: བངུན་ཕྲག་ {0}
+        count: other
+    - 
+      type: week-future
+      unitPattern: 
+        content: བངུན་ཕྲག་ {0} ནང་
+        count: other
+    - 
+      type: week-past
+      unitPattern: 
+        content: བངུན་ཕྲག་ {0} ཧེ་མ་
+        count: other
+    - 
+      type: year
+      unitPattern: 
+        content: ལོ་འཁོར་ {0}
+        count: other
+    - 
+      type: year-future
+      unitPattern: 
+        content: ལོ་འཁོར་ {0} ནང་
+        count: other
+    - 
+      type: year-past
+      unitPattern: 
+        content: ལོ་འཁོར་ {0} ཧེ་མ་
+        count: other

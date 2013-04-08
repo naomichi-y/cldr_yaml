@@ -1,0 +1,448 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b c d e f g h i j k l m n o p q r s t u v w x y z]"
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE d MMMM y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM y G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMM y G
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/y GGGGG
+                  draft: unconfirmed
+              type: short
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE d MMMM y
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMMM y
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d MMM y
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: dd/MM/y
+                  draft: unconfirmed
+              type: short
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: a.m.
+                  type: am
+                - 
+                  content: p.m.
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: Sul
+                    type: sun
+                  - 
+                    content: Lun
+                    type: mon
+                  - 
+                    content: Mth
+                    type: tue
+                  - 
+                    content: Mhr
+                    type: wed
+                  - 
+                    content: Yow
+                    type: thu
+                  - 
+                    content: Gwe
+                    type: fri
+                  - 
+                    content: Sad
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: De Sul
+                    type: sun
+                  - 
+                    content: De Lun
+                    type: mon
+                  - 
+                    content: De Merth
+                    type: tue
+                  - 
+                    content: De Merher
+                    type: wed
+                  - 
+                    content: De Yow
+                    type: thu
+                  - 
+                    content: De Gwener
+                    type: fri
+                  - 
+                    content: De Sadorn
+                    type: sat
+                type: wide
+            type: format
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: RC
+                type: 0
+              - 
+                content: AD
+                type: 1
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: Gen
+                    type: 1
+                  - 
+                    content: Whe
+                    type: 2
+                  - 
+                    content: Mer
+                    type: 3
+                  - 
+                    content: Ebr
+                    type: 4
+                  - 
+                    content: Me
+                    type: 5
+                  - 
+                    content: Efn
+                    type: 6
+                  - 
+                    content: Gor
+                    type: 7
+                  - 
+                    content: Est
+                    type: 8
+                  - 
+                    content: Gwn
+                    type: 9
+                  - 
+                    content: Hed
+                    type: 10
+                  - 
+                    content: Du
+                    type: 11
+                  - 
+                    content: Kev
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: Mys Genver
+                    type: 1
+                  - 
+                    content: Mys Whevrel
+                    type: 2
+                  - 
+                    content: Mys Merth
+                    type: 3
+                  - 
+                    content: Mys Ebrel
+                    type: 4
+                  - 
+                    content: Mys Me
+                    type: 5
+                  - 
+                    content: Mys Efan
+                    type: 6
+                  - 
+                    content: Mys Gortheren
+                    type: 7
+                  - 
+                    content: Mye Est
+                    type: 8
+                  - 
+                    content: Mys Gwyngala
+                    type: 9
+                  - 
+                    content: Mys Hedra
+                    type: 10
+                  - 
+                    content: Mys Du
+                    type: 11
+                  - 
+                    content: Mys Kevardhu
+                    type: 12
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: Bledhen
+          draft: unconfirmed
+        type: year
+      - 
+        displayName: 
+          content: Mis
+          draft: unconfirmed
+        type: month
+      - 
+        displayName: 
+          content: Seythun
+          draft: unconfirmed
+        type: week
+      - 
+        displayName: 
+          content: Dedh
+          draft: unconfirmed
+        type: day
+      - 
+        displayName: 
+          content: Dedh an seythun
+          draft: unconfirmed
+        type: weekday
+      - 
+        displayName: 
+          content: AM/PM
+          draft: unconfirmed
+        type: dayperiod
+      - 
+        displayName: 
+          content: Eur
+          draft: unconfirmed
+        type: hour
+  timeZoneNames: 
+    zone: 
+      exemplarCity: 
+        content: Ankoth
+        draft: unconfirmed
+      type: Etc/Unknown
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: kw
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  keys: 
+    key: 
+      content: kalans
+      draft: unconfirmed
+      type: calendar
+  languages: 
+    language: 
+      - 
+        content: Arabek
+        draft: unconfirmed
+        type: ar
+      - 
+        content: Kembrek
+        draft: unconfirmed
+        type: cy
+      - 
+        content: Danek
+        draft: unconfirmed
+        type: da
+      - 
+        content: Almaynek
+        draft: unconfirmed
+        type: de
+      - 
+        content: Sowsnek
+        draft: unconfirmed
+        type: en
+      - 
+        content: Spaynek
+        draft: unconfirmed
+        type: es
+      - 
+        content: Baskek
+        draft: unconfirmed
+        type: eu
+      - 
+        content: Frenkek
+        draft: unconfirmed
+        type: fr
+      - 
+        content: Wordhonek
+        draft: unconfirmed
+        type: ga
+      - 
+        content: Italek
+        draft: unconfirmed
+        type: it
+      - 
+        content: Japanek
+        draft: unconfirmed
+        type: ja
+      - 
+        content: kernewek
+        type: kw
+      - 
+        content: Iseldiryek
+        draft: unconfirmed
+        type: nl
+      - 
+        content: Portyngalek
+        draft: unconfirmed
+        type: pt
+      - 
+        content: Portyngalek Brasil
+        draft: unconfirmed
+        type: pt_BR
+      - 
+        content: Russek
+        draft: unconfirmed
+        type: ru
+      - 
+        content: Kantonek
+        draft: unconfirmed
+        type: yue
+      - 
+        content: Chinek
+        draft: unconfirmed
+        type: zh
+      - 
+        content: Chinek sempel
+        draft: unconfirmed
+        type: zh_Hans
+      - 
+        content: Chînek Tradycyonal
+        draft: unconfirmed
+        type: zh_Hant
+  scripts: 
+    script: 
+      content: Arabek
+      draft: unconfirmed
+      type: Arab
+  territories: 
+    territory: 
+      - 
+        content: Brasil
+        draft: unconfirmed
+        type: BR
+      - 
+        content: China
+        draft: unconfirmed
+        type: CN
+      - 
+        content: Almayn
+        draft: unconfirmed
+        type: DE
+      - 
+        content: Pow Frenk
+        draft: unconfirmed
+        type: FR
+      - 
+        content: Rywvaneth Unys
+        type: GB
+      - 
+        content: Eynda
+        draft: unconfirmed
+        type: IN
+      - 
+        content: Itali
+        draft: unconfirmed
+        type: IT
+      - 
+        content: Japan
+        draft: unconfirmed
+        type: JP
+      - 
+        content: Russi
+        draft: unconfirmed
+        type: RU
+      - 
+        content: Statys Unys
+        draft: unconfirmed
+        type: US
+  types: 
+    type: 
+      content: Kalans gregorek
+      draft: unconfirmed
+      key: calendar
+      type: gregorian
+numbers: 
+  currencies: 
+    currency: 
+      displayName: 
+        content: Euro
+        draft: unconfirmed
+      type: EUR
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn

@@ -1,0 +1,7022 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      draft: unconfirmed
+      type: final
+    - 
+      content: …{0}
+      draft: unconfirmed
+      type: initial
+    - 
+      content: "{0}…{1}"
+      draft: unconfirmed
+      type: medial
+  exemplarCharacters: 
+    - "[a à b c d e é f g h i j k l m n o ó ò ô p q r s t u v w x y z æ ø å]"
+    - 
+      content: "[á ǎ č ç đ è ê ń ñ ŋ š ŧ ü ž ä ö]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d. MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d. MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d. MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.MM.yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d.
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              MEd: 
+                content: E d.M
+              MMMEd: 
+                content: E d. MMM
+              MMMMd: 
+                content: d. MMMM
+              MMMd: 
+                content: d. MMM
+              MMdd: 
+                content: d.M.
+              Md: 
+                content: d.M.
+              d: 
+                content: d.
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              yM: 
+                content: M y
+              yMEd: 
+                content: E d.M.y
+              yMM: 
+                content: MM.y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d. MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d. MMM y
+              yMd: 
+                content: d.M.y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              M: 
+                greatestDifference: 
+                  content: M.–M.
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd.MM.–E dd.MM.
+                  d: 
+                    content: E dd.MM.–E dd.MM.
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d. MMM–E d. MMM
+                  d: 
+                    content: E d.–E d. MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM
+                  d: 
+                    content: d.–d. MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM–dd.MM
+                  d: 
+                    content: dd.MM–dd.MM
+              d: 
+                greatestDifference: 
+                  content: d.–d.
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h–h a
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  content: h–h a v
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y–MM.y
+                  "y": 
+                    content: MM.y–MM.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd.MM.y–E dd.MM.y
+                  d: 
+                    content: E dd.MM.y–E dd.MM.y
+                  "y": 
+                    content: E dd.MM.y–E dd.MM.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y–MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d. MMM–E d. MMM y
+                  d: 
+                    content: E d.–E d. MMM y
+                  "y": 
+                    content: E d. MMM y–E d. MMM
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y–MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM y
+                  d: 
+                    content: d.–d. MMM y
+                  "y": 
+                    content: d. MMM y–d. MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y–dd.MM.y
+                  d: 
+                    content: dd.MM.y–dd.MM.y
+                  "y": 
+                    content: dd.MM.y–dd.MM.y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d. MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d. MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d. MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.MM.yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d.
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              MEd: 
+                content: E d.M
+              MMMEd: 
+                content: E d. MMM
+              MMMMd: 
+                content: d. MMMM
+              MMMd: 
+                content: d. MMM
+              MMdd: 
+                content: d.M.
+              Md: 
+                content: d.M.
+              d: 
+                content: d.
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              yM: 
+                content: M y
+              yMEd: 
+                content: E d.M.y
+              yMM: 
+                content: MM.y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d. MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d. MMM y
+              yMd: 
+                content: d.M.y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              M: 
+                greatestDifference: 
+                  content: M.–M.
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd.MM.–E dd.MM.
+                  d: 
+                    content: E dd.MM.–E dd.MM.
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d. MMM–E d. MMM
+                  d: 
+                    content: E d.–E d. MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM
+                  d: 
+                    content: d.–d. MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM–dd.MM
+                  d: 
+                    content: dd.MM–dd.MM
+              d: 
+                greatestDifference: 
+                  content: d.–d.
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h–h a
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  content: h–h a v
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y–MM.y
+                  "y": 
+                    content: MM.y–MM.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E dd.MM.y–E dd.MM.y
+                  d: 
+                    content: E dd.MM.y–E dd.MM.y
+                  "y": 
+                    content: E dd.MM.y–E dd.MM.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y–MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d. MMM–E d. MMM y
+                  d: 
+                    content: E d.–E d. MMM y
+                  "y": 
+                    content: E d. MMM y–E d. MMM
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y–MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM–d. MMM y
+                  d: 
+                    content: d.–d. MMM y
+                  "y": 
+                    content: d. MMM y–d. MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y–dd.MM.y
+                  d: 
+                    content: dd.MM.y–dd.MM.y
+                  "y": 
+                    content: dd.MM.y–dd.MM.y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: f.m.
+                    draft: unconfirmed
+                    type: am
+                  - 
+                    content: e.m.
+                    draft: unconfirmed
+                    type: pm
+                type: abbreviated
+              - 
+                dayPeriod: 
+                  - 
+                    content: f.m.
+                    draft: unconfirmed
+                    type: am
+                  - 
+                    content: e.m.
+                    draft: unconfirmed
+                    type: pm
+                type: narrow
+              - 
+                dayPeriod: 
+                  - 
+                    content: formiddag
+                    type: am
+                  - 
+                    content: ettermiddag
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: sø.
+                      type: sun
+                    - 
+                      content: må.
+                      type: mon
+                    - 
+                      content: ty.
+                      type: tue
+                    - 
+                      content: on.
+                      type: wed
+                    - 
+                      content: to.
+                      type: thu
+                    - 
+                      content: fr.
+                      type: fri
+                    - 
+                      content: la.
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: søndag
+                      type: sun
+                    - 
+                      content: måndag
+                      type: mon
+                    - 
+                      content: tysdag
+                      type: tue
+                    - 
+                      content: onsdag
+                      type: wed
+                    - 
+                      content: torsdag
+                      type: thu
+                    - 
+                      content: fredag
+                      type: fri
+                    - 
+                      content: laurdag
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: søn
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: mån
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: tys
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: ons
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: tor
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: fre
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: lau
+                      draft: unconfirmed
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: S
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: O
+                      type: wed
+                    - 
+                      content: T
+                      type: thu
+                    - 
+                      content: F
+                      type: fri
+                    - 
+                      content: L
+                      type: sat
+                  type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: f.Kr.
+                type: 0
+              - 
+                content: e.Kr.
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: f.Kr.
+                type: 0
+              - 
+                content: e.Kr.
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: jan.
+                      type: 1
+                    - 
+                      content: feb.
+                      type: 2
+                    - 
+                      content: mars
+                      type: 3
+                    - 
+                      content: apr.
+                      type: 4
+                    - 
+                      content: mai
+                      type: 5
+                    - 
+                      content: juni
+                      type: 6
+                    - 
+                      content: juli
+                      type: 7
+                    - 
+                      content: aug.
+                      type: 8
+                    - 
+                      content: sep.
+                      type: 9
+                    - 
+                      content: okt.
+                      type: 10
+                    - 
+                      content: nov.
+                      type: 11
+                    - 
+                      content: des.
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: januar
+                      type: 1
+                    - 
+                      content: februar
+                      type: 2
+                    - 
+                      content: mars
+                      type: 3
+                    - 
+                      content: april
+                      type: 4
+                    - 
+                      content: mai
+                      type: 5
+                    - 
+                      content: juni
+                      type: 6
+                    - 
+                      content: juli
+                      type: 7
+                    - 
+                      content: august
+                      type: 8
+                    - 
+                      content: september
+                      type: 9
+                    - 
+                      content: oktober
+                      type: 10
+                    - 
+                      content: november
+                      type: 11
+                    - 
+                      content: desember
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: jan
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: feb
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: mar
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: apr
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: mai
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: jun
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: jul
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: aug
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: sep
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: okt
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: nov
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: des
+                      draft: unconfirmed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      type: 1
+                    - 
+                      content: F
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: A
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: J
+                      type: 6
+                    - 
+                      content: J
+                      type: 7
+                    - 
+                      content: A
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: D
+                      type: 12
+                  type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: K1
+                    type: 1
+                  - 
+                    content: K2
+                    type: 2
+                  - 
+                    content: K3
+                    type: 3
+                  - 
+                    content: K4
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: 1. kvartal
+                    type: 1
+                  - 
+                    content: 2. kvartal
+                    type: 2
+                  - 
+                    content: 3. kvartal
+                    type: 3
+                  - 
+                    content: 4. kvartal
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: "'kl'. HH:mm:ss zzzz"
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: æra
+        type: era
+      - 
+        displayName: år
+        type: year
+      - 
+        displayName: månad
+        type: month
+      - 
+        displayName: veke
+        type: week
+      - 
+        displayName: dag
+        relative: 
+          - 
+            content: i forgårs
+            type: -2
+          - 
+            content: i går
+            type: -1
+          - 
+            content: i dag
+            type: 0
+          - 
+            content: i morgon
+            type: 1
+          - 
+            content: i overmorgon
+            type: 2
+        type: day
+      - 
+        displayName: vekedag
+        type: weekday
+      - 
+        displayName: f.m./e.m.-val
+        type: dayperiod
+      - 
+        displayName: time
+        type: hour
+      - 
+        displayName: minutt
+        type: minute
+      - 
+        displayName: sekund
+        type: second
+      - 
+        displayName: sone
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    gmtFormat: GMT{0}
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: sentralafrikansk tid
+        type: Africa_Central
+      - 
+        long: 
+          standard: austafrikansk tid
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: sørafrikansk tid
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: vestafrikansk sommartid
+          generic: vestafrikansk tid
+          standard: vestafrikansk standardtid
+        type: Africa_Western
+      - 
+        long: 
+          daylight: sentralaustralsk sommartid
+          generic: sentralaustralsk tid
+          standard: sentralaustralsk standardtid
+        type: Australia_Central
+      - 
+        long: 
+          daylight: vest-sentralaustralsk sommartid
+          generic: vest-sentralaustralsk tid
+          standard: vest-sentralaustralsk standardtid
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: austaustralsk sommartid
+          generic: austaustralsk tid
+          standard: austaustralsk standardtid
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: vestaustralsk sommartid
+          generic: vestaustralsk tid
+          standard: vestaustralsk standardtid
+        type: Australia_Western
+      - 
+        long: 
+          daylight: sentraleuropeisk sommartid
+          generic: sentraleuropeisk tid
+          standard: sentraleuropeisk standardtid
+        short: 
+          daylight: CEST
+          generic: CET
+          standard: CET
+        type: Europe_Central
+      - 
+        long: 
+          daylight: austeuropeisk sommartid
+          generic: austeuropeisk tid
+          standard: austeuropeisk standardtid
+        short: 
+          daylight: EEST
+          generic: EET
+          standard: EET
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: vesteuropeisk sommartid
+          generic: vesteuropeisk tid
+          standard: vesteuropeisk standardtid
+        short: 
+          daylight: WEST
+          generic: WET
+          standard: WET
+        type: Europe_Western
+      - 
+        long: 
+          standard: greenwich middeltid
+        type: GMT
+    zone: 
+      - 
+        exemplarCity: ukjend
+        type: Etc/Unknown
+      - 
+        exemplarCity: Sørpolen
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: Belém
+        type: America/Belem
+      - 
+        exemplarCity: Påskeøya
+        type: Pacific/Easter
+      - 
+        exemplarCity: 
+          content: Kapp Verde
+          draft: unconfirmed
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: 
+          content: Curaçao
+          draft: unconfirmed
+        type: America/Curacao
+      - 
+        exemplarCity: 
+          content: København
+          draft: unconfirmed
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: Kanariøyane
+        type: Atlantic/Canary
+      - 
+        exemplarCity: 
+          content: Færøyane
+          draft: unconfirmed
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: Godthåb
+        type: America/Godthab
+      - 
+        exemplarCity: 
+          content: Hongkong
+          draft: unconfirmed
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: 
+          content: Luxemburg
+          draft: unconfirmed
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: Ulan Bator
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: 
+          content: Maldivane
+          draft: unconfirmed
+        type: Indian/Maldives
+      - 
+        exemplarCity: Mexico by
+        type: America/Mexico_City
+      - 
+        exemplarCity: Cancún
+        type: America/Cancun
+      - 
+        exemplarCity: Azorane
+        type: Atlantic/Azores
+      - 
+        exemplarCity: Lisboa
+        type: Europe/Lisbon
+      - 
+        exemplarCity: 
+          content: Réunion
+          draft: unconfirmed
+        type: Indian/Reunion
+      - 
+        exemplarCity: Moskva
+        type: Europe/Moscow
+      - 
+        exemplarCity: 
+          content: São Tomé
+          draft: unconfirmed
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: Center, Nord-Dakota
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: Tasjkent
+        type: Asia/Tashkent
+      - 
+        exemplarCity: 
+          content: Ho Chi Minh-byen
+          draft: unconfirmed
+        type: Asia/Saigon
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 14:24:27 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: nn
+  version: 
+    number: "$Revision: 8247 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} og {1}"
+        draft: contributed
+        type: 2
+      - 
+        content: "{0} og {1}"
+        draft: contributed
+        type: end
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Språk: {0}"
+        type: language
+      - 
+        content: "Skrift: {0}"
+        type: script
+      - 
+        content: "Område: {0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: kalender
+        type: calendar
+      - 
+        content: kollasjon
+        type: collation
+      - 
+        content: valuta
+        type: currency
+      - 
+        content: tal
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: afar
+        type: aa
+      - 
+        content: abkhasisk
+        type: ab
+      - 
+        content: achinesisk
+        type: ace
+      - 
+        content: acoli
+        type: ach
+      - 
+        content: adangme
+        type: ada
+      - 
+        content: adyghe
+        type: ady
+      - 
+        content: avestisk
+        type: ae
+      - 
+        content: afrikaans
+        type: af
+      - 
+        content: afroasiatisk språk
+        type: afa
+      - 
+        content: afrihili
+        type: afh
+      - 
+        content: aghem
+        type: agq
+      - 
+        content: ainu
+        type: ain
+      - 
+        content: akan
+        type: ak
+      - 
+        content: akkadisk
+        type: akk
+      - 
+        content: aleutisk
+        type: ale
+      - 
+        content: algonkinsk språk
+        type: alg
+      - 
+        content: sør-altai
+        type: alt
+      - 
+        content: amharisk
+        type: am
+      - 
+        content: aragonsk
+        type: an
+      - 
+        content: gammalengelsk
+        type: ang
+      - 
+        content: angika
+        type: anp
+      - 
+        content: apache-språk
+        type: apa
+      - 
+        content: arabisk
+        type: ar
+      - 
+        content: arameisk
+        type: arc
+      - 
+        content: araukansk
+        type: arn
+      - 
+        content: arapaho
+        type: arp
+      - 
+        content: kunstig språk
+        type: art
+      - 
+        content: arawak
+        type: arw
+      - 
+        content: assamisk
+        type: as
+      - 
+        content: asu (Tanzania)
+        type: asa
+      - 
+        content: asturisk
+        type: ast
+      - 
+        content: athapaskansk språk
+        type: ath
+      - 
+        content: australsk språk
+        type: aus
+      - 
+        content: avarisk
+        type: av
+      - 
+        content: awadhi
+        type: awa
+      - 
+        content: aymara
+        type: ay
+      - 
+        content: aserbajdsjansk
+        type: az
+      - 
+        content: basjkirsk
+        type: ba
+      - 
+        content: banda
+        type: bad
+      - 
+        content: bamilekisk språk
+        type: bai
+      - 
+        content: baluchi
+        type: bal
+      - 
+        content: balinesisk
+        type: ban
+      - 
+        content: basa
+        type: bas
+      - 
+        content: baltisk språk
+        type: bat
+      - 
+        content: bamun
+        draft: unconfirmed
+        type: bax
+      - 
+        content: kviterussisk
+        type: be
+      - 
+        content: beja
+        type: bej
+      - 
+        content: bemba
+        type: bem
+      - 
+        content: berbisk
+        type: ber
+      - 
+        content: bena (Tanzania)
+        type: bez
+      - 
+        content: bulgarsk
+        type: bg
+      - 
+        content: bihari
+        type: bh
+      - 
+        content: bhojpuri
+        type: bho
+      - 
+        content: bislama
+        type: bi
+      - 
+        content: bikol
+        type: bik
+      - 
+        content: bini
+        type: bin
+      - 
+        content: siksika
+        type: bla
+      - 
+        content: bambara
+        type: bm
+      - 
+        content: bengali
+        type: bn
+      - 
+        content: bantu
+        type: bnt
+      - 
+        content: tibetansk
+        type: bo
+      - 
+        content: bretonsk
+        type: br
+      - 
+        content: braj
+        type: bra
+      - 
+        content: bodo
+        type: brx
+      - 
+        content: bosnisk
+        type: bs
+      - 
+        content: bakossi
+        draft: unconfirmed
+        type: bss
+      - 
+        content: batak
+        type: btk
+      - 
+        content: burjatisk
+        type: bua
+      - 
+        content: buginesisk
+        type: bug
+      - 
+        content: blin
+        type: byn
+      - 
+        content: katalansk
+        type: ca
+      - 
+        content: caddo
+        type: cad
+      - 
+        content: sentralamerikansk indiansk språk
+        type: cai
+      - 
+        content: karibisk
+        type: car
+      - 
+        content: kaukasisk språk
+        type: cau
+      - 
+        content: atsam
+        type: cch
+      - 
+        content: tsjetsjensk
+        type: ce
+      - 
+        content: cebuansk
+        type: ceb
+      - 
+        content: keltisk språk
+        type: cel
+      - 
+        content: chamorro
+        type: ch
+      - 
+        content: chibcha
+        type: chb
+      - 
+        content: chagatai
+        type: chg
+      - 
+        content: chuukesisk
+        type: chk
+      - 
+        content: mari
+        type: chm
+      - 
+        content: chinook
+        type: chn
+      - 
+        content: choctaw
+        type: cho
+      - 
+        content: chipewiansk
+        type: chp
+      - 
+        content: cherokee
+        type: chr
+      - 
+        content: cheyenne
+        type: chy
+      - 
+        content: kamisk språk
+        type: cmc
+      - 
+        content: korsikansk
+        type: co
+      - 
+        content: koptisk
+        type: cop
+      - 
+        content: engelskbasert kreol- eller pidginspråk
+        type: cpe
+      - 
+        content: franskbasert kreol- eller pidginspråk
+        type: cpf
+      - 
+        content: portugisiskbasert kreol- eller pidginspråk
+        type: cpp
+      - 
+        content: cree
+        type: cr
+      - 
+        content: krimtatarisk
+        type: crh
+      - 
+        content: kreol- eller pidginspråk
+        type: crp
+      - 
+        content: tsjekkisk
+        type: cs
+      - 
+        content: kasjubisk
+        type: csb
+      - 
+        content: kyrkjeslavisk
+        type: cu
+      - 
+        content: kusjitisk språk
+        type: cus
+      - 
+        content: tsjuvansk
+        type: cv
+      - 
+        content: walisisk
+        type: cy
+      - 
+        content: dansk
+        type: da
+      - 
+        content: dakota
+        type: dak
+      - 
+        content: dargwa
+        type: dar
+      - 
+        content: dayak
+        type: day
+      - 
+        content: tysk
+        type: de
+      - 
+        content: austerriksk tysk
+        type: de_AT
+      - 
+        content: sveitsisk høgtysk
+        type: de_CH
+      - 
+        content: delaware
+        type: del
+      - 
+        content: slavej
+        type: den
+      - 
+        content: dogrib
+        type: dgr
+      - 
+        content: dinka
+        type: din
+      - 
+        content: zarma
+        type: dje
+      - 
+        content: dogri
+        type: doi
+      - 
+        content: dravidisk språk
+        type: dra
+      - 
+        content: lågsorbisk
+        type: dsb
+      - 
+        content: duala
+        type: dua
+      - 
+        content: mellumnederlandsk
+        type: dum
+      - 
+        content: divehi
+        type: dv
+      - 
+        content: jola-fonyi
+        type: dyo
+      - 
+        content: dyula
+        type: dyu
+      - 
+        content: dzongkha
+        type: dz
+      - 
+        content: kiembu
+        type: ebu
+      - 
+        content: ewe
+        type: ee
+      - 
+        content: efik
+        type: efi
+      - 
+        content: gammalegyptisk
+        type: egy
+      - 
+        content: ekajuk
+        type: eka
+      - 
+        content: gresk
+        type: el
+      - 
+        content: elamittisk
+        type: elx
+      - 
+        content: engelsk
+        type: en
+      - 
+        content: australisk engelsk
+        type: en_AU
+      - 
+        content: kanadisk engelsk
+        type: en_CA
+      - 
+        content: britisk engelsk
+        type: en_GB
+      - 
+        content: engelsk (amerikansk)
+        type: en_US
+      - 
+        content: mellomengelsk
+        type: enm
+      - 
+        content: esperanto
+        type: eo
+      - 
+        content: spansk
+        type: es
+      - 
+        content: latinamerikansk spansk
+        type: es_419
+      - 
+        content: iberisk spansk
+        type: es_ES
+      - 
+        content: estisk
+        type: et
+      - 
+        content: baskisk
+        type: eu
+      - 
+        content: ewondo
+        type: ewo
+      - 
+        content: persisk
+        type: fa
+      - 
+        content: fang
+        type: fan
+      - 
+        content: fanti
+        type: fat
+      - 
+        content: fulani
+        type: ff
+      - 
+        content: finsk
+        type: fi
+      - 
+        content: filippinsk
+        type: fil
+      - 
+        content: finsk-ugrisk språk
+        type: fiu
+      - 
+        content: fijiansk
+        type: fj
+      - 
+        content: færøysk
+        type: fo
+      - 
+        content: fon
+        type: fon
+      - 
+        content: fransk
+        type: fr
+      - 
+        content: kanadisk fransk
+        type: fr_CA
+      - 
+        content: sveitsisk fransk
+        type: fr_CH
+      - 
+        content: mellomfransk
+        type: frm
+      - 
+        content: gammalfransk
+        type: fro
+      - 
+        content: nordfrisisk
+        type: frr
+      - 
+        content: austfrisisk
+        type: frs
+      - 
+        content: friuliansk
+        type: fur
+      - 
+        content: vestfrisisk
+        type: fy
+      - 
+        content: irsk
+        type: ga
+      - 
+        content: ga
+        type: gaa
+      - 
+        content: gayo
+        type: gay
+      - 
+        content: gbaya
+        type: gba
+      - 
+        content: skotsk-gælisk
+        type: gd
+      - 
+        content: germansk språk
+        type: gem
+      - 
+        content: ges
+        type: gez
+      - 
+        content: kiribatisk
+        type: gil
+      - 
+        content: galicisk
+        type: gl
+      - 
+        content: mellomhøgtysk
+        type: gmh
+      - 
+        content: guarani
+        type: gn
+      - 
+        content: gammalhøgtysk
+        type: goh
+      - 
+        content: gondi
+        type: gon
+      - 
+        content: gorontalo
+        type: gor
+      - 
+        content: gotisk
+        type: got
+      - 
+        content: grebo
+        type: grb
+      - 
+        content: gammalgresk
+        type: grc
+      - 
+        content: sveitsertysk
+        type: gsw
+      - 
+        content: gujarati
+        type: gu
+      - 
+        content: manx
+        type: gv
+      - 
+        content: gwichin
+        type: gwi
+      - 
+        content: hausa
+        type: ha
+      - 
+        content: haida
+        type: hai
+      - 
+        content: hawaiisk
+        type: haw
+      - 
+        content: hebraisk
+        type: he
+      - 
+        content: hindi
+        type: hi
+      - 
+        content: hiligaynon
+        type: hil
+      - 
+        content: himachali
+        type: him
+      - 
+        content: hettittisk
+        type: hit
+      - 
+        content: hmong
+        type: hmn
+      - 
+        content: hiri motu
+        type: ho
+      - 
+        content: kroatisk
+        type: hr
+      - 
+        content: høgsorbisk
+        type: hsb
+      - 
+        content: haitisk
+        type: ht
+      - 
+        content: ungarsk
+        type: hu
+      - 
+        content: hupa
+        type: hup
+      - 
+        content: armensk
+        type: hy
+      - 
+        content: herero
+        type: hz
+      - 
+        content: interlingua
+        type: ia
+      - 
+        content: iban
+        type: iba
+      - 
+        content: ibibio
+        draft: unconfirmed
+        type: ibb
+      - 
+        content: indonesisk
+        type: id
+      - 
+        content: interlingue
+        type: ie
+      - 
+        content: ibo
+        type: ig
+      - 
+        content: sichuan-yi
+        type: ii
+      - 
+        content: ijo
+        type: ijo
+      - 
+        content: inupiak
+        type: ik
+      - 
+        content: iloko
+        type: ilo
+      - 
+        content: indisk språk
+        type: inc
+      - 
+        content: indo-europeisk språk
+        type: ine
+      - 
+        content: ingusjisk
+        type: inh
+      - 
+        content: ido
+        type: io
+      - 
+        content: iransk språk
+        type: ira
+      - 
+        content: irokansk språk
+        type: iro
+      - 
+        content: islandsk
+        type: is
+      - 
+        content: italiensk
+        type: it
+      - 
+        content: inuktitut
+        type: iu
+      - 
+        content: japansk
+        type: ja
+      - 
+        content: lojban
+        type: jbo
+      - 
+        content: jødepersisk
+        type: jpr
+      - 
+        content: jødearabisk
+        type: jrb
+      - 
+        content: javanesisk
+        type: jv
+      - 
+        content: georgisk
+        type: ka
+      - 
+        content: karakalpakisk
+        type: kaa
+      - 
+        content: kabylsk
+        type: kab
+      - 
+        content: kachin
+        type: kac
+      - 
+        content: jju
+        type: kaj
+      - 
+        content: kamba
+        type: kam
+      - 
+        content: karensk
+        type: kar
+      - 
+        content: kawi
+        type: kaw
+      - 
+        content: kabardisk
+        type: kbd
+      - 
+        content: tyap
+        type: kcg
+      - 
+        content: kapverdisk
+        type: kea
+      - 
+        content: koro
+        type: kfo
+      - 
+        content: kikongo
+        type: kg
+      - 
+        content: khasi
+        type: kha
+      - 
+        content: khoisanspråk
+        type: khi
+      - 
+        content: khotanesisk
+        type: kho
+      - 
+        content: kikuyu
+        type: ki
+      - 
+        content: kuanyama
+        type: kj
+      - 
+        content: kasakhisk
+        type: kk
+      - 
+        content: kako
+        draft: unconfirmed
+        type: kkj
+      - 
+        content: kalaallisut; grønlandsk
+        type: kl
+      - 
+        content: khmer
+        type: km
+      - 
+        content: kimbundu
+        type: kmb
+      - 
+        content: kannada
+        type: kn
+      - 
+        content: koreansk
+        type: ko
+      - 
+        content: konkani
+        type: kok
+      - 
+        content: kosraeansk
+        type: kos
+      - 
+        content: kpelle
+        type: kpe
+      - 
+        content: kanuri
+        type: kr
+      - 
+        content: karachay-balkar
+        type: krc
+      - 
+        content: karelsk
+        type: krl
+      - 
+        content: kru
+        type: kro
+      - 
+        content: kurukh
+        type: kru
+      - 
+        content: kasjmiri
+        type: ks
+      - 
+        content: bafia
+        type: ksf
+      - 
+        content: kurdisk
+        type: ku
+      - 
+        content: kumyk
+        type: kum
+      - 
+        content: kutenai
+        type: kut
+      - 
+        content: komi
+        type: kv
+      - 
+        content: kornisk
+        type: kw
+      - 
+        content: kirgisisk
+        type: ky
+      - 
+        content: latin
+        type: la
+      - 
+        content: ladinsk
+        type: lad
+      - 
+        content: lahnda
+        type: lah
+      - 
+        content: lamba
+        type: lam
+      - 
+        content: luxemburgsk
+        type: lb
+      - 
+        content: lezghian
+        type: lez
+      - 
+        content: ganda
+        type: lg
+      - 
+        content: limburgisk
+        type: li
+      - 
+        content: lingala
+        type: ln
+      - 
+        content: laotisk
+        type: lo
+      - 
+        content: mongo
+        type: lol
+      - 
+        content: lozi
+        type: loz
+      - 
+        content: litauisk
+        type: lt
+      - 
+        content: luba-katanga
+        type: lu
+      - 
+        content: luba-lulua
+        type: lua
+      - 
+        content: luiseno
+        type: lui
+      - 
+        content: lunda
+        type: lun
+      - 
+        content: luo
+        type: luo
+      - 
+        content: lushai
+        type: lus
+      - 
+        content: olulujia
+        draft: unconfirmed
+        type: luy
+      - 
+        content: latvisk
+        type: lv
+      - 
+        content: maduresisk
+        type: mad
+      - 
+        content: magahi
+        type: mag
+      - 
+        content: maithili
+        type: mai
+      - 
+        content: makasar
+        type: mak
+      - 
+        content: mandingo
+        type: man
+      - 
+        content: austronesisk språk
+        type: map
+      - 
+        content: masai
+        type: mas
+      - 
+        content: moksha
+        type: mdf
+      - 
+        content: mandar
+        type: mdr
+      - 
+        content: mende
+        type: men
+      - 
+        content: madagassisk
+        type: mg
+      - 
+        content: mellomirsk
+        type: mga
+      - 
+        content: marshallesisk
+        type: mh
+      - 
+        content: maori
+        type: mi
+      - 
+        content: micmac
+        type: mic
+      - 
+        content: minangkabau
+        type: min
+      - 
+        content: anna språk
+        type: mis
+      - 
+        content: makedonsk
+        type: mk
+      - 
+        content: mon-khmerspråk
+        type: mkh
+      - 
+        content: malayalam
+        type: ml
+      - 
+        content: mongolsk
+        type: mn
+      - 
+        content: mandsju
+        type: mnc
+      - 
+        content: manipuri
+        type: mni
+      - 
+        content: manobospråk
+        type: mno
+      - 
+        content: moldavisk
+        type: mo
+      - 
+        content: mohawk
+        type: moh
+      - 
+        content: mossi
+        type: mos
+      - 
+        content: marathi
+        type: mr
+      - 
+        content: malayisk
+        type: ms
+      - 
+        content: maltesisk
+        type: mt
+      - 
+        content: mundang
+        type: mua
+      - 
+        content: fleire språk
+        type: mul
+      - 
+        content: mundaspråk
+        type: mun
+      - 
+        content: creek
+        type: mus
+      - 
+        content: mirandesisk
+        type: mwl
+      - 
+        content: marwari
+        type: mwr
+      - 
+        content: burmesisk
+        type: my
+      - 
+        content: mayaspråk
+        type: myn
+      - 
+        content: erzya
+        type: myv
+      - 
+        content: nauru
+        type: na
+      - 
+        content: nahuatl
+        type: nah
+      - 
+        content: nordamerikansk indiansk språk
+        type: nai
+      - 
+        content: napolitansk
+        type: nap
+      - 
+        content: bokmål
+        type: nb
+      - 
+        content: nord-ndebele
+        type: nd
+      - 
+        content: lågtysk
+        type: nds
+      - 
+        content: nepalsk
+        type: ne
+      - 
+        content: newari
+        type: new
+      - 
+        content: ndonga
+        type: ng
+      - 
+        content: nias
+        type: nia
+      - 
+        content: niger-kordofaniansk språk
+        type: nic
+      - 
+        content: niueansk
+        type: niu
+      - 
+        content: nederlandsk
+        type: nl
+      - 
+        content: flamsk
+        type: nl_BE
+      - 
+        content: kwasio
+        type: nmg
+      - 
+        content: nynorsk
+        type: nn
+      - 
+        content: norsk
+        type: 'no'
+      - 
+        content: nogai
+        type: nog
+      - 
+        content: gammalnorsk
+        type: non
+      - 
+        content: n'ko
+        type: nqo
+      - 
+        content: sør-ndebele
+        type: nr
+      - 
+        content: nordsotho
+        type: nso
+      - 
+        content: nubisk språk
+        type: nub
+      - 
+        content: nuer
+        type: nus
+      - 
+        content: navajo
+        type: nv
+      - 
+        content: klassisk newarisk
+        type: nwc
+      - 
+        content: nyanja
+        type: ny
+      - 
+        content: nyamwezi
+        type: nym
+      - 
+        content: nyankole
+        type: nyn
+      - 
+        content: nyoro
+        type: nyo
+      - 
+        content: nzima
+        type: nzi
+      - 
+        content: oksitansk
+        type: oc
+      - 
+        content: ojibwa
+        type: oj
+      - 
+        content: oromo
+        type: om
+      - 
+        content: oriya
+        type: or
+      - 
+        content: ossetisk
+        type: os
+      - 
+        content: osage
+        type: osa
+      - 
+        content: ottomansk tyrkisk
+        type: ota
+      - 
+        content: otomisk språk
+        type: oto
+      - 
+        content: panjabi
+        type: pa
+      - 
+        content: papuisk språk
+        type: paa
+      - 
+        content: pangasinan
+        type: pag
+      - 
+        content: pahlavi
+        type: pal
+      - 
+        content: pampanga
+        type: pam
+      - 
+        content: papiamento
+        type: pap
+      - 
+        content: palauisk
+        type: pau
+      - 
+        content: gammalpersisk
+        type: peo
+      - 
+        content: filippinsk språk
+        type: phi
+      - 
+        content: fønikisk
+        type: phn
+      - 
+        content: pali
+        type: pi
+      - 
+        content: polsk
+        type: pl
+      - 
+        content: ponapisk
+        type: pon
+      - 
+        content: prakrit-språk
+        type: pra
+      - 
+        content: gammalprovençalsk
+        type: pro
+      - 
+        content: pashto
+        type: ps
+      - 
+        content: portugisisk
+        type: pt
+      - 
+        content: brasiliansk portugisisk
+        type: pt_BR
+      - 
+        content: europeisk portugisisk
+        type: pt_PT
+      - 
+        content: quechua
+        type: qu
+      - 
+        content: rajasthani
+        type: raj
+      - 
+        content: rapanui
+        type: rap
+      - 
+        content: rarotongansk
+        type: rar
+      - 
+        content: retoromansk
+        type: rm
+      - 
+        content: rundi
+        type: rn
+      - 
+        content: rumensk
+        type: ro
+      - 
+        content: romansk språk
+        type: roa
+      - 
+        content: rombo
+        type: rof
+      - 
+        content: romani
+        type: rom
+      - 
+        content: rot
+        type: root
+      - 
+        content: russisk
+        type: ru
+      - 
+        content: aromansk
+        type: rup
+      - 
+        content: kinjarwanda
+        type: rw
+      - 
+        content: rwa
+        type: rwk
+      - 
+        content: sanskrit
+        type: sa
+      - 
+        content: sandawe
+        type: sad
+      - 
+        content: jakutsk
+        type: sah
+      - 
+        content: søramerikansk indiansk språk
+        type: sai
+      - 
+        content: salishansk språk
+        type: sal
+      - 
+        content: samaritansk arameisk
+        type: sam
+      - 
+        content: sasak
+        type: sas
+      - 
+        content: santali
+        type: sat
+      - 
+        content: sangu
+        type: sbp
+      - 
+        content: sardinsk
+        type: sc
+      - 
+        content: siciliansk
+        type: scn
+      - 
+        content: skotsk
+        type: sco
+      - 
+        content: sindhi
+        type: sd
+      - 
+        content: nordsamisk
+        type: se
+      - 
+        content: selkupisk
+        type: sel
+      - 
+        content: semittisk språk
+        type: sem
+      - 
+        content: sango
+        type: sg
+      - 
+        content: gammalirsk
+        type: sga
+      - 
+        content: teiknspråk
+        type: sgn
+      - 
+        content: serbokroatisk
+        type: sh
+      - 
+        content: shan
+        type: shn
+      - 
+        content: singalesisk
+        type: si
+      - 
+        content: sidamo
+        type: sid
+      - 
+        content: sioux-språk
+        type: sio
+      - 
+        content: sino-tibetansk språk
+        type: sit
+      - 
+        content: slovakisk
+        type: sk
+      - 
+        content: slovensk
+        type: sl
+      - 
+        content: slavisk språk
+        type: sla
+      - 
+        content: samoansk
+        type: sm
+      - 
+        content: sørsamisk
+        type: sma
+      - 
+        content: samisk språk
+        type: smi
+      - 
+        content: lulesamisk
+        type: smj
+      - 
+        content: enaresamisk
+        type: smn
+      - 
+        content: skoltesamisk
+        type: sms
+      - 
+        content: shona
+        type: sn
+      - 
+        content: soninke
+        type: snk
+      - 
+        content: somali
+        type: so
+      - 
+        content: sogdisk
+        type: sog
+      - 
+        content: songhai
+        type: son
+      - 
+        content: albansk
+        type: sq
+      - 
+        content: serbisk
+        type: sr
+      - 
+        content: sranan tongo
+        type: srn
+      - 
+        content: serer
+        type: srr
+      - 
+        content: swati
+        type: ss
+      - 
+        content: nilo-saharaspråk
+        type: ssa
+      - 
+        content: sørsotho
+        type: st
+      - 
+        content: sundanesisk
+        type: su
+      - 
+        content: sukuma
+        type: suk
+      - 
+        content: susu
+        type: sus
+      - 
+        content: sumerisk
+        type: sux
+      - 
+        content: svensk
+        type: sv
+      - 
+        content: swahili
+        type: sw
+      - 
+        content: shimaore
+        type: swb
+      - 
+        content: klassisk syrisk
+        type: syc
+      - 
+        content: syrisk
+        type: syr
+      - 
+        content: tamil
+        type: ta
+      - 
+        content: taispråk
+        type: tai
+      - 
+        content: telugu
+        type: te
+      - 
+        content: temne
+        type: tem
+      - 
+        content: tereno
+        type: ter
+      - 
+        content: tetum
+        type: tet
+      - 
+        content: tatsjikisk
+        type: tg
+      - 
+        content: thai
+        type: th
+      - 
+        content: tigrinja
+        type: ti
+      - 
+        content: tigré
+        type: tig
+      - 
+        content: tivi
+        type: tiv
+      - 
+        content: turkmensk
+        type: tk
+      - 
+        content: tokelau
+        type: tkl
+      - 
+        content: tagalog
+        type: tl
+      - 
+        content: klingon
+        type: tlh
+      - 
+        content: tlingit
+        type: tli
+      - 
+        content: tamasjek
+        type: tmh
+      - 
+        content: tswana
+        type: tn
+      - 
+        content: tonga (Tonga-øyane)
+        type: to
+      - 
+        content: tonga (Nyasa)
+        type: tog
+      - 
+        content: tok pisin
+        type: tpi
+      - 
+        content: tyrkisk
+        type: tr
+      - 
+        content: tsonga
+        type: ts
+      - 
+        content: tsimshian
+        type: tsi
+      - 
+        content: tatarisk
+        type: tt
+      - 
+        content: tumbuka
+        type: tum
+      - 
+        content: tupi-språk
+        type: tup
+      - 
+        content: altaisk språk
+        type: tut
+      - 
+        content: tuvalu
+        type: tvl
+      - 
+        content: twi
+        type: tw
+      - 
+        content: tasawaq
+        type: twq
+      - 
+        content: tahitisk
+        type: ty
+      - 
+        content: tuvinisk
+        type: tyv
+      - 
+        content: udmurt
+        type: udm
+      - 
+        content: uigurisk
+        type: ug
+      - 
+        content: ugaritisk
+        type: uga
+      - 
+        content: ukrainsk
+        type: uk
+      - 
+        content: umbundu
+        type: umb
+      - 
+        content: ukjent språk
+        type: und
+      - 
+        content: urdu
+        type: ur
+      - 
+        content: usbekisk
+        type: uz
+      - 
+        content: vai
+        type: vai
+      - 
+        content: venda
+        type: ve
+      - 
+        content: vietnamesisk
+        type: vi
+      - 
+        content: volapyk
+        type: vo
+      - 
+        content: votisk
+        type: vot
+      - 
+        content: vallonsk
+        type: wa
+      - 
+        content: wakasjansk språk
+        type: wak
+      - 
+        content: walamo
+        type: wal
+      - 
+        content: waray
+        type: war
+      - 
+        content: washo
+        type: was
+      - 
+        content: sorbisk språk
+        type: wen
+      - 
+        content: wolof
+        type: wo
+      - 
+        content: kalmyk
+        type: xal
+      - 
+        content: xhosa
+        type: xh
+      - 
+        content: yao
+        type: yao
+      - 
+        content: yapesisk
+        type: yap
+      - 
+        content: yangben
+        type: yav
+      - 
+        content: jiddisk
+        type: yi
+      - 
+        content: joruba
+        type: yo
+      - 
+        content: jupisk språk
+        type: ypk
+      - 
+        content: kantonesisk
+        type: yue
+      - 
+        content: zhuang
+        type: za
+      - 
+        content: zapotec
+        type: zap
+      - 
+        content: blissymbol
+        type: zbl
+      - 
+        content: zenaga
+        type: zen
+      - 
+        content: kinesisk
+        type: zh
+      - 
+        content: forenkla kinesisk
+        type: zh_Hans
+      - 
+        content: tradisjonell kinesisk
+        type: zh_Hant
+      - 
+        content: zande
+        type: znd
+      - 
+        content: zulu
+        type: zu
+      - 
+        content: zuni
+        type: zun
+      - 
+        content: utan språkleg innhald
+        type: zxx
+      - 
+        content: zaza
+        type: zza
+  localeDisplayPattern: 
+    localeKeyTypePattern: 
+      content: "{0}: {1}"
+      draft: unconfirmed
+    localePattern: "{0} ({1})"
+    localeSeparator: ", "
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: metrisk
+        type: metric
+      - 
+        content: engelsk
+        type: UK
+      - 
+        content: amerikansk
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: arabisk
+        type: Arab
+      - 
+        content: armisk
+        type: Armi
+      - 
+        content: armensk
+        type: Armn
+      - 
+        content: avestisk
+        type: Avst
+      - 
+        content: balinesisk
+        type: Bali
+      - 
+        content: bamun
+        draft: unconfirmed
+        type: Bamu
+      - 
+        content: batak
+        type: Batk
+      - 
+        content: bengali
+        type: Beng
+      - 
+        content: blissymbol
+        type: Blis
+      - 
+        content: bopomofo
+        type: Bopo
+      - 
+        content: brahmi
+        type: Brah
+      - 
+        content: braille
+        type: Brai
+      - 
+        content: buginesisk
+        type: Bugi
+      - 
+        content: buhid
+        type: Buhd
+      - 
+        content: chakma
+        type: Cakm
+      - 
+        content: felles kanadiske urspråksstavingar
+        type: Cans
+      - 
+        content: karisk
+        type: Cari
+      - 
+        content: cham
+        type: Cham
+      - 
+        content: cherokee
+        type: Cher
+      - 
+        content: cirth
+        type: Cirt
+      - 
+        content: koptisk
+        type: Copt
+      - 
+        content: kypriotisk
+        type: Cprt
+      - 
+        content: kyrillisk
+        type: Cyrl
+      - 
+        content: kyrillisk (kyrkjeslavisk variant)
+        type: Cyrs
+      - 
+        content: devanagari
+        type: Deva
+      - 
+        content: deseret
+        type: Dsrt
+      - 
+        content: egyptisk demotisk
+        type: Egyd
+      - 
+        content: egyptisk hieratisk
+        type: Egyh
+      - 
+        content: egyptiske hieroglyfar
+        type: Egyp
+      - 
+        content: etiopisk
+        type: Ethi
+      - 
+        content: khutsuri (asomtavruli og nuskhuri)
+        type: Geok
+      - 
+        content: georgisk
+        type: Geor
+      - 
+        content: glagolittisk
+        type: Glag
+      - 
+        content: gotisk
+        type: Goth
+      - 
+        content: gammaltamilsk
+        draft: unconfirmed
+        type: Gran
+      - 
+        content: gresk
+        type: Grek
+      - 
+        content: gujarati
+        type: Gujr
+      - 
+        content: gurmukhi
+        type: Guru
+      - 
+        content: hangul
+        type: Hang
+      - 
+        content: han
+        type: Hani
+      - 
+        content: hanunoo
+        type: Hano
+      - 
+        content: forenkla kinesisk
+        type: Hans
+      - 
+        content: tradisjonell kinesisk
+        type: Hant
+      - 
+        content: hebraisk
+        type: Hebr
+      - 
+        content: hiragana
+        type: Hira
+      - 
+        content: pahawk hmong
+        type: Hmng
+      - 
+        content: katakana eller hiragana
+        type: Hrkt
+      - 
+        content: gammalungarsk
+        type: Hung
+      - 
+        content: indus
+        type: Inds
+      - 
+        content: gammalitalisk
+        type: Ital
+      - 
+        content: javanesisk
+        type: Java
+      - 
+        content: japansk
+        type: Jpan
+      - 
+        content: kayah li
+        type: Kali
+      - 
+        content: katakana
+        type: Kana
+      - 
+        content: kharoshthi
+        type: Khar
+      - 
+        content: khmer
+        type: Khmr
+      - 
+        content: kannada
+        type: Knda
+      - 
+        content: koreansk
+        type: Kore
+      - 
+        content: kaithisk
+        type: Kthi
+      - 
+        content: lanna
+        type: Lana
+      - 
+        content: laotisk
+        type: Laoo
+      - 
+        content: latinsk (frakturvariant)
+        type: Latf
+      - 
+        content: latinsk (gælisk variant)
+        type: Latg
+      - 
+        content: latinsk
+        type: Latn
+      - 
+        content: lepcha
+        type: Lepc
+      - 
+        content: lumbu
+        type: Limb
+      - 
+        content: lineær A
+        type: Lina
+      - 
+        content: lineær B
+        type: Linb
+      - 
+        content: Fraser
+        draft: unconfirmed
+        type: Lisu
+      - 
+        content: lykisk
+        type: Lyci
+      - 
+        content: lydisk
+        type: Lydi
+      - 
+        content: mandaisk
+        type: Mand
+      - 
+        content: manikeisk
+        type: Mani
+      - 
+        content: maya-hieroglyfar
+        type: Maya
+      - 
+        content: meroitisk
+        type: Mero
+      - 
+        content: malayalam
+        type: Mlym
+      - 
+        content: mongolsk
+        type: Mong
+      - 
+        content: moon
+        type: Moon
+      - 
+        content: meitei-mayek
+        type: Mtei
+      - 
+        content: myanmar
+        type: Mymr
+      - 
+        content: n'ko
+        type: Nkoo
+      - 
+        content: ogham
+        type: Ogam
+      - 
+        content: ol-chiki
+        type: Olck
+      - 
+        content: orkhon
+        type: Orkh
+      - 
+        content: oriya
+        type: Orya
+      - 
+        content: osmanya
+        type: Osma
+      - 
+        content: gammalpermisk
+        type: Perm
+      - 
+        content: phags-pa
+        type: Phag
+      - 
+        content: inskripsjonspahlavi
+        type: Phli
+      - 
+        content: salmepahlavi
+        type: Phlp
+      - 
+        content: pahlavi
+        type: Phlv
+      - 
+        content: fønikisk
+        type: Phnx
+      - 
+        content: pollard-fonetisk
+        type: Plrd
+      - 
+        content: inskripsjonsparthisk
+        type: Prti
+      - 
+        content: rejang
+        type: Rjng
+      - 
+        content: rongorongo
+        type: Roro
+      - 
+        content: runer
+        type: Runr
+      - 
+        content: samaritansk
+        type: Samr
+      - 
+        content: sarati
+        type: Sara
+      - 
+        content: gammalsydarabisk
+        draft: unconfirmed
+        type: Sarb
+      - 
+        content: saurashtra
+        type: Saur
+      - 
+        content: teiknskrift
+        type: Sgnw
+      - 
+        content: shavisk
+        type: Shaw
+      - 
+        content: sinhala
+        type: Sinh
+      - 
+        content: sundanesisk
+        type: Sund
+      - 
+        content: syloti nagri
+        type: Sylo
+      - 
+        content: syriakisk
+        type: Syrc
+      - 
+        content: syriakisk (estrangelo-variant)
+        type: Syre
+      - 
+        content: syriakisk (vestleg variant)
+        type: Syrj
+      - 
+        content: syriakisk (austleg variant)
+        type: Syrn
+      - 
+        content: tagbanwa
+        type: Tagb
+      - 
+        content: tai le
+        type: Tale
+      - 
+        content: ny tai lue
+        type: Talu
+      - 
+        content: tamilsk
+        type: Taml
+      - 
+        content: tai viet
+        type: Tavt
+      - 
+        content: telugu
+        type: Telu
+      - 
+        content: tengwar
+        type: Teng
+      - 
+        content: tifinagh
+        type: Tfng
+      - 
+        content: tagalog
+        type: Tglg
+      - 
+        content: thaana
+        type: Thaa
+      - 
+        content: thai
+        type: Thai
+      - 
+        content: tibetansk
+        type: Tibt
+      - 
+        content: tirhuta
+        draft: unconfirmed
+        type: Tirh
+      - 
+        content: ugaritisk
+        type: Ugar
+      - 
+        content: vai
+        type: Vaii
+      - 
+        content: synleg tale
+        type: Visp
+      - 
+        content: gammalpersisk
+        type: Xpeo
+      - 
+        content: sumero-akkadisk kileskrift
+        type: Xsux
+      - 
+        content: yi
+        type: Yiii
+      - 
+        content: nedarva
+        type: Zinh
+      - 
+        content: matematisk notasjon
+        type: Zmth
+      - 
+        content: symbol
+        type: Zsym
+      - 
+        content: kode for språk utan skrift
+        type: Zxxx
+      - 
+        content: felles
+        type: Zyyy
+      - 
+        content: ukjend skrift
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: verda
+        type: '001'
+      - 
+        content: Afrika
+        type: '002'
+      - 
+        content: Nord-Amerika
+        type: '003'
+      - 
+        content: Sør-Amerika
+        type: '005'
+      - 
+        content: Oseania
+        type: '009'
+      - 
+        content: Vest-Afrika
+        type: '011'
+      - 
+        content: Sentral-Amerika
+        type: '013'
+      - 
+        content: Aust-Afrika
+        type: '014'
+      - 
+        content: Nord-Afrika
+        type: '015'
+      - 
+        content: Sentral-Afrika
+        type: '017'
+      - 
+        content: Sørlege Afrika
+        type: '018'
+      - 
+        content: Amerika
+        type: '019'
+      - 
+        content: nordlege Amerika
+        type: '021'
+      - 
+        content: Karibia
+        type: '029'
+      - 
+        content: Aust-Asia
+        type: '030'
+      - 
+        content: Sør-Asia
+        type: '034'
+      - 
+        content: Søraust-Asia
+        type: '035'
+      - 
+        content: Sør-Europa
+        type: '039'
+      - 
+        content: Australia og New Zealand
+        type: '053'
+      - 
+        content: Melanesia
+        type: '054'
+      - 
+        content: Mikronesia
+        type: '057'
+      - 
+        content: Polynesia
+        type: '061'
+      - 
+        content: Asia
+        type: 142
+      - 
+        content: Sentral-Asia
+        type: 143
+      - 
+        content: Vest-Asia
+        type: 145
+      - 
+        content: Europa
+        type: 150
+      - 
+        content: Aust-Europa
+        type: 151
+      - 
+        content: Nord-Europa
+        type: 154
+      - 
+        content: Vest-Europa
+        type: 155
+      - 
+        content: Latin-Amerika
+        type: 419
+      - 
+        content: Ascension
+        type: AC
+      - 
+        content: Andorra
+        type: AD
+      - 
+        content: Dei sameinte arabiske emirata
+        type: AE
+      - 
+        content: Afghanistan
+        type: AF
+      - 
+        content: Antigua og Barbuda
+        type: AG
+      - 
+        content: Anguilla
+        type: AI
+      - 
+        content: Albania
+        type: AL
+      - 
+        content: Armenia
+        type: AM
+      - 
+        content: Dei nederlandske Antillane
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Antarktis
+        type: AQ
+      - 
+        content: Argentina
+        type: AR
+      - 
+        content: Amerikansk Samoa
+        type: AS
+      - 
+        content: Austerrike
+        type: AT
+      - 
+        content: Australia
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Åland
+        type: AX
+      - 
+        content: Aserbajdsjan
+        type: AZ
+      - 
+        content: Bosnia og Hercegovina
+        type: BA
+      - 
+        content: Barbados
+        type: BB
+      - 
+        content: Bangladesh
+        type: BD
+      - 
+        content: Belgia
+        type: BE
+      - 
+        content: Burkina Faso
+        type: BF
+      - 
+        content: Bulgaria
+        type: BG
+      - 
+        content: Bahrain
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benin
+        type: BJ
+      - 
+        content: Saint Barthélemy
+        type: BL
+      - 
+        content: Bermuda
+        type: BM
+      - 
+        content: Brunei Darussalam
+        type: BN
+      - 
+        content: Bolivia
+        type: BO
+      - 
+        content: Karibisk Nederland
+        draft: unconfirmed
+        type: BQ
+      - 
+        content: Brasil
+        type: BR
+      - 
+        content: Bahamas
+        type: BS
+      - 
+        content: Bhutan
+        type: BT
+      - 
+        content: Bouvetøya
+        type: BV
+      - 
+        content: Botswana
+        type: BW
+      - 
+        content: Kviterussland
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Canada
+        type: CA
+      - 
+        content: Kokosøyane
+        type: CC
+      - 
+        content: Kongo-Kinshasa
+        type: CD
+      - 
+        alt: variant
+        content: Kongo-Kinshasa
+        draft: unconfirmed
+        type: CD
+      - 
+        content: Den sentralafrikanske republikken
+        type: CF
+      - 
+        content: Kongo-Brazzaville
+        type: CG
+      - 
+        alt: variant
+        content: Kongo-Brazzaville
+        draft: unconfirmed
+        type: CG
+      - 
+        content: Sveits
+        type: CH
+      - 
+        content: Elfenbeinskysten
+        type: CI
+      - 
+        alt: variant
+        content: Elfenbeinskysten
+        type: CI
+      - 
+        content: Cookøyane
+        type: CK
+      - 
+        content: Chile
+        type: CL
+      - 
+        content: Kamerun
+        type: CM
+      - 
+        content: Kina
+        type: CN
+      - 
+        content: Colombia
+        type: CO
+      - 
+        content: Clippertonøya
+        type: CP
+      - 
+        content: Costa Rica
+        type: CR
+      - 
+        content: Cuba
+        type: CU
+      - 
+        content: Kapp Verde
+        type: CV
+      - 
+        content: Curaçao
+        draft: unconfirmed
+        type: CW
+      - 
+        content: Christmasøya
+        type: CX
+      - 
+        content: Kypros
+        type: CY
+      - 
+        content: Tsjekkia
+        type: CZ
+      - 
+        content: Tyskland
+        type: DE
+      - 
+        content: Diego Garcia
+        type: DG
+      - 
+        content: Djibouti
+        type: DJ
+      - 
+        content: Danmark
+        type: DK
+      - 
+        content: Dominica
+        type: DM
+      - 
+        content: Den dominikanske republikken
+        type: DO
+      - 
+        content: Algerie
+        type: DZ
+      - 
+        content: Ceuta og Melilla
+        type: EA
+      - 
+        content: Ecuador
+        type: EC
+      - 
+        content: Estland
+        type: EE
+      - 
+        content: Egypt
+        type: EG
+      - 
+        content: Vest-Sahara
+        type: EH
+      - 
+        content: Eritrea
+        type: ER
+      - 
+        content: Spania
+        type: ES
+      - 
+        content: Etiopia
+        type: ET
+      - 
+        content: Den europeiske unionen
+        type: EU
+      - 
+        content: Finland
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Falklandsøyane
+        type: FK
+      - 
+        alt: variant
+        content: Falklandsøyane
+        draft: unconfirmed
+        type: FK
+      - 
+        content: Mikronesiaføderasjonen
+        type: FM
+      - 
+        content: Færøyane
+        type: FO
+      - 
+        content: Frankrike
+        type: FR
+      - 
+        content: Gabon
+        type: GA
+      - 
+        content: Storbritannia
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Georgia
+        type: GE
+      - 
+        content: Fransk Guyana
+        type: GF
+      - 
+        content: Guernsey
+        type: GG
+      - 
+        content: Ghana
+        type: GH
+      - 
+        content: Gibraltar
+        type: GI
+      - 
+        content: Grønland
+        type: GL
+      - 
+        content: Gambia
+        type: GM
+      - 
+        content: Guinea
+        type: GN
+      - 
+        content: Guadeloupe
+        type: GP
+      - 
+        content: Ekvatorial-Guinea
+        type: GQ
+      - 
+        content: Hellas
+        type: GR
+      - 
+        content: Sør-Georgia og Sør-Sandwich-øyane
+        type: GS
+      - 
+        content: Guatemala
+        type: GT
+      - 
+        content: Guam
+        type: GU
+      - 
+        content: Guinea-Bissau
+        type: GW
+      - 
+        content: Guyana
+        type: GY
+      - 
+        content: Hongkong S.A.R. Kina
+        type: HK
+      - 
+        alt: short
+        content: Hongkong
+        type: HK
+      - 
+        content: Heard- og McDonaldsøyane
+        type: HM
+      - 
+        content: Honduras
+        type: HN
+      - 
+        content: Kroatia
+        type: HR
+      - 
+        content: Haiti
+        type: HT
+      - 
+        content: Ungarn
+        type: HU
+      - 
+        content: Kanariøyane
+        type: IC
+      - 
+        content: Indonesia
+        type: ID
+      - 
+        content: Irland
+        type: IE
+      - 
+        content: Israel
+        type: IL
+      - 
+        content: Man
+        type: IM
+      - 
+        content: India
+        type: IN
+      - 
+        content: Britiske område i Det indiske hav
+        type: IO
+      - 
+        content: Irak
+        type: IQ
+      - 
+        content: Iran
+        type: IR
+      - 
+        content: Island
+        type: IS
+      - 
+        content: Italia
+        type: IT
+      - 
+        content: Jersey
+        type: JE
+      - 
+        content: Jamaica
+        type: JM
+      - 
+        content: Jordan
+        type: JO
+      - 
+        content: Japan
+        type: JP
+      - 
+        content: Kenya
+        type: KE
+      - 
+        content: Kirgisistan
+        type: KG
+      - 
+        content: Kambodsja
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Komorene
+        type: KM
+      - 
+        content: St. Christopher og Nevis
+        type: KN
+      - 
+        content: Nord-Korea
+        type: KP
+      - 
+        content: Sør-Korea
+        type: KR
+      - 
+        content: Kuwait
+        type: KW
+      - 
+        content: Caymanøyane
+        type: KY
+      - 
+        content: Kasakhstan
+        type: KZ
+      - 
+        content: Laos
+        type: LA
+      - 
+        content: Libanon
+        type: LB
+      - 
+        content: St. Lucia
+        type: LC
+      - 
+        content: Liechtenstein
+        type: LI
+      - 
+        content: Sri Lanka
+        type: LK
+      - 
+        content: Liberia
+        type: LR
+      - 
+        content: Lesotho
+        type: LS
+      - 
+        content: Litauen
+        type: LT
+      - 
+        content: Luxembourg
+        type: LU
+      - 
+        content: Latvia
+        type: LV
+      - 
+        content: Libya
+        type: LY
+      - 
+        content: Marokko
+        type: MA
+      - 
+        content: Monaco
+        type: MC
+      - 
+        content: Moldova
+        type: MD
+      - 
+        content: Montenegro
+        type: ME
+      - 
+        content: Saint Martin
+        type: MF
+      - 
+        content: Madagaskar
+        type: MG
+      - 
+        content: Marshalløyane
+        type: MH
+      - 
+        content: Makedonia
+        type: MK
+      - 
+        alt: variant
+        content: Makedonia
+        draft: unconfirmed
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myanmar
+        type: MM
+      - 
+        content: Mongolia
+        type: MN
+      - 
+        content: Macao S.A.R. Kina
+        type: MO
+      - 
+        alt: short
+        content: Macao
+        type: MO
+      - 
+        content: Nord-Marianane
+        type: MP
+      - 
+        content: Martinique
+        type: MQ
+      - 
+        content: Mauritania
+        type: MR
+      - 
+        content: Montserrat
+        type: MS
+      - 
+        content: Malta
+        type: MT
+      - 
+        content: Mauritius
+        type: MU
+      - 
+        content: Maldivane
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Mexico
+        type: MX
+      - 
+        content: Malaysia
+        type: MY
+      - 
+        content: Mosambik
+        type: MZ
+      - 
+        content: Namibia
+        type: NA
+      - 
+        content: Ny-Caledonia
+        type: NC
+      - 
+        content: Niger
+        type: NE
+      - 
+        content: Norfolkøyane
+        type: NF
+      - 
+        content: Nigeria
+        type: NG
+      - 
+        content: Nicaragua
+        type: NI
+      - 
+        content: Nederland
+        type: NL
+      - 
+        content: Noreg
+        type: 'NO'
+      - 
+        content: Nepal
+        type: NP
+      - 
+        content: Nauru
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: New Zealand
+        type: NZ
+      - 
+        content: Oman
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Fransk Polynesia
+        type: PF
+      - 
+        content: Papua Ny-Guinea
+        type: PG
+      - 
+        content: Filippinane
+        type: PH
+      - 
+        content: Pakistan
+        type: PK
+      - 
+        content: Polen
+        type: PL
+      - 
+        content: St. Pierre og Miquelon
+        type: PM
+      - 
+        content: Pitcairn
+        type: PN
+      - 
+        content: Puerto Rico
+        type: PR
+      - 
+        content: Palestinsk territorium
+        type: PS
+      - 
+        content: Portugal
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paraguay
+        type: PY
+      - 
+        content: Qatar
+        type: QA
+      - 
+        content: Ytre Oseania
+        type: QO
+      - 
+        content: Réunion
+        type: RE
+      - 
+        content: Romania
+        type: RO
+      - 
+        content: Serbia
+        type: RS
+      - 
+        content: Russland
+        type: RU
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Saudi Arabia
+        type: SA
+      - 
+        content: Salomonøyane
+        type: SB
+      - 
+        content: Seychellane
+        type: SC
+      - 
+        content: Sudan
+        type: SD
+      - 
+        content: Sverige
+        type: SE
+      - 
+        content: Singapore
+        type: SG
+      - 
+        content: Saint Helena
+        type: SH
+      - 
+        content: Slovenia
+        type: SI
+      - 
+        content: Svalbard og Jan Mayen
+        type: SJ
+      - 
+        content: Slovakia
+        type: SK
+      - 
+        content: Sierra Leone
+        type: SL
+      - 
+        content: San Marino
+        type: SM
+      - 
+        content: Senegal
+        type: SN
+      - 
+        content: Somalia
+        type: SO
+      - 
+        content: Surinam
+        type: SR
+      - 
+        content: Sør-Sudan
+        draft: unconfirmed
+        type: SS
+      - 
+        content: São Tomé og Príncipe
+        type: ST
+      - 
+        content: El Salvador
+        type: SV
+      - 
+        content: Nederlandsk St. Martin
+        draft: unconfirmed
+        type: SX
+      - 
+        content: Syria
+        type: SY
+      - 
+        content: Swaziland
+        type: SZ
+      - 
+        content: Tristan da Cunha
+        type: TA
+      - 
+        content: Turks- og Caicosøyane
+        type: TC
+      - 
+        content: Tchad
+        type: TD
+      - 
+        content: Franske sørområde
+        type: TF
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Thailand
+        type: TH
+      - 
+        content: Tadsjikistan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Aust-Timor
+        type: TL
+      - 
+        alt: variant
+        content: Aust-Timor
+        type: TL
+      - 
+        content: Turkmenistan
+        type: TM
+      - 
+        content: Tunisia
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Tyrkia
+        type: TR
+      - 
+        content: Trinidad og Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwan
+        type: TW
+      - 
+        content: Tanzania
+        type: TZ
+      - 
+        content: Ukraina
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: USAs ytre småøyar
+        type: UM
+      - 
+        content: USA
+        type: US
+      - 
+        content: Uruguay
+        type: UY
+      - 
+        content: Usbekistan
+        type: UZ
+      - 
+        content: Vatikanstaten
+        type: VA
+      - 
+        content: St. Vincent og Grenadinane
+        type: VC
+      - 
+        content: Venezuela
+        type: VE
+      - 
+        content: Dei britiske jomfruøyane
+        type: VG
+      - 
+        content: Dei amerikanske jomfruøyane
+        type: VI
+      - 
+        content: Vietnam
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Wallis og Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Yemen
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Sør-Afrika
+        type: ZA
+      - 
+        content: Zambia
+        type: ZM
+      - 
+        content: Zimbabwe
+        type: ZW
+      - 
+        content: ukjent område
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: kalender for Republikken Kina
+        type: roc
+      collation: 
+        content: tradisjonell sortering
+        type: traditional
+      numbers: 
+        content: tibetanske siffer
+        draft: unconfirmed
+        type: tibt
+  variants: 
+    variant: 
+      - 
+        content: tradisjonell tysk ortografi
+        type: 1901
+      - 
+        content: standardisert resisk ortografi
+        type: 1994
+      - 
+        content: tysk ortografi frå 1996
+        type: 1996
+      - 
+        content: nyare mellomfransk til 1606
+        type: 1606NICT
+      - 
+        content: eldre nyfransk
+        type: 1694ACAD
+      - 
+        content: austarmensk
+        type: AREVELA
+      - 
+        content: vestarmensk
+        type: AREVMDA
+      - 
+        content: samla tyrkisk-latinsk alfabet
+        type: BAKU1926
+      - 
+        content: san giorgio- og biladialekt
+        type: BISKE
+      - 
+        content: boontling
+        type: BOONT
+      - 
+        content: det internasjonale fonetiske alfabetet (IPA)
+        type: FONIPA
+      - 
+        content: det uralske fonetiske alfabetet UPA
+        type: FONUPA
+      - 
+        content: resian, lipovazdialekt
+        type: LIPAW
+      - 
+        content: monotonisk rettskriving
+        type: MONOTON
+      - 
+        content: natisonedialekt
+        type: NEDIS
+      - 
+        content: gniva- og njivadialekt
+        type: NJIVA
+      - 
+        content: oseacco- og osojanedialekt
+        type: OSOJS
+      - 
+        content: pinyin
+        draft: unconfirmed
+        type: PINYIN
+      - 
+        content: polytonisk rettskriving
+        type: POLYTON
+      - 
+        content: dataspråk
+        type: POSIX
+      - 
+        content: revidert rettskriving
+        type: REVISED
+      - 
+        content: resisk dialekt
+        type: ROZAJ
+      - 
+        content: saaho-dialekt
+        type: SAAHO
+      - 
+        content: skotsk standard engelsk
+        type: SCOTLAND
+      - 
+        content: scouse-dialekt
+        type: SCOUSE
+      - 
+        content: stolvizza- og solbicadialekt
+        type: SOLBA
+      - 
+        content: taraskievica-ortografi
+        type: TARASK
+      - 
+        content: valensisk dialekt
+        type: VALENCIA
+      - 
+        content: wade-giles
+        draft: unconfirmed
+        type: WADEGILE
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: andorransk peseta
+        type: ADP
+      - 
+        displayName: UAE dirham
+        type: AED
+      - 
+        displayName: afghani (1927-2002)
+        type: AFA
+      - 
+        displayName: afghani
+        type: AFN
+      - 
+        displayName: albansk lek
+        type: ALL
+      - 
+        displayName: armensk dram
+        type: AMD
+      - 
+        displayName: nederlansk antillegylden
+        type: ANG
+      - 
+        displayName: angolsk kwanza
+        type: AOA
+      - 
+        displayName: angolsk kwanza (1977-1990)
+        type: AOK
+      - 
+        displayName: angolsk ny kwanza (1990-2000)
+        type: AON
+      - 
+        displayName: angolsk kwanza reajustado (1995-1999)
+        type: AOR
+      - 
+        displayName: argentisk austral
+        type: ARA
+      - 
+        displayName: argentinsk peso (1983-1985)
+        type: ARP
+      - 
+        displayName: argentinsk peso
+        type: ARS
+      - 
+        displayName: austerriksk schilling
+        type: ATS
+      - 
+        displayName: australsk dollar
+        type: AUD
+      - 
+        displayName: arubisk gylden
+        type: AWG
+      - 
+        displayName: aserbaijansk manat
+        type: AZM
+      - 
+        displayName: 
+          - aserbajdsjansk manat
+          - 
+            content: aserbajdsjansk manat
+            count: one
+          - 
+            content: aserbajdsjanske manat
+            count: other
+        type: AZN
+      - 
+        displayName: bosnisk-hercegovinsk dinar
+        type: BAD
+      - 
+        displayName: bosnisk-hercegovinsk mark (konvertibel)
+        type: BAM
+      - 
+        displayName: barbadisk dollar
+        type: BBD
+      - 
+        displayName: bangladeshisk taka
+        type: BDT
+      - 
+        displayName: belgisk franc (konvertibel)
+        type: BEC
+      - 
+        displayName: belgisk franc
+        type: BEF
+      - 
+        displayName: belgisk franc (finansiell)
+        type: BEL
+      - 
+        displayName: bulgarsk hard lev
+        type: BGL
+      - 
+        displayName: bulgarsk ny lev
+        type: BGN
+      - 
+        displayName: bahrainsk dinar
+        type: BHD
+      - 
+        displayName: burundisk franc
+        type: BIF
+      - 
+        displayName: bermudisk dollar
+        type: BMD
+      - 
+        displayName: bruneisk dollar
+        type: BND
+      - 
+        displayName: boliviano
+        type: BOB
+      - 
+        displayName: bolivisk peso
+        type: BOP
+      - 
+        displayName: bolivisk mvdol
+        type: BOV
+      - 
+        displayName: brasiliansk cruzeiro novo (1967-1986)
+        type: BRB
+      - 
+        displayName: brasiliansk cruzado
+        type: BRC
+      - 
+        displayName: brasiliansk cruzeiro (1990-1993)
+        type: BRE
+      - 
+        displayName: brasiliansk real
+        type: BRL
+      - 
+        displayName: brasiliansk cruzado novo
+        type: BRN
+      - 
+        displayName: brasiliansk cruzeiro
+        type: BRR
+      - 
+        displayName: bahamisk dollar
+        type: BSD
+      - 
+        displayName: bhutansk ngultrum
+        type: BTN
+      - 
+        displayName: burmesisk kyat
+        type: BUK
+      - 
+        displayName: 
+          - botswansk pula
+          - 
+            content: botswansk pula
+            count: one
+          - 
+            content: botswanske pula
+            count: other
+        type: BWP
+      - 
+        displayName: 
+          - kviterussisk ny rubel (1994-1999)
+          - 
+            content: kviterussisk ny rubel (BYB)
+            count: one
+          - 
+            content: kviterussiske nye rublar (BYB)
+            count: other
+        type: BYB
+      - 
+        displayName: 
+          - kviterussisk rubel
+          - 
+            content: kviterussisk rubel
+            count: one
+          - 
+            content: kviterussiske rublar
+            count: other
+        type: BYR
+      - 
+        displayName: 
+          - belizisk dollar
+          - 
+            content: belizisk dollar
+            count: one
+          - 
+            content: beliziske dollar
+            count: other
+        type: BZD
+      - 
+        displayName: 
+          - kanadisk dollar
+          - 
+            content: kanadisk dollar
+            count: one
+          - 
+            content: kanadiske dollar
+            count: other
+        type: CAD
+      - 
+        displayName: 
+          - kongolesisk franc
+          - 
+            content: kongolesisk franc
+            count: one
+          - 
+            content: kongolesiske franc
+            count: other
+        type: CDF
+      - 
+        displayName: 
+          - WIR euro
+          - 
+            content: WIR euro
+            count: one
+          - 
+            content: WIR euro
+            count: other
+        type: CHE
+      - 
+        displayName: 
+          - sveitsisk franc
+          - 
+            content: sveitsisk franc
+            count: one
+          - 
+            content: sveitsiske franc
+            count: other
+        type: CHF
+      - 
+        displayName: 
+          - WIR franc
+          - 
+            content: WIR franc
+            count: one
+          - 
+            content: WIR franc
+            count: other
+        type: CHW
+      - 
+        displayName: 
+          - chilensk unidades de fomento
+          - 
+            content: chilensk unidades de fomento
+            count: one
+          - 
+            content: chilenske unidades de fomento
+            count: other
+        type: CLF
+      - 
+        displayName: 
+          - chilensk peso
+          - 
+            content: chilensk peso
+            count: one
+          - 
+            content: chilenske peso
+            count: other
+        type: CLP
+      - 
+        displayName: kinesisk yuan renminbi
+        type: CNY
+      - 
+        displayName: 
+          - colombiansk peso
+          - 
+            content: colombiansk peso
+            count: one
+          - 
+            content: colombianske peso
+            count: other
+        type: COP
+      - 
+        displayName: 
+          - unidad de valor real
+          - 
+            content: unidad de valor real
+            count: one
+          - 
+            content: unidad de valor real
+            count: other
+        type: COU
+      - 
+        displayName: 
+          - costaricansk colon
+          - 
+            content: costaricansk colon
+            count: one
+          - 
+            content: costaricanske colon
+            count: other
+        type: CRC
+      - 
+        displayName: 
+          - gammal serbisk dinar
+          - 
+            content: gammal serbisk dinar
+            count: one
+          - 
+            content: gamle serbiske dinarar
+            count: other
+        type: CSD
+      - 
+        displayName: 
+          - tsjekkoslovakisk koruna (hard)
+          - 
+            content: tsjekkoslovakisk koruna (hard)
+            count: one
+          - 
+            content: tsjekkoslovakiske koruna (hard)
+            count: other
+        type: CSK
+      - 
+        displayName: 
+          - 
+            content: kubansk peso (konvertibel)
+            count: one
+            draft: unconfirmed
+          - 
+            content: kubanska pesos (konvertibla)
+            count: other
+            draft: unconfirmed
+        type: CUC
+      - 
+        displayName: 
+          - kubansk peso
+          - 
+            content: kubansk peso
+            count: one
+          - 
+            content: kubanske peso
+            count: other
+        type: CUP
+      - 
+        displayName: kappverdisk escudo
+        type: CVE
+      - 
+        displayName: 
+          - kypriotisk pund
+          - 
+            content: kypriotisk pund
+            count: one
+          - 
+            content: kypriotiske pund
+            count: other
+        type: CYP
+      - 
+        displayName: 
+          - tsjekkisk koruna
+          - 
+            content: tsjekkisk koruna
+            count: one
+          - 
+            content: tsjekkiske koruna
+            count: other
+        type: CZK
+      - 
+        displayName: 
+          - austtysk mark
+          - 
+            content: austtysk mark
+            count: one
+          - 
+            content: austtyske mark
+            count: other
+        type: DDM
+      - 
+        displayName: 
+          - tysk mark
+          - 
+            content: tysk mark
+            count: one
+          - 
+            content: tyske mark
+            count: other
+        type: DEM
+      - 
+        displayName: 
+          - djiboutisk franc
+          - 
+            content: djiboutisk franc
+            count: one
+          - 
+            content: djiboutiske franc
+            count: other
+        type: DJF
+      - 
+        displayName: 
+          - dansk krone
+          - 
+            content: dansk krone
+            count: one
+            draft: unconfirmed
+          - 
+            content: danske kroner
+            count: other
+            draft: unconfirmed
+        type: DKK
+      - 
+        displayName: 
+          - dominikansk peso
+          - 
+            content: dominikansk peso
+            count: one
+          - 
+            content: dominikanske peso
+            count: other
+        type: DOP
+      - 
+        displayName: 
+          - algerisk dinar
+          - 
+            content: algerisk dinar
+            count: one
+          - 
+            content: algeriske dinarar
+            count: other
+        type: DZD
+      - 
+        displayName: 
+          - ecuadoriansk sucre
+          - 
+            content: ecuadoriansk sucre
+            count: one
+          - 
+            content: ecuadorianske sucre
+            count: other
+        type: ECS
+      - 
+        displayName: 
+          - ecuadoriansk unidad de valor constante (UVC)
+          - 
+            content: ecuadoriansk unidad de valor constante (UVC)
+            count: one
+          - 
+            content: ecuadorianske unidad de valor constante (UVC)
+            count: other
+        type: ECV
+      - 
+        displayName: 
+          - estisk kroon
+          - 
+            content: estisk kroon
+            count: one
+          - 
+            content: estiske kroon
+            count: other
+        type: EEK
+      - 
+        displayName: 
+          - egyptisk pund
+          - 
+            content: egyptisk pund
+            count: one
+          - 
+            content: egyptiske pund
+            count: other
+        type: EGP
+      - 
+        displayName: 
+          - eritreisk nakfa
+          - 
+            content: eritreisk nakfa
+            count: one
+          - 
+            content: eritreiske nakfa
+            count: other
+        type: ERN
+      - 
+        displayName: 
+          - spansk peseta (A-konto)
+          - 
+            content: spansk peseta (A-konto)
+            count: one
+          - 
+            content: spanske peseta (A-konto)
+            count: other
+        type: ESA
+      - 
+        displayName: 
+          - spansk peseta (konvertibel konto)
+          - 
+            content: spansk peseta (konvertibel konto)
+            count: one
+          - 
+            content: spanske peseta (konvertibel konto)
+            count: other
+        type: ESB
+      - 
+        displayName: 
+          - spansk peseta
+          - 
+            content: spansk peseta
+            count: one
+          - 
+            content: spanske peseta
+            count: other
+        type: ESP
+      - 
+        displayName: 
+          - etiopisk birr
+          - 
+            content: etiopisk birr
+            count: one
+          - 
+            content: etiopiske birr
+            count: other
+        type: ETB
+      - 
+        displayName: 
+          - euro
+          - 
+            content: euro
+            count: one
+            draft: unconfirmed
+          - 
+            content: euro
+            count: other
+            draft: unconfirmed
+        type: EUR
+      - 
+        displayName: 
+          - finsk mark
+          - 
+            content: finsk mark
+            count: one
+          - 
+            content: finske mark
+            count: other
+        type: FIM
+      - 
+        displayName: 
+          - fijiansk dollar
+          - 
+            content: fijiansk dollar
+            count: one
+          - 
+            content: fijianske dollar
+            count: other
+        type: FJD
+      - 
+        displayName: 
+          - Falkland-pund
+          - 
+            content: Falkland-pund
+            count: one
+          - 
+            content: Falkland-pund
+            count: other
+        type: FKP
+      - 
+        displayName: 
+          - fransk franc
+          - 
+            content: fransk franc
+            count: one
+          - 
+            content: franske franc
+            count: other
+        type: FRF
+      - 
+        displayName: 
+          - britisk pund sterling
+          - 
+            content: britisk pund sterling
+            count: one
+            draft: unconfirmed
+          - 
+            content: britiske pund sterling
+            count: other
+            draft: unconfirmed
+        type: GBP
+      - 
+        displayName: 
+          - georgisk kupon larit
+          - 
+            content: georgisk kupon larit
+            count: one
+          - 
+            content: georgiske kupon larit
+            count: other
+        type: GEK
+      - 
+        displayName: 
+          - georgisk lari
+          - 
+            content: georgisk lari
+            count: one
+          - 
+            content: georgiske lari
+            count: other
+        type: GEL
+      - 
+        displayName: 
+          - ghanesisk cedi (1979-2007)
+          - 
+            content: ghanesisk cedi (GHC)
+            count: one
+          - 
+            content: ghanesiske cedi (GHC)
+            count: other
+        type: GHC
+      - 
+        displayName: 
+          - ghanesisk cedi
+          - 
+            content: ghanesisk cedi
+            count: one
+          - 
+            content: ghanesiske cedi
+            count: other
+        type: GHS
+      - 
+        displayName: 
+          - gibraltarsk pund
+          - 
+            content: gibraltarsk pund
+            count: one
+          - 
+            content: gibraltarske pund
+            count: other
+        type: GIP
+      - 
+        displayName: 
+          - gambisk dalasi
+          - 
+            content: gambisk dalasi
+            count: one
+          - 
+            content: gambiske dalasi
+            count: other
+        type: GMD
+      - 
+        displayName: 
+          - guineansk franc
+          - 
+            content: guineansk franc
+            count: one
+          - 
+            content: guineanske franc
+            count: other
+        type: GNF
+      - 
+        displayName: 
+          - guineansk syli
+          - 
+            content: guineansk syli
+            count: one
+          - 
+            content: guineanske syli
+            count: other
+        type: GNS
+      - 
+        displayName: 
+          - ekvatorialguineansk ekwele guineana
+          - 
+            content: ekvatorialguineansk ekwele
+            count: one
+          - 
+            content: ekvatorialguineanske ekwele
+            count: other
+        type: GQE
+      - 
+        displayName: 
+          - gresk drakme
+          - 
+            content: gresk drakme
+            count: one
+          - 
+            content: greske drakmer
+            count: other
+        type: GRD
+      - 
+        displayName: 
+          - guatemalansk quetzal
+          - 
+            content: guatemalansk quetzal
+            count: one
+          - 
+            content: guatemalanske quetzal
+            count: other
+        type: GTQ
+      - 
+        displayName: 
+          - portugisisk guinea escudo
+          - 
+            content: portugisisk guinea escudo
+            count: one
+          - 
+            content: portugisiske guinea escudo
+            count: other
+        type: GWE
+      - 
+        displayName: Guinea-Bissau-peso
+        type: GWP
+      - 
+        displayName: 
+          - guyansk dollar
+          - 
+            content: guyansk dollar
+            count: one
+          - 
+            content: guyanske dollar
+            count: other
+        type: GYD
+      - 
+        displayName: 
+          - Hongkong-dollar
+          - 
+            content: Hongkong-dollar
+            count: one
+          - 
+            content: Hongkong-dollar
+            count: other
+        type: HKD
+      - 
+        displayName: 
+          - honduransk lempira
+          - 
+            content: honduransk lempira
+            count: one
+          - 
+            content: honduranske lempira
+            count: other
+        type: HNL
+      - 
+        displayName: 
+          - kroatisk dinar
+          - 
+            content: kroatisk dinar
+            count: one
+          - 
+            content: kroatiske dinarar
+            count: other
+        type: HRD
+      - 
+        displayName: 
+          - kroatisk kuna
+          - 
+            content: kroatisk kuna
+            count: one
+          - 
+            content: kroatiske kuna
+            count: other
+        type: HRK
+      - 
+        displayName: 
+          - haitisk gourde
+          - 
+            content: haitisk gourde
+            count: one
+          - 
+            content: haitiske gourde
+            count: other
+        type: HTG
+      - 
+        displayName: 
+          - ungarsk forint
+          - 
+            content: ungarsk forint
+            count: one
+          - 
+            content: ungarske forintar
+            count: other
+        type: HUF
+      - 
+        displayName: 
+          - indonesisk rupi
+          - 
+            content: indonesisk rupi
+            count: one
+          - 
+            content: indonesiske rupiar
+            count: other
+        type: IDR
+      - 
+        displayName: 
+          - irsk pund
+          - 
+            content: irsk pund
+            count: one
+          - 
+            content: irske pund
+            count: other
+        type: IEP
+      - 
+        displayName: 
+          - israelsk pund
+          - 
+            content: israelsk pund
+            count: one
+          - 
+            content: israelske pund
+            count: other
+        type: ILP
+      - 
+        displayName: 
+          - israelsk ny shekel
+          - 
+            content: israelsk ny shekel
+            count: one
+          - 
+            content: israelske nye sheklar
+            count: other
+        type: ILS
+      - 
+        displayName: 
+          - indisk rupi
+          - 
+            content: indisk rupi
+            count: one
+            draft: unconfirmed
+          - 
+            content: indiske rupier
+            count: other
+            draft: unconfirmed
+        type: INR
+      - 
+        displayName: 
+          - iraksk dinar
+          - 
+            content: irakisk dinar
+            count: one
+          - 
+            content: irakiske dinarar
+            count: other
+        type: IQD
+      - 
+        displayName: 
+          - iransk rial
+          - 
+            content: iransk rial
+            count: one
+          - 
+            content: iranske rialar
+            count: other
+        type: IRR
+      - 
+        displayName: 
+          - islandsk krone
+          - 
+            content: islandsk krone
+            count: one
+          - 
+            content: islandske kroner
+            count: other
+        type: ISK
+      - 
+        displayName: 
+          - italiensk lire
+          - 
+            content: italiensk lire
+            count: one
+          - 
+            content: italienske lire
+            count: other
+        type: ITL
+      - 
+        displayName: 
+          - jamaikansk dollar
+          - 
+            content: jamaikansk dollar
+            count: one
+          - 
+            content: jamaikanske dollar
+            count: other
+        type: JMD
+      - 
+        displayName: 
+          - jordansk dinar
+          - 
+            content: jordansk dinar
+            count: one
+          - 
+            content: jordanske dinarar
+            count: other
+        type: JOD
+      - 
+        displayName: 
+          - japansk yen
+          - 
+            content: japansk yen
+            count: one
+            draft: unconfirmed
+          - 
+            content: japanske yen
+            count: other
+            draft: unconfirmed
+        type: JPY
+      - 
+        displayName: 
+          - kenyansk shilling
+          - 
+            content: kenyansk shilling
+            count: one
+          - 
+            content: kenyanske shilling
+            count: other
+        type: KES
+      - 
+        displayName: 
+          - kirgisisk som
+          - 
+            content: kirgisisk som
+            count: one
+          - 
+            content: kirgisiske som
+            count: other
+        type: KGS
+      - 
+        displayName: 
+          - kambodsjansk riel
+          - 
+            content: kambodsjansk riel
+            count: one
+          - 
+            content: kambodsjanske riel
+            count: other
+        type: KHR
+      - 
+        displayName: 
+          - komorisk franc
+          - 
+            content: komorisk franc
+            count: one
+          - 
+            content: komoriske franc
+            count: other
+        type: KMF
+      - 
+        displayName: 
+          - nordkoreansk won
+          - 
+            content: nordkoreansk won
+            count: one
+          - 
+            content: nordkoreanske won
+            count: other
+        type: KPW
+      - 
+        displayName: 
+          - sørkoreansk won
+          - 
+            content: sørkoreansk won
+            count: one
+          - 
+            content: sørkoreanske won
+            count: other
+        type: KRW
+      - 
+        displayName: 
+          - kuwaitisk dinar
+          - 
+            content: kuwaitisk dinar
+            count: one
+          - 
+            content: kuwaitiske dinarar
+            count: other
+        type: KWD
+      - 
+        displayName: 
+          - caymansk dollar
+          - 
+            content: caymansk dollar
+            count: one
+          - 
+            content: caymanske dollar
+            count: other
+        type: KYD
+      - 
+        displayName: 
+          - kasakhstansk tenge
+          - 
+            content: kasakhstansk tenge
+            count: one
+          - 
+            content: kasakhstanske tenge
+            count: other
+        type: KZT
+      - 
+        displayName: 
+          - laotisk kip
+          - 
+            content: laotisk kip
+            count: one
+          - 
+            content: laotiske kip
+            count: other
+        type: LAK
+      - 
+        displayName: 
+          - libanesisk pund
+          - 
+            content: libanesisk pund
+            count: one
+          - 
+            content: libanesiske pund
+            count: other
+        type: LBP
+      - 
+        displayName: 
+          - srilankisk rupi
+          - 
+            content: srilankisk rupi
+            count: one
+          - 
+            content: srilankiske rupiar
+            count: other
+        type: LKR
+      - 
+        displayName: 
+          - liberisk dollar
+          - 
+            content: liberisk dollar
+            count: one
+          - 
+            content: liberiske dollar
+            count: other
+        type: LRD
+      - 
+        displayName: 
+          - lesothisk loti
+          - 
+            content: lesothisk loti
+            count: one
+          - 
+            content: lesothiske loti
+            count: other
+        type: LSL
+      - 
+        displayName: 
+          - litauisk lita
+          - 
+            content: litauisk lita
+            count: one
+          - 
+            content: litauiske lita
+            count: other
+        type: LTL
+      - 
+        displayName: 
+          - litauisk talona
+          - 
+            content: litauisk talona
+            count: one
+          - 
+            content: litauiske talona
+            count: other
+        type: LTT
+      - 
+        displayName: 
+          - luxemburgsk konvertibel franc
+          - 
+            content: luxemburgsk konvertibel franc
+            count: one
+          - 
+            content: luxemburgske konvertible franc
+            count: other
+        type: LUC
+      - 
+        displayName: 
+          - luxemburgsk franc
+          - 
+            content: luxemburgsk franc
+            count: one
+          - 
+            content: luxemburgske franc
+            count: other
+        type: LUF
+      - 
+        displayName: 
+          - luxemburgsk finansiell franc
+          - 
+            content: luxemburgsk finansiell franc
+            count: one
+          - 
+            content: luxemburgske finansielle franc
+            count: other
+        type: LUL
+      - 
+        displayName: 
+          - latvisk lat
+          - 
+            content: latvisk lat
+            count: one
+          - 
+            content: latviske lat
+            count: other
+        type: LVL
+      - 
+        displayName: 
+          - latvisk rubel
+          - 
+            content: latvisk rubel
+            count: one
+          - 
+            content: latviske rublar
+            count: other
+        type: LVR
+      - 
+        displayName: 
+          - libysk dinar
+          - 
+            content: libysk dinar
+            count: one
+          - 
+            content: libyske dinarar
+            count: other
+        type: LYD
+      - 
+        displayName: 
+          - marokkansk dirham
+          - 
+            content: marokkansk dirham
+            count: one
+          - 
+            content: marokkanske dirham
+            count: other
+        type: MAD
+      - 
+        displayName: 
+          - marokkansk franc
+          - 
+            content: marokkansk franc
+            count: one
+          - 
+            content: marokkanske franc
+            count: other
+        type: MAF
+      - 
+        displayName: 
+          - moldovsk leu
+          - 
+            content: moldovsk leu
+            count: one
+          - 
+            content: moldovske lei
+            count: other
+        type: MDL
+      - 
+        displayName: 
+          - madagassisk ariary
+          - 
+            content: madagassisk ariary
+            count: one
+          - 
+            content: madagassiske ariary
+            count: other
+        type: MGA
+      - 
+        displayName: 
+          - madagassisk franc
+          - 
+            content: madagassisk franc
+            count: one
+          - 
+            content: madagassiske franc
+            count: other
+        type: MGF
+      - 
+        displayName: 
+          - makedonsk denar
+          - 
+            content: makedonsk denar
+            count: one
+          - 
+            content: makedonske denarar
+            count: other
+        type: MKD
+      - 
+        displayName: 
+          - malisk franc
+          - 
+            content: malisk franc
+            count: one
+          - 
+            content: maliske franc
+            count: other
+        type: MLF
+      - 
+        displayName: 
+          - myanmarsk kyat
+          - 
+            content: myanmarsk kyat
+            count: one
+          - 
+            content: myanmarske kyat
+            count: other
+        type: MMK
+      - 
+        displayName: 
+          - mongolsk tugrik
+          - 
+            content: mongolsk tugrik
+            count: one
+          - 
+            content: mongolske tugrik
+            count: other
+        type: MNT
+      - 
+        displayName: 
+          - makaosk pataca
+          - 
+            content: makaosk pataca
+            count: one
+          - 
+            content: makaoske pataca
+            count: other
+        type: MOP
+      - 
+        displayName: 
+          - mauritansk ouguiya
+          - 
+            content: mauritansk ouguiya
+            count: one
+          - 
+            content: mauritanske ouguiya
+            count: other
+        type: MRO
+      - 
+        displayName: 
+          - maltesisk lira
+          - 
+            content: maltesisk lira
+            count: one
+          - 
+            content: maltesiske lira
+            count: other
+        type: MTL
+      - 
+        displayName: 
+          - maltesisk pund
+          - 
+            content: maltesisk pund
+            count: one
+          - 
+            content: maltesiske pund
+            count: other
+        type: MTP
+      - 
+        displayName: 
+          - mauritansk rupi
+          - 
+            content: mauritansk rupi
+            count: one
+          - 
+            content: mauritanske rupiar
+            count: other
+        type: MUR
+      - 
+        displayName: 
+          - maldivisk rufiyaa
+          - 
+            content: maldivisk rufiyaa
+            count: one
+          - 
+            content: maldiviske rufiyaa
+            count: other
+        type: MVR
+      - 
+        displayName: 
+          - malawisk kwacha
+          - 
+            content: malawisk kwacha
+            count: one
+          - 
+            content: malawiske kwacha
+            count: other
+        type: MWK
+      - 
+        displayName: 
+          - meksikansk peso
+          - 
+            content: meksikansk peso
+            count: one
+          - 
+            content: meksikanske peso
+            count: other
+        type: MXN
+      - 
+        displayName: 
+          - meksikansk sølvpeso (1861-1992)
+          - 
+            content: meksikansk sølvpeso (MXP)
+            count: one
+          - 
+            content: meksikanske sølvpeso (MXP)
+            count: other
+        type: MXP
+      - 
+        displayName: 
+          - meksikansk unidad de inversion (UDI)
+          - 
+            content: meksikansk unidad de inversion (UDI)
+            count: one
+          - 
+            content: meksikanske unidad de inversion (UDI)
+            count: other
+        type: MXV
+      - 
+        displayName: 
+          - malaysisk ringgit
+          - 
+            content: malaysisk ringgit
+            count: one
+          - 
+            content: malaysiske ringgit
+            count: other
+        type: MYR
+      - 
+        displayName: 
+          - mosambikisk escudo
+          - 
+            content: mosambikisk escudo
+            count: one
+          - 
+            content: mosambikiske escudo
+            count: other
+        type: MZE
+      - 
+        displayName: 
+          - gammal mosambikisk metical
+          - 
+            content: gammal mosambikisk metical
+            count: one
+          - 
+            content: gamle mosambikiske metical
+            count: other
+        type: MZM
+      - 
+        displayName: mosambikisk metical
+        type: MZN
+      - 
+        displayName: 
+          - namibisk dollar
+          - 
+            content: namibisk dollar
+            count: one
+          - 
+            content: namibiske dollar
+            count: other
+        type: NAD
+      - 
+        displayName: 
+          - nigeriansk naira
+          - 
+            content: nigeriansk naira
+            count: one
+          - 
+            content: nigerianske naira
+            count: other
+        type: NGN
+      - 
+        displayName: 
+          - nicaraguansk cordoba
+          - 
+            content: nicaraguansk cordoba
+            count: one
+          - 
+            content: nicaraguanske cordoba
+            count: other
+        type: NIC
+      - 
+        displayName: 
+          - nicaraguansk cordoba oro
+          - 
+            content: nicaraguansk cordoba oro
+            count: one
+          - 
+            content: nicaraguanske cordoba oro
+            count: other
+        type: NIO
+      - 
+        displayName: 
+          - nederlandsk gylden
+          - 
+            content: nederlandsk gylden
+            count: one
+          - 
+            content: nederlandske gylden
+            count: other
+        type: NLG
+      - 
+        displayName: 
+          - norsk krone
+          - 
+            content: norsk krone
+            count: one
+            draft: unconfirmed
+          - 
+            content: norske kroner
+            count: other
+            draft: unconfirmed
+        symbol: kr
+        type: NOK
+      - 
+        displayName: 
+          - nepalsk rupi
+          - 
+            content: nepalsk rupi
+            count: one
+          - 
+            content: nepalske rupiar
+            count: other
+        type: NPR
+      - 
+        displayName: 
+          - new zealandsk dollar
+          - 
+            content: new zealandsk dollar
+            count: one
+          - 
+            content: new zealandske dollar
+            count: other
+        type: NZD
+      - 
+        displayName: 
+          - omansk rial
+          - 
+            content: omansk rial
+            count: one
+          - 
+            content: omanske rial
+            count: other
+        type: OMR
+      - 
+        displayName: 
+          - panamansk balboa
+          - 
+            content: panamansk balboa
+            count: one
+          - 
+            content: panamanske balboa
+            count: other
+        type: PAB
+      - 
+        displayName: 
+          - peruansk inti
+          - 
+            content: peruansk inti
+            count: one
+          - 
+            content: peruanske inti
+            count: other
+        type: PEI
+      - 
+        displayName: 
+          - peruansk nuevo sol
+          - 
+            content: peruansk nuevo sol
+            count: one
+          - 
+            content: peruanske nuevo sol
+            count: other
+        type: PEN
+      - 
+        displayName: 
+          - peruansk sol
+          - 
+            content: peruansk sol
+            count: one
+          - 
+            content: peruanske sol
+            count: other
+        type: PES
+      - 
+        displayName: 
+          - papuansk kina
+          - 
+            content: papuansk kina
+            count: one
+          - 
+            content: papuanske kina
+            count: other
+        type: PGK
+      - 
+        displayName: 
+          - filippinsk peso
+          - 
+            content: filippinsk peso
+            count: one
+          - 
+            content: filippinske peso
+            count: other
+        type: PHP
+      - 
+        displayName: 
+          - pakistansk rupi
+          - 
+            content: pakistansk rupi
+            count: one
+          - 
+            content: pakistanske rupiar
+            count: other
+        type: PKR
+      - 
+        displayName: 
+          - polsk zloty
+          - 
+            content: polsk zloty
+            count: one
+          - 
+            content: polske zloty
+            count: other
+        type: PLN
+      - 
+        displayName: 
+          - polsk zloty (1950-1995)
+          - 
+            content: polsk zloty (PLZ)
+            count: one
+          - 
+            content: polske zloty (PLZ)
+            count: other
+        type: PLZ
+      - 
+        displayName: 
+          - portugisisk escudo
+          - 
+            content: portugisisk escudo
+            count: one
+          - 
+            content: portugisiske escudo
+            count: other
+        type: PTE
+      - 
+        displayName: 
+          - paraguayansk guarani
+          - 
+            content: paraguayansk guarani
+            count: one
+          - 
+            content: paraguayanske guarani
+            count: other
+        type: PYG
+      - 
+        displayName: 
+          - qatarsk rial
+          - 
+            content: qatarsk rial
+            count: one
+          - 
+            content: qatarske rial
+            count: other
+        type: QAR
+      - 
+        displayName: 
+          - rhodesisk dollar
+          - 
+            content: rhodesisk dollar
+            count: one
+          - 
+            content: rhodesiske dollar
+            count: other
+        type: RHD
+      - 
+        displayName: 
+          - gammal rumensk leu
+          - 
+            content: gammal rumensk leu
+            count: one
+          - 
+            content: gamle rumenske lei
+            count: other
+        type: ROL
+      - 
+        displayName: 
+          - rumensk leu
+          - 
+            content: rumensk leu
+            count: one
+          - 
+            content: rumenske lei
+            count: other
+        type: RON
+      - 
+        displayName: 
+          - serbisk dinar
+          - 
+            content: serbisk dinar
+            count: one
+          - 
+            content: serbiske dinarar
+            count: other
+        type: RSD
+      - 
+        displayName: russisk rubel
+        type: RUB
+      - 
+        displayName: 
+          - russisk rubel (1991-1998)
+          - 
+            content: russisk rubel (RUR)
+            count: one
+          - 
+            content: russiske rublar (RUR)
+            count: other
+        type: RUR
+      - 
+        displayName: 
+          - rwandisk franc
+          - 
+            content: rwandisk franc
+            count: one
+          - 
+            content: rwandiske franc
+            count: other
+        type: RWF
+      - 
+        displayName: 
+          - saudiarabisk rial
+          - 
+            content: saudiarabisk rial
+            count: one
+          - 
+            content: saudiarabiske rial
+            count: other
+        type: SAR
+      - 
+        displayName: 
+          - salomonsk dollar
+          - 
+            content: salomonsk dollar
+            count: one
+          - 
+            content: salomonske dollar
+            count: other
+        type: SBD
+      - 
+        displayName: 
+          - seychellisk rupi
+          - 
+            content: seychellisk rupi
+            count: one
+          - 
+            content: seychelliske rupiar
+            count: other
+        type: SCR
+      - 
+        displayName: 
+          - gammal sudanesisk dinar
+          - 
+            content: gammal sudansk dinar
+            count: one
+          - 
+            content: gamle sudanske dinarar
+            count: other
+        type: SDD
+      - 
+        displayName: 
+          - sudansk pund
+          - 
+            content: sudansk pund
+            count: one
+          - 
+            content: sudanske pund
+            count: other
+        type: SDG
+      - 
+        displayName: 
+          - gammalt sudanesisk pund
+          - 
+            content: gammalt sudansk pund
+            count: one
+          - 
+            content: gamle sudanske pund
+            count: other
+        type: SDP
+      - 
+        displayName: 
+          - svensk krone
+          - 
+            content: svensk krone
+            count: one
+          - 
+            content: svenske kroner
+            count: other
+        type: SEK
+      - 
+        displayName: 
+          - singaporsk dollar
+          - 
+            content: singaporsk dollar
+            count: one
+          - 
+            content: singaporske dollar
+            count: other
+        type: SGD
+      - 
+        displayName: 
+          - sankthelensk pund
+          - 
+            content: sankthelensk pund
+            count: one
+          - 
+            content: sankthelenske pund
+            count: other
+        type: SHP
+      - 
+        displayName: 
+          - slovensk tolar
+          - 
+            content: slovensk tolar
+            count: one
+          - 
+            content: slovenske tolar
+            count: other
+        type: SIT
+      - 
+        displayName: 
+          - slovakisk koruna
+          - 
+            content: slovakisk koruna
+            count: one
+          - 
+            content: slovakiske koruna
+            count: other
+        type: SKK
+      - 
+        displayName: 
+          - sierraleonsk leone
+          - 
+            content: sierraleonsk leone
+            count: one
+          - 
+            content: sierraleonske leone
+            count: other
+        type: SLL
+      - 
+        displayName: 
+          - somalisk shilling
+          - 
+            content: somalisk shilling
+            count: one
+          - 
+            content: somaliske shilling
+            count: other
+        type: SOS
+      - 
+        displayName: 
+          - surinamsk dollar
+          - 
+            content: surinamsk dollar
+            count: one
+          - 
+            content: surinamske dollar
+            count: other
+        type: SRD
+      - 
+        displayName: 
+          - surinamsk gylden
+          - 
+            content: surinamsk gylden
+            count: one
+          - 
+            content: surinamske gylden
+            count: other
+        type: SRG
+      - 
+        displayName: Sao Tome og Principe-dobra
+        type: STD
+      - 
+        displayName: 
+          - sovjetisk rubel
+          - 
+            content: sovjetisk rubel
+            count: one
+          - 
+            content: sovjetiske rublar
+            count: other
+        type: SUR
+      - 
+        displayName: 
+          - salvadoransk colon
+          - 
+            content: salvadoransk colon
+            count: one
+          - 
+            content: salvadoranske colon
+            count: other
+        type: SVC
+      - 
+        displayName: 
+          - syrisk pund
+          - 
+            content: syrisk pund
+            count: one
+          - 
+            content: syriske pund
+            count: other
+        type: SYP
+      - 
+        displayName: 
+          - swazilandsk lilangeni
+          - 
+            content: swazilandsk lilangeni
+            count: one
+          - 
+            content: swazilandske lilangeni
+            count: other
+        type: SZL
+      - 
+        displayName: 
+          - thailandsk baht
+          - 
+            content: thailandsk baht
+            count: one
+          - 
+            content: thailandske baht
+            count: other
+        type: THB
+      - 
+        displayName: 
+          - tadsjikisk rubel
+          - 
+            content: tadsjikisk rubel
+            count: one
+          - 
+            content: tadsjikiske rublar
+            count: other
+        type: TJR
+      - 
+        displayName: 
+          - tadsjikisk somoni
+          - 
+            content: tadsjikisk somoni
+            count: one
+          - 
+            content: tadsjikiske somoni
+            count: other
+        type: TJS
+      - 
+        displayName: 
+          - turkmensk manat
+          - 
+            content: turkmensk manat
+            count: one
+          - 
+            content: turkmenske manat
+            count: other
+        type: TMM
+      - 
+        displayName: 
+          - 
+            content: turkmenistansk manat
+            count: one
+            draft: unconfirmed
+          - 
+            content: turkmenistanska manat
+            count: other
+            draft: unconfirmed
+        type: TMT
+      - 
+        displayName: 
+          - tunisisk dinar
+          - 
+            content: tunisisk dinar
+            count: one
+          - 
+            content: tunisiske dinarar
+            count: other
+        type: TND
+      - 
+        displayName: 
+          - tongansk paʻanga
+          - 
+            content: tongansk paʻanga
+            count: one
+          - 
+            content: tonganske paʻanga
+            count: other
+        type: TOP
+      - 
+        displayName: 
+          - timoresisk escudo
+          - 
+            content: timoresisk escudo
+            count: one
+          - 
+            content: timoresiske escudo
+            count: other
+        type: TPE
+      - 
+        displayName: 
+          - gammal tyrkiske lire
+          - 
+            content: gammal tyrkisk lire
+            count: one
+          - 
+            content: gamle tyrkiske lire
+            count: other
+        type: TRL
+      - 
+        displayName: 
+          - tyrkisk lire
+          - 
+            content: tyrkisk lire
+            count: one
+          - 
+            content: tyrkiske lire
+            count: other
+        type: TRY
+      - 
+        displayName: 
+          - trinidadisk dollar
+          - 
+            content: trinidadisk dollar
+            count: one
+          - 
+            content: trinidadiske dollar
+            count: other
+        type: TTD
+      - 
+        displayName: 
+          - taiwansk ny dollar
+          - 
+            content: taiwansk ny dollar
+            count: one
+          - 
+            content: taiwanske nye dollar
+            count: other
+        type: TWD
+      - 
+        displayName: 
+          - tanzaniansk shilling
+          - 
+            content: tanzaniansk shilling
+            count: one
+          - 
+            content: tanzanianske shilling
+            count: other
+        type: TZS
+      - 
+        displayName: 
+          - ukrainsk hryvnia
+          - 
+            content: ukrainsk hryvnia
+            count: one
+          - 
+            content: ukrainske hryvnia
+            count: other
+        type: UAH
+      - 
+        displayName: 
+          - ukrainsk karbovanetz
+          - 
+            content: ukrainsk karbovanetz
+            count: one
+          - 
+            content: ukrainske karbovanetz
+            count: other
+        type: UAK
+      - 
+        displayName: 
+          - ugandisk shilling (1966-1987)
+          - 
+            content: ugandisk shilling (UGS)
+            count: one
+          - 
+            content: ugandiske shilling (UGS)
+            count: other
+        type: UGS
+      - 
+        displayName: 
+          - ugandisk shilling
+          - 
+            content: ugandisk shilling
+            count: one
+          - 
+            content: ugandiske shilling
+            count: other
+        type: UGX
+      - 
+        displayName: 
+          - amerikansk dollar
+          - 
+            content: amerikansk dollar
+            count: one
+            draft: unconfirmed
+          - 
+            content: amerikanske dollar
+            count: other
+            draft: unconfirmed
+        type: USD
+      - 
+        displayName: 
+          - amerikansk dollar (neste dag)
+          - 
+            content: amerikansk dollar (neste dag)
+            count: one
+          - 
+            content: amerikanske dollar (neste dag)
+            count: other
+        type: USN
+      - 
+        displayName: 
+          - amerikansk dollar (same dag)
+          - 
+            content: amerikansk dollar (same dag)
+            count: one
+          - 
+            content: amerikanske dollar (same dag)
+            count: other
+        type: USS
+      - 
+        displayName: 
+          - uruguayansk peso en unidades indexadas
+          - 
+            content: uruguayansk peso en unidades indexadas
+            count: one
+          - 
+            content: uruguayanske peso en unidades indexadas
+            count: other
+        type: UYI
+      - 
+        displayName: 
+          - uruguayansk peso (1975-1993)
+          - 
+            content: uruguayansk peso (UYP)
+            count: one
+          - 
+            content: uruguayanske peso (UYP)
+            count: other
+        type: UYP
+      - 
+        displayName: 
+          - uruguayansk peso
+          - 
+            content: uruguayansk peso
+            count: one
+          - 
+            content: uruguayanske peso
+            count: other
+        type: UYU
+      - 
+        displayName: 
+          - usbekisk sum
+          - 
+            content: usbekisk sum
+            count: one
+          - 
+            content: usbekiske sum
+            count: other
+        type: UZS
+      - 
+        displayName: 
+          - venezuelansk bolivar (1871-2008)
+          - 
+            content: venezuelansk bolivar (1871-2008)
+            count: one
+          - 
+            content: venezuelanske bolivar (1871-2008)
+            count: other
+        type: VEB
+      - 
+        displayName: 
+          - venezuelansk bolivar
+          - 
+            content: venezuelansk bolivar
+            count: one
+          - 
+            content: venezuelanske bolivar
+            count: other
+        type: VEF
+      - 
+        displayName: 
+          - vietnamesisk dong
+          - 
+            content: vietnamesisk dong
+            count: one
+          - 
+            content: vietnamesiske dong
+            count: other
+        type: VND
+      - 
+        displayName: 
+          - vanuatuisk vatu
+          - 
+            content: vanuatuisk vatu
+            count: one
+          - 
+            content: vanuatuiske vatu
+            count: other
+        type: VUV
+      - 
+        displayName: 
+          - vestsamoisk tala
+          - 
+            content: vestsamoisk tala
+            count: one
+          - 
+            content: vestsamoiske tala
+            count: other
+        type: WST
+      - 
+        displayName: 
+          - CFA franc BEAC
+          - 
+            content: CFA franc BEAC
+            count: one
+          - 
+            content: CFA franc BEAC
+            count: other
+        type: XAF
+      - 
+        displayName: 
+          - sølv
+          - 
+            content: sølv
+            count: one
+          - 
+            content: sølv
+            count: other
+        type: XAG
+      - 
+        displayName: 
+          - gull
+          - 
+            content: gull
+            count: one
+          - 
+            content: gull
+            count: other
+        type: XAU
+      - 
+        displayName: 
+          - europeisk samansett eining
+          - 
+            content: europeisk samansett eining
+            count: one
+          - 
+            content: europeiske samansette einingar
+            count: other
+        type: XBA
+      - 
+        displayName: 
+          - europeisk monetær eining
+          - 
+            content: europeisk monetær eining
+            count: one
+          - 
+            content: europeiske monetære einingar
+            count: other
+        type: XBB
+      - 
+        displayName: 
+          - europeisk kontoeining (XBC)
+          - 
+            content: europeisk kontoeining (XBC)
+            count: one
+          - 
+            content: europeiske kontoeiningar (XBC)
+            count: other
+        type: XBC
+      - 
+        displayName: 
+          - europeisk kontoeining (XBD)
+          - 
+            content: europeisk kontoeining (XBD)
+            count: one
+          - 
+            content: europeiske kontoeiningar (XBD)
+            count: other
+        type: XBD
+      - 
+        displayName: 
+          - austkaribisk dollar
+          - 
+            content: austkaribisk dollar
+            count: one
+          - 
+            content: austkaribiske dollar
+            count: other
+        type: XCD
+      - 
+        displayName: 
+          - spesielle trekkrettar
+          - 
+            content: spesiell trekkrett
+            count: one
+          - 
+            content: spesielle trekkrettar
+            count: other
+        type: XDR
+      - 
+        displayName: 
+          - europeisk valutaeining
+          - 
+            content: europeisk valutaeining
+            count: one
+          - 
+            content: europeiske valutaeiningar
+            count: other
+        type: XEU
+      - 
+        displayName: 
+          - fransk gullfranc
+          - 
+            content: fransk gullfranc
+            count: one
+          - 
+            content: franske gullfranc
+            count: other
+        type: XFO
+      - 
+        displayName: 
+          - fransk UIC-franc
+          - 
+            content: fransk UIC-franc
+            count: one
+          - 
+            content: franske UIC-franc
+            count: other
+        type: XFU
+      - 
+        displayName: CFA franc BCEAO
+        type: XOF
+      - 
+        displayName: 
+          - palladium
+          - 
+            content: palladium
+            count: one
+          - 
+            content: palladium
+            count: other
+        type: XPD
+      - 
+        displayName: 
+          - CFP franc
+          - 
+            content: CFP-franc
+            count: one
+          - 
+            content: CFP-franc
+            count: other
+        type: XPF
+      - 
+        displayName: 
+          - platina
+          - 
+            content: platina
+            count: one
+          - 
+            content: platina
+            count: other
+        type: XPT
+      - 
+        displayName: 
+          - RINET-fond
+          - 
+            content: RINET-fond
+            count: one
+          - 
+            content: RINET-fond
+            count: other
+        type: XRE
+      - 
+        displayName: 
+          - testvalutakode
+          - 
+            content: testvalutakode
+            count: one
+          - 
+            content: testvalutakode
+            count: other
+        type: XTS
+      - 
+        displayName: 
+          - ukjend eller ugyldig valuta
+          - 
+            content: ukjend/ugyldig valuta
+            count: one
+          - 
+            content: ukjend eller ugyldig valuta
+            count: other
+        type: XXX
+      - 
+        displayName: 
+          - jemenittisk dinar
+          - 
+            content: jemenittisk dinar
+            count: one
+          - 
+            content: jemenittiske dinarar
+            count: other
+        type: YDD
+      - 
+        displayName: 
+          - jemenittisk rial
+          - 
+            content: jemenittisk rial
+            count: one
+          - 
+            content: jemenittiske rialar
+            count: other
+        type: YER
+      - 
+        displayName: 
+          - jugoslavisk dinar (hard)
+          - 
+            content: jugoslavisk dinar (hard)
+            count: one
+          - 
+            content: jugoslaviske dinarar (hard)
+            count: other
+        type: YUD
+      - 
+        displayName: 
+          - jugoslavisk noviy-dinar
+          - 
+            content: jugoslavisk noviy-dinarar
+            count: one
+          - 
+            content: jugoslaviske noviy-dinar
+            count: other
+        type: YUM
+      - 
+        displayName: 
+          - jugoslavisk konvertibel dinar
+          - 
+            content: jugoslavisk konvertibel dinar
+            count: one
+          - 
+            content: jugoslaviske konvertible dinarar
+            count: other
+        type: YUN
+      - 
+        displayName: sørafrikansk rand (finansiell)
+        type: ZAL
+      - 
+        displayName: sørafrikansk rand
+        type: ZAR
+      - 
+        displayName: zambisk kwacha (1968-2012)
+        type: ZMK
+      - 
+        displayName: zambisk kwacha
+        type: ZMW
+      - 
+        displayName: zairisk ny zaire
+        type: ZRN
+      - 
+        displayName: zairisk zaire
+        type: ZRZ
+      - 
+        displayName: zimbabwisk dollar
+        type: ZWD
+      - 
+        displayName: 
+          - 
+            content: Zimbabwe-dollar (2009)
+            count: one
+            draft: unconfirmed
+          - 
+            content: Zimbabwe-dollar (2009)
+            count: other
+            draft: unconfirmed
+        type: ZWL
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤"
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 tusen
+              count: one
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 0 tusen
+              count: other
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 00 tusen
+              count: one
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 00 tusen
+              count: other
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 000 tusen
+              count: one
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 000 tusen
+              count: other
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 0 million
+              count: one
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 0 millioner
+              count: other
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 00 million
+              count: one
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 00 millioner
+              count: other
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 000 million
+              count: one
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 000 millioner
+              count: other
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 0 milliard
+              count: one
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 0 milliarder
+              count: other
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 00 milliard
+              count: one
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 00 milliarder
+              count: other
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 000 milliard
+              count: one
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 000 milliarder
+              count: other
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 0 billion
+              count: one
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 0 billioner
+              count: other
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 00 billion
+              count: one
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 00 billioner
+              count: other
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 000 billion
+              count: one
+              draft: unconfirmed
+              type: '100000000000000'
+            - 
+              content: 000 billioner
+              count: other
+              draft: unconfirmed
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 tn
+              count: one
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 0 tn
+              count: other
+              draft: unconfirmed
+              type: 1000
+            - 
+              content: 00 tn
+              count: one
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 00 tn
+              count: other
+              draft: unconfirmed
+              type: 10000
+            - 
+              content: 000 tn
+              count: one
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 000 tn
+              count: other
+              draft: unconfirmed
+              type: 100000
+            - 
+              content: 0 mn
+              count: one
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 0 mn
+              count: other
+              draft: unconfirmed
+              type: 1000000
+            - 
+              content: 00 mn
+              count: one
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 00 mn
+              count: other
+              draft: unconfirmed
+              type: 10000000
+            - 
+              content: 000 mn
+              count: one
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 000 mn
+              count: other
+              draft: unconfirmed
+              type: 100000000
+            - 
+              content: 0 md
+              count: one
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 0 md
+              count: other
+              draft: unconfirmed
+              type: '1000000000'
+            - 
+              content: 00 md
+              count: one
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 00 md
+              count: other
+              draft: unconfirmed
+              type: '10000000000'
+            - 
+              content: 000 md
+              count: one
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 000 md
+              count: other
+              draft: unconfirmed
+              type: '100000000000'
+            - 
+              content: 0 bn
+              count: one
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 0 bn
+              count: other
+              draft: unconfirmed
+              type: '1000000000000'
+            - 
+              content: 00 bn
+              count: one
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 00 bn
+              count: other
+              draft: unconfirmed
+              type: '10000000000000'
+            - 
+              content: 000 bn
+              count: one
+              draft: unconfirmed
+              type: '100000000000000'
+            - 
+              content: 000 bn
+              count: other
+              draft: unconfirmed
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0 %"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: {}
+
+    "infinity": ∞
+    list: ;
+    minusSign: −
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: nei:n
+    yesstr: ja:j
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} døgn"
+          count: one
+        - 
+          alt: short
+          content: "{0} d"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} døgn"
+          count: other
+        - 
+          alt: short
+          content: "{0} d"
+          count: other
+          draft: unconfirmed
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: om {0} dag
+          count: one
+        - 
+          content: om {0} dagar
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: for {0} dag sidan
+          count: one
+        - 
+          content: for {0} dagar sidan
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} time"
+          count: one
+        - 
+          alt: short
+          content: "{0} h"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} timar"
+          count: other
+        - 
+          alt: short
+          content: "{0} h"
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: om {0} time
+          count: one
+        - 
+          content: om {0} timar
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: for {0} time sidan
+          count: one
+        - 
+          content: for {0} timar sidan
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minutt"
+          count: one
+        - 
+          alt: short
+          content: "{0} mi"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} minutt"
+          count: other
+        - 
+          alt: short
+          content: "{0} mi"
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: om {0} minutt
+          count: one
+        - 
+          content: om {0} minutt
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: for {0} minutt sidan
+          count: one
+        - 
+          content: for {0} minutt sidan
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} månad"
+          count: one
+        - 
+          alt: short
+          content: "{0} må"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} månader"
+          count: other
+        - 
+          alt: short
+          content: "{0} må"
+          count: other
+          draft: unconfirmed
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: om {0} månad
+          count: one
+        - 
+          content: om {0} månader
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: for {0} månad sidan
+          count: one
+        - 
+          content: for {0} månader sidan
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} sekund"
+          count: one
+        - 
+          alt: short
+          content: "{0} s"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} sekund"
+          count: other
+        - 
+          alt: short
+          content: "{0} s"
+          count: other
+          draft: unconfirmed
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: om {0} sekund
+          count: one
+        - 
+          content: om {0} sekund
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: for {0} sekund sidan
+          count: one
+        - 
+          content: for {0} sekund sidan
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} veke"
+          count: one
+        - 
+          alt: short
+          content: "{0} v"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} veker"
+          count: other
+        - 
+          alt: short
+          content: "{0} v"
+          count: other
+          draft: unconfirmed
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: om {0} veke
+          count: one
+        - 
+          content: om {0} veker
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: for {0} veke sidan
+          count: one
+        - 
+          content: for {0} veker sidan
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} år"
+          count: one
+        - 
+          alt: short
+          content: "{0} år"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} år"
+          count: other
+        - 
+          alt: short
+          content: "{0} år"
+          count: other
+          draft: unconfirmed
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: om {0} år
+          count: one
+        - 
+          content: om {0} år
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: for {0} år sidan
+          count: one
+        - 
+          content: for {0} år sidan
+          count: other

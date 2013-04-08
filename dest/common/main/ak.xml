@@ -1,0 +1,1408 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b d e ɛ f g h i k l m n o ɔ p r s t u w y]"
+    - 
+      content: "[c j q v z]"
+      type: auxiliary
+    - 
+      content: "[A B C D E Ɛ F G H I J K L M N O Ɔ P Q R S T U V W X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, G y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: G y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG yy/MM/dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yMd: 
+                content: y/M/d
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: yy/MM/dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMM: 
+                content: MMMM y
+              yMd: 
+                content: y/M/d
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: AN
+                  type: am
+                - 
+                  content: EW
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Kwe
+                      type: sun
+                    - 
+                      content: Dwo
+                      type: mon
+                    - 
+                      content: Ben
+                      type: tue
+                    - 
+                      content: Wuk
+                      type: wed
+                    - 
+                      content: Yaw
+                      type: thu
+                    - 
+                      content: Fia
+                      type: fri
+                    - 
+                      content: Mem
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Kwesida
+                      type: sun
+                    - 
+                      content: Dwowda
+                      type: mon
+                    - 
+                      content: Benada
+                      type: tue
+                    - 
+                      content: Wukuda
+                      type: wed
+                    - 
+                      content: Yawda
+                      type: thu
+                    - 
+                      content: Fida
+                      type: fri
+                    - 
+                      content: Memeneda
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: K
+                    type: sun
+                  - 
+                    content: D
+                    type: mon
+                  - 
+                    content: B
+                    type: tue
+                  - 
+                    content: W
+                    type: wed
+                  - 
+                    content: 'Y'
+                    type: thu
+                  - 
+                    content: F
+                    type: fri
+                  - 
+                    content: M
+                    type: sat
+                type: narrow
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: AK
+                type: 0
+              - 
+                content: KE
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: Ansa Kristo
+                type: 0
+              - 
+                content: Kristo Ekyiri
+                type: 1
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: S-Ɔ
+                    type: 1
+                  - 
+                    content: K-Ɔ
+                    type: 2
+                  - 
+                    content: E-Ɔ
+                    type: 3
+                  - 
+                    content: E-O
+                    type: 4
+                  - 
+                    content: E-K
+                    type: 5
+                  - 
+                    content: O-A
+                    type: 6
+                  - 
+                    content: A-K
+                    type: 7
+                  - 
+                    content: D-Ɔ
+                    type: 8
+                  - 
+                    content: F-Ɛ
+                    type: 9
+                  - 
+                    content: Ɔ-A
+                    type: 10
+                  - 
+                    content: Ɔ-O
+                    type: 11
+                  - 
+                    content: M-Ɔ
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: Sanda-Ɔpɛpɔn
+                    type: 1
+                  - 
+                    content: Kwakwar-Ɔgyefuo
+                    type: 2
+                  - 
+                    content: Ebɔw-Ɔbenem
+                    type: 3
+                  - 
+                    content: Ebɔbira-Oforisuo
+                    type: 4
+                  - 
+                    content: Esusow Aketseaba-Kɔtɔnimba
+                    type: 5
+                  - 
+                    content: Obirade-Ayɛwohomumu
+                    type: 6
+                  - 
+                    content: Ayɛwoho-Kitawonsa
+                    type: 7
+                  - 
+                    content: Difuu-Ɔsandaa
+                    type: 8
+                  - 
+                    content: Fankwa-Ɛbɔ
+                    type: 9
+                  - 
+                    content: Ɔbɛsɛ-Ahinime
+                    type: 10
+                  - 
+                    content: Ɔberɛfɛw-Obubuo
+                    type: 11
+                  - 
+                    content: Mumu-Ɔpɛnimba
+                    type: 12
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Bere
+        type: era
+      - 
+        displayName: Afe
+        type: year
+      - 
+        displayName: Bosome
+        type: month
+      - 
+        displayName: Dapɛn
+        type: week
+      - 
+        displayName: Da
+        relative: 
+          - 
+            content: Ndeda
+            type: -1
+          - 
+            content: Ndɛ
+            type: 0
+          - 
+            content: Ɔkyena
+            type: 1
+        type: day
+      - 
+        displayName: Dapɛn mu da
+        type: weekday
+      - 
+        displayName: Da bere
+        type: dayperiod
+      - 
+        displayName: Dɔnhwer
+        type: hour
+      - 
+        displayName: Sema
+        type: minute
+      - 
+        displayName: Sɛkɛnd
+        type: second
+      - 
+        displayName: Bere apaamu
+        type: zone
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ak
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Akan
+        type: ak
+      - 
+        content: Amarik
+        type: am
+      - 
+        content: Arabik
+        type: ar
+      - 
+        content: Belarus kasa
+        type: be
+      - 
+        content: Bɔlgeria kasa
+        type: bg
+      - 
+        content: Bengali kasa
+        type: bn
+      - 
+        content: Kyɛk kasa
+        type: cs
+      - 
+        content: Gyaaman
+        type: de
+      - 
+        content: Greek kasa
+        type: el
+      - 
+        content: Borɔfo
+        type: en
+      - 
+        content: Spain kasa
+        type: es
+      - 
+        content: Pɛɛhyia kasa
+        type: fa
+      - 
+        content: Frɛnkye
+        type: fr
+      - 
+        content: Hausa
+        type: ha
+      - 
+        content: Hindi
+        type: hi
+      - 
+        content: Hangri kasa
+        type: hu
+      - 
+        content: Indonihyia kasa
+        type: id
+      - 
+        content: Igbo
+        type: ig
+      - 
+        content: Italy kasa
+        type: it
+      - 
+        content: Gyapan kasa
+        type: ja
+      - 
+        content: Gyabanis kasa
+        type: jv
+      - 
+        content: Kambodia kasa
+        type: km
+      - 
+        content: Korea kasa
+        type: ko
+      - 
+        content: Malay kasa
+        type: ms
+      - 
+        content: Bɛɛmis kasa
+        type: my
+      - 
+        content: Nɛpal kasa
+        type: ne
+      - 
+        content: Dɛɛkye
+        type: nl
+      - 
+        content: Pungyabi kasa
+        type: pa
+      - 
+        content: Pɔland kasa
+        type: pl
+      - 
+        content: Pɔɔtugal kasa
+        type: pt
+      - 
+        content: Romenia kasa
+        type: ro
+      - 
+        content: Rahyia kasa
+        type: ru
+      - 
+        content: Rewanda kasa
+        type: rw
+      - 
+        content: Somalia kasa
+        type: so
+      - 
+        content: Sweden kasa
+        type: sv
+      - 
+        content: Tamil kasa
+        type: ta
+      - 
+        content: Taeland kasa
+        type: th
+      - 
+        content: Tɛɛki kasa
+        type: tr
+      - 
+        content: Ukren kasa
+        type: uk
+      - 
+        content: Urdu kasa
+        type: ur
+      - 
+        content: Viɛtnam kasa
+        type: vi
+      - 
+        content: Yoruba
+        type: yo
+      - 
+        content: Kyaena kasa
+        type: zh
+      - 
+        content: Zulu
+        type: zu
+  territories: 
+    territory: 
+      - 
+        content: Andora
+        type: AD
+      - 
+        content: United Arab Emirates
+        type: AE
+      - 
+        content: Afganistan
+        type: AF
+      - 
+        content: Antigua ne Baabuda
+        type: AG
+      - 
+        content: Anguila
+        type: AI
+      - 
+        content: Albenia
+        type: AL
+      - 
+        content: Aamenia
+        type: AM
+      - 
+        content: Nɛdɛland Antelez
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Agyɛntina
+        type: AR
+      - 
+        content: Amɛrika Samoa
+        type: AS
+      - 
+        content: Ɔstria
+        type: AT
+      - 
+        content: Ɔstrelia
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Azebaegyan
+        type: AZ
+      - 
+        content: Bosnia ne Hɛzegovina
+        type: BA
+      - 
+        content: Baabados
+        type: BB
+      - 
+        content: Bangladɛhye
+        type: BD
+      - 
+        content: Bɛlgyium
+        type: BE
+      - 
+        content: Bɔkina Faso
+        type: BF
+      - 
+        content: Bɔlgeria
+        type: BG
+      - 
+        content: Baren
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Bɛnin
+        type: BJ
+      - 
+        content: Bɛmuda
+        type: BM
+      - 
+        content: Brunae
+        type: BN
+      - 
+        content: Bolivia
+        type: BO
+      - 
+        content: Brazil
+        type: BR
+      - 
+        content: Bahama
+        type: BS
+      - 
+        content: Butan
+        type: BT
+      - 
+        content: Bɔtswana
+        type: BW
+      - 
+        content: Bɛlarus
+        type: BY
+      - 
+        content: Beliz
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Kongo (Zair)
+        type: CD
+      - 
+        content: Afrika Finimfin Man
+        type: CF
+      - 
+        content: Kongo
+        type: CG
+      - 
+        content: Swetzaland
+        type: CH
+      - 
+        content: La Côte d'Ivoire
+        type: CI
+      - 
+        content: Kook Nsupɔw
+        type: CK
+      - 
+        content: Kyili
+        type: CL
+      - 
+        content: Kamɛrun
+        type: CM
+      - 
+        content: Kyaena
+        type: CN
+      - 
+        content: Kolombia
+        type: CO
+      - 
+        content: Kɔsta Rika
+        type: CR
+      - 
+        content: Kuba
+        type: CU
+      - 
+        content: Kepvɛdfo Islands
+        type: CV
+      - 
+        content: Saeprɔs
+        type: CY
+      - 
+        content: Kyɛk Kurokɛse
+        type: CZ
+      - 
+        content: Gyaaman
+        type: DE
+      - 
+        content: Gyibuti
+        type: DJ
+      - 
+        content: Dɛnmak
+        type: DK
+      - 
+        content: Dɔmeneka
+        type: DM
+      - 
+        content: Dɔmeneka Kurokɛse
+        type: DO
+      - 
+        content: Ɔlgyeria
+        type: DZ
+      - 
+        content: Ikuwadɔ
+        type: EC
+      - 
+        content: Ɛstonia
+        type: EE
+      - 
+        content: Nisrim
+        type: EG
+      - 
+        content: Ɛritrea
+        type: ER
+      - 
+        content: Spain
+        type: ES
+      - 
+        content: Ithiopia
+        type: ET
+      - 
+        content: Finland
+        type: FI
+      - 
+        content: Figyi
+        type: FJ
+      - 
+        content: Fɔlkman Aeland
+        type: FK
+      - 
+        content: Maekronehyia
+        type: FM
+      - 
+        content: Frɛnkyeman
+        type: FR
+      - 
+        content: Gabɔn
+        type: GA
+      - 
+        content: Ahendiman Nkabom
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Gyɔgyea
+        type: GE
+      - 
+        content: Frɛnkye Gayana
+        type: GF
+      - 
+        content: Gaana
+        type: GH
+      - 
+        content: Gyebralta
+        type: GI
+      - 
+        content: Greenman
+        type: GL
+      - 
+        content: Gambia
+        type: GM
+      - 
+        content: Gini
+        type: GN
+      - 
+        content: Guwadelup
+        type: GP
+      - 
+        content: Gini Ikuweta
+        type: GQ
+      - 
+        content: Greekman
+        type: GR
+      - 
+        content: Guwatemala
+        type: GT
+      - 
+        content: Guam
+        type: GU
+      - 
+        content: Gini Bisaw
+        type: GW
+      - 
+        content: Gayana
+        type: GY
+      - 
+        content: Hɔnduras
+        type: HN
+      - 
+        content: Krowehyia
+        type: HR
+      - 
+        content: Heiti
+        type: HT
+      - 
+        content: Hangari
+        type: HU
+      - 
+        content: Indɔnehyia
+        type: ID
+      - 
+        content: Aereland
+        type: IE
+      - 
+        content: Israel
+        type: IL
+      - 
+        content: India
+        type: IN
+      - 
+        content: Britenfo Hɔn Man Wɔ India Po No Mu
+        type: IO
+      - 
+        content: Irak
+        type: IQ
+      - 
+        content: Iran
+        type: IR
+      - 
+        content: Aesland
+        type: IS
+      - 
+        content: Itali
+        type: IT
+      - 
+        content: Gyameka
+        type: JM
+      - 
+        content: Gyɔdan
+        type: JO
+      - 
+        content: Gyapan
+        type: JP
+      - 
+        content: Kɛnya
+        type: KE
+      - 
+        content: Kɛɛgestan
+        type: KG
+      - 
+        content: Kambodia
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Kɔmɔrɔs
+        type: KM
+      - 
+        content: Saint Kitts ne Nɛves
+        type: KN
+      - 
+        content: Etifi Koria
+        type: KP
+      - 
+        content: Anaafo Koria
+        type: KR
+      - 
+        content: Kuwete
+        type: KW
+      - 
+        content: Kemanfo Islands
+        type: KY
+      - 
+        content: Kazakstan
+        type: KZ
+      - 
+        content: Laos
+        type: LA
+      - 
+        content: Lɛbanɔn
+        type: LB
+      - 
+        content: Saint Lucia
+        type: LC
+      - 
+        content: Lektenstaen
+        type: LI
+      - 
+        content: Sri Lanka
+        type: LK
+      - 
+        content: Laeberia
+        type: LR
+      - 
+        content: Lɛsutu
+        type: LS
+      - 
+        content: Lituwenia
+        type: LT
+      - 
+        content: Laksembɛg
+        type: LU
+      - 
+        content: Latvia
+        type: LV
+      - 
+        content: Libya
+        type: LY
+      - 
+        content: Moroko
+        type: MA
+      - 
+        content: Mɔnako
+        type: MC
+      - 
+        content: Mɔldova
+        type: MD
+      - 
+        content: Madagaska
+        type: MG
+      - 
+        content: Marshall Islands
+        type: MH
+      - 
+        content: Masedonia
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Miyanma
+        type: MM
+      - 
+        content: Mɔngolia
+        type: MN
+      - 
+        content: Northern Mariana Islands
+        type: MP
+      - 
+        content: Matinik
+        type: MQ
+      - 
+        content: Mɔretenia
+        type: MR
+      - 
+        content: Mantserat
+        type: MS
+      - 
+        content: Mɔlta
+        type: MT
+      - 
+        content: Mɔrehyeɔs
+        type: MU
+      - 
+        content: Maldives
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Mɛksiko
+        type: MX
+      - 
+        content: Malehyia
+        type: MY
+      - 
+        content: Mozambik
+        type: MZ
+      - 
+        content: Namibia
+        type: NA
+      - 
+        content: Kaledonia Foforo
+        type: NC
+      - 
+        content: Nigyɛ
+        type: NE
+      - 
+        content: Nɔfolk Aeland
+        type: NF
+      - 
+        content: Naegyeria
+        type: NG
+      - 
+        content: Nekaraguwa
+        type: NI
+      - 
+        content: Nɛdɛland
+        type: NL
+      - 
+        content: Nɔɔwe
+        type: 'NO'
+      - 
+        content: Nɛpɔl
+        type: NP
+      - 
+        content: Naworu
+        type: NR
+      - 
+        content: Niyu
+        type: NU
+      - 
+        content: Ziland Foforo
+        type: NZ
+      - 
+        content: Oman
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Frɛnkye Pɔlenehyia
+        type: PF
+      - 
+        content: Papua Guinea Foforo
+        type: PG
+      - 
+        content: Philippines
+        type: PH
+      - 
+        content: Pakistan
+        type: PK
+      - 
+        content: Poland
+        type: PL
+      - 
+        content: Saint Pierre ne Miquelon
+        type: PM
+      - 
+        content: Pitcairn
+        type: PN
+      - 
+        content: Puɛto Riko
+        type: PR
+      - 
+        content: Palestaen West Bank ne Gaza
+        type: PS
+      - 
+        content: Pɔtugal
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paraguay
+        type: PY
+      - 
+        content: Kata
+        type: QA
+      - 
+        content: Reyuniɔn
+        type: RE
+      - 
+        content: Romenia
+        type: RO
+      - 
+        content: Rɔhyea
+        type: RU
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Saudi Arabia
+        type: SA
+      - 
+        content: Solomon Islands
+        type: SB
+      - 
+        content: Seyhyɛl
+        type: SC
+      - 
+        content: Sudan
+        type: SD
+      - 
+        content: Sweden
+        type: SE
+      - 
+        content: Singapɔ
+        type: SG
+      - 
+        content: Saint Helena
+        type: SH
+      - 
+        content: Slovinia
+        type: SI
+      - 
+        content: Slovakia
+        type: SK
+      - 
+        content: Sierra Leone
+        type: SL
+      - 
+        content: San Marino
+        type: SM
+      - 
+        content: Senegal
+        type: SN
+      - 
+        content: Somalia
+        type: SO
+      - 
+        content: Suriname
+        type: SR
+      - 
+        content: São Tomé and Príncipe
+        type: ST
+      - 
+        content: Ɛl Salvadɔ
+        type: SV
+      - 
+        content: Siria
+        type: SY
+      - 
+        content: Swaziland
+        type: SZ
+      - 
+        content: Turks ne Caicos Islands
+        type: TC
+      - 
+        content: Kyad
+        type: TD
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Taeland
+        type: TH
+      - 
+        content: Tajikistan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Timɔ Boka
+        type: TL
+      - 
+        content: Tɛkmɛnistan
+        type: TM
+      - 
+        content: Tunihyia
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Tɛɛki
+        type: TR
+      - 
+        content: Trinidad ne Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwan
+        type: TW
+      - 
+        content: Tanzania
+        type: TZ
+      - 
+        content: Ukren
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: Amɛrika
+        type: US
+      - 
+        content: Yurugwae
+        type: UY
+      - 
+        content: Uzbɛkistan
+        type: UZ
+      - 
+        content: Vatican Man
+        type: VA
+      - 
+        content: Saint Vincent ne Grenadines
+        type: VC
+      - 
+        content: Venezuela
+        type: VE
+      - 
+        content: Britainfo Virgin Islands
+        type: VG
+      - 
+        content: Amɛrika Virgin Islands
+        type: VI
+      - 
+        content: Viɛtnam
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Wallis ne Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Yɛmen
+        type: YE
+      - 
+        content: Mayɔte
+        type: YT
+      - 
+        content: Afrika Anaafo
+        type: ZA
+      - 
+        content: Zambia
+        type: ZM
+      - 
+        content: Zembabwe
+        type: ZW
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Ɛmirete Arab Nkabɔmu Deram
+        type: AED
+      - 
+        displayName: Angola Kwanza
+        type: AOA
+      - 
+        displayName: Ɔstrelia Dɔla
+        type: AUD
+      - 
+        displayName: Baren Dina
+        type: BHD
+      - 
+        displayName: Burundi Frank
+        type: BIF
+      - 
+        displayName: Botswana Pula
+        type: BWP
+      - 
+        displayName: Kanada Dɔla
+        type: CAD
+      - 
+        displayName: Kongo Frank
+        type: CDF
+      - 
+        displayName: Sweden Frank
+        type: CHF
+      - 
+        displayName: Yuan
+        type: CNY
+      - 
+        displayName: Ɛskudo
+        type: CVE
+      - 
+        displayName: Gyebuti Frank
+        type: DJF
+      - 
+        displayName: Ɔlgyeria Dina
+        type: DZD
+      - 
+        displayName: Egypt Pɔn
+        type: EGP
+      - 
+        displayName: Ɛretereya Nakfa
+        type: ERN
+      - 
+        displayName: Itiopia Bir
+        type: ETB
+      - 
+        displayName: Iro
+        type: EUR
+      - 
+        displayName: Breten Pɔn
+        type: GBP
+      - 
+        displayName: Ghana Sidi (1979-2007)
+        type: GHC
+      - 
+        displayName: Ghana Sidi
+        symbol: GH₵
+        type: GHS
+      - 
+        displayName: Gambia Dalasi
+        type: GMD
+      - 
+        displayName: Gini Frank
+        type: GNS
+      - 
+        displayName: India Rupi
+        type: INR
+      - 
+        displayName: Gyapan Yɛn
+        type: JPY
+      - 
+        displayName: Kenya Hyelen
+        type: KES
+      - 
+        displayName: Komoro Frank
+        type: KMF
+      - 
+        displayName: Laeberia Dɔla
+        type: LRD
+      - 
+        displayName: Lesoto Loti
+        type: LSL
+      - 
+        displayName: Libya Dina
+        type: LYD
+      - 
+        displayName: Moroko Diram
+        type: MAD
+      - 
+        displayName: Madagasi Frank
+        type: MGA
+      - 
+        displayName: Mɔretenia Ouguiya
+        type: MRO
+      - 
+        displayName: Mɔrehyeɔs Rupi
+        type: MUR
+      - 
+        displayName: Malawi Kwacha
+        type: MWK
+      - 
+        displayName: Mozambik Metical
+        type: MZM
+      - 
+        displayName: Namibia Dɔla
+        type: NAD
+      - 
+        displayName: Naegyeria Naira
+        type: NGN
+      - 
+        displayName: Rewanda Frank
+        type: RWF
+      - 
+        displayName: Saudi Riyal
+        type: SAR
+      - 
+        displayName: Seyhyɛls Rupi
+        type: SCR
+      - 
+        displayName: Sudan Dina
+        type: SDG
+      - 
+        displayName: Sudan Pɔn
+        type: SDP
+      - 
+        displayName: St Helena Pɔn
+        type: SHP
+      - 
+        displayName: Leone
+        type: SLL
+      - 
+        displayName: Somailia Hyelen
+        type: SOS
+      - 
+        displayName: Sao Tome ne Principe Dobra
+        type: STD
+      - 
+        displayName: Lilangeni
+        type: SZL
+      - 
+        displayName: Tunisia Dina
+        type: TND
+      - 
+        displayName: Tanzania Hyelen
+        type: TZS
+      - 
+        displayName: Uganda Hyelen
+        type: UGX
+      - 
+        displayName: Amɛrika Dɔla
+        type: USD
+      - 
+        displayName: Sefa
+        type: XAF
+      - 
+        displayName: Afrika Anaafo Rand
+        type: ZAR
+      - 
+        displayName: Zambia Kwacha (1968-2012)
+        type: ZMK
+      - 
+        displayName: Zambia Kwacha
+        type: ZMW
+      - 
+        displayName: Zimbabwe Dɔla
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+  symbols: 
+    decimal: .
+    group: ","
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: Daabi:D
+    yesstr: Yiw:Y

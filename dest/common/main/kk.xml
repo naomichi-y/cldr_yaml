@@ -1,0 +1,4175 @@
+characters: 
+  exemplarCharacters: 
+    - "[а ә б в г ғ д е ё ж з и й к қ л м н ң о ө п р с т у ұ ү ф х һ ц ч ш щ ъ ы і ь э ю я]"
+    - 
+      content: "[]"
+      type: auxiliary
+    - 
+      content: "[А Ә Б В Г Ғ Д Е Ё Ж З И Й К Қ Л М Н Ң О Ө П Р С Т У Ұ Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы І Ь Э Ю Я]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: 1
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: 2
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: 3
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: 4
+                  draft: unconfirmed
+                  type: 4
+                - 
+                  content: 5
+                  draft: unconfirmed
+                  type: 5
+                - 
+                  content: 6
+                  draft: unconfirmed
+                  type: 6
+                - 
+                  content: 7
+                  draft: unconfirmed
+                  type: 7
+                - 
+                  content: 8
+                  draft: unconfirmed
+                  type: 8
+                - 
+                  content: 9
+                  draft: unconfirmed
+                  type: 9
+                - 
+                  content: 10
+                  draft: unconfirmed
+                  type: 10
+                - 
+                  content: 11
+                  draft: unconfirmed
+                  type: 11
+                - 
+                  content: 12
+                  draft: unconfirmed
+                  type: 12
+                - 
+                  content: 13
+                  draft: unconfirmed
+                  type: 13
+              type: narrow
+            type: format
+        type: coptic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y 'ж'. G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y 'ж'. G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd.MM.y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.MM.yy GGGGG
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatFallback: "{0} - {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                  m: 
+                    content: HH:mm-HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                  m: 
+                    content: HH:mm-HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM - E, dd.MM
+                  d: 
+                    content: E, dd.MM - E, dd.MM
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                  d: 
+                    content: E, d - E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                  d: 
+                    content: d-d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM - dd.MM
+                  d: 
+                    content: dd.MM - dd.MM
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h-h a
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a
+                  m: 
+                    content: h:mm-h:mm a
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a v
+                  m: 
+                    content: h:mm-h:mm a v
+              hv: 
+                greatestDifference: 
+                  content: h-h a v
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y - MM.y
+                  "y": 
+                    content: MM.y - MM.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                  d: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                  "y": 
+                    content: E, dd.MM.y - E, dd.MM.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y 'ж'.
+                  "y": 
+                    content: MMM y 'ж'. - MMM y 'ж'.
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y 'ж'.
+                  d: 
+                    content: E, d - E, d MMM y 'ж'.
+                  "y": 
+                    content: E, d MMM y 'ж'. - E, d MMM y 'ж'.
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMMM y - MMMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y 'ж'.
+                  d: 
+                    content: d-d MMM y 'ж'.
+                  "y": 
+                    content: d MMM y 'ж'. - d MMM y 'ж'.
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y - dd.MM.y
+                  d: 
+                    content: dd.MM.y - dd.MM.y
+                  "y": 
+                    content: dd.MM.y - dd.MM.y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y 'ж'.
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y 'ж'.
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd.MM.y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd.MM.yy
+              type: short
+        dateTimeFormats: 
+          intervalFormats: 
+            intervalFormatFallback: "{0} - {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH-HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm
+                  m: 
+                    content: HH:mm-HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm-HH:mm v
+                  m: 
+                    content: HH:mm-HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH-HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M-M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM - E, dd.MM
+                  d: 
+                    content: E, dd.MM - E, dd.MM
+              MMM: 
+                greatestDifference: 
+                  content: MMM-MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                  d: 
+                    content: E, d - E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                  d: 
+                    content: d-d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM - dd.MM
+                  d: 
+                    content: dd.MM - dd.MM
+              d: 
+                greatestDifference: 
+                  content: d-d
+                  id: d
+              h: 
+                greatestDifference: 
+                  content: h-h a
+                  id: h
+              hm: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a
+                  m: 
+                    content: h:mm-h:mm a
+              hmv: 
+                greatestDifference: 
+                  h: 
+                    content: h:mm-h:mm a v
+                  m: 
+                    content: h:mm-h:mm a v
+              hv: 
+                greatestDifference: 
+                  content: h-h a v
+                  id: h
+              "y": 
+                greatestDifference: 
+                  content: y-y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: MM.y - MM.y
+                  "y": 
+                    content: MM.y - MM.y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                  d: 
+                    content: E, dd.MM.y - E, dd.MM.y
+                  "y": 
+                    content: E, dd.MM.y - E, dd.MM.y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y 'ж'.
+                  "y": 
+                    content: MMM y 'ж'. - MMM y 'ж'.
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y 'ж'.
+                  d: 
+                    content: E, d - E, d MMM y 'ж'.
+                  "y": 
+                    content: E, d MMM y 'ж'. - E, d MMM y 'ж'.
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMMM y - MMMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y 'ж'.
+                  d: 
+                    content: d-d MMM y 'ж'.
+                  "y": 
+                    content: d MMM y 'ж'. - d MMM y 'ж'.
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: dd.MM.y - dd.MM.y
+                  d: 
+                    content: dd.MM.y - dd.MM.y
+                  "y": 
+                    content: dd.MM.y - dd.MM.y
+        days: 
+          dayContext: 
+            dayWidth: 
+              - 
+                day: 
+                  - 
+                    content: жс.
+                    type: sun
+                  - 
+                    content: дс.
+                    type: mon
+                  - 
+                    content: сс.
+                    type: tue
+                  - 
+                    content: ср.
+                    type: wed
+                  - 
+                    content: бс.
+                    type: thu
+                  - 
+                    content: жм.
+                    type: fri
+                  - 
+                    content: сһ.
+                    type: sat
+                type: abbreviated
+              - 
+                day: 
+                  - 
+                    content: жексені
+                    type: sun
+                  - 
+                    content: дуйсенбі
+                    type: mon
+                  - 
+                    content: сейсенбі
+                    type: tue
+                  - 
+                    content: сәренбі
+                    type: wed
+                  - 
+                    content: бейсенбі
+                    type: thu
+                  - 
+                    content: жұма
+                    type: fri
+                  - 
+                    content: сенбі
+                    type: sat
+                type: wide
+            type: format
+        months: 
+          monthContext: 
+            monthWidth: 
+              - 
+                month: 
+                  - 
+                    content: қаң.
+                    type: 1
+                  - 
+                    content: ақп.
+                    type: 2
+                  - 
+                    content: нау.
+                    type: 3
+                  - 
+                    content: сәу.
+                    type: 4
+                  - 
+                    content: мам.
+                    type: 5
+                  - 
+                    content: мау.
+                    type: 6
+                  - 
+                    content: шіл.
+                    type: 7
+                  - 
+                    content: там.
+                    type: 8
+                  - 
+                    content: қыр.
+                    type: 9
+                  - 
+                    content: қаз.
+                    type: 10
+                  - 
+                    content: қар.
+                    type: 11
+                  - 
+                    content: желт.
+                    type: 12
+                type: abbreviated
+              - 
+                month: 
+                  - 
+                    content: қаңтар
+                    type: 1
+                  - 
+                    content: ақпан
+                    type: 2
+                  - 
+                    content: наурыз
+                    type: 3
+                  - 
+                    content: сәуір
+                    type: 4
+                  - 
+                    content: мамыр
+                    type: 5
+                  - 
+                    content: маусым
+                    type: 6
+                  - 
+                    content: шілде
+                    type: 7
+                  - 
+                    content: тамыз
+                    type: 8
+                  - 
+                    content: қыркүйек
+                    type: 9
+                  - 
+                    content: қазан
+                    type: 10
+                  - 
+                    content: қараша
+                    type: 11
+                  - 
+                    content: желтоқсан
+                    type: 12
+                type: wide
+            type: format
+        quarters: 
+          quarterContext: 
+            quarterWidth: 
+              - 
+                quarter: 
+                  - 
+                    content: 1-інші тоқсан
+                    draft: unconfirmed
+                    type: 1
+                  - 
+                    content: 2-інші тоқсан
+                    draft: unconfirmed
+                    type: 2
+                  - 
+                    content: 3-інші тоқсан
+                    draft: unconfirmed
+                    type: 3
+                  - 
+                    content: 4-інші тоқсан
+                    draft: unconfirmed
+                    type: 4
+                type: abbreviated
+              - 
+                quarter: 
+                  - 
+                    content: 1-інші тоқсан
+                    draft: unconfirmed
+                    type: 1
+                  - 
+                    content: 2-інші тоқсан
+                    draft: unconfirmed
+                    type: 2
+                  - 
+                    content: 3-інші тоқсан
+                    draft: unconfirmed
+                    type: 3
+                  - 
+                    content: 4-інші тоқсан
+                    draft: unconfirmed
+                    type: 4
+                type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss zzzz
+                  draft: unconfirmed
+              type: full
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss z
+                  draft: unconfirmed
+              type: long
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm:ss
+                  draft: unconfirmed
+              type: medium
+            - 
+              timeFormat: 
+                pattern: 
+                  content: HH:mm
+                  draft: unconfirmed
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: жыл
+          draft: unconfirmed
+        type: year
+      - 
+        displayName: 
+          content: ай
+          draft: unconfirmed
+        type: month
+      - 
+        displayName: 
+          content: апта
+          draft: unconfirmed
+        type: week
+      - 
+        displayName: 
+          content: күн
+          draft: unconfirmed
+        relative: 
+          - 
+            content: алдыңғы күні
+            draft: unconfirmed
+            type: -2
+          - 
+            content: кеше
+            draft: unconfirmed
+            type: -1
+          - 
+            content: бүгін
+            draft: unconfirmed
+            type: 0
+          - 
+            content: ертең
+            draft: unconfirmed
+            type: 1
+          - 
+            content: арғы күні
+            draft: unconfirmed
+            type: 2
+        type: day
+      - 
+        displayName: 
+          content: апта күні
+          draft: unconfirmed
+        type: weekday
+      - 
+        displayName: 
+          content: сағат
+          draft: unconfirmed
+        type: hour
+      - 
+        displayName: 
+          content: минут
+          draft: unconfirmed
+        type: minute
+      - 
+        displayName: 
+          content: секунд
+          draft: unconfirmed
+        type: second
+  timeZoneNames: 
+    fallbackRegionFormat: "{1} Уақыт ({0})"
+    metazone: 
+      - 
+        long: 
+          standard: Орталық Африка уақыты
+        type: Africa_Central
+      - 
+        long: 
+          standard: Шығыс Африка уақыты
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Оңтүстік Африка уақыты
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Батыс Африка жаздық уақыты
+          generic: Батыс Африка уақыты
+          standard: Батыс Африка стандарт уақыты
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Атлантикалық жаздық уақыт
+          generic: Атлантика уақыты
+          standard: Атлантика стандарт уақыты
+        type: Atlantic
+      - 
+        long: 
+          daylight: Австралиялық орталық жаздық уақыт
+          generic: Орталық Австралия уақыты
+          standard: Австралияның орталық стандарт уақыты
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Орталық Австралиялық батыс жаздық уақыты
+          generic: Орталық Австралиялық батыс уақыты
+          standard: Орталық Австралиялық батыс стандарт уақыты
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Шығыс Австралиялық жаздық уақыт
+          generic: Шығыс Австралиялық уақыт
+          standard: Шығыс Австралиялық стандарт уақыты
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Батыс Австралиялық жаздық уақыт
+          generic: Батыс Австралиялық уақыт
+          standard: Батыс Австралиялық стандарт уақыты
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Орталық Еуропа жаздық уақыты
+          generic: Орталық Еуропа уақыты
+          standard: Орталық Еуропа стандарт уақыты
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Шығыс Еуропа жаздық уақыты
+          generic: Шығыс Еуропа уақыты
+          standard: Шығыс Еуропа стандарт уақыты
+        short: 
+          daylight: EEST
+          generic: EET
+          standard: EET
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Батыс Еуропа жаздық уақыты
+          generic: Батыс Еуропа уақыты
+          standard: Батыс Еуропа стандарт уақыты
+        type: Europe_Western
+    regionFormat: "{0} уақыт"
+    zone: 
+      - 
+        exemplarCity: Белгісіз
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: Андора
+          draft: unconfirmed
+        type: Europe/Andorra
+      - 
+        exemplarCity: 
+          content: Дубай
+          draft: unconfirmed
+        type: Asia/Dubai
+      - 
+        exemplarCity: 
+          content: Кабул
+          draft: unconfirmed
+        type: Asia/Kabul
+      - 
+        exemplarCity: 
+          content: Антгуа
+          draft: unconfirmed
+        type: America/Antigua
+      - 
+        exemplarCity: 
+          content: Ангилиа
+          draft: unconfirmed
+        type: America/Anguilla
+      - 
+        exemplarCity: 
+          content: Тирана
+          draft: unconfirmed
+        type: Europe/Tirane
+      - 
+        exemplarCity: 
+          content: Ереван
+          draft: unconfirmed
+        type: Asia/Yerevan
+      - 
+        exemplarCity: 
+          content: Луанда
+          draft: unconfirmed
+        type: Africa/Luanda
+      - 
+        exemplarCity: 
+          content: Ротера
+          draft: unconfirmed
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: 
+          content: Палмер
+          draft: unconfirmed
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: 
+          content: Оңтүстік полюс
+          draft: unconfirmed
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: 
+          content: Сева
+          draft: unconfirmed
+        type: Antarctica/Syowa
+      - 
+        exemplarCity: 
+          content: Моусон
+          draft: unconfirmed
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: 
+          content: Дэйвис
+          draft: unconfirmed
+        type: Antarctica/Davis
+      - 
+        exemplarCity: 
+          content: Восток
+          draft: unconfirmed
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: 
+          content: Кейси
+          draft: unconfirmed
+        type: Antarctica/Casey
+      - 
+        exemplarCity: 
+          content: Дюмон-д'Юрвиль
+          draft: unconfirmed
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: 
+          content: Мак Мердо
+          draft: unconfirmed
+        type: Antarctica/McMurdo
+      - 
+        exemplarCity: 
+          content: Рио Галлегос
+          draft: unconfirmed
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: 
+          content: Мендоза
+          draft: unconfirmed
+        type: America/Mendoza
+      - 
+        exemplarCity: 
+          content: Сан-Хуан
+          draft: unconfirmed
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: 
+          content: Ушуаиа
+          draft: unconfirmed
+        type: America/Argentina/Ushuaia
+      - 
+        exemplarCity: 
+          content: Ла Риоха
+          draft: unconfirmed
+        type: America/Argentina/La_Rioja
+      - 
+        exemplarCity: 
+          content: Сан Луис
+          draft: unconfirmed
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: 
+          content: Катамарка
+          draft: unconfirmed
+        type: America/Catamarca
+      - 
+        exemplarCity: 
+          content: Салта
+          draft: unconfirmed
+        type: America/Argentina/Salta
+      - 
+        exemplarCity: 
+          content: Жужуй
+          draft: unconfirmed
+        type: America/Jujuy
+      - 
+        exemplarCity: 
+          content: Тукуман
+          draft: unconfirmed
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: 
+          content: Кордоба
+          draft: unconfirmed
+        type: America/Cordoba
+      - 
+        exemplarCity: 
+          content: Буэнос Айрес
+          draft: unconfirmed
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: 
+          content: Паго-Паго
+          draft: unconfirmed
+        type: Pacific/Pago_Pago
+      - 
+        exemplarCity: 
+          content: Вена
+          draft: unconfirmed
+        type: Europe/Vienna
+      - 
+        exemplarCity: 
+          content: Перт
+          draft: unconfirmed
+        type: Australia/Perth
+      - 
+        exemplarCity: 
+          content: Юкла
+          draft: unconfirmed
+        type: Australia/Eucla
+      - 
+        exemplarCity: 
+          content: Дарвин
+          draft: unconfirmed
+        type: Australia/Darwin
+      - 
+        exemplarCity: 
+          content: Аделаида
+          draft: unconfirmed
+        type: Australia/Adelaide
+      - 
+        exemplarCity: 
+          content: Брокен Хилл
+          draft: unconfirmed
+        type: Australia/Broken_Hill
+      - 
+        exemplarCity: 
+          content: Керри
+          draft: unconfirmed
+        type: Australia/Currie
+      - 
+        exemplarCity: 
+          content: Мельбурн
+          draft: unconfirmed
+        type: Australia/Melbourne
+      - 
+        exemplarCity: 
+          content: Хобарт
+          draft: unconfirmed
+        type: Australia/Hobart
+      - 
+        exemplarCity: 
+          content: Линдеман
+          draft: unconfirmed
+        type: Australia/Lindeman
+      - 
+        exemplarCity: 
+          content: Сидней
+          draft: unconfirmed
+        type: Australia/Sydney
+      - 
+        exemplarCity: 
+          content: Брисбен
+          draft: unconfirmed
+        type: Australia/Brisbane
+      - 
+        exemplarCity: 
+          content: Лорд Хау, арал
+          draft: unconfirmed
+        type: Australia/Lord_Howe
+      - 
+        exemplarCity: 
+          content: Аруба
+          draft: unconfirmed
+        type: America/Aruba
+      - 
+        exemplarCity: 
+          content: Баку
+          draft: unconfirmed
+        type: Asia/Baku
+      - 
+        exemplarCity: 
+          content: Сараево
+          draft: unconfirmed
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: 
+          content: Барбадос
+          draft: unconfirmed
+        type: America/Barbados
+      - 
+        exemplarCity: 
+          content: Дакка
+          draft: unconfirmed
+        type: Asia/Dhaka
+      - 
+        exemplarCity: 
+          content: Брюссель
+          draft: unconfirmed
+        type: Europe/Brussels
+      - 
+        exemplarCity: 
+          content: Уадагуду
+          draft: unconfirmed
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: 
+          content: София
+          draft: unconfirmed
+        type: Europe/Sofia
+      - 
+        exemplarCity: 
+          content: Бахрейн
+          draft: unconfirmed
+        type: Asia/Bahrain
+      - 
+        exemplarCity: 
+          content: Бужумбура
+          draft: unconfirmed
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: 
+          content: Порто-Ново
+          draft: unconfirmed
+        type: Africa/Porto-Novo
+      - 
+        exemplarCity: 
+          content: Бермуды
+          draft: unconfirmed
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: 
+          content: Бруней
+          draft: unconfirmed
+        type: Asia/Brunei
+      - 
+        exemplarCity: 
+          content: Ла-Пас
+          draft: unconfirmed
+        type: America/La_Paz
+      - 
+        exemplarCity: 
+          content: Эйрунепе
+          draft: unconfirmed
+        type: America/Eirunepe
+      - 
+        exemplarCity: 
+          content: Риу Бранку
+          draft: unconfirmed
+        type: America/Rio_Branco
+      - 
+        exemplarCity: 
+          content: Порту-Велью
+          draft: unconfirmed
+        type: America/Porto_Velho
+      - 
+        exemplarCity: 
+          content: Бао Виста
+          draft: unconfirmed
+        type: America/Boa_Vista
+      - 
+        exemplarCity: 
+          content: Манаус
+          draft: unconfirmed
+        type: America/Manaus
+      - 
+        exemplarCity: 
+          content: Куяба
+          draft: unconfirmed
+        type: America/Cuiaba
+      - 
+        exemplarCity: 
+          content: Сантарем
+          draft: unconfirmed
+        type: America/Santarem
+      - 
+        exemplarCity: 
+          content: Кампо Гранде
+          draft: unconfirmed
+        type: America/Campo_Grande
+      - 
+        exemplarCity: 
+          content: Белем
+          draft: unconfirmed
+        type: America/Belem
+      - 
+        exemplarCity: 
+          content: Арагуаина
+          draft: unconfirmed
+        type: America/Araguaina
+      - 
+        exemplarCity: 
+          content: Сан Паулу
+          draft: unconfirmed
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: 
+          content: Баия
+          draft: unconfirmed
+        type: America/Bahia
+      - 
+        exemplarCity: 
+          content: Форталеза
+          draft: unconfirmed
+        type: America/Fortaleza
+      - 
+        exemplarCity: 
+          content: Масейо
+          draft: unconfirmed
+        type: America/Maceio
+      - 
+        exemplarCity: 
+          content: Ресифи
+          draft: unconfirmed
+        type: America/Recife
+      - 
+        exemplarCity: 
+          content: Норонха
+          draft: unconfirmed
+        type: America/Noronha
+      - 
+        exemplarCity: 
+          content: Нассау
+          draft: unconfirmed
+        type: America/Nassau
+      - 
+        exemplarCity: 
+          content: Тимбу
+          draft: unconfirmed
+        type: Asia/Thimphu
+      - 
+        exemplarCity: 
+          content: Габороне
+          draft: unconfirmed
+        type: Africa/Gaborone
+      - 
+        exemplarCity: 
+          content: Минск
+          draft: unconfirmed
+        type: Europe/Minsk
+      - 
+        exemplarCity: 
+          content: Белиз
+          draft: unconfirmed
+        type: America/Belize
+      - 
+        exemplarCity: 
+          content: Досон
+          draft: unconfirmed
+        type: America/Dawson
+      - 
+        exemplarCity: 
+          content: Уайтхорс
+          draft: unconfirmed
+        type: America/Whitehorse
+      - 
+        exemplarCity: 
+          content: Инувик
+          draft: unconfirmed
+        type: America/Inuvik
+      - 
+        exemplarCity: 
+          content: Ванкувер
+          draft: unconfirmed
+        type: America/Vancouver
+      - 
+        exemplarCity: 
+          content: Досон Крик
+          draft: unconfirmed
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: 
+          content: Йеллоунайф
+          draft: unconfirmed
+        type: America/Yellowknife
+      - 
+        exemplarCity: 
+          content: Эдмонтон
+          draft: unconfirmed
+        type: America/Edmonton
+      - 
+        exemplarCity: 
+          content: Свифт Карент
+          draft: unconfirmed
+        type: America/Swift_Current
+      - 
+        exemplarCity: 
+          content: Кембридж Бей
+          draft: unconfirmed
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: 
+          content: Регина
+          draft: unconfirmed
+        type: America/Regina
+      - 
+        exemplarCity: 
+          content: Виннипег
+          draft: unconfirmed
+        type: America/Winnipeg
+      - 
+        exemplarCity: 
+          content: Резолют
+          draft: unconfirmed
+        type: America/Resolute
+      - 
+        exemplarCity: 
+          content: Рейни-Ривер
+          draft: unconfirmed
+        type: America/Rainy_River
+      - 
+        exemplarCity: 
+          content: Ранкин-Инлет
+          draft: unconfirmed
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: 
+          content: Корал Харбор
+          draft: unconfirmed
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: 
+          content: Тандер Бей
+          draft: unconfirmed
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: 
+          content: Нипигон
+          draft: unconfirmed
+        type: America/Nipigon
+      - 
+        exemplarCity: 
+          content: Торонто
+          draft: unconfirmed
+        type: America/Toronto
+      - 
+        exemplarCity: 
+          content: Монреаль
+          draft: unconfirmed
+        type: America/Montreal
+      - 
+        exemplarCity: 
+          content: Икалуит
+          draft: unconfirmed
+        type: America/Iqaluit
+      - 
+        exemplarCity: 
+          content: Пангниртанг
+          draft: unconfirmed
+        type: America/Pangnirtung
+      - 
+        exemplarCity: 
+          content: Монктон
+          draft: unconfirmed
+        type: America/Moncton
+      - 
+        exemplarCity: 
+          content: Галифакс
+          draft: unconfirmed
+        type: America/Halifax
+      - 
+        exemplarCity: 
+          content: Гус-Бей
+          draft: unconfirmed
+        type: America/Goose_Bay
+      - 
+        exemplarCity: 
+          content: Глейс-Бей
+          draft: unconfirmed
+        type: America/Glace_Bay
+      - 
+        exemplarCity: 
+          content: Бланк Саблон
+          draft: unconfirmed
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: 
+          content: Сент Джонс
+          draft: unconfirmed
+        type: America/St_Johns
+      - 
+        exemplarCity: 
+          content: Кокос аралдары
+          draft: unconfirmed
+        type: Indian/Cocos
+      - 
+        exemplarCity: 
+          content: Киншаса
+          draft: unconfirmed
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: 
+          content: Лубумбаши
+          draft: unconfirmed
+        type: Africa/Lubumbashi
+      - 
+        exemplarCity: 
+          content: Банги
+          draft: unconfirmed
+        type: Africa/Bangui
+      - 
+        exemplarCity: 
+          content: Браззавил
+          draft: unconfirmed
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: 
+          content: Цюрих
+          draft: unconfirmed
+        type: Europe/Zurich
+      - 
+        exemplarCity: 
+          content: Абиджан
+          draft: unconfirmed
+        type: Africa/Abidjan
+      - 
+        exemplarCity: 
+          content: Раротонга
+          draft: unconfirmed
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: 
+          content: Дуала
+          draft: unconfirmed
+        type: Africa/Douala
+      - 
+        exemplarCity: 
+          content: Қашқар
+          draft: unconfirmed
+        type: Asia/Kashgar
+      - 
+        exemplarCity: 
+          content: Үрімші
+          draft: unconfirmed
+        type: Asia/Urumqi
+      - 
+        exemplarCity: 
+          content: Харбин
+          draft: unconfirmed
+        type: Asia/Harbin
+      - 
+        exemplarCity: 
+          content: Богота
+          draft: unconfirmed
+        type: America/Bogota
+      - 
+        exemplarCity: 
+          content: Коста-Рика
+          draft: unconfirmed
+        type: America/Costa_Rica
+      - 
+        exemplarCity: 
+          content: Гавана
+          draft: unconfirmed
+        type: America/Havana
+      - 
+        exemplarCity: 
+          content: Курасао
+          draft: unconfirmed
+        type: America/Curacao
+      - 
+        exemplarCity: 
+          content: Никосиа
+          draft: unconfirmed
+        type: Asia/Nicosia
+      - 
+        exemplarCity: 
+          content: Прага
+          draft: unconfirmed
+        type: Europe/Prague
+      - 
+        exemplarCity: 
+          content: Берлин
+          draft: unconfirmed
+        type: Europe/Berlin
+      - 
+        exemplarCity: 
+          content: Джибути
+          draft: unconfirmed
+        type: Africa/Djibouti
+      - 
+        exemplarCity: 
+          content: Копенгаген
+          draft: unconfirmed
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: 
+          content: Доминика
+          draft: unconfirmed
+        type: America/Dominica
+      - 
+        exemplarCity: 
+          content: Санто Доминго
+          draft: unconfirmed
+        type: America/Santo_Domingo
+      - 
+        exemplarCity: 
+          content: Алжир
+          draft: unconfirmed
+        type: Africa/Algiers
+      - 
+        exemplarCity: 
+          content: Галапагос
+          draft: unconfirmed
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: 
+          content: Таллин
+          draft: unconfirmed
+        type: Europe/Tallinn
+      - 
+        exemplarCity: 
+          content: Каир
+          draft: unconfirmed
+        type: Africa/Cairo
+      - 
+        exemplarCity: 
+          content: Эл-Аюн
+          draft: unconfirmed
+        type: Africa/El_Aaiun
+      - 
+        exemplarCity: 
+          content: Асмера
+          draft: unconfirmed
+        type: Africa/Asmera
+      - 
+        exemplarCity: 
+          content: Канар аралдары
+          draft: unconfirmed
+        type: Atlantic/Canary
+      - 
+        exemplarCity: 
+          content: Сеута
+          draft: unconfirmed
+        type: Africa/Ceuta
+      - 
+        exemplarCity: 
+          content: Аддис Абеба
+          draft: unconfirmed
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: 
+          content: Хелсинки
+          draft: unconfirmed
+        type: Europe/Helsinki
+      - 
+        exemplarCity: 
+          content: Фиджи
+          draft: unconfirmed
+        type: Pacific/Fiji
+      - 
+        exemplarCity: 
+          content: Стенли
+          draft: unconfirmed
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: 
+          content: Трук
+          draft: unconfirmed
+        type: Pacific/Truk
+      - 
+        exemplarCity: 
+          content: Понапе
+          draft: unconfirmed
+        type: Pacific/Ponape
+      - 
+        exemplarCity: 
+          content: Косрае
+          draft: unconfirmed
+        type: Pacific/Kosrae
+      - 
+        exemplarCity: 
+          content: Фарер аралдары
+          draft: unconfirmed
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: 
+          content: Париж
+          draft: unconfirmed
+        type: Europe/Paris
+      - 
+        exemplarCity: 
+          content: Либревил
+          draft: unconfirmed
+        type: Africa/Libreville
+      - 
+        exemplarCity: 
+          content: Гренада
+          draft: unconfirmed
+        type: America/Grenada
+      - 
+        exemplarCity: 
+          content: Тбилиси
+          draft: unconfirmed
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: 
+          content: Кайенна
+          draft: unconfirmed
+        type: America/Cayenne
+      - 
+        exemplarCity: 
+          content: Аккра
+          draft: unconfirmed
+        type: Africa/Accra
+      - 
+        exemplarCity: 
+          content: Гибралтар
+          draft: unconfirmed
+        type: Europe/Gibraltar
+      - 
+        exemplarCity: 
+          content: Туле
+          draft: unconfirmed
+        type: America/Thule
+      - 
+        exemplarCity: 
+          content: Скорсбиссун
+          draft: unconfirmed
+        type: America/Scoresbysund
+      - 
+        exemplarCity: 
+          content: Денмарксхавн
+          draft: unconfirmed
+        type: America/Danmarkshavn
+      - 
+        exemplarCity: 
+          content: Банжул
+          draft: unconfirmed
+        type: Africa/Banjul
+      - 
+        exemplarCity: 
+          content: Конакри
+          draft: unconfirmed
+        type: Africa/Conakry
+      - 
+        exemplarCity: 
+          content: Гваделупа
+          draft: unconfirmed
+        type: America/Guadeloupe
+      - 
+        exemplarCity: 
+          content: Малабо
+          draft: unconfirmed
+        type: Africa/Malabo
+      - 
+        exemplarCity: 
+          content: Афины
+          draft: unconfirmed
+        type: Europe/Athens
+      - 
+        exemplarCity: 
+          content: Гватемала
+          draft: unconfirmed
+        type: America/Guatemala
+      - 
+        exemplarCity: 
+          content: Гуам
+          draft: unconfirmed
+        type: Pacific/Guam
+      - 
+        exemplarCity: 
+          content: Бисау
+          draft: unconfirmed
+        type: Africa/Bissau
+      - 
+        exemplarCity: 
+          content: Гайана
+          draft: unconfirmed
+        type: America/Guyana
+      - 
+        exemplarCity: 
+          content: Гонконг
+          draft: unconfirmed
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: 
+          content: Тегусигальпа
+          draft: unconfirmed
+        type: America/Tegucigalpa
+      - 
+        exemplarCity: 
+          content: Загреб
+          draft: unconfirmed
+        type: Europe/Zagreb
+      - 
+        exemplarCity: 
+          content: Порт-о-Пренс
+          draft: unconfirmed
+        type: America/Port-au-Prince
+      - 
+        exemplarCity: 
+          content: Будапешт
+          draft: unconfirmed
+        type: Europe/Budapest
+      - 
+        exemplarCity: 
+          content: Жакарта
+          draft: unconfirmed
+        type: Asia/Jakarta
+      - 
+        exemplarCity: 
+          content: Понтианак
+          draft: unconfirmed
+        type: Asia/Pontianak
+      - 
+        exemplarCity: 
+          content: Макассар
+          draft: unconfirmed
+        type: Asia/Makassar
+      - 
+        exemplarCity: 
+          content: Жайпур
+          draft: unconfirmed
+        type: Asia/Jayapura
+      - 
+        exemplarCity: 
+          content: Дублин
+          draft: unconfirmed
+        type: Europe/Dublin
+      - 
+        exemplarCity: 
+          content: Иерусалим
+          draft: unconfirmed
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: 
+          content: Мэн, арал
+          draft: unconfirmed
+        type: Europe/Isle_of_Man
+      - 
+        exemplarCity: 
+          content: Колката
+          draft: unconfirmed
+        type: Asia/Calcutta
+      - 
+        exemplarCity: 
+          content: Чагос
+          draft: unconfirmed
+        type: Indian/Chagos
+      - 
+        exemplarCity: 
+          content: Бағдат
+          draft: unconfirmed
+        type: Asia/Baghdad
+      - 
+        exemplarCity: 
+          content: Тегеран
+          draft: unconfirmed
+        type: Asia/Tehran
+      - 
+        exemplarCity: 
+          content: Рейкьявик
+          draft: unconfirmed
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: 
+          content: Рим
+          draft: unconfirmed
+        type: Europe/Rome
+      - 
+        exemplarCity: 
+          content: Джерси
+          draft: unconfirmed
+        type: Europe/Jersey
+      - 
+        exemplarCity: 
+          content: Ямайка
+          draft: unconfirmed
+        type: America/Jamaica
+      - 
+        exemplarCity: 
+          content: Амман
+          draft: unconfirmed
+        type: Asia/Amman
+      - 
+        exemplarCity: 
+          content: Токио
+          draft: unconfirmed
+        type: Asia/Tokyo
+      - 
+        exemplarCity: 
+          content: Найроби
+          draft: unconfirmed
+        type: Africa/Nairobi
+      - 
+        exemplarCity: 
+          content: Бішкек
+          draft: unconfirmed
+        type: Asia/Bishkek
+      - 
+        exemplarCity: 
+          content: Пномпен
+          draft: unconfirmed
+        type: Asia/Phnom_Penh
+      - 
+        exemplarCity: 
+          content: Эндербери
+          draft: unconfirmed
+        type: Pacific/Enderbury
+      - 
+        exemplarCity: 
+          content: Киритимати
+          draft: unconfirmed
+        type: Pacific/Kiritimati
+      - 
+        exemplarCity: 
+          content: Тарава
+          draft: unconfirmed
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: 
+          content: Коморо
+          draft: unconfirmed
+        type: Indian/Comoro
+      - 
+        exemplarCity: 
+          content: Сент Китс
+          draft: unconfirmed
+        type: America/St_Kitts
+      - 
+        exemplarCity: 
+          content: Пхеньян
+          draft: unconfirmed
+        type: Asia/Pyongyang
+      - 
+        exemplarCity: 
+          content: Сеул
+          draft: unconfirmed
+        type: Asia/Seoul
+      - 
+        exemplarCity: 
+          content: Кувейт
+          draft: unconfirmed
+        type: Asia/Kuwait
+      - 
+        exemplarCity: 
+          content: Кайман аралдары
+          draft: unconfirmed
+        type: America/Cayman
+      - 
+        exemplarCity: Ақтау
+        type: Asia/Aqtau
+      - 
+        exemplarCity: Орал
+        type: Asia/Oral
+      - 
+        exemplarCity: Ақтөбе
+        type: Asia/Aqtobe
+      - 
+        exemplarCity: Қызылорда
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: Алматы
+        type: Asia/Almaty
+      - 
+        exemplarCity: 
+          content: Вьентьян
+          draft: unconfirmed
+        type: Asia/Vientiane
+      - 
+        exemplarCity: 
+          content: Бейрут
+          draft: unconfirmed
+        type: Asia/Beirut
+      - 
+        exemplarCity: 
+          content: Сент Люсия
+          draft: unconfirmed
+        type: America/St_Lucia
+      - 
+        exemplarCity: 
+          content: Вадуц
+          draft: unconfirmed
+        type: Europe/Vaduz
+      - 
+        exemplarCity: 
+          content: Коломбо
+          draft: unconfirmed
+        type: Asia/Colombo
+      - 
+        exemplarCity: 
+          content: Монравия
+          draft: unconfirmed
+        type: Africa/Monrovia
+      - 
+        exemplarCity: 
+          content: Масеру
+          draft: unconfirmed
+        type: Africa/Maseru
+      - 
+        exemplarCity: 
+          content: Вильнус
+          draft: unconfirmed
+        type: Europe/Vilnius
+      - 
+        exemplarCity: 
+          content: Люксембург
+          draft: unconfirmed
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: 
+          content: Рига
+          draft: unconfirmed
+        type: Europe/Riga
+      - 
+        exemplarCity: 
+          content: Триполи
+          draft: unconfirmed
+        type: Africa/Tripoli
+      - 
+        exemplarCity: 
+          content: Кассабланка
+          draft: unconfirmed
+        type: Africa/Casablanca
+      - 
+        exemplarCity: 
+          content: Монако
+          draft: unconfirmed
+        type: Europe/Monaco
+      - 
+        exemplarCity: 
+          content: Кишинев
+          draft: unconfirmed
+        type: Europe/Chisinau
+      - 
+        exemplarCity: 
+          content: Подгорица
+          draft: unconfirmed
+        type: Europe/Podgorica
+      - 
+        exemplarCity: 
+          content: Антананариво
+          draft: unconfirmed
+        type: Indian/Antananarivo
+      - 
+        exemplarCity: 
+          content: Кваджалейн
+          draft: unconfirmed
+        type: Pacific/Kwajalein
+      - 
+        exemplarCity: 
+          content: Рангун
+          draft: unconfirmed
+        type: Asia/Rangoon
+      - 
+        exemplarCity: 
+          content: Улан-Батор
+          draft: unconfirmed
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: 
+          content: Чойбалсан
+          draft: unconfirmed
+        type: Asia/Choibalsan
+      - 
+        exemplarCity: 
+          content: Сайпан
+          draft: unconfirmed
+        type: Pacific/Saipan
+      - 
+        exemplarCity: 
+          content: Мартиника
+          draft: unconfirmed
+        type: America/Martinique
+      - 
+        exemplarCity: 
+          content: Нуакшот
+          draft: unconfirmed
+        type: Africa/Nouakchott
+      - 
+        exemplarCity: 
+          content: Монсеррат
+          draft: unconfirmed
+        type: America/Montserrat
+      - 
+        exemplarCity: 
+          content: Мальта
+          draft: unconfirmed
+        type: Europe/Malta
+      - 
+        exemplarCity: 
+          content: Маврикий
+          draft: unconfirmed
+        type: Indian/Mauritius
+      - 
+        exemplarCity: 
+          content: Мальдивы
+          draft: unconfirmed
+        type: Indian/Maldives
+      - 
+        exemplarCity: 
+          content: Блантаир
+          draft: unconfirmed
+        type: Africa/Blantyre
+      - 
+        exemplarCity: 
+          content: Тихуана
+          draft: unconfirmed
+        type: America/Tijuana
+      - 
+        exemplarCity: 
+          content: Эрмосилло
+          draft: unconfirmed
+        type: America/Hermosillo
+      - 
+        exemplarCity: 
+          content: Мазалтан
+          draft: unconfirmed
+        type: America/Mazatlan
+      - 
+        exemplarCity: 
+          content: Чиуауа
+          draft: unconfirmed
+        type: America/Chihuahua
+      - 
+        exemplarCity: 
+          content: Монтеррей
+          draft: unconfirmed
+        type: America/Monterrey
+      - 
+        exemplarCity: 
+          content: Мехико
+          draft: unconfirmed
+        type: America/Mexico_City
+      - 
+        exemplarCity: 
+          content: Мерида
+          draft: unconfirmed
+        type: America/Merida
+      - 
+        exemplarCity: 
+          content: Канкун
+          draft: unconfirmed
+        type: America/Cancun
+      - 
+        exemplarCity: 
+          content: Кучинг
+          draft: unconfirmed
+        type: Asia/Kuching
+      - 
+        exemplarCity: 
+          content: Мапуту
+          draft: unconfirmed
+        type: Africa/Maputo
+      - 
+        exemplarCity: 
+          content: Виндхук
+          draft: unconfirmed
+        type: Africa/Windhoek
+      - 
+        exemplarCity: 
+          content: Нумеа
+          draft: unconfirmed
+        type: Pacific/Noumea
+      - 
+        exemplarCity: 
+          content: Ниамей
+          draft: unconfirmed
+        type: Africa/Niamey
+      - 
+        exemplarCity: 
+          content: Норфолк
+          draft: unconfirmed
+        type: Pacific/Norfolk
+      - 
+        exemplarCity: 
+          content: Лагос
+          draft: unconfirmed
+        type: Africa/Lagos
+      - 
+        exemplarCity: 
+          content: Манагуа
+          draft: unconfirmed
+        type: America/Managua
+      - 
+        exemplarCity: 
+          content: Амстердам
+          draft: unconfirmed
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: 
+          content: Осло
+          draft: unconfirmed
+        type: Europe/Oslo
+      - 
+        exemplarCity: 
+          content: Катманду
+          draft: unconfirmed
+        type: Asia/Katmandu
+      - 
+        exemplarCity: 
+          content: Науру
+          draft: unconfirmed
+        type: Pacific/Nauru
+      - 
+        exemplarCity: 
+          content: Ниуэ
+          draft: unconfirmed
+        type: Pacific/Niue
+      - 
+        exemplarCity: 
+          content: Чатем
+          draft: unconfirmed
+        type: Pacific/Chatham
+      - 
+        exemplarCity: 
+          content: Маскат
+          draft: unconfirmed
+        type: Asia/Muscat
+      - 
+        exemplarCity: 
+          content: Панама
+          draft: unconfirmed
+        type: America/Panama
+      - 
+        exemplarCity: 
+          content: Лима
+          draft: unconfirmed
+        type: America/Lima
+      - 
+        exemplarCity: 
+          content: Маркиз аралдары
+          draft: unconfirmed
+        type: Pacific/Marquesas
+      - 
+        exemplarCity: 
+          content: Гамбье
+          draft: unconfirmed
+        type: Pacific/Gambier
+      - 
+        exemplarCity: 
+          content: Порт Морсби
+          draft: unconfirmed
+        type: Pacific/Port_Moresby
+      - 
+        exemplarCity: 
+          content: Манила
+          draft: unconfirmed
+        type: Asia/Manila
+      - 
+        exemplarCity: 
+          content: Карачи
+          draft: unconfirmed
+        type: Asia/Karachi
+      - 
+        exemplarCity: 
+          content: Варшава
+          draft: unconfirmed
+        type: Europe/Warsaw
+      - 
+        exemplarCity: 
+          content: Микелон
+          draft: unconfirmed
+        type: America/Miquelon
+      - 
+        exemplarCity: 
+          content: Питкерн
+          draft: unconfirmed
+        type: Pacific/Pitcairn
+      - 
+        exemplarCity: 
+          content: Пуэрто-Рико
+          draft: unconfirmed
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: 
+          content: Газа
+          draft: unconfirmed
+        type: Asia/Gaza
+      - 
+        exemplarCity: 
+          content: Азор аралдары
+          draft: unconfirmed
+        type: Atlantic/Azores
+      - 
+        exemplarCity: 
+          content: Мадейра
+          draft: unconfirmed
+        type: Atlantic/Madeira
+      - 
+        exemplarCity: 
+          content: Палау
+          draft: unconfirmed
+        type: Pacific/Palau
+      - 
+        exemplarCity: 
+          content: Асунсион
+          draft: unconfirmed
+        type: America/Asuncion
+      - 
+        exemplarCity: 
+          content: Катар
+          draft: unconfirmed
+        type: Asia/Qatar
+      - 
+        exemplarCity: 
+          content: Реюньон
+          draft: unconfirmed
+        type: Indian/Reunion
+      - 
+        exemplarCity: 
+          content: Бухарест
+          draft: unconfirmed
+        type: Europe/Bucharest
+      - 
+        exemplarCity: 
+          content: Белград
+          draft: unconfirmed
+        type: Europe/Belgrade
+      - 
+        exemplarCity: 
+          content: Калининград
+          draft: unconfirmed
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: 
+          content: Мәскеу
+          draft: unconfirmed
+        type: Europe/Moscow
+      - 
+        exemplarCity: 
+          content: Волгоград
+          draft: unconfirmed
+        type: Europe/Volgograd
+      - 
+        exemplarCity: 
+          content: Самара
+          draft: unconfirmed
+        type: Europe/Samara
+      - 
+        exemplarCity: 
+          content: Екатеринбург
+          draft: unconfirmed
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: 
+          content: Омск
+          draft: unconfirmed
+        type: Asia/Omsk
+      - 
+        exemplarCity: 
+          content: Новосибирск
+          draft: unconfirmed
+        type: Asia/Novosibirsk
+      - 
+        exemplarCity: 
+          content: Красноярск
+          draft: unconfirmed
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: 
+          content: Иркутск
+          draft: unconfirmed
+        type: Asia/Irkutsk
+      - 
+        exemplarCity: 
+          content: Якутск
+          draft: unconfirmed
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: 
+          content: Владивосток
+          draft: unconfirmed
+        type: Asia/Vladivostok
+      - 
+        exemplarCity: 
+          content: Сахалин
+          draft: unconfirmed
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: 
+          content: Магадан
+          draft: unconfirmed
+        type: Asia/Magadan
+      - 
+        exemplarCity: 
+          content: Камчатка
+          draft: unconfirmed
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: 
+          content: Анадыр
+          draft: unconfirmed
+        type: Asia/Anadyr
+      - 
+        exemplarCity: 
+          content: Кигали
+          draft: unconfirmed
+        type: Africa/Kigali
+      - 
+        exemplarCity: 
+          content: Эр-Рияд
+          draft: unconfirmed
+        type: Asia/Riyadh
+      - 
+        exemplarCity: 
+          content: Гвадалканал
+          draft: unconfirmed
+        type: Pacific/Guadalcanal
+      - 
+        exemplarCity: 
+          content: Маэ
+          draft: unconfirmed
+        type: Indian/Mahe
+      - 
+        exemplarCity: 
+          content: Хартум
+          draft: unconfirmed
+        type: Africa/Khartoum
+      - 
+        exemplarCity: 
+          content: Стокгольм
+          draft: unconfirmed
+        type: Europe/Stockholm
+      - 
+        exemplarCity: 
+          content: Сингапур
+          draft: unconfirmed
+        type: Asia/Singapore
+      - 
+        exemplarCity: 
+          content: Любляна
+          draft: unconfirmed
+        type: Europe/Ljubljana
+      - 
+        exemplarCity: 
+          content: Лонгйир
+          draft: unconfirmed
+        type: Arctic/Longyearbyen
+      - 
+        exemplarCity: 
+          content: Братислава
+          draft: unconfirmed
+        type: Europe/Bratislava
+      - 
+        exemplarCity: 
+          content: Фритаун
+          draft: unconfirmed
+        type: Africa/Freetown
+      - 
+        exemplarCity: 
+          content: Сан-Марино
+          draft: unconfirmed
+        type: Europe/San_Marino
+      - 
+        exemplarCity: 
+          content: Дакар
+          draft: unconfirmed
+        type: Africa/Dakar
+      - 
+        exemplarCity: 
+          content: Могадишо
+          draft: unconfirmed
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: 
+          content: Парамарибо
+          draft: unconfirmed
+        type: America/Paramaribo
+      - 
+        exemplarCity: 
+          content: Сан-Томе
+          draft: unconfirmed
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: 
+          content: Сальвадор
+          draft: unconfirmed
+        type: America/El_Salvador
+      - 
+        exemplarCity: 
+          content: Дамаск
+          draft: unconfirmed
+        type: Asia/Damascus
+      - 
+        exemplarCity: 
+          content: Мбабане
+          draft: unconfirmed
+        type: Africa/Mbabane
+      - 
+        exemplarCity: 
+          content: Гранд Турк
+          draft: unconfirmed
+        type: America/Grand_Turk
+      - 
+        exemplarCity: 
+          content: Нджамена
+          draft: unconfirmed
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: 
+          content: Кергелен
+          draft: unconfirmed
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: 
+          content: Ломе
+          draft: unconfirmed
+        type: Africa/Lome
+      - 
+        exemplarCity: 
+          content: Бангкок
+          draft: unconfirmed
+        type: Asia/Bangkok
+      - 
+        exemplarCity: 
+          content: Душанбе
+          draft: unconfirmed
+        type: Asia/Dushanbe
+      - 
+        exemplarCity: 
+          content: Факаофо
+          draft: unconfirmed
+        type: Pacific/Fakaofo
+      - 
+        exemplarCity: 
+          content: Дили
+          draft: unconfirmed
+        type: Asia/Dili
+      - 
+        exemplarCity: 
+          content: Азхабат
+          draft: unconfirmed
+        type: Asia/Ashgabat
+      - 
+        exemplarCity: 
+          content: Тунис
+          draft: unconfirmed
+        type: Africa/Tunis
+      - 
+        exemplarCity: 
+          content: Тонгатапу
+          draft: unconfirmed
+        type: Pacific/Tongatapu
+      - 
+        exemplarCity: 
+          content: Стамбул
+          draft: unconfirmed
+        type: Europe/Istanbul
+      - 
+        exemplarCity: 
+          content: Фунафути
+          draft: unconfirmed
+        type: Pacific/Funafuti
+      - 
+        exemplarCity: 
+          content: Тайбэй
+          draft: unconfirmed
+        type: Asia/Taipei
+      - 
+        exemplarCity: 
+          content: Дар-эс-Салам
+          draft: unconfirmed
+        type: Africa/Dar_es_Salaam
+      - 
+        exemplarCity: 
+          content: Ужгород
+          draft: unconfirmed
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: 
+          content: Симферополь
+          draft: unconfirmed
+        type: Europe/Simferopol
+      - 
+        exemplarCity: 
+          content: Запорожье
+          draft: unconfirmed
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: 
+          content: Кампала
+          draft: unconfirmed
+        type: Africa/Kampala
+      - 
+        exemplarCity: 
+          content: Мидуэй
+          draft: unconfirmed
+        type: Pacific/Midway
+      - 
+        exemplarCity: 
+          content: Джонстон
+          draft: unconfirmed
+        type: Pacific/Johnston
+      - 
+        exemplarCity: 
+          content: Уэйк
+          draft: unconfirmed
+        type: Pacific/Wake
+      - 
+        exemplarCity: 
+          content: Адак
+          draft: unconfirmed
+        type: America/Adak
+      - 
+        exemplarCity: 
+          content: Ном
+          draft: unconfirmed
+        type: America/Nome
+      - 
+        exemplarCity: 
+          content: Гонолулу
+          draft: unconfirmed
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: 
+          content: Анкоридж
+          draft: unconfirmed
+        type: America/Anchorage
+      - 
+        exemplarCity: 
+          content: Якутат
+          draft: unconfirmed
+        type: America/Yakutat
+      - 
+        exemplarCity: 
+          content: Джуно
+          draft: unconfirmed
+        type: America/Juneau
+      - 
+        exemplarCity: 
+          content: Лос-Анжелес
+          draft: unconfirmed
+        type: America/Los_Angeles
+      - 
+        exemplarCity: 
+          content: Бойсе
+          draft: unconfirmed
+        type: America/Boise
+      - 
+        exemplarCity: 
+          content: Финикс
+          draft: unconfirmed
+        type: America/Phoenix
+      - 
+        exemplarCity: 
+          content: Шипрок
+          draft: unconfirmed
+        type: America/Shiprock
+      - 
+        exemplarCity: 
+          content: Денвер
+          draft: unconfirmed
+        type: America/Denver
+      - 
+        exemplarCity: 
+          content: Нью Салем
+          draft: unconfirmed
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: 
+          content: Солтүстік Дакота, Орталық
+          draft: unconfirmed
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: 
+          content: Чикаго
+          draft: unconfirmed
+        type: America/Chicago
+      - 
+        exemplarCity: 
+          content: Меномини
+          draft: unconfirmed
+        type: America/Menominee
+      - 
+        exemplarCity: 
+          content: Винсенс, Индиана
+          draft: unconfirmed
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: 
+          content: Петерсбург, Индиана
+          draft: unconfirmed
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: 
+          content: Телл-Сити, Индиана
+          draft: unconfirmed
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: 
+          content: Нокс, Индиана
+          draft: unconfirmed
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: 
+          content: Винамак, Индиана
+          draft: unconfirmed
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: 
+          content: Маренго, Индиана
+          draft: unconfirmed
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: 
+          content: Индианаполис
+          draft: unconfirmed
+        type: America/Indianapolis
+      - 
+        exemplarCity: 
+          content: Луисвилл
+          draft: unconfirmed
+        type: America/Louisville
+      - 
+        exemplarCity: 
+          content: Вивей, Индиана
+          draft: unconfirmed
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: 
+          content: Монтиселло, Кентуки
+          draft: unconfirmed
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: 
+          content: Детройт
+          draft: unconfirmed
+        type: America/Detroit
+      - 
+        exemplarCity: 
+          content: Нью-Йорк
+          draft: unconfirmed
+        type: America/New_York
+      - 
+        exemplarCity: 
+          content: Монтевидео
+          draft: unconfirmed
+        type: America/Montevideo
+      - 
+        exemplarCity: 
+          content: Самарқанд
+          draft: unconfirmed
+        type: Asia/Samarkand
+      - 
+        exemplarCity: 
+          content: Ватикан
+          draft: unconfirmed
+        type: Europe/Vatican
+      - 
+        exemplarCity: 
+          content: Сент Винсент
+          draft: unconfirmed
+        type: America/St_Vincent
+      - 
+        exemplarCity: 
+          content: Каракас
+          draft: unconfirmed
+        type: America/Caracas
+      - 
+        exemplarCity: 
+          content: Тортола
+          draft: unconfirmed
+        type: America/Tortola
+      - 
+        exemplarCity: 
+          content: Сент Томас
+          draft: unconfirmed
+        type: America/St_Thomas
+      - 
+        exemplarCity: 
+          content: Сайгон
+          draft: unconfirmed
+        type: Asia/Saigon
+      - 
+        exemplarCity: 
+          content: Эфате
+          draft: unconfirmed
+        type: Pacific/Efate
+      - 
+        exemplarCity: 
+          content: Уоллис
+          draft: unconfirmed
+        type: Pacific/Wallis
+      - 
+        exemplarCity: 
+          content: Апия
+          draft: unconfirmed
+        type: Pacific/Apia
+      - 
+        exemplarCity: 
+          content: Аден
+          draft: unconfirmed
+        type: Asia/Aden
+      - 
+        exemplarCity: 
+          content: Майорка
+          draft: unconfirmed
+        type: Indian/Mayotte
+      - 
+        exemplarCity: 
+          content: Йоханнесбург
+          draft: unconfirmed
+        type: Africa/Johannesburg
+      - 
+        exemplarCity: 
+          content: Лусака
+          draft: unconfirmed
+        type: Africa/Lusaka
+      - 
+        exemplarCity: 
+          content: Хараре
+          draft: unconfirmed
+        type: Africa/Harare
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: kk
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Тіл: {0}"
+        type: language
+      - 
+        content: "Жазылуы: {0}"
+        type: script
+      - 
+        content: "Аймақ: {0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: Күнтізбе
+        draft: unconfirmed
+        type: calendar
+      - 
+        content: Салыстыру
+        draft: unconfirmed
+        type: collation
+      - 
+        content: Валюта
+        draft: unconfirmed
+        type: currency
+  languages: 
+    language: 
+      - 
+        content: Абхаз
+        draft: unconfirmed
+        type: ab
+      - 
+        content: Африкаан
+        draft: unconfirmed
+        type: af
+      - 
+        content: амхар
+        draft: unconfirmed
+        type: am
+      - 
+        content: Араб
+        draft: unconfirmed
+        type: ar
+      - 
+        content: ассам
+        draft: unconfirmed
+        type: as
+      - 
+        content: Аймара
+        draft: unconfirmed
+        type: ay
+      - 
+        content: Азербайжан
+        draft: unconfirmed
+        type: az
+      - 
+        content: беларус
+        draft: unconfirmed
+        type: be
+      - 
+        content: болгар
+        draft: unconfirmed
+        type: bg
+      - 
+        content: бихари
+        draft: unconfirmed
+        type: bh
+      - 
+        content: бенгал
+        draft: unconfirmed
+        type: bn
+      - 
+        content: тибет тілі
+        draft: unconfirmed
+        type: bo
+      - 
+        content: брит
+        draft: unconfirmed
+        type: br
+      - 
+        content: босния
+        draft: unconfirmed
+        type: bs
+      - 
+        content: каталан
+        draft: unconfirmed
+        type: ca
+      - 
+        content: чех
+        draft: unconfirmed
+        type: cs
+      - 
+        content: валлий
+        draft: unconfirmed
+        type: cy
+      - 
+        content: дат
+        draft: unconfirmed
+        type: da
+      - 
+        content: неміс тілі
+        type: de
+      - 
+        content: австриялық неміс тілі
+        type: de_AT
+      - 
+        content: швейцариялық ұлы неміс тілі
+        type: de_CH
+      - 
+        content: Мальдив
+        draft: unconfirmed
+        type: dv
+      - 
+        content: дзонг-кэ
+        draft: unconfirmed
+        type: dz
+      - 
+        content: эфик
+        draft: unconfirmed
+        type: efi
+      - 
+        content: грек
+        draft: unconfirmed
+        type: el
+      - 
+        content: ағылшын тілі
+        type: en
+      - 
+        content: австралиялық ағылшын тілі
+        type: en_AU
+      - 
+        content: канадалық ағылшын тілі
+        type: en_CA
+      - 
+        content: британиялық ағылшын тілі
+        type: en_GB
+      - 
+        content: АҚШ ағылшын тілі
+        type: en_US
+      - 
+        content: эсперанто
+        draft: unconfirmed
+        type: eo
+      - 
+        content: испан тілі
+        type: es
+      - 
+        content: Латин Америкалық испан тілі
+        type: es_419
+      - 
+        content: ибериялық испан тілі
+        type: es_ES
+      - 
+        content: эстон
+        draft: unconfirmed
+        type: et
+      - 
+        content: баск
+        draft: unconfirmed
+        type: eu
+      - 
+        content: парсы
+        draft: unconfirmed
+        type: fa
+      - 
+        content: фин
+        draft: unconfirmed
+        type: fi
+      - 
+        content: филиппино
+        draft: unconfirmed
+        type: fil
+      - 
+        content: Фиджий
+        draft: unconfirmed
+        type: fj
+      - 
+        content: фарер
+        draft: unconfirmed
+        type: fo
+      - 
+        content: француз тілі
+        type: fr
+      - 
+        content: канадалық француз тілі
+        type: fr_CA
+      - 
+        content: швейцариялық француз тілі
+        type: fr_CH
+      - 
+        content: Фрис
+        draft: unconfirmed
+        type: fy
+      - 
+        content: Ирланд тілі
+        draft: unconfirmed
+        type: ga
+      - 
+        content: Солтүстік Шотландия
+        draft: unconfirmed
+        type: gd
+      - 
+        content: Гал
+        draft: unconfirmed
+        type: gl
+      - 
+        content: гуарани
+        draft: unconfirmed
+        type: gn
+      - 
+        content: гуджарати
+        draft: unconfirmed
+        type: gu
+      - 
+        content: Хауса
+        draft: unconfirmed
+        type: ha
+      - 
+        content: Гавай
+        draft: unconfirmed
+        type: haw
+      - 
+        content: иврит
+        draft: unconfirmed
+        type: he
+      - 
+        content: хинди
+        draft: unconfirmed
+        type: hi
+      - 
+        content: хорват
+        draft: unconfirmed
+        type: hr
+      - 
+        content: Гаит
+        draft: unconfirmed
+        type: ht
+      - 
+        content: мадьяр
+        draft: unconfirmed
+        type: hu
+      - 
+        content: армян
+        draft: unconfirmed
+        type: hy
+      - 
+        content: интерлингва
+        draft: unconfirmed
+        type: ia
+      - 
+        content: индонезия
+        draft: unconfirmed
+        type: id
+      - 
+        content: интерлингве
+        draft: unconfirmed
+        type: ie
+      - 
+        content: Игбо
+        draft: unconfirmed
+        type: ig
+      - 
+        content: исланд
+        draft: unconfirmed
+        type: is
+      - 
+        content: итальян тілі
+        type: it
+      - 
+        content: жапон тілі
+        type: ja
+      - 
+        content: ява
+        draft: unconfirmed
+        type: jv
+      - 
+        content: грузин
+        draft: unconfirmed
+        type: ka
+      - 
+        content: қазақ тілі
+        type: kk
+      - 
+        content: камбоджия
+        draft: unconfirmed
+        type: km
+      - 
+        content: каннада
+        draft: unconfirmed
+        type: kn
+      - 
+        content: кәріс
+        draft: unconfirmed
+        type: ko
+      - 
+        content: Кашмир
+        draft: unconfirmed
+        type: ks
+      - 
+        content: күрд
+        draft: unconfirmed
+        type: ku
+      - 
+        content: қырғыз
+        draft: unconfirmed
+        type: ky
+      - 
+        content: латын
+        draft: unconfirmed
+        type: la
+      - 
+        content: Люксембург
+        draft: unconfirmed
+        type: lb
+      - 
+        content: лингала
+        draft: unconfirmed
+        type: ln
+      - 
+        content: лаос
+        draft: unconfirmed
+        type: lo
+      - 
+        content: литва
+        draft: unconfirmed
+        type: lt
+      - 
+        content: латыш
+        draft: unconfirmed
+        type: lv
+      - 
+        content: малагаси
+        draft: unconfirmed
+        type: mg
+      - 
+        content: маори
+        draft: unconfirmed
+        type: mi
+      - 
+        content: македон
+        draft: unconfirmed
+        type: mk
+      - 
+        content: малайялам
+        draft: unconfirmed
+        type: ml
+      - 
+        content: моңғол
+        draft: unconfirmed
+        type: mn
+      - 
+        content: маратхи
+        draft: unconfirmed
+        type: mr
+      - 
+        content: малай
+        draft: unconfirmed
+        type: ms
+      - 
+        content: мальта
+        draft: unconfirmed
+        type: mt
+      - 
+        content: Бирман
+        draft: unconfirmed
+        type: my
+      - 
+        content: Солтүстік ндебел
+        draft: unconfirmed
+        type: nd
+      - 
+        content: непал
+        draft: unconfirmed
+        type: ne
+      - 
+        content: голланд
+        draft: unconfirmed
+        type: nl
+      - 
+        content: флемиш
+        draft: unconfirmed
+        type: nl_BE
+      - 
+        content: Норвегиялық нинорск
+        draft: unconfirmed
+        type: nn
+      - 
+        content: норвег
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: Солтүстік сотхо
+        draft: unconfirmed
+        type: nso
+      - 
+        content: ньянджа
+        draft: unconfirmed
+        type: ny
+      - 
+        content: окситан
+        draft: unconfirmed
+        type: oc
+      - 
+        content: ория
+        draft: unconfirmed
+        type: or
+      - 
+        content: осетин
+        draft: unconfirmed
+        type: os
+      - 
+        content: панджаб
+        draft: unconfirmed
+        type: pa
+      - 
+        content: поляк
+        draft: unconfirmed
+        type: pl
+      - 
+        content: пашто
+        draft: unconfirmed
+        type: ps
+      - 
+        content: португал тілі
+        type: pt
+      - 
+        content: бразилиялық португал тілі
+        type: pt_BR
+      - 
+        content: ибериялық португал тілі
+        type: pt_PT
+      - 
+        content: кечуа
+        draft: unconfirmed
+        type: qu
+      - 
+        content: ретороман
+        draft: unconfirmed
+        type: rm
+      - 
+        content: рунди
+        draft: unconfirmed
+        type: rn
+      - 
+        content: румын
+        draft: unconfirmed
+        type: ro
+      - 
+        content: орыс тілі
+        type: ru
+      - 
+        content: киньяруанда
+        draft: unconfirmed
+        type: rw
+      - 
+        content: санскрит
+        draft: unconfirmed
+        type: sa
+      - 
+        content: якут
+        draft: unconfirmed
+        type: sah
+      - 
+        content: синдхи
+        draft: unconfirmed
+        type: sd
+      - 
+        content: Солтүстік саам
+        draft: unconfirmed
+        type: se
+      - 
+        content: санго
+        draft: unconfirmed
+        type: sg
+      - 
+        content: сербхорват
+        draft: unconfirmed
+        type: sh
+      - 
+        content: сингал
+        draft: unconfirmed
+        type: si
+      - 
+        content: словак
+        draft: unconfirmed
+        type: sk
+      - 
+        content: словен
+        draft: unconfirmed
+        type: sl
+      - 
+        content: сомали
+        draft: unconfirmed
+        type: so
+      - 
+        content: албан
+        draft: unconfirmed
+        type: sq
+      - 
+        content: серб
+        draft: unconfirmed
+        type: sr
+      - 
+        content: сесото
+        draft: unconfirmed
+        type: st
+      - 
+        content: судан
+        draft: unconfirmed
+        type: su
+      - 
+        content: швед
+        draft: unconfirmed
+        type: sv
+      - 
+        content: суахили
+        draft: unconfirmed
+        type: sw
+      - 
+        content: тамил
+        draft: unconfirmed
+        type: ta
+      - 
+        content: телугу
+        draft: unconfirmed
+        type: te
+      - 
+        content: Тәжік
+        draft: unconfirmed
+        type: tg
+      - 
+        content: тай
+        draft: unconfirmed
+        type: th
+      - 
+        content: тигринья
+        draft: unconfirmed
+        type: ti
+      - 
+        content: түркмен
+        draft: unconfirmed
+        type: tk
+      - 
+        content: клингон
+        draft: unconfirmed
+        type: tlh
+      - 
+        content: Түрік
+        draft: unconfirmed
+        type: tr
+      - 
+        content: тви
+        draft: unconfirmed
+        type: tw
+      - 
+        content: ұйғыр
+        draft: unconfirmed
+        type: ug
+      - 
+        content: украин
+        draft: unconfirmed
+        type: uk
+      - 
+        content: белгісіз тіл
+        type: und
+      - 
+        content: урду
+        draft: unconfirmed
+        type: ur
+      - 
+        content: өзбек
+        draft: unconfirmed
+        type: uz
+      - 
+        content: вьетнам
+        draft: unconfirmed
+        type: vi
+      - 
+        content: хоса
+        draft: unconfirmed
+        type: xh
+      - 
+        content: идиш
+        draft: unconfirmed
+        type: yi
+      - 
+        content: Иоруба
+        draft: unconfirmed
+        type: yo
+      - 
+        content: қытай тілі
+        type: zh
+      - 
+        content: қарапайым қытай тілі
+        type: zh_Hans
+      - 
+        content: дәстүрлік қытай тілі
+        type: zh_Hant
+      - 
+        content: зулус
+        draft: unconfirmed
+        type: zu
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: метрикалық жүйе
+        type: metric
+      - 
+        content: ҰБ
+        type: UK
+      - 
+        content: АҚШ
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: араб жазылуы
+        type: Arab
+      - 
+        content: армян жазуы
+        draft: unconfirmed
+        type: Armn
+      - 
+        content: бенгал
+        draft: unconfirmed
+        type: Beng
+      - 
+        content: кириллица
+        type: Cyrl
+      - 
+        content: Деванагари жазуы
+        draft: unconfirmed
+        type: Deva
+      - 
+        content: Эфиопия жазуы
+        draft: unconfirmed
+        type: Ethi
+      - 
+        content: Грузин жазуы
+        draft: unconfirmed
+        type: Geor
+      - 
+        content: Грек жазуы
+        draft: unconfirmed
+        type: Grek
+      - 
+        content: Гуджарати жазуы
+        draft: unconfirmed
+        type: Gujr
+      - 
+        content: қарапайым қытай иероглифы
+        type: Hans
+      - 
+        content: дәстүрлік қытай иероглифы
+        type: Hant
+      - 
+        content: Иврит
+        draft: unconfirmed
+        type: Hebr
+      - 
+        content: жапон
+        draft: unconfirmed
+        type: Jpan
+      - 
+        content: катакана
+        draft: unconfirmed
+        type: Kana
+      - 
+        content: Кхмер
+        draft: unconfirmed
+        type: Khmr
+      - 
+        content: Каннада
+        draft: unconfirmed
+        type: Knda
+      - 
+        content: Корей жазуы
+        draft: unconfirmed
+        type: Kore
+      - 
+        content: Лаос жазуы
+        draft: unconfirmed
+        type: Laoo
+      - 
+        content: латын жазылуы
+        type: Latn
+      - 
+        content: Малаял
+        draft: unconfirmed
+        type: Mlym
+      - 
+        content: Маянмар
+        draft: unconfirmed
+        type: Mymr
+      - 
+        content: Ория
+        draft: unconfirmed
+        type: Orya
+      - 
+        content: Сингаль
+        draft: unconfirmed
+        type: Sinh
+      - 
+        content: Тамиль
+        draft: unconfirmed
+        type: Taml
+      - 
+        content: Телугу
+        draft: unconfirmed
+        type: Telu
+      - 
+        content: Таана
+        draft: unconfirmed
+        type: Thaa
+      - 
+        content: Тай
+        draft: unconfirmed
+        type: Thai
+      - 
+        content: Символдар
+        draft: unconfirmed
+        type: Zsym
+      - 
+        content: жазылуысыз
+        type: Zxxx
+      - 
+        content: белгісіз жазылуы
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Әлем
+        type: '001'
+      - 
+        content: Африка
+        type: '002'
+      - 
+        content: Солтүстік Америка
+        type: '003'
+      - 
+        content: Оңтүстік Америка
+        type: '005'
+      - 
+        content: Океания
+        type: '009'
+      - 
+        content: Батыс Африка
+        type: '011'
+      - 
+        content: Орталық Америка
+        type: '013'
+      - 
+        content: Шығыс Африка
+        type: '014'
+      - 
+        content: Солтүстік Африка
+        type: '015'
+      - 
+        content: Орталық Африка
+        type: '017'
+      - 
+        content: Оңтүстік Африка
+        type: '018'
+      - 
+        content: Америкалар
+        type: '019'
+      - 
+        content: Солтүстік Америка (АҚШ, Канада, Гренландия және Бермуд аралдары)
+        type: '021'
+      - 
+        content: Кариб
+        type: '029'
+      - 
+        content: Шығыс Азия
+        type: '030'
+      - 
+        content: Оңтүстік Азия
+        type: '034'
+      - 
+        content: Оңтүстік-шығыс Азия
+        type: '035'
+      - 
+        content: Оңтүстік Еуропа
+        type: '039'
+      - 
+        content: Австралия және Жаңа Зеландия
+        type: '053'
+      - 
+        content: Меланезия
+        type: '054'
+      - 
+        content: Микронезия регионы
+        type: '057'
+      - 
+        content: Полинезия
+        type: '061'
+      - 
+        content: Азия
+        type: 142
+      - 
+        content: Орталық Азия
+        type: 143
+      - 
+        content: Батыс Азия
+        type: 145
+      - 
+        content: Еуропа
+        type: 150
+      - 
+        content: Шығыс Еуропа
+        type: 151
+      - 
+        content: Солтүстік Еуропа
+        type: 154
+      - 
+        content: Батыс Еуропа
+        type: 155
+      - 
+        content: Латын Америкасы
+        type: 419
+      - 
+        content: Андорра
+        type: AD
+      - 
+        content: Біріккен Араб Эмираттары
+        type: AE
+      - 
+        content: Ауғанстан
+        draft: unconfirmed
+        type: AF
+      - 
+        content: Албания
+        draft: unconfirmed
+        type: AL
+      - 
+        content: Армения
+        draft: unconfirmed
+        type: AM
+      - 
+        content: Ангола
+        draft: unconfirmed
+        type: AO
+      - 
+        content: Антарктика
+        draft: unconfirmed
+        type: AQ
+      - 
+        content: Аргентина
+        draft: unconfirmed
+        type: AR
+      - 
+        content: Австрия
+        type: AT
+      - 
+        content: Австралия
+        type: AU
+      - 
+        content: Аруба
+        draft: unconfirmed
+        type: AW
+      - 
+        content: Әзербайжан
+        type: AZ
+      - 
+        content: Босния және Герцеговина
+        draft: unconfirmed
+        type: BA
+      - 
+        content: Барбадос
+        draft: unconfirmed
+        type: BB
+      - 
+        content: Бангладеш
+        draft: unconfirmed
+        type: BD
+      - 
+        content: Бельгия
+        type: BE
+      - 
+        content: Болгария
+        type: BG
+      - 
+        content: Бахрейн
+        type: BH
+      - 
+        content: Бурунди
+        type: BI
+      - 
+        content: Бенин
+        type: BJ
+      - 
+        content: Боливия
+        type: BO
+      - 
+        content: Бразилия
+        type: BR
+      - 
+        content: Бутан
+        type: BT
+      - 
+        content: Ботсвана
+        type: BW
+      - 
+        content: Беларусь
+        type: BY
+      - 
+        content: Белиз
+        type: BZ
+      - 
+        content: Канада
+        type: CA
+      - 
+        content: Швейцария
+        type: CH
+      - 
+        content: Чили
+        type: CL
+      - 
+        content: Камерун
+        type: CM
+      - 
+        content: Қытай
+        type: CN
+      - 
+        content: Колумбия
+        type: CO
+      - 
+        content: Алмания
+        type: DE
+      - 
+        content: Дания
+        type: DK
+      - 
+        content: Испания
+        type: ES
+      - 
+        content: Финляндия
+        type: FI
+      - 
+        content: Франция
+        type: FR
+      - 
+        content: Ұлыбритания
+        type: GB
+      - 
+        content: Грекия
+        type: GR
+      - 
+        content: Гонконг (арнайы әкімшілік аймақ)
+        type: HK
+      - 
+        content: Индонезия
+        type: ID
+      - 
+        content: Ирландия
+        type: IE
+      - 
+        content: Индия
+        type: IN
+      - 
+        content: Италия
+        type: IT
+      - 
+        content: Жапония
+        type: JP
+      - 
+        content: Солтүстік Корея
+        type: KR
+      - 
+        content: Қазақстан
+        type: KZ
+      - 
+        content: Мексика
+        type: MX
+      - 
+        content: Голландия
+        type: NL
+      - 
+        content: Норвегия
+        type: 'NO'
+      - 
+        content: Польша
+        type: PL
+      - 
+        content: Португалия
+        type: PT
+      - 
+        content: Ресей
+        type: RU
+      - 
+        content: Сауд Арабиясы
+        type: SA
+      - 
+        content: Швеция
+        type: SE
+      - 
+        content: Тайланд
+        type: TH
+      - 
+        content: Тонга
+        draft: unconfirmed
+        type: TO
+      - 
+        content: Түркия
+        type: TR
+      - 
+        content: Тайвань
+        type: TW
+      - 
+        content: АҚШ
+        type: US
+      - 
+        content: Оңтүстік Африка республикасы
+        type: ZA
+      - 
+        content: Белгісіз аймақ
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: Парсы күнтізбесі
+        draft: unconfirmed
+        type: persian
+      collation: 
+        content: іздеу
+        draft: unconfirmed
+        type: search
+      numbers: 
+        content: Батыс сандары
+        type: latn
+  variants: 
+    variant: 
+      - 
+        content: Шығыс-армян
+        draft: unconfirmed
+        type: AREVELA
+      - 
+        content: Батыс-армян
+        draft: unconfirmed
+        type: AREVMDA
+      - 
+        content: Сахо
+        draft: unconfirmed
+        type: SAAHO
+      - 
+        content: Уейд-Джайлс жүйесі
+        draft: unconfirmed
+        type: WADEGILE
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          content: Дихрам (БАЭ)
+          draft: unconfirmed
+        type: AED
+      - 
+        displayName: 
+          content: Афгани
+          draft: unconfirmed
+        type: AFN
+      - 
+        displayName: 
+          content: Албания лекі
+          draft: unconfirmed
+        type: ALL
+      - 
+        displayName: 
+          content: Армения драмы
+          draft: unconfirmed
+        type: AMD
+      - 
+        displayName: 
+          content: Аргентина пессосы
+          draft: unconfirmed
+        type: ARS
+      - 
+        displayName: 
+          content: Австралия доллары
+          draft: unconfirmed
+        type: AUD
+      - 
+        displayName: 
+          content: Азербайджан манаты (1993-2006)
+          draft: unconfirmed
+        type: AZM
+      - 
+        displayName: 
+          content: Азербайджан манаты
+          draft: unconfirmed
+        type: AZN
+      - 
+        displayName: 
+          content: Барбадиан доллары
+          draft: unconfirmed
+        type: BBD
+      - 
+        displayName: 
+          content: Бангладеш Такасы
+          draft: unconfirmed
+        type: BDT
+      - 
+        displayName: 
+          content: Болгар леві
+          draft: unconfirmed
+        type: BGN
+      - 
+        displayName: 
+          content: Бахрейн динары
+          draft: unconfirmed
+        type: BHD
+      - 
+        displayName: 
+          content: Бурундиан франкі
+          draft: unconfirmed
+        type: BIF
+      - 
+        displayName: 
+          content: Бруней доллары
+          draft: unconfirmed
+        type: BND
+      - 
+        displayName: Бразилия реалы
+        type: BRL
+      - 
+        displayName: 
+          content: Беларус рублі
+          draft: unconfirmed
+        type: BYR
+      - 
+        displayName: 
+          content: Канада доллары
+          draft: unconfirmed
+        type: CAD
+      - 
+        displayName: 
+          content: Швейцар франкі
+          draft: unconfirmed
+        type: CHF
+      - 
+        displayName: Қытай юаны
+        type: CNY
+      - 
+        displayName: 
+          content: Чех кронасы
+          draft: unconfirmed
+        type: CZK
+      - 
+        displayName: 
+          content: Дат кроны
+          draft: unconfirmed
+        type: DKK
+      - 
+        displayName: Еуро
+        type: EUR
+      - 
+        displayName: Британия фунты
+        type: GBP
+      - 
+        displayName: 
+          content: Гонконг доллары
+          draft: unconfirmed
+        type: HKD
+      - 
+        displayName: 
+          content: Индонезия рупиі
+          draft: unconfirmed
+        type: IDR
+      - 
+        displayName: Үнді рупия
+        type: INR
+      - 
+        displayName: 
+          content: Ямайка доллары
+          draft: unconfirmed
+        type: JMD
+      - 
+        displayName: 
+          content: Йорданиан динары
+          draft: unconfirmed
+        type: JOD
+      - 
+        displayName: Жапон иені
+        type: JPY
+      - 
+        displayName: 
+          content: Қырғызстан сомы
+          draft: unconfirmed
+        type: KGS
+      - 
+        displayName: 
+          content: Оңтүстік Корея воны
+          draft: unconfirmed
+        type: KRW
+      - 
+        displayName: 
+          content: Кувейт динары
+          draft: unconfirmed
+        type: KWD
+      - 
+        displayName: Қазақстан теңгесі
+        symbol: ₸
+        type: KZT
+      - 
+        displayName: 
+          content: Мексика пессосы
+          draft: unconfirmed
+        type: MXN
+      - 
+        displayName: 
+          content: Намибия доллары
+          draft: unconfirmed
+        type: NAD
+      - 
+        displayName: 
+          content: Норвегия кроны
+          draft: unconfirmed
+        type: NOK
+      - 
+        displayName: 
+          content: Непал Рупиі
+          draft: unconfirmed
+        type: NPR
+      - 
+        displayName: 
+          content: Жаңа Зеландия доллары
+          draft: unconfirmed
+        type: NZD
+      - 
+        displayName: 
+          content: Оман риалы
+          draft: unconfirmed
+        type: OMR
+      - 
+        displayName: 
+          content: Польша злотасы
+          draft: unconfirmed
+        type: PLN
+      - 
+        displayName: Ресей рубль
+        symbol: руб.
+        type: RUB
+      - 
+        displayName: 
+          content: Сауд риалы
+          draft: unconfirmed
+        type: SAR
+      - 
+        displayName: 
+          content: Швед кроны
+          draft: unconfirmed
+        type: SEK
+      - 
+        displayName: 
+          content: Тай баты
+          draft: unconfirmed
+        type: THB
+      - 
+        displayName: 
+          content: Түрік лирасы
+          draft: unconfirmed
+        type: TRY
+      - 
+        displayName: 
+          content: Жаңа Тайван доллары
+          draft: unconfirmed
+        type: TWD
+      - 
+        displayName: АҚШ доллары
+        type: USD
+      - 
+        displayName: Белгісіз валюта
+        type: XXX
+      - 
+        displayName: 
+          content: Оңтүстік Африка рэнді
+          draft: unconfirmed
+        type: ZAR
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤"
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: 
+          - 
+            content: 0 мың
+            count: one
+            type: 1000
+          - 
+            content: 0 мың
+            count: other
+            type: 1000
+          - 
+            content: 00 мың
+            count: one
+            type: 10000
+          - 
+            content: 00 мың
+            count: other
+            type: 10000
+          - 
+            content: 000 мың
+            count: one
+            type: 100000
+          - 
+            content: 000 мың
+            count: other
+            type: 100000
+          - 
+            content: 0 млн
+            count: one
+            type: 1000000
+          - 
+            content: 0 млн
+            count: other
+            type: 1000000
+          - 
+            content: 00 млн
+            count: one
+            type: 10000000
+          - 
+            content: 00 млн
+            count: other
+            type: 10000000
+          - 
+            content: 000 млн
+            count: one
+            type: 100000000
+          - 
+            content: 000 млн
+            count: other
+            type: 100000000
+          - 
+            content: 0 млрд
+            count: one
+            type: '1000000000'
+          - 
+            content: 0 млрд
+            count: other
+            type: '1000000000'
+          - 
+            content: 00 млрд
+            count: one
+            type: '10000000000'
+          - 
+            content: 00 млрд
+            count: other
+            type: '10000000000'
+          - 
+            content: 000 млрд
+            count: one
+            type: '100000000000'
+          - 
+            content: 000 млрд
+            count: other
+            type: '100000000000'
+          - 
+            content: 0 трлн
+            count: one
+            type: '1000000000000'
+          - 
+            content: 0 трлн
+            count: other
+            type: '1000000000000'
+          - 
+            content: 00 трлн
+            count: one
+            type: '10000000000000'
+          - 
+            content: 00 трлн
+            count: other
+            type: '10000000000000'
+          - 
+            content: 000 трлн
+            count: one
+            type: '100000000000000'
+          - 
+            content: 000 трлн
+            count: other
+            type: '100000000000000'
+      type: short
+    numberSystem: latn
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: жоқ:ж
+    yesstr: иә:и
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} тәулік"
+          count: one
+        - 
+          content: "{0} тәулік"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} күннен кейін"
+          count: one
+        - 
+          content: "{0} күннен кейін"
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} күн бұрын"
+          count: one
+        - 
+          content: "{0} күн бұрын"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} сағат"
+          count: one
+        - 
+          content: "{0} сағат"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} сағаттан кейін"
+          count: one
+        - 
+          content: "{0} сағаттан кейін"
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} сағат бұрын"
+          count: one
+        - 
+          content: "{0} сағат бұрын"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} минут"
+          count: one
+        - 
+          content: "{0} минут"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: "{0} минуттан кейін"
+          count: one
+        - 
+          content: "{0} минуттан кейін"
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: "{0} минут бұрын"
+          count: one
+        - 
+          content: "{0} минут бұрын"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} ай"
+          count: one
+        - 
+          content: "{0} ай"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: "{0} айдан кейін"
+          count: one
+        - 
+          content: "{0} айдан кейін"
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: "{0} ай бұрын"
+          count: one
+        - 
+          content: "{0} ай бұрын"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} секунд"
+          count: one
+        - 
+          content: "{0} секунд"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: "{0} секундтан кейін"
+          count: one
+        - 
+          content: "{0} секундтан кейін"
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: "{0} секунд бұрын"
+          count: one
+        - 
+          content: "{0} секунд бұрын"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} апта"
+          count: one
+        - 
+          content: "{0} апта"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: "{0} аптадан кейін"
+          count: one
+        - 
+          content: "{0} аптадан кейін"
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: "{0} апта бұрын"
+          count: one
+        - 
+          content: "{0} апта бұрын"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} жыл"
+          count: one
+        - 
+          content: "{0} жыл"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: "{0} жылдан кейін"
+          count: one
+        - 
+          content: "{0} жылдан кейін"
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: "{0} жыл бұрын"
+          count: one
+        - 
+          content: "{0} жыл бұрын"
+          count: other

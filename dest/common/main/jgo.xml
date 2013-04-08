@@ -1,0 +1,1107 @@
+characters: 
+  exemplarCharacters: 
+    - "[a á â ǎ b c d ɛ {ɛ\\u0301} {ɛ\\u0300} {ɛ\\u0302} {ɛ\\u030C} {ɛ\\u0304} f g h i í î ǐ j k l m ḿ {m\\u0300} {m\\u0304} n ń ǹ {n\\u0304} ŋ {ŋ\\u0301} {ŋ\\u0300} {ŋ\\u0304} ɔ {ɔ\\u0301} {ɔ\\u0302} {ɔ\\u030C} p {pf} s {sh} t {ts} u ú û ǔ ʉ {ʉ\\u0301} {ʉ\\u0302} {ʉ\\u030C} {ʉ\\u0308} v w ẅ y z ꞌ]"
+    - 
+      content: "[e o q r x]"
+      type: auxiliary
+    - 
+      content: "[A B C D Ɛ F G H I J K L M N Ŋ Ɔ P {Pf} S {Sh} T {Ts} U Ʉ {Ʉ\\u0308} V W Ẅ Y Z Ꞌ]"
+      type: index
+    - 
+      content: "[\\- , ; \\: ! ? . ‹ › « »]"
+      type: punctuation
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, G y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: G y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              MEd: 
+                content: E, d.M
+              Md: 
+                content: d.M
+              yMd: 
+                content: M.d.y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              MEd: 
+                content: E, d.M
+              Md: 
+                content: d.M
+              yMd: 
+                content: M.d.y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: mba’mba’
+                  type: am
+                - 
+                  content: ŋka mbɔ́t nji
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sɔ́ndi
+                      type: sun
+                    - 
+                      content: Mɔ́ndi
+                      type: mon
+                    - 
+                      content: Ápta Mɔ́ndi
+                      type: tue
+                    - 
+                      content: Wɛ́nɛsɛdɛ
+                      type: wed
+                    - 
+                      content: Tɔ́sɛdɛ
+                      type: thu
+                    - 
+                      content: Fɛlâyɛdɛ
+                      type: fri
+                    - 
+                      content: Sásidɛ
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Sɔ́
+                      type: sun
+                    - 
+                      content: Mɔ́
+                      type: mon
+                    - 
+                      content: ÁM
+                      type: tue
+                    - 
+                      content: Wɛ́
+                      type: wed
+                    - 
+                      content: Tɔ́
+                      type: thu
+                    - 
+                      content: Fɛ
+                      type: fri
+                    - 
+                      content: Sá
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Sɔ́ndi
+                      type: sun
+                    - 
+                      content: Mɔ́ndi
+                      type: mon
+                    - 
+                      content: Ápta Mɔ́ndi
+                      type: tue
+                    - 
+                      content: Wɛ́nɛsɛdɛ
+                      type: wed
+                    - 
+                      content: Tɔ́sɛdɛ
+                      type: thu
+                    - 
+                      content: Fɛlâyɛdɛ
+                      type: fri
+                    - 
+                      content: Sásidɛ
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sɔ́ndi
+                      type: sun
+                    - 
+                      content: Mɔ́ndi
+                      type: mon
+                    - 
+                      content: Ápta Mɔ́ndi
+                      type: tue
+                    - 
+                      content: Wɛ́nɛsɛdɛ
+                      type: wed
+                    - 
+                      content: Tɔ́sɛdɛ
+                      type: thu
+                    - 
+                      content: Fɛlâyɛdɛ
+                      type: fri
+                    - 
+                      content: Sásidɛ
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: Sɔ́
+                      type: sun
+                    - 
+                      content: Mɔ́
+                      type: mon
+                    - 
+                      content: ÁM
+                      type: tue
+                    - 
+                      content: Wɛ́
+                      type: wed
+                    - 
+                      content: Tɔ́
+                      type: thu
+                    - 
+                      content: Fɛ
+                      type: fri
+                    - 
+                      content: Sá
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Sɔ́ndi
+                      type: sun
+                    - 
+                      content: Mɔ́ndi
+                      type: mon
+                    - 
+                      content: Ápta Mɔ́ndi
+                      type: tue
+                    - 
+                      content: Wɛ́nɛsɛdɛ
+                      type: wed
+                    - 
+                      content: Tɔ́sɛdɛ
+                      type: thu
+                    - 
+                      content: Fɛlâyɛdɛ
+                      type: fri
+                    - 
+                      content: Sásidɛ
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: tsɛttsɛt mɛŋgu’ mi ɛ́ lɛɛnɛ Kɛlísɛtɔ gɔ ńɔ́
+                type: 0
+              - 
+                content: tsɛttsɛt mɛŋgu’ mi ɛ́ fúnɛ Kɛlísɛtɔ tɔ́ mɔ́
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Nduŋmbi Saŋ
+                      type: 1
+                    - 
+                      content: Pɛsaŋ Pɛ́pá
+                      type: 2
+                    - 
+                      content: Pɛsaŋ Pɛ́tát
+                      type: 3
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́kwa
+                      type: 4
+                    - 
+                      content: Pɛsaŋ Pataa
+                      type: 5
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́ntúkú
+                      type: 6
+                    - 
+                      content: Pɛsaŋ Saambá
+                      type: 7
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́fɔm
+                      type: 8
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́pfúꞋú
+                      type: 9
+                    - 
+                      content: Pɛsaŋ Nɛgɛ́m
+                      type: 10
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌pmɔ́
+                      type: 11
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌ppá
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                    - 
+                      content: 5
+                      type: 5
+                    - 
+                      content: 6
+                      type: 6
+                    - 
+                      content: 7
+                      type: 7
+                    - 
+                      content: 8
+                      type: 8
+                    - 
+                      content: 9
+                      type: 9
+                    - 
+                      content: 10
+                      type: 10
+                    - 
+                      content: 11
+                      type: 11
+                    - 
+                      content: 12
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Nduŋmbi Saŋ
+                      type: 1
+                    - 
+                      content: Pɛsaŋ Pɛ́pá
+                      type: 2
+                    - 
+                      content: Pɛsaŋ Pɛ́tát
+                      type: 3
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́kwa
+                      type: 4
+                    - 
+                      content: Pɛsaŋ Pataa
+                      type: 5
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́ntúkú
+                      type: 6
+                    - 
+                      content: Pɛsaŋ Saambá
+                      type: 7
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́fɔm
+                      type: 8
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́pfúꞋú
+                      type: 9
+                    - 
+                      content: Pɛsaŋ Nɛgɛ́m
+                      type: 10
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌pmɔ́
+                      type: 11
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌ppá
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Nduŋmbi Saŋ
+                      type: 1
+                    - 
+                      content: Pɛsaŋ Pɛ́pá
+                      type: 2
+                    - 
+                      content: Pɛsaŋ Pɛ́tát
+                      type: 3
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́kwa
+                      type: 4
+                    - 
+                      content: Pɛsaŋ Pataa
+                      type: 5
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́ntúkú
+                      type: 6
+                    - 
+                      content: Pɛsaŋ Saambá
+                      type: 7
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́fɔm
+                      type: 8
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́pfúꞋú
+                      type: 9
+                    - 
+                      content: Pɛsaŋ Nɛgɛ́m
+                      type: 10
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌pmɔ́
+                      type: 11
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌ppá
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                    - 
+                      content: 5
+                      type: 5
+                    - 
+                      content: 6
+                      type: 6
+                    - 
+                      content: 7
+                      type: 7
+                    - 
+                      content: 8
+                      type: 8
+                    - 
+                      content: 9
+                      type: 9
+                    - 
+                      content: 10
+                      type: 10
+                    - 
+                      content: 11
+                      type: 11
+                    - 
+                      content: 12
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Nduŋmbi Saŋ
+                      type: 1
+                    - 
+                      content: Pɛsaŋ Pɛ́pá
+                      type: 2
+                    - 
+                      content: Pɛsaŋ Pɛ́tát
+                      type: 3
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́kwa
+                      type: 4
+                    - 
+                      content: Pɛsaŋ Pataa
+                      type: 5
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́ntúkú
+                      type: 6
+                    - 
+                      content: Pɛsaŋ Saambá
+                      type: 7
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́fɔm
+                      type: 8
+                    - 
+                      content: Pɛsaŋ Pɛ́nɛ́pfúꞋú
+                      type: 9
+                    - 
+                      content: Pɛsaŋ Nɛgɛ́m
+                      type: 10
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌pmɔ́
+                      type: 11
+                    - 
+                      content: Pɛsaŋ Ntsɔ̌ppá
+                      type: 12
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      relative: 
+        content: lɔꞋɔ
+        type: 0
+      type: day
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    regionFormat: "{0}"
+delimiters: 
+  alternateQuotationEnd: ›
+  alternateQuotationStart: ‹
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: jgo
+  version: 
+    number: "$Revision: 8245 $"
+layout: 
+  orientation: {}
+
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} pɔp {1}"
+        type: 2
+      - 
+        content: "{0}, ḿbɛn ŋ́ɡɛ {1}"
+        type: end
+      - 
+        content: "{0}, ŋ́ɡɛ {1}"
+        type: middle
+      - 
+        content: "{0}, ŋ́ɡɛ {1}"
+        type: start
+localeDisplayNames: 
+  keys: 
+    key: 
+      - 
+        content: Ŋkɑ́p
+        type: currency
+      - 
+        content: Pɛnɔ́mbɑ
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: Alâbɛ
+        type: ar
+      - 
+        content: Njáman
+        type: de
+      - 
+        content: Ŋɡɛlɛ̂k
+        type: el
+      - 
+        content: Aŋɡɛlúshi
+        type: en
+      - 
+        content: Fɛlánci
+        type: fr
+      - 
+        content: Ndaꞌa
+        type: jgo
+      - 
+        content: cú-pʉɔ yi pɛ́ kɑ́ kɛ́ jí
+        type: und
+      - 
+        content: Shinwâ
+        type: zh
+  scripts: 
+    script: 
+      - 
+        content: mík -ŋwa’nɛ yi ɛ́ líŋɛ́nɛ Latɛ̂ŋ
+        type: Latn
+      - 
+        content: ntúu yi pɛ́ ká ŋwa’nε
+        type: Zxxx
+      - 
+        content: ntɛ-ŋwa’nɛ yí pɛ́ kɑ́ kɛ́ jí
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Mbí
+        type: '001'
+      - 
+        content: Afɛlîk
+        type: '002'
+      - 
+        content: Amɛlîk
+        type: '019'
+      - 
+        content: Azî
+        type: 142
+      - 
+        content: Ʉlôp
+        type: 150
+      - 
+        content: Aŋgɔ́la
+        type: AO
+      - 
+        content: Ajɛntîn
+        type: AR
+      - 
+        content: Mbulukína Fásɔ
+        type: BF
+      - 
+        content: Mbulundí
+        type: BI
+      - 
+        content: Mbɛnɛ̂ŋ
+        type: BJ
+      - 
+        content: Mbɔlivî
+        type: BO
+      - 
+        content: Mbɛlazîl
+        type: BR
+      - 
+        content: Mbɔtswɑ́nɑ
+        type: BW
+      - 
+        content: Kanadâ
+        type: CA
+      - 
+        content: Kɔ́ŋɡɔ-Kinshɑ́sɑ
+        type: CD
+      - 
+        content: Kɔ́ŋɡɔ-Mbɛlɑzɑvîl
+        type: CG
+      - 
+        content: Sẅísɛ
+        type: CH
+      - 
+        content: Kɔ́t Ndivwâ
+        type: CI
+      - 
+        content: Cíllɛ
+        type: CL
+      - 
+        content: Kamɛlûn
+        type: CM
+      - 
+        content: Shîn
+        type: CN
+      - 
+        content: Kɔllɔmbî
+        type: CO
+      - 
+        content: Kúba
+        type: CU
+      - 
+        content: Njáman
+        type: DE
+      - 
+        content: Njimbúti
+        type: DJ
+      - 
+        content: Aljɛlî
+        type: DZ
+      - 
+        content: Ɛkwandɔ̂
+        type: EC
+      - 
+        content: Ɛjíptɛ
+        type: EG
+      - 
+        content: Ɛlitɛlɛ́yɑ
+        type: ER
+      - 
+        content: Ɛspániya
+        type: ES
+      - 
+        content: Ɛtiyɔpî
+        type: ET
+      - 
+        content: Fɛlánci
+        type: FR
+      - 
+        content: Ŋɡɑbɔ̂ŋ
+        type: GA
+      - 
+        content: Ŋgána
+        type: GH
+      - 
+        content: Ŋgambî
+        type: GM
+      - 
+        content: Ŋginɛ̂
+        type: GN
+      - 
+        content: Ŋɡinɛ̂ Ɛkwɑtɔliyɑ̂l
+        type: GQ
+      - 
+        content: Ŋgɛlɛ̂k
+        type: GR
+      - 
+        content: Ŋginɛ̂ Mbisáwu
+        type: GW
+      - 
+        content: Islɑyɛ̂l
+        type: IL
+      - 
+        content: Ándɛ
+        type: IN
+      - 
+        content: Ilɑ̂k
+        type: IQ
+      - 
+        content: Italî
+        type: IT
+      - 
+        content: Japɔ̂n
+        type: JP
+      - 
+        content: Kɛ́nyɑ
+        type: KE
+      - 
+        content: Kɔmɔ́lɔshi
+        type: KM
+      - 
+        content: Libɛrî
+        type: LR
+      - 
+        content: Lɛsɔ́tɔ
+        type: LS
+      - 
+        content: Libî
+        type: LY
+      - 
+        content: Mɔlɔ̂k
+        type: MA
+      - 
+        content: Mɑ́ndɑŋɡɑsɛkɑ̂
+        type: MG
+      - 
+        content: Malî
+        type: ML
+      - 
+        content: Mɔlitanî
+        type: MR
+      - 
+        content: Mɑlɑ́wi
+        type: MW
+      - 
+        content: Mɛksîk
+        type: MX
+      - 
+        content: Mɔzɑmbîk
+        type: MZ
+      - 
+        content: Namimbî
+        type: NA
+      - 
+        content: Nijɛ̂
+        type: NE
+      - 
+        content: Ninjɛliyâ
+        type: NG
+      - 
+        content: Nɔlɛvɛ́jɛ
+        type: 'NO'
+      - 
+        content: Pɛlû
+        type: PE
+      - 
+        content: Lɛ́uniyɔ̂n
+        type: RE
+      - 
+        content: Sɛlɛbî
+        type: RS
+      - 
+        content: Lusî
+        type: RU
+      - 
+        content: Luwɑ́ndɑ
+        type: RW
+      - 
+        content: Pɛsɛ́shɛl
+        type: SC
+      - 
+        content: Sundân
+        type: SD
+      - 
+        content: Siyɛ́la Lɛɔ̂n
+        type: SL
+      - 
+        content: Sɛnɛgâl
+        type: SN
+      - 
+        content: Sɔmɑlî
+        type: SO
+      - 
+        content: Sɑ́wɔŋ Tɔmɛ́ nɛ́ Pɛlínsipɛ
+        type: ST
+      - 
+        content: Swɑzilɑ̂n
+        type: SZ
+      - 
+        content: Cɑ̂t
+        type: TD
+      - 
+        content: Tɔ́ŋgɔ
+        type: TG
+      - 
+        content: Tunizî
+        type: TN
+      - 
+        content: Tɑnzɑnî
+        type: TZ
+      - 
+        content: Uŋɡɑ́ndɑ
+        type: UG
+      - 
+        content: Vɛnɛzwɛ́la
+        type: VE
+      - 
+        content: Mɑyɔ̂t
+        type: YT
+      - 
+        content: Zɑmbî
+        type: ZM
+      - 
+        content: Zimbɑ́mbwɛ
+        type: ZW
+      - 
+        content: ŋgɔŋ yi pɛ́ ká kɛ́ jʉɔ
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: mɛlɛ́’-mɛkɑ́t
+        type: gregorian
+      numbers: 
+        content: pɛnɔ́mba
+        type: latn
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Ndɔ́la-Kanandâ
+        type: CAD
+      - 
+        displayName: Ʉ́lɔ
+        type: EUR
+      - 
+        displayName: Ndɔ́la-Amɛlîk
+        type: USD
+      - 
+        displayName: Fɛlâŋ
+        symbol: FCFA
+        type: XAF
+      - 
+        displayName: ntɛ-ŋkɑ́p yi pɛ́ kɑ́ kɛ́ jínɛ
+        type: XXX
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##0.###"
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: .
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: ŋɡɑ́ŋ:ŋ
+    yesstr: ɔ́ŋ:ɔ́
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} lɛ́Ꞌ"
+          count: one
+        - 
+          content: "{0} lɛ́Ꞌ"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: Nǔu lɛ́Ꞌ {0}
+          count: one
+        - 
+          content: Nǔu lɛ́Ꞌ {0}
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: Ɛ́ gɛ́ mɔ́ lɛ́Ꞌ {0}
+          count: one
+        - 
+          content: Ɛ́ gɛ́ mɔ́ lɛ́Ꞌ {0}
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} háwa"
+          count: one
+        - 
+          content: "{0} háwa"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: nǔu háwa {0}
+          count: one
+        - 
+          content: nǔu háwa {0}
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: ɛ́ gɛ mɔ́ {0} háwa
+          count: one
+        - 
+          content: ɛ́ gɛ mɔ́ {0} háwa
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minút"
+          count: one
+        - 
+          content: "{0} minút"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: nǔu {0} minút
+          count: one
+        - 
+          content: nǔu {0} minút
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: ɛ́ gɛ́ mɔ́ minút {0}
+          count: one
+        - 
+          content: ɛ́ gɛ́ mɔ́ minút {0}
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: pɛsaŋ {0}
+          count: one
+        - 
+          content: pɛsaŋ {0}
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: Nǔu {0} saŋ
+          count: one
+        - 
+          content: Nǔu {0} saŋ
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: ɛ́ gɛ́ mɔ́ pɛsaŋ {0}
+          count: one
+        - 
+          content: ɛ́ gɛ́ mɔ́ pɛsaŋ {0}
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: Nǔu ŋgap-mbi {0}
+          count: one
+        - 
+          content: Nǔu ŋgap-mbi {0}
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: Ɛ́ gɛ́ mɔ {0} ŋgap-mbi
+          count: one
+        - 
+          content: Ɛ́ gɛ́ mɔ {0} ŋgap-mbi
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: ŋguꞋ {0}
+          count: one
+        - 
+          content: ŋguꞋ {0}
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: Nǔu ŋguꞋ {0}
+          count: one
+        - 
+          content: Nǔu ŋguꞋ {0}
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: Ɛ́gɛ́ mɔ́ ŋguꞋ {0}
+          count: one
+        - 
+          content: Ɛ́gɛ́ mɔ́ ŋguꞋ {0}
+          count: other

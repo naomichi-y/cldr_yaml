@@ -1,0 +1,4708 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[a á â b c d e é è ê ë f g h i î ï j k l m n o ô ö p q r s t u û v w x y z]"
+    - 
+      content: "[á à â ä ã æ ç é è ê ë í ì î ï ó ò ô ö ú ù û ü ý]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      draft: contributed
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE dd MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMMdd: 
+                content: dd MMMM
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: M/d/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d – E, M/d
+                  d: 
+                    content: E, M/d – E, M/d
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MMM d – E, MMM d
+                  d: 
+                    content: E, MMM d – E, MMM d
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M/d – M/d
+                  d: 
+                    content: M/d – M/d
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d/y – E, M/d/y
+                  d: 
+                    content: E, M/d/y – E, M/d/y
+                  "y": 
+                    content: E, M/d/y – E, M/d/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, MMM d, y – E, MMM d, y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d, y
+                  d: 
+                    content: d–d MMM, y
+                  "y": 
+                    content: d MMM, y – d MMM, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: M/d/y – M/d/y
+                  d: 
+                    content: M/d/y – M/d/y
+                  "y": 
+                    content: M/d/y – M/d/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE dd MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: dd MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: dd MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMMdd: 
+                content: dd MMMM
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E, d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: M/d/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d – E, M/d
+                  d: 
+                    content: E, M/d – E, M/d
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MMM d – E, MMM d
+                  d: 
+                    content: E, MMM d – E, MMM d
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M/d – M/d
+                  d: 
+                    content: M/d – M/d
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d/y – E, M/d/y
+                  d: 
+                    content: E, M/d/y – E, M/d/y
+                  "y": 
+                    content: E, M/d/y – E, M/d/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM – E, d MMM, y
+                  d: 
+                    content: E, d MMM – E, d MMM, y
+                  "y": 
+                    content: E, MMM d, y – E, MMM d, y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d, y
+                  d: 
+                    content: d–d MMM, y
+                  "y": 
+                    content: d MMM, y – d MMM, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: M/d/y – M/d/y
+                  d: 
+                    content: M/d/y – M/d/y
+                  "y": 
+                    content: M/d/y – M/d/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: vm.
+                  type: am
+                - 
+                  content: nm.
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: So
+                      type: sun
+                    - 
+                      content: Ma
+                      type: mon
+                    - 
+                      content: Di
+                      type: tue
+                    - 
+                      content: Wo
+                      type: wed
+                    - 
+                      content: Do
+                      type: thu
+                    - 
+                      content: Vr
+                      type: fri
+                    - 
+                      content: Sa
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: So.
+                      type: sun
+                    - 
+                      content: Ma.
+                      type: mon
+                    - 
+                      content: Di.
+                      type: tue
+                    - 
+                      content: Wo.
+                      type: wed
+                    - 
+                      content: Do.
+                      type: thu
+                    - 
+                      content: Vr.
+                      type: fri
+                    - 
+                      content: Sa.
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: Sondag
+                      type: sun
+                    - 
+                      content: Maandag
+                      type: mon
+                    - 
+                      content: Dinsdag
+                      type: tue
+                    - 
+                      content: Woensdag
+                      type: wed
+                    - 
+                      content: Donderdag
+                      type: thu
+                    - 
+                      content: Vrydag
+                      type: fri
+                    - 
+                      content: Saterdag
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: S
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: D
+                      type: tue
+                    - 
+                      content: W
+                      type: wed
+                    - 
+                      content: D
+                      type: thu
+                    - 
+                      content: V
+                      type: fri
+                    - 
+                      content: S
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: So.
+                      type: sun
+                    - 
+                      content: Ma.
+                      type: mon
+                    - 
+                      content: Di.
+                      type: tue
+                    - 
+                      content: Wo.
+                      type: wed
+                    - 
+                      content: Do.
+                      type: thu
+                    - 
+                      content: Vr.
+                      type: fri
+                    - 
+                      content: Sa.
+                      type: sat
+                  type: short
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: v.C.
+                type: 0
+              - 
+                content: n.C.
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: voor Christus
+                type: 0
+              - 
+                content: na Christus
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jan
+                      type: 1
+                    - 
+                      content: Feb
+                      type: 2
+                    - 
+                      content: Mar
+                      type: 3
+                    - 
+                      content: Apr
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Jun
+                      type: 6
+                    - 
+                      content: Jul
+                      type: 7
+                    - 
+                      content: Aug
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: Okt
+                      type: 10
+                    - 
+                      content: Nov
+                      type: 11
+                    - 
+                      content: Des
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: Januarie
+                      type: 1
+                    - 
+                      content: Februarie
+                      type: 2
+                    - 
+                      content: Maart
+                      type: 3
+                    - 
+                      content: April
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Junie
+                      type: 6
+                    - 
+                      content: Julie
+                      type: 7
+                    - 
+                      content: Augustus
+                      type: 8
+                    - 
+                      content: September
+                      type: 9
+                    - 
+                      content: Oktober
+                      type: 10
+                    - 
+                      content: November
+                      type: 11
+                    - 
+                      content: Desember
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: J
+                      type: 1
+                    - 
+                      content: F
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: A
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: J
+                      type: 6
+                    - 
+                      content: J
+                      type: 7
+                    - 
+                      content: A
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: D
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Januarie
+                      type: 1
+                    - 
+                      content: Februarie
+                      type: 2
+                    - 
+                      content: Maart
+                      type: 3
+                    - 
+                      content: April
+                      type: 4
+                    - 
+                      content: Mei
+                      type: 5
+                    - 
+                      content: Junie
+                      type: 6
+                    - 
+                      content: Julie
+                      type: 7
+                    - 
+                      content: Augustus
+                      type: 8
+                    - 
+                      content: September
+                      type: 9
+                    - 
+                      content: Oktober
+                      type: 10
+                    - 
+                      content: November
+                      type: 11
+                    - 
+                      content: Desember
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: K1
+                      type: 1
+                    - 
+                      content: K2
+                      type: 2
+                    - 
+                      content: K3
+                      type: 3
+                    - 
+                      content: K4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1ste kwartaal
+                      type: 1
+                    - 
+                      content: 2de kwartaal
+                      type: 2
+                    - 
+                      content: 3de kwartaal
+                      type: 3
+                    - 
+                      content: 4de kwartaal
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: 1
+                    type: 1
+                  - 
+                    content: 2
+                    type: 2
+                  - 
+                    content: 3
+                    type: 3
+                  - 
+                    content: 4
+                    type: 4
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Era
+        type: era
+      - 
+        displayName: Jaar
+        relative: 
+          - 
+            content: Verlede jaar
+            type: -1
+          - 
+            content: Hierdie jaar
+            type: 0
+          - 
+            content: Volgende jaar
+            type: 1
+        type: year
+      - 
+        displayName: Maand
+        relative: 
+          - 
+            content: Verlede maand
+            type: -1
+          - 
+            content: Vandeesmaand
+            type: 0
+          - 
+            content: Volgende maand
+            type: 1
+        type: month
+      - 
+        displayName: Week
+        relative: 
+          - 
+            content: Verlede week
+            type: -1
+          - 
+            content: Vandeesweek
+            type: 0
+          - 
+            content: Volgende week
+            type: 1
+        type: week
+      - 
+        displayName: Dag
+        relative: 
+          - 
+            content: Die dag voor gister
+            type: -2
+          - 
+            content: Gister
+            type: -1
+          - 
+            content: Vandag
+            type: 0
+          - 
+            content: Môre
+            type: 1
+          - 
+            content: Die dag na môre
+            type: 2
+        type: day
+      - 
+        displayName: Weeksdag
+        type: weekday
+      - 
+        displayName: AM/PM
+        type: dayperiod
+      - 
+        displayName: Uur
+        type: hour
+      - 
+        displayName: Minuut
+        type: minute
+      - 
+        displayName: Sekonde
+        type: second
+      - 
+        displayName: Tydsone
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: 
+      content: "{1}-tyd ({0})"
+      draft: contributed
+    gmtFormat: MGT{0}
+    gmtZeroFormat: MGT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: Afghanistan-tyd
+        type: Afghanistan
+      - 
+        long: 
+          standard: Sentraal-Afrika-tyd
+        short: 
+          standard: CAT
+        type: Africa_Central
+      - 
+        long: 
+          standard: Oos-Afrika-tyd
+        short: 
+          standard: EAT
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Suid-Afrika-standaardtyd
+        short: 
+          standard: SAST
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Wes-Afrika-somertyd
+          generic: Wes-Afrika-tyd
+          standard: Wes-Afrika-standaardtyd
+        short: 
+          daylight: WAST
+          generic: WAT
+          standard: WAT
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Alaska-dagligtyd
+          generic: Alaska-tyd
+          standard: Alaska-standaardtyd
+        type: Alaska
+      - 
+        long: 
+          daylight: Amasone-somertyd
+          generic: Amasone-tyd
+          standard: Amasone-standaardtyd
+        type: Amazon
+      - 
+        long: 
+          daylight: Sentrale dagligtyd
+          generic: Sentrale tyd
+          standard: Sentraal-standaardtyd
+        type: America_Central
+      - 
+        long: 
+          daylight: Oostelike dagligtyd
+          generic: Oostelike tyd
+          standard: Oostelike standaardtyd
+        type: America_Eastern
+      - 
+        long: 
+          daylight: Berg-dagligtyd
+          generic: Bergtyd
+          standard: Berg-standaardtyd
+        type: America_Mountain
+      - 
+        long: 
+          daylight: Pasifiese dagligtyd
+          generic: Pasifiese tyd
+          standard: Pasifiese standaardtyd
+        type: America_Pacific
+      - 
+        long: 
+          daylight: Anadyr-somertyd
+          generic: Anadyr-tyd
+          standard: Anadyr-standaardtyd
+        type: Anadyr
+      - 
+        long: 
+          daylight: Arabiese dagligtyd
+          generic: Arabiese Tyd
+          standard: Arabiese standaardtyd
+        type: Arabian
+      - 
+        long: 
+          daylight: Argentinië-somertyd
+          generic: Argentinië-tyd
+          standard: Argentinië-standaardtyd
+        type: Argentina
+      - 
+        long: 
+          daylight: Argentinië Westelike somertyd
+          generic: Argentinië Westelike tyd
+          standard: Argentinië Westelike standaardtyd
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: Armenië-somertyd
+          generic: Armenië-tyd
+          standard: Armenië-standaardtyd
+        type: Armenia
+      - 
+        long: 
+          daylight: Atlantiese dagligtyd
+          generic: Atlantiese tyd
+          standard: Atlantiese standaardtyd
+        type: Atlantic
+      - 
+        long: 
+          daylight: Australiese sentrale dagligtyd
+          generic: Sentraal-Australië-tyd
+          standard: Australiese sentraal-standaardtyd
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Australiese sentraal-Westelike dagligtyd
+          generic: Australiese sentraal-Westelike tyd
+          standard: Australiese sentraal-Westelike standaard-tyd
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Australiese Oostelike dagligtyd
+          generic: Oostelike Australiese tyd
+          standard: Australiese Oostelike standaardtyd
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Australiese Westelike dagligtyd
+          generic: Westelike Australië-tyd
+          standard: Australiese Westelike standaardtyd
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Aserbeidjan-somertyd
+          generic: Aserbeidjan-tyd
+          standard: Aserbeidjan-standaardtyd
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: Asore-somertyd
+          generic: Asore-tyd
+          standard: Asore-standaardtyd
+        type: Azores
+      - 
+        long: 
+          daylight: Bangladesj-somertyd
+          generic: Bangladesj-tyd
+          standard: Bangladesj-standaardtyd
+        type: Bangladesh
+      - 
+        long: 
+          standard: Bhoetan-tyd
+        type: Bhutan
+      - 
+        long: 
+          standard: Bolivia-tyd
+        type: Bolivia
+      - 
+        long: 
+          daylight: Brasilië somertyd
+          generic: Brasilië-tyd
+          standard: Brasilië-standaardtyd
+        type: Brasilia
+      - 
+        long: 
+          standard: Broenei Darussalam-tyd
+        type: Brunei
+      - 
+        long: 
+          daylight: Kaap Verde-somertyd
+          generic: Kaap Verde-tyd
+          standard: Kaap Verde-standaardtyd
+        type: Cape_Verde
+      - 
+        long: 
+          standard: Chamorro-standaardtyd
+        type: Chamorro
+      - 
+        long: 
+          daylight: Chatham-dagligtyd
+          generic: Chatham-tyd
+          standard: Chatham-standaardtyd
+        type: Chatham
+      - 
+        long: 
+          daylight: Chili-somertyd
+          generic: Chili-tyd
+          standard: Chili-standaardtyd
+        type: Chile
+      - 
+        long: 
+          daylight: China-dagligtyd
+          generic: China-tyd
+          standard: China-standaardtyd
+        type: China
+      - 
+        long: 
+          daylight: Choibalsan-somertyd
+          generic: Choibalsan-tyd
+          standard: Choibalsan-standaardtyd
+        type: Choibalsan
+      - 
+        long: 
+          standard: Kersfeeseiland-tyd
+        type: Christmas
+      - 
+        long: 
+          standard: Cocos Eilande-tyd
+        type: Cocos
+      - 
+        long: 
+          daylight: Colombië-somertyd
+          generic: Colombië-tyd
+          standard: Colombië-standaardtyd
+        type: Colombia
+      - 
+        long: 
+          daylight: Cookeilande-halfsomertyd
+          generic: Cookeilande-tyd
+          standard: Cookeilande-standaardtyd
+        type: Cook
+      - 
+        long: 
+          daylight: Kuba-dagligtyd
+          generic: Kuba-tyd
+          standard: Kuba-standaardtyd
+        type: Cuba
+      - 
+        long: 
+          standard: Davis-tyd
+        type: Davis
+      - 
+        long: 
+          standard: Dumont-d'Urville-tyd
+        type: DumontDUrville
+      - 
+        long: 
+          standard: Oos-Timor-tyd
+        type: East_Timor
+      - 
+        long: 
+          daylight: Paaseiland-somertyd
+          generic: Paaseiland-tyd
+          standard: Paaseiland-standaardtyd
+        type: Easter
+      - 
+        long: 
+          standard: Ecuador-tyd
+        type: Ecuador
+      - 
+        long: 
+          daylight: Sentraal-Europese somertyd
+          generic: Sentraal-Europese tyd
+          standard: Sentraal-Europese standaardtyd
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Oos-Europese somertyd
+          generic: Oos-Europese tyd
+          standard: Oos-Europese standaardtyd
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Wes-Europese somertyd
+          generic: Wes-Europese tyd
+          standard: Wes-Europese standaardtyd
+        type: Europe_Western
+      - 
+        long: 
+          daylight: Falkland-eilande-somertyd
+          generic: Falkland-eilande-tyd
+          standard: Falkland-eilande-standaardtyd
+        type: Falkland
+      - 
+        long: 
+          daylight: Fidji-somertyd
+          generic: Fidji-tyd
+          standard: Fidji-standaardtyd
+        type: Fiji
+      - 
+        long: 
+          standard: Frans-Guiana-tyd
+        type: French_Guiana
+      - 
+        long: 
+          standard: Franse Suider- en Antarktiese tyd
+        type: French_Southern
+      - 
+        long: 
+          standard: Galapagos-tyd
+        type: Galapagos
+      - 
+        long: 
+          standard: Gambier-tyd
+        type: Gambier
+      - 
+        long: 
+          daylight: Georgië-somertyd
+          generic: Georgië-tyd
+          standard: Georgië-standaardtyd
+        type: Georgia
+      - 
+        long: 
+          standard: Gilberteilande-tyd
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: Greenwich-mediaantyd
+        type: GMT
+      - 
+        long: 
+          daylight: Oos-Groenland-somertyd
+          generic: Oos-Groenland-tyd
+          standard: Oos-Groenland-standaardtyd
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: Wes-Groenland-somertyd
+          generic: Wes-Groenland-tyd
+          standard: Wes-Groenland-standaardtyd
+        type: Greenland_Western
+      - 
+        long: 
+          standard: Golf-standaardtyd
+        type: Gulf
+      - 
+        long: 
+          standard: Guyana-tyd
+        type: Guyana
+      - 
+        long: 
+          daylight: Hawaii-Aleusiër-dagligtyd
+          generic: Hawaii-Aleusiër-tyd
+          standard: Hawaii-Aleusiër-standaardtyd
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: Hongkong-somertyd
+          generic: Hongkong-tyd
+          standard: Hongkong-standaardtyd
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: Hovd-somertyd
+          generic: Hovd-tyd
+          standard: Hovd-standaardtyd
+        type: Hovd
+      - 
+        long: 
+          standard: Indië-standaardtyd
+        type: India
+      - 
+        long: 
+          standard: Indiese Oseaan-tyd
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: Indosjina-tyd
+        type: Indochina
+      - 
+        long: 
+          standard: Sentraal Indonesië-tyd
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: Oos-Indonesië-tyd
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: Wes-Indonesië-tyd
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: Iran-dagligtyd
+          generic: Iran-tyd
+          standard: Iran-standaardtyd
+        type: Iran
+      - 
+        long: 
+          daylight: Irkutsk-somertyd
+          generic: Irkutsk-tyd
+          standard: Irkutsk-standaardtyd
+        type: Irkutsk
+      - 
+        long: 
+          daylight: Israel-dagligtyd
+          generic: Israel-tyd
+          standard: Israel-standaardtyd
+        type: Israel
+      - 
+        long: 
+          daylight: Japan-dagligtyd
+          generic: Japan-tyd
+          standard: Japan-standaardtyd
+        type: Japan
+      - 
+        long: 
+          daylight: Petropavlovsk-Kamchatski-somertyd
+          generic: Petropavlovsk-Kamchatski-tyd
+          standard: Petropavlovsk-Kamchatski-standaardtyd
+        type: Kamchatka
+      - 
+        long: 
+          standard: Oos-Kazakstan-tyd
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: Wes-Kazakstan-tyd
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: Koreaanse dagligtyd
+          generic: Koreaanse tyd
+          standard: Koreaanse standaardtyd
+        type: Korea
+      - 
+        long: 
+          standard: Kosrae-tyd
+        type: Kosrae
+      - 
+        long: 
+          daylight: Krasnojarsk-somertyd
+          generic: Krasnojarsk-tyd
+          standard: Krasnojarsk-standaardtyd
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: Kirgistan-tyd
+        type: Kyrgystan
+      - 
+        long: 
+          standard: Line-eilande-tyd
+        type: Line_Islands
+      - 
+        long: 
+          daylight: Lord Howe-dagligtyd
+          generic: Lord Howe-tyd
+          standard: Lord Howe-standaardtyd
+        type: Lord_Howe
+      - 
+        long: 
+          standard: Macquarie-eiland-tyd
+        type: Macquarie
+      - 
+        long: 
+          daylight: Magadan-somertyd
+          generic: Magadan-tyd
+          standard: Magadan-standaardtyd
+        type: Magadan
+      - 
+        long: 
+          standard: Maleisië-tyd
+        type: Malaysia
+      - 
+        long: 
+          standard: Maldives-tyd
+        type: Maldives
+      - 
+        long: 
+          standard: Marquesas-tyd
+        type: Marquesas
+      - 
+        long: 
+          standard: Marshalleilande-tyd
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: Mauritius-somertyd
+          generic: Mauritius-tyd
+          standard: Mauritius-standaardtyd
+        type: Mauritius
+      - 
+        long: 
+          standard: Mawson-tyd
+        type: Mawson
+      - 
+        long: 
+          daylight: Oelan Bator-somertyd
+          generic: Ulaanbatar-tyd
+          standard: Ulaanbatar-standaardtyd
+        type: Mongolia
+      - 
+        long: 
+          daylight: Moskou-somertyd
+          generic: Moskou-tyd
+          standard: Moskou-standaardtyd
+        type: Moscow
+      - 
+        long: 
+          standard: Mianmar-tyd
+        type: Myanmar
+      - 
+        long: 
+          standard: Nauru-tyd
+        type: Nauru
+      - 
+        long: 
+          standard: Nepal-tyd
+        type: Nepal
+      - 
+        long: 
+          daylight: Nieu-Kaledonië-somertyd
+          generic: Nieu-Kaledonië-tyd
+          standard: Nieu-Kaledonië-standaardtyd
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: Nieu-Seeland-dagligtyd
+          generic: Nieu-Seeland-tyd
+          standard: Nieu-Seeland-standaardtyd
+        type: New_Zealand
+      - 
+        long: 
+          daylight: Newfoundland-dagligtyd
+          generic: Newfoundland-tyd
+          standard: Newfoundland-standaard-tyd
+        type: Newfoundland
+      - 
+        long: 
+          standard: Niue-tyd
+        type: Niue
+      - 
+        long: 
+          standard: Norfolk-eilande-tyd
+        type: Norfolk
+      - 
+        long: 
+          daylight: Fernando de Noronha-somertyd
+          generic: Fernando de Noronha-tyd
+          standard: Fernando de Noronha-standaardtyd
+        type: Noronha
+      - 
+        long: 
+          daylight: Novosibirsk-somertyd
+          generic: Novosibirsk-tyd
+          standard: Novosibirsk-standaardtyd
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: Omsk-somertyd
+          generic: Omsk-tyd
+          standard: Omsk-standaardtyd
+        type: Omsk
+      - 
+        long: 
+          daylight: Pakistan-somertyd
+          generic: Pakistan-tyd
+          standard: Pakistan-standaardtyd
+        type: Pakistan
+      - 
+        long: 
+          standard: Palau-tyd
+        type: Palau
+      - 
+        long: 
+          standard: Papoea-Nieu-Guinee-tyd
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: Paraguay-somertyd
+          generic: Paraguay-tyd
+          standard: Paraguay-standaardtyd
+        type: Paraguay
+      - 
+        long: 
+          daylight: Peru-somertyd
+          generic: Peru-tyd
+          standard: Peru-standaardtyd
+        type: Peru
+      - 
+        long: 
+          daylight: Filippynse somertyd
+          generic: Filippynse tyd
+          standard: Filippynse standaardtyd
+        type: Philippines
+      - 
+        long: 
+          standard: Feniks-eilande-tyd
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: Sint-Pierre en Miquelon-dagligtyd
+          generic: Sint-Pierre en Miquelon-tyd
+          standard: Sint-Pierre en Miquelon-standaardtyd
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: Pitcairn-tyd
+        type: Pitcairn
+      - 
+        long: 
+          standard: Ponape-tyd
+        type: Ponape
+      - 
+        long: 
+          standard: Reunion-tyd
+        type: Reunion
+      - 
+        long: 
+          standard: Rothera-tyd
+        type: Rothera
+      - 
+        long: 
+          daylight: Sakhalin-somertyd
+          generic: Sakhalin-tyd
+          standard: Sakhalin-standaardtyd
+        type: Sakhalin
+      - 
+        long: 
+          daylight: Samara-dagligtyd
+          generic: Samara-tyd
+          standard: Samara-standaardtyd
+        type: Samara
+      - 
+        long: 
+          daylight: Samoa-dagligtyd
+          generic: Samoa-tyd
+          standard: Samoa-standaardtyd
+        type: Samoa
+      - 
+        long: 
+          standard: Seychelle-tyd
+        type: Seychelles
+      - 
+        long: 
+          standard: Singapoer-standaardtyd
+        type: Singapore
+      - 
+        long: 
+          standard: Solomoneilande-tyd
+        type: Solomon
+      - 
+        long: 
+          standard: Suid-Georgië-tyd
+        type: South_Georgia
+      - 
+        long: 
+          standard: Syowa-tyd
+        type: Syowa
+      - 
+        long: 
+          standard: Tahiti-tyd
+        type: Tahiti
+      - 
+        long: 
+          daylight: Taipei-dagligtyd
+          generic: Taipei-tyd
+          standard: Taipei-standaardtyd
+        type: Taipei
+      - 
+        long: 
+          standard: Tadjikistan-tyd
+        type: Tajikistan
+      - 
+        long: 
+          standard: Tokelau-tyd
+        type: Tokelau
+      - 
+        long: 
+          daylight: Tonga-somertyd
+          generic: Tonga-tyd
+          standard: Tonga-standaardtyd
+        type: Tonga
+      - 
+        long: 
+          standard: Chuuk-tyd
+        type: Truk
+      - 
+        long: 
+          daylight: Turkmenistan-somertyd
+          generic: Turkmenistan-tyd
+          standard: Turkmenistan-standaardtyd
+        type: Turkmenistan
+      - 
+        long: 
+          standard: Tuvalu-tyd
+        type: Tuvalu
+      - 
+        long: 
+          daylight: Uruguay-somertyd
+          generic: Uruguay-tyd
+          standard: Uruguay-standaardtyd
+        type: Uruguay
+      - 
+        long: 
+          daylight: Oesbekistan-somertyd
+          generic: Oesbekistan-tyd
+          standard: Oesbekistan-standaardtyd
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: Vanuatu-somertyd
+          generic: Vanuatu-tyd
+          standard: Vanuatu-standaardtyd
+        type: Vanuatu
+      - 
+        long: 
+          standard: Venezuela-tyd
+        type: Venezuela
+      - 
+        long: 
+          daylight: Vladivostok-somertyd
+          generic: Vladivostok-tyd
+          standard: Vladivostok-standaardtyd
+        type: Vladivostok
+      - 
+        long: 
+          daylight: Volgograd-somertyd
+          generic: Volgograd-tyd
+          standard: Volgograd-standaardtyd
+        type: Volgograd
+      - 
+        long: 
+          standard: Vostok-tyd
+        type: Vostok
+      - 
+        long: 
+          standard: Wake-eiland-tyd
+        type: Wake
+      - 
+        long: 
+          standard: Wallis en Futuna-tyd
+        type: Wallis
+      - 
+        long: 
+          daylight: Jakoetsk-somertyd
+          generic: Jakoetsk-tyd
+          standard: Jakoetsk-standaardtyd
+        type: Yakutsk
+      - 
+        long: 
+          daylight: Jekaterinburg-somertyd
+          generic: Jekaterinburg-tyd
+          standard: Jekaterinburg-standaardtyd
+        type: Yekaterinburg
+    regionFormat: "{0}-tyd"
+    zone: 
+      - 
+        exemplarCity: Suidpool
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: Bahrein
+        type: Asia/Bahrain
+      - 
+        exemplarCity: Sint Barthélemy
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: Sint John's
+        type: America/St_Johns
+      - 
+        exemplarCity: Curaçao
+        type: America/Curacao
+      - 
+        exemplarCity: Meksikostad
+        type: America/Mexico_City
+      - 
+        exemplarCity: Asunción
+        type: America/Asuncion
+      - 
+        exemplarCity: Réunion
+        type: Indian/Reunion
+      - 
+        exemplarCity: Moskou
+        type: Europe/Moscow
+      - 
+        exemplarCity: São Tomé
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: Laer Prins se kwartaal
+        type: America/Lower_Princes
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: af
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} en {1}"
+        type: 2
+      - 
+        content: "{0} en {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Taal: {0}"
+        type: language
+      - 
+        content: "Skrif: {0}"
+        draft: contributed
+        type: script
+      - 
+        content: "Omgewing: {0}"
+        draft: contributed
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: Kalender
+        type: calendar
+      - 
+        content: Ignoreer simboolsortering
+        type: colAlternate
+      - 
+        content: Omgekeerde aksentsortering
+        type: colBackwards
+      - 
+        content: Hoofletters/kleinletters-sortering
+        type: colCaseFirst
+      - 
+        content: Kassensitiewe sortering
+        type: colCaseLevel
+      - 
+        content: Kana-sortering
+        type: colHiraganaQuaternary
+      - 
+        content: Sorteervolgorde
+        type: collation
+      - 
+        content: Genormaliseerde sortering
+        type: colNormalization
+      - 
+        content: Numeriese sortering
+        type: colNumeric
+      - 
+        content: Sorteringssterkte
+        type: colStrength
+      - 
+        content: Geldeenheid
+        type: currency
+      - 
+        content: Nommers
+        type: numbers
+      - 
+        content: Tydsone
+        type: timezone
+      - 
+        content: Lokaalvariant
+        type: va
+      - 
+        content: Sorteer as simbole
+        type: variableTop
+      - 
+        content: Privaat gebruik
+        type: x
+  languages: 
+    language: 
+      - 
+        content: Abkasies
+        type: ab
+      - 
+        content: Akoli
+        type: ach
+      - 
+        content: Afrikaans
+        type: af
+      - 
+        content: Ander Afro-Asiaties
+        draft: contributed
+        type: afa
+      - 
+        content: Akan
+        type: ak
+      - 
+        content: Amharies
+        type: am
+      - 
+        content: Arabies
+        type: ar
+      - 
+        content: Aramees
+        type: arc
+      - 
+        content: Kunsmatige taal
+        type: art
+      - 
+        content: Assamees
+        type: as
+      - 
+        content: Aymara
+        type: ay
+      - 
+        content: Azerbeidjaans
+        type: az
+      - 
+        alt: short
+        content: Azeri
+        type: az
+      - 
+        content: Baltiese taal
+        draft: unconfirmed
+        type: bat
+      - 
+        content: Wit-Russies
+        type: be
+      - 
+        content: Bemba
+        type: bem
+      - 
+        content: Berbers
+        draft: provisional
+        type: ber
+      - 
+        content: Bulgaars
+        type: bg
+      - 
+        content: Bihari
+        type: bh
+      - 
+        content: Bengaals
+        type: bn
+      - 
+        content: Bantoe
+        draft: provisional
+        type: bnt
+      - 
+        content: Tibettaans
+        type: bo
+      - 
+        content: Bretons
+        type: br
+      - 
+        content: Bosnies
+        type: bs
+      - 
+        content: Katalaans
+        type: ca
+      - 
+        content: Keltiese taal
+        type: cel
+      - 
+        content: Cherokees
+        type: chr
+      - 
+        content: Sorani Koerdies
+        type: ckb
+      - 
+        content: Korsikaans
+        type: co
+      - 
+        content: Kopties
+        draft: unconfirmed
+        type: cop
+      - 
+        content: Tsjeggies
+        type: cs
+      - 
+        content: Kerkslawies
+        draft: unconfirmed
+        type: cu
+      - 
+        content: Wallies
+        type: cy
+      - 
+        content: Deens
+        type: da
+      - 
+        content: Duits
+        type: de
+      - 
+        content: Oostenrykse Duits
+        type: de_AT
+      - 
+        content: Switserse hoog-Duits
+        type: de_CH
+      - 
+        content: Divehi
+        type: dv
+      - 
+        content: Dzongkha
+        type: dz
+      - 
+        content: Ewe
+        type: ee
+      - 
+        content: Efik
+        type: efi
+      - 
+        content: Antieke Egipties
+        draft: contributed
+        type: egy
+      - 
+        content: Grieks
+        type: el
+      - 
+        content: Engels
+        type: en
+      - 
+        content: Australiese Engels
+        type: en_AU
+      - 
+        content: Kanadese Engels
+        type: en_CA
+      - 
+        content: Britse Engels
+        type: en_GB
+      - 
+        content: Amerikaanse Engels
+        type: en_US
+      - 
+        content: Esperanto
+        type: eo
+      - 
+        content: Spaans
+        type: es
+      - 
+        content: Latyns-Amerikaanse Spaans
+        type: es_419
+      - 
+        content: Europese Spaans
+        type: es_ES
+      - 
+        content: Estnies
+        draft: contributed
+        type: et
+      - 
+        content: Baskies
+        type: eu
+      - 
+        content: Persies
+        type: fa
+      - 
+        content: Fins
+        type: fi
+      - 
+        content: Filippyns
+        type: fil
+      - 
+        content: Fidjiaans
+        type: fj
+      - 
+        content: Faroees
+        type: fo
+      - 
+        content: Frans
+        type: fr
+      - 
+        content: Kanadese Frans
+        type: fr_CA
+      - 
+        content: Switserse Frans
+        type: fr_CH
+      - 
+        content: Wes-Fries
+        type: fy
+      - 
+        content: Iers
+        type: ga
+      - 
+        content: Gaa
+        type: gaa
+      - 
+        content: Skotse Gallies
+        type: gd
+      - 
+        content: Germaanse taal
+        type: gem
+      - 
+        content: Galisies
+        type: gl
+      - 
+        content: Guarani
+        type: gn
+      - 
+        content: Goties
+        type: got
+      - 
+        content: Antieke Grieks
+        draft: contributed
+        type: grc
+      - 
+        content: Switserse Duits
+        type: gsw
+      - 
+        content: Gudjarati
+        type: gu
+      - 
+        content: Manx
+        draft: unconfirmed
+        type: gv
+      - 
+        content: Hausa
+        type: ha
+      - 
+        content: Hawaies
+        type: haw
+      - 
+        content: Hebreeus
+        type: he
+      - 
+        content: Hindi
+        type: hi
+      - 
+        content: Hetities
+        draft: unconfirmed
+        type: hit
+      - 
+        content: Kroaties
+        type: hr
+      - 
+        content: Haïtiaans
+        type: ht
+      - 
+        content: Hongaars
+        type: hu
+      - 
+        content: Armeens
+        type: hy
+      - 
+        content: Interlingua
+        type: ia
+      - 
+        content: Indonesies
+        type: id
+      - 
+        content: Interlingue
+        draft: provisional
+        type: ie
+      - 
+        content: Igbo
+        type: ig
+      - 
+        content: Indo-Europese taal
+        type: ine
+      - 
+        content: Yslands
+        type: is
+      - 
+        content: Italiaans
+        type: it
+      - 
+        content: Japannees
+        type: ja
+      - 
+        content: Javaans
+        type: jv
+      - 
+        content: Georgies
+        type: ka
+      - 
+        content: Kongolees
+        type: kg
+      - 
+        content: Khoi-San taal
+        draft: unconfirmed
+        type: khi
+      - 
+        content: Kazak
+        type: kk
+      - 
+        content: Khmer
+        type: km
+      - 
+        content: Kannada
+        type: kn
+      - 
+        content: Koreaans
+        type: ko
+      - 
+        content: Kurukh
+        draft: unconfirmed
+        type: kru
+      - 
+        content: Kasjmirs
+        type: ks
+      - 
+        content: Koerdies
+        type: ku
+      - 
+        content: Kornies
+        draft: unconfirmed
+        type: kw
+      - 
+        content: Kirgisies
+        type: ky
+      - 
+        content: Latyn
+        type: la
+      - 
+        content: Luxemburgs
+        type: lb
+      - 
+        content: Ganda
+        type: lg
+      - 
+        content: Limburgs
+        draft: unconfirmed
+        type: li
+      - 
+        content: Lingaals
+        type: ln
+      - 
+        content: Lao
+        type: lo
+      - 
+        content: Lozi
+        type: loz
+      - 
+        content: Litaus
+        type: lt
+      - 
+        content: Luba-Lulua
+        type: lua
+      - 
+        content: Letties
+        type: lv
+      - 
+        content: Masai
+        draft: unconfirmed
+        type: mas
+      - 
+        content: Morisjen
+        type: mfe
+      - 
+        content: Malgassies
+        type: mg
+      - 
+        content: Maori
+        type: mi
+      - 
+        content: Masedonies
+        type: mk
+      - 
+        content: Malabaars
+        type: ml
+      - 
+        content: Mongools
+        type: mn
+      - 
+        content: Marathi
+        type: mr
+      - 
+        content: Maleisies
+        type: ms
+      - 
+        content: Maltees
+        type: mt
+      - 
+        content: Veelvuldige tale
+        type: mul
+      - 
+        content: Birmaans
+        type: my
+      - 
+        content: Noorse Bokmål
+        type: nb
+      - 
+        content: Noord-Ndebele
+        type: nd
+      - 
+        content: Nepalees
+        type: ne
+      - 
+        content: Nederlands
+        type: nl
+      - 
+        content: Vlaams
+        type: nl_BE
+      - 
+        content: Noorweegse Nynorsk
+        draft: contributed
+        type: nn
+      - 
+        content: Noors
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: Suid-Ndebele
+        type: nr
+      - 
+        content: Noord-Sotho
+        type: nso
+      - 
+        content: Nyanja
+        type: ny
+      - 
+        content: Nyankole
+        type: nyn
+      - 
+        content: Oksitaans
+        type: oc
+      - 
+        content: Oromo
+        type: om
+      - 
+        content: Oriya
+        type: or
+      - 
+        content: Osseties
+        type: os
+      - 
+        content: Pandjabi
+        type: pa
+      - 
+        content: Fenisies
+        draft: unconfirmed
+        type: phn
+      - 
+        content: Pools
+        type: pl
+      - 
+        content: Pasjto
+        type: ps
+      - 
+        alt: variant
+        content: Pushto
+        type: ps
+      - 
+        content: Portugees
+        type: pt
+      - 
+        content: Brasiliaanse Portugees
+        type: pt_BR
+      - 
+        content: Europese Portugees
+        type: pt_PT
+      - 
+        content: Quechua
+        type: qu
+      - 
+        content: Reto-Romaans
+        type: rm
+      - 
+        content: Rundi
+        type: rn
+      - 
+        content: Roemeens
+        type: ro
+      - 
+        content: Russies
+        type: ru
+      - 
+        content: Rwandees
+        type: rw
+      - 
+        content: Sanskrit
+        type: sa
+      - 
+        content: Skots
+        draft: unconfirmed
+        type: sco
+      - 
+        content: Sindhi
+        type: sd
+      - 
+        content: Noordelike Sami
+        type: se
+      - 
+        content: Semitiese taal
+        draft: unconfirmed
+        type: sem
+      - 
+        content: Sango
+        type: sg
+      - 
+        content: Gebaretaal
+        draft: unconfirmed
+        type: sgn
+      - 
+        content: Serwo-Kroaties
+        draft: unconfirmed
+        type: sh
+      - 
+        content: Sinhala
+        type: si
+      - 
+        content: Slowaaks
+        type: sk
+      - 
+        content: Sloweens
+        type: sl
+      - 
+        content: Slawiese taal
+        type: sla
+      - 
+        content: Samoaans
+        type: sm
+      - 
+        content: Shona
+        type: sn
+      - 
+        content: Somalies
+        type: so
+      - 
+        content: Albanees
+        type: sq
+      - 
+        content: Serwies
+        type: sr
+      - 
+        content: Swazi
+        type: ss
+      - 
+        content: Suid-Sotho
+        type: st
+      - 
+        content: Sundanees
+        type: su
+      - 
+        content: Sweeds
+        type: sv
+      - 
+        content: Swahili
+        type: sw
+      - 
+        content: Shimaorees
+        draft: unconfirmed
+        type: swb
+      - 
+        content: Tamil
+        type: ta
+      - 
+        content: Telugu
+        type: te
+      - 
+        content: Tetum
+        type: tet
+      - 
+        content: Tadjik
+        type: tg
+      - 
+        content: Thais
+        type: th
+      - 
+        content: Tigrinya
+        type: ti
+      - 
+        content: Turkmeens
+        type: tk
+      - 
+        content: Klingon
+        type: tlh
+      - 
+        content: Tswana
+        type: tn
+      - 
+        content: Tongaans
+        type: to
+      - 
+        content: Tok Pisin
+        type: tpi
+      - 
+        content: Turks
+        type: tr
+      - 
+        content: Tsonga
+        type: ts
+      - 
+        content: Tataars
+        type: tt
+      - 
+        content: Toemboeka
+        type: tum
+      - 
+        content: Twi
+        draft: unconfirmed
+        type: tw
+      - 
+        content: Tahities
+        type: ty
+      - 
+        content: Uighur
+        type: ug
+      - 
+        alt: variant
+        content: Uyghur
+        type: ug
+      - 
+        content: Oekraïens
+        type: uk
+      - 
+        content: Onbekende of ongeldige taal
+        type: und
+      - 
+        content: Oerdoe
+        type: ur
+      - 
+        content: Oezbeeks
+        type: uz
+      - 
+        content: Venda
+        type: ve
+      - 
+        content: Viëtnamees
+        type: vi
+      - 
+        content: Wolof
+        type: wo
+      - 
+        content: Xhosa
+        type: xh
+      - 
+        content: Jiddisj
+        type: yi
+      - 
+        content: Yoruba
+        type: yo
+      - 
+        content: Kantonees
+        draft: unconfirmed
+        type: yue
+      - 
+        content: Sjinees
+        type: zh
+      - 
+        content: Vereenvoudigde Chinees
+        type: zh_Hans
+      - 
+        content: Tradisionele Chinees
+        type: zh_Hant
+      - 
+        content: Zoeloe
+        type: zu
+      - 
+        content: Geen linguistiese inhoud
+        type: zxx
+  localeDisplayPattern: 
+    localePattern: "{0} ({1})"
+    localeSeparator: ","
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Metriek
+        type: metric
+      - 
+        content: VK
+        type: UK
+      - 
+        content: VSA
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: Arabies
+        type: Arab
+      - 
+        alt: variant
+        content: Perso-Arabies
+        type: Arab
+      - 
+        content: Armeens
+        type: Armn
+      - 
+        content: Bengaals
+        type: Beng
+      - 
+        content: Bopomofo
+        type: Bopo
+      - 
+        content: Braille
+        type: Brai
+      - 
+        content: Koptieses
+        draft: unconfirmed
+        type: Copt
+      - 
+        content: Sirillies
+        type: Cyrl
+      - 
+        content: Ou Kerkslawiese Sirillieses
+        draft: unconfirmed
+        type: Cyrs
+      - 
+        content: Devanagari
+        type: Deva
+      - 
+        content: Egiptieses hiërogliewe
+        draft: unconfirmed
+        type: Egyp
+      - 
+        content: Etiopies
+        type: Ethi
+      - 
+        content: Georgies
+        type: Geor
+      - 
+        content: Gotieses
+        draft: unconfirmed
+        type: Goth
+      - 
+        content: Grieks
+        type: Grek
+      - 
+        content: Gudjarati
+        type: Gujr
+      - 
+        content: Gurmukhi
+        type: Guru
+      - 
+        content: Hangul
+        type: Hang
+      - 
+        content: Han
+        type: Hani
+      - 
+        content: Vereenvoudig
+        type: Hans
+      - 
+        alt: stand-alone
+        content: Vereenvoudigde Han
+        type: Hans
+      - 
+        content: Tradisioneel
+        type: Hant
+      - 
+        alt: stand-alone
+        content: Tradisionele Han
+        type: Hant
+      - 
+        content: Hebreeus
+        type: Hebr
+      - 
+        content: Hiragana
+        type: Hira
+      - 
+        content: Japannees
+        type: Jpan
+      - 
+        content: Katakana
+        type: Kana
+      - 
+        content: Khmer
+        type: Khmr
+      - 
+        content: Kannada
+        type: Knda
+      - 
+        content: Koreaans
+        type: Kore
+      - 
+        content: Lao
+        type: Laoo
+      - 
+        content: Latyn
+        type: Latn
+      - 
+        content: Malabaars
+        type: Mlym
+      - 
+        content: Mongools
+        type: Mong
+      - 
+        content: Mianmar
+        type: Mymr
+      - 
+        content: Oriya
+        type: Orya
+      - 
+        content: Fenisieses
+        draft: unconfirmed
+        type: Phnx
+      - 
+        content: Sinhala
+        type: Sinh
+      - 
+        content: Tamil
+        type: Taml
+      - 
+        content: Telugu
+        type: Telu
+      - 
+        content: Thaana
+        type: Thaa
+      - 
+        content: Thai
+        type: Thai
+      - 
+        content: Tibettaans
+        type: Tibt
+      - 
+        content: Ugaritieses
+        draft: unconfirmed
+        type: Ugar
+      - 
+        content: Visible Speech-karakters
+        draft: unconfirmed
+        type: Visp
+      - 
+        content: Simbole
+        type: Zsym
+      - 
+        content: Ongeskrewe
+        type: Zxxx
+      - 
+        content: Algemeen
+        type: Zyyy
+      - 
+        content: Onbekende skryfstelsel
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Wêreld
+        type: '001'
+      - 
+        content: Afrika
+        type: '002'
+      - 
+        content: Noord-Amerika
+        type: '003'
+      - 
+        content: Suid-Amerika
+        type: '005'
+      - 
+        content: Oseanië
+        type: '009'
+      - 
+        content: Wes-Afrika
+        type: '011'
+      - 
+        content: Sentraal-Amerika
+        type: '013'
+      - 
+        content: Oos-Afrika
+        type: '014'
+      - 
+        content: Noord-Afrika
+        type: '015'
+      - 
+        content: Midde-Afrika
+        type: '017'
+      - 
+        content: Suider-Afrika
+        type: '018'
+      - 
+        content: Amerikas
+        type: '019'
+      - 
+        content: Noordelike Amerika
+        type: '021'
+      - 
+        content: Karibbies
+        type: '029'
+      - 
+        content: Oos-Asië
+        type: '030'
+      - 
+        content: Suid-Asië
+        type: '034'
+      - 
+        content: Suidoos-Asië
+        type: '035'
+      - 
+        content: Suid-Europa
+        type: '039'
+      - 
+        content: Australasië
+        type: '053'
+      - 
+        content: Melanesië
+        type: '054'
+      - 
+        content: Mikronesiese streek
+        type: '057'
+      - 
+        content: Polinesië
+        type: '061'
+      - 
+        content: Asië
+        type: 142
+      - 
+        content: Sentraal-Asië
+        type: 143
+      - 
+        content: Wes-Asië
+        type: 145
+      - 
+        content: Europa
+        type: 150
+      - 
+        content: Oos-Europa
+        type: 151
+      - 
+        content: Noord-Europa
+        type: 154
+      - 
+        content: Wes-Europa
+        type: 155
+      - 
+        content: Latyns Amerika
+        type: 419
+      - 
+        content: Ascension-eiland
+        type: AC
+      - 
+        content: Andorra
+        type: AD
+      - 
+        content: Verenigde Arabiese Emirate
+        type: AE
+      - 
+        content: Afganistan
+        type: AF
+      - 
+        content: Antigua en Barbuda
+        type: AG
+      - 
+        content: Anguilla
+        type: AI
+      - 
+        content: Albanië
+        type: AL
+      - 
+        content: Armenië
+        type: AM
+      - 
+        content: Nederlands-Antille
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Antarktika
+        type: AQ
+      - 
+        content: Argentinië
+        type: AR
+      - 
+        content: Amerikaans Samoa
+        type: AS
+      - 
+        content: Oostenryk
+        type: AT
+      - 
+        content: Australië
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Åland-eilande
+        type: AX
+      - 
+        content: Aserbeidjan
+        type: AZ
+      - 
+        content: Bosnië en Herzegowina
+        type: BA
+      - 
+        content: Barbados
+        type: BB
+      - 
+        content: Bangladesj
+        type: BD
+      - 
+        content: België
+        type: BE
+      - 
+        content: Boerkina Fasso
+        type: BF
+      - 
+        content: Bulgarye
+        type: BG
+      - 
+        content: Bahrein
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benin
+        type: BJ
+      - 
+        content: Sint Barthélemy
+        type: BL
+      - 
+        content: Bermuda
+        type: BM
+      - 
+        content: Broenei
+        type: BN
+      - 
+        content: Bolivië
+        type: BO
+      - 
+        content: Karibiese Nederland
+        type: BQ
+      - 
+        content: Brasilië
+        type: BR
+      - 
+        content: Bahamas
+        type: BS
+      - 
+        content: Bhoetan
+        type: BT
+      - 
+        content: Bouveteiland
+        type: BV
+      - 
+        content: Botswana
+        type: BW
+      - 
+        content: Wit-Rusland
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Cocos- [Keeling] eilande
+        type: CC
+      - 
+        content: Demokratiese Republiek van die Kongo
+        type: CD
+      - 
+        alt: variant
+        content: Kongo (DRK)
+        type: CD
+      - 
+        content: Sentraal-Afrikaanse Republiek
+        type: CF
+      - 
+        content: Kongo
+        type: CG
+      - 
+        alt: variant
+        content: Kongo [Republiek]
+        type: CG
+      - 
+        content: Switserland
+        type: CH
+      - 
+        content: Ivoorkus
+        type: CI
+      - 
+        alt: variant
+        content: Ivoorkus
+        type: CI
+      - 
+        content: Cookeilande
+        type: CK
+      - 
+        content: Chili
+        type: CL
+      - 
+        content: Kameroen
+        type: CM
+      - 
+        content: Sjina
+        type: CN
+      - 
+        content: Kolombië
+        type: CO
+      - 
+        content: Clipperton-eiland
+        type: CP
+      - 
+        content: Costa Rica
+        type: CR
+      - 
+        content: Kuba
+        type: CU
+      - 
+        content: Kaap Verde
+        type: CV
+      - 
+        content: Curaçao
+        type: CW
+      - 
+        content: Kerseiland
+        type: CX
+      - 
+        content: Ciprus
+        type: CY
+      - 
+        content: Tjeggiese Republiek
+        type: CZ
+      - 
+        content: Duitsland
+        type: DE
+      - 
+        content: Diego Garcia
+        type: DG
+      - 
+        content: Djiboeti
+        type: DJ
+      - 
+        content: Denemarke
+        type: DK
+      - 
+        content: Dominika
+        type: DM
+      - 
+        content: Dominikaanse Republiek
+        type: DO
+      - 
+        content: Algerië
+        type: DZ
+      - 
+        content: Ceuta en Melilla
+        type: EA
+      - 
+        content: Ecuador
+        type: EC
+      - 
+        content: Estland
+        type: EE
+      - 
+        content: Egipte
+        type: EG
+      - 
+        content: Wes-Sahara
+        type: EH
+      - 
+        content: Eritrea
+        type: ER
+      - 
+        content: Spanje
+        type: ES
+      - 
+        content: Ethiopië
+        type: ET
+      - 
+        content: Europese Unie
+        type: EU
+      - 
+        content: Finland
+        type: FI
+      - 
+        content: Fidji
+        type: FJ
+      - 
+        content: Falklandeilande
+        type: FK
+      - 
+        alt: variant
+        content: Falkland-eilande [Malvinas]
+        type: FK
+      - 
+        content: Mikronesië
+        type: FM
+      - 
+        content: Faroëreilande
+        type: FO
+      - 
+        content: Frankryk
+        type: FR
+      - 
+        content: Gaboen
+        type: GA
+      - 
+        content: Groot-Brittanje
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Georgië
+        type: GE
+      - 
+        content: Frans-Guyana
+        type: GF
+      - 
+        content: Guernsey
+        type: GG
+      - 
+        content: Ghana
+        type: GH
+      - 
+        content: Gibraltar
+        type: GI
+      - 
+        content: Groenland
+        type: GL
+      - 
+        content: Gambië
+        type: GM
+      - 
+        content: Guinee
+        type: GN
+      - 
+        content: Guadeloupe
+        type: GP
+      - 
+        content: Ekwatoriaal-Guinee
+        type: GQ
+      - 
+        content: Griekeland
+        type: GR
+      - 
+        content: Suid-Georgië en die Suid-Sandwich-eilande
+        type: GS
+      - 
+        content: Guatemala
+        type: GT
+      - 
+        content: Guam
+        type: GU
+      - 
+        content: Guinee-Bissau
+        type: GW
+      - 
+        content: Guyana
+        type: GY
+      - 
+        content: Hongkong
+        type: HK
+      - 
+        alt: short
+        content: Hongkong
+        type: HK
+      - 
+        content: Heard-eiland en McDonald-eilande
+        type: HM
+      - 
+        content: Honduras
+        type: HN
+      - 
+        content: Kroasië
+        type: HR
+      - 
+        content: Haïti
+        type: HT
+      - 
+        content: Hongarye
+        type: HU
+      - 
+        content: Kanarie-eilande
+        type: IC
+      - 
+        content: Indonesië
+        type: ID
+      - 
+        content: Ierland
+        type: IE
+      - 
+        content: Israel
+        type: IL
+      - 
+        content: Eiland Man
+        type: IM
+      - 
+        content: Indië
+        type: IN
+      - 
+        content: Britse Indiese Oseaan Gebied
+        type: IO
+      - 
+        content: Irak
+        type: IQ
+      - 
+        content: Iran
+        type: IR
+      - 
+        content: Ysland
+        type: IS
+      - 
+        content: Italië
+        type: IT
+      - 
+        content: Jersey
+        type: JE
+      - 
+        content: Jamaika
+        type: JM
+      - 
+        content: Jordanië
+        type: JO
+      - 
+        content: Japan
+        type: JP
+      - 
+        content: Kenia
+        type: KE
+      - 
+        content: Kirgisië
+        type: KG
+      - 
+        content: Kambodja
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Comore
+        type: KM
+      - 
+        content: Saint Kitts en Nevis
+        type: KN
+      - 
+        content: Noord-Korea
+        type: KP
+      - 
+        content: Suid-Korea
+        type: KR
+      - 
+        content: Koeweit
+        type: KW
+      - 
+        content: Kaaimanseilande
+        type: KY
+      - 
+        content: Kasakstan
+        type: KZ
+      - 
+        content: Laos
+        type: LA
+      - 
+        content: Libanon
+        type: LB
+      - 
+        content: Sint Lucia
+        type: LC
+      - 
+        content: Liechtenstein
+        type: LI
+      - 
+        content: Sri Lanka
+        type: LK
+      - 
+        content: Liberië
+        type: LR
+      - 
+        content: Lesotho
+        type: LS
+      - 
+        content: Litaue
+        type: LT
+      - 
+        content: Luxemburg
+        type: LU
+      - 
+        content: Letland
+        type: LV
+      - 
+        content: Libië
+        type: LY
+      - 
+        content: Marokko
+        type: MA
+      - 
+        content: Monaco
+        type: MC
+      - 
+        content: Moldova
+        type: MD
+      - 
+        content: Montenegro
+        type: ME
+      - 
+        content: Sint Martin
+        type: MF
+      - 
+        content: Madagaskar
+        type: MG
+      - 
+        content: Marshall-eilande
+        type: MH
+      - 
+        content: Macedonië
+        type: MK
+      - 
+        alt: variant
+        content: Macedonië
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Mianmar
+        type: MM
+      - 
+        content: Mongolië
+        type: MN
+      - 
+        content: Macau SAR China
+        type: MO
+      - 
+        alt: short
+        content: Macau
+        type: MO
+      - 
+        content: Noordelike Marianaeilande
+        type: MP
+      - 
+        content: Martinique
+        type: MQ
+      - 
+        content: Mouritanië
+        type: MR
+      - 
+        content: Montserrat
+        type: MS
+      - 
+        content: Malta
+        type: MT
+      - 
+        content: Mauritius
+        type: MU
+      - 
+        content: Maledive
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Meksiko
+        type: MX
+      - 
+        content: Maleisië
+        type: MY
+      - 
+        content: Mosambiek
+        type: MZ
+      - 
+        content: Namibië
+        type: NA
+      - 
+        content: Nieu-Kaledonië
+        type: NC
+      - 
+        content: Niger
+        type: NE
+      - 
+        content: Norfolk-eiland
+        type: NF
+      - 
+        content: Nigerië
+        type: NG
+      - 
+        content: Nicaragua
+        type: NI
+      - 
+        content: Nederland
+        type: NL
+      - 
+        content: Noorweë
+        type: 'NO'
+      - 
+        content: Nepal
+        type: NP
+      - 
+        content: Naoeroe
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: Nieu-Seeland
+        type: NZ
+      - 
+        content: Oman
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Frans-Polinesië
+        type: PF
+      - 
+        content: Papoea Nieu-Guinee
+        type: PG
+      - 
+        content: Filippyne
+        type: PH
+      - 
+        content: Pakistan
+        type: PK
+      - 
+        content: Pole
+        type: PL
+      - 
+        content: Sint-Pierre en Miquelon
+        type: PM
+      - 
+        content: Pitcairn
+        type: PN
+      - 
+        content: Puerto Rico
+        type: PR
+      - 
+        content: Palestina
+        type: PS
+      - 
+        alt: short
+        content: Palestina
+        type: PS
+      - 
+        content: Portugal
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paraguay
+        type: PY
+      - 
+        content: Katar
+        type: QA
+      - 
+        content: Omliggende Oseanië
+        type: QO
+      - 
+        content: Réunion
+        type: RE
+      - 
+        content: Roemenië
+        type: RO
+      - 
+        content: Serwië
+        type: RS
+      - 
+        content: Rusland
+        type: RU
+      - 
+        content: Rwanda
+        type: RW
+      - 
+        content: Saoedi-Arabië
+        type: SA
+      - 
+        content: Solomon Eilande
+        type: SB
+      - 
+        content: Seychelle
+        type: SC
+      - 
+        content: Soedan
+        type: SD
+      - 
+        content: Swede
+        type: SE
+      - 
+        content: Singapoer
+        type: SG
+      - 
+        content: Sint Helena
+        type: SH
+      - 
+        content: Slowenië
+        type: SI
+      - 
+        content: Svalbard en Jan Mayen
+        type: SJ
+      - 
+        content: Slowakye
+        type: SK
+      - 
+        content: Sierra Leone
+        type: SL
+      - 
+        content: San Marino
+        type: SM
+      - 
+        content: Senegal
+        type: SN
+      - 
+        content: Somalië
+        type: SO
+      - 
+        content: Suriname
+        type: SR
+      - 
+        content: Suid-Soedan
+        type: SS
+      - 
+        content: Sao Tome en Principe
+        type: ST
+      - 
+        content: Salvador
+        type: SV
+      - 
+        content: Sint Maarten
+        type: SX
+      - 
+        content: Sirië
+        type: SY
+      - 
+        content: Swaziland
+        type: SZ
+      - 
+        content: Tristan da Cunha
+        type: TA
+      - 
+        content: Turks en Caicos Eilande
+        type: TC
+      - 
+        content: Tsjaad
+        type: TD
+      - 
+        content: Franse Suidelike Gebiede
+        type: TF
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Thailand
+        type: TH
+      - 
+        content: Tadjikistan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Oos-Timor
+        type: TL
+      - 
+        alt: variant
+        content: Oos-Timor
+        type: TL
+      - 
+        content: Turkmenië
+        type: TM
+      - 
+        content: Tunisië
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Turkye
+        type: TR
+      - 
+        content: Trinidad en Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwan
+        type: TW
+      - 
+        content: Tanzanië
+        type: TZ
+      - 
+        content: Oekraine
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: VS klein omliggende eilande
+        type: UM
+      - 
+        content: Verenigde State van Amerika
+        type: US
+      - 
+        content: Uruguay
+        type: UY
+      - 
+        content: Oesbekistan
+        type: UZ
+      - 
+        content: Vatikaan
+        type: VA
+      - 
+        content: Saint Vincent en die Grenadine
+        type: VC
+      - 
+        content: Venezuela
+        type: VE
+      - 
+        content: Britse Maagde-eilande
+        type: VG
+      - 
+        content: V.S. Maagde-eilande
+        type: VI
+      - 
+        content: Viëtnam
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Wallis en Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Jemen
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Suid-Afrika
+        type: ZA
+      - 
+        content: Zambië
+        type: ZM
+      - 
+        content: Zimbabwe
+        type: ZW
+      - 
+        content: Onbekend gebied
+        type: ZZ
+  transformNames: 
+    transformName: 
+      - 
+        content: BGN
+        type: BGN
+      - 
+        content: Numeries
+        type: Numeric
+      - 
+        content: Toon
+        type: Tone
+      - 
+        content: UNGEGN
+        type: UNGEGN
+      - 
+        content: Aksente
+        type: x-Accents
+      - 
+        content: Vollewydte
+        type: x-Fullwidth
+      - 
+        content: halfwydte
+        type: x-Halfwidth
+      - 
+        content: Jamo
+        type: x-Jamo
+      - 
+        content: Pinyin
+        type: x-Pinyin
+      - 
+        content: Publisering
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: Minguo-kalender
+        type: roc
+      colAlternate: 
+        content: Sorteer ignoreersimbole
+        type: shifted
+      colBackwards: 
+        content: Sorteer aksente omgekeerd
+        type: 'yes'
+      colCaseFirst: 
+        content: Sorteer hoofletters eerste
+        type: upper
+      colCaseLevel: 
+        content: Sorteer kassensitief
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: Sorteer Kana anders
+        type: 'yes'
+      colNormalization: 
+        content: Sorteer Unicode genormaliseer
+        type: 'yes'
+      colNumeric: 
+        content: Sorteer syfers numeries
+        type: 'yes'
+      colStrength: 
+        content: Sorteer aksente/kas/breedte
+        type: tertiary
+      collation: 
+        content: Radikale-slag-sorteervolgorde
+        type: unihan
+      numbers: 
+        content: Vai-syfers
+        type: vaii
+  variants: 
+    variant: 
+      - 
+        content: Duitse ortografie van 1901
+        draft: unconfirmed
+        type: 1901
+      - 
+        content: Duitse ortografie van 1996
+        draft: unconfirmed
+        type: 1996
+      - 
+        content: pinyin
+        draft: unconfirmed
+        type: PINYIN
+      - 
+        content: hersiene ortografie
+        draft: unconfirmed
+        type: REVISED
+      - 
+        content: Wade-Giles
+        draft: unconfirmed
+        type: WADEGILE
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Verenigde Arabiese Emirate dirham
+        type: AED
+      - 
+        displayName: Afgaanse afgani
+        type: AFN
+      - 
+        displayName: Albanese lek
+        type: ALL
+      - 
+        displayName: Armeense dram
+        type: AMD
+      - 
+        displayName: Nederlands-Antilliaanse gulde
+        type: ANG
+      - 
+        displayName: Angolese kwanza
+        type: AOA
+      - 
+        displayName: Argentynse peso
+        type: ARS
+      - 
+        displayName: Australiese dollar
+        type: AUD
+      - 
+        displayName: Arubaanse floryn
+        type: AWG
+      - 
+        displayName: Azerbeidjaanse manat
+        type: AZN
+      - 
+        displayName: Bosnië en Herzegowina omskakelbare marka
+        type: BAM
+      - 
+        displayName: Barbados-dollar
+        type: BBD
+      - 
+        displayName: Bangladesjiese taka
+        type: BDT
+      - 
+        displayName: Bulgaarse lev
+        type: BGN
+      - 
+        displayName: Bahrainse dinar
+        type: BHD
+      - 
+        displayName: Burundiese frank
+        type: BIF
+      - 
+        displayName: Bermuda-dollar
+        type: BMD
+      - 
+        displayName: Broeneise dollar
+        type: BND
+      - 
+        displayName: Boliviaanse boliviano
+        type: BOB
+      - 
+        displayName: Brasiliaanse real
+        type: BRL
+      - 
+        displayName: Bahamiaanse dollar
+        type: BSD
+      - 
+        displayName: Bhoetanese ngoeltroem
+        type: BTN
+      - 
+        displayName: Botswana pula
+        type: BWP
+      - 
+        displayName: Belo-Russiese roebel
+        type: BYR
+      - 
+        displayName: Beliziese dollar
+        type: BZD
+      - 
+        displayName: Kanadese dollar
+        type: CAD
+      - 
+        displayName: Kongolese frank
+        type: CDF
+      - 
+        displayName: Switserse frank
+        type: CHF
+      - 
+        displayName: Chileense peso
+        type: CLP
+      - 
+        displayName: Sjinese joean renminbi
+        type: CNY
+      - 
+        displayName: Colombiaanse peso
+        type: COP
+      - 
+        displayName: Costa Ricaanse colón
+        type: CRC
+      - 
+        displayName: Kubaanse omskakelbare peso
+        type: CUC
+      - 
+        displayName: Kubaanse peso
+        type: CUP
+      - 
+        displayName: Kaap Verdiese escudo
+        type: CVE
+      - 
+        displayName: Tsjeggiese kroon
+        type: CZK
+      - 
+        displayName: Djiboeti frank
+        type: DJF
+      - 
+        displayName: Deense kroon
+        type: DKK
+      - 
+        displayName: Dominikaanse peso
+        type: DOP
+      - 
+        displayName: Algeriese dinar
+        type: DZD
+      - 
+        displayName: Egiptiese pond
+        type: EGP
+      - 
+        displayName: Eritrese nakfa
+        type: ERN
+      - 
+        displayName: Etiopiese birr
+        type: ETB
+      - 
+        displayName: 
+          - Euro
+          - 
+            content: EUR
+            count: one
+          - 
+            content: EUR
+            count: other
+        type: EUR
+      - 
+        displayName: Fidjiaanse dollar
+        type: FJD
+      - 
+        displayName: Falkland-eilande pond
+        type: FKP
+      - 
+        displayName: Britse pond
+        type: GBP
+      - 
+        displayName: Georgiese lari
+        type: GEL
+      - 
+        displayName: Ghanese cedi (1979-2007)
+        type: GHC
+      - 
+        displayName: Ghanese cedi
+        type: GHS
+      - 
+        displayName: Gibraltarese pond
+        type: GIP
+      - 
+        displayName: Gambiese dalasi
+        type: GMD
+      - 
+        displayName: Guinese frank
+        type: GNF
+      - 
+        displayName: Guinese syli
+        type: GNS
+      - 
+        displayName: Guatemalaanse quetzal
+        type: GTQ
+      - 
+        displayName: Guyanese dollar
+        type: GYD
+      - 
+        displayName: Hong Kong dollar
+        type: HKD
+      - 
+        displayName: Hondurese lempira
+        type: HNL
+      - 
+        displayName: Kroatiese kuna
+        type: HRK
+      - 
+        displayName: Haïtiaanse gourde
+        type: HTG
+      - 
+        displayName: Hongaarse forint
+        type: HUF
+      - 
+        displayName: Indonesiese roepia
+        type: IDR
+      - 
+        displayName: Israeliese nuwe sikkel
+        type: ILS
+      - 
+        displayName: Indiese rupee
+        type: INR
+      - 
+        displayName: Irakse dinar
+        type: IQD
+      - 
+        displayName: Iranse rial
+        type: IRR
+      - 
+        displayName: Yslandse kroon
+        type: ISK
+      - 
+        displayName: 
+          content: Italiaanse lier
+          draft: contributed
+        type: ITL
+      - 
+        displayName: Jamaikaanse dollar
+        type: JMD
+      - 
+        displayName: Jordaniese dinar
+        type: JOD
+      - 
+        displayName: Japannese jen
+        type: JPY
+      - 
+        displayName: Keniaanse sjieling
+        type: KES
+      - 
+        displayName: Kirgisiese som
+        type: KGS
+      - 
+        displayName: Kambodjaanse riel
+        type: KHR
+      - 
+        displayName: Comoriese frank
+        type: KMF
+      - 
+        displayName: Noord-Koreaanse won
+        type: KPW
+      - 
+        displayName: Suid-Koreaanse won
+        type: KRW
+      - 
+        displayName: Koeweitse dinar
+        type: KWD
+      - 
+        displayName: Cayman-eilande dollar
+        type: KYD
+      - 
+        displayName: Kazakse tenge
+        type: KZT
+      - 
+        displayName: Laosiaanse kip
+        type: LAK
+      - 
+        displayName: Lebanese pond
+        type: LBP
+      - 
+        displayName: Sri Lankaanse roepee
+        type: LKR
+      - 
+        displayName: Liberiese dollar
+        type: LRD
+      - 
+        displayName: Lesotho loti
+        type: LSL
+      - 
+        displayName: Litause litas
+        type: LTL
+      - 
+        displayName: Lettiese lats
+        type: LVL
+      - 
+        displayName: Libiese dinar
+        type: LYD
+      - 
+        displayName: Marokkaanse dirham
+        type: MAD
+      - 
+        displayName: Moldowiese leu
+        type: MDL
+      - 
+        displayName: Malgassiese ariary
+        type: MGA
+      - 
+        displayName: Macedoniese denar
+        type: MKD
+      - 
+        displayName: Myanma Kyat
+        type: MMK
+      - 
+        displayName: Mongoolse toegrik
+        type: MNT
+      - 
+        displayName: Macaose pataca
+        type: MOP
+      - 
+        displayName: Mauritaniese ouguiya
+        type: MRO
+      - 
+        displayName: Mauritiaanse rupee
+        type: MUR
+      - 
+        displayName: Malediviese rufia
+        type: MVR
+      - 
+        displayName: Malawiese kwacha
+        type: MWK
+      - 
+        displayName: Meksikaanse peso
+        type: MXN
+      - 
+        displayName: Maleisiese ringgit
+        type: MYR
+      - 
+        displayName: Mosambiekse metical (1980-2006)
+        type: MZM
+      - 
+        displayName: Mosambiekse metical
+        type: MZN
+      - 
+        displayName: Namibiese dollar
+        type: NAD
+      - 
+        displayName: Nigeriese naira
+        type: NGN
+      - 
+        displayName: Nicaraguaanse córdoba
+        type: NIO
+      - 
+        displayName: Noorse kroon
+        type: NOK
+      - 
+        displayName: Nepalese roepee
+        type: NPR
+      - 
+        displayName: Nieu-Seeland dollar
+        type: NZD
+      - 
+        displayName: Omaanse rial
+        type: OMR
+      - 
+        displayName: Panamese balboa
+        type: PAB
+      - 
+        displayName: Peruaanse nuwe sol
+        type: PEN
+      - 
+        displayName: Papoease kina
+        type: PGK
+      - 
+        displayName: Filippynse peso
+        type: PHP
+      - 
+        displayName: Pakistanse roepee
+        type: PKR
+      - 
+        displayName: Poolse zloty
+        type: PLN
+      - 
+        displayName: Paraguaanse guarani
+        type: PYG
+      - 
+        displayName: Katarese rial
+        type: QAR
+      - 
+        displayName: 
+          - Roemeense leu
+          - 
+            content: Roemeense leu
+            count: one
+          - 
+            content: Roemeense leu
+            count: other
+        type: RON
+      - 
+        displayName: Serbiese dinar
+        type: RSD
+      - 
+        displayName: Russiese roebel
+        type: RUB
+      - 
+        displayName: Rwandiese frank
+        type: RWF
+      - 
+        displayName: Saoedi-Arabiese riyal
+        type: SAR
+      - 
+        displayName: Salomons-eilande dollar
+        type: SBD
+      - 
+        displayName: Seychellese rupee
+        type: SCR
+      - 
+        displayName: Soedannese pond
+        type: SDG
+      - 
+        displayName: Soedannese pond (1957-1998)
+        type: SDP
+      - 
+        displayName: Sweedse kroon
+        type: SEK
+      - 
+        displayName: Singapoer-dollar
+        type: SGD
+      - 
+        displayName: Sint Helena pond
+        type: SHP
+      - 
+        displayName: Sierra Leonese leone
+        type: SLL
+      - 
+        displayName: Somaliese sjieling
+        type: SOS
+      - 
+        displayName: Surinaamse dollar
+        type: SRD
+      - 
+        displayName: 
+          - Suid-Soedanese pond
+          - 
+            content: Suid-Soedanese pond
+            count: one
+          - 
+            content: Suid-Soedanese pond
+            count: other
+        type: SSP
+      - 
+        displayName: São Tomé en Príncipe dobra
+        type: STD
+      - 
+        displayName: Siriese pond
+        type: SYP
+      - 
+        displayName: Swazilandse lilangeni
+        type: SZL
+      - 
+        displayName: Thaise baht
+        type: THB
+      - 
+        displayName: Tadjikse roebel
+        type: TJS
+      - 
+        displayName: Toerkmeense manat
+        type: TMT
+      - 
+        displayName: Tunisiese dinar
+        type: TND
+      - 
+        displayName: Tongaanse pa'anga
+        type: TOP
+      - 
+        displayName: Turkse lier (1922-2005)
+        type: TRL
+      - 
+        displayName: Turkse lier
+        type: TRY
+      - 
+        displayName: Trinidad en Tobago dollar
+        type: TTD
+      - 
+        displayName: Nuwe Taiwanese dollar
+        type: TWD
+      - 
+        displayName: Tanzaniese sjieling
+        type: TZS
+      - 
+        displayName: Oekraïnse hriwna
+        type: UAH
+      - 
+        displayName: Ugandese sjieling
+        type: UGX
+      - 
+        displayName: Amerikaanse dollar
+        type: USD
+      - 
+        displayName: Uruguaanse peso
+        type: UYU
+      - 
+        displayName: Oezbekiese som
+        type: UZS
+      - 
+        displayName: Venezolaanse bolivar
+        type: VEF
+      - 
+        displayName: Viëtnamese dong
+        type: VND
+      - 
+        displayName: Vanuatu vatu
+        type: VUV
+      - 
+        displayName: Samoaanse tala
+        type: WST
+      - 
+        displayName: CFA frank BEAC
+        type: XAF
+      - 
+        displayName: Oos-Karibbiese dollar
+        type: XCD
+      - 
+        displayName: CFA frank BCEAO
+        type: XOF
+      - 
+        displayName: CFP-frank
+        type: XPF
+      - 
+        displayName: Onbekende geldeenheid
+        type: XXX
+      - 
+        displayName: Jemenitiese rial
+        type: YER
+      - 
+        displayName: Suid-Afrikaanse rand
+        symbol: R
+        type: ZAR
+      - 
+        displayName: Zambiese kwacha (1968-2012)
+        type: ZMK
+      - 
+        displayName: Zambiese kwacha
+        type: ZMW
+      - 
+        displayName: Zimbabwiese dollar
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 duisend
+              count: one
+              type: 1000
+            - 
+              content: 0 duisend
+              count: other
+              type: 1000
+            - 
+              content: 00 duisend
+              count: one
+              type: 10000
+            - 
+              content: 00 duisend
+              count: other
+              type: 10000
+            - 
+              content: 000 duisend
+              count: one
+              type: 100000
+            - 
+              content: 000 duisend
+              count: other
+              type: 100000
+            - 
+              content: 0 miljoen
+              count: one
+              type: 1000000
+            - 
+              content: 0 miljoen
+              count: other
+              type: 1000000
+            - 
+              content: 00 miljoen
+              count: one
+              type: 10000000
+            - 
+              content: 00 miljoen
+              count: other
+              type: 10000000
+            - 
+              content: 000 miljoen
+              count: one
+              type: 100000000
+            - 
+              content: 000 miljoen
+              count: other
+              type: 100000000
+            - 
+              content: 0 miljard
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 miljard
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 miljard
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 miljard
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 miljard
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 miljard
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 biljoen
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 biljoen
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 biljoen
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 biljoen
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 biljoen
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 biljoen
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0
+              count: one
+              type: 1000
+            - 
+              content: 0
+              count: other
+              type: 1000
+            - 
+              content: 0
+              count: one
+              type: 10000
+            - 
+              content: 0
+              count: other
+              type: 10000
+            - 
+              content: 0
+              count: one
+              type: 100000
+            - 
+              content: 0
+              count: other
+              type: 100000
+            - 
+              content: 0 m
+              count: one
+              type: 1000000
+            - 
+              content: 0 m
+              count: other
+              type: 1000000
+            - 
+              content: 00 m
+              count: one
+              type: 10000000
+            - 
+              content: 00 m
+              count: other
+              type: 10000000
+            - 
+              content: 000 m
+              count: one
+              type: 100000000
+            - 
+              content: 000 m
+              count: other
+              type: 100000000
+            - 
+              content: 0 mjd
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 mjd
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 mjd
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 mjd
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 mjd
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 mjd
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 bn
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 bn
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 bn
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 bn
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 bn
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 bn
+              count: other
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: {}
+
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: nee:n
+    yesstr: ja:j
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} dag"
+          count: one
+        - 
+          alt: short
+          content: "{0} dag"
+          count: one
+        - 
+          content: "{0} dae"
+          count: other
+        - 
+          alt: short
+          content: "{0} dae"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: In {0} dag
+          count: one
+        - 
+          content: In {0} dae
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} dag gelede"
+          count: one
+        - 
+          content: "{0} dae gelede"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} uur"
+          count: one
+        - 
+          alt: short
+          content: "{0} uur"
+          count: one
+        - 
+          content: "{0} uur"
+          count: other
+        - 
+          alt: short
+          content: "{0} uur"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: In {0} uur
+          count: one
+        - 
+          content: In {0} uur
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} uur gelede"
+          count: one
+        - 
+          content: "{0} uur gelede"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minuut"
+          count: one
+        - 
+          alt: short
+          content: "{0} min"
+          count: one
+        - 
+          content: "{0} minute"
+          count: other
+        - 
+          alt: short
+          content: "{0} min"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: In {0} minuut
+          count: one
+        - 
+          content: In {0} minute
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: "{0} minuut gelede"
+          count: one
+        - 
+          content: "{0} minute gelede"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} maand"
+          count: one
+        - 
+          alt: short
+          content: "{0} mnd"
+          count: one
+        - 
+          content: "{0} maande"
+          count: other
+        - 
+          alt: short
+          content: "{0} mnde"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: In {0} maand
+          count: one
+        - 
+          content: In {0} maande
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: "{0} maand gelede"
+          count: one
+        - 
+          content: "{0} maande gelede"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} sekonde"
+          count: one
+        - 
+          alt: short
+          content: "{0} sek"
+          count: one
+        - 
+          content: "{0} sekondes"
+          count: other
+        - 
+          alt: short
+          content: "{0} sek"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: In {0} sekond
+          count: one
+        - 
+          content: In {0} sekondes
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: "{0} sekonde gelede"
+          count: one
+        - 
+          content: "{0} sekondes gelede"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} week"
+          count: one
+        - 
+          alt: short
+          content: "{0} week"
+          count: one
+        - 
+          content: "{0} weke"
+          count: other
+        - 
+          alt: short
+          content: "{0} weke"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: In {0} week
+          count: one
+        - 
+          content: In {0} weke
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: "{0} week gelede"
+          count: one
+        - 
+          content: "{0} weke gelede"
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} jaar"
+          count: one
+        - 
+          alt: short
+          content: "{0} jr"
+          count: one
+        - 
+          content: "{0} jaar"
+          count: other
+        - 
+          alt: short
+          content: "{0} jr"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: In {0} jaar
+          count: one
+        - 
+          content: In {0} jaar
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: "{0} jaar gelede"
+          count: one
+        - 
+          content: "{0} jaar gelede"
+          count: other

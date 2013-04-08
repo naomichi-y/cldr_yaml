@@ -1,0 +1,4801 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[a b c ç d e f g h i j k l m n ñ o p q r s t u v w x y z]"
+    - 
+      content: "[á à ă â å ä ã ā æ ç é è ĕ ê ë ē í ì ĭ î ï ī ñ ó ò ŏ ô ö ø ō œ ú ù ŭ û ü ū ÿ]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        eras: 
+          eraAbbr: 
+            era: 
+              content: BG
+              type: 0
+        type: buddhist
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, G y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: G y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMd: 
+                content: MMM d, y
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d – E, M/d
+                  d: 
+                    content: E, M/d – E, M/d
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MMM d – E, MMM d
+                  d: 
+                    content: E, MMM d – E, MMM d
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M/d – M/d
+                  d: 
+                    content: M/d – M/d
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: ":h:mm a – h:mm a"
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d/y – E, M/d/y
+                  d: 
+                    content: E, M/d/y – E, M/d/y
+                  "y": 
+                    content: E, M/d/y – E, M/d/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MMM d – E, MMM d, y
+                  d: 
+                    content: E, MMM d – E, MMM d, y
+                  "y": 
+                    content: E, MMM d, y – E, MMM d, y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d, y
+                  d: 
+                    content: MMM d–d, y
+                  "y": 
+                    content: MMM d, y – MMM d, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: M/d/y – M/d/y
+                  d: 
+                    content: M/d/y – M/d/y
+                  "y": 
+                    content: M/d/y – M/d/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, y MMMM dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: y MMMM d
+              type: long
+            - 
+              dateFormat: 
+                pattern: y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, M/d/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E, MMM d, y
+              yMMMd: 
+                content: MMM d, y
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d – E, M/d
+                  d: 
+                    content: E, M/d – E, M/d
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MMM d – E, MMM d
+                  d: 
+                    content: E, MMM d – E, MMM d
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: M/d – M/d
+                  d: 
+                    content: M/d – M/d
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: ":h:mm a – h:mm a"
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, M/d/y – E, M/d/y
+                  d: 
+                    content: E, M/d/y – E, M/d/y
+                  "y": 
+                    content: E, M/d/y – E, M/d/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MMM d – E, MMM d, y
+                  d: 
+                    content: E, MMM d – E, MMM d, y
+                  "y": 
+                    content: E, MMM d, y – E, MMM d, y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d, y
+                  d: 
+                    content: MMM d–d, y
+                  "y": 
+                    content: MMM d, y – MMM d, y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: M/d/y – M/d/y
+                  d: 
+                    content: M/d/y – M/d/y
+                  "y": 
+                    content: M/d/y – M/d/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: AM
+                    type: am
+                  - 
+                    content: PM
+                    type: pm
+                type: abbreviated
+              - 
+                dayPeriod: 
+                  - 
+                    content: a
+                    type: am
+                  - 
+                    content: p
+                    type: pm
+                type: narrow
+              - 
+                dayPeriod: 
+                  - 
+                    content: AM
+                    type: am
+                  - 
+                    content: PM
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: ig
+                      type: sun
+                    - 
+                      content: al
+                      type: mon
+                    - 
+                      content: as
+                      type: tue
+                    - 
+                      content: az
+                      type: wed
+                    - 
+                      content: og
+                      type: thu
+                    - 
+                      content: or
+                      type: fri
+                    - 
+                      content: lr
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: I
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: A
+                      type: tue
+                    - 
+                      content: A
+                      type: wed
+                    - 
+                      content: A
+                      type: thu
+                    - 
+                      content: O
+                      type: fri
+                    - 
+                      content: I
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ig.
+                      type: sun
+                    - 
+                      content: al.
+                      type: mon
+                    - 
+                      content: ar.
+                      type: tue
+                    - 
+                      content: az.
+                      type: wed
+                    - 
+                      content: og.
+                      type: thu
+                    - 
+                      content: or.
+                      type: fri
+                    - 
+                      content: lr.
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: igandea
+                      type: sun
+                    - 
+                      content: astelehena
+                      type: mon
+                    - 
+                      content: asteartea
+                      type: tue
+                    - 
+                      content: asteazkena
+                      type: wed
+                    - 
+                      content: osteguna
+                      type: thu
+                    - 
+                      content: ostirala
+                      type: fri
+                    - 
+                      content: larunbata
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: I
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: A
+                      type: tue
+                    - 
+                      content: L
+                      type: wed
+                    - 
+                      content: A
+                      type: thu
+                    - 
+                      content: O
+                      type: fri
+                    - 
+                      content: I
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: ig.
+                      type: sun
+                    - 
+                      content: al.
+                      type: mon
+                    - 
+                      content: ar.
+                      type: tue
+                    - 
+                      content: az.
+                      type: wed
+                    - 
+                      content: og.
+                      type: thu
+                    - 
+                      content: or.
+                      type: fri
+                    - 
+                      content: lr.
+                      type: sat
+                  type: short
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: K.a.
+                type: 0
+              - 
+                content: K.o.
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: urt
+                      type: 1
+                    - 
+                      content: ots
+                      type: 2
+                    - 
+                      content: mar
+                      type: 3
+                    - 
+                      content: api
+                      type: 4
+                    - 
+                      content: mai
+                      type: 5
+                    - 
+                      content: eka
+                      type: 6
+                    - 
+                      content: uzt
+                      type: 7
+                    - 
+                      content: abu
+                      type: 8
+                    - 
+                      content: ira
+                      type: 9
+                    - 
+                      content: urr
+                      type: 10
+                    - 
+                      content: aza
+                      type: 11
+                    - 
+                      content: abe
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: urtarrila
+                      type: 1
+                    - 
+                      content: otsaila
+                      type: 2
+                    - 
+                      content: martxoa
+                      type: 3
+                    - 
+                      content: apirila
+                      type: 4
+                    - 
+                      content: maiatza
+                      type: 5
+                    - 
+                      content: ekaina
+                      type: 6
+                    - 
+                      content: uztaila
+                      type: 7
+                    - 
+                      content: abuztua
+                      type: 8
+                    - 
+                      content: iraila
+                      type: 9
+                    - 
+                      content: urria
+                      type: 10
+                    - 
+                      content: azaroa
+                      type: 11
+                    - 
+                      content: abendua
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                month: 
+                  - 
+                    content: U
+                    type: 1
+                  - 
+                    content: O
+                    type: 2
+                  - 
+                    content: M
+                    type: 3
+                  - 
+                    content: A
+                    type: 4
+                  - 
+                    content: M
+                    type: 5
+                  - 
+                    content: E
+                    type: 6
+                  - 
+                    content: U
+                    type: 7
+                  - 
+                    content: A
+                    type: 8
+                  - 
+                    content: I
+                    type: 9
+                  - 
+                    content: U
+                    type: 10
+                  - 
+                    content: A
+                    type: 11
+                  - 
+                    content: A
+                    type: 12
+                type: narrow
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: 1Hh
+                      type: 1
+                    - 
+                      content: 2Hh
+                      type: 2
+                    - 
+                      content: 3Hh
+                      type: 3
+                    - 
+                      content: 4Hh
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1. hiruhilekoa
+                      type: 1
+                    - 
+                      content: 2. hiruhilekoa
+                      type: 2
+                    - 
+                      content: 3. hiruhilekoa
+                      type: 3
+                    - 
+                      content: 4. hiruhilekoa
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                quarter: 
+                  - 
+                    content: 1
+                    type: 1
+                  - 
+                    content: 2
+                    type: 2
+                  - 
+                    content: 3
+                    type: 3
+                  - 
+                    content: 4
+                    type: 4
+                type: narrow
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+      - 
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: R.O.C. aurretik
+                type: 0
+              - 
+                content: R.O.C.
+                type: 1
+        type: roc
+  fields: 
+    field: 
+      - 
+        displayName: Aroa
+        type: era
+      - 
+        displayName: Urtea
+        relative: 
+          - 
+            content: Aurreko urtea
+            type: -1
+          - 
+            content: Aurten
+            type: 0
+          - 
+            content: Hurrengo urtea
+            type: 1
+        type: year
+      - 
+        displayName: Hilabetea
+        relative: 
+          - 
+            content: Aurreko hilabetea
+            type: -1
+          - 
+            content: Gauden hilabetea
+            type: 0
+          - 
+            content: Hurrengo hilabetea
+            type: 1
+        type: month
+      - 
+        displayName: Astea
+        relative: 
+          - 
+            content: Aurreko astea
+            type: -1
+          - 
+            content: Aste hau
+            type: 0
+          - 
+            content: Hurrengo astea
+            type: 1
+        type: week
+      - 
+        displayName: Eguna
+        relative: 
+          - 
+            content: Herenegun
+            type: -2
+          - 
+            content: Atzo
+            type: -1
+          - 
+            content: Gaur
+            type: 0
+          - 
+            content: Bihar
+            type: 1
+          - 
+            content: Etzi
+            type: 2
+        type: day
+      - 
+        displayName: Asteguna
+        type: weekday
+      - 
+        displayName: AM//PM
+        type: dayperiod
+      - 
+        displayName: Ordua
+        type: hour
+      - 
+        displayName: Minutuak
+        type: minute
+      - 
+        displayName: Segundoak
+        type: second
+      - 
+        displayName: Ordu-eremua
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1}-(e)ko ordua ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: Afganistango ordua
+        type: Afghanistan
+      - 
+        long: 
+          standard: Afrika erdialdeko ordua
+        type: Africa_Central
+      - 
+        long: 
+          standard: Afrika ekialdeko ordua
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Hegoafrikako ordu estandarra
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Afrika mendebaldeko udako ordua
+          generic: Afrika mendebaldeko ordua
+          standard: Afrika mendebaldeko ordu estandarra
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Alaskako urte-sasoiko ordua
+          generic: Alaskako ordua
+          standard: Alaskako ordu estandarra
+        type: Alaska
+      - 
+        long: 
+          daylight: Amazoniako udako ordua
+          generic: Amazoniako ordua
+          standard: Amazoniako ordu estandarra
+        type: Amazon
+      - 
+        long: 
+          daylight: Erdialdeko urte-sasoiko ordua
+          generic: Erdialdeko ordua
+          standard: Erdialdeko ordu estandarra
+        type: America_Central
+      - 
+        long: 
+          daylight: Ekialdeko urte-sasoiko ordua
+          generic: Ekialdeko ordua
+          standard: Ekialdeko ordu estandarra
+        type: America_Eastern
+      - 
+        long: 
+          daylight: Mendi Harritsuetako urte-sasoiko ordua
+          generic: Mendiko ordua
+          standard: Mendi Harritsuetako ordu estandarra
+        type: America_Mountain
+      - 
+        long: 
+          daylight: Pazifikoko urte-sasoiko ordua
+          generic: Pazifikoko ordua
+          standard: Pazifikoko ordu estandarra
+        type: America_Pacific
+      - 
+        long: 
+          daylight: Anadyrreko udako ordua
+          generic: Anadyrreko ordua
+          standard: Anadyrreko ordu estandarra
+        type: Anadyr
+      - 
+        long: 
+          daylight: Arabiako udako ordua
+          generic: Arabiako ordua
+          standard: Arabiako ordu estandarra
+        type: Arabian
+      - 
+        long: 
+          daylight: Argentinako udako ordua
+          generic: Argentinako ordua
+          standard: Argentinako ordu estandarra
+        type: Argentina
+      - 
+        long: 
+          daylight: Argentina mendebaldeko udako ordua
+          generic: Argentina mendebaldeko ordua
+          standard: Argentina mendebaldeko ordu estandarra
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: Armeniako udako ordua
+          generic: Armeniako ordua
+          standard: Armeniako ordu estandarra
+        type: Armenia
+      - 
+        long: 
+          daylight: Atlantikoko urte-sasoiko ordua
+          generic: Atlantikoko ordua
+          standard: Atlantikoko ordu estandarra
+        type: Atlantic
+      - 
+        long: 
+          daylight: Australia erdialdeko urte-sasoiko ordua
+          generic: Australia erdialdeko ordua
+          standard: Australia erdialdeko ordu estandarra
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Australia erdialdeko mendebaldeko urte-sasoiko ordua
+          generic: Australia erdialdeko mendebaldeko ordua
+          standard: Australia erdialdeko mendebaldeko ordu estandarra
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Australia ekialdeko urte-sasoiko ordua
+          generic: Australia ekialdeko ordua
+          standard: Australia ekialdeko ordu estandarra
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Australia mendebaldeko urte-sasoiko ordua
+          generic: Australia mendebaldeko ordua
+          standard: Australia mendebaldeko ordu estandarra
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Azerbaijango udako ordua
+          generic: Azerbaijango ordua
+          standard: Azerbaijango ordu estandarra
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: Azoreetako udako ordua
+          generic: Azoreetako ordua
+          standard: Azoreetako ordu estandarra
+        type: Azores
+      - 
+        long: 
+          daylight: Bangladeshko udako ordua
+          generic: Bangladeshko ordua
+          standard: Bangladeshko ordu estandarra
+        type: Bangladesh
+      - 
+        long: 
+          standard: Bhutango ordua
+        type: Bhutan
+      - 
+        long: 
+          standard: Boliviako ordua
+        type: Bolivia
+      - 
+        long: 
+          daylight: Brasiliako udako ordua
+          generic: Brasiliako ordua
+          standard: Brasiliako ordu estandarra
+        type: Brasilia
+      - 
+        long: 
+          standard: Brunei Darussalamgo ordua
+        type: Brunei
+      - 
+        long: 
+          daylight: Cabo Verdeko udako ordua
+          generic: Cabo Verdeko ordua
+          standard: Cabo Verdeko ordu estandarra
+        type: Cape_Verde
+      - 
+        long: 
+          standard: Chamorroko ordu estandarra
+        type: Chamorro
+      - 
+        long: 
+          daylight: Chathamgo udako ordua
+          generic: Chathamgo ordua
+          standard: Chathamgo ordu estandarra
+        type: Chatham
+      - 
+        long: 
+          daylight: Txileko udako ordua
+          generic: Txileko ordua
+          standard: Txileko ordu estandarra
+        type: Chile
+      - 
+        long: 
+          daylight: Txinako udako ordua
+          generic: Txinako ordua
+          standard: Txinako ordu estandarra
+        type: China
+      - 
+        long: 
+          daylight: Choibalsango udako ordua
+          generic: Choibalsango ordua
+          standard: Choibalsango ordu estandarra
+        type: Choibalsan
+      - 
+        long: 
+          standard: Christmas uharteko ordua
+        type: Christmas
+      - 
+        long: 
+          standard: Cocos uharteetako ordua
+        type: Cocos
+      - 
+        long: 
+          daylight: Kolonbiako udako ordua
+          generic: Kolonbiako ordua
+          standard: Kolonbiako ordu estandarra
+        type: Colombia
+      - 
+        long: 
+          daylight: Cook uharteetako uda erdialdeko ordua
+          generic: Cook uharteetako ordua
+          standard: Cook uharteetako ordu estandarra
+        type: Cook
+      - 
+        long: 
+          daylight: Kubako udako ordua
+          generic: Kubako ordua
+          standard: Kubako ordu estandarra
+        type: Cuba
+      - 
+        long: 
+          standard: Davisgo ordua
+        type: Davis
+      - 
+        long: 
+          standard: Dumont-d'Urvilleko ordua
+        type: DumontDUrville
+      - 
+        long: 
+          standard: Timor ekialdeko ordua
+        type: East_Timor
+      - 
+        long: 
+          daylight: Pazko uharteko udako ordua
+          generic: Pazko uharteko ordua
+          standard: Pazko uharteko ordu estandarra
+        type: Easter
+      - 
+        long: 
+          standard: Ekuadorreko ordua
+        type: Ecuador
+      - 
+        long: 
+          daylight: Europa erdialdeko udako ordua
+          generic: Europa erdialdeko ordua
+          standard: Europa erdialdeko ordu estandarra
+        short: 
+          daylight: CEST
+          generic: CET
+          standard: CET
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Europa ekialdeko udako ordua
+          generic: Europa ekialdeko ordua
+          standard: Europa ekialdeko ordu estandarra
+        short: 
+          daylight: EEST
+          generic: EET
+          standard: EET
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Europa mendebaldeko udako ordua
+          generic: Europa mendebaldeko ordua
+          standard: Europa mendebaldeko ordu estandarra
+        short: 
+          daylight: WEST
+          generic: WET
+          standard: WET
+        type: Europe_Western
+      - 
+        long: 
+          daylight: Falkland uharteetako udako ordua
+          generic: Falkland uharteetako ordua
+          standard: Falkland uharteetako ordu estandarra
+        type: Falkland
+      - 
+        long: 
+          daylight: Fijiko udako ordua
+          generic: Fijiko ordua
+          standard: Fijiko ordu estandarra
+        type: Fiji
+      - 
+        long: 
+          standard: Guyana Frantseseko ordua
+        type: French_Guiana
+      - 
+        long: 
+          standard: Frantziako hegoaldeko eta Antartikako ordua
+        type: French_Southern
+      - 
+        long: 
+          standard: Galapagoetako ordua
+        type: Galapagos
+      - 
+        long: 
+          standard: Gambierreko ordua
+        type: Gambier
+      - 
+        long: 
+          daylight: Georgiako udako ordua
+          generic: Georgiako ordua
+          standard: Georgiako ordu estandarra
+        type: Georgia
+      - 
+        long: 
+          standard: Gilbert uharteetako ordua
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: Greenwich meridianoko ordua
+        short: 
+          standard: GMT
+        type: GMT
+      - 
+        long: 
+          daylight: Groenlandia ekialdeko udako ordua
+          generic: Groenlandia ekialdeko ordua
+          standard: Groenlandia ekialdeko ordu estandarra
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: Groenlandia mendebaldeko udako ordua
+          generic: Groenlandia mendebaldeko ordua
+          standard: Groenlandia mendebaldeko ordu estandarra
+        type: Greenland_Western
+      - 
+        long: 
+          standard: Golkoko ordu estandarra
+        type: Gulf
+      - 
+        long: 
+          standard: Guyanako ordua
+        type: Guyana
+      - 
+        long: 
+          daylight: Hawaii-Aleutiar uharteetako udako ordua
+          generic: Hawaiiko Aleutiar uharteetako ordua
+          standard: Hawaii-Aleutiar uharteetako ordu estandarra
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: Hong Kongo udako ordua
+          generic: Hong Kongo ordua
+          standard: Hong Kongo ordu estandarra
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: Hovdeko udako ordua
+          generic: Hovdeko ordua
+          standard: Hovdeko ordu estandarra
+        type: Hovd
+      - 
+        long: 
+          standard: Indiako ordu estandarra
+        type: India
+      - 
+        long: 
+          standard: Indiako ozeanoko ordua
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: Indotxinako ordua
+        type: Indochina
+      - 
+        long: 
+          standard: Indonesia erdialdeko ordua
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: Indonesia ekialdeko ordua
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: Indonesia mendebaldeko ordua
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: Irango udako ordua
+          generic: Irango ordua
+          standard: Irango ordu estandarra
+        type: Iran
+      - 
+        long: 
+          daylight: Irkutskeko udako ordua
+          generic: Irkutskeko ordua
+          standard: Irkutskeko ordu estandarra
+        type: Irkutsk
+      - 
+        long: 
+          daylight: Israelgo udako ordua
+          generic: Israelgo ordua
+          standard: Israelgo ordu estandarra
+        type: Israel
+      - 
+        long: 
+          daylight: Japoniako udako ordua
+          generic: Japoniako ordua
+          standard: Japoniako ordu estandarra
+        type: Japan
+      - 
+        long: 
+          daylight: Petropavlovsk-Kamchatskiko udako ordua
+          generic: Petropavlovsk-Kamchatskiko ordua
+          standard: Petropavlovsk-Kamchatskiko ordu estandarra
+        type: Kamchatka
+      - 
+        long: 
+          standard: Kazakhstan ekialdeko ordua
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: Kazakhstan mendebaldeko ordua
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: Koreako udako ordua
+          generic: Koreako ordua
+          standard: Koreako ordu estandarra
+        type: Korea
+      - 
+        long: 
+          standard: Kosraeko ordua
+        type: Kosrae
+      - 
+        long: 
+          daylight: Krasnoyarskeko udako ordua
+          generic: Krasnoyarskeko ordua
+          standard: Krasnoyarskeko ordu estandarra
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: Kyrgystango ordua
+        type: Kyrgystan
+      - 
+        long: 
+          standard: Line uharteetako ordua
+        type: Line_Islands
+      - 
+        long: 
+          daylight: Lord Howeko urte-sasoiko ordua
+          generic: Lord Howeko ordua
+          standard: Lord Howeko ordu estandarra
+        type: Lord_Howe
+      - 
+        long: 
+          standard: Macquarie uharteko ordua
+        type: Macquarie
+      - 
+        long: 
+          daylight: Magadango udako ordua
+          generic: Magadako ordua
+          standard: Magadango ordu estandarra
+        type: Magadan
+      - 
+        long: 
+          standard: Malaysiako ordua
+        type: Malaysia
+      - 
+        long: 
+          standard: Maldivetako ordua
+        type: Maldives
+      - 
+        long: 
+          standard: Markesetako ordua
+        type: Marquesas
+      - 
+        long: 
+          standard: Marshall uharteetako ordua
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: Maurizioko udako ordua
+          generic: Maurizioko ordua
+          standard: Maurizioko ordu estandarra
+        type: Mauritius
+      - 
+        long: 
+          standard: Mawsongo ordua
+        type: Mawson
+      - 
+        long: 
+          daylight: Ulan Batorgo udako ordua
+          generic: Ulan Batorreko ordua
+          standard: Ulan Batorreko ordu estandarra
+        type: Mongolia
+      - 
+        long: 
+          daylight: Moskuko udako ordua
+          generic: Moskuko ordua
+          standard: Moskuko ordu estandarra
+        type: Moscow
+      - 
+        long: 
+          standard: Birmaniako ordua
+        type: Myanmar
+      - 
+        long: 
+          standard: Nauruko ordua
+        type: Nauru
+      - 
+        long: 
+          standard: Nepalgo ordua
+        type: Nepal
+      - 
+        long: 
+          daylight: Kaledonia Berriko udako ordua
+          generic: Kaledonia Berriako ordua
+          standard: Kaledonia Berriko ordu estandarra
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: Zeelanda Berriko udako ordua
+          generic: Zeelanda Berriko ordua
+          standard: Zeelanda Berriko ordu estandarra
+        type: New_Zealand
+      - 
+        long: 
+          daylight: Ternuako urte-sasoiko ordua
+          generic: Ternuako ordua
+          standard: Ternuako ordu estandarra
+        type: Newfoundland
+      - 
+        long: 
+          standard: Niueko ordua
+        type: Niue
+      - 
+        long: 
+          standard: Norfolk uharteetako ordua
+        type: Norfolk
+      - 
+        long: 
+          daylight: Fernando de Noronhako udako ordua
+          generic: Fernando de Noronha uharteetako ordua
+          standard: Fernando de Noronha uharteetako ordu estandarra
+        type: Noronha
+      - 
+        long: 
+          daylight: Novosibirskeko udako ordua
+          generic: Novosibirskeko ordua
+          standard: Novosibirskeko ordu estandarra
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: Omskeko udako ordua
+          generic: Omskeko ordua
+          standard: Omskeko ordu estandarra
+        type: Omsk
+      - 
+        long: 
+          daylight: Pakistango udako ordua
+          generic: Pakistango ordua
+          standard: Pakistango ordu estandarra
+        type: Pakistan
+      - 
+        long: 
+          standard: Palauko ordua
+        type: Palau
+      - 
+        long: 
+          standard: Papua Ginea Berriko ordua
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: Paraguayko udako ordua
+          generic: Paraguayko ordua
+          standard: Paraguayko ordu estandarra
+        type: Paraguay
+      - 
+        long: 
+          daylight: Peruko udako ordua
+          generic: Peruko ordua
+          standard: Peruko ordu estandarra
+        type: Peru
+      - 
+        long: 
+          daylight: Filipinetako udako ordua
+          generic: Filipinetako ordua
+          standard: Filipinetako ordu estandarra
+        type: Philippines
+      - 
+        long: 
+          standard: Phoenix uharteetako ordua
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: Saint-Pierre eta Mikeluneko udako ordua
+          generic: Saint-Pierre eta Mikeluneko ordua
+          standard: Saint-Pierre eta Mikeluneko ordu estandarra
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: Pitcairneko ordua
+        type: Pitcairn
+      - 
+        long: 
+          standard: Ponapeko ordua
+        type: Ponape
+      - 
+        long: 
+          standard: Reunion uharteetako ordua
+        type: Reunion
+      - 
+        long: 
+          standard: Rotherako ordua
+        type: Rothera
+      - 
+        long: 
+          daylight: Sakhalingo udako ordua
+          generic: Sakhalingo ordua
+          standard: Sakhalingo ordu estandarra
+        type: Sakhalin
+      - 
+        long: 
+          daylight: Samarako udako ordua
+          generic: Samarako ordua
+          standard: Samarako ordu estandarra
+        type: Samara
+      - 
+        long: 
+          daylight: Samoako udako ordua
+          generic: Samoako ordua
+          standard: Samoako ordu estandarra
+        type: Samoa
+      - 
+        long: 
+          standard: Seychelle uharteetako ordua
+        type: Seychelles
+      - 
+        long: 
+          standard: Singapurko ordu estandarra
+        type: Singapore
+      - 
+        long: 
+          standard: Salomon uharteetako ordua
+        type: Solomon
+      - 
+        long: 
+          standard: Hego Georgiako ordua
+        type: South_Georgia
+      - 
+        long: 
+          standard: Syowako ordua
+        type: Syowa
+      - 
+        long: 
+          standard: Tahitiko ordua
+        type: Tahiti
+      - 
+        long: 
+          daylight: Taipeiko udako ordua
+          generic: Taipeiko ordua
+          standard: Taipeiko ordu estandarra
+        type: Taipei
+      - 
+        long: 
+          standard: Tadjikistango ordua
+        type: Tajikistan
+      - 
+        long: 
+          standard: Tokelauko ordua
+        type: Tokelau
+      - 
+        long: 
+          daylight: Tongako udako ordua
+          generic: Tongako ordua
+          standard: Tongako ordu estandarra
+        type: Tonga
+      - 
+        long: 
+          standard: Chuukeko ordua
+        type: Truk
+      - 
+        long: 
+          daylight: Turkmenistango udako ordua
+          generic: Turkmenistango ordua
+          standard: Turkmenistango ordu estandarra
+        type: Turkmenistan
+      - 
+        long: 
+          standard: Tuvaluko ordua
+        type: Tuvalu
+      - 
+        long: 
+          daylight: Uruguayko udako ordua
+          generic: Uruguayko ordua
+          standard: Uruguayko ordu estandarra
+        type: Uruguay
+      - 
+        long: 
+          daylight: Uzbekistango udako ordua
+          generic: Uzbekistango ordua
+          standard: Uzbekistango ordu estandarra
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: Vanuatuko udako ordua
+          generic: Vanuatuko ordua
+          standard: Vanuatuko ordu estandarra
+        type: Vanuatu
+      - 
+        long: 
+          standard: Venezuelako ordua
+        type: Venezuela
+      - 
+        long: 
+          daylight: Vladivostokeko udako ordua
+          generic: Vladivostokeko ordua
+          standard: Vladivostokeko ordu estandarra
+        type: Vladivostok
+      - 
+        long: 
+          daylight: Belgradeko udako ordua
+          generic: Belgradeko ordua
+          standard: Volgogradeko ordu estandarra
+        type: Volgograd
+      - 
+        long: 
+          standard: Vostokeko ordua
+        type: Vostok
+      - 
+        long: 
+          standard: Wake uharteko ordua
+        type: Wake
+      - 
+        long: 
+          standard: Wallis eta Futunako ordua
+        type: Wallis
+      - 
+        long: 
+          daylight: Yakutskeko udako ordua
+          generic: Yakutskeko ordua
+          standard: Jakutskeko ordu estandarra
+        type: Yakutsk
+      - 
+        long: 
+          daylight: Yekaterinburgeko udako ordua
+          generic: Yekaterinburgeko ordua
+          standard: Jekaterinburgeko ordu estandarra
+        type: Yekaterinburg
+    regionFormat: "{0}-(e)ko ordua"
+    zone: 
+      - 
+        exemplarCity: Hiri ezezaguna
+        type: Etc/Unknown
+      - 
+        exemplarCity: Saint Barthélemy
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: St. John's
+        type: America/St_Johns
+      - 
+        exemplarCity: Cabo Verde
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: Curaçao
+        type: America/Curacao
+      - 
+        exemplarCity: Djibuti
+        type: Africa/Djibouti
+      - 
+        exemplarCity: Dominika
+        type: America/Dominica
+      - 
+        exemplarCity: Espainia (Kanariak)
+        type: Atlantic/Canary
+      - 
+        exemplarCity: Madril
+        type: Europe/Madrid
+      - 
+        exemplarCity: Guadalupe
+        type: America/Guadeloupe
+      - 
+        exemplarCity: Jamaika
+        type: America/Jamaica
+      - 
+        exemplarCity: Luxenburgo
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: Monako
+        type: Europe/Monaco
+      - 
+        exemplarCity: Martinika
+        type: America/Martinique
+      - 
+        exemplarCity: Maurizio
+        type: Indian/Mauritius
+      - 
+        exemplarCity: Maldivak
+        type: Indian/Maldives
+      - 
+        exemplarCity: Asunción
+        type: America/Asuncion
+      - 
+        exemplarCity: Singapur
+        type: Asia/Singapore
+      - 
+        exemplarCity: São Tomé
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: Lower Prince's Quarter
+        type: America/Lower_Princes
+      - 
+        exemplarCity: Ameriketako Estatu Batuak (Erdialdea, Ipar Dakota)
+        type: America/North_Dakota/Center
+delimiters: 
+  alternateQuotationEnd: »
+  alternateQuotationStart: «
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: eu
+  version: 
+    number: "$Revision: 8245 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} eta {1}"
+        type: 2
+      - 
+        content: "{0} eta {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "{0}"
+        type: language
+      - 
+        content: "{0}"
+        type: script
+      - 
+        content: "{0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: Egutegia
+        type: calendar
+      - 
+        content: Egin ez ikusi ikurren ordenari
+        type: colAlternate
+      - 
+        content: Azentuen alderantzizko ordena
+        type: colBackwards
+      - 
+        content: Maiuskula/Minuskula ordena
+        type: colCaseFirst
+      - 
+        content: Maiuskulak eta minuskulak bereizten dituen ordena
+        type: colCaseLevel
+      - 
+        content: Kana ordena
+        type: colHiraganaQuaternary
+      - 
+        content: Ordenatzeko irizpidea
+        type: collation
+      - 
+        content: Araututako ordena
+        type: colNormalization
+      - 
+        content: Zenbakizko ordena
+        type: colNumeric
+      - 
+        content: Ordenaren sendotasuna
+        type: colStrength
+      - 
+        content: Moneta
+        type: currency
+      - 
+        content: Zenbakiak
+        type: numbers
+      - 
+        content: Ordu-zona
+        type: timezone
+      - 
+        content: Eskualdeko ezarpenen aldaera
+        type: va
+      - 
+        content: Ordenatu ikur gisa
+        type: variableTop
+      - 
+        content: Erabilera pribatua
+        type: x
+  languages: 
+    language: 
+      - 
+        content: abkhazera
+        type: ab
+      - 
+        content: Acholiera
+        type: ach
+      - 
+        content: afrikaans
+        type: af
+      - 
+        content: Akanera
+        type: ak
+      - 
+        content: amharikera
+        type: am
+      - 
+        content: arabiera
+        type: ar
+      - 
+        content: assamera
+        type: as
+      - 
+        content: aimara
+        type: ay
+      - 
+        content: azerbaijanera
+        type: az
+      - 
+        alt: short
+        content: azerbaijanera
+        type: az
+      - 
+        content: bielorrusiera
+        type: be
+      - 
+        content: Bembera
+        type: bem
+      - 
+        content: bulgariera
+        type: bg
+      - 
+        content: Bihariera
+        type: bh
+      - 
+        content: bengalera
+        type: bn
+      - 
+        content: tibetera
+        type: bo
+      - 
+        content: Bretoiera
+        type: br
+      - 
+        content: bosniera
+        type: bs
+      - 
+        content: katalana
+        type: ca
+      - 
+        content: Txerokiera
+        type: chr
+      - 
+        content: Soraniera
+        type: ckb
+      - 
+        content: Korsikera
+        type: co
+      - 
+        content: txekiera
+        type: cs
+      - 
+        content: galesera
+        type: cy
+      - 
+        content: daniera
+        type: da
+      - 
+        content: alemana
+        type: de
+      - 
+        content: aleman garaia (Suitza)
+        type: de_CH
+      - 
+        content: divehiera
+        type: dv
+      - 
+        content: dzongkha
+        type: dz
+      - 
+        content: Eweera
+        type: ee
+      - 
+        content: efikera
+        type: efi
+      - 
+        content: greziera
+        type: el
+      - 
+        content: ingelesa
+        type: en
+      - 
+        content: ingelesa (AEB)
+        type: en_US
+      - 
+        content: esperantoa
+        type: eo
+      - 
+        content: gaztelania
+        type: es
+      - 
+        content: espainiera (Latinoamerika)
+        type: es_419
+      - 
+        content: espainiera (Europa)
+        type: es_ES
+      - 
+        content: estoniera
+        type: et
+      - 
+        content: euskara
+        type: eu
+      - 
+        content: pertsiera
+        type: fa
+      - 
+        content: finlandiera
+        type: fi
+      - 
+        content: tagalo
+        type: fil
+      - 
+        content: fijiera
+        type: fj
+      - 
+        content: faroera
+        type: fo
+      - 
+        content: frantsesa
+        type: fr
+      - 
+        content: frisiera
+        type: fy
+      - 
+        content: gaelikoa
+        type: ga
+      - 
+        content: Ga
+        type: gaa
+      - 
+        content: eskoziako gaelikoa
+        type: gd
+      - 
+        content: galiziera
+        type: gl
+      - 
+        content: guaraniera
+        type: gn
+      - 
+        content: alemana (Suitza)
+        type: gsw
+      - 
+        content: gujaratera
+        type: gu
+      - 
+        content: hausa
+        type: ha
+      - 
+        content: hawaiiera
+        type: haw
+      - 
+        content: hebreera
+        type: he
+      - 
+        content: hindia
+        type: hi
+      - 
+        content: kroaziera
+        type: hr
+      - 
+        content: haitiera
+        type: ht
+      - 
+        content: hungariera
+        type: hu
+      - 
+        content: armeniera
+        type: hy
+      - 
+        content: Interlingua
+        type: ia
+      - 
+        content: indonesiera
+        type: id
+      - 
+        content: interlingue
+        type: ie
+      - 
+        content: igboera
+        type: ig
+      - 
+        content: islandiera
+        type: is
+      - 
+        content: italiera
+        type: it
+      - 
+        content: japoniera
+        type: ja
+      - 
+        content: javera
+        type: jv
+      - 
+        content: georgiera
+        type: ka
+      - 
+        content: Kikongoa
+        type: kg
+      - 
+        content: kazakhera
+        type: kk
+      - 
+        content: khemerera
+        type: km
+      - 
+        content: kannada
+        type: kn
+      - 
+        content: koreera
+        type: ko
+      - 
+        content: kashmirera
+        type: ks
+      - 
+        content: kurduera
+        type: ku
+      - 
+        content: kirgizera
+        type: ky
+      - 
+        content: latina
+        type: la
+      - 
+        content: luxenburgera
+        type: lb
+      - 
+        content: Gandera
+        type: lg
+      - 
+        content: lingala
+        type: ln
+      - 
+        content: laosera
+        type: lo
+      - 
+        content: Loziera
+        type: loz
+      - 
+        content: lituaniera
+        type: lt
+      - 
+        content: Luba-lulua
+        type: lua
+      - 
+        content: letoniera
+        type: lv
+      - 
+        content: Mauritaniako kreolera
+        type: mfe
+      - 
+        content: malgaxea
+        type: mg
+      - 
+        content: maoriera
+        type: mi
+      - 
+        content: mazedoniera
+        type: mk
+      - 
+        content: malayalamera
+        type: ml
+      - 
+        content: mongoliera
+        type: mn
+      - 
+        content: marathera
+        type: mr
+      - 
+        content: malaysiera
+        type: ms
+      - 
+        content: maltera
+        type: mt
+      - 
+        content: hizkuntza anitzak
+        type: mul
+      - 
+        content: burmatarra
+        type: my
+      - 
+        content: bokmala (Norvegia)
+        type: nb
+      - 
+        content: iparraldeko ndebeleera
+        type: nd
+      - 
+        content: nepalera
+        type: ne
+      - 
+        content: nederlandera
+        type: nl
+      - 
+        content: flandriera
+        type: nl_BE
+      - 
+        content: nynorsk norvegiera
+        type: nn
+      - 
+        content: norvegiera
+        type: 'no'
+      - 
+        content: pediera
+        type: nso
+      - 
+        content: nyanja
+        type: ny
+      - 
+        content: Ankolera
+        type: nyn
+      - 
+        content: Okzitaniera
+        type: oc
+      - 
+        content: Oromoera
+        type: om
+      - 
+        content: oriya
+        type: or
+      - 
+        content: osetiera
+        type: os
+      - 
+        content: punjabera
+        type: pa
+      - 
+        content: poloniera
+        type: pl
+      - 
+        content: paxtuera
+        type: ps
+      - 
+        alt: variant
+        content: pashtoera
+        type: ps
+      - 
+        content: portugesa
+        type: pt
+      - 
+        content: portugesa (Europa)
+        type: pt_PT
+      - 
+        content: quechuera
+        type: qu
+      - 
+        content: erromantxera
+        type: rm
+      - 
+        content: rundiera
+        type: rn
+      - 
+        content: errumaniera
+        type: ro
+      - 
+        content: errusiera
+        type: ru
+      - 
+        content: kinyaruanda
+        type: rw
+      - 
+        content: sanskritoa
+        type: sa
+      - 
+        content: sindhia
+        type: sd
+      - 
+        content: iparraldeko samiera
+        type: se
+      - 
+        content: sangoera
+        type: sg
+      - 
+        content: serbokroaziera
+        type: sh
+      - 
+        content: sinhala
+        type: si
+      - 
+        content: eslovakiera
+        type: sk
+      - 
+        content: esloveniera
+        type: sl
+      - 
+        content: samoera
+        type: sm
+      - 
+        content: shonera
+        type: sn
+      - 
+        content: somaliera
+        type: so
+      - 
+        content: albaniera
+        type: sq
+      - 
+        content: serbiera
+        type: sr
+      - 
+        content: swatiera
+        type: ss
+      - 
+        content: hegoaldeko sothoera
+        type: st
+      - 
+        content: sundanera
+        type: su
+      - 
+        content: suediera
+        type: sv
+      - 
+        content: swahili
+        type: sw
+      - 
+        content: tamilera
+        type: ta
+      - 
+        content: telugua
+        type: te
+      - 
+        content: tetuma
+        type: tet
+      - 
+        content: tajikistanera
+        type: tg
+      - 
+        content: thailandiera
+        type: th
+      - 
+        content: tigrinya
+        type: ti
+      - 
+        content: turkmeniera
+        type: tk
+      - 
+        content: tagalog
+        type: tl
+      - 
+        content: Klingonera
+        type: tlh
+      - 
+        content: tswanera
+        type: tn
+      - 
+        content: tongera
+        type: to
+      - 
+        content: tok pisina
+        type: tpi
+      - 
+        content: turkiera
+        type: tr
+      - 
+        content: tsongera
+        type: ts
+      - 
+        content: tatarera
+        type: tt
+      - 
+        content: Tumbukera
+        type: tum
+      - 
+        content: twia
+        type: tw
+      - 
+        content: tahitiera
+        type: ty
+      - 
+        content: uigurrera
+        type: ug
+      - 
+        alt: variant
+        content: uyghurera
+        type: ug
+      - 
+        content: ukrainera
+        type: uk
+      - 
+        content: hizkuntza ezezaguna
+        type: und
+      - 
+        content: urdu
+        type: ur
+      - 
+        content: uzbekera
+        type: uz
+      - 
+        content: vendera
+        type: ve
+      - 
+        content: vietnamera
+        type: vi
+      - 
+        content: wolofera
+        type: wo
+      - 
+        content: xhosa
+        type: xh
+      - 
+        content: Jiddisha
+        type: yi
+      - 
+        content: yorubera
+        type: yo
+      - 
+        content: txinera
+        type: zh
+      - 
+        content: txinera (soildua)
+        type: zh_Hans
+      - 
+        content: txinera (tradizionala)
+        type: zh_Hant
+      - 
+        content: zuluera
+        type: zu
+      - 
+        content: ez dago eduki linguistikorik
+        type: zxx
+  localeDisplayPattern: 
+    localePattern: "{0} ({1})"
+    localeSeparator: ", "
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Metriko
+        type: metric
+      - 
+        content: EBko sistema
+        type: UK
+      - 
+        content: AEBetako sistema
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: Arabiera
+        type: Arab
+      - 
+        alt: variant
+        content: Persiar-arabiarra
+        type: Arab
+      - 
+        content: Armeniera
+        type: Armn
+      - 
+        content: Bengalarra
+        type: Beng
+      - 
+        content: Bopomofo
+        type: Bopo
+      - 
+        content: Braille
+        type: Brai
+      - 
+        content: Zirilikoa
+        type: Cyrl
+      - 
+        content: Devanagariarra
+        type: Deva
+      - 
+        content: Etiopiarra
+        type: Ethi
+      - 
+        content: Georgiera
+        type: Geor
+      - 
+        content: Greziera
+        type: Grek
+      - 
+        content: Gujaratearra
+        type: Gujr
+      - 
+        content: Gurmukhiarra
+        type: Guru
+      - 
+        content: Hangularra
+        type: Hang
+      - 
+        content: Txinatar idazkera
+        type: Hani
+      - 
+        content: Sinplifikatua
+        type: Hans
+      - 
+        alt: stand-alone
+        content: Idazkera txinatar sinplifikatua
+        type: Hans
+      - 
+        content: Tradizionala
+        type: Hant
+      - 
+        alt: stand-alone
+        content: Idazkera txinatar tradizionala
+        type: Hant
+      - 
+        content: Hebreera
+        type: Hebr
+      - 
+        content: Hiraganarra
+        type: Hira
+      - 
+        content: Japoniera
+        type: Jpan
+      - 
+        content: Katakana
+        type: Kana
+      - 
+        content: Khmerarra
+        type: Khmr
+      - 
+        content: Kannadarra
+        type: Knda
+      - 
+        content: Koreera
+        type: Kore
+      - 
+        content: Laoarra
+        type: Laoo
+      - 
+        content: Latina
+        type: Latn
+      - 
+        content: Malayalamera
+        type: Mlym
+      - 
+        content: Mongoliera
+        type: Mong
+      - 
+        content: Myanmar
+        type: Mymr
+      - 
+        content: Oriyera
+        type: Orya
+      - 
+        content: Sinhalarra
+        type: Sinh
+      - 
+        content: Tamilarra
+        type: Taml
+      - 
+        content: Teluguarra
+        type: Telu
+      - 
+        content: Thaana
+        type: Thaa
+      - 
+        content: Thaiera
+        type: Thai
+      - 
+        content: Tibetarra
+        type: Tibt
+      - 
+        content: Ikurrak
+        type: Zsym
+      - 
+        content: Idatzi gabea
+        type: Zxxx
+      - 
+        content: Ohikoa
+        type: Zyyy
+      - 
+        content: Idazkera ezezaguna
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Mundua
+        type: '001'
+      - 
+        content: Afrika
+        type: '002'
+      - 
+        content: Ipar Amerika
+        type: '003'
+      - 
+        content: Hego Amerika
+        type: '005'
+      - 
+        content: Ozeania
+        type: '009'
+      - 
+        content: Afrika mendebaldea
+        type: '011'
+      - 
+        content: Erdialdeko Amerika
+        type: '013'
+      - 
+        content: Afrika ekialdea
+        type: '014'
+      - 
+        content: Afrika iparraldea
+        type: '015'
+      - 
+        content: Erdialdeko Afrika
+        type: '017'
+      - 
+        content: Afrika hegoaldea
+        type: '018'
+      - 
+        content: Amerika
+        type: '019'
+      - 
+        content: Amerika iparraldea
+        type: '021'
+      - 
+        content: Karibea
+        type: '029'
+      - 
+        content: Asia ekialdea
+        type: '030'
+      - 
+        content: Asia hegoaldea
+        type: '034'
+      - 
+        content: Asia hego-ekialdea
+        type: '035'
+      - 
+        content: Europa hegoaldea
+        type: '039'
+      - 
+        content: Australia eta Zeelanda Berria
+        type: '053'
+      - 
+        content: Melanesiera
+        type: '054'
+      - 
+        content: Mikronesia eskualdea
+        type: '057'
+      - 
+        content: Polinesia
+        type: '061'
+      - 
+        content: Asia
+        type: 142
+      - 
+        content: Asia erdialdea
+        type: 143
+      - 
+        content: Asia mendebaldea
+        type: 145
+      - 
+        content: Europa
+        type: 150
+      - 
+        content: Europa ekialdea
+        type: 151
+      - 
+        content: Europa iparraldea
+        type: 154
+      - 
+        content: Europa mendebaldea
+        type: 155
+      - 
+        content: Latinoamerika
+        type: 419
+      - 
+        content: Ascension Uhartea
+        type: AC
+      - 
+        content: Andorra
+        type: AD
+      - 
+        content: Arabiar Emirrerri Batuak
+        type: AE
+      - 
+        content: Afganistan
+        type: AF
+      - 
+        content: Antigua eta Barbuda
+        type: AG
+      - 
+        content: Angila
+        type: AI
+      - 
+        content: Albania
+        type: AL
+      - 
+        content: Armenia
+        type: AM
+      - 
+        content: Holandarren Antillak
+        type: AN
+      - 
+        content: Angola
+        type: AO
+      - 
+        content: Antartika
+        type: AQ
+      - 
+        content: Argentina
+        type: AR
+      - 
+        content: Amerikar Samoa
+        type: AS
+      - 
+        content: Austria
+        type: AT
+      - 
+        content: Australia
+        type: AU
+      - 
+        content: Aruba
+        type: AW
+      - 
+        content: Aland uharteak
+        type: AX
+      - 
+        content: Azerbaijan
+        type: AZ
+      - 
+        content: Bosnia-Herzegovina
+        type: BA
+      - 
+        content: Barbados
+        type: BB
+      - 
+        content: Bangladesh
+        type: BD
+      - 
+        content: Belgika
+        type: BE
+      - 
+        content: Burkina Faso
+        type: BF
+      - 
+        content: Bulgaria
+        type: BG
+      - 
+        content: Bahrain
+        type: BH
+      - 
+        content: Burundi
+        type: BI
+      - 
+        content: Benin
+        type: BJ
+      - 
+        content: San Bartolome
+        type: BL
+      - 
+        content: Bermuda
+        type: BM
+      - 
+        content: Brunei
+        type: BN
+      - 
+        content: Bolibia
+        type: BO
+      - 
+        content: Karibeko Holanda
+        type: BQ
+      - 
+        content: Brasil
+        type: BR
+      - 
+        content: Bahamak
+        type: BS
+      - 
+        content: Bhutan
+        type: BT
+      - 
+        content: Bouvet Uhartea
+        type: BV
+      - 
+        content: Botswana
+        type: BW
+      - 
+        content: Bielorrusia
+        type: BY
+      - 
+        content: Belize
+        type: BZ
+      - 
+        content: Kanada
+        type: CA
+      - 
+        content: Cocos [Keeling] uharteak
+        type: CC
+      - 
+        content: Kongoko Errepublika Demokratikoa
+        type: CD
+      - 
+        alt: variant
+        content: Kongo [KED]
+        type: CD
+      - 
+        content: Afrika Erdiko Errepublika
+        type: CF
+      - 
+        content: Kongo (Brazzaville)
+        type: CG
+      - 
+        alt: variant
+        content: Kongo [errepublika]
+        type: CG
+      - 
+        content: Suitza
+        type: CH
+      - 
+        content: Boli Kosta
+        type: CI
+      - 
+        alt: variant
+        content: BK
+        type: CI
+      - 
+        content: Cook uharteak
+        type: CK
+      - 
+        content: Txile
+        type: CL
+      - 
+        content: Kamerun
+        type: CM
+      - 
+        content: Txina
+        type: CN
+      - 
+        content: Kolonbia
+        type: CO
+      - 
+        content: Clipperton uhartea
+        type: CP
+      - 
+        content: Costa Rica
+        type: CR
+      - 
+        content: Kuba
+        type: CU
+      - 
+        content: Cabo Verde
+        type: CV
+      - 
+        content: Curaçao
+        type: CW
+      - 
+        content: Christmas uhartea
+        type: CX
+      - 
+        content: Zipre
+        type: CY
+      - 
+        content: Txekiar errepublika
+        type: CZ
+      - 
+        content: Alemania
+        type: DE
+      - 
+        content: Diego Garcia
+        type: DG
+      - 
+        content: Djibuti
+        type: DJ
+      - 
+        content: Danimarka
+        type: DK
+      - 
+        content: Dominika
+        type: DM
+      - 
+        content: Dominikar Errepublika
+        type: DO
+      - 
+        content: Aljeria
+        type: DZ
+      - 
+        content: Ceuta eta Melilla
+        type: EA
+      - 
+        content: Ekuador
+        type: EC
+      - 
+        content: Estonia
+        type: EE
+      - 
+        content: Egipto
+        type: EG
+      - 
+        content: Mendebaldeko Sahara
+        type: EH
+      - 
+        content: Eritrea
+        type: ER
+      - 
+        content: Espainia
+        type: ES
+      - 
+        content: Etiopia
+        type: ET
+      - 
+        content: Europar Batasuna
+        type: EU
+      - 
+        content: Finlandia
+        type: FI
+      - 
+        content: Fiji
+        type: FJ
+      - 
+        content: Malvinak
+        type: FK
+      - 
+        alt: variant
+        content: Falkland uharteak [Malvina uharteak]
+        type: FK
+      - 
+        content: Mikronesia
+        type: FM
+      - 
+        content: Faroe Uharteak
+        type: FO
+      - 
+        content: Frantzia
+        type: FR
+      - 
+        content: Gabon
+        type: GA
+      - 
+        content: Erresuma Batua
+        type: GB
+      - 
+        content: Grenada
+        type: GD
+      - 
+        content: Georgia
+        type: GE
+      - 
+        content: Guyana Frantsesa
+        type: GF
+      - 
+        content: Guernsey
+        type: GG
+      - 
+        content: Ghana
+        type: GH
+      - 
+        content: Gibraltar
+        type: GI
+      - 
+        content: Groenlandia
+        type: GL
+      - 
+        content: Gambia
+        type: GM
+      - 
+        content: Ginea
+        type: GN
+      - 
+        content: Guadalupe
+        type: GP
+      - 
+        content: Ekuatore Ginea
+        type: GQ
+      - 
+        content: Grezia
+        type: GR
+      - 
+        content: Hegoaldeko Georgia eta Hegoaldeko Sandwich uharteak
+        type: GS
+      - 
+        content: Guatemala
+        type: GT
+      - 
+        content: Guam
+        type: GU
+      - 
+        content: Ginea-Bissau
+        type: GW
+      - 
+        content: Guyana
+        type: GY
+      - 
+        content: Hong Kong AEB Txina
+        type: HK
+      - 
+        alt: short
+        content: Hong Kong
+        type: HK
+      - 
+        content: Heard eta McDonald Uharteak
+        type: HM
+      - 
+        content: Honduras
+        type: HN
+      - 
+        content: Kroazia
+        type: HR
+      - 
+        content: Haiti
+        type: HT
+      - 
+        content: Hungaria
+        type: HU
+      - 
+        content: Kanariak
+        type: IC
+      - 
+        content: Indonesia
+        type: ID
+      - 
+        content: Irlanda
+        type: IE
+      - 
+        content: Israel
+        type: IL
+      - 
+        content: Man uhartea
+        type: IM
+      - 
+        content: India
+        type: IN
+      - 
+        content: Indiako Ozeanoko Britainiar Lurraldea
+        type: IO
+      - 
+        content: Irak
+        type: IQ
+      - 
+        content: Iran
+        type: IR
+      - 
+        content: Islandia
+        type: IS
+      - 
+        content: Italia
+        type: IT
+      - 
+        content: Jersey
+        type: JE
+      - 
+        content: Jamaika
+        type: JM
+      - 
+        content: Jordania
+        type: JO
+      - 
+        content: Japonia
+        type: JP
+      - 
+        content: Kenia
+        type: KE
+      - 
+        content: Kirgizistan
+        type: KG
+      - 
+        content: Kanbodia
+        type: KH
+      - 
+        content: Kiribati
+        type: KI
+      - 
+        content: Komoreak
+        type: KM
+      - 
+        content: Saint Kitts eta Nevis
+        type: KN
+      - 
+        content: Ipar Korea
+        type: KP
+      - 
+        content: Hego Korea
+        type: KR
+      - 
+        content: Kuwait
+        type: KW
+      - 
+        content: Kaiman Uharteak
+        type: KY
+      - 
+        content: Kazakhstan
+        type: KZ
+      - 
+        content: Laos
+        type: LA
+      - 
+        content: Libano
+        type: LB
+      - 
+        content: Santa Luzia
+        type: LC
+      - 
+        content: Liechtenstein
+        type: LI
+      - 
+        content: Sri Lanka
+        type: LK
+      - 
+        content: Liberia
+        type: LR
+      - 
+        content: Lesotho
+        type: LS
+      - 
+        content: Lituania
+        type: LT
+      - 
+        content: Luxenburgo
+        type: LU
+      - 
+        content: Letonia
+        type: LV
+      - 
+        content: Libia
+        type: LY
+      - 
+        content: Maroko
+        type: MA
+      - 
+        content: Monako
+        type: MC
+      - 
+        content: Moldavia
+        type: MD
+      - 
+        content: Montenegro
+        type: ME
+      - 
+        content: Saint Martin
+        type: MF
+      - 
+        content: Madagaskar
+        type: MG
+      - 
+        content: Marshall uharteak
+        type: MH
+      - 
+        content: Mazedonia
+        type: MK
+      - 
+        alt: variant
+        content: Mazedonia [FYROM]
+        type: MK
+      - 
+        content: Mali
+        type: ML
+      - 
+        content: Myanmar
+        type: MM
+      - 
+        content: Mongolia
+        type: MN
+      - 
+        content: Makau
+        type: MO
+      - 
+        alt: short
+        content: Macau
+        type: MO
+      - 
+        content: Iparraldeko Mariana uharteak
+        type: MP
+      - 
+        content: Martinika
+        type: MQ
+      - 
+        content: Mauritania
+        type: MR
+      - 
+        content: Montserrat
+        type: MS
+      - 
+        content: Malta
+        type: MT
+      - 
+        content: Maurizio
+        type: MU
+      - 
+        content: Maldivak
+        type: MV
+      - 
+        content: Malawi
+        type: MW
+      - 
+        content: Mexiko
+        type: MX
+      - 
+        content: Malasia
+        type: MY
+      - 
+        content: Mozambike
+        type: MZ
+      - 
+        content: Namibia
+        type: NA
+      - 
+        content: Kaledonia Berria
+        type: NC
+      - 
+        content: Niger
+        type: NE
+      - 
+        content: Norfolk uhartea
+        type: NF
+      - 
+        content: Nigeria
+        type: NG
+      - 
+        content: Nikaragua
+        type: NI
+      - 
+        content: Herbehereak
+        type: NL
+      - 
+        content: Norvegia
+        type: 'NO'
+      - 
+        content: Nepal
+        type: NP
+      - 
+        content: Nauru
+        type: NR
+      - 
+        content: Niue
+        type: NU
+      - 
+        content: Zeelanda Berria
+        type: NZ
+      - 
+        content: Oman
+        type: OM
+      - 
+        content: Panama
+        type: PA
+      - 
+        content: Peru
+        type: PE
+      - 
+        content: Polinesia Frantsesa
+        type: PF
+      - 
+        content: Papua Ginea Berria
+        type: PG
+      - 
+        content: Filipinak
+        type: PH
+      - 
+        content: Pakistan
+        type: PK
+      - 
+        content: Polonia
+        type: PL
+      - 
+        content: Saint-Pierre eta Mikelune
+        type: PM
+      - 
+        content: Pitcairn uharteak
+        type: PN
+      - 
+        content: Puerto Rico
+        type: PR
+      - 
+        content: Palestinako Lurraldeak
+        type: PS
+      - 
+        alt: short
+        content: Palestina
+        type: PS
+      - 
+        content: Portugal
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Paraguai
+        type: PY
+      - 
+        content: Katar
+        type: QA
+      - 
+        content: Mugaz kanpoko Ozeania
+        type: QO
+      - 
+        content: Reunion
+        type: RE
+      - 
+        content: Errumania
+        type: RO
+      - 
+        content: Serbia
+        type: RS
+      - 
+        content: Errusia
+        type: RU
+      - 
+        content: Ruanda
+        type: RW
+      - 
+        content: Saudi Arabia
+        type: SA
+      - 
+        content: Salomon uharteak
+        type: SB
+      - 
+        content: Seychelleak
+        type: SC
+      - 
+        content: Sudan
+        type: SD
+      - 
+        content: Suedia
+        type: SE
+      - 
+        content: Singapur
+        type: SG
+      - 
+        content: Saint Helena
+        type: SH
+      - 
+        content: Eslovenia
+        type: SI
+      - 
+        content: Svalbard eta Jan Mayen uharteak
+        type: SJ
+      - 
+        content: Eslovakia
+        type: SK
+      - 
+        content: Sierra Leona
+        type: SL
+      - 
+        content: San Marino
+        type: SM
+      - 
+        content: Senegal
+        type: SN
+      - 
+        content: Somalia
+        type: SO
+      - 
+        content: Surinam
+        type: SR
+      - 
+        content: Hego Sudan
+        type: SS
+      - 
+        content: Sao Tome eta Principe
+        type: ST
+      - 
+        content: El Salvador
+        type: SV
+      - 
+        content: Sint Maarten
+        type: SX
+      - 
+        content: Siria
+        type: SY
+      - 
+        content: Swazilandia
+        type: SZ
+      - 
+        content: Tristan da Cunha
+        type: TA
+      - 
+        content: Turk eta Caicos uharteak
+        type: TC
+      - 
+        content: Txad
+        type: TD
+      - 
+        content: Frantziaren Lurralde Australak
+        type: TF
+      - 
+        content: Togo
+        type: TG
+      - 
+        content: Tailandia
+        type: TH
+      - 
+        content: Tadjikistan
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Ekialdeko Timor
+        type: TL
+      - 
+        alt: variant
+        content: Timor ekialdea
+        type: TL
+      - 
+        content: Turkmenistan
+        type: TM
+      - 
+        content: Tunisia
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Turkia
+        type: TR
+      - 
+        content: Trinidad eta Tobago
+        type: TT
+      - 
+        content: Tuvalu
+        type: TV
+      - 
+        content: Taiwan
+        type: TW
+      - 
+        content: Tanzania
+        type: TZ
+      - 
+        content: Ukraina
+        type: UA
+      - 
+        content: Uganda
+        type: UG
+      - 
+        content: Estatu Batuetatik urruti dauden uharte txikiak
+        type: UM
+      - 
+        content: Ameriketako Estatu Batuak
+        type: US
+      - 
+        content: Uruguai
+        type: UY
+      - 
+        content: Uzbekistan
+        type: UZ
+      - 
+        content: Vatikano Hiria
+        type: VA
+      - 
+        content: Saint Vincent eta Grenadinak
+        type: VC
+      - 
+        content: Venezuela
+        type: VE
+      - 
+        content: Birjina uharte britainiarrak
+        type: VG
+      - 
+        content: Birjina uharte amerikarrak
+        type: VI
+      - 
+        content: Vietnam
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: Wallis eta Futuna
+        type: WF
+      - 
+        content: Samoa
+        type: WS
+      - 
+        content: Yemen
+        type: YE
+      - 
+        content: Mayotte
+        type: YT
+      - 
+        content: Hegoafrika
+        type: ZA
+      - 
+        content: Zambia
+        type: ZM
+      - 
+        content: Zimbabwe
+        type: ZW
+      - 
+        content: Eskualde ezezaguna
+        type: ZZ
+  transformNames: 
+    transformName: 
+      - 
+        content: BGN bihurketa
+        type: BGN
+      - 
+        content: Zenbakizko bihurketa
+        type: Numeric
+      - 
+        content: Tonu-bihurketa
+        type: Tone
+      - 
+        content: UNGEGN bihurketa
+        type: UNGEGN
+      - 
+        content: Azentu-bihurketa
+        type: x-Accents
+      - 
+        content: Zabalera osoko karaktere-bihurketa
+        type: x-Fullwidth
+      - 
+        content: Zabalera erdiko karaktere-bihurketa
+        type: x-Halfwidth
+      - 
+        content: Jamo-bihurketa
+        type: x-Jamo
+      - 
+        content: Pinyina
+        type: x-Pinyin
+      - 
+        content: Argitalpen-bihurketa
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: Txinako Errepublikako egutegia
+        type: roc
+      colAlternate: 
+        content: Ordenatu ikurrei ez ikusi eginda
+        type: shifted
+      colBackwards: 
+        content: Ordenatu azentuak alderantziz
+        type: 'yes'
+      colCaseFirst: 
+        content: Ordenatu maiuskulak lehenik
+        type: upper
+      colCaseLevel: 
+        content: Ordenatu maiuskulak eta minuskulak bereizita
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: Ordenatu kanak desberdin
+        type: 'yes'
+      colNormalization: 
+        content: Ordenatu Unicode arauen arabera
+        type: 'yes'
+      colNumeric: 
+        content: Ordenatu digituak zenbakien arabera
+        type: 'yes'
+      colStrength: 
+        content: Ordenatu azentuak / maiuskula eta minuskulak / zabalera
+        type: tertiary
+      collation: 
+        content: Radical trazuen hurrenkera
+        type: unihan
+      numbers: 
+        content: Vai digituak
+        type: vaii
+  variants: 
+    variant: 
+      - 
+        content: POLITON
+        type: POLYTON
+      - 
+        content: BERRIKUSIA
+        type: REVISED
+      - 
+        content: SAHO
+        type: SAAHO
+      - 
+        content: ESKOZIAR INGELESA
+        type: SCOTLAND
+      - 
+        content: VALENTZIERA
+        type: VALENCIA
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: Arabiar Emirerri Batuetako dirhama
+        type: AED
+      - 
+        displayName: Afganistango afghania
+        type: AFN
+      - 
+        displayName: Albaniako leka
+        type: ALL
+      - 
+        displayName: Armeniako drama
+        type: AMD
+      - 
+        displayName: Holandarren Antilletako guilderra
+        type: ANG
+      - 
+        displayName: Angolako kwanza
+        type: AOA
+      - 
+        displayName: 
+          - Argentinako pesoa
+          - 
+            content: Argentinako peso
+            count: one
+          - 
+            content: Argentinako peso
+            count: other
+        type: ARS
+      - 
+        displayName: Australiako dolarra
+        type: AUD
+      - 
+        displayName: 
+          - Arubeko florina
+          - 
+            content: Arubeko florin
+            count: one
+          - 
+            content: Arubeko florin
+            count: other
+        type: AWG
+      - 
+        displayName: Azerbaijango manata
+        type: AZN
+      - 
+        displayName: Bosnia-Herzegovinako marko trukakorra
+        type: BAM
+      - 
+        displayName: 
+          - Barbadosetako dolarra
+          - 
+            content: Barbadosetako dolar
+            count: one
+          - 
+            content: Barbadosetako dolar
+            count: other
+        type: BBD
+      - 
+        displayName: Bangladesheko taka
+        type: BDT
+      - 
+        displayName: Bulgariako leva
+        type: BGN
+      - 
+        displayName: Bahraingo dinarra
+        type: BHD
+      - 
+        displayName: Burundiko frankoa
+        type: BIF
+      - 
+        displayName: 
+          - Bermudetako dolarra
+          - 
+            content: Bermudetako dolar
+            count: one
+          - 
+            content: Bermudetako dolar
+            count: other
+        type: BMD
+      - 
+        displayName: Bruneiko dolarra
+        type: BND
+      - 
+        displayName: 
+          - Boliviako bolivianoa
+          - 
+            content: Boliviako boliviano
+            count: one
+          - 
+            content: Boliviako boliviano
+            count: other
+        type: BOB
+      - 
+        displayName: 
+          - Brasilgo erreala
+          - 
+            content: Brasilgo erreal
+            count: one
+          - 
+            content: Brasilgo erreal
+            count: other
+        type: BRL
+      - 
+        displayName: 
+          - Bahametako dolarra
+          - 
+            content: Bahametako dolar
+            count: one
+          - 
+            content: Bahametako dolar
+            count: other
+        type: BSD
+      - 
+        displayName: Bhutango ngultruma
+        type: BTN
+      - 
+        displayName: Bosniako pula
+        type: BWP
+      - 
+        displayName: Bielorrusiako errubloa
+        type: BYR
+      - 
+        displayName: 
+          - Belizeko dolarra
+          - 
+            content: Belizeko dolar
+            count: one
+          - 
+            content: Belizeko dolar
+            count: other
+        type: BZD
+      - 
+        displayName: 
+          - Kanadako dolarra
+          - 
+            content: Kanadako dolar
+            count: one
+          - 
+            content: Kanadako dolar
+            count: other
+        type: CAD
+      - 
+        displayName: Kongoko frankoa
+        type: CDF
+      - 
+        displayName: Suitzako frankoa
+        type: CHF
+      - 
+        displayName: 
+          - Txileko pesoa
+          - 
+            content: Txileko peso
+            count: one
+          - 
+            content: Txileko peso
+            count: other
+        type: CLP
+      - 
+        displayName: Txinako yuana
+        type: CNY
+      - 
+        displayName: 
+          - Kolonbiako pesoa
+          - 
+            content: Kolonbiako peso
+            count: one
+          - 
+            content: Kolonbiako peso
+            count: other
+        type: COP
+      - 
+        displayName: 
+          - Costa Ricako colona
+          - 
+            content: Costa Ricako colon
+            count: one
+          - 
+            content: Costa Ricako colon
+            count: other
+        type: CRC
+      - 
+        displayName: 
+          - Kubako peso trukakorra
+          - 
+            content: Kubako peso trukakor
+            count: one
+          - 
+            content: Kubako peso trukakor
+            count: other
+        type: CUC
+      - 
+        displayName: 
+          - Kubako pesoa
+          - 
+            content: Kubako peso
+            count: one
+          - 
+            content: Kubako peso
+            count: other
+        type: CUP
+      - 
+        displayName: 
+          - Cabo Verdeko ezkutua
+          - 
+            content: Cabo Verdeko ezkutu
+            count: one
+          - 
+            content: Cabo Verdeko ezkutu
+            count: other
+        type: CVE
+      - 
+        displayName: Txekiar Errepublikako koroa
+        type: CZK
+      - 
+        displayName: Djibouteko frankoa
+        type: DJF
+      - 
+        displayName: Danimarkako koroa
+        type: DKK
+      - 
+        displayName: 
+          - Dominikar Errepublikako pesoa
+          - 
+            content: Dominikar Errepublikako peso
+            count: one
+          - 
+            content: Dominikar Errepublikako peso
+            count: other
+        type: DOP
+      - 
+        displayName: 
+          - Algeriako dinarra
+          - 
+            content: Algeriako dinar
+            count: one
+          - 
+            content: Algeriako dinar
+            count: other
+        type: DZD
+      - 
+        displayName: Egiptoko libera
+        type: EGP
+      - 
+        displayName: Eritreako nakfa
+        type: ERN
+      - 
+        decimal: ","
+        group: .
+        pattern: ¤ #,##0.00
+        symbol: ₧
+        type: ESP
+      - 
+        displayName: Etiopiako birra
+        type: ETB
+      - 
+        displayName: Euroa
+        type: EUR
+      - 
+        displayName: Fijiko dolarra
+        type: FJD
+      - 
+        displayName: Falkland uharteetako libera
+        type: FKP
+      - 
+        displayName: Britainia Handiko libera esterlina
+        type: GBP
+      - 
+        displayName: Georgiako laria
+        type: GEL
+      - 
+        displayName: Ghanako cedia
+        type: GHS
+      - 
+        displayName: Gibraltarreko libera
+        type: GIP
+      - 
+        displayName: Ganbiako dalasia
+        type: GMD
+      - 
+        displayName: Gineako frankoa
+        type: GNF
+      - 
+        displayName: 
+          - Guatemalako quetzala
+          - 
+            content: Guatemalako quetzal
+            count: one
+          - 
+            content: Guatemalako quetzal
+            count: other
+        type: GTQ
+      - 
+        displayName: 
+          - Guyanako dolarra
+          - 
+            content: Guyanako dolar
+            count: one
+          - 
+            content: Guyanako dolar
+            count: other
+        type: GYD
+      - 
+        displayName: Hong Kongeko dolarra
+        type: HKD
+      - 
+        displayName: Hondurasko lempira
+        type: HNL
+      - 
+        displayName: Kroaziako kuna
+        type: HRK
+      - 
+        displayName: 
+          - Haitiko gourdea
+          - 
+            content: Haitiko gourde
+            count: one
+          - 
+            content: Haitiko gourde
+            count: other
+        type: HTG
+      - 
+        displayName: Hungariako florina
+        type: HUF
+      - 
+        displayName: Indonesiako rupiah
+        type: IDR
+      - 
+        displayName: Israeleko sheqel berria
+        type: ILS
+      - 
+        displayName: Indiako errupia
+        type: INR
+      - 
+        displayName: Irakeko dinarra
+        type: IQD
+      - 
+        displayName: Irango riala
+        type: IRR
+      - 
+        displayName: Islandiako koroa
+        type: ISK
+      - 
+        displayName: 
+          - Jamaikako dolarra
+          - 
+            content: Jamaikako dolar
+            count: one
+          - 
+            content: Jamaikako dolar
+            count: other
+        type: JMD
+      - 
+        displayName: Jordaniako dinarra
+        type: JOD
+      - 
+        displayName: Japoniako yena
+        type: JPY
+      - 
+        displayName: Kenyako shillinga
+        type: KES
+      - 
+        displayName: Kyrgystango soma
+        type: KGS
+      - 
+        displayName: Kanbodiako riela
+        type: KHR
+      - 
+        displayName: Komoreetako frankoa
+        type: KMF
+      - 
+        displayName: Ipar Koreako wona
+        type: KPW
+      - 
+        displayName: Hego Koreako wona
+        type: KRW
+      - 
+        displayName: Kuwaiteko dinarra
+        type: KWD
+      - 
+        displayName: 
+          - Kaiman uharteetako dolarra
+          - 
+            content: Kaiman uharteetako dolar
+            count: one
+          - 
+            content: Kaiman uharteetako dolar
+            count: other
+        type: KYD
+      - 
+        displayName: Kazakhstango tengea
+        type: KZT
+      - 
+        displayName: Laoteko kipa
+        type: LAK
+      - 
+        displayName: Libanoko libera
+        type: LBP
+      - 
+        displayName: Sri Lankako errupia
+        type: LKR
+      - 
+        displayName: Liberiako dolarra
+        type: LRD
+      - 
+        displayName: Lesothoko lotia
+        type: LSL
+      - 
+        displayName: Lituaniako litasa
+        type: LTL
+      - 
+        displayName: Letoniako latsa
+        type: LVL
+      - 
+        displayName: 
+          - Libiako dinarra
+          - 
+            content: Libiako dinar
+            count: one
+          - 
+            content: Libiako dinar
+            count: other
+        type: LYD
+      - 
+        displayName: 
+          - Marokoko dirhama
+          - 
+            content: Marokoko dirham
+            count: one
+          - 
+            content: Marokoko dirham
+            count: other
+        type: MAD
+      - 
+        displayName: Moldaviako leua
+        type: MDL
+      - 
+        displayName: Madagaskarreko ariarya
+        type: MGA
+      - 
+        displayName: Mazedoniako denara
+        type: MKD
+      - 
+        displayName: Myanmako kyata
+        type: MMK
+      - 
+        displayName: Mongoliako tugrika
+        type: MNT
+      - 
+        displayName: Macanako pataca
+        type: MOP
+      - 
+        displayName: Mauritaniako ouguiya
+        type: MRO
+      - 
+        displayName: Mauriziar uharteetako errupia
+        type: MUR
+      - 
+        displayName: Maldibiako rufiyaa
+        type: MVR
+      - 
+        displayName: Malawiko kwacha
+        type: MWK
+      - 
+        displayName: 
+          - Mexikoko pesoa
+          - 
+            content: Mexikoko peso
+            count: one
+          - 
+            content: Mexikoko peso
+            count: other
+        type: MXN
+      - 
+        displayName: Malaysiako ringgita
+        type: MYR
+      - 
+        displayName: Metical (Mozambike)
+        type: MZN
+      - 
+        displayName: Namibiako dolarra
+        type: NAD
+      - 
+        displayName: Nigeriako naira
+        type: NGN
+      - 
+        displayName: Nikaraguako cordoba
+        type: NIO
+      - 
+        displayName: Norvegiako koroa
+        type: NOK
+      - 
+        displayName: Nepalgo errupia
+        type: NPR
+      - 
+        displayName: Zeelanda Berriko dolarra
+        type: NZD
+      - 
+        displayName: Omango riala
+        type: OMR
+      - 
+        displayName: Panamako balboa
+        type: PAB
+      - 
+        displayName: 
+          - Peruko sol berria
+          - 
+            content: Peruko sol berri
+            count: one
+          - 
+            content: Peruko sol berri
+            count: other
+        type: PEN
+      - 
+        displayName: Papua Ginea Berriko kina
+        type: PGK
+      - 
+        displayName: Filipinetako pesoa
+        type: PHP
+      - 
+        displayName: Pakistango errupia
+        type: PKR
+      - 
+        displayName: Poloniako zlotya
+        type: PLN
+      - 
+        displayName: 
+          - Paraguaiko guarania
+          - 
+            content: Paraguaiko guarani
+            count: one
+          - 
+            content: Paraguaiko guarani
+            count: other
+        type: PYG
+      - 
+        displayName: Qatareko riala
+        type: QAR
+      - 
+        displayName: Leu (Errumania)
+        type: RON
+      - 
+        displayName: Serbiako dinarra
+        type: RSD
+      - 
+        displayName: Errusiako errubloa
+        type: RUB
+      - 
+        displayName: Ruandako frankoa
+        type: RWF
+      - 
+        displayName: Saudiko riala
+        type: SAR
+      - 
+        displayName: Salomon uharteetako dolarra
+        type: SBD
+      - 
+        displayName: Seychelleetako errupia
+        type: SCR
+      - 
+        displayName: Sudango libera
+        type: SDG
+      - 
+        displayName: Suediako koroa
+        type: SEK
+      - 
+        displayName: Singapurgo dolarra
+        type: SGD
+      - 
+        displayName: Santa Helenako libera
+        type: SHP
+      - 
+        displayName: Sierra Leonako leona
+        type: SLL
+      - 
+        displayName: Somaliako shillinga
+        type: SOS
+      - 
+        displayName: 
+          - Surinameko dolarra
+          - 
+            content: Surinameko dolar
+            count: one
+          - 
+            content: Surinameko dolar
+            count: other
+        type: SRD
+      - 
+        displayName: 
+          - Hego Sudango libera
+          - 
+            content: Hego Sudango libera
+            count: one
+          - 
+            content: Hego Sudango libera
+            count: other
+        type: SSP
+      - 
+        displayName: Sao Tomeko eta Principeko dobra
+        type: STD
+      - 
+        displayName: Siriako libera
+        type: SYP
+      - 
+        displayName: Swaziko lilangenia
+        type: SZL
+      - 
+        displayName: Thailandiako bahta
+        type: THB
+      - 
+        displayName: Tajikistango somonia
+        type: TJS
+      - 
+        displayName: Turkmenistango manata
+        type: TMT
+      - 
+        displayName: 
+          - Tunisiako dinarra
+          - 
+            content: Tunisiako dinar
+            count: one
+          - 
+            content: Tunisiako dinar
+            count: other
+        type: TND
+      - 
+        displayName: Tongako Paʻanga
+        type: TOP
+      - 
+        displayName: Turkiako lira
+        type: TRY
+      - 
+        displayName: 
+          - Trinidadeko eta Tobagoko dolarra
+          - 
+            content: Trinidadeko eta Tobagoko dolar
+            count: one
+          - 
+            content: Trinidadeko eta Tobagoko dolar
+            count: other
+        type: TTD
+      - 
+        displayName: Taiwango dolar berria
+        type: TWD
+      - 
+        displayName: Tanzaniako shillinga
+        type: TZS
+      - 
+        displayName: Ukrainako hryvnia
+        type: UAH
+      - 
+        displayName: Ugandako shillinga
+        type: UGX
+      - 
+        displayName: 
+          - AEBetako dolarra
+          - 
+            content: AEBetako dolar
+            count: one
+          - 
+            content: AEBetako dolar
+            count: other
+        type: USD
+      - 
+        displayName: 
+          - Uruguaiko pesoa
+          - 
+            content: Uruguaiko peso
+            count: one
+          - 
+            content: Uruguaiko peso
+            count: other
+        type: UYU
+      - 
+        displayName: Uzbekistango soma
+        type: UZS
+      - 
+        displayName: 
+          - Venezuelako bolivarra
+          - 
+            content: Venezuelako bolivar
+            count: one
+          - 
+            content: Venezuelako bolivar
+            count: other
+        type: VEF
+      - 
+        displayName: Vietnameko donga
+        type: VND
+      - 
+        displayName: Vanuatuko vatua
+        type: VUV
+      - 
+        displayName: Samoko tala
+        type: WST
+      - 
+        displayName: Afrika erdialdeko frankoa BEAC
+        type: XAF
+      - 
+        displayName: 
+          - Karibe ekialdeko dolarra
+          - 
+            content: Karibe ekialdeko dolar
+            count: one
+          - 
+            content: Karibe ekialdeko dolar
+            count: other
+        type: XCD
+      - 
+        displayName: 
+          - Afrika ekialdeko frankoa BCEAO
+          - 
+            content: Afrika ekialdeko franko BCEAO
+            count: one
+          - 
+            content: Afrika ekialdeko franko BCEAO
+            count: other
+        symbol: CFA
+        type: XOF
+      - 
+        displayName: CFP frankoa
+        type: XPF
+      - 
+        displayName: Moneta ezezaguna
+        type: XXX
+      - 
+        displayName: Yemengo riala
+        type: YER
+      - 
+        displayName: Hego Afrikako randa
+        type: ZAR
+      - 
+        displayName: Zambiako kwacha (1968-2012)
+        type: ZMK
+      - 
+        displayName: Zambiako kwacha
+        type: ZMW
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: "#,##0.00 ¤;(#,##0.00 ¤)"
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0}{1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0
+              count: one
+              type: 1000
+            - 
+              content: 0
+              count: other
+              type: 1000
+            - 
+              content: 0
+              count: one
+              type: 10000
+            - 
+              content: 0
+              count: other
+              type: 10000
+            - 
+              content: 0
+              count: one
+              type: 100000
+            - 
+              content: 0
+              count: other
+              type: 100000
+            - 
+              content: 0 milioi
+              count: one
+              type: 1000000
+            - 
+              content: 0 milioi
+              count: other
+              type: 1000000
+            - 
+              content: 00 milioi
+              count: one
+              type: 10000000
+            - 
+              content: 00 milioi
+              count: other
+              type: 10000000
+            - 
+              content: 000 milioi
+              count: one
+              type: 100000000
+            - 
+              content: 000 milioi
+              count: other
+              type: 100000000
+            - 
+              content: 0000 milioi
+              count: one
+              type: '1000000000'
+            - 
+              content: 0000 milioi
+              count: other
+              type: '1000000000'
+            - 
+              content: 00000 milioi
+              count: one
+              type: '10000000000'
+            - 
+              content: 00000 milioi
+              count: other
+              type: '10000000000'
+            - 
+              content: 000000 milioi
+              count: one
+              type: '100000000000'
+            - 
+              content: 000000 milioi
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 bilioi
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 bilioi
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 bilioi
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 bilioi
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 bilioi
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 bilioi
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0
+              count: one
+              draft: contributed
+              type: 1000
+            - 
+              content: 0
+              count: other
+              draft: contributed
+              type: 1000
+            - 
+              content: 0
+              count: one
+              draft: contributed
+              type: 10000
+            - 
+              content: 0
+              count: other
+              draft: contributed
+              type: 10000
+            - 
+              content: 0
+              count: one
+              draft: contributed
+              type: 100000
+            - 
+              content: 0
+              count: other
+              draft: contributed
+              type: 100000
+            - 
+              content: 0 M
+              count: one
+              draft: contributed
+              type: 1000000
+            - 
+              content: 0 M
+              count: other
+              draft: contributed
+              type: 1000000
+            - 
+              content: 00 M
+              count: one
+              draft: contributed
+              type: 10000000
+            - 
+              content: 00 M
+              count: other
+              draft: contributed
+              type: 10000000
+            - 
+              content: 000 M
+              count: one
+              draft: contributed
+              type: 100000000
+            - 
+              content: 000 M
+              count: other
+              draft: contributed
+              type: 100000000
+            - 
+              content: 0000 M
+              count: one
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 0000 M
+              count: other
+              draft: contributed
+              type: '1000000000'
+            - 
+              content: 00k M
+              count: one
+              draft: contributed
+              type: '10000000000'
+            - 
+              content: 00k M
+              count: other
+              draft: contributed
+              type: '10000000000'
+            - 
+              content: 000k M
+              count: one
+              draft: contributed
+              type: '100000000000'
+            - 
+              content: 000k M
+              count: other
+              draft: contributed
+              type: '100000000000'
+            - 
+              content: 0 B
+              count: one
+              draft: contributed
+              type: '1000000000000'
+            - 
+              content: 0 B
+              count: other
+              draft: contributed
+              type: '1000000000000'
+            - 
+              content: 00 B
+              count: one
+              draft: contributed
+              type: '10000000000000'
+            - 
+              content: 00 B
+              count: other
+              draft: contributed
+              type: '10000000000000'
+            - 
+              content: 000 B
+              count: one
+              draft: contributed
+              type: '100000000000000'
+            - 
+              content: 000 B
+              count: other
+              draft: contributed
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "% #,##0"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: .
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: ez:e
+    yesstr: bai:b
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} eguna"
+          count: one
+        - 
+          alt: short
+          content: "{0} egun"
+          count: one
+        - 
+          content: "{0} egun"
+          count: other
+        - 
+          alt: short
+          content: "{0} egun"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} egun barru"
+          count: one
+        - 
+          content: "{0} egun barru"
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: Duela {0} egun
+          count: one
+        - 
+          content: Duela {0} egun
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} ordua"
+          count: one
+        - 
+          alt: short
+          content: "{0} ordu"
+          count: one
+        - 
+          content: "{0} h"
+          count: other
+        - 
+          alt: short
+          content: "{0} ordu"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} ordu barru"
+          count: one
+        - 
+          content: "{0} ordu barru"
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: Duela {0} ordubete
+          count: one
+        - 
+          content: Duela {0} ordu
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minutu"
+          count: one
+        - 
+          alt: short
+          content: "{0} minutu"
+          count: one
+        - 
+          content: "{0} minutu"
+          count: other
+        - 
+          alt: short
+          content: "{0} minutu"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: "{0} minutu barru"
+          count: one
+        - 
+          content: "{0} minutu barru"
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: Duela {0} minutu
+          count: one
+        - 
+          content: Duela {0} minutu
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} hilabete"
+          count: one
+        - 
+          alt: short
+          content: "{0} hilabete"
+          count: one
+        - 
+          content: "{0} hilabete"
+          count: other
+        - 
+          alt: short
+          content: "{0} hilabete"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: "{0} hilabete barru"
+          count: one
+        - 
+          content: "{0} hilabete barru"
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: Duela {0} hilabete
+          count: one
+        - 
+          content: Duela {0} hilabete
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} segundo"
+          count: one
+        - 
+          alt: short
+          content: "{0} seg."
+          count: one
+        - 
+          content: "{0} s"
+          count: other
+        - 
+          alt: short
+          content: "{0} seg."
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: "{0} segundo barru"
+          count: one
+        - 
+          content: "{0} segundo barru"
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: Duela {0} segundo
+          count: one
+        - 
+          content: Duela {0} segundo
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} aste"
+          count: one
+        - 
+          alt: short
+          content: "{0} aste"
+          count: one
+        - 
+          content: "{0} aste"
+          count: other
+        - 
+          alt: short
+          content: "{0} aste"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: "{0} aste barru"
+          count: one
+        - 
+          content: "{0} aste barru"
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: Duela {0} aste
+          count: one
+        - 
+          content: Duela {0} aste
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} urtea"
+          count: one
+        - 
+          alt: short
+          content: "{0} urte"
+          count: one
+        - 
+          content: "{0} urte"
+          count: other
+        - 
+          alt: short
+          content: "{0} urte"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: "{0} urte barru"
+          count: one
+        - 
+          content: "{0} urte barru"
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: Duela {0} urte
+          count: one
+        - 
+          content: Duela {0} urte
+          count: other

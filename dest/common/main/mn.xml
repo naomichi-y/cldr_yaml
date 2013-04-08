@@ -1,0 +1,6740 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[а б в г д е ё ж з и й к л м н о ө п р с т у ү ф х ц ч ш щ ъ ы ь э ю я]"
+    - 
+      content: "[ә җ ӊ һ]"
+      type: auxiliary
+    - 
+      content: "[А Б В Г Д Е Ж З И Й К Л М Н О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я]"
+      draft: unconfirmed
+      type: index
+    - 
+      content: "[\\- ‐ – — , ; \\: ! ? . … ' ‘ ’ \" “ ” ( ) \\[ \\] § @ * / \\& # † ‡ ′ ″]"
+      type: punctuation
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, G y 'оны' MMM 'сарын' dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: G y 'оны' MMM 'сарын' d
+              type: long
+            - 
+              dateFormat: 
+                pattern: G y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: dd E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M-d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E MMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M-d
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, y-M-d
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: E, y MMM d
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y 'оны' QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1}, {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM/dd - E, MM/dd
+                  d: 
+                    content: E, MM/dd - E, MM/dd
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM/dd - E, MM/dd
+                  d: 
+                    content: E, MM/dd - E, MM/dd
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MM/d - MM/d
+                  d: 
+                    content: MM/d-d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM/dd-MM/dd
+                  d: 
+                    content: MM/dd-MM/dd
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM-MM
+                  "y": 
+                    content: y/MM - y/MM
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  d: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  "y": 
+                    content: E, y/MM/dd – E, y/MM/dd
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM-MM
+                  "y": 
+                    content: y/MM - y/MM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  d: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  "y": 
+                    content: E, y/MM/dd – E, y/MM/dd
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y 'оны' MM-MM-'р' 'сар'
+                  "y": 
+                    content: y/MM -y/MM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM/dd - MM/dd
+                  d: 
+                    content: y/MM/d-d
+                  "y": 
+                    content: y/MM/dd - y/MM/dd
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM/dd -MM/dd
+                  d: 
+                    content: y/MM/dd-dd
+                  "y": 
+                    content: y/MM/dd - y/MM/dd
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, y 'оны' MMM 'сарын' dd
+              type: full
+            - 
+              dateFormat: 
+                pattern: y 'оны' MMM 'сарын' d
+              type: long
+            - 
+              dateFormat: 
+                pattern: y MMM d
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y-MM-dd
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: dd E
+              H: 
+                content: HH
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M-d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E MMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M-d
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: y-M
+              yMEd: 
+                content: E, y-M-d
+              yMMM: 
+                content: y MMM
+              yMMMEd: 
+                content: E, y MMM d
+              yMMMd: 
+                content: y MMM d
+              yMd: 
+                content: y-M-d
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y 'оны' QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1}, {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                  m: 
+                    content: HH:mm–HH:mm
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                  m: 
+                    content: HH:mm–HH:mm v
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM/dd - E, MM/dd
+                  d: 
+                    content: E, MM/dd - E, MM/dd
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, MM/dd - E, MM/dd
+                  d: 
+                    content: E, MM/dd - E, MM/dd
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MM/d - MM/d
+                  d: 
+                    content: MM/d-d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: MM/dd-MM/dd
+                  d: 
+                    content: MM/dd-MM/dd
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM-MM
+                  "y": 
+                    content: y/MM - y/MM
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  d: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  "y": 
+                    content: E, y/MM/dd – E, y/MM/dd
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM-MM
+                  "y": 
+                    content: y/MM - y/MM
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  d: 
+                    content: E, y/MM/dd – E, y/MM/dd
+                  "y": 
+                    content: E, y/MM/dd – E, y/MM/dd
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: y 'оны' MM-MM-'р' 'сар'
+                  "y": 
+                    content: y/MM -y/MM
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM/dd - MM/dd
+                  d: 
+                    content: y/MM/d-d
+                  "y": 
+                    content: y/MM/dd - y/MM/dd
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y/MM/dd -MM/dd
+                  d: 
+                    content: y/MM/dd-dd
+                  "y": 
+                    content: y/MM/dd - y/MM/dd
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: ҮӨ
+                  type: am
+                - 
+                  content: ҮХ
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Ня
+                      type: sun
+                    - 
+                      content: Да
+                      type: mon
+                    - 
+                      content: Мя
+                      type: tue
+                    - 
+                      content: Лх
+                      type: wed
+                    - 
+                      content: Пү
+                      type: thu
+                    - 
+                      content: Ба
+                      type: fri
+                    - 
+                      content: Бя
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: 1
+                      type: sun
+                    - 
+                      content: 2
+                      type: mon
+                    - 
+                      content: 3
+                      type: tue
+                    - 
+                      content: 4
+                      type: wed
+                    - 
+                      content: 5
+                      type: thu
+                    - 
+                      content: 6
+                      type: fri
+                    - 
+                      content: 7
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Ня
+                      type: sun
+                    - 
+                      content: Да
+                      type: mon
+                    - 
+                      content: Мя
+                      type: tue
+                    - 
+                      content: Лх
+                      type: wed
+                    - 
+                      content: Пү
+                      type: thu
+                    - 
+                      content: Ба
+                      type: fri
+                    - 
+                      content: Бя
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: ням
+                      type: sun
+                    - 
+                      content: даваа
+                      type: mon
+                    - 
+                      content: мягмар
+                      type: tue
+                    - 
+                      content: лхагва
+                      type: wed
+                    - 
+                      content: пүрэв
+                      type: thu
+                    - 
+                      content: баасан
+                      type: fri
+                    - 
+                      content: бямба
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Ня
+                      type: sun
+                    - 
+                      content: Да
+                      type: mon
+                    - 
+                      content: Мя
+                      type: tue
+                    - 
+                      content: Лх
+                      type: wed
+                    - 
+                      content: Пү
+                      type: thu
+                    - 
+                      content: Ба
+                      type: fri
+                    - 
+                      content: Бя
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: 1
+                      type: sun
+                    - 
+                      content: 2
+                      type: mon
+                    - 
+                      content: 3
+                      type: tue
+                    - 
+                      content: 4
+                      type: wed
+                    - 
+                      content: 5
+                      type: thu
+                    - 
+                      content: 6
+                      type: fri
+                    - 
+                      content: 7
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Ня
+                      type: sun
+                    - 
+                      content: Да
+                      type: mon
+                    - 
+                      content: Мя
+                      type: tue
+                    - 
+                      content: Лх
+                      type: wed
+                    - 
+                      content: Пү
+                      type: thu
+                    - 
+                      content: Ба
+                      type: fri
+                    - 
+                      content: Бя
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: ням
+                      type: sun
+                    - 
+                      content: даваа
+                      type: mon
+                    - 
+                      content: мягмар
+                      type: tue
+                    - 
+                      content: лхагва
+                      type: wed
+                    - 
+                      content: пүрэв
+                      type: thu
+                    - 
+                      content: баасан
+                      type: fri
+                    - 
+                      content: бямба
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: МЭӨ
+                type: 0
+              - 
+                content: МЭ
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: манай эриний өмнөх
+                type: 0
+              - 
+                content: манай эриний
+                type: 1
+          eraNarrow: 
+            era: 
+              - 
+                content: м.э.ө
+                type: 0
+              - 
+                content: м.э.
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: хул
+                      type: 1
+                    - 
+                      content: үхэ
+                      type: 2
+                    - 
+                      content: бар
+                      type: 3
+                    - 
+                      content: туу
+                      type: 4
+                    - 
+                      content: луу
+                      type: 5
+                    - 
+                      content: мог
+                      type: 6
+                    - 
+                      content: мор
+                      type: 7
+                    - 
+                      content: хон
+                      type: 8
+                    - 
+                      content: бич
+                      type: 9
+                    - 
+                      content: тах
+                      type: 10
+                    - 
+                      content: нох
+                      type: 11
+                    - 
+                      content: гах
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                    - 
+                      content: 5
+                      type: 5
+                    - 
+                      content: 6
+                      type: 6
+                    - 
+                      content: 7
+                      type: 7
+                    - 
+                      content: 8
+                      type: 8
+                    - 
+                      content: 9
+                      type: 9
+                    - 
+                      content: 10
+                      type: 10
+                    - 
+                      content: 11
+                      type: 11
+                    - 
+                      content: 12
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Хулгана
+                      type: 1
+                    - 
+                      content: Үхэр
+                      type: 2
+                    - 
+                      content: Бар
+                      type: 3
+                    - 
+                      content: Туулай
+                      type: 4
+                    - 
+                      content: Луу
+                      type: 5
+                    - 
+                      content: Могой
+                      type: 6
+                    - 
+                      content: Морь
+                      type: 7
+                    - 
+                      content: Хонь
+                      type: 8
+                    - 
+                      content: Бич
+                      type: 9
+                    - 
+                      content: Тахиа
+                      type: 10
+                    - 
+                      content: Нохой
+                      type: 11
+                    - 
+                      content: Гахай
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: хул
+                      type: 1
+                    - 
+                      content: үхэ
+                      type: 2
+                    - 
+                      content: бар
+                      type: 3
+                    - 
+                      content: туу
+                      type: 4
+                    - 
+                      content: луу
+                      type: 5
+                    - 
+                      content: мог
+                      type: 6
+                    - 
+                      content: мор
+                      type: 7
+                    - 
+                      content: хон
+                      type: 8
+                    - 
+                      content: бич
+                      type: 9
+                    - 
+                      content: тах
+                      type: 10
+                    - 
+                      content: нох
+                      type: 11
+                    - 
+                      content: гах
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                    - 
+                      content: 5
+                      type: 5
+                    - 
+                      content: 6
+                      type: 6
+                    - 
+                      content: 7
+                      type: 7
+                    - 
+                      content: 8
+                      type: 8
+                    - 
+                      content: 9
+                      type: 9
+                    - 
+                      content: 10
+                      type: 10
+                    - 
+                      content: 11
+                      type: 11
+                    - 
+                      content: 12
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Хулгана
+                      type: 1
+                    - 
+                      content: Үхэр
+                      type: 2
+                    - 
+                      content: Бар
+                      type: 3
+                    - 
+                      content: Туулай
+                      type: 4
+                    - 
+                      content: Луу
+                      type: 5
+                    - 
+                      content: Могой
+                      type: 6
+                    - 
+                      content: Морь
+                      type: 7
+                    - 
+                      content: Хонь
+                      type: 8
+                    - 
+                      content: Бич
+                      type: 9
+                    - 
+                      content: Тахиа
+                      type: 10
+                    - 
+                      content: Нохой
+                      type: 11
+                    - 
+                      content: Гахай
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: У1
+                      type: 1
+                    - 
+                      content: У2
+                      type: 2
+                    - 
+                      content: У3
+                      type: 3
+                    - 
+                      content: У4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1-р улирал
+                      type: 1
+                    - 
+                      content: 2-р улирал
+                      type: 2
+                    - 
+                      content: 3-р улирал
+                      type: 3
+                    - 
+                      content: 4-р улирал
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: У1
+                      type: 1
+                    - 
+                      content: У2
+                      type: 2
+                    - 
+                      content: У3
+                      type: 3
+                    - 
+                      content: У4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1-р улирал
+                      type: 1
+                    - 
+                      content: 2-р улирал
+                      type: 2
+                    - 
+                      content: 3-р улирал
+                      type: 3
+                    - 
+                      content: 4-р улирал
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: Эрин
+        type: era
+      - 
+        displayName: Жил
+        type: year
+      - 
+        displayName: Сар
+        type: month
+      - 
+        displayName: Долоо хоног
+        type: week
+      - 
+        displayName: Өдөр
+        relative: 
+          - 
+            content: Уржигдар
+            type: -2
+          - 
+            content: Өчигдөр
+            type: -1
+          - 
+            content: Өнөөдөр
+            type: 0
+          - 
+            content: Маргааш
+            type: 1
+          - 
+            content: Нөгөөдөр
+            type: 2
+        type: day
+      - 
+        displayName: Гариг
+        type: weekday
+      - 
+        displayName: Өдрийн цаг
+        type: dayperiod
+      - 
+        displayName: Цаг
+        type: hour
+      - 
+        displayName: Минут
+        type: minute
+      - 
+        displayName: Хором
+        type: second
+      - 
+        displayName: Бүс
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} ({0})"
+    gmtFormat: GMT{0}
+    gmtZeroFormat: GMT
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: Афганистаны цаг
+        type: Afghanistan
+      - 
+        long: 
+          standard: Төв Африкийн цаг
+        type: Africa_Central
+      - 
+        long: 
+          standard: Зүүн Африкийн цаг
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: Өмнөд Африкийн цаг
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: Баруун Африкийн зуны цаг
+          generic: Баруун Африкийн цаг
+          standard: Баруун Африкийн стандарт цаг
+        type: Africa_Western
+      - 
+        long: 
+          daylight: Аляскийн зуны цаг
+          generic: Аляскийн цаг
+          standard: Аляскийн стандарт цаг
+        type: Alaska
+      - 
+        long: 
+          daylight: Амазоны зуны цаг
+          generic: Амазоны цаг
+          standard: Амазоны стандарт цаг
+        type: Amazon
+      - 
+        long: 
+          daylight: Хойд Америкийн зуны цаг
+          generic: Хойд Америкийн төв цаг
+          standard: Хойд Америкийн төв стандарт цаг
+        type: America_Central
+      - 
+        long: 
+          daylight: Хойд Америкийн зүүн эргийн зуны цаг
+          generic: Хойд Америкийн зүүн эргийн цаг
+          standard: Хойд Америкийн зүүн эргийн стандарт цаг
+        type: America_Eastern
+      - 
+        long: 
+          daylight: Хойд Америкийн уулын зуны цаг
+          generic: Хойд Америкийн уулын цаг
+          standard: Хойд Америкийн уулын стандарт цаг
+        type: America_Mountain
+      - 
+        long: 
+          daylight: Хойд Америкийн Номхон далайн зуны цаг
+          generic: Хойд Америкийн Номхон далайн цаг
+          standard: Хойд Америкийн Номхон далайн стандарт цаг
+        type: America_Pacific
+      - 
+        long: 
+          daylight: Арабын зуны цаг
+          generic: Арабын цаг
+          standard: Арабын стандарт цаг
+        type: Arabian
+      - 
+        long: 
+          daylight: Аргентины зуны цаг
+          generic: Аргентины цаг
+          standard: Аргентины стандарт цаг
+        type: Argentina
+      - 
+        long: 
+          daylight: Баруун Аргентины зуны цаг
+          generic: Баруун Аргентины цаг
+          standard: Баруун Аргентины стандарт цаг
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: Армений зуны цаг
+          generic: Армений цаг
+          standard: Армений стандарт цаг
+        type: Armenia
+      - 
+        long: 
+          daylight: Атлантын зуны цаг
+          generic: Атлантын цаг
+          standard: Атлантын стандарт цаг
+        type: Atlantic
+      - 
+        long: 
+          daylight: Австралийн төв зуны цаг
+          generic: Төв Австралийн цаг
+          standard: Австралийн төв стандарт цаг
+        type: Australia_Central
+      - 
+        long: 
+          daylight: Австралийн төв баруун эргийн зуны цаг
+          generic: Австралийн төв баруун эргийн цаг
+          standard: Австралийн төв баруун эргийн стандарт цаг
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: Австралийн зүүн эргийн зуны цаг
+          generic: Зүүн Австралийн цаг
+          standard: Австралийн зүүн эргийн стандарт цаг
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: Австралийн баруун эргийн зуны цаг
+          generic: Баруун Австралийн цаг
+          standard: Австралийн баруун эргийн стандарт цаг
+        type: Australia_Western
+      - 
+        long: 
+          daylight: Азербайжаны зуны цаг
+          generic: Азербайжаны цаг
+          standard: Азербайжаны стандарт цаг
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: Азорын зуны цаг
+          generic: Азорын цаг
+          standard: Азорын стандарт цаг
+        type: Azores
+      - 
+        long: 
+          daylight: Бангладешийн зуны цаг
+          generic: Бангладешийн цаг
+          standard: Бангладешийн стандарт цаг
+        type: Bangladesh
+      - 
+        long: 
+          standard: Бутаны цаг
+        type: Bhutan
+      - 
+        long: 
+          standard: Боливийн цаг
+        type: Bolivia
+      - 
+        long: 
+          daylight: Бразилийн зуны цаг
+          generic: Бразилийн цаг
+          standard: Бразилийн стандарт цаг
+        type: Brasilia
+      - 
+        long: 
+          standard: Бруней Дарассаламын цаг
+        type: Brunei
+      - 
+        long: 
+          daylight: Капе-Вердегийн зуны цаг
+          generic: Капе-Вердегийн цаг
+          standard: Капе-Вердегийн стандарт цаг
+        type: Cape_Verde
+      - 
+        long: 
+          standard: Чаморрогийн цаг
+        type: Chamorro
+      - 
+        long: 
+          daylight: Чэтамын зуны цаг
+          generic: Чэтамын цаг
+          standard: Чэтамын стандарт цаг
+        type: Chatham
+      - 
+        long: 
+          daylight: Чилийн зуны цаг
+          generic: Чилийн цаг
+          standard: Чилийн стандарт цаг
+        type: Chile
+      - 
+        long: 
+          daylight: Хятадын зуны цаг
+          generic: Хятадын цаг
+          standard: Хятадын стандарт цаг
+        type: China
+      - 
+        long: 
+          daylight: Чойбалсангийн зуны цаг
+          generic: Чойбалсангийн цаг
+          standard: Чойбалсангийн стандарт цаг
+        type: Choibalsan
+      - 
+        long: 
+          standard: Зул Сарын Арлын цаг
+        type: Christmas
+      - 
+        long: 
+          standard: Кокос Арлуудын цаг
+        type: Cocos
+      - 
+        long: 
+          daylight: Колумбын зуны цаг
+          generic: Колумбын цаг
+          standard: Колумбын стандарт цаг
+        type: Colombia
+      - 
+        long: 
+          daylight: Күүкийн Арлуудын хагас зуны цаг
+          generic: Күүкийн Арлуудын цаг
+          standard: Күүкийн Арлуудын стандарт цаг
+        type: Cook
+      - 
+        long: 
+          daylight: Кубын зуны цаг
+          generic: Кубын цаг
+          standard: Кубын стандарт цаг
+        type: Cuba
+      - 
+        long: 
+          standard: Дэвисын цаг
+        type: Davis
+      - 
+        long: 
+          standard: Дюмон д’Юрвилийн цаг
+        type: DumontDUrville
+      - 
+        long: 
+          standard: Зүүн Тиморын цаг
+        type: East_Timor
+      - 
+        long: 
+          daylight: Истерын Арлын зуны цаг
+          generic: Истерын Арлын цаг
+          standard: Истерын Арлын стандарт цаг
+        type: Easter
+      - 
+        long: 
+          standard: Эквадорын цаг
+        type: Ecuador
+      - 
+        long: 
+          daylight: Төв Европын зуны цаг
+          generic: Төв Европын цаг
+          standard: Төв Европын стандарт цаг
+        type: Europe_Central
+      - 
+        long: 
+          daylight: Зүүн Европын зуны цаг
+          generic: Зүүн Европын цаг
+          standard: Зүүн Европын стандарт цаг
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: Баруун Европын зуны цаг
+          generic: Баруун Европын цаг
+          standard: Баруун Европын стандарт цаг
+        type: Europe_Western
+      - 
+        long: 
+          daylight: Фолькландын Арлуудын зуны цаг
+          generic: Фолькландын Арлуудын цаг
+          standard: Фолькландын Арлуудын стандарт цаг
+        type: Falkland
+      - 
+        long: 
+          daylight: Фижигийн зуны цаг
+          generic: Фижигийн цаг
+          standard: Фижигийн стандарт цаг
+        type: Fiji
+      - 
+        long: 
+          standard: Францын Гияанагийн цаг
+        type: French_Guiana
+      - 
+        long: 
+          standard: Францын Өмнөд ба Антарктик цаг
+        type: French_Southern
+      - 
+        long: 
+          standard: Галапагосын цаг
+        type: Galapagos
+      - 
+        long: 
+          standard: Гамбьегийн цаг
+        type: Gambier
+      - 
+        long: 
+          daylight: Гүржийн зуны цаг
+          generic: Гүржийн цаг
+          standard: Гүржийн стандарт цаг
+        type: Georgia
+      - 
+        long: 
+          standard: Жильбертын Арлуудын цаг
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: Гринвичийн үндсэн цаг
+        type: GMT
+      - 
+        long: 
+          daylight: Зүүн Гринландын зуны цаг
+          generic: Зүүн Гринландын цаг
+          standard: Зүүн Гринландын стандарт цаг
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: Баруун Гринландын зуны цаг
+          generic: Баруун Гринландын цаг
+          standard: Баруун Гринландын стандарт цаг
+        type: Greenland_Western
+      - 
+        long: 
+          standard: Гульфын цаг
+        type: Gulf
+      - 
+        long: 
+          standard: Гуяанагийн цаг
+        type: Guyana
+      - 
+        long: 
+          daylight: Хавай-Алеутын зуны цаг
+          generic: Хавай-Алеутын цаг
+          standard: Хавай-Алеутын стандарт цаг
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: Хонг Конгын зуны цаг
+          generic: Хонг Конгын цаг
+          standard: Хонг Конгын стандарт цаг
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: Ховдын зуны цаг
+          generic: Ховдын цаг
+          standard: Ховдын стандарт цаг
+        type: Hovd
+      - 
+        long: 
+          standard: Энэтхэгийн цаг
+        type: India
+      - 
+        long: 
+          standard: Энэтхэг далайн цаг
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: Энэтхэг-Хятадын хойгийн цаг
+        type: Indochina
+      - 
+        long: 
+          standard: Төв Индонезийн цаг
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: Зүүн Индонезийн цаг
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: Баруун Индонезийн цаг
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: Ираны зуны цаг
+          generic: Ираны цаг
+          standard: Ираны стандарт цаг
+        type: Iran
+      - 
+        long: 
+          daylight: Эрхүүгийн зуны цаг
+          generic: Эрхүүгийн цаг
+          standard: Эрхүүгийн стандарт цаг
+        type: Irkutsk
+      - 
+        long: 
+          daylight: Израилийн зуны цаг
+          generic: Израилийн цаг
+          standard: Израилийн стандарт цаг
+        type: Israel
+      - 
+        long: 
+          daylight: Японы зуны цаг
+          generic: Японы цаг
+          standard: Японы стандарт цаг
+        type: Japan
+      - 
+        long: 
+          standard: Зүүн Казахстаны цаг
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: Баруун Казахстаны цаг
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: Өмнөд Солонгосын зуны цаг
+          generic: Өмнөд Солонгосын цаг
+          standard: Өмнөд Солонгосын стандарт цаг
+        type: Korea
+      - 
+        long: 
+          standard: Косраегийн цаг
+        type: Kosrae
+      - 
+        long: 
+          daylight: Красноярскийн зуны цаг
+          generic: Красноярскийн цаг
+          standard: Красноярскийн стандарт цаг
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: Кыргызстаны цаг
+        type: Kyrgystan
+      - 
+        long: 
+          standard: Лайн Арлуудын цаг
+        type: Line_Islands
+      - 
+        long: 
+          daylight: Лорд Хаугийн зуны цаг
+          generic: Лорд Хаугийн цаг
+          standard: Лорд Хаугийн стандарт цаг
+        type: Lord_Howe
+      - 
+        long: 
+          standard: Маккуори Арлын цаг
+        type: Macquarie
+      - 
+        long: 
+          daylight: Магаданы зуны цаг
+          generic: Магаданы цаг
+          standard: Магаданы стандарт цаг
+        type: Magadan
+      - 
+        long: 
+          standard: Малайзийн цаг
+        type: Malaysia
+      - 
+        long: 
+          standard: Мальдивийн цаг
+        type: Maldives
+      - 
+        long: 
+          standard: Маркесасын цаг
+        type: Marquesas
+      - 
+        long: 
+          standard: Маршаллын Арлуудын цаг
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: Мавритусын зуны цаг
+          generic: Мавритусын цаг
+          standard: Мавритусын стандарт цаг
+        type: Mauritius
+      - 
+        long: 
+          standard: Моусоны цаг
+        type: Mawson
+      - 
+        long: 
+          daylight: Улаанбаатарын зуны цаг
+          generic: Улаанбаатарын цаг
+          standard: Улаанбаатарын стандарт цаг
+        type: Mongolia
+      - 
+        long: 
+          daylight: Москвагийн зуны цаг
+          generic: Москвагийн цаг
+          standard: Москвагийн стандарт цаг
+        type: Moscow
+      - 
+        long: 
+          standard: Мьянмарын цаг
+        type: Myanmar
+      - 
+        long: 
+          standard: Науругийн цаг
+        type: Nauru
+      - 
+        long: 
+          standard: Балбын цаг
+        type: Nepal
+      - 
+        long: 
+          daylight: Шинэ Каледонийн зуны цаг
+          generic: Шинэ Каледонийн цаг
+          standard: Шинэ Каледонийн стандарт цаг
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: Шинэ Зеландын зуны цаг
+          generic: Шинэ Зеландын цаг
+          standard: Шинэ Зеландын стандарт цаг
+        type: New_Zealand
+      - 
+        long: 
+          daylight: Нью-Фаундлендын зуны цаг
+          generic: Нью-Фаундлендын цаг
+          standard: Нью-Фаундлендын стандарт цаг
+        type: Newfoundland
+      - 
+        long: 
+          standard: Ниуэгийн цаг
+        type: Niue
+      - 
+        long: 
+          standard: Норфолк Арлын цаг
+        type: Norfolk
+      - 
+        long: 
+          daylight: Фернандо де Норонагийн зуны цаг
+          generic: Фернандо де Норонагийн цаг
+          standard: Фернандо де Норонагийн стандарт цаг
+        type: Noronha
+      - 
+        long: 
+          daylight: Новосибирскийн зуны цаг
+          generic: Новосибирскийн цаг
+          standard: Новосибирскийн стандарт цаг
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: Омскийн зуны цаг
+          generic: Омскийн цаг
+          standard: Омскийн стандарт цаг
+        type: Omsk
+      - 
+        long: 
+          daylight: Пакистаны зуны цаг
+          generic: Пакистаны цаг
+          standard: Пакистаны стандарт цаг
+        type: Pakistan
+      - 
+        long: 
+          standard: Палаугийн цаг
+        type: Palau
+      - 
+        long: 
+          standard: Папуа Шинэ Гвинейн цаг
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: Парагвайн зуны цаг
+          generic: Парагвайн цаг
+          standard: Парагвайн стандарт цаг
+        type: Paraguay
+      - 
+        long: 
+          daylight: Перугийн зуны цаг
+          generic: Перугийн цаг
+          standard: Перугийн стандарт цаг
+        type: Peru
+      - 
+        long: 
+          daylight: Филиппины зуны цаг
+          generic: Филиппины цаг
+          standard: Филиппины стандарт цаг
+        type: Philippines
+      - 
+        long: 
+          standard: Феникс арлуудын цаг
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: Сент-Пьерре ба Микелоны зуны цаг
+          generic: Сент-Пьерре ба Микелоны цаг
+          standard: Сент-Пьерре ба Микелоны стандарт цаг
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: Питкерны цаг
+        type: Pitcairn
+      - 
+        long: 
+          standard: Понапегийн цаг
+        type: Ponape
+      - 
+        long: 
+          standard: Реюньоны цаг
+        type: Reunion
+      - 
+        long: 
+          standard: Ротерагийн цаг
+        type: Rothera
+      - 
+        long: 
+          daylight: Сахалины зуны цаг
+          generic: Сахалины цаг
+          standard: Сахалины стандарт цаг
+        type: Sakhalin
+      - 
+        long: 
+          daylight: Самоагийн зуны цаг
+          generic: Самоагийн цаг
+          standard: Самоагийн стандарт цаг
+        type: Samoa
+      - 
+        long: 
+          standard: Сейшелийн цаг
+        type: Seychelles
+      - 
+        long: 
+          standard: Сингапурын цаг
+        type: Singapore
+      - 
+        long: 
+          standard: Соломоны Арлуудын цаг
+        type: Solomon
+      - 
+        long: 
+          standard: Өмнөд Жоржийн цаг
+        type: South_Georgia
+      - 
+        long: 
+          standard: Сёвагийн цаг
+        type: Syowa
+      - 
+        long: 
+          standard: Таитигийн цаг
+        type: Tahiti
+      - 
+        long: 
+          daylight: Тайпейн зуны цаг
+          generic: Тайпейн цаг
+          standard: Тайпейн стандарт цаг
+        type: Taipei
+      - 
+        long: 
+          standard: Тажикистаны цаг
+        type: Tajikistan
+      - 
+        long: 
+          standard: Токелаугийн цаг
+        type: Tokelau
+      - 
+        long: 
+          daylight: Тонгагийн зуны цаг
+          generic: Тонгагийн цаг
+          standard: Тонгагийн стандарт цаг
+        type: Tonga
+      - 
+        long: 
+          standard: Чүүкийн цаг
+        type: Truk
+      - 
+        long: 
+          daylight: Туркменистаны зуны цаг
+          generic: Туркменистаны цаг
+          standard: Туркменистаны стандарт цаг
+        type: Turkmenistan
+      - 
+        long: 
+          standard: Тувалугийн цаг
+        type: Tuvalu
+      - 
+        long: 
+          daylight: Уругвайн зуны цаг
+          generic: Уругвайн цаг
+          standard: Уругвайн стандарт цаг
+        type: Uruguay
+      - 
+        long: 
+          daylight: Узбекистаны зуны цаг
+          generic: Узбекистаны цаг
+          standard: Узбекистаны стандарт цаг
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: Вануатугийн зуны цаг
+          generic: Вануатугийн цаг
+          standard: Вануатугийн стандарт цаг
+        type: Vanuatu
+      - 
+        long: 
+          standard: Венесуэлийн цаг
+        type: Venezuela
+      - 
+        long: 
+          daylight: Владивостокийн зуны цаг
+          generic: Владивостокийн цаг
+          standard: Владивостокийн стандарт цаг
+        type: Vladivostok
+      - 
+        long: 
+          daylight: Волгоградын зуны цаг
+          generic: Волгоградын цаг
+          standard: Волгоградын стандарт цаг
+        type: Volgograd
+      - 
+        long: 
+          standard: Востокийн цаг
+        type: Vostok
+      - 
+        long: 
+          standard: Уэйк Арлуудын цаг
+        type: Wake
+      - 
+        long: 
+          standard: Уоллис ба Футунагийн цаг
+        type: Wallis
+      - 
+        long: 
+          daylight: Якутскийн зуны цаг
+          generic: Якутскийн цаг
+          standard: Якутскийн стандарт цаг
+        type: Yakutsk
+      - 
+        long: 
+          daylight: Екатеринбургийн зуны цаг
+          generic: Екатеринбургийн цаг
+          standard: Екатеринбургийн стандарт цаг
+        type: Yekaterinburg
+    regionFormat: "{0}"
+    zone: 
+      - 
+        exemplarCity: Тодорхойгүй хот
+        type: Etc/Unknown
+      - 
+        exemplarCity: Андорра
+        type: Europe/Andorra
+      - 
+        exemplarCity: Дубай
+        type: Asia/Dubai
+      - 
+        exemplarCity: Кабул
+        type: Asia/Kabul
+      - 
+        exemplarCity: Антигуа
+        type: America/Antigua
+      - 
+        exemplarCity: Ангилла
+        type: America/Anguilla
+      - 
+        exemplarCity: Тирана
+        type: Europe/Tirane
+      - 
+        exemplarCity: Ереван
+        type: Asia/Yerevan
+      - 
+        exemplarCity: Луанда
+        type: Africa/Luanda
+      - 
+        exemplarCity: Ротера
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: Палмер
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: Өмнөд туйл
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: Сьёва
+        type: Antarctica/Syowa
+      - 
+        exemplarCity: Моусон
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: Дэвис
+        type: Antarctica/Davis
+      - 
+        exemplarCity: Восток
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: Кэсей
+        type: Antarctica/Casey
+      - 
+        exemplarCity: Дюмон д’Юрвиль
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: Маккуори
+        type: Antarctica/Macquarie
+      - 
+        exemplarCity: Мак-Мёрдо
+        type: Antarctica/McMurdo
+      - 
+        exemplarCity: Рио-Гальегос
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: Мендоза
+        type: America/Mendoza
+      - 
+        exemplarCity: Сан-Хуан
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: Ушуайя
+        type: America/Argentina/Ushuaia
+      - 
+        exemplarCity: Ла-Риоха
+        type: America/Argentina/La_Rioja
+      - 
+        exemplarCity: Сан Луи
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: Катамарка
+        type: America/Catamarca
+      - 
+        exemplarCity: Салта
+        type: America/Argentina/Salta
+      - 
+        exemplarCity: Жужуй
+        type: America/Jujuy
+      - 
+        exemplarCity: Тукуман
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: Кордова
+        type: America/Cordoba
+      - 
+        exemplarCity: Буэнос-Айрес
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: Паго Паго
+        type: Pacific/Pago_Pago
+      - 
+        exemplarCity: Вена
+        type: Europe/Vienna
+      - 
+        exemplarCity: Перс
+        type: Australia/Perth
+      - 
+        exemplarCity: Еукла
+        type: Australia/Eucla
+      - 
+        exemplarCity: Дарвин
+        type: Australia/Darwin
+      - 
+        exemplarCity: Аделэйд
+        type: Australia/Adelaide
+      - 
+        exemplarCity: Брокен Хилл
+        type: Australia/Broken_Hill
+      - 
+        exemplarCity: Кюрри
+        type: Australia/Currie
+      - 
+        exemplarCity: Мельбурн
+        type: Australia/Melbourne
+      - 
+        exemplarCity: Хобарт
+        type: Australia/Hobart
+      - 
+        exemplarCity: Линдемэн
+        type: Australia/Lindeman
+      - 
+        exemplarCity: Сидней
+        type: Australia/Sydney
+      - 
+        exemplarCity: Брисбэн
+        type: Australia/Brisbane
+      - 
+        exemplarCity: Лорд Хау
+        type: Australia/Lord_Howe
+      - 
+        exemplarCity: Аруба
+        type: America/Aruba
+      - 
+        exemplarCity: Мариехамн
+        type: Europe/Mariehamn
+      - 
+        exemplarCity: Баку
+        type: Asia/Baku
+      - 
+        exemplarCity: Сараево
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: Барбадос
+        type: America/Barbados
+      - 
+        exemplarCity: Дака
+        type: Asia/Dhaka
+      - 
+        exemplarCity: Брюссель
+        type: Europe/Brussels
+      - 
+        exemplarCity: Уагадугу
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: София
+        type: Europe/Sofia
+      - 
+        exemplarCity: Бахрейн
+        type: Asia/Bahrain
+      - 
+        exemplarCity: Бужумбура
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: Порто-Ново
+        type: Africa/Porto-Novo
+      - 
+        exemplarCity: Сент Бартельми
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: Бермуда
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: Бруней
+        type: Asia/Brunei
+      - 
+        exemplarCity: Ла Паз
+        type: America/La_Paz
+      - 
+        exemplarCity: Кралендик
+        type: America/Kralendijk
+      - 
+        exemplarCity: Эйрунепе
+        type: America/Eirunepe
+      - 
+        exemplarCity: Рио-Бранко
+        type: America/Rio_Branco
+      - 
+        exemplarCity: Порто-Велью
+        type: America/Porto_Velho
+      - 
+        exemplarCity: Боа-Виста
+        type: America/Boa_Vista
+      - 
+        exemplarCity: Манаус
+        type: America/Manaus
+      - 
+        exemplarCity: Куяба
+        type: America/Cuiaba
+      - 
+        exemplarCity: Сантарем
+        type: America/Santarem
+      - 
+        exemplarCity: Кампо-Гранде
+        type: America/Campo_Grande
+      - 
+        exemplarCity: Белем
+        type: America/Belem
+      - 
+        exemplarCity: Арагуана
+        type: America/Araguaina
+      - 
+        exemplarCity: Сан-Паулу
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: Байя
+        type: America/Bahia
+      - 
+        exemplarCity: Форталеза
+        type: America/Fortaleza
+      - 
+        exemplarCity: Масейо
+        type: America/Maceio
+      - 
+        exemplarCity: Ресифи
+        type: America/Recife
+      - 
+        exemplarCity: Норона
+        type: America/Noronha
+      - 
+        exemplarCity: Нассау
+        type: America/Nassau
+      - 
+        exemplarCity: Тхимпху
+        type: Asia/Thimphu
+      - 
+        exemplarCity: Габороне
+        type: Africa/Gaborone
+      - 
+        exemplarCity: Минск
+        type: Europe/Minsk
+      - 
+        exemplarCity: Белизе
+        type: America/Belize
+      - 
+        exemplarCity: Доусон
+        type: America/Dawson
+      - 
+        exemplarCity: Уайтхорз
+        type: America/Whitehorse
+      - 
+        exemplarCity: Инувик
+        type: America/Inuvik
+      - 
+        exemplarCity: Ванкувер
+        type: America/Vancouver
+      - 
+        exemplarCity: Доусон Грик
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: Крестон
+        type: America/Creston
+      - 
+        exemplarCity: Йелоунайф
+        type: America/Yellowknife
+      - 
+        exemplarCity: Эдмонтон
+        type: America/Edmonton
+      - 
+        exemplarCity: Свифт Каррент
+        type: America/Swift_Current
+      - 
+        exemplarCity: Кэмбриж булан
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: Регина
+        type: America/Regina
+      - 
+        exemplarCity: Виннипег
+        type: America/Winnipeg
+      - 
+        exemplarCity: Резолют
+        type: America/Resolute
+      - 
+        exemplarCity: Рейни Ривер
+        type: America/Rainy_River
+      - 
+        exemplarCity: Рэнкин Инлет
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: Атикокан
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: Сандер Бэй
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: Нипигон
+        type: America/Nipigon
+      - 
+        exemplarCity: Торонто
+        type: America/Toronto
+      - 
+        exemplarCity: Монтреаль
+        type: America/Montreal
+      - 
+        exemplarCity: Икалуит
+        type: America/Iqaluit
+      - 
+        exemplarCity: Пангниртунг
+        type: America/Pangnirtung
+      - 
+        exemplarCity: Монктон
+        type: America/Moncton
+      - 
+        exemplarCity: Халифакс
+        type: America/Halifax
+      - 
+        exemplarCity: Гуус булан
+        type: America/Goose_Bay
+      - 
+        exemplarCity: Глейс булан
+        type: America/Glace_Bay
+      - 
+        exemplarCity: Бланк-Саблон
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: Сент Жонс
+        type: America/St_Johns
+      - 
+        exemplarCity: Кокос
+        type: Indian/Cocos
+      - 
+        exemplarCity: Киншаса
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: Лубумбаши
+        type: Africa/Lubumbashi
+      - 
+        exemplarCity: Бангуй
+        type: Africa/Bangui
+      - 
+        exemplarCity: Браззавиль
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: Цюрих
+        type: Europe/Zurich
+      - 
+        exemplarCity: Абижан
+        type: Africa/Abidjan
+      - 
+        exemplarCity: Раротонга
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: Истер
+        type: Pacific/Easter
+      - 
+        exemplarCity: Сантьяго
+        type: America/Santiago
+      - 
+        exemplarCity: Дуала
+        type: Africa/Douala
+      - 
+        exemplarCity: Кашгар
+        type: Asia/Kashgar
+      - 
+        exemplarCity: Үрүмчи
+        type: Asia/Urumqi
+      - 
+        exemplarCity: Чунцин
+        type: Asia/Chongqing
+      - 
+        exemplarCity: Шанхай
+        type: Asia/Shanghai
+      - 
+        exemplarCity: Харбин
+        type: Asia/Harbin
+      - 
+        exemplarCity: Богота
+        type: America/Bogota
+      - 
+        exemplarCity: Коста Рика
+        type: America/Costa_Rica
+      - 
+        exemplarCity: Хавана
+        type: America/Havana
+      - 
+        exemplarCity: Капе-Верде
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: Куракао
+        type: America/Curacao
+      - 
+        exemplarCity: Зул Сар
+        type: Indian/Christmas
+      - 
+        exemplarCity: Никосия
+        type: Asia/Nicosia
+      - 
+        exemplarCity: Прага
+        type: Europe/Prague
+      - 
+        exemplarCity: Берлин
+        type: Europe/Berlin
+      - 
+        exemplarCity: Жибоути
+        type: Africa/Djibouti
+      - 
+        exemplarCity: Копенгаген
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: Доминика
+        type: America/Dominica
+      - 
+        exemplarCity: Санта Доминго
+        type: America/Santo_Domingo
+      - 
+        exemplarCity: Алжир
+        type: Africa/Algiers
+      - 
+        exemplarCity: Галапагос
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: Гуаякиль
+        type: America/Guayaquil
+      - 
+        exemplarCity: Таллин
+        type: Europe/Tallinn
+      - 
+        exemplarCity: Каир
+        type: Africa/Cairo
+      - 
+        exemplarCity: Эль-Аюн
+        type: Africa/El_Aaiun
+      - 
+        exemplarCity: Асмара
+        type: Africa/Asmera
+      - 
+        exemplarCity: Канари
+        type: Atlantic/Canary
+      - 
+        exemplarCity: Сеута
+        type: Africa/Ceuta
+      - 
+        exemplarCity: Мадрид
+        type: Europe/Madrid
+      - 
+        exemplarCity: Аддис-абеба
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: Хельсинк
+        type: Europe/Helsinki
+      - 
+        exemplarCity: Фижи
+        type: Pacific/Fiji
+      - 
+        exemplarCity: Стэнлей
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: Чүүк
+        type: Pacific/Truk
+      - 
+        exemplarCity: Понпей
+        type: Pacific/Ponape
+      - 
+        exemplarCity: Косраэ
+        type: Pacific/Kosrae
+      - 
+        exemplarCity: Фароэ
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: Парис
+        type: Europe/Paris
+      - 
+        exemplarCity: Либревиль
+        type: Africa/Libreville
+      - 
+        exemplarCity: Лондон
+        long: 
+          daylight: Британийн зуны цаг
+        type: Europe/London
+      - 
+        exemplarCity: Гренада
+        type: America/Grenada
+      - 
+        exemplarCity: Тбилиси
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: Кайенна
+        type: America/Cayenne
+      - 
+        exemplarCity: Гернси
+        type: Europe/Guernsey
+      - 
+        exemplarCity: Аккра
+        type: Africa/Accra
+      - 
+        exemplarCity: Гибралтар
+        type: Europe/Gibraltar
+      - 
+        exemplarCity: Туле
+        type: America/Thule
+      - 
+        exemplarCity: Годтаб
+        type: America/Godthab
+      - 
+        exemplarCity: Скорсбисунн
+        type: America/Scoresbysund
+      - 
+        exemplarCity: Данмаркшавн
+        type: America/Danmarkshavn
+      - 
+        exemplarCity: Банжул
+        type: Africa/Banjul
+      - 
+        exemplarCity: Конакри
+        type: Africa/Conakry
+      - 
+        exemplarCity: Гваделуп
+        type: America/Guadeloupe
+      - 
+        exemplarCity: Малабо
+        type: Africa/Malabo
+      - 
+        exemplarCity: Афин
+        type: Europe/Athens
+      - 
+        exemplarCity: Өмнөд Жоржиа
+        type: Atlantic/South_Georgia
+      - 
+        exemplarCity: Гватемал
+        type: America/Guatemala
+      - 
+        exemplarCity: Гуам
+        type: Pacific/Guam
+      - 
+        exemplarCity: Биссау
+        type: Africa/Bissau
+      - 
+        exemplarCity: Гуяана
+        type: America/Guyana
+      - 
+        exemplarCity: Хонг Конг
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: Тегусигальпа
+        type: America/Tegucigalpa
+      - 
+        exemplarCity: Загреб
+        type: Europe/Zagreb
+      - 
+        exemplarCity: Порт-о-Принс
+        type: America/Port-au-Prince
+      - 
+        exemplarCity: Будапешт
+        type: Europe/Budapest
+      - 
+        exemplarCity: Жакарта
+        type: Asia/Jakarta
+      - 
+        exemplarCity: Понтианак
+        type: Asia/Pontianak
+      - 
+        exemplarCity: Макассар
+        type: Asia/Makassar
+      - 
+        exemplarCity: Жайпур
+        type: Asia/Jayapura
+      - 
+        exemplarCity: Дублин
+        long: 
+          daylight: Ирландын зуны цаг
+        type: Europe/Dublin
+      - 
+        exemplarCity: Ерусалем
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: Мэн Арал
+        type: Europe/Isle_of_Man
+      - 
+        exemplarCity: Кольката
+        type: Asia/Calcutta
+      - 
+        exemplarCity: Чагос
+        type: Indian/Chagos
+      - 
+        exemplarCity: Багдад
+        type: Asia/Baghdad
+      - 
+        exemplarCity: Тегеран
+        type: Asia/Tehran
+      - 
+        exemplarCity: Рекьявик
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: Ром
+        type: Europe/Rome
+      - 
+        exemplarCity: Жерси
+        type: Europe/Jersey
+      - 
+        exemplarCity: Ямайка
+        type: America/Jamaica
+      - 
+        exemplarCity: Амман
+        type: Asia/Amman
+      - 
+        exemplarCity: Токио
+        type: Asia/Tokyo
+      - 
+        exemplarCity: Найроби
+        type: Africa/Nairobi
+      - 
+        exemplarCity: Бишкек
+        type: Asia/Bishkek
+      - 
+        exemplarCity: Пномпень
+        type: Asia/Phnom_Penh
+      - 
+        exemplarCity: Эндербери
+        type: Pacific/Enderbury
+      - 
+        exemplarCity: Киритимати
+        type: Pacific/Kiritimati
+      - 
+        exemplarCity: Тарава
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: Коморо
+        type: Indian/Comoro
+      - 
+        exemplarCity: Сент-Киттс
+        type: America/St_Kitts
+      - 
+        exemplarCity: Пхеньян
+        type: Asia/Pyongyang
+      - 
+        exemplarCity: Сөүл
+        type: Asia/Seoul
+      - 
+        exemplarCity: Кувейт
+        type: Asia/Kuwait
+      - 
+        exemplarCity: Кайман
+        type: America/Cayman
+      - 
+        exemplarCity: Актау
+        type: Asia/Aqtau
+      - 
+        exemplarCity: Орал
+        type: Asia/Oral
+      - 
+        exemplarCity: Актөбе
+        type: Asia/Aqtobe
+      - 
+        exemplarCity: Кызылорд
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: Алматы
+        type: Asia/Almaty
+      - 
+        exemplarCity: Вьентьян
+        type: Asia/Vientiane
+      - 
+        exemplarCity: Бейрут
+        type: Asia/Beirut
+      - 
+        exemplarCity: Сент Люсиа
+        type: America/St_Lucia
+      - 
+        exemplarCity: Вадуз
+        type: Europe/Vaduz
+      - 
+        exemplarCity: Коломбо
+        type: Asia/Colombo
+      - 
+        exemplarCity: Монрова
+        type: Africa/Monrovia
+      - 
+        exemplarCity: Масеру
+        type: Africa/Maseru
+      - 
+        exemplarCity: Вильнюс
+        type: Europe/Vilnius
+      - 
+        exemplarCity: Люксембург
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: Рига
+        type: Europe/Riga
+      - 
+        exemplarCity: Триполи
+        type: Africa/Tripoli
+      - 
+        exemplarCity: Касабланка
+        type: Africa/Casablanca
+      - 
+        exemplarCity: Монако
+        type: Europe/Monaco
+      - 
+        exemplarCity: Кишинёв
+        type: Europe/Chisinau
+      - 
+        exemplarCity: Подгорица
+        type: Europe/Podgorica
+      - 
+        exemplarCity: Маригот
+        type: America/Marigot
+      - 
+        exemplarCity: Антананариво
+        type: Indian/Antananarivo
+      - 
+        exemplarCity: Кважалейн
+        type: Pacific/Kwajalein
+      - 
+        exemplarCity: Мажуро
+        type: Pacific/Majuro
+      - 
+        exemplarCity: Скопье
+        type: Europe/Skopje
+      - 
+        exemplarCity: Бамако
+        type: Africa/Bamako
+      - 
+        exemplarCity: Рангун
+        type: Asia/Rangoon
+      - 
+        exemplarCity: Ховд
+        type: Asia/Hovd
+      - 
+        exemplarCity: Улаанбаатар
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: Чойбалсан
+        type: Asia/Choibalsan
+      - 
+        exemplarCity: Макао
+        type: Asia/Macau
+      - 
+        exemplarCity: Сайпан
+        type: Pacific/Saipan
+      - 
+        exemplarCity: Мартиник
+        type: America/Martinique
+      - 
+        exemplarCity: Нуакшот
+        type: Africa/Nouakchott
+      - 
+        exemplarCity: Монтсеррат
+        type: America/Montserrat
+      - 
+        exemplarCity: Мальта
+        type: Europe/Malta
+      - 
+        exemplarCity: Мавриту
+        type: Indian/Mauritius
+      - 
+        exemplarCity: Мальдив
+        type: Indian/Maldives
+      - 
+        exemplarCity: Блантайр
+        type: Africa/Blantyre
+      - 
+        exemplarCity: Тижуана
+        type: America/Tijuana
+      - 
+        exemplarCity: Санта Изабель
+        type: America/Santa_Isabel
+      - 
+        exemplarCity: Хермосилло
+        type: America/Hermosillo
+      - 
+        exemplarCity: Мазатлан
+        type: America/Mazatlan
+      - 
+        exemplarCity: Чихуахуа
+        type: America/Chihuahua
+      - 
+        exemplarCity: Бахья Бандерас
+        type: America/Bahia_Banderas
+      - 
+        exemplarCity: Ожинага
+        type: America/Ojinaga
+      - 
+        exemplarCity: Монтерей
+        type: America/Monterrey
+      - 
+        exemplarCity: Мехико хот
+        type: America/Mexico_City
+      - 
+        exemplarCity: Матаморос
+        type: America/Matamoros
+      - 
+        exemplarCity: Мерида
+        type: America/Merida
+      - 
+        exemplarCity: Канкун
+        type: America/Cancun
+      - 
+        exemplarCity: Куала Лумпур
+        type: Asia/Kuala_Lumpur
+      - 
+        exemplarCity: Кучин
+        type: Asia/Kuching
+      - 
+        exemplarCity: Мапуто
+        type: Africa/Maputo
+      - 
+        exemplarCity: Виндхук
+        type: Africa/Windhoek
+      - 
+        exemplarCity: Нумеа
+        type: Pacific/Noumea
+      - 
+        exemplarCity: Ниамей
+        type: Africa/Niamey
+      - 
+        exemplarCity: Норфолк
+        type: Pacific/Norfolk
+      - 
+        exemplarCity: Лагос
+        type: Africa/Lagos
+      - 
+        exemplarCity: Манагуа
+        type: America/Managua
+      - 
+        exemplarCity: Амстердам
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: Осло
+        type: Europe/Oslo
+      - 
+        exemplarCity: Катманду
+        type: Asia/Katmandu
+      - 
+        exemplarCity: Науру
+        type: Pacific/Nauru
+      - 
+        exemplarCity: Ниуэ
+        type: Pacific/Niue
+      - 
+        exemplarCity: Чатем
+        type: Pacific/Chatham
+      - 
+        exemplarCity: Оклэнд
+        type: Pacific/Auckland
+      - 
+        exemplarCity: Мускат
+        type: Asia/Muscat
+      - 
+        exemplarCity: Панама
+        type: America/Panama
+      - 
+        exemplarCity: Лима
+        type: America/Lima
+      - 
+        exemplarCity: Таити
+        type: Pacific/Tahiti
+      - 
+        exemplarCity: Маркизас
+        type: Pacific/Marquesas
+      - 
+        exemplarCity: Гамбьер
+        type: Pacific/Gambier
+      - 
+        exemplarCity: Порт-Морсби
+        type: Pacific/Port_Moresby
+      - 
+        exemplarCity: Манила
+        type: Asia/Manila
+      - 
+        exemplarCity: Карачи
+        type: Asia/Karachi
+      - 
+        exemplarCity: Варшав
+        type: Europe/Warsaw
+      - 
+        exemplarCity: Микелон
+        type: America/Miquelon
+      - 
+        exemplarCity: Питкейрн
+        type: Pacific/Pitcairn
+      - 
+        exemplarCity: Пуэрто-Рико
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: Газа
+        type: Asia/Gaza
+      - 
+        exemplarCity: Хеброн
+        type: Asia/Hebron
+      - 
+        exemplarCity: Азор
+        type: Atlantic/Azores
+      - 
+        exemplarCity: Мадейра
+        type: Atlantic/Madeira
+      - 
+        exemplarCity: Лисбон
+        type: Europe/Lisbon
+      - 
+        exemplarCity: Палау
+        type: Pacific/Palau
+      - 
+        exemplarCity: Асунсьон
+        type: America/Asuncion
+      - 
+        exemplarCity: Катар
+        type: Asia/Qatar
+      - 
+        exemplarCity: Реюньон
+        type: Indian/Reunion
+      - 
+        exemplarCity: Бухарест
+        type: Europe/Bucharest
+      - 
+        exemplarCity: Белград
+        type: Europe/Belgrade
+      - 
+        exemplarCity: Калининград
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: Москва
+        type: Europe/Moscow
+      - 
+        exemplarCity: Волгоград
+        type: Europe/Volgograd
+      - 
+        exemplarCity: Самара
+        type: Europe/Samara
+      - 
+        exemplarCity: Екатеринбург
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: Омск
+        type: Asia/Omsk
+      - 
+        exemplarCity: Новосибирск
+        type: Asia/Novosibirsk
+      - 
+        exemplarCity: Новокузнецк
+        type: Asia/Novokuznetsk
+      - 
+        exemplarCity: Красноярск
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: Эрхүү
+        type: Asia/Irkutsk
+      - 
+        exemplarCity: Якутск
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: Владивосток
+        type: Asia/Vladivostok
+      - 
+        exemplarCity: Сахалин
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: Магадан
+        type: Asia/Magadan
+      - 
+        exemplarCity: Камчатка
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: Анадыр
+        type: Asia/Anadyr
+      - 
+        exemplarCity: Кигали
+        type: Africa/Kigali
+      - 
+        exemplarCity: Рияд
+        type: Asia/Riyadh
+      - 
+        exemplarCity: Гуадалканал
+        type: Pacific/Guadalcanal
+      - 
+        exemplarCity: Махе
+        type: Indian/Mahe
+      - 
+        exemplarCity: Хартум
+        type: Africa/Khartoum
+      - 
+        exemplarCity: Стогкольм
+        type: Europe/Stockholm
+      - 
+        exemplarCity: Сингапур
+        type: Asia/Singapore
+      - 
+        exemplarCity: Сент Хелена
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: Любляна
+        type: Europe/Ljubljana
+      - 
+        exemplarCity: Лонгирбюен
+        type: Arctic/Longyearbyen
+      - 
+        exemplarCity: Братислав
+        type: Europe/Bratislava
+      - 
+        exemplarCity: Фритаун
+        type: Africa/Freetown
+      - 
+        exemplarCity: Сан-Марино
+        type: Europe/San_Marino
+      - 
+        exemplarCity: Дакар
+        type: Africa/Dakar
+      - 
+        exemplarCity: Могадишу
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: Парамарибо
+        type: America/Paramaribo
+      - 
+        exemplarCity: Жуба
+        type: Africa/Juba
+      - 
+        exemplarCity: Сан-Том
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: Эль Сальвадор
+        type: America/El_Salvador
+      - 
+        exemplarCity: Доод хунтайжийн орон
+        type: America/Lower_Princes
+      - 
+        exemplarCity: Дамаск
+        type: Asia/Damascus
+      - 
+        exemplarCity: Мбабане
+        type: Africa/Mbabane
+      - 
+        exemplarCity: Гранд Турк
+        type: America/Grand_Turk
+      - 
+        exemplarCity: Нжамена
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: Кергелен
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: Ломе
+        type: Africa/Lome
+      - 
+        exemplarCity: Бангкок
+        type: Asia/Bangkok
+      - 
+        exemplarCity: Душанбе
+        type: Asia/Dushanbe
+      - 
+        exemplarCity: Факаофо
+        type: Pacific/Fakaofo
+      - 
+        exemplarCity: Дили
+        type: Asia/Dili
+      - 
+        exemplarCity: Ашхабад
+        type: Asia/Ashgabat
+      - 
+        exemplarCity: Тунис
+        type: Africa/Tunis
+      - 
+        exemplarCity: Тонгатапу
+        type: Pacific/Tongatapu
+      - 
+        exemplarCity: Истанбул
+        type: Europe/Istanbul
+      - 
+        exemplarCity: Порт-оф-Спейн
+        type: America/Port_of_Spain
+      - 
+        exemplarCity: Фунафути
+        type: Pacific/Funafuti
+      - 
+        exemplarCity: Тайпей
+        type: Asia/Taipei
+      - 
+        exemplarCity: Дар-эс-Салам
+        type: Africa/Dar_es_Salaam
+      - 
+        exemplarCity: Ужгород
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: Киев
+        type: Europe/Kiev
+      - 
+        exemplarCity: Симферополь
+        type: Europe/Simferopol
+      - 
+        exemplarCity: Запорожье
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: Кампала
+        type: Africa/Kampala
+      - 
+        exemplarCity: Мидвей
+        type: Pacific/Midway
+      - 
+        exemplarCity: Жонстон
+        type: Pacific/Johnston
+      - 
+        exemplarCity: Уэйк
+        type: Pacific/Wake
+      - 
+        exemplarCity: Адак
+        type: America/Adak
+      - 
+        exemplarCity: Ном
+        type: America/Nome
+      - 
+        exemplarCity: Хонолулу
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: Анкораж
+        type: America/Anchorage
+      - 
+        exemplarCity: Якутат
+        type: America/Yakutat
+      - 
+        exemplarCity: Ситка
+        type: America/Sitka
+      - 
+        exemplarCity: Жуно
+        type: America/Juneau
+      - 
+        exemplarCity: Метлакатла
+        type: America/Metlakatla
+      - 
+        exemplarCity: Лос-Анжелес
+        type: America/Los_Angeles
+      - 
+        exemplarCity: Боисе
+        type: America/Boise
+      - 
+        exemplarCity: Феникс
+        type: America/Phoenix
+      - 
+        exemplarCity: Шипрок
+        type: America/Shiprock
+      - 
+        exemplarCity: Денвер
+        type: America/Denver
+      - 
+        exemplarCity: Била, Хойд Дакота
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: Нью-Салем, Хойд Дакота
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: Төв, Хойд Дакота
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: Чикаго
+        type: America/Chicago
+      - 
+        exemplarCity: Меномини
+        type: America/Menominee
+      - 
+        exemplarCity: Винсенес, Индиана
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: Питерсбург, Индиана
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: Тел Сити, Индиана
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: Нокс, Индиана
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: Винамак, Индиана
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: Маренго, Индиана
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: Индианаполис
+        type: America/Indianapolis
+      - 
+        exemplarCity: Луисвилл
+        type: America/Louisville
+      - 
+        exemplarCity: Вивей, Индиана
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: Монтичелло, Кентаки
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: Детройт
+        type: America/Detroit
+      - 
+        exemplarCity: Нью-Йорк
+        type: America/New_York
+      - 
+        exemplarCity: Монтевидео
+        type: America/Montevideo
+      - 
+        exemplarCity: Самарканд
+        type: Asia/Samarkand
+      - 
+        exemplarCity: Ташкент
+        type: Asia/Tashkent
+      - 
+        exemplarCity: Ватикан
+        type: Europe/Vatican
+      - 
+        exemplarCity: Сент Винсент
+        type: America/St_Vincent
+      - 
+        exemplarCity: Каракас
+        type: America/Caracas
+      - 
+        exemplarCity: Тортола
+        type: America/Tortola
+      - 
+        exemplarCity: Сент Томас
+        type: America/St_Thomas
+      - 
+        exemplarCity: Хо Ши Мин
+        type: Asia/Saigon
+      - 
+        exemplarCity: Эфате
+        type: Pacific/Efate
+      - 
+        exemplarCity: Уоллис
+        type: Pacific/Wallis
+      - 
+        exemplarCity: Апиа
+        type: Pacific/Apia
+      - 
+        exemplarCity: Аден
+        type: Asia/Aden
+      - 
+        exemplarCity: Майотта
+        type: Indian/Mayotte
+      - 
+        exemplarCity: Йоханнесбург
+        type: Africa/Johannesburg
+      - 
+        exemplarCity: Лусака
+        type: Africa/Lusaka
+      - 
+        exemplarCity: Хараре
+        type: Africa/Harare
+delimiters: 
+  alternateQuotationEnd: ”
+  alternateQuotationStart: “
+  quotationEnd: ’
+  quotationStart: ‘
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 16:18:23 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: mn
+  version: 
+    number: "$Revision: 8251 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0}, {1}"
+        type: 2
+      - 
+        content: "{0}, {1}"
+        type: end
+      - 
+        content: "{0}, {1}"
+        type: middle
+      - 
+        content: "{0}, {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "{0}"
+        type: language
+      - 
+        content: "{0}"
+        type: script
+      - 
+        content: "{0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: хуанли
+        type: calendar
+      - 
+        content: Захиалга ялгах
+        type: collation
+      - 
+        content: мөнгөн тэмдэгт
+        type: currency
+      - 
+        content: Тоонууд
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: абхаз
+        type: ab
+      - 
+        content: африк
+        type: af
+      - 
+        content: амхар
+        type: am
+      - 
+        content: араб
+        type: ar
+      - 
+        content: ассам
+        type: as
+      - 
+        content: азербайжан
+        type: az
+      - 
+        content: беларусь
+        type: be
+      - 
+        content: болгар
+        type: bg
+      - 
+        content: бихари хэл
+        draft: unconfirmed
+        type: bh
+      - 
+        content: бенгал
+        type: bn
+      - 
+        content: төвд
+        type: bo
+      - 
+        content: бретон
+        draft: unconfirmed
+        type: br
+      - 
+        content: босни
+        type: bs
+      - 
+        content: каталан
+        type: ca
+      - 
+        content: чех
+        type: cs
+      - 
+        content: уэлс
+        type: cy
+      - 
+        content: дани
+        type: da
+      - 
+        content: герман
+        type: de
+      - 
+        content: австри герман
+        type: de_AT
+      - 
+        content: швейцари герман
+        type: de_CH
+      - 
+        content: грек
+        type: el
+      - 
+        content: англи
+        type: en
+      - 
+        content: австрали англи
+        type: en_AU
+      - 
+        content: канад англи
+        type: en_CA
+      - 
+        content: британийн англи
+        type: en_GB
+      - 
+        content: америк англи
+        type: en_US
+      - 
+        content: эсперанто
+        type: eo
+      - 
+        content: испани
+        type: es
+      - 
+        content: латин америкийн испани
+        type: es_419
+      - 
+        content: европын испани
+        type: es_ES
+      - 
+        content: эстони
+        type: et
+      - 
+        content: баск
+        type: eu
+      - 
+        content: перс
+        type: fa
+      - 
+        content: финлянд
+        type: fi
+      - 
+        content: филипин
+        type: fil
+      - 
+        content: фижи
+        type: fj
+      - 
+        content: фарер
+        type: fo
+      - 
+        content: франц
+        type: fr
+      - 
+        content: канад франц
+        type: fr_CA
+      - 
+        content: швейцари франц
+        type: fr_CH
+      - 
+        content: баруун фризын
+        type: fy
+      - 
+        content: ирланд
+        type: ga
+      - 
+        content: шотланд келт
+        draft: unconfirmed
+        type: gd
+      - 
+        content: галик
+        type: gl
+      - 
+        content: гуарани
+        type: gn
+      - 
+        content: швейцар герман
+        type: gsw
+      - 
+        content: гужарати
+        type: gu
+      - 
+        content: хауса
+        type: ha
+      - 
+        content: хавай
+        type: haw
+      - 
+        content: еврей
+        type: he
+      - 
+        content: хинди
+        type: hi
+      - 
+        content: хорват
+        type: hr
+      - 
+        content: гаити
+        type: ht
+      - 
+        content: унгар
+        type: hu
+      - 
+        content: армен
+        type: hy
+      - 
+        content: интерлингво
+        draft: unconfirmed
+        type: ia
+      - 
+        content: индонези
+        type: id
+      - 
+        content: нэгдмэл хэл
+        draft: unconfirmed
+        type: ie
+      - 
+        content: игбо
+        type: ig
+      - 
+        content: исланд
+        type: is
+      - 
+        content: итали
+        type: it
+      - 
+        content: япон
+        type: ja
+      - 
+        content: ява
+        type: jv
+      - 
+        content: гүрж
+        type: ka
+      - 
+        content: хасаг
+        type: kk
+      - 
+        content: камбож
+        type: km
+      - 
+        content: каннада
+        type: kn
+      - 
+        content: солонгос
+        type: ko
+      - 
+        content: кашмир
+        type: ks
+      - 
+        content: күрд
+        type: ku
+      - 
+        content: киргиз
+        type: ky
+      - 
+        content: латин
+        type: la
+      - 
+        content: люксембург
+        type: lb
+      - 
+        content: лингала
+        draft: unconfirmed
+        type: ln
+      - 
+        content: лаос
+        type: lo
+      - 
+        content: литва
+        type: lt
+      - 
+        content: латви
+        type: lv
+      - 
+        content: малагаси
+        type: mg
+      - 
+        content: маори
+        type: mi
+      - 
+        content: македон
+        type: mk
+      - 
+        content: малайлам
+        type: ml
+      - 
+        content: монгол
+        type: mn
+      - 
+        content: марати
+        type: mr
+      - 
+        content: малай
+        type: ms
+      - 
+        content: малти
+        type: mt
+      - 
+        content: бирм
+        type: my
+      - 
+        content: норвегийн букмол
+        type: nb
+      - 
+        content: балба
+        type: ne
+      - 
+        content: голланд
+        type: nl
+      - 
+        content: фламанд
+        type: nl_BE
+      - 
+        content: нюнорск
+        type: nn
+      - 
+        content: норвеги
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: францын окситан
+        draft: unconfirmed
+        type: oc
+      - 
+        content: ория
+        type: or
+      - 
+        content: панжаб
+        type: pa
+      - 
+        content: польш
+        type: pl
+      - 
+        content: афган
+        type: ps
+      - 
+        content: португал
+        type: pt
+      - 
+        content: португал (бразил)
+        type: pt_BR
+      - 
+        content: европын португал
+        type: pt_PT
+      - 
+        content: кечуа
+        type: qu
+      - 
+        content: романш
+        type: rm
+      - 
+        content: румын
+        type: ro
+      - 
+        content: орос
+        type: ru
+      - 
+        content: санскрит
+        type: sa
+      - 
+        content: синди
+        type: sd
+      - 
+        content: хорватын серб
+        draft: unconfirmed
+        type: sh
+      - 
+        content: синхала
+        type: si
+      - 
+        content: словак
+        type: sk
+      - 
+        content: словен
+        type: sl
+      - 
+        content: сомали
+        type: so
+      - 
+        content: албани
+        type: sq
+      - 
+        content: серб
+        type: sr
+      - 
+        content: сесото
+        draft: unconfirmed
+        type: st
+      - 
+        content: сундан
+        type: su
+      - 
+        content: швед
+        type: sv
+      - 
+        content: свахили
+        type: sw
+      - 
+        content: тамил
+        type: ta
+      - 
+        content: тэлүгү
+        type: te
+      - 
+        content: тажик
+        type: tg
+      - 
+        content: тай
+        type: th
+      - 
+        content: тигрина
+        type: ti
+      - 
+        content: туркмен
+        type: tk
+      - 
+        content: клингон хэл
+        draft: unconfirmed
+        type: tlh
+      - 
+        content: тонга
+        type: to
+      - 
+        content: турк
+        type: tr
+      - 
+        content: татар
+        type: tt
+      - 
+        content: тви
+        draft: unconfirmed
+        type: tw
+      - 
+        content: уйгар
+        type: ug
+      - 
+        content: украйн
+        type: uk
+      - 
+        content: тодорхойгүй хэл
+        type: und
+      - 
+        content: урду
+        type: ur
+      - 
+        content: узбек
+        type: uz
+      - 
+        content: вьетнам
+        type: vi
+      - 
+        content: волоф
+        type: wo
+      - 
+        content: хоса
+        type: xh
+      - 
+        content: иддиш
+        draft: unconfirmed
+        type: yi
+      - 
+        content: ёруба
+        type: yo
+      - 
+        content: хятад
+        type: zh
+      - 
+        content: хялбаршуулсан хятад
+        type: zh_Hans
+      - 
+        content: уламжлалт хятад
+        type: zh_Hant
+      - 
+        content: зулу
+        type: zu
+      - 
+        content: хэл зүйн агуулга байхгүй
+        type: zxx
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}: {1}"
+    localePattern: "{0} ({1})"
+    localeSeparator: ", "
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: метрийн
+        type: metric
+      - 
+        content: Их Британийн
+        type: UK
+      - 
+        content: АНУ-ын
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: Араб
+        type: Arab
+      - 
+        content: Армен
+        type: Armn
+      - 
+        content: Бенгал
+        type: Beng
+      - 
+        content: Бопомофо
+        type: Bopo
+      - 
+        content: брайл
+        type: Brai
+      - 
+        content: Кирил
+        type: Cyrl
+      - 
+        content: деванагари
+        type: Deva
+      - 
+        content: этиоп
+        type: Ethi
+      - 
+        content: гүрж
+        type: Geor
+      - 
+        content: грек
+        type: Grek
+      - 
+        content: гүжарати
+        type: Gujr
+      - 
+        content: гурмукхи
+        type: Guru
+      - 
+        content: хангул
+        type: Hang
+      - 
+        content: хан
+        type: Hani
+      - 
+        content: хялбаршуулсан
+        type: Hans
+      - 
+        content: уламжлалт
+        type: Hant
+      - 
+        content: еврей
+        type: Hebr
+      - 
+        content: хирагана
+        type: Hira
+      - 
+        content: Япон
+        type: Jpan
+      - 
+        content: катакана
+        type: Kana
+      - 
+        content: кхмер
+        type: Khmr
+      - 
+        content: каннада
+        type: Knda
+      - 
+        content: солонгос
+        type: Kore
+      - 
+        content: лаос
+        type: Laoo
+      - 
+        content: Латин
+        type: Latn
+      - 
+        content: малаялам
+        type: Mlym
+      - 
+        content: Монгол бичиг
+        type: Mong
+      - 
+        content: мьянмар
+        type: Mymr
+      - 
+        content: ория
+        type: Orya
+      - 
+        content: синхала
+        type: Sinh
+      - 
+        content: тамил
+        type: Taml
+      - 
+        content: тэлүгү
+        type: Telu
+      - 
+        content: тана
+        type: Thaa
+      - 
+        content: Тай
+        type: Thai
+      - 
+        content: Төвд
+        type: Tibt
+      - 
+        content: тэмдэг
+        type: Zsym
+      - 
+        content: бичигдээгүй
+        type: Zxxx
+      - 
+        content: нийтлэг
+        type: Zyyy
+      - 
+        content: тодорхойгүй бичиг
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Дэлхий
+        type: '001'
+      - 
+        content: Африк
+        type: '002'
+      - 
+        content: Хойд Америк
+        type: '003'
+      - 
+        content: Өмнөд Америк
+        type: '005'
+      - 
+        content: Номхон далайн орнууд
+        type: '009'
+      - 
+        content: Баруун Африк
+        type: '011'
+      - 
+        content: Төв Америк
+        type: '013'
+      - 
+        content: Зүүн Африк
+        type: '014'
+      - 
+        content: Хойд Африк
+        type: '015'
+      - 
+        content: Төв Африк
+        type: '017'
+      - 
+        content: Өмнөд Африк
+        type: '018'
+      - 
+        content: Америк
+        type: '019'
+      - 
+        content: Хойд Америк тив
+        type: '021'
+      - 
+        content: Карибын
+        type: '029'
+      - 
+        content: Зүүн Ази
+        type: '030'
+      - 
+        content: Өмнөд Ази
+        type: '034'
+      - 
+        content: Зүүн Өмнөд Ази
+        type: '035'
+      - 
+        content: Өмнөд Европ
+        type: '039'
+      - 
+        content: Австралиази
+        type: '053'
+      - 
+        content: Меланези
+        type: '054'
+      - 
+        content: Микронезийн бүс
+        type: '057'
+      - 
+        content: Полинез
+        type: '061'
+      - 
+        content: Ази
+        type: 142
+      - 
+        content: Төв Ази
+        type: 143
+      - 
+        content: Баруун Ази
+        type: 145
+      - 
+        content: Европ
+        type: 150
+      - 
+        content: Зүүн Европ
+        type: 151
+      - 
+        content: Хойд Европ
+        type: 154
+      - 
+        content: Баруун Европ
+        type: 155
+      - 
+        content: Латин Америк
+        type: 419
+      - 
+        content: Аскенсион Арал
+        type: AC
+      - 
+        content: Андорра
+        type: AD
+      - 
+        content: Арабын Нэгдсэн Эмират
+        type: AE
+      - 
+        content: Афганистан
+        type: AF
+      - 
+        content: Антигуа ба Барбуда
+        type: AG
+      - 
+        content: Ангила
+        type: AI
+      - 
+        content: Албани
+        type: AL
+      - 
+        content: Армен
+        type: AM
+      - 
+        content: Ангол
+        type: AO
+      - 
+        content: Антарктик
+        type: AQ
+      - 
+        content: Аргентин
+        type: AR
+      - 
+        content: Америкийн Самоа
+        type: AS
+      - 
+        content: Австри
+        type: AT
+      - 
+        content: Австрали
+        type: AU
+      - 
+        content: Аруба
+        type: AW
+      - 
+        content: Аландын Арлууд
+        type: AX
+      - 
+        content: Азербайжан
+        type: AZ
+      - 
+        content: Босни Херцеговин
+        type: BA
+      - 
+        content: Барбадос
+        type: BB
+      - 
+        content: Бангладеш
+        type: BD
+      - 
+        content: Белги
+        type: BE
+      - 
+        content: Буркина фасо
+        type: BF
+      - 
+        content: Болгар
+        type: BG
+      - 
+        content: Бахрейн
+        type: BH
+      - 
+        content: Бурунди
+        type: BI
+      - 
+        content: Бенин
+        type: BJ
+      - 
+        content: Сент Бартельми
+        type: BL
+      - 
+        content: Бермуд
+        type: BM
+      - 
+        content: Бруней
+        type: BN
+      - 
+        content: Боливи
+        type: BO
+      - 
+        content: Карибын Нидерланд
+        type: BQ
+      - 
+        content: Бразил
+        type: BR
+      - 
+        content: Багам
+        type: BS
+      - 
+        content: Бутан
+        type: BT
+      - 
+        content: Буветын Арлууд
+        type: BV
+      - 
+        content: Ботсвана
+        type: BW
+      - 
+        content: Беларус
+        type: BY
+      - 
+        content: Белиз
+        type: BZ
+      - 
+        content: Канад
+        type: CA
+      - 
+        content: Кокос [Кийлинг] Арлууд
+        type: CC
+      - 
+        content: Конго-Киншаса
+        type: CD
+      - 
+        alt: variant
+        content: Конго [БНУ]
+        type: CD
+      - 
+        content: Төв Африкийн Бүгд Найрамдах Улс
+        type: CF
+      - 
+        content: Конго Браззавиль
+        type: CG
+      - 
+        alt: variant
+        content: Конго [Бүгд Найрамдах улс]
+        type: CG
+      - 
+        content: Швейцари
+        type: CH
+      - 
+        content: Кот д'Ивуар
+        type: CI
+      - 
+        alt: variant
+        content: Зааны Ясан Эрэг
+        type: CI
+      - 
+        content: Күүкийн Арлууд
+        type: CK
+      - 
+        content: Чили
+        type: CL
+      - 
+        content: Камерун
+        type: CM
+      - 
+        content: Хятад
+        type: CN
+      - 
+        content: Колумб
+        type: CO
+      - 
+        content: Клиппертон Арал
+        type: CP
+      - 
+        content: Коста Рика
+        type: CR
+      - 
+        content: Куба
+        type: CU
+      - 
+        content: Капе Верде
+        type: CV
+      - 
+        content: Куракао
+        type: CW
+      - 
+        content: Зул Сарын Арал
+        type: CX
+      - 
+        content: Кипр
+        type: CY
+      - 
+        content: Бүгд Найрамдах Чех Улс
+        type: CZ
+      - 
+        content: Герман
+        type: DE
+      - 
+        content: Диего Гарсиа
+        type: DG
+      - 
+        content: Джибути
+        type: DJ
+      - 
+        content: Дани
+        type: DK
+      - 
+        content: Доминик
+        type: DM
+      - 
+        content: Бүгд Найрамдах Доминикан
+        type: DO
+      - 
+        content: Алжир
+        type: DZ
+      - 
+        content: Сеута ба Мелилья
+        type: EA
+      - 
+        content: Эквадор
+        type: EC
+      - 
+        content: Эстон
+        type: EE
+      - 
+        content: Египет
+        type: EG
+      - 
+        content: Баруун Сахар
+        type: EH
+      - 
+        content: Эритри
+        type: ER
+      - 
+        content: Испани
+        type: ES
+      - 
+        content: Этиоп
+        type: ET
+      - 
+        content: Европын Холбоо
+        type: EU
+      - 
+        content: Финланд
+        type: FI
+      - 
+        content: Фижи
+        type: FJ
+      - 
+        content: Фолькландын Арлууд
+        type: FK
+      - 
+        alt: variant
+        content: Фолькландын Арлууд [Ислас Мальвинас]
+        type: FK
+      - 
+        content: Микронези
+        type: FM
+      - 
+        content: Фароэ Арлууд
+        type: FO
+      - 
+        content: Франц
+        type: FR
+      - 
+        content: Габон
+        type: GA
+      - 
+        content: Их Британи
+        type: GB
+      - 
+        content: Гренада
+        type: GD
+      - 
+        content: Гүрж
+        type: GE
+      - 
+        content: Францын Гайана
+        type: GF
+      - 
+        content: Гернси
+        type: GG
+      - 
+        content: Гана
+        type: GH
+      - 
+        content: Гибралтар
+        type: GI
+      - 
+        content: Гренланд
+        type: GL
+      - 
+        content: Гамби
+        type: GM
+      - 
+        content: Гвиней
+        type: GN
+      - 
+        content: Гваделуп
+        type: GP
+      - 
+        content: Экваторын Гвиней
+        type: GQ
+      - 
+        content: Грек
+        type: GR
+      - 
+        content: Өмнөд Жоржиа ба Өмнөд Сэндвичийн Арлууд
+        type: GS
+      - 
+        content: Гватемал
+        type: GT
+      - 
+        content: Гуам
+        type: GU
+      - 
+        content: Гвиней-Бисау
+        type: GW
+      - 
+        content: Гайана
+        type: GY
+      - 
+        content: БНХАУ-ын Тусгай захиргааны бүс Хонг Конг
+        type: HK
+      - 
+        alt: short
+        content: Хонг Конг
+        type: HK
+      - 
+        content: Хэрд Арал ба Макдоналд Арлууд
+        type: HM
+      - 
+        content: Гондурас
+        type: HN
+      - 
+        content: Хорват
+        type: HR
+      - 
+        content: Гаити
+        type: HT
+      - 
+        content: Унгар
+        type: HU
+      - 
+        content: Канарын арлууд
+        type: IC
+      - 
+        content: Индонези
+        type: ID
+      - 
+        content: Ирланд
+        type: IE
+      - 
+        content: Израиль
+        type: IL
+      - 
+        content: Мэн Арал
+        type: IM
+      - 
+        content: Энэтхэг
+        type: IN
+      - 
+        content: Британийн харьяа Энэтхэгийн далай дахь нутаг дэвсгэрүүд
+        type: IO
+      - 
+        content: Ирак
+        type: IQ
+      - 
+        content: Иран
+        type: IR
+      - 
+        content: Исланд
+        type: IS
+      - 
+        content: Итали
+        type: IT
+      - 
+        content: Жерси
+        type: JE
+      - 
+        content: Ямайк
+        type: JM
+      - 
+        content: Йордан
+        type: JO
+      - 
+        content: Япон
+        type: JP
+      - 
+        content: Кени
+        type: KE
+      - 
+        content: Кыргызстан
+        type: KG
+      - 
+        content: Камбож
+        type: KH
+      - 
+        content: Кирибати
+        type: KI
+      - 
+        content: Коморос
+        type: KM
+      - 
+        content: Сент-Киттс ба Невис
+        type: KN
+      - 
+        content: Хойд Солонгос
+        type: KP
+      - 
+        content: Өмнөд Солонгос
+        type: KR
+      - 
+        content: Кувейт
+        type: KW
+      - 
+        content: Кайманы Арлууд
+        type: KY
+      - 
+        content: Казахстан
+        type: KZ
+      - 
+        content: Лаос
+        type: LA
+      - 
+        content: Ливан
+        type: LB
+      - 
+        content: Сент Люсиа
+        type: LC
+      - 
+        content: Лихтенштейн
+        type: LI
+      - 
+        content: Шри Ланка
+        type: LK
+      - 
+        content: Либери
+        type: LR
+      - 
+        content: Лесото
+        type: LS
+      - 
+        content: Литва
+        type: LT
+      - 
+        content: Люксембург
+        type: LU
+      - 
+        content: Латви
+        type: LV
+      - 
+        content: Ливи
+        type: LY
+      - 
+        content: Марокко
+        type: MA
+      - 
+        content: Монако
+        type: MC
+      - 
+        content: Молдав
+        type: MD
+      - 
+        content: Монтенегро
+        type: ME
+      - 
+        content: Сент-Мартин
+        type: MF
+      - 
+        content: Мадагаскар
+        type: MG
+      - 
+        content: Маршаллын Арлууд
+        type: MH
+      - 
+        content: Македон
+        type: MK
+      - 
+        alt: variant
+        content: Македон [Хуучин Югославын бүрэлдэхүүний Македон]
+        type: MK
+      - 
+        content: Мали
+        type: ML
+      - 
+        content: Мьянмар [Бурма]
+        type: MM
+      - 
+        content: Монгол
+        type: MN
+      - 
+        content: БНХАУ-ын Тусгай захиргааны бүс Макао
+        type: MO
+      - 
+        alt: short
+        content: Макао
+        type: MO
+      - 
+        content: Хойд Марианы Арлууд
+        type: MP
+      - 
+        content: Мартиник
+        type: MQ
+      - 
+        content: Мавритани
+        type: MR
+      - 
+        content: Монтсеррат
+        type: MS
+      - 
+        content: Мальта
+        type: MT
+      - 
+        content: Мавритус
+        type: MU
+      - 
+        content: Мальдив
+        type: MV
+      - 
+        content: Малави
+        type: MW
+      - 
+        content: Мексик
+        type: MX
+      - 
+        content: Малайз
+        type: MY
+      - 
+        content: Мозамбик
+        type: MZ
+      - 
+        content: Намиби
+        type: NA
+      - 
+        content: Шинэ Каледони
+        type: NC
+      - 
+        content: Нигер
+        type: NE
+      - 
+        content: Норфолк Арлууд
+        type: NF
+      - 
+        content: Нигери
+        type: NG
+      - 
+        content: Никарагуа
+        type: NI
+      - 
+        content: Голланд
+        type: NL
+      - 
+        content: Норвеги
+        type: 'NO'
+      - 
+        content: Балба
+        type: NP
+      - 
+        content: Науру
+        type: NR
+      - 
+        content: Ниуэ
+        type: NU
+      - 
+        content: Шинэ Зеланд
+        type: NZ
+      - 
+        content: Оман
+        type: OM
+      - 
+        content: Панам
+        type: PA
+      - 
+        content: Перу
+        type: PE
+      - 
+        content: Францын Полинез
+        type: PF
+      - 
+        content: Папуа Шинэ Гвиней
+        type: PG
+      - 
+        content: Филиппин
+        type: PH
+      - 
+        content: Пакистан
+        type: PK
+      - 
+        content: Польш
+        type: PL
+      - 
+        content: Сэнт Пьер ба Микелон
+        type: PM
+      - 
+        content: Питкэрн Арлууд
+        type: PN
+      - 
+        content: Пуэрто Рико
+        type: PR
+      - 
+        content: Палестины нутаг дэвсгэрүүд
+        type: PS
+      - 
+        alt: short
+        content: Палестин
+        type: PS
+      - 
+        content: Португал
+        type: PT
+      - 
+        content: Палау
+        type: PW
+      - 
+        content: Парагвай
+        type: PY
+      - 
+        content: Катар
+        type: QA
+      - 
+        content: Номхон далайг тойрсон улс орнууд
+        type: QO
+      - 
+        content: Реюньон
+        type: RE
+      - 
+        content: Румын
+        type: RO
+      - 
+        content: Серби
+        type: RS
+      - 
+        content: Орос
+        type: RU
+      - 
+        content: Руанда
+        type: RW
+      - 
+        content: Саудын Араб
+        type: SA
+      - 
+        content: Соломоны Арлууд
+        type: SB
+      - 
+        content: Сейшел
+        type: SC
+      - 
+        content: Судан
+        type: SD
+      - 
+        content: Швед
+        type: SE
+      - 
+        content: Сингапур
+        type: SG
+      - 
+        content: Сент Хелена
+        type: SH
+      - 
+        content: Словени
+        type: SI
+      - 
+        content: Свалбард ба Ян Майен
+        type: SJ
+      - 
+        content: Словак
+        type: SK
+      - 
+        content: Сьерра-Леоне
+        type: SL
+      - 
+        content: Сан-Марино
+        type: SM
+      - 
+        content: Сенегал
+        type: SN
+      - 
+        content: Сомали
+        type: SO
+      - 
+        content: Суринам
+        type: SR
+      - 
+        content: Өмнөд Судан
+        type: SS
+      - 
+        content: Сан-Томе ба Принсипи
+        type: ST
+      - 
+        content: Эль Сальвадор
+        type: SV
+      - 
+        content: Синт Мартен
+        type: SX
+      - 
+        content: Сири
+        type: SY
+      - 
+        content: Свазиланд
+        type: SZ
+      - 
+        content: Тристан да Кунья
+        type: TA
+      - 
+        content: Турк ба Кайкосын Арлууд
+        type: TC
+      - 
+        content: Чад
+        type: TD
+      - 
+        content: Францын өмнөд газар нутаг
+        type: TF
+      - 
+        content: Того
+        type: TG
+      - 
+        content: Тайланд
+        type: TH
+      - 
+        content: Тажикистан
+        type: TJ
+      - 
+        content: Токелау
+        type: TK
+      - 
+        content: Тимор-Лесте
+        type: TL
+      - 
+        alt: variant
+        content: Зүүн Тимор
+        type: TL
+      - 
+        content: Туркменистан
+        type: TM
+      - 
+        content: Тунис
+        type: TN
+      - 
+        content: Тонга
+        type: TO
+      - 
+        content: Турк
+        type: TR
+      - 
+        content: Тринидад ба Тобаго
+        type: TT
+      - 
+        content: Тувалу
+        type: TV
+      - 
+        content: Тайван
+        type: TW
+      - 
+        content: Танзани
+        type: TZ
+      - 
+        content: Украйн
+        type: UA
+      - 
+        content: Уганда
+        type: UG
+      - 
+        content: АНУ-ын тойрсон арлууд
+        type: UM
+      - 
+        content: Америкийн Нэгдсэн Улс
+        type: US
+      - 
+        content: Уругвай
+        type: UY
+      - 
+        content: Узбекистан
+        type: UZ
+      - 
+        content: Ватикан хот улс
+        type: VA
+      - 
+        content: Сэнт Винсэнт ба Гренадин
+        type: VC
+      - 
+        content: Венесуэл
+        type: VE
+      - 
+        content: Британийн Виржиний Арлууд
+        type: VG
+      - 
+        content: АНУ-ын Виржиний Арлууд
+        type: VI
+      - 
+        content: Вьетнам
+        type: VN
+      - 
+        content: Вануату
+        type: VU
+      - 
+        content: Уоллис ба Футуна
+        type: WF
+      - 
+        content: Самоа
+        type: WS
+      - 
+        content: Йемен
+        type: YE
+      - 
+        content: Майотте
+        type: YT
+      - 
+        content: Өмнөд Африк тив
+        type: ZA
+      - 
+        content: Замби
+        type: ZM
+      - 
+        content: Зимбабве
+        type: ZW
+      - 
+        content: Тодорхойгүй
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: Грегорийн хуанли
+        type: gregorian
+      collation: 
+        content: ерөнхий зорилготой хайлт
+        type: search
+      numbers: 
+        content: тибет тоо
+        type: tibt
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - Арабын Нэгдсэн Эмиратын дирхам
+          - 
+            content: Арабын Нэгдсэн Эмиратын дирхам
+            count: one
+          - 
+            content: Арабын Нэгдсэн Эмиратын дирхам
+            count: other
+        type: AED
+      - 
+        displayName: 
+          - Афганистаний афгани
+          - 
+            content: афганистаний афгани
+            count: one
+          - 
+            content: афганистаний афгани
+            count: other
+        type: AFN
+      - 
+        displayName: 
+          - Албани лек
+          - 
+            content: албани лек
+            count: one
+          - 
+            content: албани лек
+            count: other
+        type: ALL
+      - 
+        displayName: 
+          - Армени драм
+          - 
+            content: армени драм
+            count: one
+          - 
+            content: армени драм
+            count: other
+        type: AMD
+      - 
+        displayName: 
+          - Нидерланд Антиллъя гулден
+          - 
+            content: Нидерланд Антиллъя гулден
+            count: one
+          - 
+            content: Нидерланд Антиллъя гулден
+            count: other
+        type: ANG
+      - 
+        displayName: 
+          - Ангол кванза
+          - 
+            content: ангол кванза
+            count: one
+          - 
+            content: ангол кванза
+            count: other
+        type: AOA
+      - 
+        displayName: 
+          - Аргентин песо
+          - 
+            content: аргентин песо
+            count: one
+          - 
+            content: аргентин песо
+            count: other
+        type: ARS
+      - 
+        displayName: 
+          - Австралийн доллар
+          - 
+            content: австралийн доллар
+            count: one
+          - 
+            content: австралийн доллар
+            count: other
+        symbol: A$
+        type: AUD
+      - 
+        displayName: 
+          - Аруба флорин
+          - 
+            content: аруба флорин
+            count: one
+          - 
+            content: аруба флорин
+            count: other
+        type: AWG
+      - 
+        displayName: 
+          - Азербайжан манат
+          - 
+            content: азербайжан манат
+            count: one
+          - 
+            content: азербайжан манат
+            count: other
+        type: AZN
+      - 
+        displayName: 
+          - Босни-Герцеговин хөрвөгч марк
+          - 
+            content: Босни-Герцеговин хөрвөгч марк
+            count: one
+          - 
+            content: Босни-Герцеговин хөрвөгч марк
+            count: other
+        type: BAM
+      - 
+        displayName: 
+          - Барбадос доллар
+          - 
+            content: барбадос доллар
+            count: one
+          - 
+            content: барбадос доллар
+            count: other
+        type: BBD
+      - 
+        displayName: 
+          - Бангладеш така
+          - 
+            content: бангладеш така
+            count: one
+          - 
+            content: бангладеш така
+            count: other
+        type: BDT
+      - 
+        displayName: 
+          - Болгар лев
+          - 
+            content: болгар лев
+            count: one
+          - 
+            content: болгар лев
+            count: other
+        type: BGN
+      - 
+        displayName: 
+          - Бахрейн динар
+          - 
+            content: бахрейн динар
+            count: one
+          - 
+            content: бахрейн динар
+            count: other
+        type: BHD
+      - 
+        displayName: 
+          - Бурунд франк
+          - 
+            content: бурунд франк
+            count: one
+          - 
+            content: бурунд франк
+            count: other
+        type: BIF
+      - 
+        displayName: 
+          - Бермудын доллар
+          - 
+            content: бермудын доллар
+            count: one
+          - 
+            content: бермудын доллар
+            count: other
+        type: BMD
+      - 
+        displayName: 
+          - Бруней доллар
+          - 
+            content: бруней доллар
+            count: one
+          - 
+            content: бруней доллар
+            count: other
+        type: BND
+      - 
+        displayName: 
+          - Боливи боливиано
+          - 
+            content: боливи боливиано
+            count: one
+          - 
+            content: боливи боливиано
+            count: other
+        type: BOB
+      - 
+        displayName: 
+          - Бразилийн рил
+          - 
+            content: бразилийн рил
+            count: one
+          - 
+            content: бразилийн рил
+            count: other
+        symbol: R$
+        type: BRL
+      - 
+        displayName: 
+          - Багам доллар
+          - 
+            content: багам доллар
+            count: one
+          - 
+            content: багам доллар
+            count: other
+        type: BSD
+      - 
+        displayName: 
+          - Бутан нгултрум
+          - 
+            content: бутан нгултрум
+            count: one
+          - 
+            content: бутан нгултрум
+            count: other
+        type: BTN
+      - 
+        displayName: 
+          - Ботсвани пула
+          - 
+            content: Ботсвани пула
+            count: one
+          - 
+            content: Ботсвани пула
+            count: other
+        type: BWP
+      - 
+        displayName: 
+          - Беларус рубль
+          - 
+            content: беларус рубль
+            count: one
+          - 
+            content: беларус рубль
+            count: other
+        type: BYR
+      - 
+        displayName: 
+          - Белиз доллар
+          - 
+            content: белиз доллар
+            count: one
+          - 
+            content: белиз доллар
+            count: other
+        type: BZD
+      - 
+        displayName: 
+          - Канад доллар
+          - 
+            content: канад доллар
+            count: one
+          - 
+            content: канад доллар
+            count: other
+        symbol: CA$
+        type: CAD
+      - 
+        displayName: 
+          - Конго франк
+          - 
+            content: конго франк
+            count: one
+          - 
+            content: конго франк
+            count: other
+        type: CDF
+      - 
+        displayName: 
+          - Швейцар франк
+          - 
+            content: Швейцар франк
+            count: one
+          - 
+            content: Швейцар франк
+            count: other
+        type: CHF
+      - 
+        displayName: 
+          - Чили песо
+          - 
+            content: чили песо
+            count: one
+          - 
+            content: чили песо
+            count: other
+        type: CLP
+      - 
+        displayName: 
+          - Хятад юань
+          - 
+            content: хятад юань
+            count: one
+          - 
+            content: хятад юань
+            count: other
+        symbol: CN¥
+        type: CNY
+      - 
+        displayName: 
+          - Колумбын песо
+          - 
+            content: колумбын песо
+            count: one
+          - 
+            content: колумбын песо
+            count: other
+        type: COP
+      - 
+        displayName: 
+          - Коста Рика колон
+          - 
+            content: коста рика колон
+            count: one
+          - 
+            content: коста рика колон
+            count: other
+        type: CRC
+      - 
+        displayName: 
+          - Куба хөрвөгч песо
+          - 
+            content: куба хөрвөгч песо
+            count: one
+          - 
+            content: куба хөрвөгч песо
+            count: other
+        type: CUC
+      - 
+        displayName: 
+          - Куба песо
+          - 
+            content: куба песо
+            count: one
+          - 
+            content: куба песо
+            count: other
+        type: CUP
+      - 
+        displayName: 
+          - Кабо-Верде эскудо
+          - 
+            content: кабо-верде эскудо
+            count: one
+          - 
+            content: кабо-верде эскудо
+            count: other
+        type: CVE
+      - 
+        displayName: 
+          - Чех коруна
+          - 
+            content: чех коруна
+            count: one
+          - 
+            content: чех коруна
+            count: other
+        type: CZK
+      - 
+        displayName: 
+          - Жибоути франк
+          - 
+            content: жибоути франк
+            count: one
+          - 
+            content: жибоути франк
+            count: other
+        type: DJF
+      - 
+        displayName: 
+          - Данийн крон
+          - 
+            content: Данийн крон
+            count: one
+          - 
+            content: Данийн крон
+            count: other
+        type: DKK
+      - 
+        displayName: 
+          - Доминикан песо
+          - 
+            content: доминикан песо
+            count: one
+          - 
+            content: доминикан песо
+            count: other
+        type: DOP
+      - 
+        displayName: 
+          - Алжир доллар
+          - 
+            content: алжир доллар
+            count: one
+          - 
+            content: алжир доллар
+            count: other
+        type: DZD
+      - 
+        displayName: 
+          - Египет паунд
+          - 
+            content: египет паунд
+            count: one
+          - 
+            content: египет паунд
+            count: other
+        type: EGP
+      - 
+        displayName: 
+          - Эритрей накфа
+          - 
+            content: эритрей накфа
+            count: one
+          - 
+            content: эритрей накфа
+            count: other
+        type: ERN
+      - 
+        displayName: 
+          - Этиоп бирр
+          - 
+            content: этиоп бирр
+            count: one
+          - 
+            content: этиоп бирр
+            count: other
+        type: ETB
+      - 
+        displayName: 
+          - Евро
+          - 
+            content: евро
+            count: one
+          - 
+            content: евро
+            count: other
+        symbol: €
+        type: EUR
+      - 
+        displayName: 
+          - Фижи доллар
+          - 
+            content: Фижи доллар
+            count: one
+          - 
+            content: Фижи доллар
+            count: other
+        type: FJD
+      - 
+        displayName: 
+          - Фолклэнд Арлууд паунд
+          - 
+            content: фолклэнд арлууд паунд
+            count: one
+          - 
+            content: фолклэнд арлууд паунд
+            count: other
+        type: FKP
+      - 
+        displayName: 
+          - Англи фунт стерлинг
+          - 
+            content: англи фунт стерлинг
+            count: one
+          - 
+            content: англи фунт стерлинг
+            count: other
+        symbol: £
+        type: GBP
+      - 
+        displayName: 
+          - Гүрж лари
+          - 
+            content: гүрж лари
+            count: one
+          - 
+            content: гүрж лари
+            count: other
+        type: GEL
+      - 
+        displayName: 
+          - Гана седи
+          - 
+            content: гана седи
+            count: one
+          - 
+            content: гана седи
+            count: other
+        type: GHS
+      - 
+        displayName: 
+          - Гибралтар паунд
+          - 
+            content: гибралтар паунд
+            count: one
+          - 
+            content: гибралтар паунд
+            count: other
+        type: GIP
+      - 
+        displayName: 
+          - Гамби даласи
+          - 
+            content: гамби даласи
+            count: one
+          - 
+            content: гамби даласи
+            count: other
+        type: GMD
+      - 
+        displayName: 
+          - Гвиней франк
+          - 
+            content: гвиней франк
+            count: one
+          - 
+            content: гвиней франк
+            count: other
+        type: GNF
+      - 
+        displayName: 
+          - Гватемал кецал
+          - 
+            content: гватемал кецал
+            count: one
+          - 
+            content: гватемал кецал
+            count: other
+        type: GTQ
+      - 
+        displayName: 
+          - Гайана доллар
+          - 
+            content: гайана доллар
+            count: one
+          - 
+            content: гайана доллар
+            count: other
+        type: GYD
+      - 
+        displayName: 
+          - Хонгконг доллар
+          - 
+            content: Хонгконг доллар
+            count: one
+          - 
+            content: Хонгконг доллар
+            count: other
+        symbol: HK$
+        type: HKD
+      - 
+        displayName: 
+          - Гондурас лемпира
+          - 
+            content: гондурас лемпира
+            count: one
+          - 
+            content: гондурас лемпира
+            count: other
+        type: HNL
+      - 
+        displayName: 
+          - Хорватын куна
+          - 
+            content: Хорватын куна
+            count: one
+          - 
+            content: Хорватын куна
+            count: other
+        type: HRK
+      - 
+        displayName: 
+          - Гайти гоурде
+          - 
+            content: гайти гоурде
+            count: one
+          - 
+            content: гайти гоурде
+            count: other
+        type: HTG
+      - 
+        displayName: 
+          - Унгар форинт
+          - 
+            content: унгар форинт
+            count: one
+          - 
+            content: унгар форинт
+            count: other
+        type: HUF
+      - 
+        displayName: 
+          - Индонези рупи
+          - 
+            content: индонези рупи
+            count: one
+          - 
+            content: индонези рупи
+            count: other
+        type: IDR
+      - 
+        displayName: 
+          - Израиль шинэ шекел
+          - 
+            content: израиль шинэ шекел
+            count: one
+          - 
+            content: израиль шинэ шекел
+            count: other
+        symbol: ₪
+        type: ILS
+      - 
+        displayName: 
+          - Энэтхэг рупи
+          - 
+            content: энэтхэг рупи
+            count: one
+          - 
+            content: энэтхэг рупи
+            count: other
+        symbol: ₹
+        type: INR
+      - 
+        displayName: 
+          - Ирак динар
+          - 
+            content: ирак динар
+            count: one
+          - 
+            content: ирак динар
+            count: other
+        type: IQD
+      - 
+        displayName: 
+          - Иран риал
+          - 
+            content: иран риал
+            count: one
+          - 
+            content: иран риал
+            count: other
+        type: IRR
+      - 
+        displayName: 
+          - Исланд крона
+          - 
+            content: Исланд крона
+            count: one
+          - 
+            content: Исланд крона
+            count: other
+        type: ISK
+      - 
+        displayName: 
+          - Ямайк доллар
+          - 
+            content: ямайк доллар
+            count: one
+          - 
+            content: Ямайк доллар
+            count: other
+        type: JMD
+      - 
+        displayName: 
+          - Йордан динар
+          - 
+            content: йордан динар
+            count: one
+          - 
+            content: йордан динар
+            count: other
+        type: JOD
+      - 
+        displayName: 
+          - Япон иен
+          - 
+            content: япон иен
+            count: one
+          - 
+            content: япон иен
+            count: other
+        symbol: JP¥
+        type: JPY
+      - 
+        displayName: 
+          - Кени шиллинг
+          - 
+            content: кени шиллинг
+            count: one
+          - 
+            content: Кени шиллинг
+            count: other
+        type: KES
+      - 
+        displayName: 
+          - Кыргыз сом
+          - 
+            content: кыргыз сом
+            count: one
+          - 
+            content: кыргыз сом
+            count: other
+        type: KGS
+      - 
+        displayName: 
+          - Камбож риел
+          - 
+            content: камбож риел
+            count: one
+          - 
+            content: камбож риел
+            count: other
+        type: KHR
+      - 
+        displayName: 
+          - Комор франк
+          - 
+            content: комор франк
+            count: one
+          - 
+            content: комор франк
+            count: other
+        type: KMF
+      - 
+        displayName: 
+          - Хойд Солонгос вон
+          - 
+            content: хойд солонгос вон
+            count: one
+          - 
+            content: хойд солонгос вон
+            count: other
+        type: KPW
+      - 
+        displayName: 
+          - Өмнөд Солонгос вон
+          - 
+            content: өмнөд солонгос вон
+            count: one
+          - 
+            content: өмнөд солонгос вон
+            count: other
+        symbol: ₩
+        type: KRW
+      - 
+        displayName: 
+          - Кувейт динар
+          - 
+            content: кувейт динар
+            count: one
+          - 
+            content: кувейт динар
+            count: other
+        type: KWD
+      - 
+        displayName: 
+          - Кайманы Арлууд доллар
+          - 
+            content: кайманы арлууд доллар
+            count: one
+          - 
+            content: кайманы арлууд доллар
+            count: other
+        type: KYD
+      - 
+        displayName: 
+          - Казах тэнгэ
+          - 
+            content: казах тэнгэ
+            count: one
+          - 
+            content: казах тэнгэ
+            count: other
+        type: KZT
+      - 
+        displayName: 
+          - Лао кип
+          - 
+            content: лао кип
+            count: one
+          - 
+            content: лао кип
+            count: other
+        type: LAK
+      - 
+        displayName: 
+          - Ливан паунд
+          - 
+            content: ливан паунд
+            count: one
+          - 
+            content: ливан паунд
+            count: other
+        type: LBP
+      - 
+        displayName: 
+          - Шри-Ланк рупи
+          - 
+            content: шри-ланк рупи
+            count: one
+          - 
+            content: шри-ланк рупи
+            count: other
+        type: LKR
+      - 
+        displayName: 
+          - Либери доллар
+          - 
+            content: либери доллар
+            count: one
+          - 
+            content: либери доллар
+            count: other
+        type: LRD
+      - 
+        displayName: 
+          - Литва литас
+          - 
+            content: Литва литас
+            count: one
+          - 
+            content: Литва литас
+            count: other
+        type: LTL
+      - 
+        displayName: 
+          - Латви лац
+          - 
+            content: Латви лац
+            count: one
+          - 
+            content: Латви лац
+            count: other
+        type: LVL
+      - 
+        displayName: 
+          - Ливи доллар
+          - 
+            content: ливи доллар
+            count: one
+          - 
+            content: ливи доллар
+            count: other
+        type: LYD
+      - 
+        displayName: 
+          - Марокко дирхам
+          - 
+            content: марокко дирхам
+            count: one
+          - 
+            content: марокко дирхам
+            count: other
+        type: MAD
+      - 
+        displayName: 
+          - Молдав леу
+          - 
+            content: молдав леу
+            count: one
+          - 
+            content: молдав леу
+            count: other
+        type: MDL
+      - 
+        displayName: 
+          - Малайн ариари
+          - 
+            content: малайн ариари
+            count: one
+          - 
+            content: малайн ариари
+            count: other
+        type: MGA
+      - 
+        displayName: 
+          - Македони денар
+          - 
+            content: македони денар
+            count: one
+          - 
+            content: македони денар
+            count: other
+        type: MKD
+      - 
+        displayName: 
+          - Мьянмар киат
+          - 
+            content: мьянмар киат
+            count: one
+          - 
+            content: мьянмар киат
+            count: other
+        type: MMK
+      - 
+        displayName: 
+          - Төгрөг
+          - 
+            content: төгрөг
+            count: one
+          - 
+            content: төгрөг
+            count: other
+        symbol: ₮
+        type: MNT
+      - 
+        displayName: 
+          - Макао патака
+          - 
+            content: макао патака
+            count: one
+          - 
+            content: макао патака
+            count: other
+        type: MOP
+      - 
+        displayName: 
+          - Мавритан угия
+          - 
+            content: мавритан угия
+            count: one
+          - 
+            content: мавритан угия
+            count: other
+        type: MRO
+      - 
+        displayName: 
+          - Мавритын рупи
+          - 
+            content: мавритын рупи
+            count: one
+          - 
+            content: мавритын рупи
+            count: other
+        type: MUR
+      - 
+        displayName: 
+          - Мальдив руфия
+          - 
+            content: мальдив руфия
+            count: one
+          - 
+            content: мальдив руфия
+            count: other
+        type: MVR
+      - 
+        displayName: 
+          - Малави квача
+          - 
+            content: малави квача
+            count: one
+          - 
+            content: Малави квача
+            count: other
+        type: MWK
+      - 
+        displayName: 
+          - Мексик песо
+          - 
+            content: мексик песо
+            count: one
+          - 
+            content: мексик песо
+            count: other
+        symbol: MX$
+        type: MXN
+      - 
+        displayName: 
+          - Малайз ринггит
+          - 
+            content: малайз ринггит
+            count: one
+          - 
+            content: малайз ринггит
+            count: other
+        type: MYR
+      - 
+        displayName: 
+          - Мозамбик метикал
+          - 
+            content: мозамбик метикал
+            count: one
+          - 
+            content: мозамбик метикал
+            count: other
+        type: MZN
+      - 
+        displayName: 
+          - Намиби доллар
+          - 
+            content: Намиби доллар
+            count: one
+          - 
+            content: Намиби доллар
+            count: other
+        type: NAD
+      - 
+        displayName: 
+          - Нигери найра
+          - 
+            content: нигери найра
+            count: one
+          - 
+            content: нигери найра
+            count: other
+        type: NGN
+      - 
+        displayName: 
+          - Никарагуа кордоба
+          - 
+            content: никарагуа кордоба
+            count: one
+          - 
+            content: никарагуа кордоба
+            count: other
+        type: NIO
+      - 
+        displayName: 
+          - Норвеги кроне
+          - 
+            content: норвеги кроне
+            count: one
+          - 
+            content: норвеги кроне
+            count: other
+        type: NOK
+      - 
+        displayName: 
+          - Балба рупи
+          - 
+            content: балба рупи
+            count: one
+          - 
+            content: балба рупи
+            count: other
+        type: NPR
+      - 
+        displayName: 
+          - Шинэ Зеланд доллар
+          - 
+            content: Шинэ Зеланд доллар
+            count: one
+          - 
+            content: Шинэ Зеланд доллар
+            count: other
+        symbol: NZ$
+        type: NZD
+      - 
+        displayName: 
+          - Омани риал
+          - 
+            content: омани риал
+            count: one
+          - 
+            content: омани риал
+            count: other
+        type: OMR
+      - 
+        displayName: 
+          - Панам бальбоа
+          - 
+            content: панам бальбоа
+            count: one
+          - 
+            content: панам бальбоа
+            count: other
+        type: PAB
+      - 
+        displayName: 
+          - Перу шинэ соль
+          - 
+            content: перу шинэ соль
+            count: one
+          - 
+            content: перу шинэ соль
+            count: other
+        type: PEN
+      - 
+        displayName: 
+          - Папуа-Шинэ Гвиней кина
+          - 
+            content: Папуа-Шинэ Гвиней кина
+            count: one
+          - 
+            content: Папуа-Шинэ Гвиней кина
+            count: other
+        type: PGK
+      - 
+        displayName: 
+          - Филиппин песо
+          - 
+            content: филиппин песо
+            count: one
+          - 
+            content: филиппин песо
+            count: other
+        type: PHP
+      - 
+        displayName: 
+          - Пакистан рупи
+          - 
+            content: пакистан рупи
+            count: one
+          - 
+            content: пакистан рупи
+            count: other
+        type: PKR
+      - 
+        displayName: 
+          - Польш злот
+          - 
+            content: польш злот
+            count: one
+          - 
+            content: польш злот
+            count: other
+        type: PLN
+      - 
+        displayName: 
+          - Парагвай гуарани
+          - 
+            content: парагвай гуарани
+            count: one
+          - 
+            content: парагвай гуарани
+            count: other
+        type: PYG
+      - 
+        displayName: 
+          - Катар риал
+          - 
+            content: катар риал
+            count: one
+          - 
+            content: катар риал
+            count: other
+        type: QAR
+      - 
+        displayName: 
+          - Румын леу
+          - 
+            content: румын леу
+            count: one
+          - 
+            content: румын леу
+            count: other
+        type: RON
+      - 
+        displayName: 
+          - Серб динар
+          - 
+            content: серб динар
+            count: one
+          - 
+            content: серб динар
+            count: other
+        type: RSD
+      - 
+        displayName: 
+          - Орос рубль
+          - 
+            content: орос рубль
+            count: one
+          - 
+            content: орос рубль
+            count: other
+        type: RUB
+      - 
+        displayName: 
+          - Руанд франк
+          - 
+            content: руанд франк
+            count: one
+          - 
+            content: руанд франк
+            count: other
+        type: RWF
+      - 
+        displayName: 
+          - Саудын риял
+          - 
+            content: саудын риял
+            count: one
+          - 
+            content: саудын риял
+            count: other
+        type: SAR
+      - 
+        displayName: 
+          - Соломоны арлуудын доллар
+          - 
+            content: соломоны арлуудын доллар
+            count: one
+          - 
+            content: соломоны арлуудын доллар
+            count: other
+        type: SBD
+      - 
+        displayName: 
+          - Сейшел рупи
+          - 
+            content: сейшел рупи
+            count: one
+          - 
+            content: сейшел рупи
+            count: other
+        type: SCR
+      - 
+        displayName: 
+          - Судан паунд
+          - 
+            content: судан паунд
+            count: one
+          - 
+            content: судан паунд
+            count: other
+        type: SDG
+      - 
+        displayName: 
+          - Швед крона
+          - 
+            content: швед крона
+            count: one
+          - 
+            content: швед крона
+            count: other
+        type: SEK
+      - 
+        displayName: 
+          - Сингапур доллар
+          - 
+            content: сингапур доллар
+            count: one
+          - 
+            content: сингапур доллар
+            count: other
+        type: SGD
+      - 
+        displayName: 
+          - Сент Хелена паунд
+          - 
+            content: сент хелена паунд
+            count: one
+          - 
+            content: сент хелена паунд
+            count: other
+        type: SHP
+      - 
+        displayName: 
+          - Сьерра Леоне леоне
+          - 
+            content: сьерра леоне леоне
+            count: one
+          - 
+            content: сьерра леоне леоне
+            count: other
+        type: SLL
+      - 
+        displayName: 
+          - Сомали шиллинг
+          - 
+            content: сомали шиллинг
+            count: one
+          - 
+            content: сомали шиллинг
+            count: other
+        type: SOS
+      - 
+        displayName: 
+          - Суринам доллар
+          - 
+            content: суринам доллар
+            count: one
+          - 
+            content: суринам доллар
+            count: other
+        type: SRD
+      - 
+        displayName: 
+          - Өмнөд Судан паунд
+          - 
+            content: өмнөд судан паунд
+            count: one
+          - 
+            content: өмнөд судан паунд
+            count: other
+        type: SSP
+      - 
+        displayName: 
+          - Сан-Томе ба Принсипи добра
+          - 
+            content: сан-томе ба принсипи добра
+            count: one
+          - 
+            content: сан-томе ба принсипи добра
+            count: other
+        type: STD
+      - 
+        displayName: 
+          - Сири паунд
+          - 
+            content: сири паунд
+            count: one
+          - 
+            content: сири паунд
+            count: other
+        type: SYP
+      - 
+        displayName: 
+          - Свазиланд лилангени
+          - 
+            content: Свазиланд лилангени
+            count: one
+          - 
+            content: Свазиланд лилангени
+            count: other
+        type: SZL
+      - 
+        displayName: 
+          - Тай бат
+          - 
+            content: тай бат
+            count: one
+          - 
+            content: тай бат
+            count: other
+        symbol: ฿
+        type: THB
+      - 
+        displayName: 
+          - Тажик сом
+          - 
+            content: тажик сом
+            count: one
+          - 
+            content: тажик сом
+            count: other
+        type: TJS
+      - 
+        displayName: 
+          - Туркмен манат
+          - 
+            content: туркмен манат
+            count: one
+          - 
+            content: туркмен манат
+            count: other
+        type: TMT
+      - 
+        displayName: 
+          - Тунис доллар
+          - 
+            content: тунис доллар
+            count: one
+          - 
+            content: тунис доллар
+            count: other
+        type: TND
+      - 
+        displayName: 
+          - Тонга панга
+          - 
+            content: тонга панга
+            count: one
+          - 
+            content: тонга панга
+            count: other
+        type: TOP
+      - 
+        displayName: 
+          - Туркийн лира
+          - 
+            content: Туркийн лира
+            count: one
+          - 
+            content: Туркийн лира
+            count: other
+        type: TRY
+      - 
+        displayName: 
+          - Тринидад ба Тобаго доллар
+          - 
+            content: тринидад ба тобаго доллар
+            count: one
+          - 
+            content: тринидад ба тобаго доллар
+            count: other
+        type: TTD
+      - 
+        displayName: 
+          - Шинэ Тайван доллар
+          - 
+            content: Шинэ Тайван доллар
+            count: one
+          - 
+            content: Шинэ Тайван доллар
+            count: other
+        symbol: TWD
+        type: TWD
+      - 
+        displayName: 
+          - Танзани шиллинг
+          - 
+            content: танзани шиллинг
+            count: one
+          - 
+            content: танзани шиллинг
+            count: other
+        type: TZS
+      - 
+        displayName: 
+          - Украйн гривня
+          - 
+            content: украйн гривня
+            count: one
+          - 
+            content: украйн гривня
+            count: other
+        type: UAH
+      - 
+        displayName: 
+          - Уганд шиллинг
+          - 
+            content: Уганд шиллинг
+            count: one
+          - 
+            content: Уганд шиллинг
+            count: other
+        type: UGX
+      - 
+        displayName: 
+          - Америк доллар
+          - 
+            content: америк доллар
+            count: one
+          - 
+            content: америк доллар
+            count: other
+        symbol: $
+        type: USD
+      - 
+        displayName: 
+          - Уругвай песо
+          - 
+            content: уругвай песо
+            count: one
+          - 
+            content: уругвай песо
+            count: other
+        type: UYU
+      - 
+        displayName: 
+          - Узбек сом
+          - 
+            content: узбек сом
+            count: one
+          - 
+            content: узбек сом
+            count: other
+        type: UZS
+      - 
+        displayName: 
+          - Венесуэл боливар
+          - 
+            content: венесуэл боливар
+            count: one
+          - 
+            content: венесуэл боливар
+            count: other
+        type: VEF
+      - 
+        displayName: 
+          - Вьетнам донг
+          - 
+            content: вьетнам донг
+            count: one
+          - 
+            content: вьетнам донг
+            count: other
+        symbol: ₫
+        type: VND
+      - 
+        displayName: 
+          - Вануату вату
+          - 
+            content: вануату вату
+            count: one
+          - 
+            content: вануату вату
+            count: other
+        type: VUV
+      - 
+        displayName: 
+          - Самоа тала
+          - 
+            content: самоа тала
+            count: one
+          - 
+            content: самоа тала
+            count: other
+        type: WST
+      - 
+        displayName: 
+          - Франк КФА BEAC
+          - 
+            content: франк КФА BEAC
+            count: one
+          - 
+            content: франк КФА BEAC
+            count: other
+        symbol: FCFA
+        type: XAF
+      - 
+        displayName: 
+          - Зүүн Карибийн доллар
+          - 
+            content: зүүн карибийн доллар
+            count: one
+          - 
+            content: зүүн карибийн доллар
+            count: other
+        symbol: EC$
+        type: XCD
+      - 
+        displayName: 
+          - Франк КФА BCЕАО
+          - 
+            content: франк КФА BCЕАО
+            count: one
+          - 
+            content: франк КФА BCЕАО
+            count: other
+        symbol: CFA
+        type: XOF
+      - 
+        displayName: 
+          - Франц Номхон далайн франк
+          - 
+            content: Франц Номхон далайн франк
+            count: one
+          - 
+            content: Франц Номхон далайн франк
+            count: other
+        symbol: CFPF
+        type: XPF
+      - 
+        displayName: 
+          - Тодорхойгүй мөнгөн тэмдэгт
+          - 
+            content: (тодорхойгүй мөнгөн тэмдэгтийн нэгж)
+            count: one
+          - 
+            content: (тодорхойгүй мөнгөн тэмдэгт)
+            count: other
+        type: XXX
+      - 
+        displayName: 
+          - Йемен риал
+          - 
+            content: йемен риал
+            count: one
+          - 
+            content: йемен риал
+            count: other
+        type: YER
+      - 
+        displayName: 
+          - Өмнөд Африкийн ранд
+          - 
+            content: Өмнөд Африкийн ранд
+            count: one
+          - 
+            content: Өмнөд Африкийн ранд
+            count: other
+        type: ZAR
+      - 
+        displayName: 
+          - Замби квача (1968-2012)
+          - 
+            content: Замби квача (1968-2012)
+            count: one
+          - 
+            content: Замби квача (1968-2012)
+            count: other
+        type: ZMK
+      - 
+        displayName: 
+          - Замби квача
+          - 
+            content: Замби квача
+            count: one
+          - 
+            content: Замби квача
+            count: other
+        symbol: ZMW
+        type: ZMW
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##0.00
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 мянга
+              count: one
+              type: 1000
+            - 
+              content: 0 мянга
+              count: other
+              type: 1000
+            - 
+              content: 00 мянга
+              count: one
+              type: 10000
+            - 
+              content: 00 мянга
+              count: other
+              type: 10000
+            - 
+              content: 000 мянга
+              count: one
+              type: 100000
+            - 
+              content: 000 мянга
+              count: other
+              type: 100000
+            - 
+              content: 0 сая
+              count: one
+              type: 1000000
+            - 
+              content: 0 сая
+              count: other
+              type: 1000000
+            - 
+              content: 00 сая
+              count: one
+              type: 10000000
+            - 
+              content: 00 сая
+              count: other
+              type: 10000000
+            - 
+              content: 000 сая
+              count: one
+              type: 100000000
+            - 
+              content: 000 сая
+              count: other
+              type: 100000000
+            - 
+              content: 0 тэрбум
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 тэрбум
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 тэрбум
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 тэрбум
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 тэрбум
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 тэрбум
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 их наяд
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 их наяд
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 их наяд
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 их наяд
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 их наяд
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 их наяд
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 мянга
+              count: one
+              type: 1000
+            - 
+              content: 0 мянга
+              count: other
+              type: 1000
+            - 
+              content: 00 мянга
+              count: one
+              type: 10000
+            - 
+              content: 00 мянга
+              count: other
+              type: 10000
+            - 
+              content: 000 мянга
+              count: one
+              type: 100000
+            - 
+              content: 000 мянга
+              count: other
+              type: 100000
+            - 
+              content: 0 сая
+              count: one
+              type: 1000000
+            - 
+              content: 0 сая
+              count: other
+              type: 1000000
+            - 
+              content: 00 сая
+              count: one
+              type: 10000000
+            - 
+              content: 00 сая
+              count: other
+              type: 10000000
+            - 
+              content: 000 сая
+              count: one
+              type: 100000000
+            - 
+              content: 000 сая
+              count: other
+              type: 100000000
+            - 
+              content: 0 тэрбум
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 тэрбум
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 тэрбум
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 тэрбум
+              count: other
+              type: '10000000000'
+            - 
+              content: 000B
+              count: one
+              type: '100000000000'
+            - 
+              content: 000B
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 их наяд
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 их наяд
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00T
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00T
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000T
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000T
+              count: other
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    exponential: E
+    group: {}
+
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: үгүй:ү
+    yesstr: тийм:т
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} өдөр"
+          count: one
+        - 
+          alt: short
+          content: "{0} өдөр"
+          count: one
+        - 
+          content: "{0} өдөр"
+          count: other
+        - 
+          alt: short
+          content: "{0} өдөр"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: "{0} өдөрт"
+          count: one
+        - 
+          content: "{0} өдөрт"
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: "{0} өдрийн өмнө"
+          count: one
+        - 
+          content: "{0} өдрийн өмнө"
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} цаг"
+          count: one
+        - 
+          alt: short
+          content: "{0} цаг"
+          count: one
+        - 
+          content: "{0} цаг"
+          count: other
+        - 
+          alt: short
+          content: "{0} цаг"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: "{0} цагт"
+          count: one
+        - 
+          content: "{0} цагт"
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: "{0} цагийн өмнө"
+          count: one
+        - 
+          content: "{0} цагийн өмнө"
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} минут"
+          count: one
+        - 
+          alt: short
+          content: "{0} мин"
+          count: one
+        - 
+          content: "{0} минут"
+          count: other
+        - 
+          alt: short
+          content: "{0} мин"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: "{0} минутанд"
+          count: one
+        - 
+          content: "{0} минутанд"
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: "{0} минутын өмнө"
+          count: one
+        - 
+          content: "{0} минутын өмнө"
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} сар"
+          count: one
+        - 
+          alt: short
+          content: "{0} сар"
+          count: one
+        - 
+          content: "{0} сар"
+          count: other
+        - 
+          alt: short
+          content: "{0} сар"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: "{0} сард"
+          count: one
+        - 
+          content: "{0} сард"
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: "{0} сарын өмнө"
+          count: one
+        - 
+          content: "{0} сарын өмнө"
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} хором"
+          count: one
+        - 
+          alt: short
+          content: "{0} хором"
+          count: one
+        - 
+          content: "{0} хором"
+          count: other
+        - 
+          alt: short
+          content: "{0} хором"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: "{0} хоромд"
+          count: one
+        - 
+          content: "{0} хоромд"
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: "{0} хормын өмнө"
+          count: one
+        - 
+          content: "{0} хормын өмнө"
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} долоо хоног"
+          count: one
+        - 
+          alt: short
+          content: "{0} долоо хоног"
+          count: one
+        - 
+          content: "{0} долоо хоног"
+          count: other
+        - 
+          alt: short
+          content: "{0} долоо хоног"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: "{0} долоо хоногт"
+          count: one
+        - 
+          content: "{0} долоо хоногт"
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: "{0} долоо хоногийн өмнө"
+          count: one
+          draft: provisional
+        - 
+          content: "{0} долоо хоногийн өмнө"
+          count: other
+          draft: provisional
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} жил"
+          count: one
+        - 
+          alt: short
+          content: "{0} жил"
+          count: one
+        - 
+          content: "{0} жил"
+          count: other
+        - 
+          alt: short
+          content: "{0} жил"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: "{0} жилд"
+          count: one
+        - 
+          content: "{0} жилд"
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: "{0} жилийн өмнө"
+          count: one
+        - 
+          content: "{0} жилийн өмнө"
+          count: other

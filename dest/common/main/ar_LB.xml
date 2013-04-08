@@ -1,0 +1,60 @@
+dates: 
+  calendars: 
+    calendar: 
+      months: 
+        monthContext: 
+          monthWidth: 
+            month: 
+              - 
+                content: كانون الثاني
+                type: 1
+              - 
+                content: شباط
+                type: 2
+              - 
+                content: آذار
+                type: 3
+              - 
+                content: نيسان
+                type: 4
+              - 
+                content: أيار
+                type: 5
+              - 
+                content: حزيران
+                type: 6
+              - 
+                content: تموز
+                type: 7
+              - 
+                content: آب
+                type: 8
+              - 
+                content: أيلول
+                type: 9
+              - 
+                content: تشرين الأول
+                type: 10
+              - 
+                content: تشرين الثاني
+                type: 11
+              - 
+                content: كانون الأول
+                type: 12
+            type: wide
+          type: format
+      type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ar
+  territory: 
+    type: LB
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  symbols: 
+    decimal: ","
+    group: .
+    numberSystem: latn

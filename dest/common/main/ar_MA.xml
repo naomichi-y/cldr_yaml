@@ -1,0 +1,422 @@
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: G y/MM/dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: GGGGG y/M/d
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMdd: 
+                content: MM/dd
+              Md: 
+                content: M/d
+              yM: 
+                content: y/M
+              yMM: 
+                content: y/MM
+          intervalFormats: 
+            intervalFormatItem: 
+              MMMd: 
+                greatestDifference: 
+                  content: d‏-d MMM
+                  id: d
+              d: 
+                greatestDifference: 
+                  content: d‏-d
+                  id: d
+              "y": 
+                greatestDifference: 
+                  content: y‏-y
+                  id: 'y'
+              yMMMM: 
+                greatestDifference: 
+                  content: MM ‏- MM ‏–y
+                  id: M
+              yMMMd: 
+                greatestDifference: 
+                  content: d‏–d MMM، y
+                  id: d
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: y/MM/dd
+              type: medium
+            - 
+              dateFormat: 
+                pattern: y/M/d
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMdd: 
+                content: MM/dd
+              Md: 
+                content: M/d
+              yM: 
+                content: y/M
+              yMM: 
+                content: y/MM
+          intervalFormats: 
+            intervalFormatItem: 
+              MMMd: 
+                greatestDifference: 
+                  content: d‏-d MMM
+                  id: d
+              d: 
+                greatestDifference: 
+                  content: d‏-d
+                  id: d
+              "y": 
+                greatestDifference: 
+                  content: y‏-y
+                  id: 'y'
+              yMMMM: 
+                greatestDifference: 
+                  content: MM ‏- MM ‏–y
+                  id: M
+              yMMMd: 
+                greatestDifference: 
+                  content: d‏–d MMM، y
+                  id: d
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: يناير
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: فبراير
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: مارس
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: ﺄبﺮيﻟ
+                      draft: contributed
+                      type: 4
+                    - 
+                      content: ماي
+                      draft: contributed
+                      type: 5
+                    - 
+                      content: يونيو
+                      draft: contributed
+                      type: 6
+                    - 
+                      content: يوليو
+                      draft: contributed
+                      type: 7
+                    - 
+                      content: غشت
+                      draft: contributed
+                      type: 8
+                    - 
+                      content: سبتمبر
+                      draft: contributed
+                      type: 9
+                    - 
+                      content: أكتوبر
+                      draft: contributed
+                      type: 10
+                    - 
+                      content: نونبر
+                      draft: contributed
+                      type: 11
+                    - 
+                      content: ديسمبر
+                      draft: contributed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ي
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: ف
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: م
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: ﺃ
+                      draft: contributed
+                      type: 4
+                    - 
+                      content: م
+                      draft: contributed
+                      type: 5
+                    - 
+                      content: ﻥ
+                      draft: contributed
+                      type: 6
+                    - 
+                      content: ﻝ
+                      draft: contributed
+                      type: 7
+                    - 
+                      content: غ
+                      draft: contributed
+                      type: 8
+                    - 
+                      content: ش
+                      draft: contributed
+                      type: 9
+                    - 
+                      content: ﻙ
+                      draft: contributed
+                      type: 10
+                    - 
+                      content: ﺏ
+                      draft: contributed
+                      type: 11
+                    - 
+                      content: ﺩ
+                      draft: contributed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: يناير
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: فبراير
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: مارس
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: إبريل
+                      draft: contributed
+                      type: 4
+                    - 
+                      content: ماي
+                      draft: contributed
+                      type: 5
+                    - 
+                      content: يونيو
+                      draft: contributed
+                      type: 6
+                    - 
+                      content: يوليو
+                      draft: contributed
+                      type: 7
+                    - 
+                      content: غشت
+                      draft: contributed
+                      type: 8
+                    - 
+                      content: سبتمبر
+                      draft: contributed
+                      type: 9
+                    - 
+                      content: أكتوبر
+                      draft: contributed
+                      type: 10
+                    - 
+                      content: نونبر
+                      draft: contributed
+                      type: 11
+                    - 
+                      content: ديسمبر
+                      draft: contributed
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: يناير
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: فبراير
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: مارس
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: أبريل
+                      draft: contributed
+                      type: 4
+                    - 
+                      content: ماي
+                      draft: contributed
+                      type: 5
+                    - 
+                      content: يونيو
+                      draft: contributed
+                      type: 6
+                    - 
+                      content: يوليو
+                      draft: contributed
+                      type: 7
+                    - 
+                      content: غشت
+                      draft: contributed
+                      type: 8
+                    - 
+                      content: سبتمبر
+                      draft: contributed
+                      type: 9
+                    - 
+                      content: أكتوبر
+                      draft: contributed
+                      type: 10
+                    - 
+                      content: نونبر
+                      draft: contributed
+                      type: 11
+                    - 
+                      content: ديسمبر
+                      draft: contributed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ي
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: ف
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: م
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: إ
+                      draft: contributed
+                      type: 4
+                    - 
+                      content: م
+                      draft: contributed
+                      type: 5
+                    - 
+                      content: ﻥ
+                      draft: contributed
+                      type: 6
+                    - 
+                      content: ﻝ
+                      draft: contributed
+                      type: 7
+                    - 
+                      content: غ
+                      draft: contributed
+                      type: 8
+                    - 
+                      content: ش
+                      draft: contributed
+                      type: 9
+                    - 
+                      content: ﻙ
+                      draft: contributed
+                      type: 10
+                    - 
+                      content: ﺏ
+                      draft: contributed
+                      type: 11
+                    - 
+                      content: ﺩ
+                      draft: contributed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: يناير
+                      draft: contributed
+                      type: 1
+                    - 
+                      content: فبراير
+                      draft: contributed
+                      type: 2
+                    - 
+                      content: مارس
+                      draft: contributed
+                      type: 3
+                    - 
+                      content: ﺄبﺮيﻟ
+                      draft: contributed
+                      type: 4
+                    - 
+                      content: ماي
+                      draft: contributed
+                      type: 5
+                    - 
+                      content: يونيو
+                      draft: contributed
+                      type: 6
+                    - 
+                      content: يوليو
+                      draft: contributed
+                      type: 7
+                    - 
+                      content: غشت
+                      draft: contributed
+                      type: 8
+                    - 
+                      content: سبتمبر
+                      draft: contributed
+                      type: 9
+                    - 
+                      content: أكتوبر
+                      draft: contributed
+                      type: 10
+                    - 
+                      content: نونبر
+                      draft: contributed
+                      type: 11
+                    - 
+                      content: ديسمبر
+                      draft: contributed
+                      type: 12
+                  type: wide
+              type: stand-alone
+        type: gregorian
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: ar
+  territory: 
+    type: MA
+  version: 
+    number: "$Revision: 8245 $"
+numbers: 
+  defaultNumberingSystem: latn
+  symbols: 
+    decimal: ","
+    group: .
+    numberSystem: latn

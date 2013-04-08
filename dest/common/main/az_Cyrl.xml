@@ -1,0 +1,327 @@
+characters: 
+  exemplarCharacters: 
+    - "[а ә б в г ғ д е ж з и й ј к ҝ л м н о ө п р с т у ү ф х һ ч ҹ ш ы]"
+    - 
+      content: "[ц щ ъ ь э ю я]"
+      type: auxiliary
+    - 
+      content: "[А Ә Б В Г Ғ Д Е Ж З И Й Ј К Ҝ Л М Н О Ө П Р С Т У Ү Ф Х Һ Ч Ҹ Ш Ы]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d, MMMM, y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM , y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: GGGGG yy/MM/dd
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, d, MMM
+              MMMd: 
+                content: d MMM
+              yMMM: 
+                content: MMM, y
+              yMMMEd: 
+                content: E, d, MMM, y
+              yMMMd: 
+                content: d MMM, y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d, MMMM, y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM , y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM, y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: 
+                  content: yy/MM/dd
+                  draft: unconfirmed
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, d, MMM
+              MMMd: 
+                content: d MMM
+              yMMM: 
+                content: MMM, y
+              yMMMEd: 
+                content: E, d, MMM, y
+              yMMMd: 
+                content: d MMM, y
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: базар
+                    type: sun
+                  - 
+                    content: базар ертәси
+                    type: mon
+                  - 
+                    content: чәршәнбә ахшамы
+                    type: tue
+                  - 
+                    content: чәршәнбә
+                    type: wed
+                  - 
+                    content: ҹүмә ахшамы
+                    type: thu
+                  - 
+                    content: ҹүмә
+                    type: fri
+                  - 
+                    content: шәнбә
+                    type: sat
+                type: wide
+              type: format
+            - 
+              dayWidth: 
+                day: 
+                  - 
+                    content: 7
+                    type: sun
+                  - 
+                    content: 1
+                    type: mon
+                  - 
+                    content: 2
+                    type: tue
+                  - 
+                    content: 3
+                    type: wed
+                  - 
+                    content: 4
+                    type: thu
+                  - 
+                    content: 5
+                    type: fri
+                  - 
+                    content: 6
+                    type: sat
+                type: narrow
+              type: stand-alone
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: јанвар
+                  type: 1
+                - 
+                  content: феврал
+                  type: 2
+                - 
+                  content: март
+                  type: 3
+                - 
+                  content: апрел
+                  type: 4
+                - 
+                  content: май
+                  type: 5
+                - 
+                  content: ијун
+                  type: 6
+                - 
+                  content: ијул
+                  type: 7
+                - 
+                  content: август
+                  type: 8
+                - 
+                  content: сентјабр
+                  type: 9
+                - 
+                  content: октјабр
+                  type: 10
+                - 
+                  content: нојабр
+                  type: 11
+                - 
+                  content: декабр
+                  type: 12
+              type: wide
+            type: format
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+delimiters: 
+  alternateQuotationEnd: ›
+  alternateQuotationStart: ‹
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: az
+  script: 
+    type: Cyrl
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Азәрбајҹан
+        type: az
+      - 
+        content: алманҹа
+        type: de
+      - 
+        content: инҝилисҹә
+        type: en
+      - 
+        content: испанҹа
+        type: es
+      - 
+        content: франсызҹа
+        type: fr
+      - 
+        content: италјанҹа
+        type: it
+      - 
+        content: јапонҹа
+        type: ja
+      - 
+        content: португалҹа
+        type: pt
+      - 
+        content: русҹа
+        type: ru
+      - 
+        content: чинҹә
+        type: zh
+  territories: 
+    territory: 
+      - 
+        content: Азәрбајҹан
+        type: AZ
+      - 
+        content: Бразилија
+        type: BR
+      - 
+        content: Чин
+        type: CN
+      - 
+        content: Алманија
+        type: DE
+      - 
+        content: Франса
+        type: FR
+      - 
+        content: Һиндистан
+        type: IN
+      - 
+        content: Италија
+        type: IT
+      - 
+        content: Јапонија
+        type: JP
+      - 
+        content: Русија
+        type: RU
+      - 
+        content: Америка Бирләшмиш Штатлары
+        type: US
+numbers: 
+  currencies: 
+    currency: 
+      displayName: 
+        content: манат
+        draft: unconfirmed
+      symbol: ман.
+      type: AZN
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: 
+          content: ¤ #,##0.00
+          draft: contributed
+    numberSystem: latn
+  symbols: 
+    decimal: 
+      content: ","
+      draft: contributed
+    exponential: 
+      content: E
+      draft: contributed
+    group: 
+      content: .
+      draft: contributed
+    "infinity": 
+      content: ∞
+      draft: contributed
+    list: 
+      content: ;
+      draft: contributed
+    minusSign: 
+      content: "-"
+      draft: contributed
+    "nan": 
+      content: 'NaN'
+      draft: contributed
+    numberSystem: latn
+    perMille: 
+      content: ‰
+      draft: contributed
+    percentSign: 
+      content: "%"
+      draft: contributed
+    plusSign: 
+      content: +
+      draft: contributed

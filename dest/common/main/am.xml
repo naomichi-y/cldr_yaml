@@ -1,0 +1,7433 @@
+characters: 
+  ellipsis: 
+    - 
+      content: "{0}…"
+      type: final
+    - 
+      content: …{0}
+      type: initial
+    - 
+      content: "{0}…{1}"
+      type: medial
+  exemplarCharacters: 
+    - "[\\u135F ሀ-ሆ ለ-ቆ ቈ ቊ-ቍ በ-ኆ ኈ ኊ-ኍ ነ-ኮ ኰ ኲ-ኵ ኸ-ኾ ወ-ዎ ዐ-ዖ ዘ-ዷ ጀ-ጎ ጐ ጒ-ጕ ጠ-ፚ]"
+    - 
+      content: "[]"
+      type: auxiliary
+    - 
+      content: "[ሀ ለ ሐ መ ሠ ረ ሰ ሸ ቀ ቈ በ ቨ ተ ቸ ኀ ኈ ነ ኘ አ ከ ኰ ኸ ወ ዐ ዘ ዠ የ ደ ጀ ገ ጐ ጠ ጨ ጰ ጸ ፀ ፈ ፐ ፘ]"
+      draft: unconfirmed
+      type: index
+  moreInformation: "?"
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ዓ/ዓ
+                draft: unconfirmed
+                type: 0
+              - 
+                content: ዓ/ም
+                draft: unconfirmed
+                type: 1
+        type: coptic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            dateFormat: 
+              pattern: 
+                content: EEEE፣ MMMM d ቀን y G
+                draft: unconfirmed
+            type: full
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: መስከ
+                      type: 1
+                    - 
+                      content: ጥቅም
+                      type: 2
+                    - 
+                      content: ኅዳር
+                      type: 3
+                    - 
+                      content: ታኅሣ
+                      type: 4
+                    - 
+                      content: ጥር
+                      type: 5
+                    - 
+                      content: የካቲ
+                      type: 6
+                    - 
+                      content: መጋቢ
+                      type: 7
+                    - 
+                      content: ሚያዝ
+                      type: 8
+                    - 
+                      content: ግንቦ
+                      type: 9
+                    - 
+                      content: ሰኔ
+                      type: 10
+                    - 
+                      content: ሐምሌ
+                      type: 11
+                    - 
+                      content: ነሐሴ
+                      type: 12
+                    - 
+                      content: ጳጉሜ
+                      type: 13
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                    - 
+                      content: 5
+                      type: 5
+                    - 
+                      content: 6
+                      type: 6
+                    - 
+                      content: 7
+                      type: 7
+                    - 
+                      content: 8
+                      type: 8
+                    - 
+                      content: 9
+                      type: 9
+                    - 
+                      content: 10
+                      type: 10
+                    - 
+                      content: 11
+                      type: 11
+                    - 
+                      content: 12
+                      type: 12
+                    - 
+                      content: 13
+                      type: 13
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: መስከረም
+                      type: 1
+                    - 
+                      content: ጥቅምት
+                      type: 2
+                    - 
+                      content: ኅዳር
+                      type: 3
+                    - 
+                      content: ታኅሣሥ
+                      type: 4
+                    - 
+                      content: ጥር
+                      type: 5
+                    - 
+                      content: የካቲት
+                      type: 6
+                    - 
+                      content: መጋቢት
+                      type: 7
+                    - 
+                      content: ሚያዝያ
+                      type: 8
+                    - 
+                      content: ግንቦት
+                      type: 9
+                    - 
+                      content: ሰኔ
+                      type: 10
+                    - 
+                      content: ሐምሌ
+                      type: 11
+                    - 
+                      content: ነሐሴ
+                      type: 12
+                    - 
+                      content: ጳጉሜን
+                      type: 13
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: መስከ
+                      type: 1
+                    - 
+                      content: ጥቅም
+                      type: 2
+                    - 
+                      content: ኅዳር
+                      type: 3
+                    - 
+                      content: ታኅሣ
+                      type: 4
+                    - 
+                      content: ጥር
+                      type: 5
+                    - 
+                      content: የካቲ
+                      type: 6
+                    - 
+                      content: መጋቢ
+                      type: 7
+                    - 
+                      content: ሚያዝ
+                      type: 8
+                    - 
+                      content: ግንቦ
+                      type: 9
+                    - 
+                      content: ሰኔ
+                      type: 10
+                    - 
+                      content: ሐምሌ
+                      type: 11
+                    - 
+                      content: ነሐሴ
+                      type: 12
+                    - 
+                      content: ጳጉሜ
+                      type: 13
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                    - 
+                      content: 5
+                      type: 5
+                    - 
+                      content: 6
+                      type: 6
+                    - 
+                      content: 7
+                      type: 7
+                    - 
+                      content: 8
+                      type: 8
+                    - 
+                      content: 9
+                      type: 9
+                    - 
+                      content: 10
+                      type: 10
+                    - 
+                      content: 11
+                      type: 11
+                    - 
+                      content: 12
+                      type: 12
+                    - 
+                      content: 13
+                      type: 13
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: መስከረም
+                      type: 1
+                    - 
+                      content: ጥቅምት
+                      type: 2
+                    - 
+                      content: ኅዳር
+                      type: 3
+                    - 
+                      content: ታኅሣሥ
+                      type: 4
+                    - 
+                      content: ጥር
+                      type: 5
+                    - 
+                      content: የካቲት
+                      type: 6
+                    - 
+                      content: መጋቢት
+                      type: 7
+                    - 
+                      content: ሚያዝያ
+                      type: 8
+                    - 
+                      content: ግንቦት
+                      type: 9
+                    - 
+                      content: ሰኔ
+                      type: 10
+                    - 
+                      content: ሐምሌ
+                      type: 11
+                    - 
+                      content: ነሐሴ
+                      type: 12
+                    - 
+                      content: ጳጉሜን
+                      type: 13
+                  type: wide
+              type: stand-alone
+        type: ethiopic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              H: 
+                content: H
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E፣ d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E፣ MMM d y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: hh–hh a
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: hh:mm–hh:mm a
+                  m: 
+                    content: hh:mm–hh:mm a
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: hh:mm–hh:mm a v
+                  m: 
+                    content: hh:mm–hh:mm a v
+              Hv: 
+                greatestDifference: 
+                  content: hh–hh a v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፣ d/M – E፣ d/M
+                  d: 
+                    content: E d/M – E d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፣ MMM d – E፣ MMM d
+                  d: 
+                    content: E d – E d፣ MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d–d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h – h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm – h:mm a
+                  m: 
+                    content: h:mm – h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm – h:mm a v
+                  m: 
+                    content: h:mm – h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h – h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/M/ – E d/M፣ y
+                  d: 
+                    content: E፣ d/M/y – E፣ d/M/y
+                  "y": 
+                    content: E፣ d/M/y – E፣ d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM፣ y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E MMM d – E MMM d፣ y
+                  d: 
+                    content: E MMM d – E MMM d፣ y
+                  "y": 
+                    content: E፣ MMM d፣ y – E፣ MMM d፣ y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d፣ y
+                  d: 
+                    content: MMM d–d፣ y
+                  "y": 
+                    content: MMM d፣ y – MMM d፣ y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE, d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: dd/MM/y
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d
+              H: 
+                content: H
+              Hm: 
+                content: HH:mm
+              Hms: 
+                content: HH:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, M/d
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E, MMM d
+              MMMMEd: 
+                content: E, MMMM d
+              MMMMd: 
+                content: MMMM d
+              MMMd: 
+                content: MMM d
+              Md: 
+                content: M/d
+              d: 
+                content: d
+              h: 
+                content: h a
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M/y
+              yMEd: 
+                content: E፣ d/M/y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E፣ MMM d y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+              yMd: 
+                content: d/M/y
+              yQQQ: 
+                content: QQQ y
+              yQQQQ: 
+                content: QQQQ y
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: "{1} {0}"
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: hh–hh a
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: hh:mm–hh:mm a
+                  m: 
+                    content: hh:mm–hh:mm a
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: hh:mm–hh:mm a v
+                  m: 
+                    content: hh:mm–hh:mm a v
+              Hv: 
+                greatestDifference: 
+                  content: hh–hh a v
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፣ d/M – E፣ d/M
+                  d: 
+                    content: E d/M – E d/M
+              MMM: 
+                greatestDifference: 
+                  content: MMM–MMM
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E፣ MMM d – E፣ MMM d
+                  d: 
+                    content: E d – E d፣ MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d
+                  d: 
+                    content: MMM d–d
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M – d/M
+                  d: 
+                    content: d–d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h – h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm – h:mm a
+                  m: 
+                    content: h:mm – h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm – h:mm a v
+                  m: 
+                    content: h:mm – h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h – h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y – M/y
+                  "y": 
+                    content: M/y – M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E d/M/ – E d/M፣ y
+                  d: 
+                    content: E፣ d/M/y – E፣ d/M/y
+                  "y": 
+                    content: E፣ d/M/y – E፣ d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM–MMM፣ y
+                  "y": 
+                    content: MMM y – MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E MMM d – E MMM d፣ y
+                  d: 
+                    content: E MMM d – E MMM d፣ y
+                  "y": 
+                    content: E፣ MMM d፣ y – E፣ MMM d፣ y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM–MMMM y
+                  "y": 
+                    content: MMMM y – MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: MMM d – MMM d፣ y
+                  d: 
+                    content: MMM d–d፣ y
+                  "y": 
+                    content: MMM d፣ y – MMM d፣ y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y – d/M/y
+                  d: 
+                    content: d/M/y – d/M/y
+                  "y": 
+                    content: d/M/y – d/M/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              dayPeriod: 
+                - 
+                  content: ጥዋት
+                  type: am
+                - 
+                  content: ከሰዓት
+                  type: pm
+              type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: እሑድ
+                      type: sun
+                    - 
+                      content: ሰኞ
+                      type: mon
+                    - 
+                      content: ማክሰ
+                      type: tue
+                    - 
+                      content: ረቡዕ
+                      type: wed
+                    - 
+                      content: ሐሙስ
+                      type: thu
+                    - 
+                      content: ዓርብ
+                      type: fri
+                    - 
+                      content: ቅዳሜ
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: እ
+                      type: sun
+                    - 
+                      content: ሰ
+                      type: mon
+                    - 
+                      content: ማ
+                      type: tue
+                    - 
+                      content: ረ
+                      type: wed
+                    - 
+                      content: ሐ
+                      type: thu
+                    - 
+                      content: ዓ
+                      type: fri
+                    - 
+                      content: ቅ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: እ
+                      type: sun
+                    - 
+                      content: ሰ
+                      type: mon
+                    - 
+                      content: ማ
+                      type: tue
+                    - 
+                      content: ረ
+                      type: wed
+                    - 
+                      content: ሐ
+                      type: thu
+                    - 
+                      content: ዓ
+                      type: fri
+                    - 
+                      content: ቅ
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: እሑድ
+                      type: sun
+                    - 
+                      content: ሰኞ
+                      type: mon
+                    - 
+                      content: ማክሰኞ
+                      type: tue
+                    - 
+                      content: ረቡዕ
+                      type: wed
+                    - 
+                      content: ሐሙስ
+                      type: thu
+                    - 
+                      content: ዓርብ
+                      type: fri
+                    - 
+                      content: ቅዳሜ
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: እሑድ
+                      type: sun
+                    - 
+                      content: ሰኞ
+                      type: mon
+                    - 
+                      content: ማክሰ
+                      type: tue
+                    - 
+                      content: ረቡዕ
+                      type: wed
+                    - 
+                      content: ሐሙስ
+                      type: thu
+                    - 
+                      content: ዓርብ
+                      type: fri
+                    - 
+                      content: ቅዳሜ
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: እ
+                      type: sun
+                    - 
+                      content: ሰ
+                      type: mon
+                    - 
+                      content: ማ
+                      type: tue
+                    - 
+                      content: ረ
+                      type: wed
+                    - 
+                      content: ሐ
+                      type: thu
+                    - 
+                      content: ዓ
+                      type: fri
+                    - 
+                      content: ቅ
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: እ
+                      type: sun
+                    - 
+                      content: ሰ
+                      type: mon
+                    - 
+                      content: ማ
+                      type: tue
+                    - 
+                      content: ረ
+                      type: wed
+                    - 
+                      content: ሐ
+                      type: thu
+                    - 
+                      content: ዓ
+                      type: fri
+                    - 
+                      content: ቅ
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: እሑድ
+                      type: sun
+                    - 
+                      content: ሰኞ
+                      type: mon
+                    - 
+                      content: ማክሰኞ
+                      type: tue
+                    - 
+                      content: ረቡዕ
+                      type: wed
+                    - 
+                      content: ሐሙስ
+                      type: thu
+                    - 
+                      content: ዓርብ
+                      type: fri
+                    - 
+                      content: ቅዳሜ
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: ዓ/ዓ
+                type: 0
+              - 
+                content: ዓ/ም
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: ዓመተ ዓለም
+                type: 0
+              - 
+                content: ዓመተ ምሕረት
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ጃንዩ
+                      type: 1
+                    - 
+                      content: ፌብሩ
+                      type: 2
+                    - 
+                      content: ማርች
+                      type: 3
+                    - 
+                      content: ኤፕሪ
+                      type: 4
+                    - 
+                      content: ሜይ
+                      type: 5
+                    - 
+                      content: ጁን
+                      type: 6
+                    - 
+                      content: ጁላይ
+                      type: 7
+                    - 
+                      content: ኦገስ
+                      type: 8
+                    - 
+                      content: ሴፕቴ
+                      type: 9
+                    - 
+                      content: ኦክተ
+                      type: 10
+                    - 
+                      content: ኖቬም
+                      type: 11
+                    - 
+                      content: ዲሴም
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ጃ
+                      type: 1
+                    - 
+                      content: ፌ
+                      type: 2
+                    - 
+                      content: ማ
+                      type: 3
+                    - 
+                      content: ኤ
+                      type: 4
+                    - 
+                      content: ሜ
+                      type: 5
+                    - 
+                      content: ጁ
+                      type: 6
+                    - 
+                      content: ጁ
+                      type: 7
+                    - 
+                      content: ኦ
+                      type: 8
+                    - 
+                      content: ሴ
+                      type: 9
+                    - 
+                      content: ኦ
+                      type: 10
+                    - 
+                      content: ኖ
+                      type: 11
+                    - 
+                      content: ዲ
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: ጃንዩወሪ
+                      type: 1
+                    - 
+                      content: ፌብሩወሪ
+                      type: 2
+                    - 
+                      content: ማርች
+                      type: 3
+                    - 
+                      content: ኤፕሪል
+                      type: 4
+                    - 
+                      content: ሜይ
+                      type: 5
+                    - 
+                      content: ጁን
+                      type: 6
+                    - 
+                      content: ጁላይ
+                      type: 7
+                    - 
+                      content: ኦገስት
+                      type: 8
+                    - 
+                      content: ሴፕቴምበር
+                      type: 9
+                    - 
+                      content: ኦክተውበር
+                      type: 10
+                    - 
+                      content: ኖቬምበር
+                      type: 11
+                    - 
+                      content: ዲሴምበር
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: ጃንዩ
+                      type: 1
+                    - 
+                      content: ፌብሩ
+                      type: 2
+                    - 
+                      content: ማርች
+                      type: 3
+                    - 
+                      content: ኤፕሪ
+                      type: 4
+                    - 
+                      content: ሜይ
+                      type: 5
+                    - 
+                      content: ጁን
+                      type: 6
+                    - 
+                      content: ጁላይ
+                      type: 7
+                    - 
+                      content: ኦገስ
+                      type: 8
+                    - 
+                      content: ሴፕቴ
+                      type: 9
+                    - 
+                      content: ኦክቶ
+                      type: 10
+                    - 
+                      content: ኖቬም
+                      type: 11
+                    - 
+                      content: ዲሴም
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: ጃ
+                      type: 1
+                    - 
+                      content: ፌ
+                      type: 2
+                    - 
+                      content: ማ
+                      type: 3
+                    - 
+                      content: ኤ
+                      type: 4
+                    - 
+                      content: ሜ
+                      type: 5
+                    - 
+                      content: ጁ
+                      type: 6
+                    - 
+                      content: ጁ
+                      type: 7
+                    - 
+                      content: ኦ
+                      type: 8
+                    - 
+                      content: ሴ
+                      type: 9
+                    - 
+                      content: ኦ
+                      type: 10
+                    - 
+                      content: ኖ
+                      type: 11
+                    - 
+                      content: ዲ
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: ጃንዩወሪ
+                      type: 1
+                    - 
+                      content: ፌብሩወሪ
+                      type: 2
+                    - 
+                      content: ማርች
+                      type: 3
+                    - 
+                      content: ኤፕሪል
+                      type: 4
+                    - 
+                      content: ሜይ
+                      type: 5
+                    - 
+                      content: ጁን
+                      type: 6
+                    - 
+                      content: ጁላይ
+                      type: 7
+                    - 
+                      content: ኦገስት
+                      type: 8
+                    - 
+                      content: ሴፕቴምበር
+                      type: 9
+                    - 
+                      content: ኦክቶበር
+                      type: 10
+                    - 
+                      content: ኖቬምበር
+                      type: 11
+                    - 
+                      content: ዲሴምበር
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: ሩብ1
+                      type: 1
+                    - 
+                      content: ሩብ2
+                      type: 2
+                    - 
+                      content: ሩብ3
+                      type: 3
+                    - 
+                      content: ሩብ4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1ኛው ሩብ
+                      type: 1
+                    - 
+                      content: ሁለተኛው ሩብ
+                      type: 2
+                    - 
+                      content: 3ኛው ሩብ
+                      type: 3
+                    - 
+                      content: 4ኛው ሩብ
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: ሩብ1
+                      type: 1
+                    - 
+                      content: ሩብ2
+                      type: 2
+                    - 
+                      content: ሩብ3
+                      type: 3
+                    - 
+                      content: ሩብ4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      type: 1
+                    - 
+                      content: 2
+                      type: 2
+                    - 
+                      content: 3
+                      type: 3
+                    - 
+                      content: 4
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1ኛው ሩብ
+                      type: 1
+                    - 
+                      content: 2ኛው ሩብ
+                      type: 2
+                    - 
+                      content: 3ኛው ሩብ
+                      type: 3
+                    - 
+                      content: 4ኛው ሩብ
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a z
+              type: long
+            - 
+              timeFormat: 
+                pattern: h:mm:ss a
+              type: medium
+            - 
+              timeFormat: 
+                pattern: h:mm a
+              type: short
+        type: gregorian
+      - 
+        months: 
+          monthContext: 
+            monthWidth: 
+              month: 
+                - 
+                  content: ሙሀረም
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: ሳፈር
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: ረቢዑል አወል
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: ረቢዑል አኺር
+                  draft: unconfirmed
+                  type: 4
+                - 
+                  content: ጀማደል አወል
+                  draft: unconfirmed
+                  type: 5
+                - 
+                  content: ጀማደል አኺር
+                  draft: unconfirmed
+                  type: 6
+                - 
+                  content: ረጀብ
+                  draft: unconfirmed
+                  type: 7
+                - 
+                  content: ሻእባን
+                  draft: unconfirmed
+                  type: 8
+                - 
+                  content: ረመዳን
+                  draft: unconfirmed
+                  type: 9
+                - 
+                  content: ሸዋል
+                  draft: unconfirmed
+                  type: 10
+                - 
+                  content: ዙልቂዳህ
+                  draft: unconfirmed
+                  type: 11
+                - 
+                  content: ዙልሂጃህ
+                  draft: unconfirmed
+                  type: 12
+              type: wide
+            type: format
+        type: islamic
+  fields: 
+    field: 
+      - 
+        displayName: ዘመን
+        type: era
+      - 
+        displayName: ዓመት
+        relative: 
+          - 
+            content: ያለፈው ዓመት
+            type: -1
+          - 
+            content: በዚህ ዓመት
+            type: 0
+          - 
+            content: የሚቀጥለው ዓመት
+            type: 1
+        type: year
+      - 
+        displayName: ወር
+        relative: 
+          - 
+            content: ያለፈው ወር
+            type: -1
+          - 
+            content: በዚህ ወር
+            type: 0
+          - 
+            content: የሚቀጥለው ወር
+            type: 1
+        type: month
+      - 
+        displayName: ሳምንት
+        relative: 
+          - 
+            content: ባለፈው ሳምንት
+            type: -1
+          - 
+            content: በዚህ ሣምንት
+            type: 0
+          - 
+            content: የሚቀጥለው ሳምንት
+            type: 1
+        type: week
+      - 
+        displayName: ቀን
+        relative: 
+          - 
+            content: ከትናንት ወዲያ
+            type: -2
+          - 
+            content: ትናንት
+            type: -1
+          - 
+            content: ዛሬ
+            type: 0
+          - 
+            content: ነገ
+            type: 1
+          - 
+            content: ከነገ ወዲያ
+            type: 2
+        type: day
+      - 
+        displayName: አዘቦት
+        type: weekday
+      - 
+        displayName: ጥዋት/ከሰዓት
+        type: dayperiod
+      - 
+        displayName: ሰዓት
+        type: hour
+      - 
+        displayName: ደቂቃ
+        type: minute
+      - 
+        displayName: ሰከንድ
+        type: second
+      - 
+        displayName: የሰዓት ሰቅ
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: "{1} ሰዓት({0})"
+    gmtFormat: ጂ ኤም ቲ{0}
+    gmtZeroFormat: ጂ ኤም ቲ
+    hourFormat: +HHmm;-HHmm
+    metazone: 
+      - 
+        long: 
+          standard: የአፍጋኒስታን ሰዓት
+        type: Afghanistan
+      - 
+        long: 
+          standard: የመካከለኛው አፍሪካ ሰዓት
+        type: Africa_Central
+      - 
+        long: 
+          standard: የምስራቅ አፍሪካ ሰዓት
+        type: Africa_Eastern
+      - 
+        long: 
+          standard: የደቡብ አፍሪካ መደበኛ ሰዓት
+        type: Africa_Southern
+      - 
+        long: 
+          daylight: የምዕራብ አፍሪካ ክረምት ሰዓት
+          generic: የምዕራብ አፍሪካ ሰዓት
+          standard: የምዕራብ አፍሪካ መደበኛ ሰዓት
+        type: Africa_Western
+      - 
+        long: 
+          daylight: የአላስካ የቀን ሰዓት አቆጣጠር
+          generic: የአላስካ ሰዓት አቆጣጠር
+          standard: የአላስካ መደበኛ የሰዓት አቆጣጠር
+        type: Alaska
+      - 
+        long: 
+          daylight: የአማዞን የቀን ሰዓት አቆጣጠር
+          generic: የአማዞን ሰዓት አቆጣጠር
+          standard: የአማዞን መደበኛ ሰዓት አቆጣጠር
+        type: Amazon
+      - 
+        long: 
+          daylight: የመካከላዊ የቀን ሰዓት አቆጣጠር
+          generic: መካከለኛ የሰዓት አቆጣጠር
+          standard: የመካከላዊ መደበኛ ሰዓት አቆጣጠር
+        type: America_Central
+      - 
+        long: 
+          daylight: የምዕራባዊ የቀን ሰዓት አቆጣጠር
+          generic: የምዕራባዊ ሰዓት አቆጣጠር
+          standard: የምዕራባዊ መደበኛ የሰዓት አቆጣጠር
+        type: America_Eastern
+      - 
+        long: 
+          daylight: የተራራ የቀንሰዓት አቆጣጠር
+          generic: የተራራ የሰዓት አቆጣጠር
+          standard: የተራራ መደበኛ የሰዓት አቆጣጠር
+        type: America_Mountain
+      - 
+        long: 
+          daylight: የፓስፊክ የቀን ሰዓት አቆጣጠር
+          generic: የፓስፊክ ሰዓት አቆጣጠር
+          standard: የፓስፊክ መደበኛ ሰዓት አቆጣጠር
+        type: America_Pacific
+      - 
+        long: 
+          daylight: የአናድይር የበጋ የሰዓት አቆጣጠር
+          generic: የአናድይር ሰዓት አቆጣጠር
+          standard: የአናዲይር ሰዓት አቆጣጠር
+        type: Anadyr
+      - 
+        long: 
+          daylight: የአረቢያ የቀን ብርሃን ሰዓት
+          generic: የአረቢያ ሰዓት
+          standard: የአረቢያ መደበኛ ሰዓት
+        type: Arabian
+      - 
+        long: 
+          daylight: የአርጀንቲና የበጋ ሰዓት አቆጣጠር
+          generic: የአርጀንቲና የሰዓት አቆጣጠር
+          standard: የአርጀንቲና መደበኛ ጊዜ
+        type: Argentina
+      - 
+        long: 
+          daylight: የአርጀንቲና ምስራቃዊ በጋ ሰዓት አቆጣጠር
+          generic: የአርጀንቲና ምስራቃዊ ሰዓት አቆጣጠር
+          standard: የምዕራባዊ አርጀንቲና መደበኛ ሰዓት አቆጣጠር
+        type: Argentina_Western
+      - 
+        long: 
+          daylight: የአርመኒያ ክረምት ሰዓት
+          generic: የአርመኒያ ሰዓት
+          standard: የአርመኒያ መደበኛ ሰዓት
+        type: Armenia
+      - 
+        long: 
+          daylight: የአትላንቲክ የቀን ሰዓት አቆጣጠር
+          generic: የአትላንቲክ የሰዓት አቆጣጠር
+          standard: የአትላንቲክ መደበኛ የሰዓት አቆጣጠር
+        type: Atlantic
+      - 
+        long: 
+          daylight: የአውስትራሊያ መካከለኛ የቀን ሰዓት አቆጣጠር
+          generic: የመካከለኛው አውስትራሊያ ሰዓት አቆጣጠር
+          standard: የአውስትራሊያ መካከለኛ መደበኛ የሰዓት አቆጣጠር
+        type: Australia_Central
+      - 
+        long: 
+          daylight: የአውስትራሊያ መካከለኛው ምስራቅ የቀን ሰዓት አቆጣጠር
+          generic: የአውስትራሊያ መካከለኛ ምስራቃዊ ሰዓት አቆጣጠር
+          standard: የአውስትራሊያ መካከለኛ ምስራቃዊ መደበኛ ሰዓት አቆጣጠር
+        type: Australia_CentralWestern
+      - 
+        long: 
+          daylight: የአውስትራሊያ ምዕራባዊ የቀን ሰዓት አቆጣጠር
+          generic: የምዕራባዊ አውስትራሊያ የሰአት አቆጣጠር
+          standard: የአውስትራሊያ ምዕራባዊ መደበኛ የሰዓት አቆጣጠር
+        type: Australia_Eastern
+      - 
+        long: 
+          daylight: የአውስትራሊያ ምስራቃዊ የቀን ሰዓት አቆጣጠር
+          generic: የምስራቃዊ አውስትራሊያ ሰዓት አቆጣጠር
+          standard: የአውስትራሊያ ምስራቃዊ መደበኛ ሰዓት አቆጣጠር
+        type: Australia_Western
+      - 
+        long: 
+          daylight: የአዘርባይጃን ክረምት ሰዓት
+          generic: የአዘርባይጃን ሰዓት
+          standard: የአዘርባይጃን መደበኛ ሰዓት
+        type: Azerbaijan
+      - 
+        long: 
+          daylight: የአዞረስ ክረምት ሰዓት
+          generic: የአዞረስ ሰዓት
+          standard: የአዞረስ መደበኛ ሰዓት
+        type: Azores
+      - 
+        long: 
+          daylight: የባንግላዴሽ ክረምት ሰዓት
+          generic: የባንግላዴሽ ሰዓት
+          standard: የባንግላዴሽ መደበኛ ሰዓት
+        type: Bangladesh
+      - 
+        long: 
+          standard: የቡታን ሰዓት
+        type: Bhutan
+      - 
+        long: 
+          standard: የቦሊቪያ ሰዓት
+        type: Bolivia
+      - 
+        long: 
+          daylight: የብራዚላ የበጋ ሰዓት አቆጣጠር
+          generic: የብራዚላዊ ሰዓት አቆጣጠር
+          standard: የብራሲሊያ መደበኛ ጊዜ
+        type: Brasilia
+      - 
+        long: 
+          standard: የብሩኔይ ዳሩሳላም ሰዓት
+        type: Brunei
+      - 
+        long: 
+          daylight: የኬፕ ቨርዴ ክረምት ሰዓት
+          generic: የኬፕ ቨርዴ ሰዓት
+          standard: የኬፕ ቨርዴ መደበኛ ሰዓት
+        type: Cape_Verde
+      - 
+        long: 
+          standard: የቻሞሮ መደበኛ ሰዓት
+        type: Chamorro
+      - 
+        long: 
+          daylight: የቻታም የቀን ብርሃን ሰዓት
+          generic: የቻታም ሰዓት
+          standard: የቻታም መደበኛ ሰዓት
+        type: Chatham
+      - 
+        long: 
+          daylight: የቺሊ ክረምት ሰዓት
+          generic: የቺሊ ሰዓት
+          standard: የቺሊ መደበኛ ሰዓት
+        type: Chile
+      - 
+        long: 
+          daylight: የቻይና የቀን ብርሃን ሰዓት
+          generic: የቻይና ሰዓት
+          standard: የቻይና መደበኛ ሰዓት
+        type: China
+      - 
+        long: 
+          daylight: የቾይባልሳን የበጋ የሰአት አቆጣጠር
+          generic: የቾይባልሳ ሰዓት አቆጣጠር
+          standard: የቾይባልሳን መደበኛ የሰዓት አቆጣጠር
+        type: Choibalsan
+      - 
+        long: 
+          standard: የገና ደሴት ሰዓት
+        type: Christmas
+      - 
+        long: 
+          standard: የኮኮስ ደሴቶች ሰዓት
+        type: Cocos
+      - 
+        long: 
+          daylight: የኮሎምቢያ ክረምት ሰዓት
+          generic: የኮሎምቢያ ሰዓት
+          standard: የኮሎምቢያ መደበኛ ሰዓት
+        type: Colombia
+      - 
+        long: 
+          daylight: የኩክ ደሴቶች ግማሽ ክረምት ሰዓት
+          generic: የኩክ ደሴቶች ሰዓት
+          standard: የኩክ ደሴቶች መደበኛ ሰዓት
+        type: Cook
+      - 
+        long: 
+          daylight: የኩባ የቀን ብርሃን ሰዓት
+          generic: ኩባ ሰዓት
+          standard: የኩባ መደበኛ ሰዓት
+        type: Cuba
+      - 
+        long: 
+          standard: የዴቪስ ሰዓት
+        type: Davis
+      - 
+        long: 
+          standard: የዱሞንት-ዱርቪል ሰዓት
+        type: DumontDUrville
+      - 
+        long: 
+          standard: የምስራቅ ቲሞር ሰዓት
+        type: East_Timor
+      - 
+        long: 
+          daylight: የኢስተር ደሴት ክረምት ሰዓት
+          generic: የኢስተር ደሴት ሰዓት
+          standard: የኢስተር ደሴት መደበኛ ሰዓት
+        type: Easter
+      - 
+        long: 
+          standard: የኢኳዶር ሰዓት
+        type: Ecuador
+      - 
+        long: 
+          daylight: የመካከለኛው አውሮፓ ክረምት ሰዓት
+          generic: የመካከለኛው አውሮፓ ሰዓት
+          standard: የመካከለኛው አውሮፓ መደበኛ ሰዓት
+        type: Europe_Central
+      - 
+        long: 
+          daylight: የምስራቃዊ አውሮፓ ክረምት ሰዓት
+          generic: የምስራቃዊ አውሮፓ ሰዓት
+          standard: የምስራቃዊ አውሮፓ መደበኛ ሰዓት
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: የምዕራባዊ አውሮፓ ክረምት ሰዓት
+          generic: የምዕራባዊ አውሮፓ ሰዓት
+          standard: የምዕራባዊ አውሮፓ መደበኛ ሰዓት
+        type: Europe_Western
+      - 
+        long: 
+          daylight: የፋልክላንድ ደሴቶች ክረምት ሰዓት
+          generic: የፋልክላንድ ደሴቶች ሰዓት
+          standard: የፋልክላንድ ደሴቶች መደበኛ ሰዓት
+        type: Falkland
+      - 
+        long: 
+          daylight: የፊጂ ክረምት ሰዓት
+          generic: የፊጂ ሰዓት
+          standard: የፊጂ መደበኛ ሰዓት
+        type: Fiji
+      - 
+        long: 
+          standard: የፈረንሳይ ጉያና ሰዓት
+        type: French_Guiana
+      - 
+        long: 
+          standard: የፈረንሳይ ደቡባዊ እና አንታርክቲክ ሰዓት
+        type: French_Southern
+      - 
+        long: 
+          standard: የጋላፓጎስ ሰዓት
+        type: Galapagos
+      - 
+        long: 
+          standard: የጋምቢየር ሰዓት
+        type: Gambier
+      - 
+        long: 
+          daylight: የጂዮርጂያ ክረምት ሰዓት
+          generic: የጂዮርጂያ ሰዓት
+          standard: የጂዮርጂያ መደበኛ ሰዓት
+        type: Georgia
+      - 
+        long: 
+          standard: የጂልበርት ደሴቶች ሰዓት
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: ግሪንዊች ማዕከላዊ ሰዓት
+        type: GMT
+      - 
+        long: 
+          daylight: የምስራቅ ግሪንላንድ ክረምት ሰዓት
+          generic: የምስራቅ ግሪንላንድ ሰዓት
+          standard: የምስራቅ ግሪንላንድ መደበኛ ሰዓት
+        type: Greenland_Eastern
+      - 
+        long: 
+          daylight: የምዕራብ ግሪንላንድ ክረምት ሰዓት
+          generic: የምዕራብ ግሪንላንድ ሰዓት
+          standard: የምዕራብ ግሪንላንድ መደበኛ ሰዓት
+        type: Greenland_Western
+      - 
+        long: 
+          standard: የባህረሰላጤ መደበኛ ሰዓት
+        type: Gulf
+      - 
+        long: 
+          standard: የጉያና ሰዓት
+        type: Guyana
+      - 
+        long: 
+          daylight: የሃዋይ አሌኡት የቀን ሰዓት አቆጣጠር
+          generic: የሃዋይ አሌኡት ሰዓት አቆጣጠር
+          standard: የሃዋይ አሌኡት መደበኛ ሰዓት አቆጣጠር
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          daylight: የሆንግ ኮንግ ክረምት ሰዓት
+          generic: የሆንግ ኮንግ ሰዓት
+          standard: የሆንግ ኮንግ መደበኛ ሰዓት
+        type: Hong_Kong
+      - 
+        long: 
+          daylight: የሆቭድ የበጋ ሰዓት አቆጣጠር
+          generic: የሆቭድ ሰዓት አቆጣጠር
+          standard: የሆቭድ መደበኛ የሰዓት አቆጣጠር
+        type: Hovd
+      - 
+        long: 
+          standard: የህንድ መደበኛ ሰዓት
+        type: India
+      - 
+        long: 
+          standard: የህንድ ውቅያኖስ ሰዓት
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: የኢንዶቻይና ሰዓት
+        type: Indochina
+      - 
+        long: 
+          standard: የመካከለኛው ኢንዶኔዢያ ሰዓት
+        type: Indonesia_Central
+      - 
+        long: 
+          standard: የምስራቃዊ ኢንዶኔዢያ ሰዓት
+        type: Indonesia_Eastern
+      - 
+        long: 
+          standard: የምዕራባዊ ኢንዶኔዢያ ሰዓት
+        type: Indonesia_Western
+      - 
+        long: 
+          daylight: የኢራን የቀን ብርሃን ሰዓት
+          generic: የኢራን ሰዓት
+          standard: የኢራን መደበኛ ሰዓት
+        type: Iran
+      - 
+        long: 
+          daylight: ኢርኩትስክ የበጋ የሰዓት አቆጣጠር
+          generic: የኢርኩትስክ ሰዓት አቆጣጠር
+          standard: የኢርኩትስክ መደበኛ የሰዓት አቆጣጠር
+        type: Irkutsk
+      - 
+        long: 
+          daylight: የእስራኤል የቀን ብርሃን ሰዓት
+          generic: የእስራኤል ሰዓት
+          standard: የእስራኤል መደበኛ ሰዓት
+        type: Israel
+      - 
+        long: 
+          daylight: የጃፓን የቀን ብርሃን ሰዓት
+          generic: የጃፓን ሰዓት
+          standard: የጃፓን መደበኛ ሰዓት
+        type: Japan
+      - 
+        long: 
+          daylight: የፔትሮፓቭሎስኪ - ካምቻትስኪ የበጋ ሰዓት አቆጣጠር
+          generic: የካምቻትካ ሰዓት አቆጣጠር
+          standard: የፔትሮፓቭሎስኪ - ካምቻትስኪ ሰዓት አቆጣጠር
+        type: Kamchatka
+      - 
+        long: 
+          standard: የምስራቅ ካዛኪስታን ጊዜ
+        type: Kazakhstan_Eastern
+      - 
+        long: 
+          standard: የምዕራብ ካዛኪስታን ጊዜ
+        type: Kazakhstan_Western
+      - 
+        long: 
+          daylight: የኮሪያ የቀን ብርሃን ሰዓት
+          generic: የኮሪያ ሰዓት
+          standard: የኮሪያ መደበኛ ሰዓት
+        type: Korea
+      - 
+        long: 
+          standard: የኮስራኤ ሰዓት
+        type: Kosrae
+      - 
+        long: 
+          daylight: የክራስኖያርስክ የበጋ ሰዓት አቆጣጠር
+          generic: የክራስኖያርስክ ሰዓት አቆጣጠር
+          standard: የክራስኖይአርስክ መደበኛ ሰዓት አቆጣጠር
+        type: Krasnoyarsk
+      - 
+        long: 
+          standard: የኪርጊስታን ሰዓት
+        type: Kyrgystan
+      - 
+        long: 
+          standard: የላይን ደሴቶች ሰዓት
+        type: Line_Islands
+      - 
+        long: 
+          daylight: የሎርድ ሆዌ የቀን ሰዓት አቆጣጠር
+          generic: የሎርድ ሆዌ የሰዓት አቆጣጠር
+          standard: የሎርድ ሆዌ መደበኛ የሰዓት አቆጣጠር
+        type: Lord_Howe
+      - 
+        long: 
+          standard: የማከሪ ደሴት ሰዓት
+        type: Macquarie
+      - 
+        long: 
+          daylight: የማጋዳን በጋ ሰዓት አቆጣጠር
+          generic: የማጋዳን የሰዓት አቆጣጠር
+          standard: የማጋዳን መደበኛ ሰዓት አቆጣጠር
+        type: Magadan
+      - 
+        long: 
+          standard: የማሌይዢያ ሰዓት
+        type: Malaysia
+      - 
+        long: 
+          standard: የማልዲቭስ ሰዓት
+        type: Maldives
+      - 
+        long: 
+          standard: የማርኴሳስ ሰዓት
+        type: Marquesas
+      - 
+        long: 
+          standard: የማርሻል ደሴቶች ሰዓት
+        type: Marshall_Islands
+      - 
+        long: 
+          daylight: የማውሪሺየስ ክረምት ሰዓት
+          generic: የማውሪሺየስ ሰዓት
+          standard: የማውሪሺየስ መደበኛ ሰዓት
+        type: Mauritius
+      - 
+        long: 
+          standard: የማውሰን ሰዓት
+        type: Mawson
+      - 
+        long: 
+          daylight: የኡላን ባቶር የበጋ ሰዓት አቆጣጠር
+          generic: የኡላን ባቶር ጊዜ
+          standard: የኡላን ባቶር መደበኛ ሰዓት አቆጣጠር
+        type: Mongolia
+      - 
+        long: 
+          daylight: የሞስኮ የበጋ ሰዓት አቆጣጠር
+          generic: የሞስኮ ሰዓት አቆጣጠር
+          standard: የሞስኮ መደበኛ ሰዓት አቆጣጠር
+        type: Moscow
+      - 
+        long: 
+          standard: የሚያንማር ሰዓት
+        type: Myanmar
+      - 
+        long: 
+          standard: የናውሩ ሰዓት
+        type: Nauru
+      - 
+        long: 
+          standard: የኔፓል ሰዓት
+        type: Nepal
+      - 
+        long: 
+          daylight: የኒው ካሌዶኒያ ክረምት ሰዓት
+          generic: የኒው ካሌዶኒያ ሰዓት
+          standard: የኒው ካሌዶኒያ መደበኛ ሰዓት
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: የኒው ዚላንድ የቀን ብርሃን ሰዓት
+          generic: የኒው ዚላንድ ሰዓት
+          standard: የኒው ዚላንድ መደበኛ ሰዓት
+        type: New_Zealand
+      - 
+        long: 
+          daylight: የኒውፋውንድላንድ የቀን የሰዓት አቆጣጠር
+          generic: የኒውፋውንድላንድ የሰዓት አቆጣጠር
+          standard: የኒውፋውንድላንድ መደበኛ የሰዓት አቆጣጠር
+        type: Newfoundland
+      - 
+        long: 
+          standard: የኒዩዌ ሰዓት
+        type: Niue
+      - 
+        long: 
+          standard: የኖርፎልክ ደሴቶች ሰዓት
+        type: Norfolk
+      - 
+        long: 
+          daylight: የፈርናንዶ ዲ ኖሮንሃ የበጋ የሰዓት አቆጣጠር
+          generic: የኖሮንሃ ሰዓት አቆጣጠር
+          standard: የፈርናንዶ ዲ ኖሮንቻ መደበኛ ሰዓት አቆጣጠር
+        type: Noronha
+      - 
+        long: 
+          daylight: የኖቮሲብሪስክ የበጋ ሰአት አቆጣጠር
+          generic: የኖቮሲብሪስክ የሰዓት አቆጣጠር
+          standard: የኖቮሲቢርስክ መደበኛ የሰዓት አቆጣጠር
+        type: Novosibirsk
+      - 
+        long: 
+          daylight: የኦምስክ የበጋ ሰዓት አቆጣጠር
+          generic: የኦምስክ የሰዓት አቆጣጠር
+          standard: የኦምስክ መደበኛ ሰዓት አቆጣጠር
+        type: Omsk
+      - 
+        long: 
+          daylight: የፓኪስታን ክረምት ሰዓት
+          generic: የፓኪስታን ሰዓት
+          standard: የፓኪስታን መደበኛ ሰዓት
+        type: Pakistan
+      - 
+        long: 
+          standard: የፓላው ሰዓት
+        type: Palau
+      - 
+        long: 
+          standard: የፓፗ ኒው ጊኒ ሰዓት
+        type: Papua_New_Guinea
+      - 
+        long: 
+          daylight: የፓራጓይ ክረምት ሰዓት
+          generic: የፓራጓይ ሰዓት
+          standard: የፓራጓይ መደበኛ ሰዓት
+        type: Paraguay
+      - 
+        long: 
+          daylight: የፔሩ ክረምት ሰዓት
+          generic: የፔሩ ሰዓት
+          standard: የፔሩ መደበኛ ሰዓት
+        type: Peru
+      - 
+        long: 
+          daylight: የፊሊፒን ክረምት ሰዓት
+          generic: የፊሊፒን ሰዓት
+          standard: የፊሊፒን መደበኛ ሰዓት
+        type: Philippines
+      - 
+        long: 
+          standard: የፊኒክስ ደሴቶች ሰዓት
+        type: Phoenix_Islands
+      - 
+        long: 
+          daylight: ቅዱስ የፒዬር እና ሚኴሎን የቀን ብርሃን ሰዓት
+          generic: ቅዱስ የፒዬር እና ሚኴሎን ሰዓት
+          standard: ቅዱስ የፒዬር እና ሚኴሎን መደበኛ ሰዓት
+        type: Pierre_Miquelon
+      - 
+        long: 
+          standard: የፒትካይርን ሰዓት
+        type: Pitcairn
+      - 
+        long: 
+          standard: የፖናፔ ሰዓት
+        type: Ponape
+      - 
+        long: 
+          standard: የሬዩኒየን ሰዓት
+        type: Reunion
+      - 
+        long: 
+          standard: የሮቴራ ሰዓት
+        type: Rothera
+      - 
+        long: 
+          daylight: የሳክሃሊን የበጋ ሰዓት አቆጣጠር
+          generic: የሳክሃሊን ሰዓት አቆጣጠር
+          standard: የሳክሃሊን መደበኛ ሰዓት አቆጣጠር
+        type: Sakhalin
+      - 
+        long: 
+          daylight: የሳማራ የበጋ ሰዓት አቆጣጠር
+          generic: የሳማራ ሰዓት አቆጣጠር
+          standard: የሳማራ መደበኛ ሰዓት አቆጣጠር
+        type: Samara
+      - 
+        long: 
+          daylight: የሳሞዋ የበጋ ሰዓት
+          generic: የሳሞዋ ሰዓት
+          standard: የሳሞዋ መደበኛ ሰዓት
+        type: Samoa
+      - 
+        long: 
+          standard: የሴሸልስ ሰዓት
+        type: Seychelles
+      - 
+        long: 
+          standard: የሲንጋፒር መደበኛ ሰዓት
+        type: Singapore
+      - 
+        long: 
+          standard: የሰለሞን ደሴቶች ሰዓት
+        type: Solomon
+      - 
+        long: 
+          standard: የደቡብ ጂዮርጂያ ሰዓት
+        type: South_Georgia
+      - 
+        long: 
+          standard: የሲዮዋ ሰዓት
+        type: Syowa
+      - 
+        long: 
+          standard: የታሂቲ ሰዓት
+        type: Tahiti
+      - 
+        long: 
+          daylight: የታይፔይ የቀን ብርሃን ሰዓት
+          generic: የታይፔይ ሰዓት
+          standard: የታይፔይ መደበኛ ሰዓት
+        type: Taipei
+      - 
+        long: 
+          standard: የታጂኪስታን ሰዓት
+        type: Tajikistan
+      - 
+        long: 
+          standard: የቶኬላው ሰዓት
+        type: Tokelau
+      - 
+        long: 
+          daylight: የቶንጋ ክረምት ሰዓት
+          generic: የቶንጋ ሰዓት
+          standard: የቶንጋ መደበኛ ሰዓት
+        type: Tonga
+      - 
+        long: 
+          standard: የቹክ ሰዓት
+        type: Truk
+      - 
+        long: 
+          daylight: የቱርክመኒስታን ክረምት ሰዓት
+          generic: የቱርክመኒስታን ሰዓት
+          standard: የቱርክመኒስታን መደበኛ ሰዓት
+        type: Turkmenistan
+      - 
+        long: 
+          standard: የቱቫሉ ሰዓት
+        type: Tuvalu
+      - 
+        long: 
+          daylight: የኡራጓይ ክረምት ሰዓት
+          generic: የኡራጓይ ሰዓት
+          standard: የኡራጓይ መደበኛ ሰዓት
+        type: Uruguay
+      - 
+        long: 
+          daylight: የኡዝቤኪስታን ክረምት ሰዓት
+          generic: የኡዝቤኪስታን ሰዓት
+          standard: የኡዝቤኪስታን መደበኛ ሰዓት
+        type: Uzbekistan
+      - 
+        long: 
+          daylight: የቫኗቱ ክረምት ሰዓት
+          generic: የቫኗቱ ሰዓት
+          standard: የቫኗቱ መደበኛ ሰዓት
+        type: Vanuatu
+      - 
+        long: 
+          standard: የቬኔዝዌላ ሰዓት
+        type: Venezuela
+      - 
+        long: 
+          daylight: የቭላዲቮስቶክ የበጋ የሰዓት አቆጣጠር
+          generic: የቭላዲቮስቶክ የሰዓት አቆጣጠር
+          standard: የቪላዲቮስቶክ መደበኛ የሰዓት አቆጣጠር
+        type: Vladivostok
+      - 
+        long: 
+          daylight: የቫልጎራድ የበጋ ሰዓት አቆጣጠር
+          generic: የቮልጎራድ የሰዓት አቆጣጠር
+          standard: የቮልጎራድ መደበኛ ሰዓት አቆጣጠር
+        type: Volgograd
+      - 
+        long: 
+          standard: የቮስቶክ ሰዓት
+        type: Vostok
+      - 
+        long: 
+          standard: የዌክ ደሴት ሰዓት
+        type: Wake
+      - 
+        long: 
+          standard: የዋሊስ እና ፉቱና ሰዓት
+        type: Wallis
+      - 
+        long: 
+          daylight: የያኩትስክ የበጋ ሰዓት አቆጣጠር
+          generic: ያኩትስክ የሰዓት አቆጣጠር
+          standard: ያኩትስክ መደበኛ ሰዓት አቆጣጠር
+        type: Yakutsk
+      - 
+        long: 
+          daylight: የየካተሪንበርግ የበጋ ሰዓት አቆጣጠር
+          generic: የየካተሪንበርግ ሰዓት አቆጣጠር
+          standard: የየካተሪንበርግ መደበኛ ሰዓት አቆጣጠር
+        type: Yekaterinburg
+    regionFormat: "{0} ጊዜ"
+    zone: 
+      - 
+        exemplarCity: ያልታወቀ ከተማ
+        type: Etc/Unknown
+      - 
+        exemplarCity: አንዶራ
+        type: Europe/Andorra
+      - 
+        exemplarCity: ዱባይ
+        type: Asia/Dubai
+      - 
+        exemplarCity: ካቡል
+        type: Asia/Kabul
+      - 
+        exemplarCity: አንቲጓ
+        type: America/Antigua
+      - 
+        exemplarCity: አንጉይላ
+        type: America/Anguilla
+      - 
+        exemplarCity: ቴራን
+        type: Europe/Tirane
+      - 
+        exemplarCity: ይሬቫን
+        type: Asia/Yerevan
+      - 
+        exemplarCity: ሉአንዳ
+        type: Africa/Luanda
+      - 
+        exemplarCity: ሮቴራ
+        type: Antarctica/Rothera
+      - 
+        exemplarCity: ፓልመር
+        type: Antarctica/Palmer
+      - 
+        exemplarCity: የደቡብ ዋልታ
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: ስዮዋ
+        type: Antarctica/Syowa
+      - 
+        exemplarCity: ናውሰን
+        type: Antarctica/Mawson
+      - 
+        exemplarCity: ዳቪስ
+        type: Antarctica/Davis
+      - 
+        exemplarCity: ቭስቶክ
+        type: Antarctica/Vostok
+      - 
+        exemplarCity: ካዚይ
+        type: Antarctica/Casey
+      - 
+        exemplarCity: ደሞንት ዲኡርቪል
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: ማክመርዶ
+        type: Antarctica/McMurdo
+      - 
+        exemplarCity: ሪዮ ጋሌጎስ
+        type: America/Argentina/Rio_Gallegos
+      - 
+        exemplarCity: ሜንዶዛ
+        type: America/Mendoza
+      - 
+        exemplarCity: ሳን ጁአን
+        type: America/Argentina/San_Juan
+      - 
+        exemplarCity: ኡሹአኢ
+        type: America/Argentina/Ushuaia
+      - 
+        exemplarCity: ላ ሪኦጃ
+        type: America/Argentina/La_Rioja
+      - 
+        exemplarCity: ሳን ሊውስ
+        type: America/Argentina/San_Luis
+      - 
+        exemplarCity: ካታማርካ
+        type: America/Catamarca
+      - 
+        exemplarCity: ሳልታ
+        type: America/Argentina/Salta
+      - 
+        exemplarCity: ጁጁይ
+        type: America/Jujuy
+      - 
+        exemplarCity: ቱኩማን
+        type: America/Argentina/Tucuman
+      - 
+        exemplarCity: ኮርዶባ
+        type: America/Cordoba
+      - 
+        exemplarCity: ቦነስ አይረስ
+        type: America/Buenos_Aires
+      - 
+        exemplarCity: ፓጎ ፓጎ
+        type: Pacific/Pago_Pago
+      - 
+        exemplarCity: ቪየና
+        type: Europe/Vienna
+      - 
+        exemplarCity: ፐርዝ
+        type: Australia/Perth
+      - 
+        exemplarCity: ኡክላ
+        type: Australia/Eucla
+      - 
+        exemplarCity: ዳርዊን
+        type: Australia/Darwin
+      - 
+        exemplarCity: አዴሌእድ
+        type: Australia/Adelaide
+      - 
+        exemplarCity: ብሮክን ሂል
+        type: Australia/Broken_Hill
+      - 
+        exemplarCity: ከሪ
+        type: Australia/Currie
+      - 
+        exemplarCity: ሜልቦርን
+        type: Australia/Melbourne
+      - 
+        exemplarCity: ሆባርት
+        type: Australia/Hobart
+      - 
+        exemplarCity: ሊንድማን
+        type: Australia/Lindeman
+      - 
+        exemplarCity: ሲድኒ
+        type: Australia/Sydney
+      - 
+        exemplarCity: ብሪስቤን
+        type: Australia/Brisbane
+      - 
+        exemplarCity: ሎርድ ሆዊ
+        type: Australia/Lord_Howe
+      - 
+        exemplarCity: አሩባ
+        type: America/Aruba
+      - 
+        exemplarCity: ሜሪሃምን
+        type: Europe/Mariehamn
+      - 
+        exemplarCity: ባኩ
+        type: Asia/Baku
+      - 
+        exemplarCity: ሳሪየቮ
+        type: Europe/Sarajevo
+      - 
+        exemplarCity: ባርቤዶስ
+        type: America/Barbados
+      - 
+        exemplarCity: ዳካ
+        type: Asia/Dhaka
+      - 
+        exemplarCity: ብራስል
+        type: Europe/Brussels
+      - 
+        exemplarCity: ኡጋዱጉ
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: ሶፊያ
+        type: Europe/Sofia
+      - 
+        exemplarCity: ባህሬን
+        type: Asia/Bahrain
+      - 
+        exemplarCity: ቡጁምብራ
+        type: Africa/Bujumbura
+      - 
+        exemplarCity: ፖርቶ - ኖቮ
+        type: Africa/Porto-Novo
+      - 
+        exemplarCity: ቅድስት ቤርተሎሜ
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: ቤርሙዳ
+        type: Atlantic/Bermuda
+      - 
+        exemplarCity: ብሩናይ
+        type: Asia/Brunei
+      - 
+        exemplarCity: ላ ፓዝ
+        type: America/La_Paz
+      - 
+        exemplarCity: ኢሩኔፕ
+        type: America/Eirunepe
+      - 
+        exemplarCity: ሪዮ ብራንኮ
+        type: America/Rio_Branco
+      - 
+        exemplarCity: ፔትሮ ቬልሆ
+        type: America/Porto_Velho
+      - 
+        exemplarCity: ቦአ ቪስታ
+        type: America/Boa_Vista
+      - 
+        exemplarCity: ማናኡስ
+        type: America/Manaus
+      - 
+        exemplarCity: ኩየአባ
+        type: America/Cuiaba
+      - 
+        exemplarCity: ሳንታሬም
+        type: America/Santarem
+      - 
+        exemplarCity: ካምፖ ግራንዴ
+        type: America/Campo_Grande
+      - 
+        exemplarCity: ቤለም
+        type: America/Belem
+      - 
+        exemplarCity: አራጉየና
+        type: America/Araguaina
+      - 
+        exemplarCity: ሴኦ ፖሎ
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: ባሂአ
+        type: America/Bahia
+      - 
+        exemplarCity: ፎርታሌዛ
+        type: America/Fortaleza
+      - 
+        exemplarCity: ሜሲኦ
+        type: America/Maceio
+      - 
+        exemplarCity: ፓሲፍ
+        type: America/Recife
+      - 
+        exemplarCity: ሎሮንሃ
+        type: America/Noronha
+      - 
+        exemplarCity: ናሳው
+        type: America/Nassau
+      - 
+        exemplarCity: ቲምፉ
+        type: Asia/Thimphu
+      - 
+        exemplarCity: ጋቦሮን
+        type: Africa/Gaborone
+      - 
+        exemplarCity: ሚንስክ
+        type: Europe/Minsk
+      - 
+        exemplarCity: ቤሊዝ
+        type: America/Belize
+      - 
+        exemplarCity: ዳውሰን
+        type: America/Dawson
+      - 
+        exemplarCity: ኋይትሆርስ
+        type: America/Whitehorse
+      - 
+        exemplarCity: ኢኑቪክ
+        type: America/Inuvik
+      - 
+        exemplarCity: ቫንኮቨር
+        type: America/Vancouver
+      - 
+        exemplarCity: ዳውሰን ክሬክ
+        type: America/Dawson_Creek
+      - 
+        exemplarCity: የሎውናይፍ
+        type: America/Yellowknife
+      - 
+        exemplarCity: ኤድመንተን
+        type: America/Edmonton
+      - 
+        exemplarCity: የሐዋላ ገንዘብ
+        type: America/Swift_Current
+      - 
+        exemplarCity: ካምብሪጅ ቤይ
+        type: America/Cambridge_Bay
+      - 
+        exemplarCity: ረጂና
+        type: America/Regina
+      - 
+        exemplarCity: ዊኒፔግ
+        type: America/Winnipeg
+      - 
+        exemplarCity: ቆራጥ
+        type: America/Resolute
+      - 
+        exemplarCity: ሬኒ ሪቨር
+        type: America/Rainy_River
+      - 
+        exemplarCity: ራንኪን ኢንሌት
+        type: America/Rankin_Inlet
+      - 
+        exemplarCity: አቲኮካን
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: ተንደር ቤይ
+        type: America/Thunder_Bay
+      - 
+        exemplarCity: ኒፒጎን
+        type: America/Nipigon
+      - 
+        exemplarCity: ቶሮንቶ
+        type: America/Toronto
+      - 
+        exemplarCity: ሞንትሪያል
+        type: America/Montreal
+      - 
+        exemplarCity: ኢኳሊውት
+        type: America/Iqaluit
+      - 
+        exemplarCity: ፓንግኒርተንግ
+        type: America/Pangnirtung
+      - 
+        exemplarCity: ሞንክቶን
+        type: America/Moncton
+      - 
+        exemplarCity: ሃሊፋክስ
+        type: America/Halifax
+      - 
+        exemplarCity: ጉዝ ቤይ
+        type: America/Goose_Bay
+      - 
+        exemplarCity: ግሌስ ቤይ
+        type: America/Glace_Bay
+      - 
+        exemplarCity: ብላንክ- ሳብሎን
+        type: America/Blanc-Sablon
+      - 
+        exemplarCity: ቅዱስ ዮሐንስ
+        type: America/St_Johns
+      - 
+        exemplarCity: ኮኮስ
+        type: Indian/Cocos
+      - 
+        exemplarCity: ኪንሳሻ
+        type: Africa/Kinshasa
+      - 
+        exemplarCity: ሉቡምባሺ
+        type: Africa/Lubumbashi
+      - 
+        exemplarCity: ባንጉኢ
+        type: Africa/Bangui
+      - 
+        exemplarCity: ብራዛቪል
+        type: Africa/Brazzaville
+      - 
+        exemplarCity: ዙሪክ
+        type: Europe/Zurich
+      - 
+        exemplarCity: አቢጃን
+        type: Africa/Abidjan
+      - 
+        exemplarCity: ራሮቶንጋ
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: ፋሲካ
+        type: Pacific/Easter
+      - 
+        exemplarCity: ሳንቲያጎ
+        type: America/Santiago
+      - 
+        exemplarCity: ዱአላ
+        type: Africa/Douala
+      - 
+        exemplarCity: ካሽጋር
+        type: Asia/Kashgar
+      - 
+        exemplarCity: ኡሩምኪ
+        type: Asia/Urumqi
+      - 
+        exemplarCity: ቾንግኪንግ
+        type: Asia/Chongqing
+      - 
+        exemplarCity: ሸንጋይ
+        type: Asia/Shanghai
+      - 
+        exemplarCity: ሃሪቢን
+        type: Asia/Harbin
+      - 
+        exemplarCity: ቦጎታ
+        type: America/Bogota
+      - 
+        exemplarCity: ኮስታሪካ
+        type: America/Costa_Rica
+      - 
+        exemplarCity: ሃቫና
+        type: America/Havana
+      - 
+        exemplarCity: ኬፕ ቬርደ
+        type: Atlantic/Cape_Verde
+      - 
+        exemplarCity: ኩራሳዎ
+        type: America/Curacao
+      - 
+        exemplarCity: ገና
+        type: Indian/Christmas
+      - 
+        exemplarCity: ኒኮሲአ
+        type: Asia/Nicosia
+      - 
+        exemplarCity: ፕራግ
+        type: Europe/Prague
+      - 
+        exemplarCity: በርሊን
+        type: Europe/Berlin
+      - 
+        exemplarCity: ጅቡቲ
+        type: Africa/Djibouti
+      - 
+        exemplarCity: ኮፐንሃገን
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: ዶሜኒካ
+        type: America/Dominica
+      - 
+        exemplarCity: ሳንቶ ዶሚንጎ
+        type: America/Santo_Domingo
+      - 
+        exemplarCity: አልጀርስ
+        type: Africa/Algiers
+      - 
+        exemplarCity: ጋላፓጎስ
+        type: Pacific/Galapagos
+      - 
+        exemplarCity: ጉያኩይል
+        type: America/Guayaquil
+      - 
+        exemplarCity: ታሊን
+        type: Europe/Tallinn
+      - 
+        exemplarCity: ካይሮ
+        type: Africa/Cairo
+      - 
+        exemplarCity: ኤል አዩአን
+        type: Africa/El_Aaiun
+      - 
+        exemplarCity: አስመራ
+        type: Africa/Asmera
+      - 
+        exemplarCity: ካናሪ
+        type: Atlantic/Canary
+      - 
+        exemplarCity: ሲኡታ
+        type: Africa/Ceuta
+      - 
+        exemplarCity: ማድሪድ
+        type: Europe/Madrid
+      - 
+        exemplarCity: አዲስ አበባ
+        type: Africa/Addis_Ababa
+      - 
+        exemplarCity: ሄልሲንኪ
+        type: Europe/Helsinki
+      - 
+        exemplarCity: ፊጂ
+        type: Pacific/Fiji
+      - 
+        exemplarCity: ስታንሌይ
+        type: Atlantic/Stanley
+      - 
+        exemplarCity: ቹክ
+        type: Pacific/Truk
+      - 
+        exemplarCity: ፖህንፔ
+        type: Pacific/Ponape
+      - 
+        exemplarCity: ኮስሬ እ
+        type: Pacific/Kosrae
+      - 
+        exemplarCity: ፋሮእ
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: ፓሪስ
+        type: Europe/Paris
+      - 
+        exemplarCity: ሊብርልቪል
+        type: Africa/Libreville
+      - 
+        exemplarCity: ለንደን
+        type: Europe/London
+      - 
+        exemplarCity: ግሬናዳ
+        type: America/Grenada
+      - 
+        exemplarCity: ትብሊሲ
+        type: Asia/Tbilisi
+      - 
+        exemplarCity: ካይንኤ
+        type: America/Cayenne
+      - 
+        exemplarCity: ጉርነሲ
+        type: Europe/Guernsey
+      - 
+        exemplarCity: አክራ
+        type: Africa/Accra
+      - 
+        exemplarCity: ጂብራልታር
+        type: Europe/Gibraltar
+      - 
+        exemplarCity: ቱሌ
+        type: America/Thule
+      - 
+        exemplarCity: ጋድታብ
+        type: America/Godthab
+      - 
+        exemplarCity: ስኮርስባይሰንድ
+        type: America/Scoresbysund
+      - 
+        exemplarCity: ዳንማርክሻቭን
+        type: America/Danmarkshavn
+      - 
+        exemplarCity: ባንጁል
+        type: Africa/Banjul
+      - 
+        exemplarCity: ኮናክሬ
+        type: Africa/Conakry
+      - 
+        exemplarCity: ጕዳሉፕ
+        type: America/Guadeloupe
+      - 
+        exemplarCity: ማሌቦ
+        type: Africa/Malabo
+      - 
+        exemplarCity: አቴንስ
+        type: Europe/Athens
+      - 
+        exemplarCity: ደቡብ ጆርጂያ
+        type: Atlantic/South_Georgia
+      - 
+        exemplarCity: ጓቲማላ
+        type: America/Guatemala
+      - 
+        exemplarCity: ጉአም
+        type: Pacific/Guam
+      - 
+        exemplarCity: ቢሳኦ
+        type: Africa/Bissau
+      - 
+        exemplarCity: ጉያና
+        type: America/Guyana
+      - 
+        exemplarCity: ሆንግ ኮንግ
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: ቴጉሲጋልፓ
+        type: America/Tegucigalpa
+      - 
+        exemplarCity: ዛግረብ
+        type: Europe/Zagreb
+      - 
+        exemplarCity: ፖርት ኦ ፕሪንስ
+        type: America/Port-au-Prince
+      - 
+        exemplarCity: ቡዳፔስት
+        type: Europe/Budapest
+      - 
+        exemplarCity: ጃካርታ
+        type: Asia/Jakarta
+      - 
+        exemplarCity: ፖንቲአናክ
+        type: Asia/Pontianak
+      - 
+        exemplarCity: ማካሳር
+        type: Asia/Makassar
+      - 
+        exemplarCity: ጃያፑራ
+        type: Asia/Jayapura
+      - 
+        exemplarCity: ደብሊን
+        type: Europe/Dublin
+      - 
+        exemplarCity: እየሩሳሌም
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: አይስል ኦፍ ማን
+        type: Europe/Isle_of_Man
+      - 
+        exemplarCity: ኮልካታ
+        type: Asia/Calcutta
+      - 
+        exemplarCity: ቻጎስ
+        type: Indian/Chagos
+      - 
+        exemplarCity: ባግዳድ
+        type: Asia/Baghdad
+      - 
+        exemplarCity: ቴህራን
+        type: Asia/Tehran
+      - 
+        exemplarCity: ሬይክጃቪክ
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: ሮም
+        type: Europe/Rome
+      - 
+        exemplarCity: ጀርሲ
+        type: Europe/Jersey
+      - 
+        exemplarCity: ጃማይካ
+        type: America/Jamaica
+      - 
+        exemplarCity: አማን
+        type: Asia/Amman
+      - 
+        exemplarCity: ቶኪዮ
+        type: Asia/Tokyo
+      - 
+        exemplarCity: ናይሮቢ
+        type: Africa/Nairobi
+      - 
+        exemplarCity: ቢሽኬክ
+        type: Asia/Bishkek
+      - 
+        exemplarCity: ፍኖም ፔንህ
+        type: Asia/Phnom_Penh
+      - 
+        exemplarCity: ኢንደርበሪ
+        type: Pacific/Enderbury
+      - 
+        exemplarCity: ኪሪቲማቲ
+        type: Pacific/Kiritimati
+      - 
+        exemplarCity: ታራዋ
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: ኮሞሮ
+        type: Indian/Comoro
+      - 
+        exemplarCity: ቅዱስ ኪትስ
+        type: America/St_Kitts
+      - 
+        exemplarCity: ፕዮንግያንግ
+        type: Asia/Pyongyang
+      - 
+        exemplarCity: ሴኦል
+        type: Asia/Seoul
+      - 
+        exemplarCity: ኩዌት
+        type: Asia/Kuwait
+      - 
+        exemplarCity: ካይማን
+        type: America/Cayman
+      - 
+        exemplarCity: አኩታኡ
+        type: Asia/Aqtau
+      - 
+        exemplarCity: ኦራል
+        type: Asia/Oral
+      - 
+        exemplarCity: አኩቶቤ
+        type: Asia/Aqtobe
+      - 
+        exemplarCity: ኩይዚሎርዳ
+        type: Asia/Qyzylorda
+      - 
+        exemplarCity: አልማትይ
+        type: Asia/Almaty
+      - 
+        exemplarCity: ቬንቲአን
+        type: Asia/Vientiane
+      - 
+        exemplarCity: ቤሩት
+        type: Asia/Beirut
+      - 
+        exemplarCity: ቅድስት ሉሲያ
+        type: America/St_Lucia
+      - 
+        exemplarCity: ቫዱዝ
+        type: Europe/Vaduz
+      - 
+        exemplarCity: ኮሎምቦ
+        type: Asia/Colombo
+      - 
+        exemplarCity: ሞንሮቪያ
+        type: Africa/Monrovia
+      - 
+        exemplarCity: ማሴሩ
+        type: Africa/Maseru
+      - 
+        exemplarCity: ቪሊነስ
+        type: Europe/Vilnius
+      - 
+        exemplarCity: ሉክሰምበርግ
+        type: Europe/Luxembourg
+      - 
+        exemplarCity: ሪጋ
+        type: Europe/Riga
+      - 
+        exemplarCity: ትሪፖሊ
+        type: Africa/Tripoli
+      - 
+        exemplarCity: ካዛብላንካ
+        type: Africa/Casablanca
+      - 
+        exemplarCity: ሞናኮ
+        type: Europe/Monaco
+      - 
+        exemplarCity: ቺስናኡ
+        type: Europe/Chisinau
+      - 
+        exemplarCity: ፖድጎሪካ
+        type: Europe/Podgorica
+      - 
+        exemplarCity: ማርጎት
+        type: America/Marigot
+      - 
+        exemplarCity: አንታናናሪቮ
+        type: Indian/Antananarivo
+      - 
+        exemplarCity: ክዋጃሊን
+        type: Pacific/Kwajalein
+      - 
+        exemplarCity: ማጁሩ
+        type: Pacific/Majuro
+      - 
+        exemplarCity: ስኮፕጄ
+        type: Europe/Skopje
+      - 
+        exemplarCity: ባማኮ
+        type: Africa/Bamako
+      - 
+        exemplarCity: ራንጉን
+        type: Asia/Rangoon
+      - 
+        exemplarCity: ሆቭድ
+        type: Asia/Hovd
+      - 
+        exemplarCity: ኡላአንባአታር
+        type: Asia/Ulaanbaatar
+      - 
+        exemplarCity: ቾይባልሳን
+        type: Asia/Choibalsan
+      - 
+        exemplarCity: ማካኡ
+        type: Asia/Macau
+      - 
+        exemplarCity: ሴይፓን
+        type: Pacific/Saipan
+      - 
+        exemplarCity: ማርቲኒክ
+        type: America/Martinique
+      - 
+        exemplarCity: ኑአክቾት
+        type: Africa/Nouakchott
+      - 
+        exemplarCity: ሞንትሴራት
+        type: America/Montserrat
+      - 
+        exemplarCity: ማልታ
+        type: Europe/Malta
+      - 
+        exemplarCity: ሞሪሽየስ
+        type: Indian/Mauritius
+      - 
+        exemplarCity: ማልዲቨ
+        type: Indian/Maldives
+      - 
+        exemplarCity: ብላንታየር
+        type: Africa/Blantyre
+      - 
+        exemplarCity: ቲጁአና
+        type: America/Tijuana
+      - 
+        exemplarCity: ኸርሞዚሎ
+        type: America/Hermosillo
+      - 
+        exemplarCity: ማዛትላን
+        type: America/Mazatlan
+      - 
+        exemplarCity: ቺሁዋውአ
+        type: America/Chihuahua
+      - 
+        exemplarCity: ሞንተርሬይ
+        type: America/Monterrey
+      - 
+        exemplarCity: ሜክሲኮ ከተማ
+        type: America/Mexico_City
+      - 
+        exemplarCity: ሜሪዳ
+        type: America/Merida
+      - 
+        exemplarCity: ካንኩን
+        type: America/Cancun
+      - 
+        exemplarCity: ኩዋላ ላምፑር
+        type: Asia/Kuala_Lumpur
+      - 
+        exemplarCity: ኩቺንግ
+        type: Asia/Kuching
+      - 
+        exemplarCity: ማፑቱ
+        type: Africa/Maputo
+      - 
+        exemplarCity: ዊንድሆይክ
+        type: Africa/Windhoek
+      - 
+        exemplarCity: ናኦሚአ
+        type: Pacific/Noumea
+      - 
+        exemplarCity: ኒያሜይ
+        type: Africa/Niamey
+      - 
+        exemplarCity: ኖርፎልክ
+        type: Pacific/Norfolk
+      - 
+        exemplarCity: ሌጎስ
+        type: Africa/Lagos
+      - 
+        exemplarCity: ማናጉአ
+        type: America/Managua
+      - 
+        exemplarCity: አምስተርዳም
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: ኦስሎ
+        type: Europe/Oslo
+      - 
+        exemplarCity: ካትማንዱ
+        type: Asia/Katmandu
+      - 
+        exemplarCity: ናውሩ
+        type: Pacific/Nauru
+      - 
+        exemplarCity: ኒዌ
+        type: Pacific/Niue
+      - 
+        exemplarCity: ቻታም
+        type: Pacific/Chatham
+      - 
+        exemplarCity: ኦክላንድ
+        type: Pacific/Auckland
+      - 
+        exemplarCity: ሙስካት
+        type: Asia/Muscat
+      - 
+        exemplarCity: ፓናማ
+        type: America/Panama
+      - 
+        exemplarCity: ሊማ
+        type: America/Lima
+      - 
+        exemplarCity: ታሂቲ
+        type: Pacific/Tahiti
+      - 
+        exemplarCity: ማርክዌሳስ
+        type: Pacific/Marquesas
+      - 
+        exemplarCity: ጋምቢየር
+        type: Pacific/Gambier
+      - 
+        exemplarCity: ፖርት ሞሬስባይ
+        type: Pacific/Port_Moresby
+      - 
+        exemplarCity: ማኒላ
+        type: Asia/Manila
+      - 
+        exemplarCity: ካራቺ
+        type: Asia/Karachi
+      - 
+        exemplarCity: ዋርሳው
+        type: Europe/Warsaw
+      - 
+        exemplarCity: ሚኮውሎን
+        type: America/Miquelon
+      - 
+        exemplarCity: ፒትከይርን
+        type: Pacific/Pitcairn
+      - 
+        exemplarCity: ፖርቶሪኮ
+        type: America/Puerto_Rico
+      - 
+        exemplarCity: ጋዛ
+        type: Asia/Gaza
+      - 
+        exemplarCity: አዞረስ
+        type: Atlantic/Azores
+      - 
+        exemplarCity: ማዴራ
+        type: Atlantic/Madeira
+      - 
+        exemplarCity: ሊዝበን
+        type: Europe/Lisbon
+      - 
+        exemplarCity: ፓላው
+        type: Pacific/Palau
+      - 
+        exemplarCity: አሱንሲዮን
+        type: America/Asuncion
+      - 
+        exemplarCity: ኳታር
+        type: Asia/Qatar
+      - 
+        exemplarCity: ሬዩኒየን
+        type: Indian/Reunion
+      - 
+        exemplarCity: ቡካሬስት
+        type: Europe/Bucharest
+      - 
+        exemplarCity: ቤልግሬድ
+        type: Europe/Belgrade
+      - 
+        exemplarCity: ካሊኒንግራድ
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: ሞስኮ
+        type: Europe/Moscow
+      - 
+        exemplarCity: ቮልጎራድ
+        type: Europe/Volgograd
+      - 
+        exemplarCity: ሳማራ
+        type: Europe/Samara
+      - 
+        exemplarCity: የካተሪንበርግ
+        type: Asia/Yekaterinburg
+      - 
+        exemplarCity: ኦምስክ
+        type: Asia/Omsk
+      - 
+        exemplarCity: ኖቮሲቢሪስክ
+        type: Asia/Novosibirsk
+      - 
+        exemplarCity: ክራስኖያርስክ
+        type: Asia/Krasnoyarsk
+      - 
+        exemplarCity: ኢርኩትስክ
+        type: Asia/Irkutsk
+      - 
+        exemplarCity: ያኩትስክ
+        type: Asia/Yakutsk
+      - 
+        exemplarCity: ቭላዲቮስቶክ
+        type: Asia/Vladivostok
+      - 
+        exemplarCity: ሳክሃሊን
+        type: Asia/Sakhalin
+      - 
+        exemplarCity: ማጋዳን
+        type: Asia/Magadan
+      - 
+        exemplarCity: ካምቻትካ
+        type: Asia/Kamchatka
+      - 
+        exemplarCity: አናድይር
+        type: Asia/Anadyr
+      - 
+        exemplarCity: ኪጋሊ
+        type: Africa/Kigali
+      - 
+        exemplarCity: ሪያድ
+        type: Asia/Riyadh
+      - 
+        exemplarCity: ጉዋዳልካናል
+        type: Pacific/Guadalcanal
+      - 
+        exemplarCity: ማሄ
+        type: Indian/Mahe
+      - 
+        exemplarCity: ካርቱም
+        type: Africa/Khartoum
+      - 
+        exemplarCity: ስቶክሆልም
+        type: Europe/Stockholm
+      - 
+        exemplarCity: ሲንጋፖር
+        type: Asia/Singapore
+      - 
+        exemplarCity: ቅድስት ሄለና
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: ልጁብልጃና
+        type: Europe/Ljubljana
+      - 
+        exemplarCity: ሎንግይርባየን
+        type: Arctic/Longyearbyen
+      - 
+        exemplarCity: ብራቲስላቫ
+        type: Europe/Bratislava
+      - 
+        exemplarCity: ፍሪታውን
+        type: Africa/Freetown
+      - 
+        exemplarCity: ሳን ማሪኖ
+        type: Europe/San_Marino
+      - 
+        exemplarCity: ዳካር
+        type: Africa/Dakar
+      - 
+        exemplarCity: ሞቃዲሹ
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: ፓራማሪቦ
+        type: America/Paramaribo
+      - 
+        exemplarCity: ሳኦ ቶሜ
+        type: Africa/Sao_Tome
+      - 
+        exemplarCity: ኤልሳልቫዶር
+        type: America/El_Salvador
+      - 
+        exemplarCity: የታችኛው ልዑል ሩብ
+        type: America/Lower_Princes
+      - 
+        exemplarCity: ደማስቆ
+        type: Asia/Damascus
+      - 
+        exemplarCity: ምባቤን
+        type: Africa/Mbabane
+      - 
+        exemplarCity: ግራንድ ተርክ
+        type: America/Grand_Turk
+      - 
+        exemplarCity: ንጃሜና
+        type: Africa/Ndjamena
+      - 
+        exemplarCity: ኬርጉለን
+        type: Indian/Kerguelen
+      - 
+        exemplarCity: ሎሜ
+        type: Africa/Lome
+      - 
+        exemplarCity: ባንኮክ
+        type: Asia/Bangkok
+      - 
+        exemplarCity: ደሻንቤ
+        type: Asia/Dushanbe
+      - 
+        exemplarCity: ፋካኦፎ
+        type: Pacific/Fakaofo
+      - 
+        exemplarCity: ዲሊ
+        type: Asia/Dili
+      - 
+        exemplarCity: አሽጋባት
+        type: Asia/Ashgabat
+      - 
+        exemplarCity: ቱኒዝ
+        type: Africa/Tunis
+      - 
+        exemplarCity: ቶንጋታፑ
+        type: Pacific/Tongatapu
+      - 
+        exemplarCity: ኢስታንቡል
+        type: Europe/Istanbul
+      - 
+        exemplarCity: የእስፔን ወደብ
+        type: America/Port_of_Spain
+      - 
+        exemplarCity: ፈናፉቲ
+        type: Pacific/Funafuti
+      - 
+        exemplarCity: ታይፓይ
+        type: Asia/Taipei
+      - 
+        exemplarCity: ዳሬ ሰላም
+        type: Africa/Dar_es_Salaam
+      - 
+        exemplarCity: ኡዝጎሮድ
+        type: Europe/Uzhgorod
+      - 
+        exemplarCity: ኪየቭ
+        type: Europe/Kiev
+      - 
+        exemplarCity: ሲምፈሮፖል
+        type: Europe/Simferopol
+      - 
+        exemplarCity: ዛፖሮዚይ
+        type: Europe/Zaporozhye
+      - 
+        exemplarCity: ካምፓላ
+        type: Africa/Kampala
+      - 
+        exemplarCity: አጋማሽ
+        type: Pacific/Midway
+      - 
+        exemplarCity: ጆንስተን
+        type: Pacific/Johnston
+      - 
+        exemplarCity: ዋቄ
+        type: Pacific/Wake
+      - 
+        exemplarCity: አዳክ
+        type: America/Adak
+      - 
+        exemplarCity: ኖሜ
+        type: America/Nome
+      - 
+        exemplarCity: ሆኖሉሉ
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: አንኮራጅ
+        type: America/Anchorage
+      - 
+        exemplarCity: ያኩታት
+        type: America/Yakutat
+      - 
+        exemplarCity: ጁኒዩ
+        type: America/Juneau
+      - 
+        exemplarCity: ሎስ አንጀለስ
+        type: America/Los_Angeles
+      - 
+        exemplarCity: ቦይዝ
+        type: America/Boise
+      - 
+        exemplarCity: ፊኒክስ
+        type: America/Phoenix
+      - 
+        exemplarCity: ሺፕሮክ
+        type: America/Shiprock
+      - 
+        exemplarCity: ዴንቨር
+        type: America/Denver
+      - 
+        exemplarCity: ቤኡላህ, ሰሜን ዳኮታ
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: አዲስ ሳሌም, ሰሜን ዳኮታ
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: መካከለኛ, ሰሜን ዳኮታ
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: ቺካጎ
+        type: America/Chicago
+      - 
+        exemplarCity: ሜኖሚኒ
+        type: America/Menominee
+      - 
+        exemplarCity: ቪንቼንስ, ኢንዲያና
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: ፒተርስበርግ, ኢንዲያና
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: ቴል ከተማ, ኢንዲያና
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: ኖክስ, ኢንዲያና
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: ዊናማክ, ኢንዲያና
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: ማሬንጎ, ኢንዲያና
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: ኢንዲያናፖሊስ
+        type: America/Indianapolis
+      - 
+        exemplarCity: ሊውስቪል
+        type: America/Louisville
+      - 
+        exemplarCity: ቪቫይ, ኢንዲያና
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: ሞንቲሴሎ, ኪንታኪ
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: ዲትሮይት
+        type: America/Detroit
+      - 
+        exemplarCity: ኒውዮርክ
+        type: America/New_York
+      - 
+        exemplarCity: ሞንቴቪድዮ
+        type: America/Montevideo
+      - 
+        exemplarCity: ሳማርካንድ
+        type: Asia/Samarkand
+      - 
+        exemplarCity: ታሽኬንት
+        type: Asia/Tashkent
+      - 
+        exemplarCity: ቫቲካን
+        type: Europe/Vatican
+      - 
+        exemplarCity: ቅዱስ ቪንሰንት
+        type: America/St_Vincent
+      - 
+        exemplarCity: ካራካስ
+        type: America/Caracas
+      - 
+        exemplarCity: ቶርቶላ
+        type: America/Tortola
+      - 
+        exemplarCity: ቅዱስ ቶማስ
+        type: America/St_Thomas
+      - 
+        exemplarCity: ሆ ቺ ሚንህ ከተማ
+        type: Asia/Saigon
+      - 
+        exemplarCity: ኢፋቴ
+        type: Pacific/Efate
+      - 
+        exemplarCity: ዋሊስ
+        type: Pacific/Wallis
+      - 
+        exemplarCity: አፒአ
+        type: Pacific/Apia
+      - 
+        exemplarCity: ኤደን
+        type: Asia/Aden
+      - 
+        exemplarCity: ማዮቴ
+        type: Indian/Mayotte
+      - 
+        exemplarCity: ጆሃንስበርግ
+        type: Africa/Johannesburg
+      - 
+        exemplarCity: ሉሳካ
+        type: Africa/Lusaka
+      - 
+        exemplarCity: ሃራሬ
+        type: Africa/Harare
+delimiters: 
+  alternateQuotationEnd: ›
+  alternateQuotationStart: ‹
+  quotationEnd: »
+  quotationStart: «
+identity: 
+  generation: 
+    date: "$Date: 2013-02-26 06:50:11 -0800 (Tue, 26 Feb 2013) $"
+  language: 
+    type: am
+  version: 
+    number: "$Revision: 8252 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} እና {1}"
+        type: 2
+      - 
+        content: "{0}, እና {1}"
+        type: end
+      - 
+        content: "{0}፣ {1}"
+        type: middle
+      - 
+        content: "{0}፣ {1}"
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "{0}"
+        type: language
+      - 
+        content: "{0}"
+        type: script
+      - 
+        content: "{0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: የቀን አቆጣጠር
+        type: calendar
+      - 
+        content: የምልክቶች ድርደራ ችላ በለው
+        type: colAlternate
+      - 
+        content: የኋሊዮሽ የፊደል ጭረት ድርደራ
+        type: colBackwards
+      - 
+        content: የአቢይ/ንዑስ ሆሄ ቅደም ተከተል
+        type: colCaseFirst
+      - 
+        content: የመልከፊደል ትብ ድርደራ
+        type: colCaseLevel
+      - 
+        content: የካና ድርደራ
+        type: colHiraganaQuaternary
+      - 
+        content: አቀማመጥ ደርድር
+        type: collation
+      - 
+        content: መደበኛ ድርደራ
+        type: colNormalization
+      - 
+        content: የቁጥር ድርደራ
+        type: colNumeric
+      - 
+        content: የድርደራ አቅም
+        type: colStrength
+      - 
+        content: ገንዘብ
+        type: currency
+      - 
+        content: ቁጥሮች
+        type: numbers
+      - 
+        content: የሰዓት ሰቅ
+        type: timezone
+      - 
+        content: የአካባቢ አይነት
+        type: va
+      - 
+        content: እንደምልክቶች ደርድር
+        type: variableTop
+      - 
+        content: ለግል ጥቅም
+        type: x
+  languages: 
+    language: 
+      - 
+        content: አፋርኛ
+        type: aa
+      - 
+        content: አብሐዚኛ
+        type: ab
+      - 
+        content: አኮሊኛ
+        type: ach
+      - 
+        content: አፍሪካንኛ
+        type: af
+      - 
+        content: አካንኛ
+        type: ak
+      - 
+        content: አማርኛ
+        type: am
+      - 
+        content: ዐርቢኛ
+        type: ar
+      - 
+        content: አሳሜዛዊ
+        type: as
+      - 
+        content: አያማርኛ
+        type: ay
+      - 
+        content: አዘርባጃንኛ
+        type: az
+      - 
+        alt: short
+        content: አዜሪ
+        type: az
+      - 
+        content: ባስኪርኛ
+        type: ba
+      - 
+        content: ቤላራሻኛ
+        type: be
+      - 
+        content: ቤምባ
+        type: bem
+      - 
+        content: ቡልጋሪኛ
+        type: bg
+      - 
+        content: ቢሃሪ
+        type: bh
+      - 
+        content: ቢስላምኛ
+        type: bi
+      - 
+        content: ቤንጋሊኛ
+        type: bn
+      - 
+        content: ቲቤታንኛ
+        type: bo
+      - 
+        content: ብሬቶንኛ
+        type: br
+      - 
+        content: ቦስኒያንኛ
+        type: bs
+      - 
+        content: ብሊን
+        type: byn
+      - 
+        content: ካታላንኛ
+        type: ca
+      - 
+        content: ቼሮኬኛ
+        type: chr
+      - 
+        content: የሶራኒ ኩርድኛ
+        type: ckb
+      - 
+        content: ኮርሲካኛ
+        type: co
+      - 
+        content: ቼክኛ
+        type: cs
+      - 
+        content: ወልሽ
+        type: cy
+      - 
+        content: ዴኒሽ
+        type: da
+      - 
+        content: ጀርመን
+        type: de
+      - 
+        content: የኦስትሪያ ጀርመን
+        type: de_AT
+      - 
+        content: የስዊዝ ከፍተኛ ጀርመንኛ
+        type: de_CH
+      - 
+        content: ዲቬህ
+        type: dv
+      - 
+        content: ድዞንግኻኛ
+        type: dz
+      - 
+        content: ኢዊ
+        type: ee
+      - 
+        content: ኤፊክ
+        type: efi
+      - 
+        content: ግሪክኛ
+        type: el
+      - 
+        content: እንግሊዝኛ
+        type: en
+      - 
+        content: የአውስትራሊያ እንግሊዝኛ
+        type: en_AU
+      - 
+        content: የካናዳ እንግሊዝኛ
+        type: en_CA
+      - 
+        content: የብሪቲሽ እንግሊዝኛ
+        type: en_GB
+      - 
+        content: የዩ ኤስ እንግሊዝኛ
+        type: en_US
+      - 
+        content: ኤስፐራንቶ
+        type: eo
+      - 
+        content: ስፓኒሽ
+        type: es
+      - 
+        content: የላቲን አሜሪካ ስፓኒሽ
+        type: es_419
+      - 
+        content: የአውሮፓ እስፓንኛ
+        type: es_ES
+      - 
+        content: ኢስቶኒያንኛ
+        type: et
+      - 
+        content: ባስክኛ
+        type: eu
+      - 
+        content: ፐርሺያኛ
+        type: fa
+      - 
+        content: ፊኒሽ
+        type: fi
+      - 
+        content: ፊሊፒንኛ
+        type: fil
+      - 
+        content: ፊጂኛ
+        type: fj
+      - 
+        content: ፋሮኛ
+        type: fo
+      - 
+        content: ፈረንሳይኛ
+        type: fr
+      - 
+        content: የካናዳ ፈረንሳይኛ
+        type: fr_CA
+      - 
+        content: የስዊዝ ፈረንሳይኛ
+        type: fr_CH
+      - 
+        content: የምዕራብ ፍሪስኛ
+        type: fy
+      - 
+        content: አይሪሽ
+        type: ga
+      - 
+        content: ጋ
+        type: gaa
+      - 
+        content: እስኮትስ ጌልክኛ
+        type: gd
+      - 
+        content: ግዕዝኛ
+        type: gez
+      - 
+        content: ጌሊክ
+        type: gl
+      - 
+        content: ጓራኒኛ
+        type: gn
+      - 
+        content: የስዊዝ ጀርመን
+        type: gsw
+      - 
+        content: ጉጃርቲኛ
+        type: gu
+      - 
+        content: ሃውሳኛ
+        type: ha
+      - 
+        content: ሃዊያኛ
+        type: haw
+      - 
+        content: ዕብራስጥ
+        type: he
+      - 
+        content: ሒንዱኛ
+        type: hi
+      - 
+        content: ክሮሽያንኛ
+        type: hr
+      - 
+        content: ሃይትኛ
+        type: ht
+      - 
+        content: ሀንጋሪኛ
+        type: hu
+      - 
+        content: አርመናዊ
+        type: hy
+      - 
+        content: ኢንቴርሊንጓ
+        type: ia
+      - 
+        content: ኢንዶኔዥኛ
+        type: id
+      - 
+        content: እንተርሊንግወ
+        type: ie
+      - 
+        content: ኢግቦኛ
+        type: ig
+      - 
+        content: እኑፒያቅኛ
+        type: ik
+      - 
+        content: አይስላንድኛ
+        type: is
+      - 
+        content: ጣሊያንኛ
+        type: it
+      - 
+        content: እኑክቲቱትኛ
+        type: iu
+      - 
+        content: ጃፓንኛ
+        type: ja
+      - 
+        content: ጃቫንኛ
+        type: jv
+      - 
+        content: ጆርጂያን
+        type: ka
+      - 
+        content: ኮንጎኛ
+        type: kg
+      - 
+        content: ካዛክኛ
+        type: kk
+      - 
+        content: ካላሊሱትኛ
+        type: kl
+      - 
+        content: ክመርኛ ማእከላዊ
+        type: km
+      - 
+        content: ካናዳኛ
+        type: kn
+      - 
+        content: ኮሪያኛ
+        type: ko
+      - 
+        content: ካሽሚርኛ
+        type: ks
+      - 
+        content: ኩርድሽኛ
+        type: ku
+      - 
+        content: ኪርጊዝኛ
+        type: ky
+      - 
+        content: ላቲንኛ
+        type: la
+      - 
+        content: ሉክዘምበርገርኛ
+        type: lb
+      - 
+        content: ጋንዳኛ
+        type: lg
+      - 
+        content: ሊንጋላኛ
+        type: ln
+      - 
+        content: ላውስኛ
+        type: lo
+      - 
+        content: ሎዚኛ
+        type: loz
+      - 
+        content: ሉቴንያንኛ
+        type: lt
+      - 
+        content: ሉባ-ሉሏ
+        type: lua
+      - 
+        content: ላትቪያን
+        type: lv
+      - 
+        content: ሞሪሲየኛ
+        type: mfe
+      - 
+        content: ማላጋስኛ
+        type: mg
+      - 
+        content: ማዮሪኛ
+        type: mi
+      - 
+        content: ማሴዶንኛ
+        type: mk
+      - 
+        content: ማላያላምኛ
+        type: ml
+      - 
+        content: ሞንጎላዊኛ
+        type: mn
+      - 
+        content: ሞልዳቫዊና
+        type: mo
+      - 
+        content: ማራቲኛ
+        type: mr
+      - 
+        content: ማላይኛ
+        type: ms
+      - 
+        content: ማልቲስኛ
+        type: mt
+      - 
+        content: ቡርማኛ
+        type: my
+      - 
+        content: ናኡሩ
+        type: na
+      - 
+        content: የኖርዌይ ቦክማል
+        type: nb
+      - 
+        content: ሰሜን ንዴብሌ
+        type: nd
+      - 
+        content: ኔፓሊኛ
+        type: ne
+      - 
+        content: ደች
+        type: nl
+      - 
+        content: ፍሌሚሽ
+        type: nl_BE
+      - 
+        content: የኖርዌይ ናይኖርስክ
+        type: nn
+      - 
+        content: ኖርዌጂያን
+        type: 'no'
+      - 
+        content: ሰሜናዊ ሶቶ
+        type: nso
+      - 
+        content: ንያንጃ
+        type: ny
+      - 
+        content: ኒያንኮልኛ
+        type: nyn
+      - 
+        content: ኦኪታንኛ
+        type: oc
+      - 
+        content: ኦሮሞኛ
+        type: om
+      - 
+        content: ኦሪያኛ
+        type: or
+      - 
+        content: ኦሴቲክ
+        type: os
+      - 
+        content: ፑንጃብኛ
+        type: pa
+      - 
+        content: ፖሊሽኛ
+        type: pl
+      - 
+        content: ፓሽቶኛ
+        type: ps
+      - 
+        alt: variant
+        content: ፑሽቶ
+        type: ps
+      - 
+        content: ፖርቹጋልኛ
+        type: pt
+      - 
+        content: የብራዚል ፖርቹጋልኛ
+        type: pt_BR
+      - 
+        content: የአውሮፓ ፖርቹጋልኛ
+        type: pt_PT
+      - 
+        content: ኵቿኛ
+        type: qu
+      - 
+        content: ሮማንሽ
+        type: rm
+      - 
+        content: ሩንዲኛ
+        type: rn
+      - 
+        content: ሮማኒያን
+        type: ro
+      - 
+        content: ራሽኛ
+        type: ru
+      - 
+        content: ኪንያርዋንድኛ
+        type: rw
+      - 
+        content: ሳንስክሪትኛ
+        type: sa
+      - 
+        content: ሲንድሂኛ
+        type: sd
+      - 
+        content: ሰሜናዊ ሳሚ
+        type: se
+      - 
+        content: ሳንጎኛ
+        type: sg
+      - 
+        content: ሰርቦ-ክሮኤሽያኛ
+        draft: unconfirmed
+        type: sh
+      - 
+        content: ሲንሃልኛ
+        type: si
+      - 
+        content: ሲዳምኛ
+        type: sid
+      - 
+        content: ስሎቫክኛ
+        type: sk
+      - 
+        content: ስሎቪኛ
+        type: sl
+      - 
+        content: ሳሞአኛ
+        type: sm
+      - 
+        content: ሾናኛ
+        type: sn
+      - 
+        content: ሱማልኛ
+        type: so
+      - 
+        content: ልቤኒኛ
+        type: sq
+      - 
+        content: ሰርቢኛ
+        type: sr
+      - 
+        content: ስዋቲኛ
+        type: ss
+      - 
+        content: ሶዞኛ
+        type: st
+      - 
+        content: ሱዳንኛ
+        type: su
+      - 
+        content: ስዊድንኛ
+        type: sv
+      - 
+        content: ስዋሂሊኛ
+        type: sw
+      - 
+        content: ታሚልኛ
+        type: ta
+      - 
+        content: ተሉጉኛ
+        type: te
+      - 
+        content: ቴተም
+        type: tet
+      - 
+        content: ታጂኪኛ
+        type: tg
+      - 
+        content: ታይኛ
+        type: th
+      - 
+        content: ትግርኛ
+        type: ti
+      - 
+        content: ትግረ
+        type: tig
+      - 
+        content: ቱርክመንኛ
+        type: tk
+      - 
+        content: ታጋሎገኛ
+        type: tl
+      - 
+        content: ክሊንጎንኛ
+        type: tlh
+      - 
+        content: ጽዋናዊኛ
+        type: tn
+      - 
+        content: ቶንጋኛ
+        type: to
+      - 
+        content: ቶክ ፒሲን
+        type: tpi
+      - 
+        content: ቱርክኛ
+        type: tr
+      - 
+        content: ጾንጋኛ
+        type: ts
+      - 
+        content: ታታርኛ
+        type: tt
+      - 
+        content: ቱምቡካ
+        type: tum
+      - 
+        content: ትዊኛ
+        type: tw
+      - 
+        content: ታሂታንኛ
+        type: ty
+      - 
+        content: ኡዊግሁርኛ
+        type: ug
+      - 
+        alt: variant
+        content: ኡይገር
+        type: ug
+      - 
+        content: ዩክሬንኛ
+        type: uk
+      - 
+        content: ያልታወቀ ቋንቋ
+        type: und
+      - 
+        content: ኡርዱኛ
+        type: ur
+      - 
+        content: ኡዝቤክኛ
+        type: uz
+      - 
+        content: ቬንዳ
+        type: ve
+      - 
+        content: ቪትናምኛ
+        type: vi
+      - 
+        content: ቮላፑክኛ
+        type: vo
+      - 
+        content: ዎሎፍኛ
+        type: wo
+      - 
+        content: ዞሳኛ
+        type: xh
+      - 
+        content: ይዲሽኛ
+        type: yi
+      - 
+        content: ዮሩባዊኛ
+        type: yo
+      - 
+        content: ዡዋንግኛ
+        type: za
+      - 
+        content: ቻይንኛ
+        type: zh
+      - 
+        content: ቀለል ያለ ቻይንኛ
+        type: zh_Hans
+      - 
+        content: ባህላዊ ቻይንኛ
+        type: zh_Hant
+      - 
+        content: ዙሉኛ
+        type: zu
+      - 
+        content: ቋንቋዊ ይዘት አይደለም
+        type: zxx
+  localeDisplayPattern: 
+    localeKeyTypePattern: "{0}: {1}"
+    localePattern: "{0} ({1})"
+    localeSeparator: ","
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: ሜትሪክ
+        type: metric
+      - 
+        content: ዩኬ
+        type: UK
+      - 
+        content: ዩ ኤስ
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: ዓረብኛ
+        type: Arab
+      - 
+        alt: variant
+        content: ፔርሶ - አረቢክ
+        type: Arab
+      - 
+        content: አርሜንያዊ
+        type: Armn
+      - 
+        content: ቤንጋሊ
+        type: Beng
+      - 
+        content: ቦፖሞፎ
+        type: Bopo
+      - 
+        content: ብሬይል
+        type: Brai
+      - 
+        content: ቡሂድ
+        draft: unconfirmed
+        type: Buhd
+      - 
+        content: የተዋሐዱ የካናዳ ጥንታዊ ምልክቶች
+        draft: unconfirmed
+        type: Cans
+      - 
+        content: ቼሮኪ
+        draft: unconfirmed
+        type: Cher
+      - 
+        content: ኮፕቲክ
+        draft: unconfirmed
+        type: Copt
+      - 
+        content: ሲፕሪኦት
+        draft: unconfirmed
+        type: Cprt
+      - 
+        content: ሲይሪልክ
+        type: Cyrl
+      - 
+        content: ደቫንጋሪ
+        type: Deva
+      - 
+        content: ዴዘረት
+        draft: unconfirmed
+        type: Dsrt
+      - 
+        content: ኢትዮፒክ
+        type: Ethi
+      - 
+        content: ጆርጂያዊ
+        type: Geor
+      - 
+        content: ጐቲክ
+        draft: unconfirmed
+        type: Goth
+      - 
+        content: ግሪክ
+        type: Grek
+      - 
+        content: ጉጃራቲ
+        type: Gujr
+      - 
+        content: ጉርሙኪ
+        type: Guru
+      - 
+        content: ሐንጉል
+        type: Hang
+      - 
+        content: ሃን
+        type: Hani
+      - 
+        content: ሀኑኦ
+        draft: unconfirmed
+        type: Hano
+      - 
+        content: ቀለል ያለ
+        type: Hans
+      - 
+        alt: stand-alone
+        content: ቀለል ያለ ሃን
+        type: Hans
+      - 
+        content: ባህላዊ
+        type: Hant
+      - 
+        alt: stand-alone
+        content: ባህላዊ ሃን
+        type: Hant
+      - 
+        content: እብራይስጥ
+        type: Hebr
+      - 
+        content: ሂራጋና
+        type: Hira
+      - 
+        content: ካታካና ወይንም ሂራጋና
+        draft: unconfirmed
+        type: Hrkt
+      - 
+        content: ጃፓንኛ
+        type: Jpan
+      - 
+        content: ካታካና
+        type: Kana
+      - 
+        content: ክህመር
+        type: Khmr
+      - 
+        content: ካንአዳ
+        type: Knda
+      - 
+        content: ኮሪያኛ
+        type: Kore
+      - 
+        content: ላኦ
+        type: Laoo
+      - 
+        content: ላቲን
+        type: Latn
+      - 
+        content: ሊምቡ
+        draft: unconfirmed
+        type: Limb
+      - 
+        content: ሊኒያር ኤ
+        draft: unconfirmed
+        type: Lina
+      - 
+        content: ሊኒያር ቢ
+        draft: unconfirmed
+        type: Linb
+      - 
+        content: ማላያልም
+        type: Mlym
+      - 
+        content: ሞንጎሊያዊ
+        type: Mong
+      - 
+        content: ምያንማር
+        type: Mymr
+      - 
+        content: ኦግሀም
+        draft: unconfirmed
+        type: Ogam
+      - 
+        content: ኦሪያ
+        type: Orya
+      - 
+        content: ኦስማኒያ
+        draft: unconfirmed
+        type: Osma
+      - 
+        content: ሩኒክ
+        draft: unconfirmed
+        type: Runr
+      - 
+        content: የሻቪያ ፊደል
+        draft: unconfirmed
+        type: Shaw
+      - 
+        content: ሲንሃላ
+        type: Sinh
+      - 
+        content: ሲሪክ
+        draft: unconfirmed
+        type: Syrc
+      - 
+        content: ትአግባንዋ
+        draft: unconfirmed
+        type: Tagb
+      - 
+        content: ታኢ ለ
+        draft: unconfirmed
+        type: Tale
+      - 
+        content: አዲስ ታኢ ሉ
+        draft: unconfirmed
+        type: Talu
+      - 
+        content: ታሚል
+        type: Taml
+      - 
+        content: ተልጉ
+        type: Telu
+      - 
+        content: ታጋሎግ
+        draft: unconfirmed
+        type: Tglg
+      - 
+        content: ታና
+        type: Thaa
+      - 
+        content: ታይ
+        type: Thai
+      - 
+        content: ቲቤታን
+        type: Tibt
+      - 
+        content: ኡጋሪቲክ
+        draft: unconfirmed
+        type: Ugar
+      - 
+        content: ቫይ
+        draft: unconfirmed
+        type: Vaii
+      - 
+        content: ዪ
+        draft: unconfirmed
+        type: Yiii
+      - 
+        content: የተወረሰ
+        draft: unconfirmed
+        type: Zinh
+      - 
+        content: ምልክቶች
+        type: Zsym
+      - 
+        content: ያልተጻፈ
+        type: Zxxx
+      - 
+        content: የጋራ
+        type: Zyyy
+      - 
+        content: ያልታወቀ ስክሪፕት
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: ዓለም
+        type: '001'
+      - 
+        content: አፍሪካ
+        type: '002'
+      - 
+        content: ሰሜን አሜሪካ
+        type: '003'
+      - 
+        content: ደቡብ አሜሪካ
+        type: '005'
+      - 
+        content: ኦሽኒአ
+        type: '009'
+      - 
+        content: ምስራቃዊ አፍሪካ
+        type: '011'
+      - 
+        content: መካከለኛው አሜሪካ
+        type: '013'
+      - 
+        content: ምዕራባዊ አፍሪካ
+        type: '014'
+      - 
+        content: ሰሜናዊ አፍሪካ
+        type: '015'
+      - 
+        content: መካከለኛው አፍሪካ
+        type: '017'
+      - 
+        content: ደቡባዊ አፍሪካ
+        type: '018'
+      - 
+        content: አሜሪካ
+        type: '019'
+      - 
+        content: ሰሜናዊ አሜሪካ
+        type: '021'
+      - 
+        content: ካሪቢያን
+        type: '029'
+      - 
+        content: ምዕራባዊ እሲያ
+        type: '030'
+      - 
+        content: ደቡባዊ እሲያ
+        type: '034'
+      - 
+        content: ምዕራባዊ ደቡብ እሲያ
+        type: '035'
+      - 
+        content: ደቡባዊ አውሮፓ
+        type: '039'
+      - 
+        content: አውስትራሊያ
+        type: '053'
+      - 
+        content: ሜላኔዥያ
+        type: '054'
+      - 
+        content: የማይክሮኔዥያን ክልል
+        type: '057'
+      - 
+        content: ፖሊኔዥያ
+        type: '061'
+      - 
+        content: እሲያ
+        type: 142
+      - 
+        content: መካከለኛው እሲያ
+        type: 143
+      - 
+        content: ምስራቃዊ እሲያ
+        type: 145
+      - 
+        content: አውሮፓ
+        type: 150
+      - 
+        content: ምዕራባዊ አውሮፓ
+        type: 151
+      - 
+        content: ሰሜናዊ አውሮፓ
+        type: 154
+      - 
+        content: ምስራቃዊ አውሮፓ
+        type: 155
+      - 
+        content: ላቲን አሜሪካ
+        type: 419
+      - 
+        content: አሴንሽን ደሴት
+        type: AC
+      - 
+        content: አንዶራ
+        type: AD
+      - 
+        content: የተባበሩት አረብ ኤምሬትስ
+        type: AE
+      - 
+        content: አፍጋኒስታን
+        type: AF
+      - 
+        content: አንቲጓ እና ባሩዳ
+        type: AG
+      - 
+        content: አንጉኢላ
+        type: AI
+      - 
+        content: አልባኒያ
+        type: AL
+      - 
+        content: አርሜኒያ
+        type: AM
+      - 
+        content: ኔዘርላንድስ አንቲልስ
+        type: AN
+      - 
+        content: አንጐላ
+        type: AO
+      - 
+        content: አንታርክቲካ
+        type: AQ
+      - 
+        content: አርጀንቲና
+        type: AR
+      - 
+        content: የአሜሪካ ሳሞአ
+        type: AS
+      - 
+        content: ኦስትሪያ
+        type: AT
+      - 
+        content: አውስትሬሊያ
+        type: AU
+      - 
+        content: አሩባ
+        type: AW
+      - 
+        content: የአላንድ ደሴቶች
+        type: AX
+      - 
+        content: አዘርባጃን
+        type: AZ
+      - 
+        content: ቦስኒያ እና ሄርዞጎቪኒያ
+        type: BA
+      - 
+        content: ባርቤዶስ
+        type: BB
+      - 
+        content: ባንግላዲሽ
+        type: BD
+      - 
+        content: ቤልጄም
+        type: BE
+      - 
+        content: ቡርኪና ፋሶ
+        type: BF
+      - 
+        content: ቡልጌሪያ
+        type: BG
+      - 
+        content: ባህሬን
+        type: BH
+      - 
+        content: ብሩንዲ
+        type: BI
+      - 
+        content: ቤኒን
+        type: BJ
+      - 
+        content: ቅዱስ በርቴሎሜ
+        type: BL
+      - 
+        content: ቤርሙዳ
+        type: BM
+      - 
+        content: ብሩኒ
+        type: BN
+      - 
+        content: ቦሊቪያ
+        type: BO
+      - 
+        content: የካሪቢያን ኔዘርላንድስ
+        type: BQ
+      - 
+        content: ብራዚል
+        type: BR
+      - 
+        content: ባሃማስ
+        type: BS
+      - 
+        content: ቡህታን
+        type: BT
+      - 
+        content: ቡቬት ደሴት
+        type: BV
+      - 
+        content: ቦትስዋና
+        type: BW
+      - 
+        content: ቤላሩስ
+        type: BY
+      - 
+        content: ቤሊዘ
+        type: BZ
+      - 
+        content: ካናዳ
+        type: CA
+      - 
+        content: ኮኮስ[ኬሊንግ] ደሴቶች
+        type: CC
+      - 
+        content: ኮንጎ
+        type: CD
+      - 
+        alt: variant
+        content: ኮንጎ (የዲሞክራቲክ ሪፐብሊክ ኮንጎ)
+        type: CD
+      - 
+        content: የመካከለኛው አፍሪካ ሪፐብሊክ
+        type: CF
+      - 
+        content: ኮንጎ ብራዛቪል
+        type: CG
+      - 
+        alt: variant
+        content: ኮንጎ (ሪፐብሊክ)
+        type: CG
+      - 
+        content: ስዊዘርላንድ
+        type: CH
+      - 
+        content: ኮት ዲቯር
+        type: CI
+      - 
+        alt: variant
+        content: አይቮሪኮስት
+        type: CI
+      - 
+        content: ኩክ ደሴቶች
+        type: CK
+      - 
+        content: ቺሊ
+        type: CL
+      - 
+        content: ካሜሩን
+        type: CM
+      - 
+        content: ቻይና
+        type: CN
+      - 
+        content: ኮሎምቢያ
+        type: CO
+      - 
+        content: ክሊፐርቶን ደሴት
+        type: CP
+      - 
+        content: ኮስታ ሪካ
+        type: CR
+      - 
+        content: ኩባ
+        type: CU
+      - 
+        content: ኬፕ ቬርዴ
+        type: CV
+      - 
+        content: ኩራሳዎ
+        type: CW
+      - 
+        content: የገና ደሴት
+        type: CX
+      - 
+        content: ሳይፕረስ
+        type: CY
+      - 
+        content: ቼክ ሪፑብሊክ
+        type: CZ
+      - 
+        content: ጀርመን
+        type: DE
+      - 
+        content: ዲዬጎ ጋርሺያ
+        type: DG
+      - 
+        content: ጂቡቲ
+        type: DJ
+      - 
+        content: ዴንማርክ
+        type: DK
+      - 
+        content: ዶሚኒካ
+        type: DM
+      - 
+        content: ዶሚኒክ ሪፑብሊክ
+        type: DO
+      - 
+        content: አልጄሪያ
+        type: DZ
+      - 
+        content: ሴኡታና ሜሊላ
+        type: EA
+      - 
+        content: ኢኳዶር
+        type: EC
+      - 
+        content: ኤስቶኒያ
+        type: EE
+      - 
+        content: ግብጽ
+        type: EG
+      - 
+        content: ምዕራባዊ ሳህራ
+        type: EH
+      - 
+        content: ኤርትራ
+        type: ER
+      - 
+        content: ስፔን
+        type: ES
+      - 
+        content: ኢትዮጵያ
+        type: ET
+      - 
+        content: የአውሮፓ ህብረት
+        type: EU
+      - 
+        content: ፊንላንድ
+        type: FI
+      - 
+        content: ፊጂ
+        type: FJ
+      - 
+        content: የፎልክላንድ ደሴቶች
+        type: FK
+      - 
+        alt: variant
+        content: ፎክላንድ ደሴቶች [ኢስላስ ማልቪናስ]
+        type: FK
+      - 
+        content: ሚክሮኔዢያ
+        type: FM
+      - 
+        content: የፋሮ ደሴቶች
+        type: FO
+      - 
+        content: ፈረንሳይ
+        type: FR
+      - 
+        content: ጋቦን
+        type: GA
+      - 
+        content: እንግሊዝ
+        type: GB
+      - 
+        content: ግሬናዳ
+        type: GD
+      - 
+        content: ጆርጂያ
+        type: GE
+      - 
+        content: የፈረንሳይ ጉዊአና
+        type: GF
+      - 
+        content: ጉርነሲ
+        type: GG
+      - 
+        content: ጋና
+        type: GH
+      - 
+        content: ጊብራልታር
+        type: GI
+      - 
+        content: ግሪንላንድ
+        type: GL
+      - 
+        content: ጋምቢያ
+        type: GM
+      - 
+        content: ጊኒ
+        type: GN
+      - 
+        content: ጉዋደሉፕ
+        type: GP
+      - 
+        content: ኢኳቶሪያል ጊኒ
+        type: GQ
+      - 
+        content: ግሪክ
+        type: GR
+      - 
+        content: ደቡብ ጆርጂያ እና የደቡብ ሳንድዊች ደሴቶች
+        type: GS
+      - 
+        content: ጉዋቲማላ
+        type: GT
+      - 
+        content: ጉዋም
+        type: GU
+      - 
+        content: ጊኒ ቢሳኦ
+        type: GW
+      - 
+        content: ጉያና
+        type: GY
+      - 
+        content: ሆንግ ኮንግ SAR ቻይና
+        type: HK
+      - 
+        alt: short
+        content: ሆንግ ኮንግ
+        type: HK
+      - 
+        content: ኽርድ ደሴቶችና ማክዶናልድ ደሴቶች
+        type: HM
+      - 
+        content: ሆንዱራስ
+        type: HN
+      - 
+        content: ክሮኤሽያ
+        type: HR
+      - 
+        content: ሀይቲ
+        type: HT
+      - 
+        content: ሀንጋሪ
+        type: HU
+      - 
+        content: የካናሪ ደሴቶች
+        type: IC
+      - 
+        content: ኢንዶኔዢያ
+        type: ID
+      - 
+        content: አየርላንድ
+        type: IE
+      - 
+        content: እስራኤል
+        type: IL
+      - 
+        content: አይል ኦፍ ማን
+        type: IM
+      - 
+        content: ህንድ
+        type: IN
+      - 
+        content: የብሪታኒያ ህንድ ውቂያኖስ ግዛት
+        type: IO
+      - 
+        content: ኢራቅ
+        type: IQ
+      - 
+        content: ኢራን
+        type: IR
+      - 
+        content: አይስላንድ
+        type: IS
+      - 
+        content: ጣሊያን
+        type: IT
+      - 
+        content: ጀርሲ
+        type: JE
+      - 
+        content: ጃማይካ
+        type: JM
+      - 
+        content: ጆርዳን
+        type: JO
+      - 
+        content: ጃፓን
+        type: JP
+      - 
+        content: ኬንያ
+        type: KE
+      - 
+        content: ኪርጊስታን
+        type: KG
+      - 
+        content: ካምቦዲያ
+        type: KH
+      - 
+        content: ኪሪባቲ
+        type: KI
+      - 
+        content: ኮሞሮስ
+        type: KM
+      - 
+        content: ቅዱስ ኪትስ እና ኔቪስ
+        type: KN
+      - 
+        content: ሰሜን ኮሪያ
+        type: KP
+      - 
+        content: ደቡብ ኮሪያ
+        type: KR
+      - 
+        content: ክዌት
+        type: KW
+      - 
+        content: ካይማን ደሴቶች
+        type: KY
+      - 
+        content: ካዛኪስታን
+        type: KZ
+      - 
+        content: ላኦስ
+        type: LA
+      - 
+        content: ሊባኖስ
+        type: LB
+      - 
+        content: ሴንት ሉቺያ
+        type: LC
+      - 
+        content: ሊችተንስታይን
+        type: LI
+      - 
+        content: ሲሪላንካ
+        type: LK
+      - 
+        content: ላይቤሪያ
+        type: LR
+      - 
+        content: ሌሶቶ
+        type: LS
+      - 
+        content: ሊቱዌኒያ
+        type: LT
+      - 
+        content: ሉክሰምበርግ
+        type: LU
+      - 
+        content: ላትቪያ
+        type: LV
+      - 
+        content: ሊቢያ
+        type: LY
+      - 
+        content: ሞሮኮ
+        type: MA
+      - 
+        content: ሞናኮ
+        type: MC
+      - 
+        content: ሞልዶቫ
+        type: MD
+      - 
+        content: ሞንተኔግሮ
+        type: ME
+      - 
+        content: ሴንት ማርቲን
+        type: MF
+      - 
+        content: ማዳጋስካር
+        type: MG
+      - 
+        content: ማርሻል አይላንድ
+        type: MH
+      - 
+        content: ማከዶኒያ
+        type: MK
+      - 
+        alt: variant
+        content: ማሴዶንያ[FYROM]
+        type: MK
+      - 
+        content: ማሊ
+        type: ML
+      - 
+        content: ማይናማር[በርማ]
+        type: MM
+      - 
+        content: ሞንጎሊያ
+        type: MN
+      - 
+        content: ማካኡSAR ቻይና
+        type: MO
+      - 
+        alt: short
+        content: ማካኡ
+        type: MO
+      - 
+        content: የሰሜናዊ ማሪያና ደሴቶች
+        type: MP
+      - 
+        content: ማርቲኒክ
+        type: MQ
+      - 
+        content: ሞሪቴኒያ
+        type: MR
+      - 
+        content: ሞንትሴራት
+        type: MS
+      - 
+        content: ማልታ
+        type: MT
+      - 
+        content: ማሩሸስ
+        type: MU
+      - 
+        content: ማልዲቭስ
+        type: MV
+      - 
+        content: ማላዊ
+        type: MW
+      - 
+        content: ሜክሲኮ
+        type: MX
+      - 
+        content: ማሌዢያ
+        type: MY
+      - 
+        content: ሞዛምቢክ
+        type: MZ
+      - 
+        content: ናሚቢያ
+        type: NA
+      - 
+        content: ኒው ካሌዶኒያ
+        type: NC
+      - 
+        content: ኒጀር
+        type: NE
+      - 
+        content: ኖርፎልክ ደሴት
+        type: NF
+      - 
+        content: ናይጄሪያ
+        type: NG
+      - 
+        content: ኒካራጓ
+        type: NI
+      - 
+        content: ኔዘርላንድ
+        type: NL
+      - 
+        content: ኖርዌ
+        type: 'NO'
+      - 
+        content: ኔፓል
+        type: NP
+      - 
+        content: ናኡሩ
+        type: NR
+      - 
+        content: ኒኡይ
+        type: NU
+      - 
+        content: ኒው ዚላንድ
+        type: NZ
+      - 
+        content: ኦማን
+        type: OM
+      - 
+        content: ፓናማ
+        type: PA
+      - 
+        content: ፔሩ
+        type: PE
+      - 
+        content: የፈረንሳይ ፖሊኔዢያ
+        type: PF
+      - 
+        content: ፓፑዋ ኒው ጊኒ
+        type: PG
+      - 
+        content: ፊሊፒንስ
+        type: PH
+      - 
+        content: ፓኪስታን
+        type: PK
+      - 
+        content: ፖላንድ
+        type: PL
+      - 
+        content: ቅዱስ ፒዬር እና ሚኩኤሎን
+        type: PM
+      - 
+        content: ፒትካኢርን አይስላንድ
+        type: PN
+      - 
+        content: ፖርታ ሪኮ
+        type: PR
+      - 
+        content: የፍልስጤም ግዛት
+        type: PS
+      - 
+        alt: short
+        content: ፍልስጥኤም
+        type: PS
+      - 
+        content: ፖርቱጋል
+        type: PT
+      - 
+        content: ፓላው
+        type: PW
+      - 
+        content: ፓራጓይ
+        type: PY
+      - 
+        content: ኳታር
+        type: QA
+      - 
+        content: አውትላይንግ ኦሽንያ
+        type: QO
+      - 
+        content: ሪዩኒየን
+        type: RE
+      - 
+        content: ሮሜኒያ
+        type: RO
+      - 
+        content: ሰርብያ
+        type: RS
+      - 
+        content: ራሺያ
+        type: RU
+      - 
+        content: ሩዋንዳ
+        type: RW
+      - 
+        content: ሳውድአረቢያ
+        type: SA
+      - 
+        content: ሰሎሞን ደሴት
+        type: SB
+      - 
+        content: ሲሼልስ
+        type: SC
+      - 
+        content: ሱዳን
+        type: SD
+      - 
+        content: ስዊድን
+        type: SE
+      - 
+        content: ሲንጋፖር
+        type: SG
+      - 
+        content: ሴንት ሄለና
+        type: SH
+      - 
+        content: ስሎቬኒያ
+        type: SI
+      - 
+        content: ስቫልባርድ እና ጃን ማየን
+        type: SJ
+      - 
+        content: ስሎቫኪያ
+        type: SK
+      - 
+        content: ሴራሊዮን
+        type: SL
+      - 
+        content: ሳን ማሪኖ
+        type: SM
+      - 
+        content: ሴኔጋል
+        type: SN
+      - 
+        content: ሱማሌ
+        type: SO
+      - 
+        content: ሱሪናም
+        type: SR
+      - 
+        content: ደቡብ ሱዳን
+        type: SS
+      - 
+        content: ሳኦ ቶሜ እና ፕሪንሲፔ
+        type: ST
+      - 
+        content: ኤል ሳልቫዶር
+        type: SV
+      - 
+        content: ሲንት ማርተን
+        type: SX
+      - 
+        content: ሲሪያ
+        type: SY
+      - 
+        content: ሱዋዚላንድ
+        type: SZ
+      - 
+        content: ትሪስታን ዲ ኩንሃ
+        type: TA
+      - 
+        content: የቱርኮችና የካኢኮስ ደሴቶች
+        type: TC
+      - 
+        content: ቻድ
+        type: TD
+      - 
+        content: የፈረንሳይ ደቡባዊ ግዛቶች
+        type: TF
+      - 
+        content: ቶጐ
+        type: TG
+      - 
+        content: ታይላንድ
+        type: TH
+      - 
+        content: ታጃኪስታን
+        type: TJ
+      - 
+        content: ቶክላው
+        type: TK
+      - 
+        content: ምስራቅ ሌስት
+        type: TL
+      - 
+        alt: variant
+        content: ምስራቅ ቲሞር
+        type: TL
+      - 
+        content: ቱርክሜኒስታን
+        type: TM
+      - 
+        content: ቱኒዚያ
+        type: TN
+      - 
+        content: ቶንጋ
+        type: TO
+      - 
+        content: ቱርክ
+        type: TR
+      - 
+        content: ትሪናዳድ እና ቶቤጎ
+        type: TT
+      - 
+        content: ቱቫሉ
+        type: TV
+      - 
+        content: ታይዋን
+        type: TW
+      - 
+        content: ታንዛኒያ
+        type: TZ
+      - 
+        content: ዩክሬን
+        type: UA
+      - 
+        content: ዩጋንዳ
+        type: UG
+      - 
+        content: የዩ ኤስ ጠረፍ ላይ ያሉ ደሴቶች
+        type: UM
+      - 
+        content: ዩናይትድ ስቴትስ
+        type: US
+      - 
+        content: ኡራጓይ
+        type: UY
+      - 
+        content: ዩዝበኪስታን
+        type: UZ
+      - 
+        content: ቫቲካን ከተማ
+        type: VA
+      - 
+        content: ቅዱስ ቪንሴንት እና ግሬናዲንስ
+        type: VC
+      - 
+        content: ቬንዙዌላ
+        type: VE
+      - 
+        content: የእንግሊዝ ድንግል ደሴቶች
+        type: VG
+      - 
+        content: የአሜሪካ ቨርጂን ደሴቶች
+        type: VI
+      - 
+        content: ቬትናም
+        type: VN
+      - 
+        content: ቫኑአቱ
+        type: VU
+      - 
+        content: ዋሊስ እና ፉቱና ደሴቶች
+        type: WF
+      - 
+        content: ሳሞአ
+        type: WS
+      - 
+        content: የመን
+        type: YE
+      - 
+        content: ሜይኦቴ
+        type: YT
+      - 
+        content: ደቡብ አፍሪካ
+        type: ZA
+      - 
+        content: ዛምቢያ
+        type: ZM
+      - 
+        content: ዚምቧቤ
+        type: ZW
+      - 
+        content: ያልታወቀ ክልል
+        type: ZZ
+  transformNames: 
+    transformName: 
+      - 
+        content: ቢ ጂ ኤን
+        type: BGN
+      - 
+        content: አሃዛዊ
+        type: Numeric
+      - 
+        content: የድምፅ ቃና
+        type: Tone
+      - 
+        content: UNGEGN
+        type: UNGEGN
+      - 
+        content: ትእምርት
+        type: x-Accents
+      - 
+        content: ሙሉ ወርድ
+        type: x-Fullwidth
+      - 
+        content: ሃልፍዊድዝ
+        type: x-Halfwidth
+      - 
+        content: ጃሞ
+        type: x-Jamo
+      - 
+        content: ፒንዪን
+        type: x-Pinyin
+      - 
+        content: ማሳተም
+        type: x-Publishing
+  types: 
+    type: 
+      calendar: 
+        content: የሚንጉ የቀን አቆጣጠር
+        type: roc
+      colAlternate: 
+        content: ችላ ባይ ምልክቶችን ደርድር
+        type: shifted
+      colBackwards: 
+        content: የፊደል ጭረቶች በኋሊዮሽ ደርድር
+        type: 'yes'
+      colCaseFirst: 
+        content: አቢይ ሆሄ መጀመሪያ ደርድር
+        type: upper
+      colCaseLevel: 
+        content: በመልከፊደል ትብ ደርድር
+        type: 'yes'
+      colHiraganaQuaternary: 
+        content: ካና ለይተህ ደርድር
+        type: 'yes'
+      colNormalization: 
+        content: ዩኒኮድ በመደበኛ ሁኔታ ደርድር
+        type: 'yes'
+      colNumeric: 
+        content: አሃዞች በቁጥር ደርድር
+        type: 'yes'
+      colStrength: 
+        content: የፊደል ጭረቶች/መልከፊደል/ስፋት ደርድር
+        type: tertiary
+      collation: 
+        content: የመሰረታዊ በትር ድርድር ቅደም ተከተል
+        type: unihan
+      numbers: 
+        content: የቫይ አሃዞች
+        type: vaii
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - የተባበሩት የአረብ ኤምረትስ ዲርሀም
+          - 
+            content: የተባበሩት የአረብ ኤምረትስ ዲርሀም
+            count: one
+          - 
+            content: የተባበሩት የአረብ ኤምረትስ ዲርሀም
+            count: other
+        type: AED
+      - 
+        displayName: 
+          - የአፍጋን አፍጋኒ
+          - 
+            content: የአፍጋን አፍጋኒ
+            count: one
+          - 
+            content: የአፍጋን አፍጋኒ
+            count: other
+        type: AFN
+      - 
+        displayName: 
+          - የአልባንያ ሌክ
+          - 
+            content: የአልባንያ ሌክ
+            count: one
+          - 
+            content: የአልባንያ ሌክ
+            count: other
+        type: ALL
+      - 
+        displayName: 
+          - የአርመን ድራም
+          - 
+            content: የአርመን ድራም
+            count: one
+          - 
+            content: የአርመን ድራም
+            count: other
+        type: AMD
+      - 
+        displayName: ኔዘርላንድስ አንቲሊአን ጊልደር
+        type: ANG
+      - 
+        displayName: 
+          - የአንጎላ ኩዋንዛ
+          - 
+            content: የአንጎላ ኩዋንዛ
+            count: one
+          - 
+            content: የአንጎላ ኩዋንዛ
+            count: other
+        type: AOA
+      - 
+        displayName: 
+          - የአርጀንቲና ፔሶ
+          - 
+            content: የአርጀንቲና ፔሶ
+            count: one
+          - 
+            content: የአርጀንቲና ፔሶ
+            count: other
+        type: ARS
+      - 
+        displayName: 
+          - የአውስትራሊያ ዶላር
+          - 
+            content: የአውስትራሊያ ዶላር
+            count: one
+          - 
+            content: የአውስትራሊያ ዶላር
+            count: other
+        symbol: AU$
+        type: AUD
+      - 
+        displayName: 
+          - አሩባን ፍሎሪን
+          - 
+            content: አሩባን ፍሎሪን
+            count: one
+          - 
+            content: አሩባን ፍሎሪን
+            count: other
+        type: AWG
+      - 
+        displayName: 
+          - የአዛርባጃን ማናት
+          - 
+            content: የአዛርባጃን ማናት
+            count: one
+          - 
+            content: የአዛርባጃን ማናት
+            count: other
+        type: AZN
+      - 
+        displayName: 
+          - የቦስኒያ ሄርዞጎቪና የሚመነዘር ማርክ
+          - 
+            content: የቦስኒያ ሄርዞጎቪና የሚመነዘር ማርክ
+            count: one
+          - 
+            content: የቦስኒያ ሄርዞጎቪና የሚመነዘር ማርክ
+            count: other
+        type: BAM
+      - 
+        displayName: 
+          - የባርቤዶስ ዶላር
+          - 
+            content: የባርቤዶስ ዶላር
+            count: one
+          - 
+            content: የባርቤዶስ ዶላር
+            count: other
+        type: BBD
+      - 
+        displayName: 
+          - የባንግላዲሽ ታካ
+          - 
+            content: የባንግላዲሽ ታካ
+            count: one
+          - 
+            content: የባንግላዲሽ ታካ
+            count: other
+        type: BDT
+      - 
+        displayName: 
+          - የቡልጋሪያ ሌቭ
+          - 
+            content: የቡልጋሪያ ሌቭ
+            count: one
+          - 
+            content: የቡልጋሪያ ሌቭ
+            count: other
+        type: BGN
+      - 
+        displayName: 
+          - የባኽሬን ዲናር
+          - 
+            content: የባኽሬን ዲናር
+            count: one
+          - 
+            content: የባኽሬን ዲናር
+            count: other
+        type: BHD
+      - 
+        displayName: 
+          - የብሩንዲ ፍራንክ
+          - 
+            content: የብሩንዲ ፍራንክ
+            count: one
+          - 
+            content: የብሩንዲ ፍራንክ
+            count: other
+        type: BIF
+      - 
+        displayName: 
+          - የቤርሙዳ ዶላር
+          - 
+            content: የቤርሙዳ ዶላር
+            count: one
+          - 
+            content: የቤርሙዳ ዶላር
+            count: other
+        type: BMD
+      - 
+        displayName: 
+          - የብሩኔ ዶላር
+          - 
+            content: የብሩኔ ዶላር
+            count: one
+          - 
+            content: የብሩኔ ዶላር
+            count: other
+        type: BND
+      - 
+        displayName: 
+          - የቦሊቪያ ቦሊቪያኖ
+          - 
+            content: የቦሊቪያ ቦሊቪያኖ
+            count: one
+          - 
+            content: የቦሊቪያ ቦሊቪያኖ
+            count: other
+        type: BOB
+      - 
+        displayName: 
+          - የብራዚል ሪል
+          - 
+            content: የብራዚል ሪል
+            count: one
+          - 
+            content: የብራዚል ሪል
+            count: other
+        symbol: R$
+        type: BRL
+      - 
+        displayName: 
+          - የባሃማስ ዶላር
+          - 
+            content: የባሃማስ ዶላር
+            count: one
+          - 
+            content: የባሃማስ ዶላር
+            count: other
+        type: BSD
+      - 
+        displayName: 
+          - ብሁታኒዝ ንጉልትረም
+          - 
+            content: ብሁታኒዝ ንጉልትረም
+            count: one
+          - 
+            content: ብሁታኒዝ ንጉልትረም
+            count: other
+        type: BTN
+      - 
+        displayName: 
+          - የቦትስዋና ፑላ
+          - 
+            content: የቦትስዋና ፑላ
+            count: one
+          - 
+            content: የቦትስዋና ፑላ
+            count: other
+        type: BWP
+      - 
+        displayName: 
+          - የቤላሩስያ ሩብል
+          - 
+            content: የቤላሩስያ ሩብል
+            count: one
+          - 
+            content: የቤላሩስያ ሩብል
+            count: other
+        type: BYR
+      - 
+        displayName: 
+          - የቤሊዝ ዶላር
+          - 
+            content: የቤሊዝ ዶላር
+            count: one
+          - 
+            content: የቤሊዝ ዶላር
+            count: other
+        type: BZD
+      - 
+        displayName: 
+          - የካናዳ ዶላር
+          - 
+            content: የካናዳ ዶላር
+            count: one
+          - 
+            content: የካናዳ ዶላር
+            count: other
+        type: CAD
+      - 
+        displayName: 
+          - የኮንጐ ፍራንክ ኮንጐሌዝ
+          - 
+            content: የኮንጐ ፍራንክ ኮንጐሌዝ
+            count: one
+          - 
+            content: የኮንጐ ፍራንክ ኮንጐሌዝ
+            count: other
+        type: CDF
+      - 
+        displayName: 
+          - የስዊስ ፍራንክ
+          - 
+            content: የስዊስ ፍራንክ
+            count: one
+          - 
+            content: የስዊስ ፍራንክ
+            count: other
+        type: CHF
+      - 
+        displayName: 
+          - የቺሊ ፔሶ
+          - 
+            content: የቺሊ ፔሶ
+            count: one
+          - 
+            content: የቺሊ ፔሶ
+            count: other
+        type: CLP
+      - 
+        displayName: 
+          - የቻይና የን
+          - 
+            content: የቻይና የን
+            count: one
+          - 
+            content: የቻይና የን
+            count: other
+        symbol: CN¥
+        type: CNY
+      - 
+        displayName: 
+          - የኮሎምቢያ ፔሶ
+          - 
+            content: የኮሎምቢያ ፔሶ
+            count: one
+          - 
+            content: የኮሎምቢያ ፔሶ
+            count: other
+        type: COP
+      - 
+        displayName: 
+          - የኮስታሪካ ኮሎን
+          - 
+            content: የኮስታሪካ ኮሎን
+            count: one
+          - 
+            content: የኮስታሪካ ኮሎን
+            count: other
+        type: CRC
+      - 
+        displayName: 
+          - የኩባ የሚመነዘር ፔሶ
+          - 
+            content: የኩባ የሚመነዘር ፔሶ
+            count: one
+          - 
+            content: የኩባ የሚመነዘር ፔሶ
+            count: other
+        type: CUC
+      - 
+        displayName: 
+          - የኩባ ፔሶ
+          - 
+            content: የኩባ ፔሶ
+            count: one
+          - 
+            content: የኩባ ፔሶ
+            count: other
+        type: CUP
+      - 
+        displayName: 
+          - የኬፕ ቫርዲ ኤስኩዶ
+          - 
+            content: የኬፕ ቫርዲ ኤስኩዶ
+            count: one
+          - 
+            content: የኬፕ ቫርዲ ኤስኩዶ
+            count: other
+        type: CVE
+      - 
+        displayName: 
+          - ቼክ ሪፐፕሊክ ኮሩና
+          - 
+            content: ቼክ ሪፐፕሊክ ኮሩና
+            count: one
+          - 
+            content: ቼክ ሪፐብሊክ ኮሮና
+            count: other
+        type: CZK
+      - 
+        displayName: 
+          - የጅቡቲ ፍራንክ
+          - 
+            content: የጅቡቲ ፍራንክ
+            count: one
+          - 
+            content: የጅቡቲ ፍራንክ
+            count: other
+        type: DJF
+      - 
+        displayName: 
+          - የዴንማርክ ክሮን
+          - 
+            content: የዴንማርክ ክሮን
+            count: one
+          - 
+            content: የዴንማርክ ክሮን
+            count: other
+        type: DKK
+      - 
+        displayName: 
+          - የዶሚኒክ ፔሶ
+          - 
+            content: የዶሚኒክ ፔሶ
+            count: one
+          - 
+            content: የዶሚኒክ ፔሶ
+            count: other
+        type: DOP
+      - 
+        displayName: 
+          - የአልጄሪያ ዲናር
+          - 
+            content: የአልጄሪያ ዲናር
+            count: one
+          - 
+            content: የአልጄሪያ ዲናር
+            count: other
+        type: DZD
+      - 
+        displayName: 
+          - የግብጽ ፓውንድ
+          - 
+            content: የግብጽ ፓውንድ
+            count: one
+          - 
+            content: የግብጽ ፓውንድ
+            count: other
+        type: EGP
+      - 
+        displayName: 
+          - ዬኤርትራ ናቅፋ
+          - 
+            content: ዬኤርትራ ናቅፋ
+            count: one
+          - 
+            content: ዬኤርትራ ናቅፋ
+            count: other
+        type: ERN
+      - 
+        displayName: 
+          - የኢትዮጵያ ብር
+          - 
+            content: የኢትዮጵያ ብር
+            count: one
+          - 
+            content: የኢትዮጵያ ብር
+            count: other
+        symbol: ብር
+        type: ETB
+      - 
+        displayName: 
+          - ዩሮ
+          - 
+            content: ዩሮ
+            count: one
+          - 
+            content: ዩሮ
+            count: other
+        symbol: €
+        type: EUR
+      - 
+        displayName: 
+          - የፊጂ ዶላር
+          - 
+            content: የፊጂ ዶላር
+            count: one
+          - 
+            content: የፊጂ ዶላር
+            count: other
+        type: FJD
+      - 
+        displayName: 
+          - የፎክላንድ ደሴቶች ፓውንድ
+          - 
+            content: የፎክላንድ ደሴቶች ፓውንድ
+            count: one
+          - 
+            content: የፎክላንድ ደሴቶች ፓውንድ
+            count: other
+        type: FKP
+      - 
+        displayName: 
+          - የእንግሊዝ ፓውንድ ስተርሊንግ
+          - 
+            content: የእንግሊዝ ፓውንድ ስተርሊንግ
+            count: one
+          - 
+            content: የእንግሊዝ ፓውንድ ስተርሊንግ
+            count: other
+        symbol: £
+        type: GBP
+      - 
+        displayName: 
+          - የጆርጅያ ላሪ
+          - 
+            content: የጆርጅያ ላሪ
+            count: one
+          - 
+            content: የጆርጅያ ላሪ
+            count: other
+        type: GEL
+      - 
+        displayName: የጋና ሴዲ
+        type: GHC
+      - 
+        displayName: 
+          - የጋና ሲዲ
+          - 
+            content: የጋና ሲዲ
+            count: one
+          - 
+            content: የጋና ሲዲ
+            count: other
+        type: GHS
+      - 
+        displayName: 
+          - ጊብራልታር ፓውንድ
+          - 
+            content: ጊብራልታር ፓውንድ
+            count: one
+          - 
+            content: ጊብራልታር ፓውንድ
+            count: other
+        type: GIP
+      - 
+        displayName: 
+          - የጋምቢያ ዳላሲ
+          - 
+            content: የጋምቢያ ዳላሲ
+            count: one
+          - 
+            content: የጋምቢያ ዳላሲ
+            count: other
+        type: GMD
+      - 
+        displayName: 
+          - የጊኒ ፍራንክ
+          - 
+            content: የጊኒ ፍራንክ
+            count: one
+          - 
+            content: የጊኒ ፍራንክ
+            count: other
+        type: GNF
+      - 
+        displayName: 
+          - ጓቲማላን ኩቲዛል
+          - 
+            content: ጓቲማላን ኩቲዛል
+            count: one
+          - 
+            content: ጓቲማላን ኩቲዛል
+            count: other
+        type: GTQ
+      - 
+        displayName: 
+          - የጉየና ዶላር
+          - 
+            content: የጉየና ዶላር
+            count: one
+          - 
+            content: የጉየና ዶላር
+            count: other
+        type: GYD
+      - 
+        displayName: 
+          - የሆንግኮንግ ዶላር
+          - 
+            content: የሆንግኮንግ ዶላር
+            count: one
+          - 
+            content: የሆንግኮንግ ዶላር
+            count: other
+        symbol: HK$
+        type: HKD
+      - 
+        displayName: 
+          - የሃንዱራ ሌምፓአይራ
+          - 
+            content: የሃንዱራ ሌምፓአይራ
+            count: one
+          - 
+            content: የሃንዱራ ሌምፓአይራ
+            count: other
+        type: HNL
+      - 
+        displayName: 
+          - የክሮሽያ ኩና
+          - 
+            content: የክሮሽያ ኩና
+            count: one
+          - 
+            content: የክሮሽያ ኩና
+            count: other
+        type: HRK
+      - 
+        displayName: 
+          - የሃያቲ ጓርዴ
+          - 
+            content: የሃያቲ ጓርዴ
+            count: one
+          - 
+            content: የሃያቲ ጓርዴ
+            count: other
+        type: HTG
+      - 
+        displayName: 
+          - የሁንጋሪ ፎሪንት
+          - 
+            content: የሁንጋሪ ፎሪንት
+            count: one
+          - 
+            content: የሃንጋሪያን ፎሪንት
+            count: other
+        type: HUF
+      - 
+        displayName: 
+          - የኢንዶኔዥያ ሩፒሃ
+          - 
+            content: የኢንዶኔዥያ ሩፒሃ
+            count: one
+          - 
+            content: የኢንዶኔዥያ ሩፒሃ
+            count: other
+        type: IDR
+      - 
+        displayName: 
+          - የእስራኤል አዲስ ሽቅል
+          - 
+            content: የእስራኤል አዲስ ሽቅል
+            count: one
+          - 
+            content: የእስራኤል አዲስ ሽቅል
+            count: other
+        symbol: ₪
+        type: ILS
+      - 
+        displayName: 
+          - የሕንድ ሩፒ
+          - 
+            content: የሕንድ ሩፒ
+            count: one
+          - 
+            content: የሕንድ ሩፒ
+            count: other
+        symbol: ₹
+        type: INR
+      - 
+        displayName: 
+          - የኢራቅ ዲናር
+          - 
+            content: የኢራቅ ዲናር
+            count: one
+          - 
+            content: የኢራቅ ዲናር
+            count: other
+        type: IQD
+      - 
+        displayName: 
+          - የኢራን ሪአል
+          - 
+            content: የኢራን ሪአል
+            count: one
+          - 
+            content: የኢራን ሪአል
+            count: other
+        type: IRR
+      - 
+        displayName: 
+          - የአይስላንድ ክሮና
+          - 
+            content: የአይስላንድ ክሮና
+            count: one
+          - 
+            content: የአይስላንድ ክሮና
+            count: other
+        type: ISK
+      - 
+        displayName: 
+          - የጃማይካ ዶላር
+          - 
+            content: የጃማይካ ዶላር
+            count: one
+          - 
+            content: የጃማይካ ዶላር
+            count: other
+        type: JMD
+      - 
+        displayName: 
+          - የጆርዳን ዲናር
+          - 
+            content: የጆርዳን ዲናር
+            count: one
+          - 
+            content: የጆርዳን ዲናር
+            count: other
+        type: JOD
+      - 
+        displayName: 
+          - የጃፓን የን
+          - 
+            content: የጃፓን የን
+            count: one
+          - 
+            content: የጃፓን የን
+            count: other
+        symbol: JP¥
+        type: JPY
+      - 
+        displayName: 
+          - የኬኒያ ሺሊንግ
+          - 
+            content: የኬኒያ ሺሊንግ
+            count: one
+          - 
+            content: የኬኒያ ሺሊንግ
+            count: other
+        type: KES
+      - 
+        displayName: 
+          - የኪርጊስታን ሶም
+          - 
+            content: የኪርጊስታን ሶም
+            count: one
+          - 
+            content: የኪርጊስታን ሶም
+            count: other
+        type: KGS
+      - 
+        displayName: 
+          - የካምቦዲያ ሬል
+          - 
+            content: የካምቦዲያ ሬል
+            count: one
+          - 
+            content: የካምቦዲያ ሬል
+            count: other
+        type: KHR
+      - 
+        displayName: 
+          - የኮሞሮ ፍራንክ
+          - 
+            content: የኮሞሮ ፍራንክ
+            count: one
+          - 
+            content: የኮሞሮ ፍራንክ
+            count: other
+        type: KMF
+      - 
+        displayName: 
+          - የሰሜን ኮሪያ ዎን
+          - 
+            content: የሰሜን ኮሪያ ዎን
+            count: one
+          - 
+            content: የሰሜን ኮሪያ ዎን
+            count: other
+        type: KPW
+      - 
+        displayName: 
+          - የደቡብ ኮሪያ ዎን
+          - 
+            content: የደቡብ ኮሪያ ዎን
+            count: one
+          - 
+            content: የደቡብ ኮሪያ ዎን
+            count: other
+        symbol: ₩
+        type: KRW
+      - 
+        displayName: 
+          - የኩዌት ዲናር
+          - 
+            content: የኩዌት ዲናር
+            count: one
+          - 
+            content: የኩዌት ዲናር
+            count: other
+        type: KWD
+      - 
+        displayName: 
+          - የካይማን ደሴቶች ዶላር
+          - 
+            content: የካይማን ደሴቶች ዶላር
+            count: one
+          - 
+            content: የካይማን ደሴቶች ዶላር
+            count: other
+        type: KYD
+      - 
+        displayName: 
+          - የካዛኪስታን ተንጌ
+          - 
+            content: የካዛኪስታን ተንጌ
+            count: one
+          - 
+            content: የካዛኪስታን ተንጌ
+            count: other
+        type: KZT
+      - 
+        displayName: 
+          - የላኦቲ ኪፕ
+          - 
+            content: የላኦቲ ኪፕ
+            count: one
+          - 
+            content: የላኦቲ ኪፕ
+            count: other
+        type: LAK
+      - 
+        displayName: 
+          - የሊባኖስ ፓውንድ
+          - 
+            content: የሊባኖስ ፓውንድ
+            count: one
+          - 
+            content: የሊባኖስ ፓውንድ
+            count: other
+        type: LBP
+      - 
+        displayName: 
+          - የሲሪላንካ ሩፒ
+          - 
+            content: የሲሪላንካ ሩፒ
+            count: one
+          - 
+            content: የሲሪላንካ ሩፒ
+            count: other
+        type: LKR
+      - 
+        displayName: 
+          - የላይቤሪያ ዶላር
+          - 
+            content: የላይቤሪያ ዶላር
+            count: one
+          - 
+            content: የላይቤሪያ ዶላር
+            count: other
+        type: LRD
+      - 
+        displayName: የሌሶቶ ሎቲ
+        type: LSL
+      - 
+        displayName: 
+          - ሊቱዌንያን ሊታስ
+          - 
+            content: ሊቱዌንያን ሊታስ
+            count: one
+          - 
+            content: ሊቱዌንያን ሊታስ
+            count: other
+        type: LTL
+      - 
+        displayName: 
+          - የላቲቫ ላትስ
+          - 
+            content: የላቲቫ ላትስ
+            count: one
+          - 
+            content: የላቲቫ ላትስ
+            count: other
+        type: LVL
+      - 
+        displayName: 
+          - የሊቢያ ዲናር
+          - 
+            content: የሊቢያ ዲናር
+            count: one
+          - 
+            content: የሊቢያ ዲናር
+            count: other
+        type: LYD
+      - 
+        displayName: 
+          - የሞሮኮ ዲርሀም
+          - 
+            content: የሞሮኮ ዲርሀም
+            count: one
+          - 
+            content: የሞሮኮ ዲርሀም
+            count: other
+        type: MAD
+      - 
+        displayName: 
+          - ሞልዶቫን ሊኡ
+          - 
+            content: ሞልዶቫን ሊኡ
+            count: one
+          - 
+            content: ሞልዶቫን ሊኡ
+            count: other
+        type: MDL
+      - 
+        displayName: 
+          - የማደጋስካር ፋርንክ
+          - 
+            content: የማደጋስካር ፋርንክ
+            count: one
+          - 
+            content: የማደጋስካር ፋርንክ
+            count: other
+        type: MGA
+      - 
+        displayName: 
+          - የሜቆድንያ ዲናር
+          - 
+            content: የሜቆድንያ ዲናር
+            count: one
+          - 
+            content: የሜቆድንያ ዲናር
+            count: other
+        type: MKD
+      - 
+        displayName: 
+          - ምያንማ ክያት
+          - 
+            content: ምያንማ ክያት
+            count: one
+          - 
+            content: ምያንማ ክያት
+            count: other
+        type: MMK
+      - 
+        displayName: 
+          - የሞንጎሊያን ቱግሪክ
+          - 
+            content: የሞንጎሊያን ቱግሪክ
+            count: one
+          - 
+            content: የሞንጎሊያን ቱግሪክ
+            count: other
+        type: MNT
+      - 
+        displayName: 
+          - የማካኔዝ ፓታካ
+          - 
+            content: የማካኔዝ ፓታካ
+            count: one
+          - 
+            content: የማካኔዝ ፓታካ
+            count: other
+        type: MOP
+      - 
+        displayName: 
+          - የሞሪቴኒያ ኦውጉያ
+          - 
+            content: የሞሪቴኒያ ኦውጉያ
+            count: one
+          - 
+            content: የሞሪቴኒያ ኦውጉያ
+            count: other
+        type: MRO
+      - 
+        displayName: 
+          - የሞሪሸስ ሩፒ
+          - 
+            content: የሞሪሸስ ሩፒ
+            count: one
+          - 
+            content: የሞሪሸስ ሩፒ
+            count: other
+        type: MUR
+      - 
+        displayName: 
+          - የማልዲቫ ሩፊያ
+          - 
+            content: የማልዲቫ ሩፊያ
+            count: one
+          - 
+            content: የማልዲቫ ሩፊያ
+            count: other
+        type: MVR
+      - 
+        displayName: 
+          - የማላዊ ኩዋቻ
+          - 
+            content: የማላዊ ኩዋቻ
+            count: one
+          - 
+            content: የማላዊ ኩዋቻ
+            count: other
+        type: MWK
+      - 
+        displayName: 
+          - የሜክሲኮ ፔሶ
+          - 
+            content: የሜክሲኮ ፔሶ
+            count: one
+          - 
+            content: የሜክሲኮ ፔሶ
+            count: other
+        symbol: MX$
+        type: MXN
+      - 
+        displayName: 
+          - የማሌዥያ ሪንጊት
+          - 
+            content: የማሌዥያ ሪንጊት
+            count: one
+          - 
+            content: የማሌዥያ ሪንጊት
+            count: other
+        type: MYR
+      - 
+        displayName: 
+          - የሞዛምቢክ ሜቲካል
+          - 
+            content: የሞዛምቢክ ሜቲካል
+            count: one
+          - 
+            content: የሞዛምቢክ ሜቲካል
+            count: other
+        type: MZN
+      - 
+        displayName: 
+          - የናሚቢያ ዶላር
+          - 
+            content: የናሚቢያ ዶላር
+            count: one
+          - 
+            content: የናሚቢያ ዶላር
+            count: other
+        type: NAD
+      - 
+        displayName: 
+          - የናይጄሪያ ናኢራ
+          - 
+            content: የናይጄሪያ ናኢራ
+            count: one
+          - 
+            content: የናይጄሪያ ናኢራ
+            count: other
+        type: NGN
+      - 
+        displayName: 
+          - የኒካራጓ ኮርዶባ
+          - 
+            content: የኒካራጓ ኮርዶባ
+            count: one
+          - 
+            content: የኒካራጓ ኮርዶባ
+            count: other
+        type: NIO
+      - 
+        displayName: 
+          - የኖርዌይ ክሮን
+          - 
+            content: የኖርዌይ ክሮን
+            count: one
+          - 
+            content: የኖርዌይ ክሮን
+            count: other
+        type: NOK
+      - 
+        displayName: 
+          - የኔፓል ሩፒ
+          - 
+            content: የኔፓል ሩፒ
+            count: one
+          - 
+            content: የኔፓል ሩፒ
+            count: other
+        type: NPR
+      - 
+        displayName: 
+          - የኒውዚላንድ ዶላር
+          - 
+            content: የኒውዚላንድ ዶላር
+            count: one
+          - 
+            content: የኒውዚላንድ ዶላር
+            count: other
+        symbol: NZ$
+        type: NZD
+      - 
+        displayName: 
+          - የኦማን ሪአል
+          - 
+            content: የኦማን ሪአል
+            count: one
+          - 
+            content: የኦማን ሪአል
+            count: other
+        type: OMR
+      - 
+        displayName: 
+          - ፓናማኒአን ባልቦአ
+          - 
+            content: ፓናማኒአን ባልቦአ
+            count: one
+          - 
+            content: ፓናማኒአን ባልቦአ
+            count: other
+        type: PAB
+      - 
+        displayName: 
+          - የፔሩቪያ ኑኤቮ ሶል
+          - 
+            content: የፔሩቪያ ኑኤቮ ሶል
+            count: one
+          - 
+            content: የፔሩቪያ ኑኤቮ ሶል
+            count: other
+        type: PEN
+      - 
+        displayName: 
+          - የፓፕዋ ኒው ጊኒ ኪና
+          - 
+            content: የፓፕዋ ኒው ጊኒ ኪና
+            count: one
+          - 
+            content: የፓፕዋ ኒው ጊኒ ኪና
+            count: other
+        type: PGK
+      - 
+        displayName: 
+          - የፊሊፒንስ ፔሶ
+          - 
+            content: የፊሊፒንስ ፔሶ
+            count: one
+          - 
+            content: የፊሊፒንስ ፔሶ
+            count: other
+        type: PHP
+      - 
+        displayName: 
+          - የፓኪስታን ሩፒ
+          - 
+            content: የፓኪስታን ሩፒ
+            count: one
+          - 
+            content: የፓኪስታን ሩፒ
+            count: other
+        type: PKR
+      - 
+        displayName: 
+          - የፖላንድ ዝሎቲ
+          - 
+            content: የፖላንድ ዝሎቲ
+            count: one
+          - 
+            content: የፖላንድ ዝሎቲ
+            count: other
+        type: PLN
+      - 
+        displayName: 
+          - የፓራጓይ ጉአራኒ
+          - 
+            content: የፓራጓይ ጉአራኒ
+            count: one
+          - 
+            content: የፓራጓይ ጉአራኒ
+            count: other
+        type: PYG
+      - 
+        displayName: 
+          - የኳታር ሪአል
+          - 
+            content: የኳታር ሪአል
+            count: one
+          - 
+            content: የኳታር ሪአል
+            count: other
+        type: QAR
+      - 
+        displayName: 
+          - የሮማኒያ ለው
+          - 
+            content: የሮማኒያ ለው
+            count: one
+          - 
+            content: የሮማኒያ ለው
+            count: other
+        type: RON
+      - 
+        displayName: 
+          - የሰርቢያ ዲናር
+          - 
+            content: የሰርቢያ ዲናር
+            count: one
+          - 
+            content: የሰርቢያ ዲናር
+            count: other
+        type: RSD
+      - 
+        displayName: 
+          - የሩስያ ሩብል
+          - 
+            content: የሩስያ ሩብል
+            count: one
+          - 
+            content: የሩስያ ሩብል
+            count: other
+        type: RUB
+      - 
+        displayName: 
+          - የሩዋንዳ ፍራንክ
+          - 
+            content: የሩዋንዳ ፍራንክ
+            count: one
+          - 
+            content: የሩዋንዳ ፍራንክ
+            count: other
+        type: RWF
+      - 
+        displayName: 
+          - የሳውዲ ሪያል
+          - 
+            content: የሳውዲ ሪያል
+            count: one
+          - 
+            content: የሳውዲ ሪያል
+            count: other
+        type: SAR
+      - 
+        displayName: 
+          - የሰለሞን ደሴቶች ዶላር
+          - 
+            content: የሰለሞን ደሴቶች ዶላር
+            count: one
+          - 
+            content: የሰለሞን ደሴቶች ዶላር
+            count: other
+        type: SBD
+      - 
+        displayName: 
+          - የሲሼል ሩፒ
+          - 
+            content: የሲሼል ሩፒ
+            count: one
+          - 
+            content: የሲሼል ሩፒ
+            count: other
+        type: SCR
+      - 
+        displayName: 
+          - የሱዳን ዲናር
+          - 
+            content: የሱዳን ዲናር
+            count: one
+          - 
+            content: የሱዳን ዲናር
+            count: other
+        type: SDG
+      - 
+        displayName: የሱዳን ፓውንድ
+        type: SDP
+      - 
+        displayName: 
+          - የስዊድን ክሮና
+          - 
+            content: የስዊድን ክሮና
+            count: one
+          - 
+            content: የስዊድን ክሮና
+            count: other
+        type: SEK
+      - 
+        displayName: 
+          - የሲንጋፖር ዶላር
+          - 
+            content: የሲንጋፖር ዶላር
+            count: one
+          - 
+            content: የሲንጋፖር ዶላር
+            count: other
+        type: SGD
+      - 
+        displayName: 
+          - የሴይንት ሔሌና ፓውንድ
+          - 
+            content: የሴይንት ሔሌና ፓውንድ
+            count: one
+          - 
+            content: የሴይንት ሔሌና ፓውንድ
+            count: other
+        type: SHP
+      - 
+        displayName: 
+          - የሴራሊዎን ሊዎን
+          - 
+            content: የሴራሊዎን ሊዎን
+            count: one
+          - 
+            content: የሴራሊዎን ሊዎን
+            count: other
+        type: SLL
+      - 
+        displayName: 
+          - የሶማሌ ሺሊንግ
+          - 
+            content: የሶማሌ ሺሊንግ
+            count: one
+          - 
+            content: የሶማሌ ሺሊንግ
+            count: other
+        type: SOS
+      - 
+        displayName: 
+          - የሰርናሜዝ ዶላር
+          - 
+            content: የሰርናሜዝ ዶላር
+            count: one
+          - 
+            content: የሰርናሜዝ ዶላር
+            count: other
+        type: SRD
+      - 
+        displayName: 
+          - የደቡብ ሱዳን ፓውንድ
+          - 
+            content: የደቡብ ሱዳን ፓውንድ
+            count: one
+          - 
+            content: የደቡብ ሱዳን ፓውንድ
+            count: other
+        type: SSP
+      - 
+        displayName: 
+          - የሳኦ ቶመ እና ፕሪንሲፐ ዶብራ
+          - 
+            content: የሳኦ ቶመ እና ፕሪንሲፐ ዶብራ
+            count: one
+          - 
+            content: የሳኦ ቶመ እና ፕሪንሲፐ ዶብራ
+            count: other
+        type: STD
+      - 
+        displayName: 
+          - የሲሪያ ፓውንድ
+          - 
+            content: የሲሪያ ፓውንድ
+            count: one
+          - 
+            content: የሲሪያ ፓውንድ
+            count: other
+        type: SYP
+      - 
+        displayName: 
+          - የስዋዚላንድ ሊላንገኒ
+          - 
+            content: የስዋዚላንድ ሊላንገኒ
+            count: one
+          - 
+            content: የስዋዚላንድ ሊላንገኒ
+            count: other
+        type: SZL
+      - 
+        displayName: 
+          - የታይላንድ ባህት
+          - 
+            content: የታይላንድ ባህት
+            count: one
+          - 
+            content: የታይላንድ ባህት
+            count: other
+        symbol: ฿
+        type: THB
+      - 
+        displayName: 
+          - የታጂክስታን ሶሞኒ
+          - 
+            content: የታጂክስታን ሶሞኒ
+            count: one
+          - 
+            content: የታጂክስታን ሶሞኒ
+            count: other
+        type: TJS
+      - 
+        displayName: 
+          - ቱርክሜኒስታኒ ማናት
+          - 
+            content: ቱርክሜኒስታኒ ማናት
+            count: one
+          - 
+            content: ቱርክሜኒስታኒ ማናት
+            count: other
+        type: TMT
+      - 
+        displayName: 
+          - የቱኒዚያ ዲናር
+          - 
+            content: የቱኒዚያ ዲናር
+            count: one
+          - 
+            content: የቱኒዚያ ዲናር
+            count: other
+        type: TND
+      - 
+        displayName: ቶንጋን ፓ'አንጋ
+        type: TOP
+      - 
+        displayName: 
+          - የቱርክ ሊራ
+          - 
+            content: የቱርክ ሊራ
+            count: one
+          - 
+            content: የቱርክ ሊራ
+            count: other
+        type: TRY
+      - 
+        displayName: 
+          - የትሪንዳድ እና ቶቤጎዶላር
+          - 
+            content: የትሪንዳድ እና ቶቤጎዶላር
+            count: one
+          - 
+            content: የትሪንዳድ እና ቶቤጎዶላር
+            count: other
+        type: TTD
+      - 
+        displayName: 
+          - የአዲሷ ታይዋን ዶላር
+          - 
+            content: የአዲሷ ታይዋን ዶላር
+            count: one
+          - 
+            content: የአዲሷ ታይዋን ዶላር
+            count: other
+        symbol: NT$
+        type: TWD
+      - 
+        displayName: 
+          - የታንዛኒያ ሺሊንግ
+          - 
+            content: የታንዛኒያ ሺሊንግ
+            count: one
+          - 
+            content: የታንዛኒያ ሺሊንግ
+            count: other
+        type: TZS
+      - 
+        displayName: 
+          - የዩክሬን ሀሪይቭኒአ
+          - 
+            content: የዩክሬን ሀሪይቭኒአ
+            count: one
+          - 
+            content: የዩክሬን ሀሪይቭኒአ
+            count: other
+        type: UAH
+      - 
+        displayName: 
+          - የዩጋንዳ ሺሊንግ
+          - 
+            content: የዩጋንዳ ሺሊንግ
+            count: one
+          - 
+            content: የዩጋንዳ ሺሊንግ
+            count: other
+        type: UGX
+      - 
+        displayName: 
+          - የአሜሪካን ዶላር
+          - 
+            content: የአሜሪካን ዶላር
+            count: one
+          - 
+            content: የአሜሪካን ዶላር
+            count: other
+        symbol: US$
+        type: USD
+      - 
+        displayName: 
+          - የኡራጓይ ፔሶ
+          - 
+            content: የኡራጓይ ፔሶ
+            count: one
+          - 
+            content: የኡራጓይ ፔሶ
+            count: other
+        type: UYU
+      - 
+        displayName: 
+          - የኡዝፔኪስታን ሶም
+          - 
+            content: የኡዝፔኪስታን ሶም
+            count: one
+          - 
+            content: የኡዝፔኪስታን ሶም
+            count: other
+        type: UZS
+      - 
+        displayName: 
+          - የቬንዝዌላ ቦሊቫር
+          - 
+            content: የቬንዝዌላ ቦሊቫር
+            count: one
+          - 
+            content: የቬንዝዌላ ቦሊቫር
+            count: other
+        type: VEF
+      - 
+        displayName: 
+          - የቭየትናም ዶንግ
+          - 
+            content: የቭየትናም ዶንግ
+            count: one
+          - 
+            content: የቭየትናም ዶንግ
+            count: other
+        symbol: ₫
+        type: VND
+      - 
+        displayName: 
+          - የቫንዋንቱ ቫቱ
+          - 
+            content: የቫንዋንቱ ቫቱ
+            count: one
+          - 
+            content: የቫንዋንቱ ቫቱ
+            count: other
+        type: VUV
+      - 
+        displayName: ሳሞአን ታላ
+        type: WST
+      - 
+        displayName: 
+          - ሴኤፍአ ፍራንክ ቤእአሴ
+          - 
+            content: ሴኤፍአ ፍራንክ ቤእአሴ
+            count: one
+          - 
+            content: ሴኤፍአ ፍራንክ ቤእአሴ
+            count: other
+        symbol: FCFA
+        type: XAF
+      - 
+        displayName: 
+          - የምዕራብ ካሪብያን ዶላር
+          - 
+            content: የምዕራብ ካሪብያን ዶላር
+            count: one
+          - 
+            content: የምዕራብ ካሪብያን ዶላር
+            count: other
+        symbol: EC$
+        type: XCD
+      - 
+        displayName: 
+          - ሴኤፍአ ፍራንክ ቤሴእአኦ
+          - 
+            content: ሴኤፍአ ፍራንክ ቤሴእአኦ
+            count: one
+          - 
+            content: ሴኤፍአ ፍራንክ ቤሴእአኦ
+            count: other
+        symbol: CFA
+        type: XOF
+      - 
+        displayName: 
+          - ሲ ኤፍ ፒ ፍራንክ
+          - 
+            content: ሲ ኤፍ ፒ ፍራንክ
+            count: one
+          - 
+            content: ሲ ኤፍ ፒ ፍራንክ
+            count: other
+        symbol: CFPF
+        type: XPF
+      - 
+        displayName: ያልታወቀ ገንዘብ
+        type: XXX
+      - 
+        displayName: 
+          - የየመን ሪአል
+          - 
+            content: የየመን ሪአል
+            count: one
+          - 
+            content: የየመን ሪአል
+            count: other
+        type: YER
+      - 
+        displayName: 
+          - የደቡብ አፍሪካ ራንድ
+          - 
+            content: የደቡብ አፍሪካ ራንድ
+            count: one
+          - 
+            content: የደቡብ አፍሪካ ራንድ
+            count: other
+        type: ZAR
+      - 
+        displayName: 
+          - የዛምቢያ ክዋቻ (1968-2012)
+          - 
+            content: የዛምቢያ ክዋቻ (1968-2012)
+            count: one
+          - 
+            content: የዛምቢያ ክዋቻ (1968-2012)
+            count: other
+        type: ZMK
+      - 
+        displayName: 
+          - የዛምቢያ ክዋቻ
+          - 
+            content: የዛምቢያ ክዋቻ
+            count: one
+          - 
+            content: የዛምቢያ ክዋቻ
+            count: other
+        type: ZMW
+      - 
+        displayName: የዚምቧቡዌ ዶላር
+        type: ZWD
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00;(¤#,##0.00)
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+      - 
+        content: "{0} {1}"
+        count: other
+  decimalFormats: 
+    decimalFormatLength: 
+      - 
+        decimalFormat: 
+          pattern: "#,##0.###"
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 ሺ
+              count: one
+              type: 1000
+            - 
+              content: 0 ሺ
+              count: other
+              type: 1000
+            - 
+              content: 00 ሺ
+              count: one
+              type: 10000
+            - 
+              content: 00 ሺ
+              count: other
+              type: 10000
+            - 
+              content: 000 ሺ
+              count: one
+              type: 100000
+            - 
+              content: 000 ሺ
+              count: other
+              type: 100000
+            - 
+              content: 0 ሚሊዮን
+              count: one
+              type: 1000000
+            - 
+              content: 0 ሚሊዮን
+              count: other
+              type: 1000000
+            - 
+              content: 00 ሚሊዮን
+              count: one
+              type: 10000000
+            - 
+              content: 00 ሚሊዮን
+              count: other
+              type: 10000000
+            - 
+              content: 000 ሚሊዮን
+              count: one
+              type: 100000000
+            - 
+              content: 000 ሚሊዮን
+              count: other
+              type: 100000000
+            - 
+              content: 0 ቢሊዮን
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 ቢሊዮን
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 ቢሊዮን
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 ቢሊዮን
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 ቢሊዮን
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 ቢሊዮን
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 ትሪሊዮን
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 ትሪሊዮን
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 ትሪሊዮን
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 ትሪሊዮን
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 ትሪሊዮን
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 ትሪሊዮን
+              count: other
+              type: '100000000000000'
+        type: long
+      - 
+        decimalFormat: 
+          pattern: 
+            - 
+              content: 0 ሺ
+              count: one
+              type: 1000
+            - 
+              content: 0 ሺ
+              count: other
+              type: 1000
+            - 
+              content: 00 ሺ
+              count: one
+              type: 10000
+            - 
+              content: 00 ሺ
+              count: other
+              type: 10000
+            - 
+              content: 000 ሺ
+              count: one
+              type: 100000
+            - 
+              content: 000 ሺ
+              count: other
+              type: 100000
+            - 
+              content: 0 ሜትር
+              count: one
+              type: 1000000
+            - 
+              content: 0 ሜትር
+              count: other
+              type: 1000000
+            - 
+              content: 00 ሜትር
+              count: one
+              type: 10000000
+            - 
+              content: 00 ሜትር
+              count: other
+              type: 10000000
+            - 
+              content: 000 ሜትር
+              count: one
+              type: 100000000
+            - 
+              content: 000 ሜትር
+              count: other
+              type: 100000000
+            - 
+              content: 0 ቢ
+              count: one
+              type: '1000000000'
+            - 
+              content: 0 ቢ
+              count: other
+              type: '1000000000'
+            - 
+              content: 00 ቢ
+              count: one
+              type: '10000000000'
+            - 
+              content: 00 ቢ
+              count: other
+              type: '10000000000'
+            - 
+              content: 000 ቢ
+              count: one
+              type: '100000000000'
+            - 
+              content: 000 ቢ
+              count: other
+              type: '100000000000'
+            - 
+              content: 0 ት
+              count: one
+              type: '1000000000000'
+            - 
+              content: 0 ት
+              count: other
+              type: '1000000000000'
+            - 
+              content: 00 ት
+              count: one
+              type: '10000000000000'
+            - 
+              content: 00 ት
+              count: other
+              type: '10000000000000'
+            - 
+              content: 000 ት
+              count: one
+              type: '100000000000000'
+            - 
+              content: 000 ት
+              count: other
+              type: '100000000000000'
+        type: short
+    numberSystem: latn
+  defaultNumberingSystem: latn
+  otherNumberingSystems: 
+    native: latn
+    traditional: ethi
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: .
+    exponential: E
+    group: ","
+    "infinity": ∞
+    list: ;
+    minusSign: "-"
+    "nan": 'NaN'
+    numberSystem: latn
+    perMille: ‰
+    percentSign: "%"
+    plusSign: +
+posix: 
+  messages: 
+    nostr: አይ:ይ
+    yesstr: አዎን:ዎ
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} ቀናት"
+          count: one
+        - 
+          alt: short
+          content: "{0} ቀናት"
+          count: one
+        - 
+          content: "{0} ቀናት"
+          count: other
+        - 
+          alt: short
+          content: "{0} ቀናት"
+          count: other
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: በ {0} ቀናት ውስጥ
+          count: one
+        - 
+          content: በ {0} ቀናት ውስጥ
+          count: other
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: ከ{0} ቀናት በፊት
+          count: one
+        - 
+          content: ከ{0} ቀናት በፊት
+          count: other
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} ሰዓቶች"
+          count: one
+        - 
+          alt: short
+          content: "{0} ሰዓት"
+          count: one
+        - 
+          content: "{0} ሰዓቶች"
+          count: other
+        - 
+          alt: short
+          content: "{0} ሰዓቶች"
+          count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: በ{0} ሰዓቶች ውስጥ
+          count: one
+        - 
+          content: በ{0} ሰዓቶች ውስጥ
+          count: other
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: ከ{0} ሰዓት በፊት
+          count: one
+        - 
+          content: ከ{0} ሰዓት በፊት
+          count: other
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} ደቂቃዎች"
+          count: one
+        - 
+          alt: short
+          content: "{0} ደቂቃዎች"
+          count: one
+        - 
+          content: "{0} ደቂቃዎች"
+          count: other
+        - 
+          alt: short
+          content: "{0} ደቂቃዎች"
+          count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: በ{0} ደቂቃዎች ውስጥ
+          count: one
+        - 
+          content: በ{0} ደቂቃዎች ውስጥ
+          count: other
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: ከ{0} ደቂቃዎች በፊት
+          count: one
+        - 
+          content: ከ{0} ደቂቃዎች በፊት
+          count: other
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} ወራት"
+          count: one
+        - 
+          alt: short
+          content: "{0} ወራት"
+          count: one
+        - 
+          content: "{0} ወራት"
+          count: other
+        - 
+          alt: short
+          content: "{0} ወራት"
+          count: other
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: በ{0} ወራት ውስጥ
+          count: one
+        - 
+          content: በ{0} ወራት ውስጥ
+          count: other
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: ከ{0} ወራት በፊት
+          count: one
+        - 
+          content: ከ{0} ወራት በፊት
+          count: other
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} ሰከንዶች"
+          count: one
+        - 
+          alt: short
+          content: "{0} ሰከንዶች"
+          count: one
+        - 
+          content: "{0} ሰከንዶች"
+          count: other
+        - 
+          alt: short
+          content: "{0} ሰከንዶች"
+          count: other
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: በ{0} ሰከንዶች ውስጥ
+          count: one
+        - 
+          content: በ{0} ሰከንዶች ውስጥ
+          count: other
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: ከ{0} ሰከንዶች በፊት
+          count: one
+        - 
+          content: ከ{0} ሰከንዶች በፊት
+          count: other
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} ሳምንታት"
+          count: one
+        - 
+          alt: short
+          content: "{0} ሳምንቶች"
+          count: one
+        - 
+          content: "{0} ሳምንታት"
+          count: other
+        - 
+          alt: short
+          content: "{0} ሳምንቶች"
+          count: other
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: በ{0} ሳምንት ውስጥ
+          count: one
+        - 
+          content: በ{0} ሳምንት ውስጥ
+          count: other
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: ከ{0} ሳምንታት በፊት
+          count: one
+        - 
+          content: ከ{0} ሳምንታት በፊት
+          count: other
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} ዓመታት"
+          count: one
+        - 
+          alt: short
+          content: "{0} ዓመታት"
+          count: one
+        - 
+          content: "{0} ዓመታት"
+          count: other
+        - 
+          alt: short
+          content: "{0} ዓመታት"
+          count: other
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: በ{0} ዓመታት ውስጥ
+          count: one
+        - 
+          content: በ{0} ዓመታት ውስጥ
+          count: other
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: ከ{0} ዓመታት በፊት
+          count: one
+        - 
+          content: ከ{0} ዓመታት በፊት
+          count: other

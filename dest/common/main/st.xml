@@ -1,0 +1,611 @@
+characters: 
+  exemplarCharacters: 
+    - "[a b d e f g h i j k l m n o p q r s t u w y]"
+    - 
+      content: "[c v x z]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      draft: unconfirmed
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      days: 
+        dayContext: 
+          dayWidth: 
+            - 
+              day: 
+                - 
+                  content: Son
+                  draft: unconfirmed
+                  type: sun
+                - 
+                  content: Mma
+                  draft: unconfirmed
+                  type: mon
+                - 
+                  content: Bed
+                  draft: unconfirmed
+                  type: tue
+                - 
+                  content: Rar
+                  draft: unconfirmed
+                  type: wed
+                - 
+                  content: Ne
+                  draft: unconfirmed
+                  type: thu
+                - 
+                  content: Hla
+                  draft: unconfirmed
+                  type: fri
+                - 
+                  content: Moq
+                  draft: unconfirmed
+                  type: sat
+              type: abbreviated
+            - 
+              day: 
+                - 
+                  content: Sontaha
+                  draft: unconfirmed
+                  type: sun
+                - 
+                  content: Mmantaha
+                  draft: unconfirmed
+                  type: mon
+                - 
+                  content: Labobedi
+                  draft: unconfirmed
+                  type: tue
+                - 
+                  content: Laboraru
+                  draft: unconfirmed
+                  type: wed
+                - 
+                  content: Labone
+                  draft: unconfirmed
+                  type: thu
+                - 
+                  content: Labohlane
+                  draft: unconfirmed
+                  type: fri
+                - 
+                  content: Moqebelo
+                  draft: unconfirmed
+                  type: sat
+              type: wide
+          type: format
+      months: 
+        monthContext: 
+          monthWidth: 
+            - 
+              month: 
+                - 
+                  content: Phe
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: Kol
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: Ube
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: Mme
+                  draft: unconfirmed
+                  type: 4
+                - 
+                  content: Mot
+                  draft: unconfirmed
+                  type: 5
+                - 
+                  content: Jan
+                  draft: unconfirmed
+                  type: 6
+                - 
+                  content: Upu
+                  draft: unconfirmed
+                  type: 7
+                - 
+                  content: Pha
+                  draft: unconfirmed
+                  type: 8
+                - 
+                  content: Leo
+                  draft: unconfirmed
+                  type: 9
+                - 
+                  content: Mph
+                  draft: unconfirmed
+                  type: 10
+                - 
+                  content: Pun
+                  draft: unconfirmed
+                  type: 11
+                - 
+                  content: Tsh
+                  draft: unconfirmed
+                  type: 12
+              type: abbreviated
+            - 
+              month: 
+                - 
+                  content: Phesekgong
+                  draft: unconfirmed
+                  type: 1
+                - 
+                  content: Hlakola
+                  draft: unconfirmed
+                  type: 2
+                - 
+                  content: Hlakubele
+                  draft: unconfirmed
+                  type: 3
+                - 
+                  content: Mmese
+                  draft: unconfirmed
+                  type: 4
+                - 
+                  content: Motsheanong
+                  draft: unconfirmed
+                  type: 5
+                - 
+                  content: Phupjane
+                  draft: unconfirmed
+                  type: 6
+                - 
+                  content: Phupu
+                  draft: unconfirmed
+                  type: 7
+                - 
+                  content: Phata
+                  draft: unconfirmed
+                  type: 8
+                - 
+                  content: Leotshe
+                  draft: unconfirmed
+                  type: 9
+                - 
+                  content: Mphalane
+                  draft: unconfirmed
+                  type: 10
+                - 
+                  content: Pundungwane
+                  draft: unconfirmed
+                  type: 11
+                - 
+                  content: Tshitwe
+                  draft: unconfirmed
+                  type: 12
+              type: wide
+          type: format
+      type: gregorian
+delimiters: 
+  alternateQuotationEnd: 
+    content: ”
+    draft: unconfirmed
+  alternateQuotationStart: 
+    content: “
+    draft: unconfirmed
+  quotationEnd: 
+    content: ’
+    draft: unconfirmed
+  quotationStart: 
+    content: ‘
+    draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-24 20:19:26 -0800 (Sun, 24 Feb 2013) $"
+  language: 
+    type: st
+  version: 
+    number: "$Revision: 8245 $"
+localeDisplayNames: 
+  languages: 
+    language: 
+      - 
+        content: Seburu
+        draft: unconfirmed
+        type: af
+      - 
+        content: Se-amhari
+        draft: unconfirmed
+        type: am
+      - 
+        content: Se-arab
+        draft: unconfirmed
+        type: ar
+      - 
+        content: Se-azerbaijani
+        draft: unconfirmed
+        type: az
+      - 
+        content: Se-belarusia
+        draft: unconfirmed
+        type: be
+      - 
+        content: Se-bulgaria
+        draft: unconfirmed
+        type: bg
+      - 
+        content: Se-bihari
+        draft: unconfirmed
+        type: bh
+      - 
+        content: Se-bengali
+        draft: unconfirmed
+        type: bn
+      - 
+        content: Breton
+        draft: unconfirmed
+        type: br
+      - 
+        content: Se-bosnia
+        draft: unconfirmed
+        type: bs
+      - 
+        content: Se-catalia
+        draft: unconfirmed
+        type: ca
+      - 
+        content: Se-czech
+        draft: unconfirmed
+        type: cs
+      - 
+        content: Se-welsh
+        draft: unconfirmed
+        type: cy
+      - 
+        content: Se-dutch
+        draft: unconfirmed
+        type: da
+      - 
+        content: Se-jeremane
+        draft: unconfirmed
+        type: de
+      - 
+        content: Se-greek
+        draft: unconfirmed
+        type: el
+      - 
+        content: Senyesemane
+        draft: unconfirmed
+        type: en
+      - 
+        content: Se-esperanto
+        draft: unconfirmed
+        type: eo
+      - 
+        content: Sespain
+        draft: unconfirmed
+        type: es
+      - 
+        content: Se-estonia
+        draft: unconfirmed
+        type: et
+      - 
+        content: Se-basque
+        draft: unconfirmed
+        type: eu
+      - 
+        content: Se-persia
+        draft: unconfirmed
+        type: fa
+      - 
+        content: Se-finnish
+        draft: unconfirmed
+        type: fi
+      - 
+        content: Se-tagalog
+        draft: unconfirmed
+        type: fil
+      - 
+        content: Se-foroese
+        draft: unconfirmed
+        type: fo
+      - 
+        content: Se-french
+        draft: unconfirmed
+        type: fr
+      - 
+        content: Se-frisia
+        draft: unconfirmed
+        type: fy
+      - 
+        content: Se-irish
+        draft: unconfirmed
+        type: ga
+      - 
+        content: Se-scots gaelic
+        draft: unconfirmed
+        type: gd
+      - 
+        content: Se-galicia
+        draft: unconfirmed
+        type: gl
+      - 
+        content: Guarani
+        draft: unconfirmed
+        type: gn
+      - 
+        content: Se-gujarati
+        draft: unconfirmed
+        type: gu
+      - 
+        content: Se-hebrew
+        draft: unconfirmed
+        type: he
+      - 
+        content: Se-hindi
+        draft: unconfirmed
+        type: hi
+      - 
+        content: Se-croatia
+        draft: unconfirmed
+        type: hr
+      - 
+        content: Se-hungaria
+        draft: unconfirmed
+        type: hu
+      - 
+        content: Se-interlingua
+        draft: unconfirmed
+        type: ia
+      - 
+        content: Se-indonesia
+        draft: unconfirmed
+        type: id
+      - 
+        content: Se-iceland
+        draft: unconfirmed
+        type: is
+      - 
+        content: Se-tariana
+        draft: unconfirmed
+        type: it
+      - 
+        content: Se-japane
+        draft: unconfirmed
+        type: ja
+      - 
+        content: Se-javane
+        draft: unconfirmed
+        type: jv
+      - 
+        content: Se-geogia
+        draft: unconfirmed
+        type: ka
+      - 
+        content: Se-kannada
+        draft: unconfirmed
+        type: kn
+      - 
+        content: Se-korea
+        draft: unconfirmed
+        type: ko
+      - 
+        content: Kurdish
+        draft: unconfirmed
+        type: ku
+      - 
+        content: Kyrgyz
+        draft: unconfirmed
+        type: ky
+      - 
+        content: Se-latino
+        draft: unconfirmed
+        type: la
+      - 
+        content: Se-Lithuano
+        draft: unconfirmed
+        type: lt
+      - 
+        content: Se-masedonia
+        draft: unconfirmed
+        type: mk
+      - 
+        content: Se-malayalam
+        draft: unconfirmed
+        type: ml
+      - 
+        content: Se-marathi
+        draft: unconfirmed
+        type: mr
+      - 
+        content: Se-malay
+        draft: unconfirmed
+        type: ms
+      - 
+        content: Se-maltese
+        draft: unconfirmed
+        type: mt
+      - 
+        content: Se-nepali
+        draft: unconfirmed
+        type: ne
+      - 
+        content: Dutch
+        draft: unconfirmed
+        type: nl
+      - 
+        content: Se-norway (Nynorsk)
+        draft: unconfirmed
+        type: nn
+      - 
+        content: Se-norway
+        draft: unconfirmed
+        type: 'no'
+      - 
+        content: Se-occitan
+        draft: unconfirmed
+        type: oc
+      - 
+        content: Oriya
+        draft: unconfirmed
+        type: or
+      - 
+        content: Se-punjabi
+        draft: unconfirmed
+        type: pa
+      - 
+        content: Se-polish
+        draft: unconfirmed
+        type: pl
+      - 
+        content: Pashto
+        draft: unconfirmed
+        type: ps
+      - 
+        content: Se-portugal
+        draft: unconfirmed
+        type: pt
+      - 
+        content: Seputukesi (sa Brazil)
+        draft: unconfirmed
+        type: pt_BR
+      - 
+        content: Se-portugal (Portugal)
+        draft: unconfirmed
+        type: pt_PT
+      - 
+        content: Se-romania
+        draft: unconfirmed
+        type: ro
+      - 
+        content: Se-rushia
+        draft: unconfirmed
+        type: ru
+      - 
+        content: Serbo-Croatian
+        draft: unconfirmed
+        type: sh
+      - 
+        content: Se-sinhali
+        draft: unconfirmed
+        type: si
+      - 
+        content: Se-slovak
+        draft: unconfirmed
+        type: sk
+      - 
+        content: Se-slovania
+        draft: unconfirmed
+        type: sl
+      - 
+        content: Se-albanian
+        draft: unconfirmed
+        type: sq
+      - 
+        content: Se-serbian
+        draft: unconfirmed
+        type: sr
+      - 
+        content: Sesotho
+        draft: contributed
+        type: st
+      - 
+        content: Se-sundanese
+        draft: unconfirmed
+        type: su
+      - 
+        content: Se-sweden
+        draft: unconfirmed
+        type: sv
+      - 
+        content: Se-swahili
+        draft: unconfirmed
+        type: sw
+      - 
+        content: Se-tamil
+        draft: unconfirmed
+        type: ta
+      - 
+        content: Se-telegu
+        draft: unconfirmed
+        type: te
+      - 
+        content: Se-thai
+        draft: unconfirmed
+        type: th
+      - 
+        content: Se-tigrinya
+        draft: unconfirmed
+        type: ti
+      - 
+        content: Turkmen
+        draft: unconfirmed
+        type: tk
+      - 
+        content: Se-klingon
+        draft: unconfirmed
+        type: tlh
+      - 
+        content: Se-theki
+        draft: unconfirmed
+        type: tr
+      - 
+        content: Twi
+        draft: unconfirmed
+        type: tw
+      - 
+        content: Se-ukrania
+        draft: unconfirmed
+        type: uk
+      - 
+        content: Se-urdu
+        draft: unconfirmed
+        type: ur
+      - 
+        content: Se-uzbek
+        draft: unconfirmed
+        type: uz
+      - 
+        content: Se-vietnam
+        draft: unconfirmed
+        type: vi
+      - 
+        content: se Xhosa
+        draft: unconfirmed
+        type: xh
+      - 
+        content: Yiddish
+        draft: unconfirmed
+        type: yi
+      - 
+        content: se Zulu
+        draft: unconfirmed
+        type: zu
+numbers: 
+  currencies: 
+    currency: 
+      symbol: R
+      type: ZAR
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤#,##0.00
+    numberSystem: latn
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#,##0.###"
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: "#,##0%"
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: "#E0"
+  symbols: 
+    decimal: ","
+    group: {}
+
+    numberSystem: latn

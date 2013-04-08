@@ -1,0 +1,3860 @@
+characters: 
+  exemplarCharacters: 
+    - "[a á ä ã b c č d e é f g h i í j k l m n o ó ö õ p q r s š t u ú ü ũ v w x y z]"
+    - 
+      content: "[à ă â å ā æ ç è ĕ ê ë ē ì ĭ î ï ī ñ ò ŏ ô ø ō œ ß ù ŭ û ū ÿ]"
+      type: auxiliary
+    - 
+      content: "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]"
+      type: index
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d. MMMM y G
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d. MMMM y G
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d. MMM y G
+                  draft: unconfirmed
+              type: medium
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d.
+                draft: unconfirmed
+              M: 
+                content: LLL
+                draft: unconfirmed
+              MEd: 
+                content: E, d. MMM
+                draft: unconfirmed
+              MMMEd: 
+                content: E, d. MMM
+                draft: unconfirmed
+              MMMd: 
+                content: d. MMM
+                draft: unconfirmed
+              Md: 
+                content: d. MMM
+                draft: unconfirmed
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+                draft: unconfirmed
+              hms: 
+                content: h:mm:ss a
+                draft: unconfirmed
+              yMMM: 
+                content: MMM y
+                draft: unconfirmed
+              yMMMEd: 
+                content: E, d. MMM y
+                draft: unconfirmed
+              yMMMd: 
+                content: d. MMM y
+                draft: unconfirmed
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH - HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm - HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm - HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm - HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm - HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH - HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: MMM - MMM
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM - MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. - d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d. - d. MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM - d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d. MMM - d. MMM
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d - d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a
+                    draft: unconfirmed
+                  h: 
+                    content: h - h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm - h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm - h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm - h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm - h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h - h a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y - y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM - MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y - MMM y
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM - E, d. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. - E, d. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMMM y - MMMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM - d. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: d. - d. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: d. MMM y - d. MMM y
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: 
+                  content: EEEE, d. MMMM y
+                  draft: unconfirmed
+              type: full
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d. MMMM y
+                  draft: unconfirmed
+              type: long
+            - 
+              dateFormat: 
+                pattern: 
+                  content: d. MMM y
+                  draft: unconfirmed
+              type: medium
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: E d.
+                draft: unconfirmed
+              M: 
+                content: LLL
+                draft: unconfirmed
+              MEd: 
+                content: E, d. MMM
+                draft: unconfirmed
+              MMMEd: 
+                content: E, d. MMM
+                draft: unconfirmed
+              MMMd: 
+                content: d. MMM
+                draft: unconfirmed
+              Md: 
+                content: d. MMM
+                draft: unconfirmed
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+                draft: unconfirmed
+              hms: 
+                content: h:mm:ss a
+                draft: unconfirmed
+              yMMM: 
+                content: MMM y
+                draft: unconfirmed
+              yMMMEd: 
+                content: E, d. MMM y
+                draft: unconfirmed
+              yMMMd: 
+                content: d. MMM y
+                draft: unconfirmed
+          intervalFormats: 
+            intervalFormatFallback: 
+              content: "{0} - {1}"
+              draft: unconfirmed
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH - HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm - HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm - HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm - HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm - HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH - HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: MMM - MMM
+                  draft: unconfirmed
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+              MMM: 
+                greatestDifference: 
+                  content: MMM - MMM
+                  draft: unconfirmed
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. MMM - E, d. MMM
+                    draft: unconfirmed
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. - d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d. - d. MMM
+                    draft: unconfirmed
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM - d. MMM
+                    draft: unconfirmed
+                  d: 
+                    content: d. MMM - d. MMM
+                    draft: unconfirmed
+              d: 
+                greatestDifference: 
+                  content: d - d
+                  draft: unconfirmed
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a
+                    draft: unconfirmed
+                  h: 
+                    content: h - h a
+                    draft: unconfirmed
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm - h:mm a
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm - h:mm a
+                    draft: unconfirmed
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a - h:mm a v
+                    draft: unconfirmed
+                  h: 
+                    content: h:mm - h:mm a v
+                    draft: unconfirmed
+                  m: 
+                    content: h:mm - h:mm a v
+                    draft: unconfirmed
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a - h a v
+                    draft: unconfirmed
+                  h: 
+                    content: h - h a v
+                    draft: unconfirmed
+              "y": 
+                greatestDifference: 
+                  content: y - y
+                  draft: unconfirmed
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM - y-MM
+                    draft: unconfirmed
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM - MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMM y - MMM y
+                    draft: unconfirmed
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d. MMM - E, d. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: E, d. - E, d. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: E, d. MMM y - E, d. MMM y
+                    draft: unconfirmed
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: MMMM y - MMMM y
+                    draft: unconfirmed
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d. MMM - d. MMM y
+                    draft: unconfirmed
+                  d: 
+                    content: d. - d. MMM y
+                    draft: unconfirmed
+                  "y": 
+                    content: d. MMM y - d. MMM y
+                    draft: unconfirmed
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  d: 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+                  "y": 
+                    content: y-MM-dd - y-MM-dd
+                    draft: unconfirmed
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sun
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Män
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Ziš
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Mit
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Fró
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Fri
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Sam
+                      draft: unconfirmed
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: S
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Z
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: F
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: F
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: S
+                      draft: unconfirmed
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Sunntag
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Mäntag
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Zištag
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Mittwuč
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Fróntag
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Fritag
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Samštag
+                      draft: unconfirmed
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sun
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Män
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Ziš
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Mit
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Fró
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Fri
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Sam
+                      draft: unconfirmed
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: S
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Z
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: F
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: F
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: S
+                      draft: unconfirmed
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Sunntag
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Mäntag
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Zištag
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Mittwuč
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Fróntag
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Fritag
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Samštag
+                      draft: unconfirmed
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: v. Chr.
+                draft: unconfirmed
+                type: 0
+              - 
+                content: n. Chr
+                draft: unconfirmed
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jen
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Hor
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Mär
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Abr
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Mei
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Brá
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Hei
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Öig
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Her
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Wím
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Win
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Chr
+                      draft: unconfirmed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: H
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: A
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: B
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: H
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Ö
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: H
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: W
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: W
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: C
+                      draft: unconfirmed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Jenner
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Hornig
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Märze
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Abrille
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Meije
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Bráčet
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Heiwet
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Öigšte
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Herbštmánet
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Wímánet
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Wintermánet
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Chrištmánet
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Jen
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Hor
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Mär
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Abr
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Mei
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Brá
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Hei
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Öig
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Her
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Wím
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Win
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Chr
+                      draft: unconfirmed
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: J
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: H
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: A
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: M
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: B
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: H
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Ö
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: H
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: W
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: W
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: C
+                      draft: unconfirmed
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Jenner
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Hornig
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Märze
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Abrille
+                      draft: unconfirmed
+                      type: 4
+                    - 
+                      content: Meije
+                      draft: unconfirmed
+                      type: 5
+                    - 
+                      content: Bráčet
+                      draft: unconfirmed
+                      type: 6
+                    - 
+                      content: Heiwet
+                      draft: unconfirmed
+                      type: 7
+                    - 
+                      content: Öigšte
+                      draft: unconfirmed
+                      type: 8
+                    - 
+                      content: Herbštmánet
+                      draft: unconfirmed
+                      type: 9
+                    - 
+                      content: Wímánet
+                      draft: unconfirmed
+                      type: 10
+                    - 
+                      content: Wintermánet
+                      draft: unconfirmed
+                      type: 11
+                    - 
+                      content: Chrištmánet
+                      draft: unconfirmed
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: Q1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Q2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Q3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Q4
+                      draft: unconfirmed
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4
+                      draft: unconfirmed
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: 1. quartal
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2. quartal
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3. quartal
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4. quartal
+                      draft: unconfirmed
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: Q1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: Q2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: Q3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: Q4
+                      draft: unconfirmed
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1. quartal
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2. quartal
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3. quartal
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4. quartal
+                      draft: unconfirmed
+                      type: 4
+                  type: wide
+              type: stand-alone
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: 
+          content: Epoča
+          draft: unconfirmed
+        type: era
+      - 
+        displayName: 
+          content: Jár
+          draft: unconfirmed
+        type: year
+      - 
+        displayName: 
+          content: Mánet
+          draft: unconfirmed
+        type: month
+      - 
+        displayName: 
+          content: Wuča
+          draft: unconfirmed
+        type: week
+      - 
+        displayName: 
+          content: Tag
+          draft: unconfirmed
+        relative: 
+          - 
+            content: Vorgešter
+            draft: unconfirmed
+            type: -2
+          - 
+            content: Gešter
+            draft: unconfirmed
+            type: -1
+          - 
+            content: Hitte
+            draft: unconfirmed
+            type: 0
+          - 
+            content: Móre
+            draft: unconfirmed
+            type: 1
+          - 
+            content: Ubermóre
+            draft: unconfirmed
+            type: 2
+        type: day
+      - 
+        displayName: 
+          content: Wučetag
+          draft: unconfirmed
+        type: weekday
+      - 
+        displayName: 
+          content: AM/PM
+          draft: unconfirmed
+        type: dayperiod
+      - 
+        displayName: 
+          content: Schtund
+          draft: unconfirmed
+        type: hour
+      - 
+        displayName: 
+          content: Mínütta
+          draft: unconfirmed
+        type: minute
+      - 
+        displayName: 
+          content: Sekunda
+          draft: unconfirmed
+        type: second
+      - 
+        displayName: 
+          content: Zitzóna
+          draft: unconfirmed
+        type: zone
+  timeZoneNames: 
+    fallbackRegionFormat: 
+      content: "{1} zit ({0})"
+      draft: unconfirmed
+    metazone: 
+      - 
+        long: 
+          daylight: 
+            content: Atlantiši Summerzit
+            draft: unconfirmed
+          generic: 
+            content: Atlantiši Zit
+            draft: unconfirmed
+          standard: 
+            content: Atlantiši Standardzit
+            draft: unconfirmed
+        type: Atlantic
+      - 
+        long: 
+          daylight: 
+            content: Mitteleuropäiši Summerzit
+            draft: unconfirmed
+          generic: 
+            content: Mitteleuropäiši Zit
+            draft: unconfirmed
+          standard: 
+            content: Mitteleuropäiši Standardzit
+            draft: unconfirmed
+        short: 
+          daylight: 
+            content: MESZ
+            draft: unconfirmed
+          generic: 
+            content: MEZ
+            draft: unconfirmed
+          standard: 
+            content: MEZ
+            draft: unconfirmed
+        type: Europe_Central
+      - 
+        long: 
+          daylight: 
+            content: Ošteuropäiši Summerzit
+            draft: unconfirmed
+          generic: 
+            content: Ošteuropäiši Zit
+            draft: unconfirmed
+          standard: 
+            content: Ošteuropäiši Standardzit
+            draft: unconfirmed
+        short: 
+          daylight: 
+            content: OESZ
+            draft: unconfirmed
+          generic: 
+            content: OEZ
+            draft: unconfirmed
+          standard: 
+            content: OEZ
+            draft: unconfirmed
+        type: Europe_Eastern
+      - 
+        long: 
+          daylight: 
+            content: Wešteuropäiši Summerzit
+            draft: unconfirmed
+          generic: 
+            content: Wešteuropäiši Zit
+            draft: unconfirmed
+          standard: 
+            content: Wešteuropäiši Standardzit
+            draft: unconfirmed
+        short: 
+          daylight: 
+            content: WESZ
+            draft: unconfirmed
+          generic: 
+            content: WEZ
+            draft: unconfirmed
+          standard: 
+            content: WEZ
+            draft: unconfirmed
+        type: Europe_Western
+    regionFormat: 
+      content: "{0} zit"
+      draft: unconfirmed
+    zone: 
+      - 
+        exemplarCity: 
+          content: Unbekannti Stadt
+          draft: unconfirmed
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: Tiran
+          draft: unconfirmed
+        type: Europe/Tirane
+      - 
+        exemplarCity: 
+          content: Kordoba
+          draft: unconfirmed
+        type: America/Cordoba
+      - 
+        exemplarCity: 
+          content: Wien
+          draft: unconfirmed
+        type: Europe/Vienna
+      - 
+        exemplarCity: 
+          content: Sidnei
+          draft: unconfirmed
+        type: Australia/Sydney
+      - 
+        exemplarCity: 
+          content: Brüssel
+          draft: unconfirmed
+        type: Europe/Brussels
+      - 
+        exemplarCity: 
+          content: Wagadugu
+          draft: unconfirmed
+        type: Africa/Ouagadougou
+      - 
+        exemplarCity: 
+          content: Zürič
+          draft: unconfirmed
+        type: Europe/Zurich
+      - 
+        exemplarCity: 
+          content: Hawanna
+          draft: unconfirmed
+        type: America/Havana
+      - 
+        exemplarCity: 
+          content: Prag
+          draft: unconfirmed
+        type: Europe/Prague
+      - 
+        exemplarCity: 
+          content: Dšibuti
+          draft: unconfirmed
+        type: Africa/Djibouti
+      - 
+        exemplarCity: 
+          content: Kopehage
+          draft: unconfirmed
+        type: Europe/Copenhagen
+      - 
+        exemplarCity: 
+          content: Algier
+          draft: unconfirmed
+        type: Africa/Algiers
+      - 
+        exemplarCity: 
+          content: Reval
+          draft: unconfirmed
+        type: Europe/Tallinn
+      - 
+        exemplarCity: 
+          content: Kairo
+          draft: unconfirmed
+        type: Africa/Cairo
+      - 
+        exemplarCity: 
+          content: Akra
+          draft: unconfirmed
+        type: Africa/Accra
+      - 
+        exemplarCity: 
+          content: Hongkong
+          draft: unconfirmed
+        type: Asia/Hong_Kong
+      - 
+        exemplarCity: 
+          content: Budapešt
+          draft: unconfirmed
+        type: Europe/Budapest
+      - 
+        exemplarCity: 
+          content: Bagdad
+          draft: unconfirmed
+        type: Asia/Baghdad
+      - 
+        exemplarCity: 
+          content: Rikjawik
+          draft: unconfirmed
+        type: Atlantic/Reykjavik
+      - 
+        exemplarCity: 
+          content: Rom
+          draft: unconfirmed
+        type: Europe/Rome
+      - 
+        exemplarCity: 
+          content: Jamaika
+          draft: unconfirmed
+        type: America/Jamaica
+      - 
+        exemplarCity: 
+          content: Tokio
+          draft: unconfirmed
+        type: Asia/Tokyo
+      - 
+        exemplarCity: 
+          content: Kaimaninsla
+          draft: unconfirmed
+        type: America/Cayman
+      - 
+        exemplarCity: 
+          content: Wilna
+          draft: unconfirmed
+        type: Europe/Vilnius
+      - 
+        exemplarCity: 
+          content: Tripolis
+          draft: unconfirmed
+        type: Africa/Tripoli
+      - 
+        exemplarCity: 
+          content: Monserat
+          draft: unconfirmed
+        type: America/Montserrat
+      - 
+        exemplarCity: 
+          content: Amšterdam
+          draft: unconfirmed
+        type: Europe/Amsterdam
+      - 
+        exemplarCity: 
+          content: Waršau
+          draft: unconfirmed
+        type: Europe/Warsaw
+      - 
+        exemplarCity: 
+          content: Bukarešt
+          draft: unconfirmed
+        type: Europe/Bucharest
+      - 
+        exemplarCity: 
+          content: Belgrad
+          draft: unconfirmed
+        type: Europe/Belgrade
+      - 
+        exemplarCity: 
+          content: Königsbärg
+          draft: unconfirmed
+        type: Europe/Kaliningrad
+      - 
+        exemplarCity: 
+          content: Wolgograd
+          draft: unconfirmed
+        type: Europe/Volgograd
+      - 
+        exemplarCity: 
+          content: Kartum
+          draft: unconfirmed
+        type: Africa/Khartoum
+      - 
+        exemplarCity: 
+          content: Singapur
+          draft: unconfirmed
+        type: Asia/Singapore
+      - 
+        exemplarCity: 
+          content: Laibač
+          draft: unconfirmed
+        type: Europe/Ljubljana
+      - 
+        exemplarCity: 
+          content: Mogadišu
+          draft: unconfirmed
+        type: Africa/Mogadishu
+      - 
+        exemplarCity: 
+          content: Damaskus
+          draft: unconfirmed
+        type: Asia/Damascus
+      - 
+        exemplarCity: 
+          content: Konštantinopel
+          draft: unconfirmed
+        type: Europe/Istanbul
+      - 
+        exemplarCity: 
+          content: Vatikan
+          draft: unconfirmed
+        type: Europe/Vatican
+delimiters: 
+  alternateQuotationEnd: 
+    content: ›
+    draft: unconfirmed
+  alternateQuotationStart: 
+    content: ‹
+    draft: unconfirmed
+  quotationEnd: 
+    content: »
+    draft: unconfirmed
+  quotationStart: 
+    content: «
+    draft: unconfirmed
+identity: 
+  generation: 
+    date: "$Date: 2013-02-25 16:18:23 -0800 (Mon, 25 Feb 2013) $"
+  language: 
+    type: wae
+  version: 
+    number: "$Revision: 8251 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} und {1}"
+        draft: unconfirmed
+        type: 2
+      - 
+        content: "{0} und {1}"
+        draft: unconfirmed
+        type: end
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Sprač: {0}"
+        draft: unconfirmed
+        type: language
+      - 
+        content: "Alfabét: {0}"
+        draft: unconfirmed
+        type: script
+      - 
+        content: "Regio: {0}"
+        draft: unconfirmed
+        type: territory
+  languages: 
+    language: 
+      - 
+        content: Abčasiš
+        draft: unconfirmed
+        type: ab
+      - 
+        content: Afrikáns
+        draft: unconfirmed
+        type: af
+      - 
+        content: Amhariš
+        draft: unconfirmed
+        type: am
+      - 
+        content: Arabiš
+        draft: unconfirmed
+        type: ar
+      - 
+        content: Assamesiš
+        draft: unconfirmed
+        type: as
+      - 
+        content: Aymara
+        draft: unconfirmed
+        type: ay
+      - 
+        content: Serbaidšaniš
+        draft: unconfirmed
+        type: az
+      - 
+        content: Wísrussiš
+        draft: unconfirmed
+        type: be
+      - 
+        content: Bulgariš
+        draft: unconfirmed
+        type: bg
+      - 
+        content: Bengališ
+        draft: unconfirmed
+        type: bn
+      - 
+        content: Tibetiš
+        draft: unconfirmed
+        type: bo
+      - 
+        content: Bosniš
+        draft: unconfirmed
+        type: bs
+      - 
+        content: Katalaniš
+        draft: unconfirmed
+        type: ca
+      - 
+        content: Tšečiš
+        draft: unconfirmed
+        type: cs
+      - 
+        content: Walisiš
+        draft: unconfirmed
+        type: cy
+      - 
+        content: Däniš
+        draft: unconfirmed
+        type: da
+      - 
+        content: Titš
+        draft: unconfirmed
+        type: de
+      - 
+        content: Öštričišes Titš
+        draft: unconfirmed
+        type: de_AT
+      - 
+        content: Schwizer Hočtitš
+        draft: unconfirmed
+        type: de_CH
+      - 
+        content: Malediwiš
+        draft: unconfirmed
+        type: dv
+      - 
+        content: Butaniš
+        draft: unconfirmed
+        type: dz
+      - 
+        content: Efik
+        draft: unconfirmed
+        type: efi
+      - 
+        content: Gričiš
+        draft: unconfirmed
+        type: el
+      - 
+        content: Engliš
+        draft: unconfirmed
+        type: en
+      - 
+        content: Auštrališes Engliš
+        draft: unconfirmed
+        type: en_AU
+      - 
+        content: Kanadišes Engliš
+        draft: unconfirmed
+        type: en_CA
+      - 
+        content: Britišes Engliš
+        draft: unconfirmed
+        type: en_GB
+      - 
+        content: Amerikanišes Engliš
+        draft: unconfirmed
+        type: en_US
+      - 
+        content: Schpaniš
+        draft: unconfirmed
+        type: es
+      - 
+        content: Latiamerikanišes Schpaniš
+        draft: unconfirmed
+        type: es_419
+      - 
+        content: Iberišes Schpaniš
+        draft: unconfirmed
+        type: es_ES
+      - 
+        content: Estniš
+        draft: unconfirmed
+        type: et
+      - 
+        content: Baskiš
+        draft: unconfirmed
+        type: eu
+      - 
+        content: Persiš
+        draft: unconfirmed
+        type: fa
+      - 
+        content: Finiš
+        draft: unconfirmed
+        type: fi
+      - 
+        content: Filipiniš
+        draft: unconfirmed
+        type: fil
+      - 
+        content: Fidšianiš
+        draft: unconfirmed
+        type: fj
+      - 
+        content: Wälš
+        draft: unconfirmed
+        type: fr
+      - 
+        content: Kanadišes Wälš
+        draft: unconfirmed
+        type: fr_CA
+      - 
+        content: Schwizer Wälš
+        draft: unconfirmed
+        type: fr_CH
+      - 
+        content: Iriš
+        draft: unconfirmed
+        type: ga
+      - 
+        content: Galiziš
+        draft: unconfirmed
+        type: gl
+      - 
+        content: Guarani
+        draft: unconfirmed
+        type: gn
+      - 
+        content: Gujarati
+        draft: unconfirmed
+        type: gu
+      - 
+        content: Hausa
+        draft: unconfirmed
+        type: ha
+      - 
+        content: Hawaíaniš
+        draft: unconfirmed
+        type: haw
+      - 
+        content: Hebräiš
+        draft: unconfirmed
+        type: he
+      - 
+        content: Hindi
+        draft: unconfirmed
+        type: hi
+      - 
+        content: Kroatiš
+        draft: unconfirmed
+        type: hr
+      - 
+        content: Haitianiš
+        draft: unconfirmed
+        type: ht
+      - 
+        content: Ungariš
+        draft: unconfirmed
+        type: hu
+      - 
+        content: Armeniš
+        draft: unconfirmed
+        type: hy
+      - 
+        content: Indonesiš
+        draft: unconfirmed
+        type: id
+      - 
+        content: Igbo
+        draft: unconfirmed
+        type: ig
+      - 
+        content: Iisländiš
+        draft: unconfirmed
+        type: is
+      - 
+        content: Italieniš
+        draft: unconfirmed
+        type: it
+      - 
+        content: Japaniš
+        draft: unconfirmed
+        type: ja
+      - 
+        content: Georgiš
+        draft: unconfirmed
+        type: ka
+      - 
+        content: Kazačiš
+        draft: unconfirmed
+        type: kk
+      - 
+        content: Kambodšaniš
+        draft: unconfirmed
+        type: km
+      - 
+        content: Kannada
+        draft: unconfirmed
+        type: kn
+      - 
+        content: Koreaniš
+        draft: unconfirmed
+        type: ko
+      - 
+        content: Kašmiriš
+        draft: unconfirmed
+        type: ks
+      - 
+        content: Kurdiš
+        draft: unconfirmed
+        type: ku
+      - 
+        content: Kirgisiš
+        draft: unconfirmed
+        type: ky
+      - 
+        content: Latiniš
+        draft: unconfirmed
+        type: la
+      - 
+        content: Luxemburgiš
+        draft: unconfirmed
+        type: lb
+      - 
+        content: Lingala
+        draft: unconfirmed
+        type: ln
+      - 
+        content: Laotiš
+        draft: unconfirmed
+        type: lo
+      - 
+        content: Litauiš
+        draft: unconfirmed
+        type: lt
+      - 
+        content: Lettiš
+        draft: unconfirmed
+        type: lv
+      - 
+        content: Malagási
+        draft: unconfirmed
+        type: mg
+      - 
+        content: Maori
+        draft: unconfirmed
+        type: mi
+      - 
+        content: Mazedoniš
+        draft: unconfirmed
+        type: mk
+      - 
+        content: Malayalam
+        draft: unconfirmed
+        type: ml
+      - 
+        content: Mongoliš
+        draft: unconfirmed
+        type: mn
+      - 
+        content: Marathi
+        draft: unconfirmed
+        type: mr
+      - 
+        content: Malaíš
+        draft: unconfirmed
+        type: ms
+      - 
+        content: Maltesiš
+        draft: unconfirmed
+        type: mt
+      - 
+        content: Burmesiš
+        draft: unconfirmed
+        type: my
+      - 
+        content: Norwegiš Bokmål
+        draft: unconfirmed
+        type: nb
+      - 
+        content: Nordndebele
+        draft: unconfirmed
+        type: nd
+      - 
+        content: Nepalesiš
+        draft: unconfirmed
+        type: ne
+      - 
+        content: Holändiš
+        draft: unconfirmed
+        type: nl
+      - 
+        content: Flämiš
+        draft: unconfirmed
+        type: nl_BE
+      - 
+        content: Norwegiš Nynorsk
+        draft: unconfirmed
+        type: nn
+      - 
+        content: Nordsotho
+        draft: unconfirmed
+        type: nso
+      - 
+        content: Nyanja
+        draft: unconfirmed
+        type: ny
+      - 
+        content: Oriya
+        draft: unconfirmed
+        type: or
+      - 
+        content: Osétiš
+        draft: unconfirmed
+        type: os
+      - 
+        content: Pandšabiš
+        draft: unconfirmed
+        type: pa
+      - 
+        content: Polniš
+        draft: unconfirmed
+        type: pl
+      - 
+        content: Paštu
+        draft: unconfirmed
+        type: ps
+      - 
+        content: Portugisiš
+        draft: unconfirmed
+        type: pt
+      - 
+        content: Brasilianišes Portugisiš
+        draft: unconfirmed
+        type: pt_BR
+      - 
+        content: Iberišes Portugisiš
+        draft: unconfirmed
+        type: pt_PT
+      - 
+        content: Quečua
+        draft: unconfirmed
+        type: qu
+      - 
+        content: Rätromaniš
+        draft: unconfirmed
+        type: rm
+      - 
+        content: Rundi
+        draft: unconfirmed
+        type: rn
+      - 
+        content: Rumäniš
+        draft: unconfirmed
+        type: ro
+      - 
+        content: Rusiš
+        draft: unconfirmed
+        type: ru
+      - 
+        content: Ruandiš
+        draft: unconfirmed
+        type: rw
+      - 
+        content: Sanskrit
+        draft: unconfirmed
+        type: sa
+      - 
+        content: Jakutiš
+        draft: unconfirmed
+        type: sah
+      - 
+        content: Sindhi
+        draft: unconfirmed
+        type: sd
+      - 
+        content: Nordsamiš
+        draft: unconfirmed
+        type: se
+      - 
+        content: Sango
+        draft: unconfirmed
+        type: sg
+      - 
+        content: Singalesiš
+        draft: unconfirmed
+        type: si
+      - 
+        content: Slowakiš
+        draft: unconfirmed
+        type: sk
+      - 
+        content: Sloweniš
+        draft: unconfirmed
+        type: sl
+      - 
+        content: Samoaniš
+        draft: unconfirmed
+        type: sm
+      - 
+        content: Shona
+        draft: unconfirmed
+        type: sn
+      - 
+        content: Somališ
+        draft: unconfirmed
+        type: so
+      - 
+        content: Albaniš
+        draft: unconfirmed
+        type: sq
+      - 
+        content: Serbiš
+        draft: unconfirmed
+        type: sr
+      - 
+        content: Swazi
+        draft: unconfirmed
+        type: ss
+      - 
+        content: Südsotho
+        draft: unconfirmed
+        type: st
+      - 
+        content: Sundanesiš
+        draft: unconfirmed
+        type: su
+      - 
+        content: Schwediš
+        draft: unconfirmed
+        type: sv
+      - 
+        content: Suaheliš
+        draft: unconfirmed
+        type: sw
+      - 
+        content: Tamiliš
+        draft: unconfirmed
+        type: ta
+      - 
+        content: Telugu
+        draft: unconfirmed
+        type: te
+      - 
+        content: Tetum
+        draft: unconfirmed
+        type: tet
+      - 
+        content: Tadšikiš
+        draft: unconfirmed
+        type: tg
+      - 
+        content: Thailändiš
+        draft: unconfirmed
+        type: th
+      - 
+        content: Tigrinja
+        draft: unconfirmed
+        type: ti
+      - 
+        content: Turkmeniš
+        draft: unconfirmed
+        type: tk
+      - 
+        content: Tswana
+        draft: unconfirmed
+        type: tn
+      - 
+        content: Tonga
+        draft: unconfirmed
+        type: to
+      - 
+        content: Niwmelanesiš
+        draft: unconfirmed
+        type: tpi
+      - 
+        content: Türkiš
+        draft: unconfirmed
+        type: tr
+      - 
+        content: Tsonga
+        draft: unconfirmed
+        type: ts
+      - 
+        content: Taitiš
+        draft: unconfirmed
+        type: ty
+      - 
+        content: Uiguriš
+        draft: unconfirmed
+        type: ug
+      - 
+        content: Ukrainiš
+        draft: unconfirmed
+        type: uk
+      - 
+        content: Unbekannti Schprač
+        draft: unconfirmed
+        type: und
+      - 
+        content: Urdu
+        draft: unconfirmed
+        type: ur
+      - 
+        content: Usbekiš
+        draft: unconfirmed
+        type: uz
+      - 
+        content: Venda
+        draft: unconfirmed
+        type: ve
+      - 
+        content: Vietnamesiš
+        draft: unconfirmed
+        type: vi
+      - 
+        content: Walser
+        type: wae
+      - 
+        content: Wolof
+        draft: unconfirmed
+        type: wo
+      - 
+        content: Xhosa
+        draft: unconfirmed
+        type: xh
+      - 
+        content: Yoruba
+        draft: unconfirmed
+        type: yo
+      - 
+        content: Chinesiš
+        draft: unconfirmed
+        type: zh
+      - 
+        content: Vereifačts Chinesiš
+        draft: unconfirmed
+        type: zh_Hans
+      - 
+        content: Traditionells Chinesiš
+        draft: unconfirmed
+        type: zh_Hant
+      - 
+        content: Zulu
+        draft: unconfirmed
+        type: zu
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: Metriš
+        draft: unconfirmed
+        type: metric
+      - 
+        content: Angelsä
+        draft: unconfirmed
+        type: UK
+      - 
+        content: Angloamerikaniš
+        draft: unconfirmed
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: Arabiš
+        draft: unconfirmed
+        type: Arab
+      - 
+        content: Armeniš
+        draft: unconfirmed
+        type: Armn
+      - 
+        content: Bengališ
+        draft: unconfirmed
+        type: Beng
+      - 
+        content: Kirilliš
+        draft: unconfirmed
+        type: Cyrl
+      - 
+        content: Devanagari
+        draft: unconfirmed
+        type: Deva
+      - 
+        content: Ethiopiš
+        draft: unconfirmed
+        type: Ethi
+      - 
+        content: Georgiš
+        draft: unconfirmed
+        type: Geor
+      - 
+        content: Gričiš
+        draft: unconfirmed
+        type: Grek
+      - 
+        content: Gujarati
+        draft: unconfirmed
+        type: Gujr
+      - 
+        content: Vereifačt
+        draft: unconfirmed
+        type: Hans
+      - 
+        content: Traditionell
+        draft: unconfirmed
+        type: Hant
+      - 
+        content: Hebräiš
+        draft: unconfirmed
+        type: Hebr
+      - 
+        content: Japaniš
+        draft: unconfirmed
+        type: Jpan
+      - 
+        content: Khmer
+        draft: unconfirmed
+        type: Khmr
+      - 
+        content: Kannada
+        draft: unconfirmed
+        type: Knda
+      - 
+        content: Korianiš
+        draft: unconfirmed
+        type: Kore
+      - 
+        content: Laotiš
+        draft: unconfirmed
+        type: Laoo
+      - 
+        content: Latiniš
+        draft: unconfirmed
+        type: Latn
+      - 
+        content: Malaisiš
+        draft: unconfirmed
+        type: Mlym
+      - 
+        content: Burmesiš
+        draft: unconfirmed
+        type: Mymr
+      - 
+        content: Oriya
+        draft: unconfirmed
+        type: Orya
+      - 
+        content: Singalesiš
+        draft: unconfirmed
+        type: Sinh
+      - 
+        content: Tamiliš
+        draft: unconfirmed
+        type: Taml
+      - 
+        content: Telugu
+        draft: unconfirmed
+        type: Telu
+      - 
+        content: Thána
+        draft: unconfirmed
+        type: Thaa
+      - 
+        content: Thai
+        draft: unconfirmed
+        type: Thai
+      - 
+        content: Schriftlos
+        draft: unconfirmed
+        type: Zxxx
+      - 
+        content: Unkodierti Schrift
+        draft: unconfirmed
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Wäld
+        draft: unconfirmed
+        type: '001'
+      - 
+        content: Afrika
+        draft: unconfirmed
+        type: '002'
+      - 
+        content: Nordamerika
+        draft: unconfirmed
+        type: '003'
+      - 
+        content: Südamerika
+        draft: unconfirmed
+        type: '005'
+      - 
+        content: Ozeanie
+        draft: unconfirmed
+        type: '009'
+      - 
+        content: Weštafrika
+        draft: unconfirmed
+        type: '011'
+      - 
+        content: Zentralamerika
+        draft: unconfirmed
+        type: '013'
+      - 
+        content: Oštafrika
+        draft: unconfirmed
+        type: '014'
+      - 
+        content: Nordafrika
+        draft: unconfirmed
+        type: '015'
+      - 
+        content: Mittelafrika
+        draft: unconfirmed
+        type: '017'
+      - 
+        content: Südličs Afrika
+        draft: unconfirmed
+        type: '018'
+      - 
+        content: Amerikaniš Kontinänt
+        draft: unconfirmed
+        type: '019'
+      - 
+        content: Nördličs Amerika
+        draft: unconfirmed
+        type: '021'
+      - 
+        content: Karibik
+        draft: unconfirmed
+        type: '029'
+      - 
+        content: Oštasie
+        draft: unconfirmed
+        type: '030'
+      - 
+        content: Südasie
+        draft: unconfirmed
+        type: '034'
+      - 
+        content: Südoštasie
+        draft: unconfirmed
+        type: '035'
+      - 
+        content: Südeuropa
+        draft: unconfirmed
+        type: '039'
+      - 
+        content: Auštralie und Niwséland
+        draft: unconfirmed
+        type: '053'
+      - 
+        content: Melanesie
+        draft: unconfirmed
+        type: '054'
+      - 
+        content: Mikronesišes Inselgebiet
+        draft: unconfirmed
+        type: '057'
+      - 
+        content: Polinesie
+        draft: unconfirmed
+        type: '061'
+      - 
+        content: Asie
+        draft: unconfirmed
+        type: 142
+      - 
+        content: Zentralasie
+        draft: unconfirmed
+        type: 143
+      - 
+        content: Weštasie
+        draft: unconfirmed
+        type: 145
+      - 
+        content: Europa
+        draft: unconfirmed
+        type: 150
+      - 
+        content: Ošteuropa
+        draft: unconfirmed
+        type: 151
+      - 
+        content: Nordeuropa
+        draft: unconfirmed
+        type: 154
+      - 
+        content: Wešteuropa
+        draft: unconfirmed
+        type: 155
+      - 
+        content: Latíamerika
+        draft: unconfirmed
+        type: 419
+      - 
+        content: Himmelfártsinsla
+        draft: unconfirmed
+        type: AC
+      - 
+        content: Andorra
+        draft: unconfirmed
+        type: AD
+      - 
+        content: Vereinigti Arabiše Emirat
+        draft: unconfirmed
+        type: AE
+      - 
+        content: Afganištan
+        draft: unconfirmed
+        type: AF
+      - 
+        content: Antigua und Barbuda
+        draft: unconfirmed
+        type: AG
+      - 
+        content: Anguilla
+        draft: unconfirmed
+        type: AI
+      - 
+        content: Albanie
+        draft: unconfirmed
+        type: AL
+      - 
+        content: Armenie
+        draft: unconfirmed
+        type: AM
+      - 
+        content: Holändiši Antillä
+        draft: unconfirmed
+        type: AN
+      - 
+        content: Angola
+        draft: unconfirmed
+        type: AO
+      - 
+        content: Antarktis
+        draft: unconfirmed
+        type: AQ
+      - 
+        content: Argentinie
+        draft: unconfirmed
+        type: AR
+      - 
+        content: Amerikaniš Samoa
+        draft: unconfirmed
+        type: AS
+      - 
+        content: Öštrič
+        draft: unconfirmed
+        type: AT
+      - 
+        content: Australie
+        draft: unconfirmed
+        type: AU
+      - 
+        content: Aruba
+        draft: unconfirmed
+        type: AW
+      - 
+        content: Alandinslä
+        draft: unconfirmed
+        type: AX
+      - 
+        content: Aserbaidšan
+        draft: unconfirmed
+        type: AZ
+      - 
+        content: Bosnie und Herzegovina
+        draft: unconfirmed
+        type: BA
+      - 
+        content: Barbados
+        draft: unconfirmed
+        type: BB
+      - 
+        content: Bangladeš
+        draft: unconfirmed
+        type: BD
+      - 
+        content: Belgie
+        draft: unconfirmed
+        type: BE
+      - 
+        content: Burkina Faso
+        draft: unconfirmed
+        type: BF
+      - 
+        content: Bulgarie
+        draft: unconfirmed
+        type: BG
+      - 
+        content: Bačrain
+        draft: unconfirmed
+        type: BH
+      - 
+        content: Burundi
+        draft: unconfirmed
+        type: BI
+      - 
+        content: Benin
+        draft: unconfirmed
+        type: BJ
+      - 
+        content: St. Bartholomäus-Insla
+        draft: unconfirmed
+        type: BL
+      - 
+        content: Bermuda
+        draft: unconfirmed
+        type: BM
+      - 
+        content: Brunei
+        draft: unconfirmed
+        type: BN
+      - 
+        content: Boliwie
+        draft: unconfirmed
+        type: BO
+      - 
+        content: Brasilie
+        draft: unconfirmed
+        type: BR
+      - 
+        content: Bahamas
+        draft: unconfirmed
+        type: BS
+      - 
+        content: Bhutan
+        draft: unconfirmed
+        type: BT
+      - 
+        content: Bouvetinsla
+        draft: unconfirmed
+        type: BV
+      - 
+        content: Botswana
+        draft: unconfirmed
+        type: BW
+      - 
+        content: Wísrussland
+        draft: unconfirmed
+        type: BY
+      - 
+        content: Belize
+        draft: unconfirmed
+        type: BZ
+      - 
+        content: Kanada
+        draft: unconfirmed
+        type: CA
+      - 
+        content: Kokosinslä
+        draft: unconfirmed
+        type: CC
+      - 
+        content: Kongo-Kinshasa
+        draft: unconfirmed
+        type: CD
+      - 
+        alt: variant
+        content: Kongo [Demokratiši Rebublik]
+        draft: unconfirmed
+        type: CD
+      - 
+        content: Zentralafrikaniši Rebublik
+        draft: unconfirmed
+        type: CF
+      - 
+        content: Kongo Brazzaville
+        draft: unconfirmed
+        type: CG
+      - 
+        alt: variant
+        content: Kongo [Rebublik]
+        draft: unconfirmed
+        type: CG
+      - 
+        content: Schwiz
+        draft: unconfirmed
+        type: CH
+      - 
+        content: Elfebeiküšta
+        draft: unconfirmed
+        type: CI
+      - 
+        alt: variant
+        content: Côte d'Ivoire
+        draft: unconfirmed
+        type: CI
+      - 
+        content: Cookinslä
+        draft: unconfirmed
+        type: CK
+      - 
+        content: Tšile
+        draft: unconfirmed
+        type: CL
+      - 
+        content: Kamerun
+        draft: unconfirmed
+        type: CM
+      - 
+        content: China
+        draft: unconfirmed
+        type: CN
+      - 
+        content: Kolumbie
+        draft: unconfirmed
+        type: CO
+      - 
+        content: Clipperton Insla
+        draft: unconfirmed
+        type: CP
+      - 
+        content: Costa Rica
+        draft: unconfirmed
+        type: CR
+      - 
+        content: Kuba
+        draft: unconfirmed
+        type: CU
+      - 
+        content: Kap Verde
+        draft: unconfirmed
+        type: CV
+      - 
+        content: Wienäčtsinslä
+        draft: unconfirmed
+        type: CX
+      - 
+        content: Zypre
+        draft: unconfirmed
+        type: CY
+      - 
+        content: Tšečie
+        draft: unconfirmed
+        type: CZ
+      - 
+        content: Titšland
+        draft: unconfirmed
+        type: DE
+      - 
+        content: Diego Garcia
+        draft: unconfirmed
+        type: DG
+      - 
+        content: Dšibuti
+        draft: unconfirmed
+        type: DJ
+      - 
+        content: Dänemark
+        draft: unconfirmed
+        type: DK
+      - 
+        content: Doninica
+        draft: unconfirmed
+        type: DM
+      - 
+        content: Dominikaniši Rebublik
+        draft: unconfirmed
+        type: DO
+      - 
+        content: Algerie
+        draft: unconfirmed
+        type: DZ
+      - 
+        content: Ceuta und Melilla
+        draft: unconfirmed
+        type: EA
+      - 
+        content: Ecuador
+        draft: unconfirmed
+        type: EC
+      - 
+        content: Eštland
+        draft: unconfirmed
+        type: EE
+      - 
+        content: Egypte
+        draft: unconfirmed
+        type: EG
+      - 
+        content: Weštsahara
+        draft: unconfirmed
+        type: EH
+      - 
+        content: Eritrea
+        draft: unconfirmed
+        type: ER
+      - 
+        content: Schpanie
+        draft: unconfirmed
+        type: ES
+      - 
+        content: Ethiopie
+        draft: unconfirmed
+        type: ET
+      - 
+        content: Europäiši Unio
+        draft: unconfirmed
+        type: EU
+      - 
+        content: Finnland
+        draft: unconfirmed
+        type: FI
+      - 
+        content: Fidši
+        draft: unconfirmed
+        type: FJ
+      - 
+        content: Falklandinslä
+        draft: unconfirmed
+        type: FK
+      - 
+        alt: variant
+        content: Falklandinslä [Malwine]
+        draft: unconfirmed
+        type: FK
+      - 
+        content: Mikronesie
+        draft: unconfirmed
+        type: FM
+      - 
+        content: Färöe
+        draft: unconfirmed
+        type: FO
+      - 
+        content: Frankrič
+        draft: unconfirmed
+        type: FR
+      - 
+        content: Gabon
+        draft: unconfirmed
+        type: GA
+      - 
+        content: England
+        draft: unconfirmed
+        type: GB
+      - 
+        content: Grenada
+        draft: unconfirmed
+        type: GD
+      - 
+        content: Georgie
+        draft: unconfirmed
+        type: GE
+      - 
+        content: Französiš Guiana
+        draft: unconfirmed
+        type: GF
+      - 
+        content: Guernsey
+        draft: unconfirmed
+        type: GG
+      - 
+        content: Gana
+        draft: unconfirmed
+        type: GH
+      - 
+        content: Gibraltar
+        draft: unconfirmed
+        type: GI
+      - 
+        content: Grönland
+        draft: unconfirmed
+        type: GL
+      - 
+        content: Gambia
+        draft: unconfirmed
+        type: GM
+      - 
+        content: Ginea
+        draft: unconfirmed
+        type: GN
+      - 
+        content: Guadeloupe
+        draft: unconfirmed
+        type: GP
+      - 
+        content: Equatorialginea
+        draft: unconfirmed
+        type: GQ
+      - 
+        content: Gričeland
+        draft: unconfirmed
+        type: GR
+      - 
+        content: Südgeorgie und d'südliče Senwičinslä
+        draft: unconfirmed
+        type: GS
+      - 
+        content: Guatemala
+        draft: unconfirmed
+        type: GT
+      - 
+        content: Guam
+        draft: unconfirmed
+        type: GU
+      - 
+        content: Ginea Bissau
+        draft: unconfirmed
+        type: GW
+      - 
+        content: Guyana
+        draft: unconfirmed
+        type: GY
+      - 
+        content: Sonderverwaltigszona Hongkong
+        draft: unconfirmed
+        type: HK
+      - 
+        alt: short
+        content: Hongkong
+        draft: unconfirmed
+        type: HK
+      - 
+        content: Heard- und McDonald-Inslä
+        draft: unconfirmed
+        type: HM
+      - 
+        content: Honduras
+        draft: unconfirmed
+        type: HN
+      - 
+        content: Kroatie
+        draft: unconfirmed
+        type: HR
+      - 
+        content: Haiti
+        draft: unconfirmed
+        type: HT
+      - 
+        content: Ungare
+        draft: unconfirmed
+        type: HU
+      - 
+        content: Kanariše Inslä
+        draft: unconfirmed
+        type: IC
+      - 
+        content: Indonesie
+        draft: unconfirmed
+        type: ID
+      - 
+        content: Irland
+        draft: unconfirmed
+        type: IE
+      - 
+        content: Israel
+        draft: unconfirmed
+        type: IL
+      - 
+        content: Isle of Man
+        draft: unconfirmed
+        type: IM
+      - 
+        content: Indie
+        draft: unconfirmed
+        type: IN
+      - 
+        content: Britišes Territorium em indiše Ozean
+        draft: unconfirmed
+        type: IO
+      - 
+        content: Irak
+        draft: unconfirmed
+        type: IQ
+      - 
+        content: Iran
+        draft: unconfirmed
+        type: IR
+      - 
+        content: Island
+        draft: unconfirmed
+        type: IS
+      - 
+        content: Italie
+        draft: unconfirmed
+        type: IT
+      - 
+        content: Jersey
+        draft: unconfirmed
+        type: JE
+      - 
+        content: Jamaika
+        draft: unconfirmed
+        type: JM
+      - 
+        content: Jordanie
+        draft: unconfirmed
+        type: JO
+      - 
+        content: Japan
+        draft: unconfirmed
+        type: JP
+      - 
+        content: Kenya
+        draft: unconfirmed
+        type: KE
+      - 
+        content: Kirgištan
+        draft: unconfirmed
+        type: KG
+      - 
+        content: Kambodša
+        draft: unconfirmed
+        type: KH
+      - 
+        content: Kiribati
+        draft: unconfirmed
+        type: KI
+      - 
+        content: Komore
+        draft: unconfirmed
+        type: KM
+      - 
+        content: St. Kitts und Nevis
+        draft: unconfirmed
+        type: KN
+      - 
+        content: Nordkorea
+        draft: unconfirmed
+        type: KP
+      - 
+        content: Südkorea
+        draft: unconfirmed
+        type: KR
+      - 
+        content: Kuweit
+        draft: unconfirmed
+        type: KW
+      - 
+        content: Kaimaninslä
+        draft: unconfirmed
+        type: KY
+      - 
+        content: Kasačstan
+        draft: unconfirmed
+        type: KZ
+      - 
+        content: Laos
+        draft: unconfirmed
+        type: LA
+      - 
+        content: Libanon
+        draft: unconfirmed
+        type: LB
+      - 
+        content: St. Lucia
+        draft: unconfirmed
+        type: LC
+      - 
+        content: Liečteštei
+        draft: unconfirmed
+        type: LI
+      - 
+        content: Sri Lanka
+        draft: unconfirmed
+        type: LK
+      - 
+        content: Liberia
+        draft: unconfirmed
+        type: LR
+      - 
+        content: Lesotho
+        draft: unconfirmed
+        type: LS
+      - 
+        content: Litaue
+        draft: unconfirmed
+        type: LT
+      - 
+        content: Luxeburg
+        draft: unconfirmed
+        type: LU
+      - 
+        content: Lettland
+        draft: unconfirmed
+        type: LV
+      - 
+        content: Lübie
+        draft: unconfirmed
+        type: LY
+      - 
+        content: Maroko
+        draft: unconfirmed
+        type: MA
+      - 
+        content: Monago
+        draft: unconfirmed
+        type: MC
+      - 
+        content: Moldau
+        draft: unconfirmed
+        type: MD
+      - 
+        content: Montenegro
+        draft: unconfirmed
+        type: ME
+      - 
+        content: St. Martin
+        draft: unconfirmed
+        type: MF
+      - 
+        content: Madagaskar
+        draft: unconfirmed
+        type: MG
+      - 
+        content: Maršalinslä
+        draft: unconfirmed
+        type: MH
+      - 
+        content: Mazedonie
+        draft: unconfirmed
+        type: MK
+      - 
+        alt: variant
+        content: Mazedonie [EJR]
+        draft: unconfirmed
+        type: MK
+      - 
+        content: Mali
+        draft: unconfirmed
+        type: ML
+      - 
+        content: Burma
+        draft: unconfirmed
+        type: MM
+      - 
+        content: Mongolei
+        draft: unconfirmed
+        type: MN
+      - 
+        content: Sonderverwaltigszona Makau
+        draft: unconfirmed
+        type: MO
+      - 
+        alt: short
+        content: Makau
+        draft: unconfirmed
+        type: MO
+      - 
+        content: Nördliči Mariane
+        draft: unconfirmed
+        type: MP
+      - 
+        content: Martinique
+        draft: unconfirmed
+        type: MQ
+      - 
+        content: Mauretanie
+        draft: unconfirmed
+        type: MR
+      - 
+        content: Monserrat
+        draft: unconfirmed
+        type: MS
+      - 
+        content: Malta
+        draft: unconfirmed
+        type: MT
+      - 
+        content: Mauritius
+        draft: unconfirmed
+        type: MU
+      - 
+        content: Malediwe
+        draft: unconfirmed
+        type: MV
+      - 
+        content: Malawi
+        draft: unconfirmed
+        type: MW
+      - 
+        content: Mexiko
+        draft: unconfirmed
+        type: MX
+      - 
+        content: Malaysia
+        draft: unconfirmed
+        type: MY
+      - 
+        content: Mosambik
+        draft: unconfirmed
+        type: MZ
+      - 
+        content: Namibia
+        draft: unconfirmed
+        type: NA
+      - 
+        content: Niwkaledonie
+        draft: unconfirmed
+        type: NC
+      - 
+        content: Niger
+        draft: unconfirmed
+        type: NE
+      - 
+        content: Norfolkinsla
+        draft: unconfirmed
+        type: NF
+      - 
+        content: Nigeria
+        draft: unconfirmed
+        type: NG
+      - 
+        content: Nicaragua
+        draft: unconfirmed
+        type: NI
+      - 
+        content: Holand
+        draft: unconfirmed
+        type: NL
+      - 
+        content: Norwäge
+        draft: unconfirmed
+        type: 'NO'
+      - 
+        content: Nepal
+        draft: unconfirmed
+        type: NP
+      - 
+        content: Nauru
+        draft: unconfirmed
+        type: NR
+      - 
+        content: Niue
+        draft: unconfirmed
+        type: NU
+      - 
+        content: Niwséland
+        draft: unconfirmed
+        type: NZ
+      - 
+        content: Oman
+        draft: unconfirmed
+        type: OM
+      - 
+        content: Panama
+        draft: unconfirmed
+        type: PA
+      - 
+        content: Peru
+        draft: unconfirmed
+        type: PE
+      - 
+        content: Französiš Polinesie
+        draft: unconfirmed
+        type: PF
+      - 
+        content: Papua Niwginea
+        draft: unconfirmed
+        type: PG
+      - 
+        content: Philippine
+        draft: unconfirmed
+        type: PH
+      - 
+        content: Pakištan
+        draft: unconfirmed
+        type: PK
+      - 
+        content: Pole
+        draft: unconfirmed
+        type: PL
+      - 
+        content: St. Pierre und Miquelon
+        draft: unconfirmed
+        type: PM
+      - 
+        content: Pitcairn
+        draft: unconfirmed
+        type: PN
+      - 
+        content: Puerto Rico
+        draft: unconfirmed
+        type: PR
+      - 
+        content: Paleština
+        draft: unconfirmed
+        type: PS
+      - 
+        content: Portugal
+        draft: unconfirmed
+        type: PT
+      - 
+        content: Palau
+        draft: unconfirmed
+        type: PW
+      - 
+        content: Paraguai
+        draft: unconfirmed
+        type: PY
+      - 
+        content: Katar
+        draft: unconfirmed
+        type: QA
+      - 
+        content: Üssers Ozeanie
+        draft: unconfirmed
+        type: QO
+      - 
+        content: Réunion
+        draft: unconfirmed
+        type: RE
+      - 
+        content: Rumänie
+        draft: unconfirmed
+        type: RO
+      - 
+        content: Serbie
+        draft: unconfirmed
+        type: RS
+      - 
+        content: Russland
+        draft: unconfirmed
+        type: RU
+      - 
+        content: Ruanda
+        draft: unconfirmed
+        type: RW
+      - 
+        content: Saudi Arabie
+        draft: unconfirmed
+        type: SA
+      - 
+        content: Salomone
+        draft: unconfirmed
+        type: SB
+      - 
+        content: Sečelle
+        draft: unconfirmed
+        type: SC
+      - 
+        content: Sudan
+        draft: unconfirmed
+        type: SD
+      - 
+        content: Schwede
+        draft: unconfirmed
+        type: SE
+      - 
+        content: Singapur
+        draft: unconfirmed
+        type: SG
+      - 
+        content: St. Helena
+        draft: unconfirmed
+        type: SH
+      - 
+        content: Slowenie
+        draft: unconfirmed
+        type: SI
+      - 
+        content: Svalbard und Jan Mayen
+        draft: unconfirmed
+        type: SJ
+      - 
+        content: Slowakei
+        draft: unconfirmed
+        type: SK
+      - 
+        content: Sierra Leone
+        draft: unconfirmed
+        type: SL
+      - 
+        content: San Marino
+        draft: unconfirmed
+        type: SM
+      - 
+        content: Senegal
+        draft: unconfirmed
+        type: SN
+      - 
+        content: Somalia
+        draft: unconfirmed
+        type: SO
+      - 
+        content: Suriname
+        draft: unconfirmed
+        type: SR
+      - 
+        content: São Tomé and Príncipe
+        draft: unconfirmed
+        type: ST
+      - 
+        content: El Salvador
+        draft: unconfirmed
+        type: SV
+      - 
+        content: Sürie
+        draft: unconfirmed
+        type: SY
+      - 
+        content: Swasiland
+        draft: unconfirmed
+        type: SZ
+      - 
+        content: Tristan da Cunha
+        draft: unconfirmed
+        type: TA
+      - 
+        content: Turks- und Caicosinslä
+        draft: unconfirmed
+        type: TC
+      - 
+        content: Tšad
+        draft: unconfirmed
+        type: TD
+      - 
+        content: Französiši Süd- und Antarktisgebiet
+        draft: unconfirmed
+        type: TF
+      - 
+        content: Togo
+        draft: unconfirmed
+        type: TG
+      - 
+        content: Thailand
+        draft: unconfirmed
+        type: TH
+      - 
+        content: Tadšikistan
+        draft: unconfirmed
+        type: TJ
+      - 
+        content: Tokelau
+        draft: unconfirmed
+        type: TK
+      - 
+        content: Ošttimor
+        draft: unconfirmed
+        type: TL
+      - 
+        alt: variant
+        content: Wešttimor
+        draft: unconfirmed
+        type: TL
+      - 
+        content: Turkmeništan
+        draft: unconfirmed
+        type: TM
+      - 
+        content: Tunesie
+        draft: unconfirmed
+        type: TN
+      - 
+        content: Tonga
+        draft: unconfirmed
+        type: TO
+      - 
+        content: Türkei
+        draft: unconfirmed
+        type: TR
+      - 
+        content: Trinidad und Tobago
+        draft: unconfirmed
+        type: TT
+      - 
+        content: Tuvalu
+        draft: unconfirmed
+        type: TV
+      - 
+        content: Taiwan
+        draft: unconfirmed
+        type: TW
+      - 
+        content: Tansania
+        draft: unconfirmed
+        type: TZ
+      - 
+        content: Ukraine
+        draft: unconfirmed
+        type: UA
+      - 
+        content: Uganda
+        draft: unconfirmed
+        type: UG
+      - 
+        content: Amerikaniš Ozeanie
+        draft: unconfirmed
+        type: UM
+      - 
+        content: Amerika
+        draft: unconfirmed
+        type: US
+      - 
+        content: Urugauy
+        draft: unconfirmed
+        type: UY
+      - 
+        content: Usbekištan
+        draft: unconfirmed
+        type: UZ
+      - 
+        content: Vatikan
+        draft: unconfirmed
+        type: VA
+      - 
+        content: St. Vincent und d'Grenadine
+        draft: unconfirmed
+        type: VC
+      - 
+        content: Venezuela
+        draft: unconfirmed
+        type: VE
+      - 
+        content: Britiši Jungfröiwinslä
+        draft: unconfirmed
+        type: VG
+      - 
+        content: Amerikaniši Jungfröiwinslä
+        draft: unconfirmed
+        type: VI
+      - 
+        content: Vietnam
+        draft: unconfirmed
+        type: VN
+      - 
+        content: Vanuatu
+        draft: unconfirmed
+        type: VU
+      - 
+        content: Wallis und Futuna
+        draft: unconfirmed
+        type: WF
+      - 
+        content: Samoa
+        draft: unconfirmed
+        type: WS
+      - 
+        content: Jéme
+        draft: unconfirmed
+        type: YE
+      - 
+        content: Moyette
+        draft: unconfirmed
+        type: YT
+      - 
+        content: Südafrika
+        draft: unconfirmed
+        type: ZA
+      - 
+        content: Sambia
+        draft: unconfirmed
+        type: ZM
+      - 
+        content: Simbabwe
+        draft: unconfirmed
+        type: ZW
+      - 
+        content: Unbekannti Regio
+        draft: unconfirmed
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: Gregorianišä Kaländer
+        draft: unconfirmed
+        type: gregorian
+      collation: 
+        content: Allgmeini Süeč
+        draft: unconfirmed
+        type: search
+      numbers: 
+        content: Arabiši Zálä
+        draft: unconfirmed
+        type: latn
+numbers: 
+  currencies: 
+    currency: 
+      - 
+        displayName: 
+          - 
+            content: Brasilianiši Real
+            draft: unconfirmed
+          - 
+            content: Brasilianišä Real
+            count: one
+            draft: unconfirmed
+          - 
+            content: Brasilianiši Real
+            count: other
+            draft: unconfirmed
+        type: BRL
+      - 
+        displayName: 
+          - 
+            content: Chinesiši Yuan
+            draft: unconfirmed
+          - 
+            content: Chinesišä Yuan
+            count: one
+            draft: unconfirmed
+          - 
+            content: Chinesiši Yuan
+            count: other
+            draft: unconfirmed
+        type: CNY
+      - 
+        displayName: 
+          - 
+            content: Euro
+            draft: unconfirmed
+          - 
+            content: Euro
+            count: one
+            draft: unconfirmed
+          - 
+            content: Euro
+            count: other
+            draft: unconfirmed
+        type: EUR
+      - 
+        displayName: 
+          - 
+            content: Pfund
+            draft: unconfirmed
+          - 
+            content: Pfund
+            count: one
+            draft: unconfirmed
+          - 
+            content: Pfund
+            count: other
+            draft: unconfirmed
+        type: GBP
+      - 
+        displayName: 
+          - 
+            content: Indiši Rupie
+            draft: unconfirmed
+          - 
+            content: Indišä Rupie
+            count: one
+            draft: unconfirmed
+          - 
+            content: Indiši Rupie
+            count: other
+            draft: unconfirmed
+        type: INR
+      - 
+        displayName: 
+          - 
+            content: Yen
+            draft: unconfirmed
+          - 
+            content: Yen
+            count: one
+            draft: unconfirmed
+          - 
+            content: Yen
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: ¥
+          draft: unconfirmed
+        type: JPY
+      - 
+        displayName: 
+          - 
+            content: Rubel
+            draft: unconfirmed
+          - 
+            content: Rubel
+            count: one
+            draft: unconfirmed
+          - 
+            content: Rubel
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: руб
+          draft: unconfirmed
+        type: RUB
+      - 
+        displayName: 
+          - 
+            content: Dollar
+            draft: unconfirmed
+          - 
+            content: Dollar
+            count: one
+            draft: unconfirmed
+          - 
+            content: Dollar
+            count: other
+            draft: unconfirmed
+        symbol: 
+          content: $
+          draft: unconfirmed
+        type: USD
+      - 
+        displayName: 
+          - 
+            content: Unbekannti Wãrig
+            draft: unconfirmed
+          - 
+            content: Unbekannti Wãrig
+            count: one
+            draft: unconfirmed
+          - 
+            content: Unbekannti Wãrig
+            count: other
+            draft: unconfirmed
+        type: XXX
+  currencyFormats: 
+    numberSystem: latn
+    unitPattern: 
+      - 
+        content: "{0} {1}"
+        count: one
+        draft: unconfirmed
+      - 
+        content: "{0} {1}"
+        count: other
+        draft: unconfirmed
+  symbols: 
+    decimal: 
+      content: ","
+      draft: unconfirmed
+    group: 
+      content: ’
+      draft: unconfirmed
+    numberSystem: latn
+posix: 
+  messages: 
+    nostr: 
+      content: nei:n
+      draft: unconfirmed
+    yesstr: 
+      content: ja:j:y
+      draft: unconfirmed
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        - 
+          content: "{0} täg"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} täg"
+          count: other
+          draft: unconfirmed
+    - 
+      type: day-future
+      unitPattern: 
+        - 
+          content: i {0} tag
+          count: one
+          draft: unconfirmed
+        - 
+          content: i {0} täg
+          count: other
+          draft: unconfirmed
+    - 
+      type: day-past
+      unitPattern: 
+        - 
+          content: vor {0} tag
+          count: one
+          draft: unconfirmed
+        - 
+          content: vor {0} täg
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour
+      unitPattern: 
+        - 
+          content: "{0} stund"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} stunde"
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour-future
+      unitPattern: 
+        - 
+          content: i {0} stund
+          count: one
+          draft: unconfirmed
+        - 
+          content: i {0} stunde
+          count: other
+          draft: unconfirmed
+    - 
+      type: hour-past
+      unitPattern: 
+        - 
+          content: vor {0} stund
+          count: one
+          draft: unconfirmed
+        - 
+          content: vor {0} stunde
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute
+      unitPattern: 
+        - 
+          content: "{0} minüta"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} minüte"
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute-future
+      unitPattern: 
+        - 
+          content: i {0} minüta
+          count: one
+          draft: unconfirmed
+        - 
+          content: i {0} minüte
+          count: other
+          draft: unconfirmed
+    - 
+      type: minute-past
+      unitPattern: 
+        - 
+          content: vor {0} minüta
+          count: one
+          draft: unconfirmed
+        - 
+          content: vor {0} minüte
+          count: other
+          draft: unconfirmed
+    - 
+      type: month
+      unitPattern: 
+        - 
+          content: "{0} mánet"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} mánet"
+          count: other
+          draft: unconfirmed
+    - 
+      type: month-future
+      unitPattern: 
+        - 
+          content: I {0} mánet
+          count: one
+          draft: unconfirmed
+        - 
+          content: I {0} mánet
+          count: other
+          draft: unconfirmed
+    - 
+      type: month-past
+      unitPattern: 
+        - 
+          content: vor {0} mánet
+          count: one
+          draft: unconfirmed
+        - 
+          content: vor {0} mánet
+          count: other
+          draft: unconfirmed
+    - 
+      type: second
+      unitPattern: 
+        - 
+          content: "{0} sekund"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} sekunde"
+          count: other
+          draft: unconfirmed
+    - 
+      type: second-future
+      unitPattern: 
+        - 
+          content: i {0} sekund
+          count: one
+          draft: unconfirmed
+        - 
+          content: i {0} sekunde
+          count: other
+          draft: unconfirmed
+    - 
+      type: second-past
+      unitPattern: 
+        - 
+          content: vor {0} sekund
+          count: one
+          draft: unconfirmed
+        - 
+          content: vor {0} sekunde
+          count: other
+          draft: unconfirmed
+    - 
+      type: week
+      unitPattern: 
+        - 
+          content: "{0} wuča"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} wučä"
+          count: other
+          draft: unconfirmed
+    - 
+      type: week-future
+      unitPattern: 
+        - 
+          content: i {0} wuča
+          count: one
+          draft: unconfirmed
+        - 
+          content: i {0} wučä
+          count: other
+          draft: unconfirmed
+    - 
+      type: week-past
+      unitPattern: 
+        - 
+          content: vor {0} wuča
+          count: one
+          draft: unconfirmed
+        - 
+          content: cor {0} wučä
+          count: other
+          draft: unconfirmed
+    - 
+      type: year
+      unitPattern: 
+        - 
+          content: "{0} jár"
+          count: one
+          draft: unconfirmed
+        - 
+          content: "{0} jár"
+          count: other
+          draft: unconfirmed
+    - 
+      type: year-future
+      unitPattern: 
+        - 
+          content: I {0} jár
+          count: one
+          draft: unconfirmed
+        - 
+          content: I {0} jár
+          count: other
+          draft: unconfirmed
+    - 
+      type: year-past
+      unitPattern: 
+        - 
+          content: vor {0} jár
+          count: one
+          draft: unconfirmed
+        - 
+          content: cor {0} jár
+          count: other
+          draft: unconfirmed

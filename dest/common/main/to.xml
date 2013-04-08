@@ -1,0 +1,3981 @@
+characters: 
+  exemplarCharacters: 
+    - "[a á ā e é ē f h i í ī k l m n {ng} o ó ō p s t u ú ū v ʻ]"
+    - 
+      content: "[à ă â å ä æ b c ç d è ĕ ê ë g ì ĭ î ï j ñ ò ŏ ô ö ø œ q r ù ŭ û ü w x y ÿ z]"
+      type: auxiliary
+    - 
+      content: "[A E F H I K L M N {NG} O P S T U V ʻ]"
+      type: index
+  moreInformation: 
+    content: "?"
+    draft: unconfirmed
+dates: 
+  calendars: 
+    calendar: 
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y G
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y G
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y G
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy GGGGG
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+                draft: unconfirmed
+              Hm: 
+                content: H:mm
+              Hms: 
+                content: H:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M-y
+              yMEd: 
+                content: E, d/M/y
+              yMM: 
+                content: MM-y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+                draft: unconfirmed
+              yMd: 
+                content: d-M-y
+                draft: unconfirmed
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M - E, d/M
+                  d: 
+                    content: E, d/M - E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                  d: 
+                    content: E, d MMM - E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                  d: 
+                    content: d-d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M - d/M
+                  d: 
+                    content: d/M - d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y - M/y
+                  "y": 
+                    content: M/y - M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y - E, d/M/y
+                  d: 
+                    content: E, d/M/y - E, d/M/y
+                  "y": 
+                    content: E, d/M/y - E, d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                  "y": 
+                    content: MMM y - MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y
+                  d: 
+                    content: E, d MMM - E, d MMM y
+                  "y": 
+                    content: E, d MMM y - E, d MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                  "y": 
+                    content: MMMM y - MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y
+                  d: 
+                    content: MMM d-d, y
+                  "y": 
+                    content: d MMM y - d MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y - d/M/y
+                  d: 
+                    content: d/M/y - d/M/y
+                  "y": 
+                    content: d/M/y - d/M/y
+        type: generic
+      - 
+        dateFormats: 
+          dateFormatLength: 
+            - 
+              dateFormat: 
+                pattern: EEEE d MMMM y
+              type: full
+            - 
+              dateFormat: 
+                pattern: d MMMM y
+              type: long
+            - 
+              dateFormat: 
+                pattern: d MMM y
+              type: medium
+            - 
+              dateFormat: 
+                pattern: d/M/yy
+              type: short
+        dateTimeFormats: 
+          availableFormats: 
+            dateFormatItem: 
+              Ed: 
+                content: d E
+              H: 
+                content: HH
+                draft: unconfirmed
+              Hm: 
+                content: H:mm
+              Hms: 
+                content: H:mm:ss
+              M: 
+                content: L
+              MEd: 
+                content: E, d/M
+              MMM: 
+                content: LLL
+              MMMEd: 
+                content: E d MMM
+              MMMMEd: 
+                content: E d MMMM
+              MMMMd: 
+                content: d MMMM
+              MMMd: 
+                content: d MMM
+              Md: 
+                content: d/M
+              d: 
+                content: d
+              h: 
+                content: h a
+                draft: unconfirmed
+              hm: 
+                content: h:mm a
+              hms: 
+                content: h:mm:ss a
+              ms: 
+                content: mm:ss
+              "y": 
+                content: 'y'
+              yM: 
+                content: M-y
+              yMEd: 
+                content: E, d/M/y
+              yMM: 
+                content: MM-y
+              yMMM: 
+                content: MMM y
+              yMMMEd: 
+                content: E d MMM y
+              yMMMM: 
+                content: MMMM y
+              yMMMd: 
+                content: d MMM y
+                draft: unconfirmed
+              yMd: 
+                content: d-M-y
+                draft: unconfirmed
+              yQQQ: 
+                content: y QQQ
+              yQQQQ: 
+                content: y QQQQ
+          dateTimeFormatLength: 
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: full
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: long
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: medium
+            - 
+              dateTimeFormat: 
+                pattern: 
+                  content: "{1} {0}"
+                  draft: unconfirmed
+              type: short
+          intervalFormats: 
+            intervalFormatFallback: "{0} – {1}"
+            intervalFormatItem: 
+              H: 
+                greatestDifference: 
+                  content: HH–HH
+                  draft: unconfirmed
+                  id: H
+              Hm: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm
+                    draft: unconfirmed
+              Hmv: 
+                greatestDifference: 
+                  H: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+                  m: 
+                    content: HH:mm–HH:mm v
+                    draft: unconfirmed
+              Hv: 
+                greatestDifference: 
+                  content: HH–HH v
+                  draft: unconfirmed
+                  id: H
+              M: 
+                greatestDifference: 
+                  content: M–M
+                  id: M
+              MEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M - E, d/M
+                  d: 
+                    content: E, d/M - E, d/M
+              MMM: 
+                greatestDifference: 
+                  content: LLL–LLL
+                  id: M
+              MMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM
+                  d: 
+                    content: E, d MMM - E, d MMM
+              MMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM
+                  d: 
+                    content: d-d MMM
+              Md: 
+                greatestDifference: 
+                  M: 
+                    content: d/M - d/M
+                  d: 
+                    content: d/M - d/M
+              d: 
+                greatestDifference: 
+                  content: d–d
+                  id: d
+              h: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a
+                  h: 
+                    content: h–h a
+              hm: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a
+                  h: 
+                    content: h:mm–h:mm a
+                  m: 
+                    content: h:mm–h:mm a
+              hmv: 
+                greatestDifference: 
+                  a: 
+                    content: h:mm a – h:mm a v
+                  h: 
+                    content: h:mm–h:mm a v
+                  m: 
+                    content: h:mm–h:mm a v
+              hv: 
+                greatestDifference: 
+                  a: 
+                    content: h a – h a v
+                  h: 
+                    content: h–h a v
+              "y": 
+                greatestDifference: 
+                  content: y–y
+                  id: 'y'
+              yM: 
+                greatestDifference: 
+                  M: 
+                    content: M/y - M/y
+                  "y": 
+                    content: M/y - M/y
+              yMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d/M/y - E, d/M/y
+                  d: 
+                    content: E, d/M/y - E, d/M/y
+                  "y": 
+                    content: E, d/M/y - E, d/M/y
+              yMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMM-MMM y
+                  "y": 
+                    content: MMM y - MMM y
+              yMMMEd: 
+                greatestDifference: 
+                  M: 
+                    content: E, d MMM - E, d MMM y
+                  d: 
+                    content: E, d MMM - E, d MMM y
+                  "y": 
+                    content: E, d MMM y - E, d MMM y
+              yMMMM: 
+                greatestDifference: 
+                  M: 
+                    content: MMMM - MMMM y
+                  "y": 
+                    content: MMMM y - MMMM y
+              yMMMd: 
+                greatestDifference: 
+                  M: 
+                    content: d MMM - d MMM y
+                  d: 
+                    content: MMM d-d, y
+                  "y": 
+                    content: d MMM y - d MMM y
+              yMd: 
+                greatestDifference: 
+                  M: 
+                    content: d/M/y - d/M/y
+                  d: 
+                    content: d/M/y - d/M/y
+                  "y": 
+                    content: d/M/y - d/M/y
+        dayPeriods: 
+          dayPeriodContext: 
+            dayPeriodWidth: 
+              - 
+                dayPeriod: 
+                  - 
+                    content: AM
+                    type: am
+                  - 
+                    content: PM
+                    type: pm
+                type: narrow
+              - 
+                dayPeriod: 
+                  - 
+                    content: AM
+                    type: am
+                  - 
+                    content: PM
+                    type: pm
+                type: wide
+            type: format
+        days: 
+          dayContext: 
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sāp
+                      type: sun
+                    - 
+                      content: Mōn
+                      type: mon
+                    - 
+                      content: Tūs
+                      type: tue
+                    - 
+                      content: Pul
+                      type: wed
+                    - 
+                      content: Tuʻa
+                      type: thu
+                    - 
+                      content: Fal
+                      type: fri
+                    - 
+                      content: Tok
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: S
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: P
+                      type: wed
+                    - 
+                      content: T
+                      type: thu
+                    - 
+                      content: F
+                      type: fri
+                    - 
+                      content: T
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Sāp
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Mōn
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Tūs
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Pul
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Tuʻa
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Fal
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Tok
+                      draft: unconfirmed
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: Sāpate
+                      type: sun
+                    - 
+                      content: Mōnite
+                      type: mon
+                    - 
+                      content: Tūsite
+                      type: tue
+                    - 
+                      content: Pulelulu
+                      type: wed
+                    - 
+                      content: Tuʻapulelulu
+                      type: thu
+                    - 
+                      content: Falaite
+                      type: fri
+                    - 
+                      content: Tokonaki
+                      type: sat
+                  type: wide
+              type: format
+            - 
+              dayWidth: 
+                - 
+                  day: 
+                    - 
+                      content: Sāp
+                      type: sun
+                    - 
+                      content: Mōn
+                      type: mon
+                    - 
+                      content: Tūs
+                      type: tue
+                    - 
+                      content: Pul
+                      type: wed
+                    - 
+                      content: Tuʻa
+                      type: thu
+                    - 
+                      content: Fal
+                      type: fri
+                    - 
+                      content: Tok
+                      type: sat
+                  type: abbreviated
+                - 
+                  day: 
+                    - 
+                      content: S
+                      type: sun
+                    - 
+                      content: M
+                      type: mon
+                    - 
+                      content: T
+                      type: tue
+                    - 
+                      content: P
+                      type: wed
+                    - 
+                      content: T
+                      type: thu
+                    - 
+                      content: F
+                      type: fri
+                    - 
+                      content: T
+                      type: sat
+                  type: narrow
+                - 
+                  day: 
+                    - 
+                      content: Sāp
+                      draft: unconfirmed
+                      type: sun
+                    - 
+                      content: Mōn
+                      draft: unconfirmed
+                      type: mon
+                    - 
+                      content: Tūs
+                      draft: unconfirmed
+                      type: tue
+                    - 
+                      content: Pul
+                      draft: unconfirmed
+                      type: wed
+                    - 
+                      content: Tuʻa
+                      draft: unconfirmed
+                      type: thu
+                    - 
+                      content: Fal
+                      draft: unconfirmed
+                      type: fri
+                    - 
+                      content: Tok
+                      draft: unconfirmed
+                      type: sat
+                  type: short
+                - 
+                  day: 
+                    - 
+                      content: Sāpate
+                      type: sun
+                    - 
+                      content: Mōnite
+                      type: mon
+                    - 
+                      content: Tūsite
+                      type: tue
+                    - 
+                      content: Pulelulu
+                      type: wed
+                    - 
+                      content: Tuʻapulelulu
+                      type: thu
+                    - 
+                      content: Falaite
+                      type: fri
+                    - 
+                      content: Tokonaki
+                      type: sat
+                  type: wide
+              type: stand-alone
+        eras: 
+          eraAbbr: 
+            era: 
+              - 
+                content: KM
+                type: 0
+              - 
+                content: TS
+                type: 1
+          eraNames: 
+            era: 
+              - 
+                content: ki muʻa
+                type: 0
+              - 
+                content: taʻu ʻo Sīsū
+                type: 1
+          eraNarrow: 
+            era: 
+              - 
+                content: KāMā
+                type: 0
+              - 
+                content: TāSā
+                type: 1
+        months: 
+          monthContext: 
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Sān
+                      type: 1
+                    - 
+                      content: Fēp
+                      type: 2
+                    - 
+                      content: Maʻa
+                      type: 3
+                    - 
+                      content: ʻEpe
+                      type: 4
+                    - 
+                      content: Mē
+                      type: 5
+                    - 
+                      content: Sun
+                      type: 6
+                    - 
+                      content: Siu
+                      type: 7
+                    - 
+                      content: ʻAok
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: ʻOka
+                      type: 10
+                    - 
+                      content: Nōv
+                      type: 11
+                    - 
+                      content: Tīs
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: S
+                      type: 1
+                    - 
+                      content: F
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: E
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: S
+                      type: 6
+                    - 
+                      content: S
+                      type: 7
+                    - 
+                      content: A
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: T
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Sānuali
+                      type: 1
+                    - 
+                      content: Fēpueli
+                      type: 2
+                    - 
+                      content: Maʻasi
+                      type: 3
+                    - 
+                      content: ʻEpeleli
+                      type: 4
+                    - 
+                      content: Mē
+                      type: 5
+                    - 
+                      content: Sune
+                      type: 6
+                    - 
+                      content: Siulai
+                      type: 7
+                    - 
+                      content: ʻAokosi
+                      type: 8
+                    - 
+                      content: Sepitema
+                      type: 9
+                    - 
+                      content: ʻOkatopa
+                      type: 10
+                    - 
+                      content: Nōvema
+                      type: 11
+                    - 
+                      content: Tīsema
+                      type: 12
+                  type: wide
+              type: format
+            - 
+              monthWidth: 
+                - 
+                  month: 
+                    - 
+                      content: Sān
+                      type: 1
+                    - 
+                      content: Fēp
+                      type: 2
+                    - 
+                      content: Maʻa
+                      type: 3
+                    - 
+                      content: ʻEpe
+                      type: 4
+                    - 
+                      content: Mē
+                      type: 5
+                    - 
+                      content: Sun
+                      type: 6
+                    - 
+                      content: Siu
+                      type: 7
+                    - 
+                      content: ʻAok
+                      type: 8
+                    - 
+                      content: Sep
+                      type: 9
+                    - 
+                      content: ʻOka
+                      type: 10
+                    - 
+                      content: Nōv
+                      type: 11
+                    - 
+                      content: Tīs
+                      type: 12
+                  type: abbreviated
+                - 
+                  month: 
+                    - 
+                      content: S
+                      type: 1
+                    - 
+                      content: F
+                      type: 2
+                    - 
+                      content: M
+                      type: 3
+                    - 
+                      content: E
+                      type: 4
+                    - 
+                      content: M
+                      type: 5
+                    - 
+                      content: S
+                      type: 6
+                    - 
+                      content: S
+                      type: 7
+                    - 
+                      content: A
+                      type: 8
+                    - 
+                      content: S
+                      type: 9
+                    - 
+                      content: O
+                      type: 10
+                    - 
+                      content: 'N'
+                      type: 11
+                    - 
+                      content: T
+                      type: 12
+                  type: narrow
+                - 
+                  month: 
+                    - 
+                      content: Sānuali
+                      type: 1
+                    - 
+                      content: Fēpueli
+                      type: 2
+                    - 
+                      content: Maʻasi
+                      type: 3
+                    - 
+                      content: ʻEpeleli
+                      type: 4
+                    - 
+                      content: Mē
+                      type: 5
+                    - 
+                      content: Sune
+                      type: 6
+                    - 
+                      content: Siulai
+                      type: 7
+                    - 
+                      content: ʻAokosi
+                      type: 8
+                    - 
+                      content: Sepitema
+                      type: 9
+                    - 
+                      content: ʻOkatopa
+                      type: 10
+                    - 
+                      content: Nōvema
+                      type: 11
+                    - 
+                      content: Tīsema
+                      type: 12
+                  type: wide
+              type: stand-alone
+        quarters: 
+          quarterContext: 
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: K1
+                      type: 1
+                    - 
+                      content: K2
+                      type: 2
+                    - 
+                      content: K3
+                      type: 3
+                    - 
+                      content: K4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4
+                      draft: unconfirmed
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: kuata ʻuluaki
+                      type: 1
+                    - 
+                      content: kuata ua
+                      type: 2
+                    - 
+                      content: kuata tolu
+                      type: 3
+                    - 
+                      content: kuata fā
+                      type: 4
+                  type: wide
+              type: format
+            - 
+              quarterWidth: 
+                - 
+                  quarter: 
+                    - 
+                      content: K1
+                      type: 1
+                    - 
+                      content: K2
+                      type: 2
+                    - 
+                      content: K3
+                      type: 3
+                    - 
+                      content: K4
+                      type: 4
+                  type: abbreviated
+                - 
+                  quarter: 
+                    - 
+                      content: 1
+                      draft: unconfirmed
+                      type: 1
+                    - 
+                      content: 2
+                      draft: unconfirmed
+                      type: 2
+                    - 
+                      content: 3
+                      draft: unconfirmed
+                      type: 3
+                    - 
+                      content: 4
+                      draft: unconfirmed
+                      type: 4
+                  type: narrow
+                - 
+                  quarter: 
+                    - 
+                      content: kuata 1
+                      type: 1
+                    - 
+                      content: kuata 2
+                      type: 2
+                    - 
+                      content: kuata 3
+                      type: 3
+                    - 
+                      content: kuata 4
+                      type: 4
+                  type: wide
+              type: stand-alone
+        timeFormats: 
+          timeFormatLength: 
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss zzzz
+              type: full
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss z
+              type: long
+            - 
+              timeFormat: 
+                pattern: HH:mm:ss
+              type: medium
+            - 
+              timeFormat: 
+                pattern: HH:mm
+              type: short
+        type: gregorian
+  fields: 
+    field: 
+      - 
+        displayName: kuonga
+        type: era
+      - 
+        displayName: taʻu
+        type: year
+      - 
+        displayName: māhina
+        type: month
+      - 
+        displayName: uike
+        type: week
+      - 
+        displayName: ʻaho
+        relative: 
+          - 
+            content: ʻaneheafi
+            type: -2
+          - 
+            content: ʻaneafi
+            type: -1
+          - 
+            content: ʻaho⸍ni
+            type: 0
+          - 
+            content: ʻapongipongi
+            type: 1
+          - 
+            content: ʻahepongipongi
+            type: 2
+        type: day
+      - 
+        displayName: ʻaho ʻo e uike
+        type: weekday
+      - 
+        displayName: AM/PM
+        type: dayperiod
+      - 
+        displayName: houa
+        type: hour
+      - 
+        displayName: miniti
+        type: minute
+      - 
+        displayName: sekoni
+        type: second
+      - 
+        displayName: taimi fakavahe
+        type: zone
+  timeZoneNames: 
+    fallbackFormat: "{1} ({0})"
+    fallbackRegionFormat: 
+      content: Houa {1} ({0})
+      draft: contributed
+    gmtFormat: GMT{0}
+    gmtZeroFormat: 
+      content: GMT
+      draft: unconfirmed
+    hourFormat: +HH:mm;-HH:mm
+    metazone: 
+      - 
+        long: 
+          standard: 
+            content: houa fakakamolo
+            draft: unconfirmed
+        type: Chamorro
+      - 
+        long: 
+          daylight: 
+            content: houa fakasatihami fakamaama
+            draft: unconfirmed
+          generic: 
+            content: houa fakasatihami
+            draft: unconfirmed
+          standard: 
+            content: houa fakasatihami fakasīpinga
+            draft: unconfirmed
+        type: Chatham
+      - 
+        long: 
+          standard: 
+            content: houa fakamotukilisimasi
+            draft: unconfirmed
+        type: Christmas
+      - 
+        long: 
+          standard: 
+            content: houa fakamotukokosi
+            draft: unconfirmed
+        type: Cocos
+      - 
+        long: 
+          daylight: 
+            content: houa fakaʻotumotukuki fakamaama
+            draft: unconfirmed
+          generic: 
+            content: houa fakaʻotumotukuki
+            draft: unconfirmed
+          standard: 
+            content: houa fakaʻotumotukuki fakasīpinga
+            draft: unconfirmed
+        type: Cook
+      - 
+        long: 
+          daylight: 
+            content: houa fakalapanui fakamaama
+            draft: unconfirmed
+          generic: 
+            content: houa fakalapanui
+            draft: unconfirmed
+          standard: 
+            content: houa fakalapanui fakasīpinga
+            draft: unconfirmed
+        type: Easter
+      - 
+        long: 
+          daylight: houa fakafisi fakamaama
+          generic: houa fakafisi
+          standard: houa fakafisi fakasīpinga
+        type: Fiji
+      - 
+        long: 
+          standard: 
+            content: houa fakaʻanetātikafalanisē
+            draft: unconfirmed
+        type: French_Southern
+      - 
+        long: 
+          standard: 
+            content: houa fakakalapakosi
+            draft: unconfirmed
+        type: Galapagos
+      - 
+        long: 
+          standard: 
+            content: houa fakakamipiē
+            draft: unconfirmed
+        type: Gambier
+      - 
+        long: 
+          standard: 
+            content: houa fakakilipasi
+            draft: unconfirmed
+        type: Gilbert_Islands
+      - 
+        long: 
+          standard: 
+            content: houa fakakuami
+            draft: unconfirmed
+        type: Guam
+      - 
+        long: 
+          daylight: houa fakahauaʻi fakamaama
+          generic: houa fakahauaʻi
+          standard: houa fakahauaʻi fakasīpinga
+        type: Hawaii_Aleutian
+      - 
+        long: 
+          standard: 
+            content: houa fakamoanaʻinitia
+            draft: unconfirmed
+        type: Indian_Ocean
+      - 
+        long: 
+          standard: 
+            content: houa fakakosirae
+            draft: unconfirmed
+        type: Kosrae
+      - 
+        long: 
+          standard: 
+            content: houa fakaʻotumotulaine
+            draft: unconfirmed
+        type: Line_Islands
+      - 
+        long: 
+          standard: 
+            content: houa fakamākesasi
+            draft: unconfirmed
+        type: Marquesas
+      - 
+        long: 
+          standard: 
+            content: houa fakaʻotumotumasolo
+            draft: unconfirmed
+        type: Marshall_Islands
+      - 
+        long: 
+          standard: 
+            content: houa fakanaulu
+            draft: unconfirmed
+        type: Nauru
+      - 
+        long: 
+          daylight: 
+            content: houa fakakaletōniafoʻou fakamaama
+            draft: unconfirmed
+          generic: 
+            content: houa fakakaletōniafoʻou
+            draft: unconfirmed
+          standard: 
+            content: houa fakakaletōniafoʻou fakasīpinga
+            draft: unconfirmed
+        type: New_Caledonia
+      - 
+        long: 
+          daylight: houa fakanuʻusila fakamaama
+          generic: houa fakanuʻusila
+          standard: houa fakanuʻusila fakasīpinga
+        type: New_Zealand
+      - 
+        long: 
+          standard: houa fakaniuē
+        type: Niue
+      - 
+        long: 
+          standard: 
+            content: houa fakanōfōki
+            draft: unconfirmed
+        type: Norfolk
+      - 
+        long: 
+          standard: 
+            content: houa fakamalianatokelau
+            draft: unconfirmed
+        type: North_Mariana
+      - 
+        long: 
+          standard: 
+            content: houa fakapalau
+            draft: unconfirmed
+        type: Palau
+      - 
+        long: 
+          standard: 
+            content: houa fakapapuaniukini
+            draft: unconfirmed
+        type: Papua_New_Guinea
+      - 
+        long: 
+          standard: 
+            content: houa fakaʻotumotufoinikisi
+            draft: unconfirmed
+        type: Phoenix_Islands
+      - 
+        long: 
+          standard: 
+            content: houa fakapitikani
+            draft: unconfirmed
+        type: Pitcairn
+      - 
+        long: 
+          standard: 
+            content: houa fakapōnapē
+            draft: unconfirmed
+        type: Ponape
+      - 
+        long: 
+          daylight: houa fakahaʻamoa fakamaama
+          generic: houa fakahaʻamoa
+          standard: houa fakahaʻamoa fakasīpinga
+        type: Samoa
+      - 
+        long: 
+          standard: 
+            content: houa fakaʻotumotusolomone
+            draft: unconfirmed
+        type: Solomon
+      - 
+        long: 
+          standard: 
+            content: houa fakasiosiatonga
+            draft: unconfirmed
+        type: South_Georgia
+      - 
+        long: 
+          standard: houa fakatahisi
+        type: Tahiti
+      - 
+        long: 
+          standard: houa fakatokelau
+        type: Tokelau
+      - 
+        long: 
+          daylight: houa fakatonga lotohē
+          generic: houa fakatonga
+          standard: houa fakatonga fakasīpinga
+        type: Tonga
+      - 
+        long: 
+          standard: 
+            content: houa fakatūke
+            draft: unconfirmed
+        type: Truk
+      - 
+        long: 
+          standard: houa fakatūvalu
+        type: Tuvalu
+      - 
+        long: 
+          daylight: 
+            content: houa fakavanuatu fakamaama
+            draft: unconfirmed
+          generic: 
+            content: houa fakavanuatu
+            draft: unconfirmed
+          standard: 
+            content: houa fakavanuatu fakasīpinga
+            draft: unconfirmed
+        type: Vanuatu
+      - 
+        long: 
+          standard: 
+            content: houa fakamotuueke
+            draft: unconfirmed
+        type: Wake
+      - 
+        long: 
+          standard: houa fakaʻuvea mo futuna
+        type: Wallis
+    regionFormat: Houa {0}
+    zone: 
+      - 
+        exemplarCity: Halaʻata
+        type: Etc/Unknown
+      - 
+        exemplarCity: 
+          content: pole tonga
+          draft: unconfirmed
+        type: Antarctica/South_Pole
+      - 
+        exemplarCity: 
+          content: Dumont d’Urville
+          draft: unconfirmed
+        type: Antarctica/DumontDUrville
+      - 
+        exemplarCity: 
+          content: Pangopango
+          draft: unconfirmed
+        type: Pacific/Pago_Pago
+      - 
+        exemplarCity: Atelaite
+        type: Australia/Adelaide
+      - 
+        exemplarCity: 
+          content: Melipoane
+          draft: unconfirmed
+        type: Australia/Melbourne
+      - 
+        exemplarCity: 
+          content: Senē
+          draft: unconfirmed
+        type: Australia/Sydney
+      - 
+        exemplarCity: Pelisipane
+        type: Australia/Brisbane
+      - 
+        exemplarCity: 
+          content: St. Barthelemy
+          draft: unconfirmed
+        type: America/St_Barthelemy
+      - 
+        exemplarCity: Houa Palāsili (Rio Branco)
+        type: America/Rio_Branco
+      - 
+        exemplarCity: Houa Palāsili (Campo Grande)
+        type: America/Campo_Grande
+      - 
+        exemplarCity: Houa Palāsili (Sao Paulo)
+        type: America/Sao_Paulo
+      - 
+        exemplarCity: 
+          content: Atikokan
+          draft: unconfirmed
+        type: America/Coral_Harbour
+      - 
+        exemplarCity: 
+          content: St. John’s
+          draft: unconfirmed
+        type: America/St_Johns
+      - 
+        exemplarCity: 
+          content: Lalotonga
+          draft: unconfirmed
+        type: Pacific/Rarotonga
+      - 
+        exemplarCity: Lapanui
+        type: Pacific/Easter
+      - 
+        exemplarCity: 
+          content: Asmara
+          draft: unconfirmed
+        type: Africa/Asmera
+      - 
+        exemplarCity: 
+          content: Fisi
+          draft: unconfirmed
+        type: Pacific/Fiji
+      - 
+        exemplarCity: 
+          content: Tūke
+          draft: unconfirmed
+        type: Pacific/Truk
+      - 
+        exemplarCity: 
+          content: Ponapē
+          draft: unconfirmed
+        type: Pacific/Ponape
+      - 
+        exemplarCity: 
+          content: Kosirae
+          draft: unconfirmed
+        type: Pacific/Kosrae
+      - 
+        exemplarCity: 
+          content: Faroe
+          draft: unconfirmed
+        type: Atlantic/Faeroe
+      - 
+        exemplarCity: 
+          content: Palesi
+          draft: unconfirmed
+        type: Europe/Paris
+      - 
+        exemplarCity: 
+          content: Lonitoni
+          draft: unconfirmed
+        type: Europe/London
+      - 
+        exemplarCity: 
+          content: Kuami
+          draft: unconfirmed
+        type: Pacific/Guam
+      - 
+        exemplarCity: 
+          content: Selūsalema
+          draft: unconfirmed
+        type: Asia/Jerusalem
+      - 
+        exemplarCity: 
+          content: Kolkata
+          draft: unconfirmed
+        type: Asia/Calcutta
+      - 
+        exemplarCity: 
+          content: Loma
+          draft: unconfirmed
+        type: Europe/Rome
+      - 
+        exemplarCity: 
+          content: Talava
+          draft: unconfirmed
+        type: Pacific/Tarawa
+      - 
+        exemplarCity: 
+          content: St. Kitts
+          draft: unconfirmed
+        type: America/St_Kitts
+      - 
+        exemplarCity: 
+          content: St. Lucia
+          draft: unconfirmed
+        type: America/St_Lucia
+      - 
+        exemplarCity: 
+          content: Kathmandu
+          draft: unconfirmed
+        type: Asia/Katmandu
+      - 
+        exemplarCity: 
+          content: Naulu
+          draft: unconfirmed
+        type: Pacific/Nauru
+      - 
+        exemplarCity: 
+          content: Niuē
+          draft: unconfirmed
+        type: Pacific/Niue
+      - 
+        exemplarCity: 
+          content: ʻAokalani
+          draft: unconfirmed
+        type: Pacific/Auckland
+      - 
+        exemplarCity: 
+          content: Tahisi
+          draft: unconfirmed
+        type: Pacific/Tahiti
+      - 
+        exemplarCity: 
+          content: St. Helena
+          draft: unconfirmed
+        type: Atlantic/St_Helena
+      - 
+        exemplarCity: 
+          content: Lower Prince's Quarter
+          draft: unconfirmed
+        type: America/Lower_Princes
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (Honolulu)
+        type: Pacific/Honolulu
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (Anchorage)
+        type: America/Anchorage
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (Los Angeles)
+        type: America/Los_Angeles
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (Phoenix)
+        type: America/Phoenix
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (Denver)
+        type: America/Denver
+      - 
+        exemplarCity: 
+          content: Beulah, North Dakota
+          draft: unconfirmed
+        type: America/North_Dakota/Beulah
+      - 
+        exemplarCity: 
+          content: New Salem, North Dakota
+          draft: unconfirmed
+        type: America/North_Dakota/New_Salem
+      - 
+        exemplarCity: 
+          content: Center, North Dakota
+          draft: unconfirmed
+        type: America/North_Dakota/Center
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (Chicago)
+        type: America/Chicago
+      - 
+        exemplarCity: 
+          content: Vincennes, Indiana
+          draft: unconfirmed
+        type: America/Indiana/Vincennes
+      - 
+        exemplarCity: 
+          content: Petersburg, Indiana
+          draft: unconfirmed
+        type: America/Indiana/Petersburg
+      - 
+        exemplarCity: 
+          content: Tell City, Indiana
+          draft: unconfirmed
+        type: America/Indiana/Tell_City
+      - 
+        exemplarCity: 
+          content: Knox, Indiana
+          draft: unconfirmed
+        type: America/Indiana/Knox
+      - 
+        exemplarCity: 
+          content: Winamac, Indiana
+          draft: unconfirmed
+        type: America/Indiana/Winamac
+      - 
+        exemplarCity: 
+          content: Marengo, Indiana
+          draft: unconfirmed
+        type: America/Indiana/Marengo
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (Indianapolis)
+        type: America/Indianapolis
+      - 
+        exemplarCity: 
+          content: Vevay, Indiana
+          draft: unconfirmed
+        type: America/Indiana/Vevay
+      - 
+        exemplarCity: 
+          content: Monticello, Kentucky
+          draft: unconfirmed
+        type: America/Kentucky/Monticello
+      - 
+        exemplarCity: Houa Puleʻanga fakataha ʻAmelika (New York)
+        type: America/New_York
+      - 
+        exemplarCity: 
+          content: St. Vincent
+          draft: unconfirmed
+        type: America/St_Vincent
+      - 
+        exemplarCity: 
+          content: St. Thomas
+          draft: unconfirmed
+        type: America/St_Thomas
+      - 
+        exemplarCity: 
+          content: Ho Chi Minh
+          draft: unconfirmed
+        type: Asia/Saigon
+      - 
+        exemplarCity: 
+          content: ʻUvea
+          draft: unconfirmed
+        type: Pacific/Wallis
+delimiters: 
+  alternateQuotationEnd: ’
+  alternateQuotationStart: ‘
+  quotationEnd: ”
+  quotationStart: “
+identity: 
+  generation: 
+    date: "$Date: 2013-02-26 20:38:03 -0800 (Tue, 26 Feb 2013) $"
+  language: 
+    type: to
+  version: 
+    number: "$Revision: 8257 $"
+listPatterns: 
+  listPattern: 
+    listPatternPart: 
+      - 
+        content: "{0} mo {1}"
+        draft: unconfirmed
+        type: 2
+      - 
+        content: "{0} mo {1}"
+        draft: unconfirmed
+        type: end
+      - 
+        content: "{0} mo {1}"
+        draft: unconfirmed
+        type: middle
+      - 
+        content: "{0} mo {1}"
+        draft: unconfirmed
+        type: start
+localeDisplayNames: 
+  codePatterns: 
+    codePattern: 
+      - 
+        content: "Lea: {0}"
+        type: language
+      - 
+        content: "Tohinima Fakaha: {0}"
+        type: script
+      - 
+        content: "Feituʻu: {0}"
+        type: territory
+  keys: 
+    key: 
+      - 
+        content: tohi māhina
+        type: calendar
+      - 
+        content: tohi hokohoko
+        type: collation
+      - 
+        content: paʻanga
+        type: currency
+      - 
+        content: fika
+        draft: unconfirmed
+        type: numbers
+  languages: 
+    language: 
+      - 
+        content: lea fakaʻapakasi
+        type: ab
+      - 
+        content: lea fakaʻatike
+        draft: unconfirmed
+        type: ady
+      - 
+        content: lea fakaʻafilikana
+        type: af
+      - 
+        content: lea fakaʻakemi
+        draft: unconfirmed
+        type: agq
+      - 
+        content: lea fakaʻainu
+        draft: unconfirmed
+        type: ain
+      - 
+        content: lea fakaʻakani
+        draft: unconfirmed
+        type: ak
+      - 
+        content: lea ʻameliki
+        type: am
+      - 
+        content: lea fakaʻalepea
+        type: ar
+      - 
+        content: lea faʻu
+        type: art
+      - 
+        content: lea ʻasamisi
+        type: as
+      - 
+        content: lea fakaʻasu
+        draft: unconfirmed
+        type: asa
+      - 
+        content: lea fakaʻasitūlia
+        draft: unconfirmed
+        type: ast
+      - 
+        content: lea fakaʻavaliki
+        draft: unconfirmed
+        type: av
+      - 
+        content: lea ʻaimala
+        type: ay
+      - 
+        content: lea fakaʻasapaisani
+        type: az
+      - 
+        content: lea fakapasikili
+        draft: unconfirmed
+        type: ba
+      - 
+        content: lea fakapasaʻa
+        draft: unconfirmed
+        type: bas
+      - 
+        content: lea fakapamuni
+        draft: unconfirmed
+        type: bax
+      - 
+        content: lea fakakomala
+        draft: unconfirmed
+        type: bbj
+      - 
+        content: lea fakapelelusi
+        type: be
+      - 
+        content: lea fakapēmipa
+        draft: unconfirmed
+        type: bem
+      - 
+        content: lea fakapena
+        draft: unconfirmed
+        type: bez
+      - 
+        content: lea fakapafuti
+        draft: unconfirmed
+        type: bfd
+      - 
+        content: lea fakapokalia
+        type: bg
+      - 
+        content: lea fakapisilama
+        draft: unconfirmed
+        type: bi
+      - 
+        content: lea fakakome
+        draft: unconfirmed
+        type: bkm
+      - 
+        content: lea fakapamipala
+        draft: unconfirmed
+        type: bm
+      - 
+        content: lea fakapengila
+        type: bn
+      - 
+        content: lea fakataipeti
+        type: bo
+      - 
+        content: lea fakapeletoni
+        draft: unconfirmed
+        type: br
+      - 
+        content: lea fakapōto
+        draft: unconfirmed
+        type: brx
+      - 
+        content: lea fakaposinia
+        type: bs
+      - 
+        content: lea fakaʻakōse
+        draft: unconfirmed
+        type: bss
+      - 
+        content: lea fakapulu
+        draft: unconfirmed
+        type: bum
+      - 
+        content: lea fakametūmipa
+        draft: unconfirmed
+        type: byv
+      - 
+        content: lea fakaketalani
+        type: ca
+      - 
+        content: lea fakasese
+        draft: unconfirmed
+        type: ce
+      - 
+        content: lea fakasepuano
+        draft: unconfirmed
+        type: ceb
+      - 
+        content: lea fakakamolo
+        draft: unconfirmed
+        type: ch
+      - 
+        content: lea fakatūke
+        draft: unconfirmed
+        type: chk
+      - 
+        content: lea fakakopitika
+        draft: unconfirmed
+        type: cop
+      - 
+        content: lea fakaseki
+        type: cs
+      - 
+        content: lea fakauēlesi
+        type: cy
+      - 
+        content: lea fakatenimaʻake
+        type: da
+      - 
+        content: lea fakasiamane
+        type: de
+      - 
+        content: lea fakasiamani ʻaositulia
+        type: de_AT
+      - 
+        content: lea fakasiamani suitisālani ma'olunga
+        type: de_CH
+      - 
+        content: lea fakatuala
+        draft: unconfirmed
+        type: dua
+      - 
+        content: lea tivehi
+        type: dv
+      - 
+        content: lea fakaiola-fonī
+        draft: unconfirmed
+        type: dyo
+      - 
+        content: lea fakaputeni
+        type: dz
+      - 
+        content: lea fakaʻemipū
+        draft: unconfirmed
+        type: ebu
+      - 
+        content: lea fakaʻeue
+        draft: unconfirmed
+        type: ee
+      - 
+        content: lea ʻefiki
+        type: efi
+      - 
+        content: lea fakaʻisipitemuʻa
+        draft: unconfirmed
+        type: egy
+      - 
+        content: lea fakakalisi
+        type: el
+      - 
+        content: lea fakapālangi
+        type: en
+      - 
+        content: lea fakapālangi ʻaositelēlia
+        type: en_AU
+      - 
+        content: lea fakapālangi kānata
+        type: en_CA
+      - 
+        content: lea fakapilitānia
+        type: en_GB
+      - 
+        content: lea fakapālangi ʻamelika
+        type: en_US
+      - 
+        content: lea fakaʻesipulanito
+        type: eo
+      - 
+        content: lea fakasīpenisi
+        type: es
+      - 
+        content: lea fakasipēnisi lātini ʻamelika
+        type: es_419
+      - 
+        content: lea fakasipēnisi ʻaipilieni
+        type: es_ES
+      - 
+        content: lea fakaʻesitōnia
+        type: et
+      - 
+        content: lea pasiki
+        type: eu
+      - 
+        content: lea fakaʻeuōnito
+        draft: unconfirmed
+        type: ewo
+      - 
+        content: lea fakapēsia
+        type: fa
+      - 
+        content: lea fakafangi
+        draft: unconfirmed
+        type: fan
+      - 
+        content: lea fakafulā
+        draft: unconfirmed
+        type: ff
+      - 
+        content: lea fakafinilani
+        type: fi
+      - 
+        content: lea fakafilipaini
+        type: fil
+      - 
+        content: lea fakafisi
+        type: fj
+      - 
+        content: lea fakafaloe
+        draft: unconfirmed
+        type: fo
+      - 
+        content: lea fakafalanisē
+        type: fr
+      - 
+        content: lea fakafalanisē kānata
+        type: fr_CA
+      - 
+        content: lea fakafalanisē suitisālani
+        type: fr_CH
+      - 
+        content: lea fakafilisia hihifo
+        draft: unconfirmed
+        type: fy
+      - 
+        content: lea fakaʻaelani
+        type: ga
+      - 
+        content: lea fakakā
+        draft: unconfirmed
+        type: gaa
+      - 
+        content: lea fakakaeliki
+        draft: unconfirmed
+        type: gd
+      - 
+        content: lea fakakilipasi
+        type: gil
+      - 
+        content: lea kalisieni
+        type: gl
+      - 
+        content: lea kualani
+        type: gn
+      - 
+        content: lea fakakalisimuʻa
+        type: grc
+      - 
+        content: lea fakasiamani suitisālani
+        type: gsw
+      - 
+        content: lea kutalati
+        type: gu
+      - 
+        content: lea hausa
+        type: ha
+      - 
+        content: lea fakahauaiʻi
+        type: haw
+      - 
+        content: lea fakahepelū
+        type: he
+      - 
+        content: lea fakahinitī
+        type: hi
+      - 
+        content: lea fakahilikainoni
+        draft: unconfirmed
+        type: hil
+      - 
+        content: lea fakahilimotu
+        draft: unconfirmed
+        type: ho
+      - 
+        content: lea fakakuloisia
+        type: hr
+      - 
+        content: lea fakahaiti
+        type: ht
+      - 
+        content: lea fakahangakalia
+        type: hu
+      - 
+        content: lea fakaʻaminiume
+        type: hy
+      - 
+        content: lea fakaʻipipio
+        draft: unconfirmed
+        type: ibb
+      - 
+        content: lea fakaʻinitōnesia
+        type: id
+      - 
+        content: lea ʻikipō
+        type: ig
+      - 
+        content: lea fakaʻiloko
+        draft: unconfirmed
+        type: ilo
+      - 
+        content: lea fakaʻingusi
+        draft: unconfirmed
+        type: inh
+      - 
+        content: lea fakaʻaisilani
+        type: is
+      - 
+        content: lea fakaʻītali
+        type: it
+      - 
+        content: lea fakasiapani
+        type: ja
+      - 
+        content: lea fakasava
+        type: jv
+      - 
+        content: lea fakasōsia
+        type: ka
+      - 
+        content: lea fakakapālitia
+        draft: unconfirmed
+        type: kbd
+      - 
+        content: lea fakakongikō
+        draft: unconfirmed
+        type: kg
+      - 
+        content: lea fakakāsi
+        draft: unconfirmed
+        type: kha
+      - 
+        content: lea fakakuaniama
+        draft: unconfirmed
+        type: kj
+      - 
+        content: lea fakakasakiteni
+        type: kk
+      - 
+        content: lea fakakako
+        draft: unconfirmed
+        type: kkj
+      - 
+        content: lea fakakalaʻalisuti
+        draft: unconfirmed
+        type: kl
+      - 
+        content: lea fakakemipōtia
+        type: km
+      - 
+        content: lea kanata
+        type: kn
+      - 
+        content: lea fakakōlea
+        type: ko
+      - 
+        content: lea fakakonikani
+        draft: unconfirmed
+        type: kok
+      - 
+        content: lea fakakosirae
+        draft: unconfirmed
+        type: kos
+      - 
+        content: lea fakakanuli
+        draft: unconfirmed
+        type: kr
+      - 
+        content: lea fakakalate-palakili
+        draft: unconfirmed
+        type: krc
+      - 
+        content: lea fakakalelia
+        draft: unconfirmed
+        type: krl
+      - 
+        content: lea fakakesimia
+        type: ks
+      - 
+        content: lea fakapafia
+        draft: unconfirmed
+        type: ksf
+      - 
+        content: lea kētisi
+        type: ku
+      - 
+        content: lea fakakumiki
+        draft: unconfirmed
+        type: kum
+      - 
+        content: lea fakakomi
+        draft: unconfirmed
+        type: kv
+      - 
+        content: lea fakakekisiteni
+        type: ky
+      - 
+        content: lea fakalatina
+        type: la
+      - 
+        content: lea lanita
+        type: lah
+      - 
+        content: lea fakalakisimipeki
+        type: lb
+      - 
+        content: lea fakalesikia
+        draft: unconfirmed
+        type: lez
+      - 
+        content: lea lingikala
+        type: ln
+      - 
+        content: lea fakalau
+        type: lo
+      - 
+        content: lea fakalifiuenia
+        type: lt
+      - 
+        content: lea fakalupa-katanga
+        draft: unconfirmed
+        type: lu
+      - 
+        content: lea fakalupa-lulua
+        draft: unconfirmed
+        type: lua
+      - 
+        content: lea fakaluīa
+        draft: unconfirmed
+        type: luy
+      - 
+        content: lea fakalativia
+        type: lv
+      - 
+        content: lea fakamafa
+        draft: unconfirmed
+        type: maf
+      - 
+        content: mea fakamaitili
+        draft: unconfirmed
+        type: mai
+      - 
+        content: lea fakamokisā
+        draft: unconfirmed
+        type: mdf
+      - 
+        content: lea fakamatakasika
+        type: mg
+      - 
+        content: lea fakamakūa-meʻeto
+        draft: unconfirmed
+        type: mgh
+      - 
+        content: lea fakamāsolo
+        type: mh
+      - 
+        content: lea fakamauli
+        type: mi
+      - 
+        content: lea kehekehe
+        type: mis
+      - 
+        content: lea fakamasitōnia
+        type: mk
+      - 
+        content: lea fakaʻinitia malāialemi
+        type: ml
+      - 
+        content: lea fakamongokōlia
+        type: mn
+      - 
+        content: lea malati
+        type: mr
+      - 
+        content: lea fakamalei
+        type: ms
+      - 
+        content: lea fakamolota
+        type: mt
+      - 
+        content: lea fakamunitangi
+        draft: unconfirmed
+        type: mua
+      - 
+        content: lea tuifio
+        type: mul
+      - 
+        content: lea fakapema
+        type: my
+      - 
+        content: lea fakamiene
+        draft: unconfirmed
+        type: mye
+      - 
+        content: lea fakaʻelisia
+        draft: unconfirmed
+        type: myv
+      - 
+        content: lea fakanaulu
+        type: na
+      - 
+        content: lea fakanouei pokimali
+        type: nb
+      - 
+        content: lea netepele fakatokelau
+        type: nd
+      - 
+        content: lea fakanepali
+        type: ne
+      - 
+        content: lea fakaniuē
+        type: niu
+      - 
+        content: lea fakahōlani
+        type: nl
+      - 
+        content: lea fakahōlani pelesiume
+        type: nl_BE
+      - 
+        content: lea fakakuasio
+        draft: unconfirmed
+        type: nmg
+      - 
+        content: lea fakanouei nosiki
+        type: nn
+      - 
+        content: lea fakangiemipōni
+        draft: unconfirmed
+        type: nnh
+      - 
+        content: lea fakanouē
+        type: 'no'
+      - 
+        content: lea fakanokai
+        draft: unconfirmed
+        type: nog
+      - 
+        content: lea fakanetepele fakatonga
+        draft: unconfirmed
+        type: nr
+      - 
+        content: lea sofo fakatokelau
+        type: nso
+      - 
+        content: lea fakanueli
+        draft: unconfirmed
+        type: nus
+      - 
+        content: lea sua
+        type: ny
+      - 
+        content: lea fakaʻinitia ʻolāea
+        type: or
+      - 
+        content: lea ʻosetiki
+        type: os
+      - 
+        content: lea punusapi
+        type: pa
+      - 
+        content: lea fakapangasina
+        draft: unconfirmed
+        type: pag
+      - 
+        content: lea fakapālavi
+        draft: unconfirmed
+        type: pal
+      - 
+        content: lea fakapapiamēnito
+        draft: unconfirmed
+        type: pap
+      - 
+        content: lea fakapalau
+        draft: unconfirmed
+        type: pau
+      - 
+        content: lea fakapōlani
+        type: pl
+      - 
+        content: lea fakaponapē
+        draft: unconfirmed
+        type: pon
+      - 
+        content: lea pasito
+        type: ps
+      - 
+        content: lea fakapotukali
+        type: pt
+      - 
+        content: lea fakapotukali-palāsili
+        type: pt_BR
+      - 
+        content: lea fakapotukali ʻaipilieni
+        type: pt_PT
+      - 
+        content: lea kuetisa
+        type: qu
+      - 
+        content: lea fakalapanui
+        type: rap
+      - 
+        content: lea fakalalotonga
+        type: rar
+      - 
+        content: lea laito-lomēnia
+        type: rm
+      - 
+        content: lea luaniti
+        type: rn
+      - 
+        content: lea fakalōmenia
+        type: ro
+      - 
+        content: lea fakalomipō
+        draft: unconfirmed
+        type: rof
+      - 
+        content: lea fakalūsia
+        type: ru
+      - 
+        content: lea fakaluanita
+        type: rw
+      - 
+        content: lea fakaluā
+        draft: unconfirmed
+        type: rwk
+      - 
+        content: lea sanisukuliti
+        type: sa
+      - 
+        content: lea fakasaka
+        draft: unconfirmed
+        type: sah
+      - 
+        content: lea fakasanitali
+        draft: unconfirmed
+        type: sat
+      - 
+        content: lea fakasangu
+        draft: unconfirmed
+        type: sbp
+      - 
+        content: lea fakasikotilani
+        type: sco
+      - 
+        content: lea siniti
+        type: sd
+      - 
+        content: lea sami fakatokelau
+        type: se
+      - 
+        content: lea sango
+        type: sg
+      - 
+        content: lea fakaʻilonga
+        type: sgn
+      - 
+        content: lea sēpia-kuloisia
+        type: sh
+      - 
+        content: lea fakaselengika
+        type: si
+      - 
+        content: lea fakasolāvaki
+        type: sk
+      - 
+        content: lea fakasolovenia
+        type: sl
+      - 
+        content: lea fakahaʻamoa
+        type: sm
+      - 
+        content: lea fakasami fakatonga
+        draft: unconfirmed
+        type: sma
+      - 
+        content: lea fakasami
+        draft: unconfirmed
+        type: smi
+      - 
+        content: lea fakasami-lule
+        draft: unconfirmed
+        type: smj
+      - 
+        content: lea fakasami-ʻinali
+        draft: unconfirmed
+        type: smn
+      - 
+        content: lea fakasami-sikolita
+        draft: unconfirmed
+        type: sms
+      - 
+        content: lea sona
+        type: sn
+      - 
+        content: lea fakasomali
+        type: so
+      - 
+        content: lea fakaʻalapēnia
+        type: sq
+      - 
+        content: lea fakasēpia
+        type: sr
+      - 
+        content: lea fakasuasilani
+        type: ss
+      - 
+        content: lea sofo fakatonga
+        type: st
+      - 
+        content: lea sanita
+        type: su
+      - 
+        content: lea fakasueteni
+        type: sv
+      - 
+        content: lea suahile
+        type: sw
+      - 
+        content: lea fakakomolo
+        type: swb
+      - 
+        content: lea fakatemole
+        type: ta
+      - 
+        content: lea fakaʻinitia teluku
+        type: te
+      - 
+        content: lea fakatētamu
+        type: tet
+      - 
+        content: lea fakatetiki
+        type: tg
+      - 
+        content: lea fakataileni
+        type: th
+      - 
+        content: lea fakatikilina
+        type: ti
+      - 
+        content: lea tekimeni
+        type: tk
+      - 
+        content: lea fakatokelau
+        type: tkl
+      - 
+        content: lea fakatekaloka
+        type: tl
+      - 
+        content: lea suana
+        type: tn
+      - 
+        content: lea fakatonga
+        type: to
+      - 
+        content: lea toki pisini
+        type: tpi
+      - 
+        content: lea fakatoake
+        type: tr
+      - 
+        content: lea songa
+        type: ts
+      - 
+        content: lea fakatatale
+        draft: unconfirmed
+        type: tt
+      - 
+        content: lea fakatūvalu
+        type: tvl
+      - 
+        content: lea fakatasauaki
+        draft: unconfirmed
+        type: twq
+      - 
+        content: lea fakatahiti
+        type: ty
+      - 
+        content: lea fakatuvīnia
+        draft: unconfirmed
+        type: tyv
+      - 
+        content: lea fakaʻutimuliti
+        draft: unconfirmed
+        type: udm
+      - 
+        content: lea fakaʻuika
+        type: ug
+      - 
+        content: lea fakaʻiukālia
+        type: uk
+      - 
+        content: lea taʻeʻiloa
+        type: und
+      - 
+        content: lea fakaʻetiu
+        type: ur
+      - 
+        content: lea fakaʻusipeki
+        type: uz
+      - 
+        content: lea fakavai
+        draft: unconfirmed
+        type: vai
+      - 
+        content: lea fakavenitā
+        type: ve
+      - 
+        content: lea fakavietinemi
+        type: vi
+      - 
+        content: lea fakaʻualiseli
+        draft: unconfirmed
+        type: wae
+      - 
+        content: lea fakaʻualai
+        draft: unconfirmed
+        type: war
+      - 
+        content: lea fakaʻuolofo
+        type: wo
+      - 
+        content: lea fakatōsa
+        type: xh
+      - 
+        content: lea fakaʻiapi
+        draft: unconfirmed
+        type: yap
+      - 
+        content: lea fakaʻiangipeni
+        draft: unconfirmed
+        type: yav
+      - 
+        content: lea fakaʻiēmipa
+        draft: unconfirmed
+        type: ybb
+      - 
+        content: lea fakaʻiōlupa
+        type: yo
+      - 
+        content: lea kenitēnisi
+        type: yue
+      - 
+        content: lea fakasuangi
+        draft: unconfirmed
+        type: za
+      - 
+        content: lea fakasiaina
+        type: zh
+      - 
+        content: lea fakasiaina fakangofua
+        type: zh_Hans
+      - 
+        content: lea fakasiaina tukufakaholo
+        type: zh_Hant
+      - 
+        content: lea fakasulu
+        type: zu
+      - 
+        content: ʻikai ha lea
+        type: zxx
+  localeDisplayPattern: 
+    localeKeyTypePattern: 
+      content: "{0}: {1}"
+      draft: unconfirmed
+    localePattern: 
+      content: "{0} ({1})"
+      draft: unconfirmed
+    localeSeparator: 
+      content: ", "
+      draft: unconfirmed
+  measurementSystemNames: 
+    measurementSystemName: 
+      - 
+        content: fakamita
+        type: metric
+      - 
+        content: fakapilitānia
+        draft: unconfirmed
+        type: UK
+      - 
+        content: fakaʻamelika
+        type: US
+  scripts: 
+    script: 
+      - 
+        content: tohinima fakaʻalepea
+        type: Arab
+      - 
+        content: tohinima fakaʻamīnia
+        type: Armn
+      - 
+        content: tohinima fakapengila
+        type: Beng
+      - 
+        content: tohinima ongo fakasiaina
+        type: Bopo
+      - 
+        content: tohinima laukonga ki he kui
+        type: Brai
+      - 
+        content: tohinima fakalūsia
+        type: Cyrl
+      - 
+        content: tohinima fakaʻinitia tēvanakali
+        type: Deva
+      - 
+        content: tohinima tongitapu fakaʻisipite
+        draft: unconfirmed
+        type: Egyp
+      - 
+        content: tohinima fakaʻitiopea
+        type: Ethi
+      - 
+        content: tohinima fakasōsia
+        type: Geor
+      - 
+        content: tohinima fakakalisi
+        type: Grek
+      - 
+        content: tohinima fakaʻinitia kutalati
+        type: Gujr
+      - 
+        content: tohinima fakapūnusapi
+        type: Guru
+      - 
+        content: tohinima fakakōlea hāngūlu
+        type: Hang
+      - 
+        content: tohinima fakasiaina
+        type: Hani
+      - 
+        content: tohinima fakasiaina fakafaingofua
+        type: Hans
+      - 
+        content: tohinima tukufakaholo fakasiaina
+        type: Hant
+      - 
+        content: tohinima fakahepelū
+        type: Hebr
+      - 
+        content: tohinima fakasiapani hilakana
+        type: Hira
+      - 
+        content: tohinima fakasiapani
+        type: Jpan
+      - 
+        content: tohinima fakasiapani katakana
+        type: Kana
+      - 
+        content: tohinima fakakemipōtia
+        type: Khmr
+      - 
+        content: tohinima fakaʻinitia kānatā
+        type: Knda
+      - 
+        content: tohinima fakakōlea
+        type: Kore
+      - 
+        content: tohinima fakalau
+        type: Laoo
+      - 
+        content: tohinima fakalatina
+        type: Latn
+      - 
+        content: tohinima fakaʻinitia malāialemi
+        type: Mlym
+      - 
+        content: tohinima fakamongokōlia
+        type: Mong
+      - 
+        content: tohinima fakapema
+        type: Mymr
+      - 
+        content: tohinima fakaʻinitia ʻolāea
+        type: Orya
+      - 
+        content: tohinima fakaselengika
+        type: Sinh
+      - 
+        content: tohinima fakatemole
+        type: Taml
+      - 
+        content: tohinima fakaʻinitia teluku
+        type: Telu
+      - 
+        content: tohinima fakatāna
+        type: Thaa
+      - 
+        content: tohinima fakataileni
+        type: Thai
+      - 
+        content: tohinima fakataipeti
+        type: Tibt
+      - 
+        content: tohinima fakavai
+        draft: unconfirmed
+        type: Vaii
+      - 
+        content: tohinima fakamatematika
+        draft: unconfirmed
+        type: Zmth
+      - 
+        content: tohinima fakaʻilonga
+        type: Zsym
+      - 
+        content: tohinima taʻetohitohiʻi
+        type: Zxxx
+      - 
+        content: tohinima fakatatau
+        type: Zyyy
+      - 
+        content: tohinima taʻeʻiloa
+        type: Zzzz
+  territories: 
+    territory: 
+      - 
+        content: Māmani
+        type: '001'
+      - 
+        content: ʻAfilika
+        type: '002'
+      - 
+        content: ʻAmelika tokelau
+        type: '003'
+      - 
+        content: ʻAmelika tonga
+        type: '005'
+      - 
+        content: ʻOsenia
+        type: '009'
+      - 
+        content: ʻAfilika hihifo
+        type: '011'
+      - 
+        content: ʻAmelika lotoloto
+        type: '013'
+      - 
+        content: ʻAfilika hahake
+        type: '014'
+      - 
+        content: ʻAfilika tokelau
+        type: '015'
+      - 
+        content: ʻAfilika lotoloto
+        type: '017'
+      - 
+        content: ʻAfilika fakatonga
+        type: '018'
+      - 
+        content: Ongo ʻAmelika
+        type: '019'
+      - 
+        content: ʻAmelika fakatokelau
+        type: '021'
+      - 
+        content: Kalipiane
+        type: '029'
+      - 
+        content: ʻĒsia hahake
+        type: '030'
+      - 
+        content: ʻĒsia fakatonga
+        type: '034'
+      - 
+        content: ʻĒsia tongahahake
+        type: '035'
+      - 
+        content: ʻIulope fakatonga
+        type: '039'
+      - 
+        content: ʻAositelēlia mo Nuʻusila
+        type: '053'
+      - 
+        content: Melanisia
+        type: '054'
+      - 
+        content: Potu fonua Mikolonisia
+        type: '057'
+      - 
+        content: Polinīsia
+        type: '061'
+      - 
+        content: ʻĒsia
+        type: 142
+      - 
+        content: ʻĒsia lotoloto
+        type: 143
+      - 
+        content: ʻĒsia hihifo
+        type: 145
+      - 
+        content: ʻIulope
+        type: 150
+      - 
+        content: ʻIulope hahake
+        type: 151
+      - 
+        content: ʻIulope tokelau
+        type: 154
+      - 
+        content: ʻIulope hihifo
+        type: 155
+      - 
+        content: ʻAmelika fakalatina
+        type: 419
+      - 
+        content: Motu ʻAsenisini
+        type: AC
+      - 
+        content: ʻEnitola
+        type: AD
+      - 
+        content: ʻAlepea Fakatahataha
+        type: AE
+      - 
+        content: ʻAfikānisitani
+        type: AF
+      - 
+        content: Anitikua mo Palaputa
+        type: AG
+      - 
+        content: Anikuila
+        type: AI
+      - 
+        content: ʻAlipania
+        type: AL
+      - 
+        content: ʻĀminia
+        type: AM
+      - 
+        content: Netaleni ʻEnitilisi
+        type: AN
+      - 
+        content: ʻEnikola
+        type: AO
+      - 
+        content: ʻAnitātika
+        type: AQ
+      - 
+        content: ʻAsenitina
+        type: AR
+      - 
+        content: Haʻamoa ʻAmelika
+        type: AS
+      - 
+        content: ʻAositulia
+        type: AT
+      - 
+        content: ʻAositelēlia
+        type: AU
+      - 
+        content: ʻAlupa
+        type: AW
+      - 
+        content: ʻOtumotu ʻAlani
+        type: AX
+      - 
+        content: ʻAsapaisani
+        type: AZ
+      - 
+        content: Posinia mo Hesikōvinia
+        type: BA
+      - 
+        content: Pāpeitosi
+        type: BB
+      - 
+        content: Pengilātesi
+        type: BD
+      - 
+        content: Pelesiume
+        type: BE
+      - 
+        content: Pekano Faso
+        type: BF
+      - 
+        content: Pokalia
+        type: BG
+      - 
+        content: Paleini
+        type: BH
+      - 
+        content: Pelaniti
+        type: BI
+      - 
+        content: Penini
+        type: BJ
+      - 
+        content: Seini Pafelemi
+        type: BL
+      - 
+        content: Pēmuta
+        type: BM
+      - 
+        content: Pulunei
+        type: BN
+      - 
+        content: Polīvia
+        type: BO
+      - 
+        content: Kalipiane fakahōlani
+        draft: unconfirmed
+        type: BQ
+      - 
+        content: Palāsili
+        type: BR
+      - 
+        content: Pahama
+        type: BS
+      - 
+        content: Pūtani
+        type: BT
+      - 
+        content: Motu Puveti
+        type: BV
+      - 
+        content: Potisiuana
+        type: BW
+      - 
+        content: Pelelusi
+        type: BY
+      - 
+        content: Pelise
+        type: BZ
+      - 
+        content: Kānata
+        type: CA
+      - 
+        content: ʻOtumotu Koko
+        type: CC
+      - 
+        content: Kongo - Kinisasa
+        type: CD
+      - 
+        alt: variant
+        content: Kongo [DRC]
+        type: CD
+      - 
+        content: Lipapilika ʻAfilika Lotoloto
+        type: CF
+      - 
+        content: Kongo - Palasavila
+        type: CG
+      - 
+        alt: variant
+        content: Lipapilika Kongo
+        type: CG
+      - 
+        content: Suisilani
+        type: CH
+      - 
+        content: Matafonua ʻAivili
+        type: CI
+      - 
+        alt: variant
+        content: Matafonua ʻAivili
+        type: CI
+      - 
+        content: ʻOtumotu Kuki
+        type: CK
+      - 
+        content: Sili
+        type: CL
+      - 
+        content: Kemaluni
+        type: CM
+      - 
+        content: Siaina
+        type: CN
+      - 
+        content: Kolomipia
+        type: CO
+      - 
+        content: Motu Kilipatoni
+        type: CP
+      - 
+        content: Kosita Lika
+        type: CR
+      - 
+        content: Kiupa
+        type: CU
+      - 
+        content: Muiʻi Veti
+        type: CV
+      - 
+        content: Kulasao
+        draft: unconfirmed
+        type: CW
+      - 
+        content: Motu Kilisimasi
+        type: CX
+      - 
+        content: Saipalesi
+        type: CY
+      - 
+        content: Lipapilika Seki
+        type: CZ
+      - 
+        content: Siamane
+        type: DE
+      - 
+        content: Tieko Kāsia
+        type: DG
+      - 
+        content: Siputi
+        type: DJ
+      - 
+        content: Tenimaʻake
+        type: DK
+      - 
+        content: Tominika
+        type: DM
+      - 
+        content: Lipapilika Tominika
+        type: DO
+      - 
+        content: ʻAisilia
+        type: DZ
+      - 
+        content: Siuta mo Melila
+        type: EA
+      - 
+        content: ʻEkuetoa
+        type: EC
+      - 
+        content: ʻEsitōnia
+        type: EE
+      - 
+        content: ʻIsipite
+        type: EG
+      - 
+        content: Sahala fakahihifo
+        type: EH
+      - 
+        content: ʻElitulia
+        type: ER
+      - 
+        content: Sipeini
+        type: ES
+      - 
+        content: ʻItiōpea
+        type: ET
+      - 
+        content: ʻIulope fakatahataha
+        type: EU
+      - 
+        content: Finilani
+        type: FI
+      - 
+        content: Fisi
+        type: FJ
+      - 
+        content: ʻOtumotu Fokuleni
+        type: FK
+      - 
+        alt: variant
+        content: ʻOtumotu Fokuleni
+        type: FK
+      - 
+        content: Mikolonisia
+        type: FM
+      - 
+        content: ʻOtumotu Felou
+        type: FO
+      - 
+        content: Falanisē
+        type: FR
+      - 
+        content: Kaponi
+        type: GA
+      - 
+        content: Pilitānia
+        type: GB
+      - 
+        content: Kelenatā
+        type: GD
+      - 
+        content: Sōsia
+        type: GE
+      - 
+        content: Falanise Kuiana
+        type: GF
+      - 
+        content: Kuenisī
+        type: GG
+      - 
+        content: Kana
+        type: GH
+      - 
+        content: Sipalālitā
+        type: GI
+      - 
+        content: Kulinileni
+        type: GL
+      - 
+        content: Kamipia
+        type: GM
+      - 
+        content: Kini
+        type: GN
+      - 
+        content: Kuatalupe
+        type: GP
+      - 
+        content: ʻEkueta Kini
+        type: GQ
+      - 
+        content: Kalisi
+        type: GR
+      - 
+        content: ʻOtumotu Siosia-tonga mo Saniuisi-tonga
+        type: GS
+      - 
+        content: Kuatamala
+        type: GT
+      - 
+        content: Kuamu
+        type: GU
+      - 
+        content: Kini-Pisau
+        type: GW
+      - 
+        content: Kuiana
+        type: GY
+      - 
+        content: Hongi Kongi SAR Siaina
+        type: HK
+      - 
+        alt: short
+        content: Hongi Kongi
+        type: HK
+      - 
+        content: ʻOtumotu Heati mo Makitonali
+        type: HM
+      - 
+        content: Honitulasi
+        type: HN
+      - 
+        content: Kuloisia
+        type: HR
+      - 
+        content: Haiti
+        type: HT
+      - 
+        content: Hangakalia
+        type: HU
+      - 
+        content: ʻOtumotu Kaneli
+        type: IC
+      - 
+        content: ʻInitonēsia
+        type: ID
+      - 
+        content: ʻAealani
+        type: IE
+      - 
+        content: ʻIsileli
+        type: IL
+      - 
+        content: Motu Mani
+        type: IM
+      - 
+        content: ʻInitia
+        type: IN
+      - 
+        content: Potu fonua moana ʻInitia fakapilitānia
+        type: IO
+      - 
+        content: ʻIulaaki
+        type: IQ
+      - 
+        content: ʻIulaani
+        type: IR
+      - 
+        content: ʻAisilani
+        type: IS
+      - 
+        content: ʻĪtali
+        type: IT
+      - 
+        content: Selusī
+        type: JE
+      - 
+        content: Samaika
+        type: JM
+      - 
+        content: Soatane
+        type: JO
+      - 
+        content: Siapani
+        type: JP
+      - 
+        content: Kenia
+        type: KE
+      - 
+        content: Kekisiteni
+        type: KG
+      - 
+        content: Kemipōtia
+        type: KH
+      - 
+        content: Kilipasi
+        type: KI
+      - 
+        content: Komolosi
+        type: KM
+      - 
+        content: Seini Kitisi mo Nevisi
+        type: KN
+      - 
+        content: Kōlea tokelau
+        type: KP
+      - 
+        content: Kōlea tonga
+        type: KR
+      - 
+        content: Kueiti
+        type: KW
+      - 
+        content: ʻOtumotu Keimeni
+        type: KY
+      - 
+        content: Kasakiteni
+        type: KZ
+      - 
+        content: Lau
+        type: LA
+      - 
+        content: Lepanoni
+        type: LB
+      - 
+        content: Seini Lusia
+        type: LC
+      - 
+        content: Lekitenisaini
+        type: LI
+      - 
+        content: Silangikā
+        type: LK
+      - 
+        content: Laipelia
+        type: LR
+      - 
+        content: Lesoto
+        type: LS
+      - 
+        content: Lifiuenia
+        type: LT
+      - 
+        content: Lakisimipeki
+        type: LU
+      - 
+        content: Lativia
+        type: LV
+      - 
+        content: Lipia
+        type: LY
+      - 
+        content: Molako
+        type: MA
+      - 
+        content: Manako
+        type: MC
+      - 
+        content: Molotova
+        type: MD
+      - 
+        content: Monitenikalo
+        type: ME
+      - 
+        content: Seini Matini
+        type: MF
+      - 
+        content: Matakasika
+        type: MG
+      - 
+        content: ʻOtumotu Māsolo
+        type: MH
+      - 
+        content: Masitōnia
+        type: MK
+      - 
+        alt: variant
+        content: Masitōnia [FYROM]
+        type: MK
+      - 
+        content: Māli
+        type: ML
+      - 
+        content: Pema
+        type: MM
+      - 
+        content: Mongokōlia
+        type: MN
+      - 
+        content: Makau SAR Siaina
+        type: MO
+      - 
+        alt: short
+        content: Makau
+        type: MO
+      - 
+        content: ʻOtumotu Maliana tokelau
+        type: MP
+      - 
+        content: Mateniki
+        type: MQ
+      - 
+        content: Maulitenia
+        type: MR
+      - 
+        content: Moʻungaselati
+        type: MS
+      - 
+        content: Malita
+        type: MT
+      - 
+        content: Maulitiusi
+        type: MU
+      - 
+        content: Malativisi
+        type: MV
+      - 
+        content: Malaui
+        type: MW
+      - 
+        content: Mekisikou
+        type: MX
+      - 
+        content: Malēsia
+        type: MY
+      - 
+        content: Mosenipiki
+        type: MZ
+      - 
+        content: Namipia
+        type: NA
+      - 
+        content: Niu Kaletōnia
+        type: NC
+      - 
+        content: Naisia
+        type: NE
+      - 
+        content: Motu Nōfoliki
+        type: NF
+      - 
+        content: Naisilia
+        type: NG
+      - 
+        content: Nikalakua
+        type: NI
+      - 
+        content: Hōlani
+        type: NL
+      - 
+        content: Noauē
+        type: 'NO'
+      - 
+        content: Nepali
+        type: NP
+      - 
+        content: Naulu
+        type: NR
+      - 
+        content: Niuē
+        type: NU
+      - 
+        content: Nuʻusila
+        type: NZ
+      - 
+        content: ʻOmani
+        type: OM
+      - 
+        content: Panamā
+        type: PA
+      - 
+        content: Pelū
+        type: PE
+      - 
+        content: Polinisia fakafalanisē
+        type: PF
+      - 
+        content: Papuaniukini
+        type: PG
+      - 
+        content: Filipaini
+        type: PH
+      - 
+        content: Pākisitani
+        type: PK
+      - 
+        content: Poleni
+        type: PL
+      - 
+        content: Seini Piea mo Mikaloni
+        type: PM
+      - 
+        content: ʻOtumotu Pitikeni
+        type: PN
+      - 
+        content: Pueto Liko
+        type: PR
+      - 
+        content: Potu Palesitaine
+        type: PS
+      - 
+        content: Potukali
+        type: PT
+      - 
+        content: Palau
+        type: PW
+      - 
+        content: Palakuei
+        type: PY
+      - 
+        content: Katā
+        type: QA
+      - 
+        content: ʻOsenia Mamaʻo
+        type: QO
+      - 
+        content: Liʻiunioni
+        type: RE
+      - 
+        content: Lomēnia
+        type: RO
+      - 
+        content: Sēpia
+        type: RS
+      - 
+        content: Lūsia
+        type: RU
+      - 
+        content: Luanitā
+        type: RW
+      - 
+        content: Saute ʻAlepea
+        type: SA
+      - 
+        content: ʻOtumotu Solomone
+        type: SB
+      - 
+        content: ʻOtumotu Seiseli
+        type: SC
+      - 
+        content: Sūteni
+        type: SD
+      - 
+        content: Suēteni
+        type: SE
+      - 
+        content: Singapoa
+        type: SG
+      - 
+        content: Seini Helena
+        type: SH
+      - 
+        content: Silōvenia
+        type: SI
+      - 
+        content: Sivolopaati mo Seni Meini
+        type: SJ
+      - 
+        content: Silōvakia
+        type: SK
+      - 
+        content: Siela Lione
+        type: SL
+      - 
+        content: Seni Malino
+        type: SM
+      - 
+        content: Senikalo
+        type: SN
+      - 
+        content: Sōmalia
+        type: SO
+      - 
+        content: Sulinami
+        type: SR
+      - 
+        content: Sūtani tonga
+        draft: unconfirmed
+        type: SS
+      - 
+        content: Sao Tome mo Pilinisipe
+        type: ST
+      - 
+        content: ʻEle Salavatoa
+        type: SV
+      - 
+        content: Sā Mātini
+        draft: unconfirmed
+        type: SX
+      - 
+        content: Sīlia
+        type: SY
+      - 
+        content: Suasileni
+        type: SZ
+      - 
+        content: Tulisiteni ta Kunuha
+        type: TA
+      - 
+        content: ʻOtumotu Teki mo Keikosi
+        type: TC
+      - 
+        content: Seti
+        type: TD
+      - 
+        content: Potu fonua tonga fakafalanisē
+        type: TF
+      - 
+        content: Toko
+        type: TG
+      - 
+        content: Taileni
+        type: TH
+      - 
+        content: Tasikitani
+        type: TJ
+      - 
+        content: Tokelau
+        type: TK
+      - 
+        content: Timoa Hahake
+        type: TL
+      - 
+        alt: variant
+        content: Timoa Hahake
+        type: TL
+      - 
+        content: Tekimenisiteni
+        type: TM
+      - 
+        content: Tunīsia
+        type: TN
+      - 
+        content: Tonga
+        type: TO
+      - 
+        content: Toake
+        type: TR
+      - 
+        content: Tilinitati mo Topako
+        type: TT
+      - 
+        content: Tūvalu
+        type: TV
+      - 
+        content: Taiuani
+        type: TW
+      - 
+        content: Tenisania
+        type: TZ
+      - 
+        content: ʻIukuleini
+        type: UA
+      - 
+        content: ʻIukanitā
+        type: UG
+      - 
+        content: ʻOtumotu siʻi ʻo ʻAmelika
+        type: UM
+      - 
+        content: Puleʻanga fakatahataha ʻAmelika
+        type: US
+      - 
+        content: ʻUlukuei
+        type: UY
+      - 
+        content: ʻUsipekitēni
+        type: UZ
+      - 
+        content: Vatikani
+        type: VA
+      - 
+        content: Seini Viniseni mo Kulenatini
+        type: VC
+      - 
+        content: Venisuela
+        type: VE
+      - 
+        content: ʻOtumotu Vilikini fakapilitānia
+        type: VG
+      - 
+        content: ʻOtumotu Vilikini fakaʻamelika
+        type: VI
+      - 
+        content: Vietinemi
+        type: VN
+      - 
+        content: Vanuatu
+        type: VU
+      - 
+        content: ʻUvea mo Futuna
+        type: WF
+      - 
+        content: Haʻamoa
+        type: WS
+      - 
+        content: Iemeni
+        type: YE
+      - 
+        content: Meioti
+        type: YT
+      - 
+        content: ʻAfilika tonga
+        type: ZA
+      - 
+        content: Semipia
+        type: ZM
+      - 
+        content: Simipapuei
+        type: ZW
+      - 
+        content: Potu fonua taʻeʻiloa pe hala
+        type: ZZ
+  types: 
+    type: 
+      calendar: 
+        content: fakalēpupelika siaina
+        draft: unconfirmed
+        type: roc
+      collation: 
+        content: tongi tefitoʻi
+        draft: unconfirmed
+        type: unihan
+      numbers: 
+        content: fika fakavai
+        draft: unconfirmed
+        type: vaii
+numbers: 
+  currencies: 
+    currency: 
+      symbol: T$
+      type: TOP
+  currencyFormats: 
+    currencyFormatLength: 
+      currencyFormat: 
+        pattern: ¤ #,##0.00
+    numberSystem: latn
+    unitPattern: 
+      content: "{0} {1}"
+      count: other
+      draft: unconfirmed
+  decimalFormats: 
+    decimalFormatLength: 
+      decimalFormat: 
+        pattern: "#0.###"
+    numberSystem: latn
+  percentFormats: 
+    numberSystem: latn
+    percentFormatLength: 
+      percentFormat: 
+        pattern: ‎#0%
+  scientificFormats: 
+    numberSystem: latn
+    scientificFormatLength: 
+      scientificFormat: 
+        pattern: 
+          content: "#E0"
+          draft: unconfirmed
+  symbols: 
+    decimal: 
+      content: .
+      draft: unconfirmed
+    exponential: 
+      content: E
+      draft: unconfirmed
+    group: 
+      content: ","
+      draft: unconfirmed
+    "infinity": 
+      content: ∞
+      draft: unconfirmed
+    list: 
+      content: ;
+      draft: unconfirmed
+    minusSign: 
+      content: "-"
+      draft: unconfirmed
+    "nan": 
+      content: 'NaN'
+      draft: unconfirmed
+    numberSystem: latn
+    perMille: 
+      content: ‰
+      draft: unconfirmed
+    percentSign: 
+      content: "%"
+      draft: unconfirmed
+    plusSign: 
+      content: +
+      draft: unconfirmed
+posix: 
+  messages: 
+    nostr: ʻikai
+    yesstr: ʻio
+units: 
+  unit: 
+    - 
+      type: day
+      unitPattern: 
+        content: "{0} ʻa"
+        count: other
+    - 
+      type: day-future
+      unitPattern: 
+        content: ʻi he ʻaho ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: day-past
+      unitPattern: 
+        content: ʻosi ʻaho ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: hour
+      unitPattern: 
+        content: "{0} h"
+        count: other
+    - 
+      type: hour-future
+      unitPattern: 
+        content: ʻi he houa ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: hour-past
+      unitPattern: 
+        content: ʻosi houa ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: minute
+      unitPattern: 
+        content: "{0} m"
+        count: other
+    - 
+      type: minute-future
+      unitPattern: 
+        content: ʻi he miniti ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: minute-past
+      unitPattern: 
+        content: ʻosi miniti ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: month
+      unitPattern: 
+        content: "{0} m"
+        count: other
+    - 
+      type: month-future
+      unitPattern: 
+        content: ʻi he māhina ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: month-past
+      unitPattern: 
+        content: māhina ʻe {0} kuo hili
+        count: other
+        draft: unconfirmed
+    - 
+      type: second
+      unitPattern: 
+        content: "{0} s"
+        count: other
+    - 
+      type: second-future
+      unitPattern: 
+        content: ʻi he sekoni ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: second-past
+      unitPattern: 
+        content: ʻosi sekoni ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: week
+      unitPattern: 
+        content: "{0} u"
+        count: other
+    - 
+      type: week-future
+      unitPattern: 
+        content: ʻi he uike ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: week-past
+      unitPattern: 
+        content: uike ʻe {0} kuo hili
+        count: other
+        draft: unconfirmed
+    - 
+      type: year
+      unitPattern: 
+        content: "{0} t"
+        count: other
+    - 
+      type: year-future
+      unitPattern: 
+        content: ʻi he taʻu ʻe {0}
+        count: other
+        draft: unconfirmed
+    - 
+      type: year-past
+      unitPattern: 
+        content: taʻu ʻe {0} kuo hili
+        count: other
+        draft: unconfirmed
